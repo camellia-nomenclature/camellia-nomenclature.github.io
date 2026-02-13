@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camellia Lookup</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Georgia', serif;
+      background: #f5f0eb;
+      color: #2c2c2c;
+      min-height: 100vh;
+    }
+    .header {
+      background: linear-gradient(135deg, #2d5016 0%, #4a7c28 100%);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+    .header p {
+      opacity: 0.85;
+      font-size: 0.95rem;
+    }
+    .search-container {
+      max-width: 480px;
+      margin: -1.5rem auto 0.3rem;
+      padding: 0 1rem;
+      position: relative;
+    }
+    #search {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      outline: none;
+      font-family: inherit;
+    }
+    #search:focus {
+      box-shadow: 0 4px 20px rgba(45,80,22,0.3);
+    }
+    #search { padding-right: 2.5rem; }
+    #search::placeholder { color: #aaa; }
+    .clear-btn {
+      position: absolute;
+      right: 1.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #ccc;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      line-height: 1;
+      padding: 0;
+      z-index: 2;
+    }
+    .clear-btn:hover { background: #999; }
+    .dropdown {
+      position: absolute;
+      top: 100%;
+      left: 1rem;
+      right: 1rem;
+      background: white;
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      max-height: 350px;
+      overflow-y: auto;
+      display: none;
+      z-index: 100;
+    }
+    .dropdown.active { display: block; }
+    .dropdown-item {
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .dropdown-item:hover, .dropdown-item.selected {
+      background: #f0f7e8;
+    }
+    .dropdown-item .name { font-weight: bold; }
+    .dropdown-item .species { color: #6a8a4a; font-size: 0.85rem; }
+    .stats {
+      text-align: center;
+      color: #888;
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+    .results {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+    .card-header {
+      background: linear-gradient(135deg, #2d5016, #4a7c28);
+      color: white;
+      padding: 1rem 1.5rem;
+    }
+    .card-header h2 {
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+    }
+    .card-body {
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+    }
+    .card-info { flex: 1; min-width: 0; }
+    .card-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .card-image img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-image .no-image {
+      width: 100%;
+      height: 100%;
+      min-height: 150px;
+      background: #e8e0d8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 1rem;
+    }
+    /* Mobile responsive */
+    @media (max-width: 600px) {
+      .header { padding: 1.2rem 1rem; }
+      .header h1 { font-size: 1.8rem; }
+      .search-container { margin-top: -1rem; }
+      #search { font-size: 1.5rem; padding: 1.1rem 1.3rem; padding-right: 3rem; }
+      .clear-btn { right: 1.5rem; width: 2rem; height: 2rem; font-size: 1.2rem; }
+      .dropdown .item { font-size: 1.1rem; padding: 0.7rem 1rem; }
+      .search-tip { font-size: 1.1rem !important; }
+      .home-flower { font-size: 5rem !important; }
+      .card-body {
+        flex-direction: column;
+      }
+      .card-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        order: 1;
+      }
+      .card-info {
+        order: 0;
+      }
+      .card-image img {
+        width: 100%;
+        height: 100%;
+      }
+      .info-value { font-size: 0.9rem; }
+      .card-header h2 { font-size: 1.2rem; }
+    }
+    .info-row {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #f0ece8;
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #6a8a4a;
+      font-weight: bold;
+      margin-bottom: 0.2rem;
+    }
+    .info-value {
+      font-size: 1rem;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .info-value a {
+      word-break: break-all;
+    }
+    .spinner {
+      width: 24px; height: 24px;
+      border: 3px solid #ddd;
+      border-top-color: #6a8a4a;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty-state {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #aaa;
+    }
+    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .empty-state p { font-size: 1.1rem; }
+
+    /* Bug Report Floating Button */
+    #bugReportBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: linear-gradient(135deg, #2d5016, #4a7c28);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 12px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(45, 80, 22, 0.3);
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+    #bugReportBtn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(45, 80, 22, 0.4);
+    }
+
+    /* Bug Report Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 2000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+    .modal-content {
+      background: #f5f0eb;
+      margin: 5% auto;
+      padding: 0;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    .modal-header {
+      background: linear-gradient(135deg, #2d5016, #4a7c28);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .modal-header h2 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .modal-body {
+      padding: 20px;
+    }
+    .modal textarea {
+      width: 100%;
+      min-height: 120px;
+      padding: 15px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      font-family: 'Georgia', serif;
+      font-size: 14px;
+      resize: vertical;
+      outline: none;
+      margin-bottom: 15px;
+    }
+    .modal textarea:focus {
+      border-color: #4a7c28;
+    }
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Georgia', serif;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #2d5016, #4a7c28);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #1a2f0d, #2d4a16);
+    }
+    .btn-secondary {
+      background: #ccc;
+      color: #666;
+    }
+    .btn-secondary:hover {
+      background: #bbb;
+    }
+    .feedback {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+      display: none;
+    }
+    .feedback.success {
+      background: #d4edaa;
+      color: #2d5016;
+    }
+    .feedback.error {
+      background: #fdd;
+      color: #b00;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><span style="font-size:1.5em">🌺</span> Camellia Nomenclature</a></h1>
+  </div>
+
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Type a camellia name..." autocomplete="off">
+    <button class="clear-btn" id="clearBtn" aria-label="Clear search">✕</button>
+    <div class="dropdown" id="dropdown"></div>
+  </div>
+
+  <div id="searchHints" style="max-width:480px;margin:0.2rem auto 0;padding:0 1rem;color:#666;font-size:0.9rem;">
+    • Spaces, apostrophes, and capitalization don't matter.<br>
+    • Just type any part of the name.
+  </div>
+  <div id="homeSection" style="text-align:center;margin-top:1.5rem;">
+    <div class="home-flower" style="font-size:4rem;">🌸</div>
+    <div id="bookTitle" style="color:#666;font-size:0.9rem;margin-top:0.5rem;font-style:italic;">2024 Camellia Nomenclature and Picture Gallery</div>
+    <div id="statsLine" style="color:#888;font-size:0.85rem;margin-top:0.4rem;">7,559 camellias indexed across 12 species</div>
+  </div>
+
+  <div class="results" id="results">
+  </div>
+
+  <script>
+    let camellias = [];
+    const entryCache = {}; // letter -> {name: fullEntry}
+
+    async function loadData() {
+      try {
+        const resp = await fetch('index.json');
+        const index = await resp.json();
+        camellias = index.map(e => ({ name: e.n || e.name, species: e.s || e.species }));
+        precomputeNorms();
+      } catch (e) {
+        console.error('Failed to load data', e);
+      }
+    }
+
+    async function fetchFullEntry(name) {
+      const letter = name[0].toUpperCase();
+      if (!entryCache[letter]) {
+        const resp = await fetch(`data/${letter}.json`);
+        const arr = await resp.json();
+        // Support both array and object formats
+        if (Array.isArray(arr)) {
+          const obj = {};
+          arr.forEach(e => { obj[e.name] = e; });
+          entryCache[letter] = obj;
+        } else {
+          entryCache[letter] = arr;
+        }
+      }
+      return entryCache[letter][name];
+    }
+
+    const search = document.getElementById('search');
+    const dropdown = document.getElementById('dropdown');
+    const results = document.getElementById('results');
+    const clearBtn = document.getElementById('clearBtn');
+    let selectedIdx = -1;
+    let matches = [];
+
+    function updateClearBtn() { clearBtn.style.display = search.value ? 'block' : 'none'; }
+    clearBtn.addEventListener('click', () => {
+      search.value = '';
+      search.dispatchEvent(new Event('input'));
+      search.focus();
+      updateClearBtn();
+    });
+
+    // Normalize: strip special chars for fuzzy matching
+    const normalize = s => s.toLowerCase().replace(/[\u0027\u2019\-.,()\/&]/g, '').replace(/\s+/g, ' ').trim();
+    const collapse = s => s.replace(/\s+/g, '');
+
+    function precomputeNorms() { camellias.forEach(c => { c._norm = normalize(c.name); c._coll = collapse(c._norm); }); }
+
+    search.addEventListener('input', () => {
+      updateClearBtn();
+      const raw = search.value.trim().toLowerCase();
+      if (raw.length < 1) {
+        dropdown.classList.remove('active');
+        return;
+      }
+      const q = normalize(raw);
+      const qc = collapse(q);
+
+      // Typeahead: match normalized; use space-collapsed only for longer queries (avoid false positives)
+      const useCollapsed = qc.length >= 5 && !q.includes(' ');
+      matches = camellias
+        .filter(c => c._norm.includes(q) || (useCollapsed && c._coll.startsWith(qc)) || c.name.toLowerCase().includes(raw))
+        .sort((a, b) => {
+          const aStarts = a._norm.startsWith(q) ? 0 : 1;
+          const bStarts = b._norm.startsWith(q) ? 0 : 1;
+          return aStarts - bStarts || a.name.localeCompare(b.name);
+        })
+        .slice(0, 20);
+
+      selectedIdx = -1;
+      renderDropdown();
+    });
+
+    search.addEventListener('keydown', (e) => {
+      if (!matches.length) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIdx = Math.min(selectedIdx + 1, matches.length - 1);
+        renderDropdown();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIdx = Math.max(selectedIdx - 1, 0);
+        renderDropdown();
+      } else if (e.key === 'Enter' && selectedIdx >= 0) {
+        e.preventDefault();
+        selectCamellia(matches[selectedIdx]);
+      }
+    });
+
+    function renderDropdown() {
+      if (!matches.length) {
+        dropdown.classList.remove('active');
+        return;
+      }
+      dropdown.innerHTML = matches.map((c, i) =>
+        `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}"
+              onclick="selectCamellia({name:'${c.name.replace(/'/g, "\\'")}',species:'${c.species.replace(/'/g, "\\'")}'})">
+          <div class="name">${highlight(c.name, search.value)}</div>
+          <div class="species">${c.species}</div>
+        </div>`
+      ).join('');
+      dropdown.classList.add('active');
+    }
+
+    function highlight(text, query) {
+      const idx = text.toLowerCase().indexOf(query.toLowerCase());
+      if (idx === -1) return text;
+      return text.substring(0, idx) +
+        '<mark style="background:#d4edaa;padding:0 1px;border-radius:2px">' +
+        text.substring(idx, idx + query.length) + '</mark>' +
+        text.substring(idx + query.length);
+    }
+
+    async function selectCamellia(c) {
+      dropdown.classList.remove('active');
+      search.value = c.name;
+      document.getElementById('searchHints').style.display = 'none';
+      document.getElementById('homeSection').style.display = 'none';
+      results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#888;">Loading details...</div></div>';
+
+      const full = await fetchFullEntry(c.name);
+      if (!full) { results.innerHTML = '<div class="card"><div class="card-body">Entry not found.</div></div>'; return; }
+      c = full;
+
+      // Image URL: use stored image field first, fallback to SoCal pattern
+      const imgName = c.name.replace(/'/g, "%27").replace(/ /g, '%20');
+      const imgUrl = c.image || `https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/${imgName}.jpg`;
+      const encodedName = encodeURIComponent(c.name);
+      const icrUrl = `https://camellia.iflora.cn/Cutivars/Detail?latin=${encodedName}`;
+      // ACS: direct link — strip apostrophes, lowercase, hyphens for spaces
+      const acsSlug = c.name.toLowerCase().replace(/['']/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+      const firstLetter = c.name[0].toLowerCase();
+      const acsUrl = `https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-${firstLetter}/${acsSlug}`;
+      // Determine image source from URL
+      function getImageSource(url) {
+        if (url.includes('atlanticcoastcamellia')) return 'ACCS';
+        if (url.includes('iflora')) return 'ICR';
+        if (url.includes('socalcamellia')) return 'SoCal';
+        if (url.includes('americancamellias')) return 'ACS';
+        return 'SoCal';
+      }
+      const imgSource = getImageSource(imgUrl);
+      // Lazy load: show placeholder, only display image after fully downloaded
+      const imageHtml = `<div class="no-image" id="img-placeholder"><div class="spinner"></div><br>Loading photo...</div>`;
+      // Start background download after a small delay to prioritize text rendering
+      setTimeout(() => {
+        const img = new Image();
+        img.onload = () => {
+          const ph = document.getElementById('img-placeholder');
+          if (ph) {
+            img.alt = c.name;
+            img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'cover';
+            ph.replaceWith(img);
+          }
+          const cap = document.getElementById('img-caption');
+          if (cap) cap.style.display = 'block';
+        };
+        img.onerror = () => {
+          const ph = document.getElementById('img-placeholder');
+          if (ph) ph.innerHTML = '🌸<br>No photo available';
+        };
+        img.src = imgUrl;
+      }, 50);
+
+      results.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <h2>${c.name}</h2>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <div class="info-row">
+                <div class="info-label">Species</div>
+                <div class="info-value">${c.species}</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">Size</div>
+                <div class="info-value">${c.size || 'N/A'}</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">Description</div>
+                <div class="info-value">${c.description}</div>
+              </div>
+              ${c.acs_url ? `<div class="info-row">
+                <div class="info-label">ACS Link</div>
+                <div class="info-value"><a href="${c.acs_url}" target="_blank" style="color:#2d5016;text-decoration:underline;">View on American Camellia Society</a></div>
+              </div>` : ''}
+              ${c.icr_url ? `<div class="info-row">
+                <div class="info-label">ICR Link</div>
+                <div class="info-value"><a href="${c.icr_url}" target="_blank" style="color:#2d5016;text-decoration:underline;">View on International Camellia Register</a></div>
+              </div>` : ''}
+            </div>
+            <div>
+              <div class="card-image">${imageHtml}</div>
+              <div id="img-caption" style="display:none;text-align:center;font-size:0.8rem;color:#888;margin-top:0.3rem;font-style:italic;">Photo from ${imgSource} database</div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.search-container')) {
+        dropdown.classList.remove('active');
+      }
+    });
+
+    loadData();
+  </script>
+  <footer style="text-align:center;padding:2rem 1rem;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
+    <strong>Disclaimer:</strong> This site is for personal and educational use only.<br>Information is provided as-is without warranty and may not be complete or current.
+  </footer>
+
+  <!-- Bug Report Button -->
+  <button id="bugReportBtn" onclick="openBugReportModal()">🐛 Report Bug</button>
+
+  <!-- Bug Report Modal -->
+  <div id="bugReportModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>🐛 Report Bug</h2>
+      </div>
+      <div class="modal-body">
+        <textarea id="bugDescription" placeholder="Describe the bug you encountered..."></textarea>
+        <div id="feedback" class="feedback"></div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary" onclick="closeBugReportModal()">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="submitBugReport()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
+    import { getFirestore, collection, addDoc, getDocs, query, orderBy } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyCV5U_BAM_I__fVr6snIV-KjYdCd1IMnBQ",
+      authDomain: "camellia-nomenclature-app.firebaseapp.com",
+      projectId: "camellia-nomenclature-app",
+      storageBucket: "camellia-nomenclature-app.firebasestorage.app",
+      messagingSenderId: "3622019419",
+      appId: "1:3622019419:web:863422d118c652a71bba7e"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Make Firebase functions globally available
+    window.submitBugReportToFirestore = async (text) => {
+      try {
+        await addDoc(collection(db, 'bugReports'), {
+          text: text,
+          timestamp: new Date().toISOString(),
+          userAgent: navigator.userAgent,
+          url: window.location.href
+        });
+        return { success: true };
+      } catch (error) {
+        console.error('Error submitting bug report:', error);
+        return { success: false, error: error.message };
+      }
+    };
+  </script>
+
+  <script>
+    function openBugReportModal() {
+      document.getElementById('bugReportModal').style.display = 'block';
+      document.getElementById('bugDescription').focus();
+    }
+
+    function closeBugReportModal() {
+      document.getElementById('bugReportModal').style.display = 'none';
+      document.getElementById('bugDescription').value = '';
+      document.getElementById('feedback').style.display = 'none';
+    }
+
+    function submitBugReport() {
+      const description = document.getElementById('bugDescription').value.trim();
+      
+      if (!description) {
+        showFeedback('Please describe the bug you encountered.', 'error');
+        return;
+      }
+
+      // Close modal immediately
+      closeBugReportModal();
+
+      // Fire-and-forget save to Firestore
+      window.submitBugReportToFirestore(description).catch(error => {
+        console.error('Bug report save failed:', error);
+      });
+    }
+
+    function showFeedback(message, type) {
+      const feedback = document.getElementById('feedback');
+      feedback.textContent = message;
+      feedback.className = `feedback ${type}`;
+      feedback.style.display = 'block';
+    }
+
+    // Close modal when clicking outside
+    window.addEventListener('click', (e) => {
+      if (e.target === document.getElementById('bugReportModal')) {
+        closeBugReportModal();
+      }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeBugReportModal();
+      }
+    });
+  </script>
+</body>
+</html>
