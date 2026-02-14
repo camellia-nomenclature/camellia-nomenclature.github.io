@@ -1,1 +1,110 @@
-[{"name": "Ume-Gaki", "species": "Japonica", "size": "Large", "description": "(Screen of Apricot Blossoms). Pink. Large, single. See 'Higo'.", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ume-Gaki.jpg", "acs_url": null, "icr_url": null}, {"name": "Uncle John", "species": "Japonica", "size": "Large", "description": "Purple Red. Large, full peony form. (U.S. 1955 - Malbis).", "image": null, "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20John"}, {"name": "Uncle Sam", "species": "Japonica", "size": "Large", "description": "('Rosalie [Californial'; 'Henry Barnett'). Rose Red. Large, rose form double. Vigorous, bushy growth. M. (For a variation of this cultivar see 'New Horizons'). (U.S. 1921 - Lindo).", "image": null, "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20Sam"}, {"name": "Uncle Sam Variegated", "species": "Japonica", "size": "", "description": "See 'Mrs. Confer'.", "image": null, "acs_url": null, "icr_url": null}, {"name": "Uncle Tom", "species": "Japonica", "size": "Medium", "description": "Light Purplish Pink with Yellow anthers and Pinkish filaments. Medium, full peony form. Vigorous, bushy growth. M. (U.S. 1948 - Malbis Nursery, Daphne, AL).", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Uncle%20Tom.jpg", "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20Tom"}, {"name": "Undaunted", "species": "Japonica", "size": "Medium", "description": "Carmine Rose Pink. Medium, full peony form. Average, compact growth. L. (U.S. 1952 - Councilman).", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Undaunted.jpg", "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Undaunted"}, {"name": "Unforgettable", "species": "Japonica", "size": "Large", "description": "Light Pink. Large, anemone form to peony form. Vigorous, upright growth. E-L. (U.S. 1987 - M. Talia, Santa Clara, CA).", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unforgettable.jpg", "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Unforgettable"}, {"name": "Unforgettable White", "species": "Japonica", "size": "Large", "description": "White with Yellow anthers and Light Yellow filaments. Large, anemone form to peony form. Vigorous, upright growth. E-L. (Sport of Japonica 'Unforgettable').", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unforgettable%20White.jpg", "acs_url": null, "icr_url": null}, {"name": "Unryu", "species": "Japonica", "size": "Small", "description": "Deep Pink. Small, single. Average, upright growth; each leaf is part of an unusual zigzag pattern. (Japan 1967 - Kyoto Garden Club).", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unryu.jpg", "acs_url": null, "icr_url": null}, {"name": "Usu-Otome", "species": "Japonica", "size": "", "description": "See 'Pink Perfection'. ('Usu-Otome' is reported as priority name for this cultivar but, as 'Pink Perfection' [U.S. 1890's - Domoto] has been in such common use in the U.S., we do not believe a change is necessary or warranted). (Japan 1892 - Yokohama).", "image": null, "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Usu-Otome"}, {"name": "Utsukushi-Asaye", "species": "NRH", "size": "Medium", "description": "Coral. Medium, semidouble. M. (Japonica 'Dr. Tinsley' x Saluenensis). (U.S. 1979 - Kramer).", "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Utsukushi-Asaye.jpg", "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi"}, {"name": "Utsukushi-Asaye Variegated", "species": "NRH", "size": "", "description": "Coral and White variation of 'Utsukushi-Asaye'. (U.S. 1979 - Kramer).", "image": null, "acs_url": null, "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi%20Variegated"}]
+[
+  {
+    "name": "Ume-Gaki",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "(Screen of Apricot Blossoms). Pink. Large, single. See 'Higo'.",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ume-Gaki.jpg",
+    "acs_url": null,
+    "icr_url": null
+  },
+  {
+    "name": "Uncle John",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Purple Red. Large, full peony form. (U.S. 1955 - Malbis).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20John"
+  },
+  {
+    "name": "Uncle Sam",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "('Rosalie [Californial'; 'Henry Barnett'). Rose Red. Large, rose form double. Vigorous, bushy growth. M. (For a variation of this cultivar see 'New Horizons'). (U.S. 1921 - Lindo).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20Sam"
+  },
+  {
+    "name": "Uncle Sam Variegated",
+    "species": "Japonica",
+    "size": "",
+    "description": "See 'Mrs. Confer'.",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null
+  },
+  {
+    "name": "Uncle Tom",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Light Purplish Pink with Yellow anthers and Pinkish filaments. Medium, full peony form. Vigorous, bushy growth. M. (U.S. 1948 - Malbis Nursery, Daphne, AL).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Uncle%20Tom.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Uncle%20Tom"
+  },
+  {
+    "name": "Undaunted",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Carmine Rose Pink. Medium, full peony form. Average, compact growth. L. (U.S. 1952 - Councilman).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Undaunted.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Undaunted"
+  },
+  {
+    "name": "Unforgettable",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Light Pink. Large, anemone form to peony form. Vigorous, upright growth. E-L. (U.S. 1987 - M. Talia, Santa Clara, CA).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unforgettable.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Unforgettable"
+  },
+  {
+    "name": "Unforgettable White",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "White with Yellow anthers and Light Yellow filaments. Large, anemone form to peony form. Vigorous, upright growth. E-L. (Sport of Japonica 'Unforgettable').",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unforgettable%20White.jpg",
+    "acs_url": null,
+    "icr_url": null
+  },
+  {
+    "name": "Unryu",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Deep Pink. Small, single. Average, upright growth; each leaf is part of an unusual zigzag pattern. (Japan 1967 - Kyoto Garden Club).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Unryu.jpg",
+    "acs_url": null,
+    "icr_url": null
+  },
+  {
+    "name": "Usu-Otome",
+    "species": "Japonica",
+    "size": "",
+    "description": "See 'Pink Perfection'. ('Usu-Otome' is reported as priority name for this cultivar but, as 'Pink Perfection' [U.S. 1890's - Domoto] has been in such common use in the U.S., we do not believe a change is necessary or warranted). (Japan 1892 - Yokohama).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Usu-Otome"
+  },
+  {
+    "name": "Utsukushi-Asaye",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Coral. Medium, semidouble. M. (Japonica 'Dr. Tinsley' x Saluenensis). (U.S. 1979 - Kramer).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Utsukushi-Asaye.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi"
+  },
+  {
+    "name": "Utsukushi-Asaye Variegated",
+    "species": "NRH",
+    "size": "",
+    "description": "Coral and White variation of 'Utsukushi-Asaye'. (U.S. 1979 - Kramer).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi%20Variegated"
+  }
+]
