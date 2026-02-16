@@ -26398,9 +26398,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Magnoliaeflora' ('Hagoromo' is reported as priority name for this cultivar but as 'Magnoliaeflora' [Japan to Italy 1886] has been in such common use in the U.S. we do not believe a change is necessary or warranted). (Japan 1695).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Hagoromo.jpg",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/60ec4db9-3600-4099-8ae0-c21566f1fe5e.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/hagoromo",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hagoromo"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hagoromo",
+    "imageSource": "icr"
   },
   {
     "name": "Hahn Supreme",
@@ -39760,10 +39761,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "('Hagoromo'; 'Rose of Dawn'; 'Cho-No-Hagasane'). Blush Pink. Medium, semidouble. Average, compact growth. M. (Variations of this cultivar include 'Arthur Bolton' and 'Rudy's Magnoliaeflora'). (Japan to Italy 1886).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magnoliaeflora.jpg",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/60ec4db9-3600-4099-8ae0-c21566f1fe5e.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/magnoliaeflora",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hagoromo",
-    "imageSource": "socal"
+    "imageSource": "icr"
   },
   {
     "name": "Mahogany Glow",
