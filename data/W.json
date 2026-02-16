@@ -76,36 +76,40 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Pink. Medium, semidouble with loose petals. Vigorous, upright growth. M. (N.Z. 1949).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2024/11/3/S/758d7623-e626-43b4-8f62-387f084e7aa2.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Waiwhetu%20Beauty"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Waiwhetu%20Beauty",
+    "imageSource": "icr"
   },
   {
     "name": "Wakamurasaki",
     "species": "Japonica",
     "size": "Small",
     "description": "Blush Pink. Small, single. Average, upright, bushy growth. M. (Japan 1970's - Sado Island, Niigata Prefecture).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/2c665612-4e84-4526-9188-94d7e14c9135.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wakamurasaki"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wakamurasaki",
+    "imageSource": "icr"
   },
   {
     "name": "Wakanoura Red",
     "species": "Japonica",
     "size": "",
     "description": "See \"Tricolor (Siebold) Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/73144938-71fb-4866-9e9f-f90034c9d83d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20de%20Saumarez"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20de%20Saumarez",
+    "imageSource": "icr"
   },
   {
     "name": "Wakanoura Variegated",
     "species": "Japonica",
     "size": "",
     "description": "See \"Tricolor (Siebold)",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/4542c272-6e5c-45e6-a6b9-4c554cc090ad.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tricolor"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tricolor",
+    "imageSource": "icr"
   },
   {
     "name": "Wakanoura White",
@@ -139,9 +143,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Light Pink in center fading to Pale Pink toward outer edges. Miniature, semidouble with rounded, occasionally notched petals. M-L. (Hybrid 'Rosabelle' seedling). (Aus. 1993 - D. Waldon, Wodonga, Vic.).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/0bdc1373-4a9c-4184-a88d-ec3c79d184d3.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Waldon%27s%20Folly"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Waldon%27s%20Folly",
+    "imageSource": "icr"
   },
   {
     "name": "Walker Lewis",
@@ -211,18 +216,20 @@
     "species": "Reticulata",
     "size": "Medium to large",
     "description": "Burgundy Red. Medium to large, rose form double. Average, spreading growth. M-L. (Reticulata 'Crimson Robe' x Reticulata hybrid 'Jean Pursel'). (U.S. 1978 - Pursel).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2025/12/21/S/fb0da21a-627b-4958-8112-9e72e295ae19.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Walter%20Dunn"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Walter%20Dunn",
+    "imageSource": "icr"
   },
   {
     "name": "Walter Hazlewood",
     "species": "Japonica",
     "size": "Medium",
     "description": "Deep Red blotched White. Medium, rose form double. Average, compact, upright growth. E-L. (Aus. 1973 - Hazlewood).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/f6e7e3f8-dfdf-49cd-b782-02cff435e9d2.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Walter%20Hazlewood"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Walter%20Hazlewood",
+    "imageSource": "icr"
   },
   {
     "name": "Walter Homeyer",
@@ -292,9 +299,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep Orchid Pink. Very large, semidouble. Average, upright, compact growth. M-L. (Reticulata 'Crimson Robe' seedling). (Aus. 1977 - Sebire).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/825fdcc8-7b0e-4f2e-a590-db30dbb02121.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wandin%20Sebire"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wandin%20Sebire",
+    "imageSource": "icr"
   },
   {
     "name": "War Cry",
@@ -328,9 +336,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Anemonaeflora'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/5a5af74b-3a0b-4e29-9fd8-77056b9ddd2b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Anemoniflora"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Anemoniflora",
+    "imageSource": "icr"
   },
   {
     "name": "Warren Thompson",
@@ -553,9 +562,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Bright Red with White striped petaloids. Large, anemone form. Vigorous, open, upright growth. M. (Aus. 1970 - Sebire).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/21/S/6695e724-8e9a-4609-b08b-7d7ed547317d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wendy%20Gaye"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wendy%20Gaye",
+    "imageSource": "icr"
   },
   {
     "name": "Wendy Red",
@@ -589,9 +599,10 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White deeply stained Rose with Deeper Rose under petals. Medium, semidouble.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/104f6517-3fff-4b42-8511-a69d1729ce19.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Weroona"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Weroona",
+    "imageSource": "icr"
   },
   {
     "name": "West Wind",
@@ -652,9 +663,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Laura Schafer'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2022/6/29/S/3af88541-5bed-4003-91c8-88e808ab8da0.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Schafer"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Schafer",
+    "imageSource": "icr"
   },
   {
     "name": "White Anita",
@@ -679,9 +691,10 @@
     "species": "Japonica",
     "size": "Miniature",
     "description": "White. Miniature, formal double. (U.S. 1960 - Domoto).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/21/S/096e0fb8-ecf6-43ba-9f93-d7b778496e86.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=White%20Buttons"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=White%20Buttons",
+    "imageSource": "icr"
   },
   {
     "name": "White By The Gate",
@@ -706,18 +719,20 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White. Medium, semidouble.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/21/S/ec283d2e-a3bb-4f15-9137-5d54ac7fadc5.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Whitecross"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Whitecross",
+    "imageSource": "icr"
   },
   {
     "name": "White Daikagura",
     "species": "Japonica",
     "size": "",
     "description": "See 'Joshua E. Youtz'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2022/6/15/S/fcbd6e3f-d73a-4c24-83ff-dcfffbe12a72.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Conrad%20Hilton"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Conrad%20Hilton",
+    "imageSource": "icr"
   },
   {
     "name": "White Deb",
@@ -760,9 +775,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Snow Chan'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2025/10/27/S/0741ffd3-7f00-4ae2-b324-8262b944470f.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiro%20Chan"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiro%20Chan",
+    "imageSource": "icr"
   },
   {
     "name": "White Elf",
@@ -841,9 +857,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Conrad Hilton'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2022/6/15/S/fcbd6e3f-d73a-4c24-83ff-dcfffbe12a72.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Conrad%20Hilton"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Conrad%20Hilton",
+    "imageSource": "icr"
   },
   {
     "name": "White Jewel",
@@ -859,9 +876,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Colonial Lady'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/af1754c3-f3f1-4388-81d3-246aa10e8b2f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Colonial%20Lady"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Colonial%20Lady",
+    "imageSource": "icr"
   },
   {
     "name": "White King",

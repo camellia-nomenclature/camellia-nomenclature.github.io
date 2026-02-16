@@ -13,9 +13,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White. Medium to large, semidouble with wavy and upright petals. Average, upright growth. M-L. Japan 1996 - Kinji Ohara, Tateyama City).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/5/15/S/73aab902-d8ca-4a8c-9d53-df9ad06290c6.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=K.%20Ohara"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=K.%20Ohara",
+    "imageSource": "icr"
   },
   {
     "name": "K. Sawada",
@@ -40,9 +41,10 @@
     "species": "NRH",
     "size": "Small to medium",
     "description": "Pale Yellow. Small to medium, formal double. Upright growth. L. (Nitidissima x Japonica 'Silver Chalice'). (Japan 1996 - Kazuo Yoshikawa, Ishikawa).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2022/6/15/S/495f124d-98bd-41ed-b82b-5fe0be09e2e7.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kagiroi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kagiroi",
+    "imageSource": "icr"
   },
   {
     "name": "Kago Tsurube",
@@ -58,9 +60,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Matsukasa'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2025/4/13/S/fa064d26-4a04-497b-9454-faa1a574062f.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kagoshima"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kagoshima",
+    "imageSource": "icr"
   },
   {
     "name": "Kai Mei's Choice",
@@ -148,18 +151,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Red. Large, formal double. Vigorous, dense, upright growth. E. (Aus. 1992 - K. Abbott, Rossmoyne, W. Aus.).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/02da7ce1-1180-44ef-8b26-42063b5b8097.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kalgoorlie%20Storm"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kalgoorlie%20Storm",
+    "imageSource": "icr"
   },
   {
     "name": "Kalimna",
     "species": "Reticulata",
     "size": "Very large",
     "description": "Bright Red. Very large, semidouble to loose peony form. Vigorous, upright, open growth. M. (Reticulata 'Crimson Robe' seedling). (Aus. 1970 - Sebire).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/181f3aac-e26e-4792-a82b-af08f960043d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kalimna"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kalimna",
+    "imageSource": "icr"
   },
   {
     "name": "Kallista",
@@ -202,9 +207,10 @@
     "species": "Rusticana",
     "size": "Large",
     "description": "Soft Pink. Large, semidouble to rose form double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/f915e2c8-5a10-4def-9031-3f0682167a0a.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kanose"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kanose",
+    "imageSource": "icr"
   },
   {
     "name": "Kao-Majima",
@@ -220,18 +226,20 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Red. Medium, single to semidouble to anemone form. (Sport of Japonica 'Gosho-Guruma'). (Japan to U.S. 1930 - Star).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/3522cd9b-8085-4e94-8308-771f34e4edb1.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kara-Ito"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kara-Ito",
+    "imageSource": "icr"
   },
   {
     "name": "Kara-Nishiki",
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Pink dotted White. Medium, semidouble. (Japan to U.S. 1930 - Star).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2024/4/29/S/0098e91a-6fb1-4e46-9ff9-6f6f166a3cec.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kara-Nishiki"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kara-Nishiki",
+    "imageSource": "icr"
   },
   {
     "name": "Karen Albritton",
@@ -328,9 +336,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Mathotiana Supreme Variegated'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/b5bcb4c9-4756-4d1c-81d6-d25f29cd21f6.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Supreme%20Variegated"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Supreme%20Variegated",
+    "imageSource": "icr"
   },
   {
     "name": "Kate Thrash",
@@ -427,9 +436,10 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Red, plus Pink and Cream petaloids in the center. Small, anemone form. Vigorous, upright growth. (Aus.2003-Patrick Clark, Pymble, NSW).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/85d73f54-a260-49d8-b31a-2dbbe18a4293.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathnstu%20Clark"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathnstu%20Clark",
+    "imageSource": "icr"
   },
   {
     "name": "Kathryn Bevis",
@@ -445,18 +455,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Pink. Large, semidouble. Vigorous, upright growth. E-M. (Aus. 1999 - Keith Abbot, Rossmoyne, W. Aus.).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/11c7aa10-c7f5-4716-a07c-0403ac191c5f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathryn%20Flugge"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathryn%20Flugge",
+    "imageSource": "icr"
   },
   {
     "name": "Kathryn Funari",
     "species": "Japonica",
     "size": "Large",
     "description": "Deep veined Pink. Large, formal double. Average growth. E. (U.S. 1975 - A. Funari, Santa Clara, CA).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2025/10/10/S/1e8309bf-3eed-4cce-b5ae-53cbf9ae9161.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathryn%20Funari"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kathryn%20Funari",
+    "imageSource": "icr"
   },
   {
     "name": "Kathryn Hall",
@@ -580,9 +592,10 @@
     "species": "NRH",
     "size": "Small",
     "description": "Light Pink deepening at edge. Small, single. Slow, open growth. M-L. (Japonica \"Tiffany' x Lutchuensis). (N.Z. 1988 - J. R. Finlay).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/6/2/S/c510e8c9-6290-4d70-a387-28d2f3b923e6.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Katie%20Lee"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Katie%20Lee",
+    "imageSource": "icr"
   },
   {
     "name": "Katie Northcutt",
@@ -733,36 +746,40 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "White. Medium, single.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/676eca35-c568-4e69-a42d-defe5e8d329f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kazahana"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kazahana",
+    "imageSource": "icr"
   },
   {
     "name": "Keepsake",
     "species": "Japonica",
     "size": "Medium",
     "description": "Coral Rose. Medium, formal double. Average, compact, upright growth. M-L. (U.S. 1950 - Short).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2025/12/17/S/36187ae6-a14e-4b84-b652-0f885b9b8f21.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Keepsake"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Keepsake",
+    "imageSource": "icr"
   },
   {
     "name": "Keith Ballard",
     "species": "Reticulata",
     "size": "Large",
     "description": "Pale Pink at center shading to Deep Pink on outer petals. Large, peony form to rose form double. Vigorous, upright, open growth. M. (Reticulata hybrid 'Suzanne Withers' × Japonica 'Mrs. Bertha A. Harms'). (Aus. 1992 - Dr. R. Withers, Donvale, Vic.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/03aefa11-f3f3-4884-80a4-77b81c590ca9.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Keith%20Ballard"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Keith%20Ballard",
+    "imageSource": "icr"
   },
   {
     "name": "Kelly Abbott",
     "species": "Reticulata",
     "size": "Large",
     "description": "Dark Red with Gold stamens. Large, peony form. Vigorous, upright growth. M. (Reticulata hybrid 'Mouchang' seedling). (Aus. 2007 - Keith Abbott, Rossmoyne). semidouble with upright, notched inner petals. Upright, spreading growth. M-L. (Reticulata seedling). (Aus. 1980 - A. Spragg, Sutherland, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/5/15/S/acc0acd4-9d25-4d2c-acbb-2094b6a781cf.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelly%20Abbott"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelly%20Abbott",
+    "imageSource": "icr"
   },
   {
     "name": "Kelly Gaye",
@@ -778,9 +795,10 @@
     "species": "Sasanqua",
     "size": "Miniature",
     "description": "Red shading to Deep Maroon Red on outer edges. Miniature, anemone form to rose form double.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/83d5384b-842c-4c2a-91a5-e22b56b5c0a0.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelly%27s%20Eye"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelly%27s%20Eye",
+    "imageSource": "icr"
   },
   {
     "name": "Kelly's Red",
@@ -859,18 +877,20 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Pink with some petals streaked White. Very large,",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/4d10fee1-8936-443a-8211-87de75d489f7.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ken%20Spragg"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ken%20Spragg",
+    "imageSource": "icr"
   },
   {
     "name": "Kenbaranne",
     "species": "NRH",
     "size": "Miniature",
     "description": "Soft Pink edge shading to White at center. Miniature, semidouble to loose peony form. Average, weeping, spreading growth. E-L. (Hybrid 'Snow Drop' seedling). (Aus. 1989 - K. Brown, Mitcham, Vic.).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/61e0fdff-80eb-40b3-b2e2-3d26c7981723.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kenbaranne"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kenbaranne",
+    "imageSource": "icr"
   },
   {
     "name": "Kenny",
@@ -1003,9 +1023,10 @@
     "species": "NRH",
     "size": "Small to medium",
     "description": "Soft Light Yellow. Small to medium, peony to loose peony form. Moderate, upright, open growth. M. (Japan 1998 - Tadao Yamaguchi, Ishikawa).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2024/5/29/S/7ef669e9-9767-499d-9b4f-f7682276e0dc.jpeg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/ki-no-senritsu-yellow-melody",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-senritsu"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-senritsu",
+    "imageSource": "icr"
   },
   {
     "name": "Kia Ora",
@@ -1021,9 +1042,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Cream White. Medium to large, semidouble to loose peony form. (Sport of Japonica 'Kosciusko'). (Aus. 1967 - J. R. Williams, Turramurra, NSW).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/5/15/S/865a70e0-8562-4b21-aea6-36f8b7952232.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kiandra"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kiandra",
+    "imageSource": "icr"
   },
   {
     "name": "Kicho",
@@ -1120,9 +1142,10 @@
     "species": "Japonica",
     "size": "Miniature",
     "description": "Dark Red. Miniature, full peony form. (U.S. 1958 - Hudson).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/12/1/S/29c2f22a-fe22-4709-aacb-0d77f42a618f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kimberly%20Junior"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kimberly%20Junior",
+    "imageSource": "icr"
   },
   {
     "name": "Kimberly Piet",
@@ -1237,9 +1260,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Pink Mermaid",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/5/19/S/b64095a7-4d16-4222-b06b-7945dbb225d4.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kingyo-Tsubaki"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kingyo-Tsubaki",
+    "imageSource": "icr"
   },
   {
     "name": "Kiri Te Kanawa",
@@ -1282,9 +1306,10 @@
     "species": "Sasanqua",
     "size": "Large",
     "description": "Pink Blushed White. Large, single.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/8b2fbf48-45b7-4715-9c5b-2fc2da721741.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kirsty%20Anne"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kirsty%20Anne",
+    "imageSource": "icr"
   },
   {
     "name": "Kirsty Rivett",
@@ -1318,9 +1343,10 @@
     "species": "Japonica",
     "size": "Very large",
     "description": "White with Golden tipped anthers. Very large anemone form to peony form. Slow, dense growth. E-M. (Aus. 1989 - K. Abbott, Rossmoyne, W. Aus.).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/16559e98-f40a-4874-8d7b-bbfef0787132.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kitty%20Bawden"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kitty%20Bawden",
+    "imageSource": "icr"
   },
   {
     "name": "Kitty Berry",
@@ -1372,9 +1398,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Daikagura'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/f2c5d1bf-0891-47c9-a21b-b4a61ecedc29.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daikagura"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daikagura",
+    "imageSource": "icr"
   },
   {
     "name": "Knight's Ferry",
@@ -1462,9 +1489,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Woodville Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/4/6/S/f0dcbc09-d47a-41cd-b35d-4ac1006b6238.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Woodville%20Red"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Woodville%20Red",
+    "imageSource": "icr"
   },
   {
     "name": "Kon-Wabisuke",
@@ -1489,9 +1517,10 @@
     "species": "Japonica",
     "size": "Small to medium",
     "description": "White sometimes tinged Green. Small to medium, anemone form with fimbriated petals. Slow growth. L. (N.Z. 1990 - Haydon).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/91832c52-3d06-4c15-a4b1-01427a947b42.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kona%20Benten"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kona%20Benten",
+    "imageSource": "icr"
   },
   {
     "name": "Korean Fire",
@@ -1516,36 +1545,40 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White. Medium to large, semidouble to loose peony form with upright center petals and intermixed stamens. Upright, compact growth. M. (For a variation of this cultivar see 'Kiandra'). (Aus. 1957 - Camellia Grove Nsy.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/5/15/S/29c0b6bb-af80-4cc1-87d6-b22ef12d0a7b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kosciusko"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kosciusko",
+    "imageSource": "icr"
   },
   {
     "name": "Koshi-No-Fubuki (Blizzard Of Niigata)",
     "species": "Rusticana",
     "size": "Small",
     "description": "Red. Small, tubular to campanulate single. (Mutation of a wild C. japonica var. rusticana). (Japan 1956 - Niigata Prefecture).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/133b94cb-40c3-4be7-ad04-417c7f492805.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-fubuki"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-fubuki",
+    "imageSource": "icr"
   },
   {
     "name": "Koshi-No-Otome",
     "species": "Rusticana",
     "size": "Medium",
     "description": "Red. Medium, rose form double.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/5acbd7a0-3669-47aa-bdd5-40ebb8577e0c.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-No-Otome"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-No-Otome",
+    "imageSource": "icr"
   },
   {
     "name": "Koshi-No-Yoso'Oi (Niigata Adornment)",
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Blush Orchid Pink. Small to medium, formal double with small, rounded, shallow notched petals arranged in tiered or star shape. Upright, sturdy growth. E- M. (Japan 1970 - Mitsuroku Makino, Fuchû Town, Niigata Prefecture).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/8/25/S/1b66b585-8182-40a7-89a0-b25d9d8d40da.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-yoso%27oi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-yoso%27oi",
+    "imageSource": "icr"
   },
   {
     "name": "Koshiji",
@@ -1642,9 +1675,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Brilliant Red. Large, single. (U.S. 1953 - Smythe Nsy., Ross, CA).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/49129cbe-e9c8-48cb-ad19-9e58e9b98e02.jpeg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kreena"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kreena",
+    "imageSource": "icr"
   },
   {
     "name": "Kristen Lynn",
@@ -1660,9 +1694,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Vibrant Deep Pink shading to White at center. Very large, rose form double. Average, dense, upright growth. M- L. (Reticulata 'Cornelian' seedling). (Aus. 1998 - J. and P. Wilson, Figtree, NSW)",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/15de2787-47ef-47f2-9792-c61a7c29a0b8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kristie%20Wilson"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kristie%20Wilson",
+    "imageSource": "icr"
   },
   {
     "name": "Kunming Spring",
@@ -1750,9 +1785,10 @@
     "species": "Japonica",
     "size": "",
     "description": "('Deacon Dodd'; 'Gay Boy'). Rose Pink blotched White variation of 'Kumasaka'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/4/25/S/17925683-db50-40ec-9326-4bc8e0fe1c27.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hanatachibana"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hanatachibana",
+    "imageSource": "icr"
   },
   {
     "name": "Kumasaka White",
@@ -1768,27 +1804,30 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Kumasaka'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/0956db70-e906-42e6-9456-b5eab44cd557.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kumasaka"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kumasaka",
+    "imageSource": "icr"
   },
   {
     "name": "Kuni-No-Hikari",
     "species": "Japonica",
     "size": "Medium",
     "description": "Rose Red. Medium, single with flared soft Pink stamens. See Higo.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/bb4210f1-ef5a-442b-924e-bcfe443027aa.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kuni-No-Hikari"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kuni-No-Hikari",
+    "imageSource": "icr"
   },
   {
     "name": "Kunmingchun",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Kunming Spring'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/23/S/e52b3fdf-64d1-4437-a8d4-0d6de7c6d988.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kunmingchun"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kunmingchun",
+    "imageSource": "icr"
   },
   {
     "name": "Kuro Delight",
@@ -1813,9 +1852,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Cream White. Medium, formal double with pointed petals. Vigorous growth. M-L. (Aus. 1959 - Waterhouse).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/12/31/S/a602f4c6-6772-4a55-9eba-06a06bf047fb.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kurrajong"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kurrajong",
+    "imageSource": "icr"
   },
   {
     "name": "Kute Kate",

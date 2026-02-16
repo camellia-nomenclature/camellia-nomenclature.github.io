@@ -121,18 +121,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, semidouble. Compact growth. M. (Aus. 1965).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/5/15/S/a8340091-de31-40a4-b80c-25fe6da8af42.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ice%20Queen"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ice%20Queen",
+    "imageSource": "icr"
   },
   {
     "name": "Iced Fragrance",
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, semidouble to peony form. Slow, dense, upright growth. E-L. Fragrant. (Aus. 1990 - Mildorrie Camellias, Jasper's Brush, NSW).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2025/6/19/S/93a8f8be-cf0e-40ea-a7b1-dbcc39228ef0.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Iced%20Fragrance"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Iced%20Fragrance",
+    "imageSource": "icr"
   },
   {
     "name": "Iceland",
@@ -157,9 +159,10 @@
     "species": "Rusticana",
     "size": "Miniature",
     "description": "White. Miniature, bell shaped single.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/91eb19d3-2b06-4e94-9d41-af2e52446164.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ichiraku"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ichiraku",
+    "imageSource": "icr"
   },
   {
     "name": "Ida Berg",
@@ -193,9 +196,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Blush. Large, semidouble with stamens intermingled with petaloids. Vigorous, spreading growth. M. (U.S. 1969 - E. J. Prevatt, Bonneau, SC).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/118c75e9-27dd-445d-a47d-935641c35f64.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ida%20King"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ida%20King",
+    "imageSource": "icr"
   },
   {
     "name": "Ida May Johnston",
@@ -283,9 +287,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Pink with darker veining. Large, semidouble. Average, upright, compact growth. E-L. (Reticulata seedling). (N.Z. 1973 - Mrs. A. M. Coker, Christchurch).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/9605cb27-676d-4fb3-ad9e-00c67f17d905.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ilam%20Mist"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ilam%20Mist",
+    "imageSource": "icr"
   },
   {
     "name": "Ilam Satin",
@@ -337,9 +342,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Prince Eugene Napoleon'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2024/3/25/S/74d30596-7dbd-47d7-971a-d222d2a00924.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Prince%20Eugene%20Napoleon"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Prince%20Eugene%20Napoleon",
+    "imageSource": "icr"
   },
   {
     "name": "Imp",
@@ -355,27 +361,30 @@
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Scarlet with Yellow anthers and Whitish filaments. Small to medium, semidouble. Vigorous, bushy growth. E. (U.S. 1945).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2022/3/26/S/b2a77ed3-5c75-4981-93a7-3210d0af8dca.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperator"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperator",
+    "imageSource": "icr"
   },
   {
     "name": "Imperator (France)",
     "species": "Japonica",
     "size": "Large",
     "description": "('Big Daddy'). Dark Red. Large, full peony form. Average, open, upright growth. M. (France 1908 - Guichard).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2022/3/26/S/b2a77ed3-5c75-4981-93a7-3210d0af8dca.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperator"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperator",
+    "imageSource": "icr"
   },
   {
     "name": "Imperial Splendour",
     "species": "Japonica",
     "size": "Large",
     "description": "Deep Red. Large, semidouble to peony form with Golden stamens. Spreading, bushy growth. M-L. (Aus. 1980 - T. J. Savige, Wirlinga, NSW).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/e21a6ba3-7029-4ba3-9e7c-27dcc73645c5.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperial%20Splendour"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imperial%20Splendour",
+    "imageSource": "icr"
   },
   {
     "name": "Imura",
@@ -454,9 +463,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Mathotiana Alba'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2025/4/23/S/6295dd6f-16c3-47f0-9dad-4572484986c8.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Alba"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Alba",
+    "imageSource": "icr"
   },
   {
     "name": "India",
@@ -472,9 +482,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Lady de Saumarez'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/73144938-71fb-4866-9e9f-f90034c9d83d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20de%20Saumarez"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20de%20Saumarez",
+    "imageSource": "icr"
   },
   {
     "name": "Indian Chief",
@@ -544,9 +555,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Salmon Pink. Large to very large, single with high narrow cone of stamens. Bushy growth. M. (Japonica x Reticulata). (U.S. 1975 - Feathers)",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2022/6/8/S/c85f0989-b059-43fe-8855-68babf5c760c.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Interval"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Interval",
+    "imageSource": "icr"
   },
   {
     "name": "Intoxicatingly Beautiful Red",
@@ -877,18 +889,20 @@
     "species": "Rusticana",
     "size": "Miniature to small",
     "description": "Red. Miniature to small, semidouble.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/c76f4891-e926-4ac4-b5e5-d10d72878432.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Itsukamachi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Itsukamachi",
+    "imageSource": "icr"
   },
   {
     "name": "Itsukamachi Variegated",
     "species": "Rusticana",
     "size": "",
     "description": "Red and White variation of ' Itsukamachi.'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2026/1/23/S/45324c94-7be9-467c-b1ea-8f0b874ac3f6.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Itsukamachi%20Variegated"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Itsukamachi%20Variegated",
+    "imageSource": "icr"
   },
   {
     "name": "Itty Bit",

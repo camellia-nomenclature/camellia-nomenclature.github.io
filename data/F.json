@@ -49,9 +49,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Persian Rose shading to White at center. Large, semidouble. Vigorous, upright, compact growth. E-L. (Saluenensis x Reticulata 'Captain Rawes'). (N.Z. 1961 - Doak).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/2a1b3852-8ac7-4a59-a1fb-33a9921e7fb4.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fair%20Lass"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fair%20Lass",
+    "imageSource": "icr"
   },
   {
     "name": "Fairest Day",
@@ -103,9 +104,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Pale Mauve Pink. Miniature, anemone form with notched petals. Low, spreading growth. M-L. (Hybrid 'Sprite' seedling). (Aus. 1994 - E. Sebire, Wandin North, Vic.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/12/1/S/5be34f76-d163-40ad-bb7e-070113ef28ae.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fairy%20Floss"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fairy%20Floss",
+    "imageSource": "icr"
   },
   {
     "name": "Fairy Fountain",
@@ -220,9 +222,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White at base shading out through Pale Pink to Deeper Rosy Pink. Medium, semidouble to rose form double with notched petals. Vigorous, compact growth. M. (U.S. 1960 - McCaskill).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/8182e489-c4f8-4ac5-b2be-7d8ecfe6ec7f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fancy%20Free"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fancy%20Free",
+    "imageSource": "icr"
   },
   {
     "name": "Fancy Pants",
@@ -292,9 +295,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Gigantea'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/T/f8898b05-eab3-4001-9cd1-35c930874424.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gigantea"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gigantea",
+    "imageSource": "icr"
   },
   {
     "name": "Fantasia",
@@ -328,9 +332,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Pink. Medium, single. M. (Saluenensis x Japonica ). (Aus. 1962 - Waterhouse).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/0169fab3-d797-4edb-bc79-bdec9913d52d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Farfalla"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Farfalla",
+    "imageSource": "icr"
   },
   {
     "name": "Fashion Note",
@@ -382,9 +387,10 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Light Rose Pink. Medium, semidouble with broad petals.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/d2a3f0c0-004b-4637-a7d5-4a45fe1f76cd.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fay%20Charles"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fay%20Charles",
+    "imageSource": "icr"
   },
   {
     "name": "Faye Wheeler",
@@ -418,9 +424,10 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White to Blush gradually darkening toward the edge and having feathered streaks radiating toward the center. Medium, semidouble to loose peony. Compact, rounded growth. (U.S. 2005 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/8/26/S/f4dabf78-af08-4012-a034-095f2c0d4f7b.jpeg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Feathered%20Edge"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Feathered%20Edge",
+    "imageSource": "icr"
   },
   {
     "name": "Feathers Fragrant",
@@ -445,9 +452,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Deep Pink at edge of petals, shading to White at base of petals. Large, loose peony form. Average, bushy, upright growth. M. (Aus. 2003 - Camellias Victoria Inc., Mount Waverley, Vic.).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/4336667f-4bd2-4aaf-a347-556ae027e635.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Federation"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Federation",
+    "imageSource": "icr"
   },
   {
     "name": "Felice Harris",
@@ -472,9 +480,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "See 'Pretty Pink",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/22/T/039cc9ab-1062-4ad8-a295-72a3891fcced.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenejiao"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenejiao",
+    "imageSource": "icr"
   },
   {
     "name": "Fengshan Camellia",
@@ -490,27 +499,30 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Fengshan Camellia'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/11/3/S/1643d767-509d-4450-9f62-38e1cbc1ed69.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fengshan%20Cha"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fengshan%20Cha",
+    "imageSource": "icr"
   },
   {
     "name": "Fenhudie",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Butterfly Pink'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/22/T/ced6c206-0bd7-4b1c-8ed4-69efa6741dc5.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenhudie"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenhudie",
+    "imageSource": "icr"
   },
   {
     "name": "Fensan Xueshi (Pink Three Scholars)",
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink with occasional Red tick. Medium, formal double, star-shaped with incurved petal edges. Average, upright, very dense growth. M-L. (Sport of Japonica 'Baisan Xueshi\"'). (China 1981 - Wang and Yu).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2022/3/22/S/7e93f7e1-16fd-4f37-8d56-5adf032cdb83.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fensan%20Xueshi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fensan%20Xueshi",
+    "imageSource": "icr"
   },
   {
     "name": "Fenyu (Shanghai)",
@@ -634,9 +646,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Light Crimson Red. Medium to large, semidouble. Vigorous, dense, upright growth. E-L. (Aus. 1991 - K. Abbott, Rossmoyne, W. Aus.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/2fbb402d-cbcc-4d3d-965e-acbfeaa5fb56.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fifty%20First%20Battalion"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fifty%20First%20Battalion",
+    "imageSource": "icr"
   },
   {
     "name": "Fight On",
@@ -679,27 +692,30 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Fimbriata'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2022/4/12/S/400528e5-c086-4991-993a-5e145b7a2236.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fimbriata"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fimbriata",
+    "imageSource": "icr"
   },
   {
     "name": "Fimbriata Superba",
     "species": "Japonica",
     "size": "",
     "description": "See 'Fred Sander'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/4/14/S/d2f248cb-fee5-4c7d-a810-6f764d20cc0f.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Sander"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Sander",
+    "imageSource": "icr"
   },
   {
     "name": "Fimbriata Superba Variegated",
     "species": "Japonica",
     "size": "",
     "description": "See 'Fred Sander Variegated'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/11c21ccc-8f11-41e3-a1fd-f78754e1dbec.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Sander%20Variegated"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Sander%20Variegated",
+    "imageSource": "icr"
   },
   {
     "name": "Fimbriated Fragrance",
@@ -760,9 +776,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'King Lear'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/6e2dc78a-c2fa-48ef-9e65-a08434b2380e.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=King%20Lear"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=King%20Lear",
+    "imageSource": "icr"
   },
   {
     "name": "Finlandia Variegated",
@@ -778,9 +795,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, single. Average, dense, spreading growth. E-M. (Aus. 1971 - R. Wilkins, Rosanna, Vic.).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/720693bf-a2f0-47e8-8657-76becf857028.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fiona%20Capp"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fiona%20Capp",
+    "imageSource": "icr"
   },
   {
     "name": "Fircone",
@@ -922,9 +940,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See \"Te Deum'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/5/5/T/0e3d821a-f048-4ed7-a55b-d02dfb4d1603.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Sultan"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Sultan",
+    "imageSource": "icr"
   },
   {
     "name": "Firelight",
@@ -940,9 +959,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'C. M. Hovey'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2020/12/6/T/009a3ea9-7f6d-4953-9e0b-5b58ab3bdde5.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=C.%20M.%20Hovey"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=C.%20M.%20Hovey",
+    "imageSource": "icr"
   },
   {
     "name": "First Blush",
@@ -1030,9 +1050,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Pink. Large, semidouble. Vigorous, upright, open growth. M. (Reticulata seedling). (U.S. 1975 - Kramer).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/88394b60-ddd4-48ea-91ca-2598b881cdbe.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Five-O"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Five-O",
+    "imageSource": "icr"
   },
   {
     "name": "Flame",
@@ -1120,9 +1141,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White with Red and Pink stripes. Large, anemone form to peony form. Average, open, upright growth. E-M. (Aus. 1989 - D. Coe, Glenroy, Albury, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/6bc54e00-3add-4202-a16e-5c8937a11769.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Flashdance"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Flashdance",
+    "imageSource": "icr"
   },
   {
     "name": "Fletcher Pearson Crown",
@@ -1264,9 +1286,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Aspasia Macarthur'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/2/15/S/5d79bf0f-968a-4ed8-a102-ddf08252bad7.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Aspasia%20Macarthur"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Aspasia%20Macarthur",
+    "imageSource": "icr"
   },
   {
     "name": "Florence Coker Rogers",
@@ -1309,9 +1332,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Blush Pink to White. Large, peony form. Vigorous, spreading growth. M-L. (Aus. 1973 - F. S. Spencer, Cheltenham, Vic.).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/e7b289ed-5af0-47c1-a46a-8c27da6d7511.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Florence%20Jane"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Florence%20Jane",
+    "imageSource": "icr"
   },
   {
     "name": "Florence Kirby",
@@ -1390,9 +1414,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Deep Salmon Pink. Large, formal double. Upright, open growth. M. (Reticulata hybrid 'Florrie Burke' seedling). (N.Z. 1987 - M. Burke, Whakatane).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2024/5/12/S/0a2c12dc-8048-4c2a-bdf0-1760f59a21cd.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Florrie%27s%20Theme"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Florrie%27s%20Theme",
+    "imageSource": "icr"
   },
   {
     "name": "Flossie Goodson",
@@ -1417,9 +1442,10 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "Mauve Pink. Medium, rose form double. Open, spreading growth. M-L. (Reticulata hybrid 'Flower Girl' seedling). (Aus. 1982 - Sebire).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/432b7b2d-77e2-48eb-9900-bc21747b8391.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Flower%20Boy"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Flower%20Boy",
+    "imageSource": "icr"
   },
   {
     "name": "Flower Girl",
@@ -1516,9 +1542,10 @@
     "species": "Sasanqua",
     "size": "",
     "description": "See 'Setsugekka'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/T/08d43b79-79ea-45e1-b324-58c2b7e5ac64.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Setsugekka"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Setsugekka",
+    "imageSource": "icr"
   },
   {
     "name": "Fly Fly",
@@ -1561,9 +1588,10 @@
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Red. Small to medium, formal double to rose form double. Vigorous, compact, upright growth with Dark Green foliage. M-L. (U.S. 1954 - Short).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2022/6/13/S/d952caa8-9e3b-4b9c-a034-9084a3cbffe8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Forest%20Green"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Forest%20Green",
+    "imageSource": "icr"
   },
   {
     "name": "Formality",
@@ -1687,9 +1715,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Dark Rose Red. Medium, peony form. Average density, upright growth. M-L. Rose and clove fragrance. (Hybrid 'Fragrant One' × Yuhsienensis'). (N.Z. 2002 - J. Finlay).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2022/1/7/S/52299116-0d5f-466b-b097-52af7687c67a.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Burgundy"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Burgundy",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant Cascade",
@@ -1714,9 +1743,10 @@
     "species": "NRH",
     "size": "Miniature to small",
     "description": "Soft Pink. Miniature to small, single. Vigorous, willowy, upright growth. E-M. Fragrant. (Hybrid 'Tiny Princess' x Lutchuensis). (Aus. 1989 - G. Hooper, Bexley North, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/61a9ee20-8258-4d26-9629-4b79f6a534e8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Dream"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Dream",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant Drift",
@@ -1741,9 +1771,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White, Blush or Pink. Large, anemone form. Compact growth. M. Fragrant. (U.S. 1960 - E. Luce, Half Moon Bay, CA).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/adf200b1-7c61-4b82-8f64-14e3dc2c9a27.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Frill"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Frill",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant Genesis",
@@ -1768,9 +1799,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Glowing bright Pink. Medium, rose form double to peony form. Average, upright growth. E-M. Strong carnation and clove fragrance. (Hybrid 'Fragrant One' × Japonica 'Kramer's Supreme'). (N.Z. 2002 - J. Finlay).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2022/1/7/S/893fdb15-29db-46ce-92c7-779793db883b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Jewel"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Jewel",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant Jonquil",
@@ -1804,9 +1836,10 @@
     "species": "NRH",
     "size": "Large",
     "description": "Bright Red. Large, peony form. Slow and spreading growth. E-M. Fragrant. (Hybrid 'Fragrant One' x Japonica 'Kramer's Supreme'). (N.Z. 2002 - J. Finlay).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2022/1/7/S/ff220e4d-0ce4-4d66-be58-94db93de1b88.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Legend"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Legend",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant One",
@@ -1849,9 +1882,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Pale Pink shading to Deep Pink at outer edges. Miniature, single with notched petals. Slow, weeping growth. E. Fragrant. (Hybrid seedling). (Aus. 1995 - M. Baker, Macleod, Vic.).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/33cf39fb-268b-4f72-a0f3-37c8a5e3abe1.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Pixies"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fragrant%20Pixies",
+    "imageSource": "icr"
   },
   {
     "name": "Fragrant Ripple",
@@ -1903,9 +1937,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Bright Rose Red. Large, semidouble. Vigorous, compact, upright growth. E-M. (Aus. 1983 - Mrs. E. M. Gulan, Arcadia, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/130c745c-d3fb-4bba-b6eb-d03d0d984062.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fran%20Blackwell"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fran%20Blackwell",
+    "imageSource": "icr"
   },
   {
     "name": "Fran Boudolf",
@@ -2173,9 +2208,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Elegans (Chandler)'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/6d797e7a-c645-4141-867c-481b182c5311.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Elegans"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Elegans",
+    "imageSource": "icr"
   },
   {
     "name": "Francis Eugene Phillips",
@@ -2191,9 +2227,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "White. Medium, single with blooms up and down stems. Upright growth. (Saluenensis x Japonica). (England 1953 - Hanger).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/a5dd37c5-4826-4a27-87d0-f240e58bb626.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Francis%20Hanger"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Francis%20Hanger",
+    "imageSource": "icr"
   },
   {
     "name": "Francis Rooney",
@@ -2254,9 +2291,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White splashed Pink and Red. Large, peony form. E. (For other forms of this cultivar see 'Blush Eidson', 'Rose Eidson'). (U.S. 1953 - F. V. Eidson, Thomasville, GA).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2025/5/17/S/fee08303-f8d7-485c-9022-d39d1ef90edf.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frank%20Eidson"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frank%20Eidson",
+    "imageSource": "icr"
   },
   {
     "name": "Frank Foote",
@@ -2326,9 +2364,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Deep Pink. Miniature, single trumpet form with notched petals. Slow, open growth. E-L. (Pitardii seedling). (Aus. 1995 - K Brown, Mitcham, Vic.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/5/15/S/297d1dea-e1d7-434d-a98d-cbdef47d1d7e.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frank%20Waghorn"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frank%20Waghorn",
+    "imageSource": "icr"
   },
   {
     "name": "Frank Williams Jr.",
@@ -2371,9 +2410,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Pink Perfection'. ('Frau Minna Seidel' is reported as priority name for this cultivar but as 'Pink Perfection' [U.S. 1890's - Domoto| has been in such common use in the U.S. we do not believe a change is necessary or warranted). (Germany 1893 - Seidel).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2022/5/5/S/fc3dff97-f887-49e1-8e6e-462d3623cc28.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome",
+    "imageSource": "icr"
   },
   {
     "name": "Freckles",
@@ -2416,18 +2456,20 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep Pink. Very large, semidouble to loose peony form with fluted petals. Average, upright, spreading growth. M. (Reticulata hybrid 'William Hertrich' × Reticulata hybrid 'Mouchang'). (Aus. 1992 - E. Parkes, East Brighton, Vic.).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/cf669d77-c9ce-4bb5-9913-29d1e08e71ec.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Parkes"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Parkes",
+    "imageSource": "icr"
   },
   {
     "name": "Fred S. Tuckfield",
     "species": "Reticulata",
     "size": "Large",
     "description": "Rose Pink with deeper veining. Large, formal double to rose form double. Average, very bushy growth. L. (Reticulata 'Confucius' seedling). (Aus. 1968 - Tuckfield).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/7534c727-ef49-4dd9-9ed4-85a2380c6714.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20S.%20Tuckfield"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20S.%20Tuckfield",
+    "imageSource": "icr"
   },
   {
     "name": "Fred Sander",
@@ -2461,9 +2503,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Dark Red. Very large, semidouble. Upright, compact growth. M. (Reticulata 'Crimson Robe' seedling). (Aus. 1980 - F. N. Spencer, Cheltenham, Vic.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/28/T/556e65e8-88b4-472e-8f0f-b546b17c609c.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Spencer"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fred%20Spencer",
+    "imageSource": "icr"
   },
   {
     "name": "Fred's Choice",
@@ -2515,9 +2558,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Pink, notched petals with Deeper Pink Stripes. Large, semidouble. Vigorous, upright, bushy growth. M-L. (Reticulata hybrid 'Phyl Doak' seedling). (Aus. 1998 - ACRS W. A. Branch).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/a25ca650-bc30-4116-a96d-8cba38aaec57.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fregeo"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fregeo",
+    "imageSource": "icr"
   },
   {
     "name": "French Vanilla",
@@ -2533,9 +2577,10 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Light Rose Pink with some petaloids showing White. Medium, rose form double with some outside notched petals.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/1f711c63-2409-4b0d-957a-915151dc930f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Freyda"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Freyda",
+    "imageSource": "icr"
   },
   {
     "name": "Friendly Skies",
@@ -2578,9 +2623,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White graduating to Deep Pink on outer petals. Medium, formal double with small, cupped petals. Slow, upright growth. L. (U.S. 1955 - Mrs. A. M. Nickerson, Norfolk, VA).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2025/7/25/S/d75c9151-578a-47b9-9dcb-1c9b94b371e4.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fritz%20Taylor"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fritz%20Taylor",
+    "imageSource": "icr"
   },
   {
     "name": "Frizzle White",
@@ -2596,9 +2642,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "White with touch of Pink. Miniature, single. Slow, spreading growth. E-L. (Rosaeflora seedling). (N.Z. 1990 - P. Austin).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/c042da88-7988-4c93-95bb-c751272f66b6.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frolic"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frolic",
+    "imageSource": "icr"
   },
   {
     "name": "Frost Prince",
@@ -2614,9 +2661,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Lavender Pink. Medium, semidouble. Average growth. E. (Sasanqua 'Bill Wylam' x Oleifera). (U.S. 1981 - Ackerman).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/fcf1755b-d859-4901-9047-36c0fb970a60.jpeg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frost%20Princess"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frost%20Princess",
+    "imageSource": "icr"
   },
   {
     "name": "Frost Queen",
@@ -2740,18 +2788,20 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Dark Red petals mottled White with Yellow anthers and Red filaments. Small, single. Medium, somewhat open growth. M. (A variegated form of Japonica 'Kuro- wabisuke'). (Japan 1971-Andoh).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/11/16/S/4ccc7f82-e9f1-48a9-9857-49b69ad003a7.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fukutsuzumi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fukutsuzumi",
+    "imageSource": "icr"
   },
   {
     "name": "Fukuzutsumi",
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White shaded Rose Pink. Medium, single to semidouble.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/5bd6a599-2ba8-4435-9147-ae19facf0435.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fukuzutsumi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fukuzutsumi",
+    "imageSource": "icr"
   },
   {
     "name": "Full House",
