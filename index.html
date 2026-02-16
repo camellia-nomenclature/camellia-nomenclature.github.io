@@ -422,7 +422,7 @@
       const qc = collapse(q);
 
       // Typeahead: match normalized; use space-collapsed only for longer queries (avoid false positives)
-      const useCollapsed = qc.length >= 5 && !q.includes(' ');
+      const useCollapsed = qc.length >= 2 && !q.includes(' ');
       matches = camellias
         .filter(c => c._norm.includes(q) || (useCollapsed && c._coll.startsWith(qc)) || c.name.toLowerCase().includes(raw))
         .sort((a, b) => {
