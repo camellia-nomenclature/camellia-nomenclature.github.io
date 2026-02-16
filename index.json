@@ -39278,9 +39278,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "('Hagoromo'; 'Rose of Dawn'; 'Cho-No-Hagasane'). Blush Pink. Medium, semidouble. Average, compact growth. M. (Variations of this cultivar include 'Arthur Bolton' and 'Rudy's Magnoliaeflora'). (Japan to Italy 1886).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/c84a5feb-bb4a-46bc-89f4-6a2d523988af.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Magnoliaeflora",
+    "imageSource": "icr"
   },
   {
     "name": "Mahogany Glow",
