@@ -31,9 +31,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Light Rose Pink variegated White. Large, single with flared White stamens which in some flowers are partially topped with Pinkish White petaloids. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/ceab8661-64cf-486d-8c49-144690bf313c.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Obliging",
@@ -103,9 +104,10 @@
     "species": "Sasanqua",
     "size": "Medium to large",
     "description": "Deep Crimson-Red flowers with Gold anthers and Reddish filaments. Medium to large, single. Vigorous, upright growth E-M. (Seedling of Sasanqua 'October Magic Rose'). (U.S. 2021 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Crimson N Clover.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/october-magic-crimson-n-clover",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "October Magic Dawn",
@@ -467,9 +469,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink striped Red and edged White, occasionally mottled White. Medium, single to semidouble. Average, upright growth. E- L. (For a variation of this cultivar see 'Ay-Ay-Ay!'). (U.S. 1991 - Nuccio's).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oo-La-La%21.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Opal Hearne",
@@ -586,9 +589,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Light Pink to White. Medium, semidouble.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/47195e29-4010-45e5-90bf-75aa014371a0.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Osaraku",
@@ -809,9 +813,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Luanye Yinhong' - Chinese Name). Light Pink shaded deeper in center. Large to very large, semidouble. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ovate%20Leaf%20Pink.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Ovation",

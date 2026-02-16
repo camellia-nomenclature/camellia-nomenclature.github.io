@@ -908,9 +908,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White striped Rose. Medium to large, wavy single with petaloids or high crown of stamens. Vigorous, open, upright growth. M-L. Mild fragrance. (Japan 1968 - Tsugio Ôta, Kumamoto Prefecture). See Higo.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nioi-fubuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nioi-fubuki-fragrant-snow-storm",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Nioi Fukurin",
@@ -962,9 +963,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Baozhu Cha' - Chinese Name). Oriental Red. Large to very large, semidouble with large, heavily textured, outer petals, 20 mine left in chanter and crinkled inner petals. Compact growth. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Noble%20Pearl.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Nob Hill",
@@ -998,9 +1000,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Bright Pink. Medium, semidouble.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/27a3f186-f182-41c9-81d3-276f4edcf583.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Noel",
@@ -1016,9 +1019,10 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Red. Small, single. (Japan 1859 - Kantô Area).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nokogiriba-tsubaki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nokogiriba-tsubaki",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Nola Firth",
@@ -1215,9 +1219,10 @@
     "species": "NRH",
     "size": null,
     "description": "See 'Daughter's Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2022/2/1/S/f8adc359-8db8-40cf-86ef-d9d0676218ad.png",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Novick's Seven",

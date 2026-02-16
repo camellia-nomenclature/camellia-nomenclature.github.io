@@ -956,9 +956,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Flame to Ruby Red. Very large, semidouble to peony form. Average, upright, open growth. E-L. (Reticulata hybrid 'Yvonne Amizonica' × Japonica 'San Dimas'). (N.Z. 1992 - A. Gamlin, Manaia).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2020/11/22/S/df5bb5e9-fb7d-4c78-9f9c-de6b85300566.JPG",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Alfred Upson",
@@ -1907,9 +1908,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "White, edged Magenta Pink often with Peach-Pink bud center. Medium, rose form double; petals are wavy and ruffled edged.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Aphrodite.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/aphrodite",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Angela Gilmore",
@@ -3041,9 +3043,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "White. Miniature, single. Average, open, upright growth. M-L. (Fraterna x Tsaii). (N.Z. 1989 - Mrs. A. Durrant, Rotorua).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2023/9/29/S/141a31a6-810a-4e81-9bee-f3f6ad5c8fbd.jpeg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Aristocrat",
@@ -3525,9 +3528,10 @@
     "species": "Japonica",
     "size": "Very large",
     "description": "White with Yellow anthers and Yellow filaments. Very large, semidouble. Average, upright growth. E. (Japonica 'Moonlight Bay' × Japonica 'Joshua Youtz'). (U.S. 2017 - Kenneth Rogers, Auburn, AL).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/25/S/baa10b7c-5c08-4203-ae80-105f1f61dfef.JPG",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Auburn Sunrise",
@@ -3756,9 +3760,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Rose Red shading to Darker Red on margins. Small, semidouble to peony form.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/12/1/S/9cb570fb-1111-4154-8c8b-e5b3dd0cb967.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Autumn Fragrance",
@@ -3831,9 +3836,10 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Clear Pink. Small, formal double. Vigorous, upright growth. E. (U.S. 2006 - Howell).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Autumn%20Perfection.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/autumn-perfection",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Autumn Pink Icicle",
@@ -3987,9 +3993,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "White. Medium, semidouble.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/6086e624-8eb0-4f50-ad0d-42bedfe1e4fc.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Awake",
@@ -4387,9 +4394,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Rose Pink. Medium, rose form double.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/11eae60b-c96e-4928-bb61-ac81e14433ef.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Banyo",
@@ -5298,18 +5306,20 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Daikagura Red'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/049d4d1b-4423-42d9-a7ad-8e5f9cc5b286.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Kagami",
     "species": "Rusticana",
     "size": "Medium",
     "description": "Crimson. Medium, peony form.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/8/25/S/eadf743e-b101-4f98-b419-8c40d645bf60.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Maru",
@@ -5325,9 +5335,10 @@
     "species": "Rusticana",
     "size": "Large",
     "description": "Crimson. Large, peony form.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/ceb45852-decd-406b-afc3-c94a4783c681.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Wabisuke",
@@ -6303,9 +6314,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, formal double with Cream center and fluted petals. Slow, upright growth. E-L. (Aus. 1987 - G. W. Hooper, Bexley North, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/723f55f3-0f10-4bf4-a5e9-e6a7ee5fc768.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Bidwell Variegated",
@@ -6421,9 +6433,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Deep Rose. Medium, semidouble with fluted petals.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bill%20Wylam.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/bill-wylam",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Bigg Al's",
@@ -7355,9 +7368,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Red. Small, rose form double to formal double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/6d96bf5d-fd04-4fd0-af8d-5d42d1d0694a.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Bonnie Belle",
@@ -7428,9 +7442,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "White with Magenta-Pink, narrow Picotee border and wavy petals. Medium, peony form.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Borderline%20Beauty.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/borderline-beauty",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Boozie B",
@@ -9226,9 +9241,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Guixia' - Chinese Name). Carmine Rose Pink. Very large, semidouble with irregular petals. Average, open growth. L. (China [Canton] to England 1820).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Captain%20Rawes.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/captain-rawes",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Capt. Doug Simon",
@@ -10211,9 +10227,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Brilliant Pink. Medium, formal double with ruffled petals. (Sasanqua 'Shishi-Gashira' seedling). (Ralph S. Peer Sasanqua seedling Award of American Camellia Society - First Award Season-1959).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chansonette.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/chansonette",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "E. Chansonette",
@@ -10392,9 +10409,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Zhangjia Cha' - Chinese Name). China Rose. Very large, semidouble; large, open center with some petaloids, up to 20 petals in 4 or 5 rows; petals are deeply notched, some with multiple markings. Vigorous, compact growth with very large leaves. M-L. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chang%27s%20Temple.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/changs-temple",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Chandler's Victory",
@@ -10931,9 +10949,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "('Pink Shishi-Gashira'). Light Pink. Small, semidouble to rose form double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/d2fe53e1-89b5-4ec2-8fa6-76992103084d.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Cherries Jubilee",
@@ -11270,18 +11289,20 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Bright Red. Medium, semidouble. CHRISTMAS CAROL - Formerly Vernalis - Coral Red blooms have highly variable White picotee edges with Yellow anthers and White filaments. 7 mine left in chanter Medium, semidouble. Vigorous, upright, semi-weeping growth. E-M. (Sasanqua 'Egao' x Japonica Tama cultivar). (U.S. 2021 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/7e6c3af4-baed-408a-a17e-c6789a0808ee.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Choju-Raku",
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Pink. Medium, cup-shaped single with flared White stamens. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/1e69c8fb-dabc-4f25-8ad8-34bc78224fa0.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Chongjei",
@@ -11613,9 +11634,10 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "(Juban' - Chinese Name). Light Carmine Pink. Medium, rose form double to formal double with fluted petals. Slender, open growth. E. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chrysanthemum%20Petal.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Christopher Shuman",
@@ -11640,9 +11662,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Chuxiongjin' - Chinese Name). Deep Pink with soft Light Purple tone, gradually becoming Lighter Pink towards the edges. Very large, peony form. Vigorous, spreading growth. E. (Collected in Yunnan, China). (Aus. - Bob Cherry, Paradise Plants, Kulnura)",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chuxiong%20Gold.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Chuxiongjin",
@@ -12439,9 +12462,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Orchid Pink. Large, semidouble with high center and intermingled petaloids and stamens in center. Average, upright, compact growth. M. (Reticulata x Pitardii Variety Yunnanica). (China to U.S. 1950 - Descanso).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Confucius.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/confucius",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Come Aboard",
@@ -12871,9 +12895,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "(Damanao' - Chinese Name). Turkey Red to Deep Rose Pink marbled White. Large to very large, semidouble to peony form with irregular, wavy, crinkled, spiraled petals and a few petaloids in center. Vigorous, compact growth. M. (Variegated form of Reticulata 'Lion Head'). (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer)",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cornelian.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cornelian",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Cornelian Chrysanthemum Petal",
@@ -13299,9 +13324,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Dataohong' - Chinese Name). Carmine Red. Very large, semidouble with wavy, crinkled, crepe textured petals. Vigorous, spreading growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Crimson%20Robe.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Crimson Fantasy",
@@ -14380,9 +14406,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Rose Red. Medium, semidouble. 7 mine left in chanter DECEMBER ROSE - Formerly Vernalis - Rose Pink. Medium to large, semidouble. Vigorous, spreading, upright growth. E-L. (Not a Sasanqua). (U.S. 2002 - Nuccio's).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dazzler.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dazzler",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Dayinhong",
@@ -15510,9 +15537,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Mauve Pink to deep Purple. Medium, semidouble to anemone form. M. (Portugal 1925 - da Silva).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dona%20Herz%C3%ADlia%20De%20Freitas%20Magalh%C3%A3es.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Dona Julia",
@@ -17576,9 +17604,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White. Medium, loose peony form. Low, 'Dubonnet.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Duchess%20Of%20Windsor.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Duchess Of York",
@@ -17798,9 +17827,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Zaotaohong' - Chinese Name). Large to very large, semidouble with irregular, upright petals. E. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant; China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Early%20Crimson.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Earl Kline",
@@ -17870,9 +17900,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "('Zaomudan' - Chinese Name). China Rose. Large, semidouble with upright, folded center petals with notched margins. Vigorous growth. M. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Early%20Peony.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Early Pearly",
@@ -18845,9 +18876,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Rose Pink. Small, rose form double.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/9/12/S/c920a166-9712-47b7-977a-2f4bb141a4ad.jpeg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Elfin Charm",
@@ -19781,9 +19813,10 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Hentiangao' - Chinese Name). Light Carmine with margin of petals shaded White. Medium, semidouble to rose form double. Very slow growth. L. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant; China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Envying%20Sky%27s%20Height.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-e/envying-skys-height",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Emma Lennard",
@@ -20177,9 +20210,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep China Rose with White central petaloids. Very large, rose form double. Average, upright, compact growth. M-L. (Reticulata hybrid 'Nuccio's Ruby' seedling). (U.S. 1987 - H. S. Hall, San Anselmo, CA).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/12/1/S/a05658d0-de79-48c6-9ef7-51e1fa0f28b2.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Ernestine Bowman",
@@ -20509,9 +20543,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "('Donckelarii Red'). Solid Red form of 'Donckelarii'. Large, semidouble. (U.S. 1945 - Bolen).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Eugene%20Bolen.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-e/eugene-bolen",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Eugene Lize",
@@ -21718,9 +21753,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Yipinhong' - Chinese Name). Light Red. Large to very large, semidouble with irregular center petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/First%20Class%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/first-class-red",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Fire Dance",
@@ -23638,9 +23674,10 @@
     "species": "Wabisuke",
     "size": "Small",
     "description": "Light Pink bordered White. Small, single. Medium, upright growth. E-M.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fukurin-wabisuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fukurin-wabisuke",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Fukurin-Ikkyu",
@@ -23703,9 +23740,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Pink flecked White. Large, formal double to rose form double. Average, compact growth. M-L. (Similar to 'Rosea Superba'\"). (U.S. 1945 - Huested).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/G.W. Ellis.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Gabbie Laver",
@@ -24355,9 +24393,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Pink. Large, semidouble. Vigorous, upright growth. E-M. (U.S. 1980 - G. R. Clegg, Tallahassee, FL).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/101577dc-f3f4-4f85-b971-e2230d49933d.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "George Counts",
@@ -25365,9 +25404,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Cherry Pink Whitish to base. Medium, single with circular Pale Yellow stamens. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/8/25/S/0303339c-c091-419a-87c8-bc3acdd46ffc.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Gossamer Wings",
@@ -25383,9 +25423,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature to small",
     "description": "Violet Purple, aging to Blue; the unique color is not dependent on cold weather. Miniature to small, rose form double. (U.S. 2004 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Green%27s%20Blues.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greens-blues",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Governor Earl Warren",
@@ -26997,9 +27038,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Rose Pink. Miniature, semidouble. E-M. (Japonica x Lutchuensis). (U.S. 1981 - Parks).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/cb20defe-7c8b-4d36-8e68-96c454de298e.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Haru-No-Utena",
@@ -27079,9 +27121,10 @@
     "species": "Wabisuke",
     "size": "",
     "description": "See 'Shibori-Wabisuke'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/8/25/S/08984b53-ad49-413a-bb83-96223669c7ef.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Hatsu-Warai (Baby's First Smile)",
@@ -28441,9 +28484,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Rose Pink. Medium, peony form.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/077db914-192c-492e-88fe-81973cf9c6f3.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Honey Bee",
@@ -28909,9 +28953,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Light Pink. Small, rose form double to formal double.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Interlude.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/interlude",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Hyperscent",
@@ -29247,9 +29292,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Bright Crimson. Medium, single. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/9574f078-06c3-4501-b5e8-687ca8933b86.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Imagination",
@@ -30230,9 +30276,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "White. Medium, semidouble to rose form double.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/764a2b32-d1d3-4824-bff7-6e2b5727d3d1.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Jamar",
@@ -30685,9 +30732,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep Red to Lighter Red with White center petals. Very large, rose form double to semidouble. Upright growth. M. (Reticulata 'Crimson Robe' seedling). (Aus. 1968 - Tuckfield).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/058e97fc-c1ef-49a6-a8c5-09dca58ab0e0.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Japanese Fantasy",
@@ -31786,9 +31834,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Jingan Cha' - Chinese Name). Scarlet. Very large, loose peony form. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jingan%20Camellia.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Jingan Cha",
@@ -33316,27 +33365,30 @@
     "species": "Formerly Hiemalis",
     "size": "Small to medium",
     "description": "('Hiryü [Australia']). Rose Pink shading to Rose Red on edges of petals. Small to medium, semidouble",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kanjiro.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kanjiro",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Kan-Tsubaki",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Crimson Pink. Small, semidouble",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/2be099dd-18d7-4108-b24f-63d24a74fd72.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kara-Goromo",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Pink. Small, semidouble.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/d667d448-251a-4714-b208-c98ff73833c8.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kaki",
@@ -33426,9 +33478,10 @@
     "species": "Rusticana",
     "size": "",
     "description": "Pink. Unknown size, single with variegated foliage.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/57f4953a-ac6a-441f-9c81-76daf3a8411f.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kanose",
@@ -33528,9 +33581,10 @@
     "species": "Rusticana",
     "size": "Small",
     "description": "Red blotched White. Small, irregular semidouble.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/5e6286a7-423b-40d9-8be1-81769a5c353f.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kate Cargill",
@@ -33555,9 +33609,10 @@
     "species": "Japonica",
     "size": "Large to very large",
     "description": "White. Large to very large, anemone form. Average, upright growth. E-L. (N.Z. 1991 - A. Gamlin, Manaia).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/0b47b697-1e36-42c5-ae48-1300e4fc28a6.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kate Smith",
@@ -34078,18 +34133,20 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-No-Moto%2395.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Kira-Shiro-Kantsubaki",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "White. Small, semidouble. E. (Japan 1960's - Kira Firm, Nishio City, Chiba Prefecture).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kira-Shiro-Kantsubaki.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Ken Blanchard",
@@ -34233,9 +34290,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White with stamens tipped with Creamy petaloids. Medium, single. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/a848d3bc-d090-40c1-8d8e-bbb0d795a552.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Ki-No-Gozen",
@@ -34654,27 +34712,30 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Red. Medium to large, single with flared soft Pink stamens. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/85014dc2-2410-44f4-9c5e-dde6c4088934.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kocho-Wabisuke",
     "species": "Wabisuke",
     "size": "Small",
     "description": "('Azuma-Wabisuke'; 'Easter Wabisuke'). Light Red. Small, single of trumpet form. Vigorous, compact growth. E-M.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/c858d6ea-131a-45fa-beb4-47b916dcdc17.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kogane Nishiki",
     "species": "NRH",
     "size": "Small",
     "description": "Pale Yellow with slender stripes of Red. Small, trumpet shaped single. Vigorous, upright growth. M-L. (Japonica 'Betty Foy Sanders' x C. nitidissima). (U.S. 1993 - Kazuo Yoshikawa, Osaka, Japan).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-nishiki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-nishiki",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Kogane-Yuri",
@@ -34690,9 +34751,10 @@
     "species": "Sasanqua",
     "size": "",
     "description": "See 'Ko-gyoku'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/f29debd3-e46f-4a11-9fdd-a40d3850ba2d.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kohinor",
@@ -34831,9 +34893,10 @@
     "species": "Rusticana",
     "size": "Miniature",
     "description": "White. Miniature, anemone form.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/3feeef59-025d-49b0-adaf-0b933af46edd.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Koto-No-Kaori",
@@ -37866,9 +37929,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Shizitou' - Chinese Name). Deep Turkey Red. Large to very large, peony form with irregular, heavy, crinkled petals near base, arching over and covering center as flower develops. Vigorous, 26 ming left in chanter compact growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lion%20Head.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Lipstick",
@@ -39676,18 +39740,20 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Vibrant Pink with Yellow anthers and White filaments. Small, semidouble. Average, upright, open growth. M. (U.S. 2006 - Magnolia).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magnolia%20Pixie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/magnolia-pixie",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Magnolia Queen",
     "species": "Japonica",
     "size": "Large",
     "description": "('Priscilla Brooks'). White striped Red. Large, semidouble with irregular petals. Average, bushy growth. L. (U.S. Early 1900's - Magnolia).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magnolia%20Queen.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Magnoliaeflora",
@@ -39704,9 +39770,10 @@
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Dark Red. Small to medium, semidouble with smaller petals toward center and Red foliage. L. (U.S. 1953 - Short).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2024/11/3/S/66fab995-58c7-4be9-b7bb-c2dc4bf803f4.JPG",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Mahoroba (Excellent Country)",
@@ -41890,9 +41957,10 @@
     "species": "Japonica",
     "size": "Very large",
     "description": "Pale Pink. Very large, semidouble form with center petaloids. Average, open, upright growth. M-L. (U.S. 2000 - John King Jr., Thomasville, GA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mary B. King.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mary-b-king",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Mary Baine",
@@ -43856,9 +43924,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Crimson. Medium, peony form.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/ca497b53-0f38-4a32-befa-df44e2515d2e.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Middle Georgia",
@@ -44332,9 +44401,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Rose Pink shaded with a frosty White. Small, semidouble with fluted petals.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/12/1/S/0fac96f6-ddc6-4586-a85f-0d508113641b.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Minna Helms",
@@ -45383,18 +45453,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Scarlet. Large, single with flared White stamens. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/905e4104-18f6-4d4c-b7d0-c04ab5cdf211.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Momoiro Bokuhan",
     "species": "Japonica",
     "size": "Miniature to small",
     "description": "Dark Rose outer petals with Rose petaloids fringed with White with Light Yellow stamens. Miniature to small, anemone. Very slow, dense growth. E-M. Very cold hardy. (Japan 1960 - Kansai area.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Momoiro-bokuhan.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/momoiro-bokuhan",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Momoiro-Wabisuke",
@@ -45910,9 +45982,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Mudan Cha' - Chinese Name). Bright Pink veined White and striped White on inner petals. Large to very large, full peony with wavy, crinkled, crepe-like petals. Average growth. L. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Moutancha.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Mound",
@@ -46396,9 +46469,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "('John Marshall'). Delicate Pink. Medium, formal double. Vigorous, compact, upright growth. M. (Plant Patent No. 481). (U.S. 1940 - Overlook).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mrs. K Sawada.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mrs-k-sawada",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Mrs. Katherine M. Howell",
@@ -47991,9 +48065,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White striped Rose. Medium to large, wavy single with petaloids or high crown of stamens. Vigorous, open, upright growth. M-L. Mild fragrance. (Japan 1968 - Tsugio Ôta, Kumamoto Prefecture). See Higo.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nioi-fubuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nioi-fubuki-fragrant-snow-storm",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Nioi Fukurin",
@@ -48045,9 +48120,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Baozhu Cha' - Chinese Name). Oriental Red. Large to very large, semidouble with large, heavily textured, outer petals, 20 mine left in chanter and crinkled inner petals. Compact growth. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Noble%20Pearl.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Nob Hill",
@@ -48081,9 +48157,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Bright Pink. Medium, semidouble.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/27a3f186-f182-41c9-81d3-276f4edcf583.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Noel",
@@ -48099,9 +48176,10 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Red. Small, single. (Japan 1859 - Kantô Area).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nokogiriba-tsubaki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nokogiriba-tsubaki",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Nola Firth",
@@ -48298,9 +48376,10 @@
     "species": "NRH",
     "size": null,
     "description": "See 'Daughter's Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2022/2/1/S/f8adc359-8db8-40cf-86ef-d9d0676218ad.png",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Novick's Seven",
@@ -48479,9 +48558,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Light Rose Pink variegated White. Large, single with flared White stamens which in some flowers are partially topped with Pinkish White petaloids. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/ceab8661-64cf-486d-8c49-144690bf313c.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Obliging",
@@ -48551,9 +48631,10 @@
     "species": "Sasanqua",
     "size": "Medium to large",
     "description": "Deep Crimson-Red flowers with Gold anthers and Reddish filaments. Medium to large, single. Vigorous, upright growth E-M. (Seedling of Sasanqua 'October Magic Rose'). (U.S. 2021 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Crimson N Clover.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/october-magic-crimson-n-clover",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "October Magic Dawn",
@@ -48915,9 +48996,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink striped Red and edged White, occasionally mottled White. Medium, single to semidouble. Average, upright growth. E- L. (For a variation of this cultivar see 'Ay-Ay-Ay!'). (U.S. 1991 - Nuccio's).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oo-La-La%21.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Opal Hearne",
@@ -49034,9 +49116,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Light Pink to White. Medium, semidouble.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/47195e29-4010-45e5-90bf-75aa014371a0.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Osaraku",
@@ -49257,9 +49340,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Luanye Yinhong' - Chinese Name). Light Pink shaded deeper in center. Large to very large, semidouble. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ovate%20Leaf%20Pink.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Ovation",
@@ -49734,9 +49818,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "Deep Pink. Miniature, rose form double.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/27/S/b2c459b5-9231-4b22-9b49-b784a677c08a.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Belinda",
@@ -49761,9 +49846,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Pink. Small, rose form double.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Paradise%20Caroline.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Paradise Donna",
@@ -49840,9 +49926,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "White. Miniature, rose form double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/S/650cf29f-35fa-4dd9-89e5-e6c4b3b44748.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Joan",
@@ -49928,9 +50015,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Deep Pink. Medium, single.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/27/S/886f7397-7b63-4e1d-848f-6ac678cfae04.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Sayaka",
@@ -49977,18 +50065,20 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Soft Pink, center petaloids have Peach cast. Small, anemone form. (Sasanqua 'Showa-no-Sakae' seedling)",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Peach%20Puff.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Peerless",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Bright Rose Pink. Small, loose peony form.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/6ade0836-964a-4fea-872a-a2173bd4bd12.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paris Pink",
@@ -51105,9 +51195,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Dawn Pink. Medium, single. Vigorous, upright growth. M-L. (Saluenensis × Japonica). (Confused with true 'J. C. Williams'). (England 1940 - Williams).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/3f6686ad-7e97-4b85-ab4a-98b80d9efa07.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Philippa Ifould",
@@ -51655,9 +51746,10 @@
     "species": "Formerly Hiemalis",
     "size": "Very large",
     "description": "Pink. Very large, single cup-shaped. (U.S. - Parks).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pink%20Goddess.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-p/pink-goddess",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Pink Frost",
@@ -52005,9 +52097,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Light Pink. Medium, semidouble with petals shirred at edges and notched and flared stamens.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pink%20Shower.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Pink Shadows",
@@ -52585,18 +52678,20 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "Light Purple, deepening at edge of petals. Miniature, semidouble form",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/27/S/d624bc04-c9e9-419a-8b40-f2519a5bbb5b.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Purple Haze",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Purple (in acid soil). Small, rose form double. Slow, bushy, conical growth. E-M. (Sasanqua 'Reverend Ida' seedling). (U.S. 2012 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Purple%20Haze.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-p/purple-haze",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Preacher's Ella",
@@ -53141,9 +53236,10 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "(Maye Taohong' - Chinese Name; 'Reticulate Leaf Crimson'). Delicate Rose Pink often fading to Silver-Pink at center. Medium, semidouble with open tiers of waved petals surrounding center of petaloids with a few stamens. Average growth. M-L. (China - there is an old tree at the Panlong Temple estimated to be over 600 years old - Kunming, Yunnan).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/16e47b25-ede5-4523-906f-39c1e66a75e1.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Professore Giovanni Santarelli",
@@ -53168,9 +53264,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Zipao' - Chinese Name). Dark Purple Red with pin stripes of White to Wine Red. Large to very large, formal double to peony form with wavy petals. Compact growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Purple%20Gown.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Puck",
@@ -53972,9 +54069,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Red with Pink and White stripes. Medium, anemone form. Average, upright growth. M-L. (U.S. 1992 - Piet and Gaeta, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Razzle Dazzle.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/razzle-dazzle",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Rebecca Margaret",
@@ -54780,9 +54878,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Snow White. Large, single. (Sport of Japonica 'Oaso'). See Higo.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/a27689ae-2fc1-4b51-b9b8-ae7da20b7381.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Reilly's Reflection",
@@ -54915,18 +55014,20 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Maye Taohong' - Chinese Name; 'Professor Tsai'). Delicate Rose Pink, often fading to Silver-Pink at center. Medium, semidouble with open tiers of waved petals surrounding center of petaloids with a few stamens. Average growth. M-L. (China - there is an old tree at the Panlong Temple estimated to be over 600 years old - Kunming, Yunnan)",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reticulate%20Leaf%20Crimson.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reticulate Leaf Pink",
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Maye Yinhong' - Chinese Name). Bright Spinel Pink with Red veins. Medium, semidouble with irregular, loose petals. Vigorous, bushy growth. M. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reticulate%20Leaf%20Pink.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reubena Helms",
@@ -54996,9 +55097,10 @@
     "species": "Sasanqua",
     "size": "Small",
     "description": "Ruby Red. Small, semidouble to rose form double. Average, low, dense, spreading growth. E-L. (Sasanqua 'Shishi- Gashira' seedling). (U.S. 1992 - Tom Dodd Nsy., Semmes, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reverend%20Ida.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/reverend-ida",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reverend John Bennett",
@@ -55638,9 +55740,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Glowing Rose Pink. Medium, rose form double opening to many petaled semidouble.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose%20Of%20Autumn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rose-of-autumn",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Robyn Jay",
@@ -57785,9 +57888,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Deep Pink. Medium, rose form double to formal double. Fragrant. (Hybrid 'Sylvia May' seedling). (U.S. 1957 - James).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/873c77b0-c401-4156-b9df-19c0b7ef2466.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Santozaki (Three Flowered)",
@@ -59151,9 +59255,10 @@
     "species": "Sasanqua",
     "size": "Medium to large",
     "description": "Rose Pink edged Mallow Pink.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/8/25/S/c8871e2f-e0dc-4c2d-aaa6-750cb15f0182.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Shikishima (Poetic Name For Japan)",
@@ -59169,9 +59274,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Medium Pink with Yellow anthers and Yellow filaments. Medium, semidouble. Dense growth. E-M. 1 minute left in chanter (Leaf sport of Sasanqua 'Shikishima'; bright Yellow splashes on the leaves). (U.S. 2007 - Camellia Forest Nursery, Chapel Hill, NC).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Shikishima%20Splash.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/shikishima-splash",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Shikibu",
@@ -59418,18 +59524,20 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Soft Pink. Medium, peony form",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Showa%20Supreme.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/showa-supreme",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Showa-No-Sakae",
     "species": "Formerly Hiemalis",
     "size": "Small to medium",
     "description": "('Usubeni'). Soft Pink, occasionally marbled White. Small to medium, semidouble to rose form double. Cold hardy.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Showa-No-Sakae.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Shirley's Own",
@@ -59559,9 +59667,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "('Dayinhong' - Chinese Name). Brilliant Spinel Pink. Large, semidouble with loose, wavy petals. Vigorous growth. E. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Shot%20Silk.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/shot-silk",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Shock Wave",
@@ -59605,9 +59714,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Red with White petaloids with Gold anthers and White filaments. Large, anemone form. Vigorous, upright, open growth. M-L. (U.S. 2018 - Nuccio's).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Stop%21.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Streamliner",

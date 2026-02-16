@@ -4,9 +4,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Pink flecked White. Large, formal double to rose form double. Average, compact growth. M-L. (Similar to 'Rosea Superba'\"). (U.S. 1945 - Huested).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/G.W. Ellis.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Gabbie Laver",
@@ -656,9 +657,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Pink. Large, semidouble. Vigorous, upright growth. E-M. (U.S. 1980 - G. R. Clegg, Tallahassee, FL).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/101577dc-f3f4-4f85-b971-e2230d49933d.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "George Counts",
@@ -1666,9 +1668,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Cherry Pink Whitish to base. Medium, single with circular Pale Yellow stamens. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/8/25/S/0303339c-c091-419a-87c8-bc3acdd46ffc.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Gossamer Wings",
@@ -1684,9 +1687,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature to small",
     "description": "Violet Purple, aging to Blue; the unique color is not dependent on cold weather. Miniature to small, rose form double. (U.S. 2004 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Green%27s%20Blues.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greens-blues",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Governor Earl Warren",

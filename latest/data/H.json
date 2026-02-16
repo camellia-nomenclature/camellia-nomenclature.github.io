@@ -689,9 +689,10 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Rose Pink. Miniature, semidouble. E-M. (Japonica x Lutchuensis). (U.S. 1981 - Parks).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/cb20defe-7c8b-4d36-8e68-96c454de298e.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Haru-No-Utena",
@@ -771,9 +772,10 @@
     "species": "Wabisuke",
     "size": "",
     "description": "See 'Shibori-Wabisuke'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/8/25/S/08984b53-ad49-413a-bb83-96223669c7ef.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Hatsu-Warai (Baby's First Smile)",
@@ -2133,9 +2135,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Rose Pink. Medium, peony form.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/077db914-192c-492e-88fe-81973cf9c6f3.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Honey Bee",
@@ -2601,9 +2604,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Light Pink. Small, rose form double to formal double.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Interlude.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/interlude",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Hyperscent",

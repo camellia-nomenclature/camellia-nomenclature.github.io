@@ -321,9 +321,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "White. Medium, semidouble to rose form double.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/764a2b32-d1d3-4824-bff7-6e2b5727d3d1.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Jamar",
@@ -776,9 +777,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep Red to Lighter Red with White center petals. Very large, rose form double to semidouble. Upright growth. M. (Reticulata 'Crimson Robe' seedling). (Aus. 1968 - Tuckfield).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/058e97fc-c1ef-49a6-a8c5-09dca58ab0e0.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Japanese Fantasy",
@@ -1877,9 +1879,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "('Jingan Cha' - Chinese Name). Scarlet. Very large, loose peony form. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jingan%20Camellia.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Jingan Cha",

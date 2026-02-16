@@ -331,9 +331,10 @@
     "species": "Rusticana",
     "size": "Medium",
     "description": "Rose Pink. Medium, rose form double.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/11eae60b-c96e-4928-bb61-ac81e14433ef.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Banyo",
@@ -1242,18 +1243,20 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Daikagura Red'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/049d4d1b-4423-42d9-a7ad-8e5f9cc5b286.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Kagami",
     "species": "Rusticana",
     "size": "Medium",
     "description": "Crimson. Medium, peony form.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/8/25/S/eadf743e-b101-4f98-b419-8c40d645bf60.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Maru",
@@ -1269,9 +1272,10 @@
     "species": "Rusticana",
     "size": "Large",
     "description": "Crimson. Large, peony form.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/ceb45852-decd-406b-afc3-c94a4783c681.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Beni-Wabisuke",
@@ -2247,9 +2251,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, formal double with Cream center and fluted petals. Slow, upright growth. E-L. (Aus. 1987 - G. W. Hooper, Bexley North, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/723f55f3-0f10-4bf4-a5e9-e6a7ee5fc768.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Bidwell Variegated",
@@ -2365,9 +2370,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Deep Rose. Medium, semidouble with fluted petals.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bill%20Wylam.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/bill-wylam",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Bigg Al's",
@@ -3299,9 +3305,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Red. Small, rose form double to formal double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/6d96bf5d-fd04-4fd0-af8d-5d42d1d0694a.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Bonnie Belle",
@@ -3372,9 +3379,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "White with Magenta-Pink, narrow Picotee border and wavy petals. Medium, peony form.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Borderline%20Beauty.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/borderline-beauty",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Boozie B",

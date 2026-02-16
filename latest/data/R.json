@@ -466,9 +466,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Red with Pink and White stripes. Medium, anemone form. Average, upright growth. M-L. (U.S. 1992 - Piet and Gaeta, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Razzle Dazzle.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/razzle-dazzle",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Rebecca Margaret",
@@ -1274,9 +1275,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Snow White. Large, single. (Sport of Japonica 'Oaso'). See Higo.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/a27689ae-2fc1-4b51-b9b8-ae7da20b7381.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Reilly's Reflection",
@@ -1409,18 +1411,20 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Maye Taohong' - Chinese Name; 'Professor Tsai'). Delicate Rose Pink, often fading to Silver-Pink at center. Medium, semidouble with open tiers of waved petals surrounding center of petaloids with a few stamens. Average growth. M-L. (China - there is an old tree at the Panlong Temple estimated to be over 600 years old - Kunming, Yunnan)",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reticulate%20Leaf%20Crimson.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reticulate Leaf Pink",
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Maye Yinhong' - Chinese Name). Bright Spinel Pink with Red veins. Medium, semidouble with irregular, loose petals. Vigorous, bushy growth. M. (Yunnan Reticulata). (China to N.Z. 1964 - Durrant).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reticulate%20Leaf%20Pink.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reubena Helms",
@@ -1490,9 +1494,10 @@
     "species": "Sasanqua",
     "size": "Small",
     "description": "Ruby Red. Small, semidouble to rose form double. Average, low, dense, spreading growth. E-L. (Sasanqua 'Shishi- Gashira' seedling). (U.S. 1992 - Tom Dodd Nsy., Semmes, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reverend%20Ida.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/reverend-ida",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Reverend John Bennett",
@@ -2132,9 +2137,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Glowing Rose Pink. Medium, rose form double opening to many petaled semidouble.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose%20Of%20Autumn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rose-of-autumn",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Robyn Jay",

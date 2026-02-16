@@ -850,9 +850,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Yipinhong' - Chinese Name). Light Red. Large to very large, semidouble with irregular center petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/First%20Class%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/first-class-red",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Fire Dance",
@@ -2770,9 +2771,10 @@
     "species": "Wabisuke",
     "size": "Small",
     "description": "Light Pink bordered White. Small, single. Medium, upright growth. E-M.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fukurin-wabisuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fukurin-wabisuke",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Fukurin-Ikkyu",

@@ -814,9 +814,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Rose Red. Medium, semidouble. 7 mine left in chanter DECEMBER ROSE - Formerly Vernalis - Rose Pink. Medium to large, semidouble. Vigorous, spreading, upright growth. E-L. (Not a Sasanqua). (U.S. 2002 - Nuccio's).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dazzler.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dazzler",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Dayinhong",
@@ -1944,9 +1945,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Mauve Pink to deep Purple. Medium, semidouble to anemone form. M. (Portugal 1925 - da Silva).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dona%20Herz%C3%ADlia%20De%20Freitas%20Magalh%C3%A3es.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Dona Julia",
@@ -4010,9 +4012,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White. Medium, loose peony form. Low, 'Dubonnet.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Duchess%20Of%20Windsor.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Duchess Of York",

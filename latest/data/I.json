@@ -324,9 +324,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Bright Crimson. Medium, single. See Higo.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/9574f078-06c3-4501-b5e8-687ca8933b86.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Imagination",

@@ -88,27 +88,30 @@
     "species": "Formerly Hiemalis",
     "size": "Small to medium",
     "description": "('Hiryü [Australia']). Rose Pink shading to Rose Red on edges of petals. Small to medium, semidouble",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kanjiro.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kanjiro",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Kan-Tsubaki",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Crimson Pink. Small, semidouble",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/2be099dd-18d7-4108-b24f-63d24a74fd72.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kara-Goromo",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Pink. Small, semidouble.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/d667d448-251a-4714-b208-c98ff73833c8.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kaki",
@@ -198,9 +201,10 @@
     "species": "Rusticana",
     "size": "",
     "description": "Pink. Unknown size, single with variegated foliage.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/57f4953a-ac6a-441f-9c81-76daf3a8411f.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kanose",
@@ -300,9 +304,10 @@
     "species": "Rusticana",
     "size": "Small",
     "description": "Red blotched White. Small, irregular semidouble.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/5e6286a7-423b-40d9-8be1-81769a5c353f.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kate Cargill",
@@ -327,9 +332,10 @@
     "species": "Japonica",
     "size": "Large to very large",
     "description": "White. Large to very large, anemone form. Average, upright growth. E-L. (N.Z. 1991 - A. Gamlin, Manaia).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/0b47b697-1e36-42c5-ae48-1300e4fc28a6.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kate Smith",
@@ -850,18 +856,20 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-No-Moto%2395.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Kira-Shiro-Kantsubaki",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "White. Small, semidouble. E. (Japan 1960's - Kira Firm, Nishio City, Chiba Prefecture).",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kira-Shiro-Kantsubaki.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Ken Blanchard",
@@ -1005,9 +1013,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White with stamens tipped with Creamy petaloids. Medium, single. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/a848d3bc-d090-40c1-8d8e-bbb0d795a552.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Ki-No-Gozen",
@@ -1426,27 +1435,30 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Red. Medium to large, single with flared soft Pink stamens. See Higo.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/85014dc2-2410-44f4-9c5e-dde6c4088934.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kocho-Wabisuke",
     "species": "Wabisuke",
     "size": "Small",
     "description": "('Azuma-Wabisuke'; 'Easter Wabisuke'). Light Red. Small, single of trumpet form. Vigorous, compact growth. E-M.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/c858d6ea-131a-45fa-beb4-47b916dcdc17.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kogane Nishiki",
     "species": "NRH",
     "size": "Small",
     "description": "Pale Yellow with slender stripes of Red. Small, trumpet shaped single. Vigorous, upright growth. M-L. (Japonica 'Betty Foy Sanders' x C. nitidissima). (U.S. 1993 - Kazuo Yoshikawa, Osaka, Japan).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-nishiki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-nishiki",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "acs"
   },
   {
     "name": "Kogane-Yuri",
@@ -1462,9 +1474,10 @@
     "species": "Sasanqua",
     "size": "",
     "description": "See 'Ko-gyoku'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/f29debd3-e46f-4a11-9fdd-a40d3850ba2d.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Kohinor",
@@ -1603,9 +1616,10 @@
     "species": "Rusticana",
     "size": "Miniature",
     "description": "White. Miniature, anemone form.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/3feeef59-025d-49b0-adaf-0b933af46edd.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Koto-No-Kaori",

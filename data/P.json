@@ -355,9 +355,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "Deep Pink. Miniature, rose form double.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/27/S/b2c459b5-9231-4b22-9b49-b784a677c08a.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Belinda",
@@ -382,9 +383,10 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Deep Pink. Small, rose form double.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Paradise%20Caroline.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Paradise Donna",
@@ -461,9 +463,10 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "White. Miniature, rose form double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/S/650cf29f-35fa-4dd9-89e5-e6c4b3b44748.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Joan",
@@ -549,9 +552,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Deep Pink. Medium, single.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/27/S/886f7397-7b63-4e1d-848f-6ac678cfae04.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paradise Sayaka",
@@ -598,18 +602,20 @@
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Soft Pink, center petaloids have Peach cast. Small, anemone form. (Sasanqua 'Showa-no-Sakae' seedling)",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Peach%20Puff.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Peerless",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Bright Rose Pink. Small, loose peony form.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/6ade0836-964a-4fea-872a-a2173bd4bd12.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Paris Pink",
@@ -1726,9 +1732,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Dawn Pink. Medium, single. Vigorous, upright growth. M-L. (Saluenensis × Japonica). (Confused with true 'J. C. Williams'). (England 1940 - Williams).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/3f6686ad-7e97-4b85-ab4a-98b80d9efa07.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Philippa Ifould",
@@ -2276,9 +2283,10 @@
     "species": "Formerly Hiemalis",
     "size": "Very large",
     "description": "Pink. Very large, single cup-shaped. (U.S. - Parks).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pink%20Goddess.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-p/pink-goddess",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Pink Frost",
@@ -2626,9 +2634,10 @@
     "species": "Formerly Hiemalis",
     "size": "Medium",
     "description": "Light Pink. Medium, semidouble with petals shirred at edges and notched and flared stamens.",
-    "image": null,
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pink%20Shower.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "accs"
   },
   {
     "name": "Pink Shadows",
@@ -3206,18 +3215,20 @@
     "species": "Formerly Hiemalis",
     "size": "Miniature",
     "description": "Light Purple, deepening at edge of petals. Miniature, semidouble form",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/27/S/d624bc04-c9e9-419a-8b40-f2519a5bbb5b.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Purple Haze",
     "species": "Formerly Hiemalis",
     "size": "Small",
     "description": "Purple (in acid soil). Small, rose form double. Slow, bushy, conical growth. E-M. (Sasanqua 'Reverend Ida' seedling). (U.S. 2012 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Purple%20Haze.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-p/purple-haze",
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Preacher's Ella",
@@ -3762,9 +3773,10 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "(Maye Taohong' - Chinese Name; 'Reticulate Leaf Crimson'). Delicate Rose Pink often fading to Silver-Pink at center. Medium, semidouble with open tiers of waved petals surrounding center of petaloids with a few stamens. Average growth. M-L. (China - there is an old tree at the Panlong Temple estimated to be over 600 years old - Kunming, Yunnan).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/16e47b25-ede5-4523-906f-39c1e66a75e1.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "icr"
   },
   {
     "name": "Professore Giovanni Santarelli",
@@ -3789,9 +3801,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "('Zipao' - Chinese Name). Dark Purple Red with pin stripes of White to Wine Red. Large to very large, formal double to peony form with wavy petals. Compact growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Purple%20Gown.jpg",
     "acs_url": null,
-    "icr_url": null
+    "icr_url": null,
+    "imageSource": "socal"
   },
   {
     "name": "Puck",
