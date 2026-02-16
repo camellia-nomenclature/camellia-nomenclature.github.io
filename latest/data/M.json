@@ -477,7 +477,7 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Herme Pink'.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Benibotan"
   },
@@ -486,7 +486,7 @@
     "species": "Japonica",
     "size": "Very large",
     "description": "Light Pink. Very large, semidouble to loose peony form. Average, compact, upright growth. E-M. (U.S. 1988 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Majestic%20Queen"
   },
@@ -1433,7 +1433,7 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Light Pink with Dark Pink stripes. Large, peony form. Average, spreading growth. E-M. (U.S. 1970 - O. J. Faircloth, Pensacola, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Marian%20Faircloth"
   },
@@ -3113,7 +3113,7 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Dark Red with Pink filaments. Medium, semidouble. Vigorous, upright growth. M. (U.S. 1954 - Turner).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mary%20Merritt"
   },
@@ -3441,7 +3441,7 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Dark Red. Large, semidouble to loose peony form. Vigorous, open, upright growth. M-L. (U.S. 1967 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Matador"
   },
@@ -4030,7 +4030,7 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Deep Red. Large, semidouble to loose peony form. Vigorous, upright growth. M. (U.S. 1955 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mei-Ling"
   },
@@ -4664,7 +4664,7 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Red. Large, semidouble. Vigorous, compact growth. M. (U.S. 1972 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": null
   },
@@ -6546,7 +6546,7 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Light Pink to Light Rose Pink as flower ages. Large, semidouble. Average, upright growth. M. (U.S. 1959 - E. S. Simpson, Pensacola, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Does%20not%20Exist.jpg",
+    "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Most%20Precious"
   },
