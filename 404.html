@@ -505,27 +505,32 @@
         return 'SoCal';
       }
       const imgSource = getImageSource(imgUrl);
+      const hasImage = !!c.image;
       // Lazy load: show placeholder, only display image after fully downloaded
-      const imageHtml = `<div class="no-image" id="img-placeholder"><div class="spinner"></div><br>Loading photo...</div>`;
+      const imageHtml = hasImage
+        ? `<div class="no-image" id="img-placeholder"><div class="spinner"></div><br>Loading photo...</div>`
+        : `<div class="no-image">🌸<br>No photo available</div>`;
       // Start background download after a small delay to prioritize text rendering
-      setTimeout(() => {
-        const img = new Image();
-        img.onload = () => {
-          const ph = document.getElementById('img-placeholder');
-          if (ph) {
-            img.alt = c.name;
-            img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'cover';
-            ph.replaceWith(img);
-          }
-          const cap = document.getElementById('img-caption');
-          if (cap) cap.style.display = 'block';
-        };
-        img.onerror = () => {
-          const ph = document.getElementById('img-placeholder');
-          if (ph) ph.innerHTML = '🌸<br>No photo available';
-        };
-        img.src = imgUrl;
-      }, 50);
+      if (hasImage) {
+        setTimeout(() => {
+          const img = new Image();
+          img.onload = () => {
+            const ph = document.getElementById('img-placeholder');
+            if (ph) {
+              img.alt = c.name;
+              img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'cover';
+              ph.replaceWith(img);
+            }
+            const cap = document.getElementById('img-caption');
+            if (cap) cap.style.display = 'block';
+          };
+          img.onerror = () => {
+            const ph = document.getElementById('img-placeholder');
+            if (ph) ph.innerHTML = '🌸<br>No photo available';
+          };
+          img.src = imgUrl;
+        }, 50);
+      }
 
       results.innerHTML = `
         <div class="card">
