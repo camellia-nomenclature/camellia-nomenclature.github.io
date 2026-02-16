@@ -31,9 +31,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Dona Herzília de Freitas Magalhães'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/687e4bf6-65b6-426e-9970-493a7e95bbdc.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dona%20Herzilia%20de%20Freitas%20Magalhaes"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dona%20Herzilia%20de%20Freitas%20Magalhaes",
+    "imageSource": "icr"
   },
   {
     "name": "Da Qio",
@@ -76,18 +77,20 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Large Osmanthus Leaf'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/7/S/322b55f2-7bb0-4813-9d5f-61bfbe5128fc.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daguiye"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daguiye",
+    "imageSource": "icr"
   },
   {
     "name": "Dahliaflora",
     "species": "Japonica",
     "size": "Medium",
     "description": "Raspberry Red with darker veining. Medium, semidouble to peony form to anemone form with center petaloids pointed and swirled as in a dahlia. Vigorous, compact growth. M. (U.S. 1953 - T. H. Seavey, Alhambra, CA).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/4e377e8b-bae3-42f1-b863-8f713568f022.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dahliiflora"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dahliiflora",
+    "imageSource": "icr"
   },
   {
     "name": "Dahlohnega",
@@ -103,9 +106,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Bright Red Gown'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/7/T/312e0a6e-eb60-4664-a05d-cd911aee2986.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dahongpao"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dahongpao",
+    "imageSource": "icr"
   },
   {
     "name": "Dai Hassu",
@@ -148,9 +152,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Daikagura Red'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/T/4fecab02-1780-474b-963b-aebf24f01ddf.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Benidaikagura"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Benidaikagura",
+    "imageSource": "icr"
   },
   {
     "name": "Daikagura Red",
@@ -184,27 +189,30 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Soft Pink. Medium, single of bell form. (U.S. 1950 - Pfingstl).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/7/5/S/9072098f-855c-4619-a084-fd17290d5612.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty",
+    "imageSource": "icr"
   },
   {
     "name": "Dainty Dale",
     "species": "NRH",
     "size": "Large",
     "description": "Shaded soft Orchid Pink. Large, peony form. Vigorous, compact, upright growth. M-L. (Hybrid 'Robbie' × Japonica 'Dr. Tinsley'). (U.S. 1961 - James).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2022/6/20/S/150c01fa-a8c4-4657-88c7-02e7a1925279.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty%20Dale"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty%20Dale",
+    "imageSource": "icr"
   },
   {
     "name": "Dainty Maiden",
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink. Medium, semidouble to peony form. Pendulous growth. M. (Aus. 1952 - Waterhouse).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/S/b4fade8b-2c31-4a02-a5c8-799043bdc65f.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty%20Maiden"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dainty%20Maiden",
+    "imageSource": "icr"
   },
   {
     "name": "Dainty Pink Star",
@@ -274,18 +282,20 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Tali Queen'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/8/T/b70b78d8-763a-4b17-b181-93a622673130.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dali%20Cha"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dali%20Cha",
+    "imageSource": "icr"
   },
   {
     "name": "Dali Diechi",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Dali Butterfly Wing'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/8/S/433531cb-c298-4266-88b0-fad47df34e19.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dali%20Diechi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dali%20Diechi",
+    "imageSource": "icr"
   },
   {
     "name": "Dallas",
@@ -310,9 +320,10 @@
     "species": "Reticulata",
     "size": "Medium to large",
     "description": "Dark Red. Medium to large, semidouble to rose form double. Vigorous, upright growth. M-L. (Reticulata 'Crimson Robe' x Reticulata hybrid 'Arch of Triumph'). (U.S. 1984 - Pursel).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/25/S/a060a049-7f5b-4480-b8e6-3b7b3e58d5b4.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dallas%20Price"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dallas%20Price",
+    "imageSource": "icr"
   },
   {
     "name": "Dalu Jiuqu (Nine Bends In Mainland)",
@@ -337,9 +348,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Cornelian'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/8/S/e66fcdc0-c448-43bf-9905-a6487beb1c8a.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Damanao"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Damanao",
+    "imageSource": "icr"
   },
   {
     "name": "Dame Silvia",
@@ -427,9 +439,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Pale Bright Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/8/T/69151725-c504-44ed-a903-6e8f858b0df0.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dandahong"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dandahong",
+    "imageSource": "icr"
   },
   {
     "name": "Dante",
@@ -499,18 +512,20 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Very Dark Red. Large, peony form. Upright, open growth. M. (Reticulata 'Cornelian' seedling). (Aus. 1985 - Sebire).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/20720054-db97-4301-8a9f-c6f05854828a.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Jewel"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Jewel",
+    "imageSource": "icr"
   },
   {
     "name": "Dark Nite",
     "species": "NRH",
     "size": "Medium",
     "description": "Crimson. Medium, peony form. Average, open, upright growth. M-L. (Japonica 'Australis' × Hybrid 'Joyful Bells'). (N.Z. 1981 - Jury).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/439106ec-4ce5-47df-bb8e-12c55eac6289.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Nite"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Nite",
+    "imageSource": "icr"
   },
   {
     "name": "Dark Of Night",
@@ -526,9 +541,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Maroon. Medium, full peony form. Vigorous, upright growth. M. (U.S. 1955 - Short).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2023/9/23/S/6033a1e8-c0b5-452f-a153-dcdcf9022de7.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Of%20The%20Moon"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dark%20Of%20The%20Moon",
+    "imageSource": "icr"
   },
   {
     "name": "Dark Secret",
@@ -742,9 +758,10 @@
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Pink. Small to medium, anemone form. Average, dense growth. M-L. (Aus. 1995 - K. Brown, Mitcham, Vic.).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/ce3208cd-0593-4168-88f4-c614059b8790.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dawn%27s%20Own"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dawn%27s%20Own",
+    "imageSource": "icr"
   },
   {
     "name": "Dawson Pink",
@@ -769,9 +786,10 @@
     "species": "Sasanqua",
     "size": "Miniature",
     "description": "Pink. Miniature, semidouble to rose form double.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/6562fccb-fb26-46c7-b55b-b84f1c9a4b59.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daydawn%20Belle"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Daydawn%20Belle",
+    "imageSource": "icr"
   },
   {
     "name": "Daydream",
@@ -805,9 +823,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Shot Silk'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/f0c88f9d-befd-450a-ab7d-9c6d9556d11a.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dayinhong"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dayinhong",
+    "imageSource": "icr"
   },
   {
     "name": "Dazzle",
@@ -823,9 +842,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Dark Red. Very large, semidouble. Upright, open growth. M. (Reticulata hybrid 'William Hertrich' seedling). (Aus. 1979 - Sebire).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/28/T/96b6f15a-d22c-4ccc-b2fa-3777f9f5b191.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=De%20Lancey"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=De%20Lancey",
+    "imageSource": "icr"
   },
   {
     "name": "De Soto",
@@ -841,9 +861,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Kumasaka Variegated'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/4/25/S/17925683-db50-40ec-9326-4bc8e0fe1c27.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hanatachibana"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hanatachibana",
+    "imageSource": "icr"
   },
   {
     "name": "Deacon Willie Leach",
@@ -886,9 +907,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Finlandia'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/2/10/S/37d08ef4-6aef-4826-af10-f11fbe95d94c.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Finlandia"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Finlandia",
+    "imageSource": "icr"
   },
   {
     "name": "Dearie Mealing",
@@ -1291,9 +1313,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Red with iridescent petals. Large, formal double to peony form. Average, upright growth. M. (Reticulata × Japonica). (U.S. 1970 - Maitland).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/T/58437153-1996-4d42-8676-f8b0cfd3cb10.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Descanso%20Mist"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Descanso%20Mist",
+    "imageSource": "icr"
   },
   {
     "name": "Descanso Yuletide",
@@ -1372,9 +1395,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Daitairin'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/T/fc87bea3-1469-457c-a5fb-27972b3ca515.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dewatairin"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dewatairin",
+    "imageSource": "icr"
   },
   {
     "name": "Diamond Head",
@@ -1390,9 +1414,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White with slight fleck of Reddish Pink to Red. Medium, semidouble with irregular petals to anemone form. Average, upright growth. M-L. (For another form of this cultivar see Japonica 'Dian's Fancy'). (U.S. 1957 - Hartman).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2022/6/24/S/17ca211a-aaf2-4e66-b095-156369a68fe8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dian%20Hartman"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dian%20Hartman",
+    "imageSource": "icr"
   },
   {
     "name": "Dian's Fancy",
@@ -1408,9 +1433,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Deep Pink shaded to Light Pink. Medium, formal double. Average, open, upright growth. M-L. (Hybrid 'Elegant Beauty' seedling). (N.Z. 1982 - T. Lennard, Te Puke).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/6/1/S/34690220-7abb-4cd5-af38-cee39408868b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Diana%20Lennard"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Diana%20Lennard",
+    "imageSource": "icr"
   },
   {
     "name": "Diana Moon",
@@ -1489,9 +1515,10 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Crimson Red shaded Blue. Medium to large, semidouble to peony form with loose petals. Vigorous, upright growth. M-L. (U.S. 1959 - Clower).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/24/S/a3f47f7a-e87c-4e11-92a3-1803d51cdc13.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dick%20Rankin"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dick%20Rankin",
+    "imageSource": "icr"
   },
   {
     "name": "Dickie Thomas",
@@ -1561,9 +1588,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Lilac Red'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/22/S/db2a27eb-97fd-4a32-bce2-b906d5f1caed.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dingxianghong"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dingxianghong",
+    "imageSource": "icr"
   },
   {
     "name": "Dinh Swanson",
@@ -1597,9 +1625,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Deep rich Red with Deep Red veining. Large, semidouble Average to slow, dense growth. M-L. (N.Z. 1999 - Haydon).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/d0743038-c812-4303-a7ee-30b57a0ce662.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Diva"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Diva",
+    "imageSource": "icr"
   },
   {
     "name": "Dixie Beggs",
@@ -1777,9 +1806,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Shell Pink shading to White center. Large, formal double. Average growth. M-L. (N.Z. 1982 - T. Lennard, Te Puke).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/6/1/S/d9f40405-d1bb-4030-9bf1-645428c509c0.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dolly%20O%27Driscoll"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dolly%20O%27Driscoll",
+    "imageSource": "icr"
   },
   {
     "name": "Dolly Parler",
@@ -1804,9 +1834,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Salmon Pink with White cast. Very large, semidouble to anemone form. Vigorous, upright growth. E-L. (Reticulata hybrid 'Wild Form' seedling). (Aus. 1981 - T. E. Pierson, Hurstville, NSW).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/208d4b6d-f8cf-425a-8c10-07cb461e5096.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dolly%20West"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dolly%20West",
+    "imageSource": "icr"
   },
   {
     "name": "Dolores Hope",
@@ -1885,9 +1916,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink veined deeper. Medium, formal double. Upright growth. E-M. (Aus. 1981 - Camellia Vale Nsy., Bexley North, NSW).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/28/T/4cbe719b-bf5e-425a-9d8d-77aead5adfa8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Don%20Wilson"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Don%20Wilson",
+    "imageSource": "icr"
   },
   {
     "name": "Don-Mac",
@@ -2002,9 +2034,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Silver Rose with heavy Silver overtones. Large, anemone form. Upright, open growth. E-L. (Reticulata hybrid \"Tranquility' seedling). (Aus. 1984 - Pierson).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/567e9a28-2599-4bb0-b224-62390700f90b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Donna%20Louise%20Timmins"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Donna%20Louise%20Timmins",
+    "imageSource": "icr"
   },
   {
     "name": "Donna Lyn",
@@ -2101,9 +2134,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Soft Pink with faint Salmon Pink tone. Medium, semidouble with curved and twisted petals and center of intermixed small petals, petaloids and stamens. Vigorous, spreading growth. M. (Aus. 1960 - Henty).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/8f10ce03-6685-4443-a686-99d8a5b7bd2d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorian"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorian",
+    "imageSource": "icr"
   },
   {
     "name": "Doris Ellis",
@@ -2146,18 +2180,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, semidouble to anemone form. Vigorous, compact, upright growth. M. (Aus. 1961 - W. Neville, Castle Hill).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/57fc597e-9d21-4df9-adba-05068974a4c2.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Doris%20Hirst"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Doris%20Hirst",
+    "imageSource": "icr"
   },
   {
     "name": "Doris Madalia",
     "species": "Japonica",
     "size": "",
     "description": "See 'Beauty of Holland'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/01895c29-615b-46fa-9031-cda4a88e2dee.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hikarugenji-yokomoku"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hikarugenji-yokomoku",
+    "imageSource": "icr"
   },
   {
     "name": "Doris Mae",
@@ -2191,9 +2227,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Deep Rose Pink heavily moired Darker Pink. Very large, peony form. M-L. (Reticulata hybrid 'Three Dreams' seedling). (Aus. 1984 - Pierson).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/6fdf195c-53d2-489e-9710-5317a481c7ff.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothee%20Rogers"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothee%20Rogers",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Aimee",
@@ -2254,9 +2291,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White. Large, peony form. Vigorous, upright growth. M. (U.S. 1978 - Gilley).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/T/bd835116-dd8d-45fa-a90d-45ef07012179.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Culver"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Culver",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Henry",
@@ -2290,18 +2328,20 @@
     "species": "NRH",
     "size": "Medium",
     "description": "White at base shading to Pale Flesh Pink with one- quarter inch Rose band on petals. Medium, formal double. Slow, compact, upright growth. M. (Hybrid 'Robbie' × Japonica 'Dr. Tinsley'). (U.S. 1960 - James).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/6d5778f7-1748-4c6d-b3b3-facce78fca5d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20James"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20James",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Jean",
     "species": "Reticulata",
     "size": "Very large",
     "description": "Orange Red. Very large, anemone form. Vigorous, upright, open growth. M. (Reticulata seedling). (Aus. 1987 - Dr. J. I. Luke).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/1/20/S/b35e106c-f689-4ac4-9e8c-4cd1bbb45e6d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Jean"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Jean",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Jessep",
@@ -2380,18 +2420,20 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Off White to very Light Pink. Medium, semidouble. Average, open, upright growth. E-L. (Aus. 1977 - A. Spragg, Sutherland, NSW).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/088e70b6-1bf4-48da-bc5a-aff54ee46943.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Murphy"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Murphy",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Parker",
     "species": "Japonica",
     "size": "",
     "description": "See 'Emmett Pfingstl'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/12/1/S/e819f4b9-1687-4b57-829a-1cc11706c9f9.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Emmett%20Pfingstl"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Emmett%20Pfingstl",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy Peet",
@@ -2461,9 +2503,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White to Blush Pink with some Pink spots and sporting Light Pink. Large, peony form. Average, open, upright growth. M. (U.S. 1973 - Tammia).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/T/680129b2-4877-4780-acd4-4f11e484e060.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Zerkowsky"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorothy%20Zerkowsky",
+    "imageSource": "icr"
   },
   {
     "name": "Dorothy's Folly",
@@ -2488,9 +2531,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Rich Plum Red with Silver sheen. Very large, loose peony form. Upright, open growth. E. (Reticulata 'Crimson Robe' x Reticulata hybrid 'William Hertrich'). (Aus. 1982 - T. E. Pierson, Hurstville, NSW).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/c41a83f0-43cb-4353-8e99-8a3cc0f048b8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorrie%20Higgins"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dorrie%20Higgins",
+    "imageSource": "icr"
   },
   {
     "name": "Dot Cady",
@@ -2551,9 +2595,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Rose Pink with darker veining. Medium, single. Slow, spreading growth. M. (Aus. 1999 - Alan Truran, Hornsby, NSW).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/a10864ee-9f7b-4faa-8f78-c6b504df328c.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Doug%20Haviland"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Doug%20Haviland",
+    "imageSource": "icr"
   },
   {
     "name": "Douglas Dean Hall",
@@ -2875,9 +2920,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "Rose Pink, deepens at center. Ver large, full semidouble to loose peony form. Vigorous, upright growth. E- 45 minc left in chanter L. (Reticulata hybrid 'Ellie Rubensohn' seedling). (Aus. 2002 - Patrick Clark, Pymble, NSW).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/54975b3e-f63f-41c7-ab74-10687b71428d.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Doreen%20Clark"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Doreen%20Clark",
+    "imageSource": "icr"
   },
   {
     "name": "Dr. Ed",
@@ -3145,9 +3191,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Silver Pink with darker veining and Silver edges. Very large, loose peony form. Upright growth. E-L. (Pitardii/ Reticulata hybrid x Reticulata 'Willow Wand'). (N.Z. 1977 - Durrant).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/830cb95d-a055-474a-a085-11821569944b.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Jane%20Crisp"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Jane%20Crisp",
+    "imageSource": "icr"
   },
   {
     "name": "Dr. Jane Norwood",
@@ -3370,9 +3417,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Deep Pink. Large, semidouble with swirled and fluted petals. Vigorous, compact, upright growth. M. (U.S. 1959 - Miss F. Sanders, Charleston, SC).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2025/12/31/S/b52baed4-c5ee-4c19-b2c0-1cc84838d3fa.jpeg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Paul%20Sanders"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Paul%20Sanders",
+    "imageSource": "icr"
   },
   {
     "name": "Dr. Paul Sanders Variegated",
@@ -3388,9 +3436,10 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Pale Pink shading Deeper Pink on outer petal edges. Large, semidouble. Bushy, upright growth. (Aus. 2006 - Mrs. Mary Elizabeth Jenkins, Vic.).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/28/T/14bac108-371d-445d-af25-d1b37466a850.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Percy%20Jenkins"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Percy%20Jenkins",
+    "imageSource": "icr"
   },
   {
     "name": "Dr. Quattlebaum",
@@ -3442,9 +3491,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Dark Red. Large, semidouble. Vigorous, upright growth. M-L. (Non-Reticulata hybrid x Reticulata/Japonica hybrid). (U.S. 1983 - Pursel).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/20/S/b62976b4-b698-49a2-b185-503a7aa994f4.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Reeves%20Wells"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dr.%20Reeves%20Wells",
+    "imageSource": "icr"
   },
   {
     "name": "Dr. Richard Hardison",
@@ -3685,9 +3735,10 @@
     "species": "Japonica",
     "size": "",
     "description": "Petaloids in center. (Sport of Japonica 'Drama Girl').",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2026/1/27/S/272334e1-a92b-44f4-9c21-3c6db8fe6f9e.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Drama%20Girl%20Dream"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Drama%20Girl%20Dream",
+    "imageSource": "icr"
   },
   {
     "name": "Drama Girl Tison",
@@ -3775,9 +3826,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Pale Pink to Deep Pink on edge. Medium, single with fine fimbriated petals. Slow, compact, upright growth. M-L. (N.Z. 1989 - Mrs. K. A. Campbell, Wanganui).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/a02895a8-f8d8-4c54-99ca-555cbd1ae3d6.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dream%20Spinner"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dream%20Spinner",
+    "imageSource": "icr"
   },
   {
     "name": "Dream Team",
@@ -3847,9 +3899,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Margaret McCown'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/2/10/S/c70bc239-96f8-42cd-a8a5-c66ca55f7012.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Margaret%20McCown"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Margaret%20McCown",
+    "imageSource": "icr"
   },
   {
     "name": "Drumlea",
@@ -3910,18 +3963,20 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'C. M. Hovey'. (Not the cultivar listed in old literature, which is listed immediately below).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/0d7245c9-4ed0-4ac2-8928-8f161a813563.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duc%20De%20Devonshire"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duc%20De%20Devonshire",
+    "imageSource": "icr"
   },
   {
     "name": "Duc De Devonshire (England)",
     "species": "Japonica",
     "size": "Large",
     "description": "Bright Cherry Red. Large, formal double. (England to Belgium [Verschaffelt] 1851).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/0d7245c9-4ed0-4ac2-8928-8f161a813563.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duc%20de%20Devonshire"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duc%20de%20Devonshire",
+    "imageSource": "icr"
   },
   {
     "name": "Duchess Of Covington",
@@ -3964,9 +4019,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Lady Loch'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/5/15/S/a29a8bd1-a224-4596-a576-ee4f1dc0c257.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Loch"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Loch",
+    "imageSource": "icr"
   },
   {
     "name": "Duchesse De Rohan",
@@ -4018,18 +4074,20 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Pink. Large, formal double. (Sport of Japonica 'Mathotiana Alba'). (Probably same as Japonica 'Mathotiana Rosea'). (U.S. 1955 - Magnolia).",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/6aab3b91-bc35-4991-8c07-3e5bf9842dbc.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Rosea"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mathotiana%20Rosea",
+    "imageSource": "icr"
   },
   {
     "name": "Duke Of York",
     "species": "Japonica",
     "size": "",
     "description": "See 'Otahuhu Beauty'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/5ff2aa16-6396-4199-8383-af38e48cb331.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otahuhu%20Beauty"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otahuhu%20Beauty",
+    "imageSource": "icr"
   },
   {
     "name": "Durrant's Dilemma",
@@ -4063,9 +4121,10 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Single Heart Butterfly'.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/22/T/ce04d7b2-00ce-449c-a449-bddcd1bb3901.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duxin%20Diechi"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Duxin%20Diechi",
+    "imageSource": "icr"
   },
   {
     "name": "Dwarf Rose",

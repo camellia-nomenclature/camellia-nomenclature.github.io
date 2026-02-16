@@ -220,9 +220,10 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Pink. Medium, single with circular White stamens. See Higo.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/ab891dbe-6cec-4bc0-ae88-9c51e338784c.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=%C5%8C-zora%20%28sasanqua%29"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=%C5%8C-zora%20%28sasanqua%29",
+    "imageSource": "icr"
   },
   {
     "name": "Ohkan",
@@ -256,18 +257,20 @@
     "species": "Sasanqua",
     "size": "Small",
     "description": "Pink. Small, anemone form.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/6/1/S/347ccc45-eaf1-4217-bc51-6365e7910203.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Okke%27s%20Delight"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Okke%27s%20Delight",
+    "imageSource": "icr"
   },
   {
     "name": "Old Faithful",
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Deep Pink to Pale Mauve Pink. Medium, semidouble to loose peony form.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/0b5b13be-abcd-491e-84af-5373527eaf35.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Old%20Faithful"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Old%20Faithful",
+    "imageSource": "icr"
   },
   {
     "name": "Old Glory",
@@ -346,9 +349,10 @@
     "species": "Japonica",
     "size": "Very large",
     "description": "Crimson. Very large, anemone form. Average, upright growth. M. (N.Z. 1976 - Mrs. O. Honnor, New Plymouth).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/21/S/486460ef-8ea6-4aba-aadb-0c374020e954.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Olive%20Honnor"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Olive%20Honnor",
+    "imageSource": "icr"
   },
   {
     "name": "Olive Lee Shepp",
@@ -481,9 +485,10 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Blush Pink. Medium, formal double. Average, dense, upright growth. M-L. (Japonica 'Berenice Boddy' × Hybrid 'Mona Jury'). (N.Z. 1991- Jury).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2021/1/21/S/63a8a9ca-0b3d-4630-a9bf-3a4aa3d469e8.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Opal%20Princess"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Opal%20Princess",
+    "imageSource": "icr"
   },
   {
     "name": "Ophelia Dent",
@@ -571,9 +576,10 @@
     "species": "Japonica",
     "size": "",
     "description": "('Taihai'). See 'Daitairin'.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2025/4/12/S/8b5f34ef-27fd-4ae2-97b0-a7cd694cf5ba.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dewatairin"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dewatairin",
+    "imageSource": "icr"
   },
   {
     "name": "Osaki",
@@ -643,27 +649,30 @@
     "species": "Wabisuke",
     "size": "Small",
     "description": "Rose Pink often blotched White. Small, single. Medium, upright, compact growth. E-M.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/924ae612-5758-45ee-b35a-97af3970475e.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otohime"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otohime",
+    "imageSource": "icr"
   },
   {
     "name": "Otome Red",
     "species": "Japonica",
     "size": "",
     "description": "See 'Monjisu Red'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2023/3/5/S/b407202b-1a3b-4ad4-81f7-d54d51671f75.jpeg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cheerful"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cheerful",
+    "imageSource": "icr"
   },
   {
     "name": "Otome Variegated",
     "species": "Japonica",
     "size": "",
     "description": "See 'Baronne De Bleichroeder (United States)",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2025/12/17/S/86cb3e2d-327c-4ebb-b547-88b2b03bec1e.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome-shibori"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome-shibori",
+    "imageSource": "icr"
   },
   {
     "name": "Otome White",
@@ -679,9 +688,10 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Baronne De Bleichroeder (United States)'.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2025/12/17/S/86cb3e2d-327c-4ebb-b547-88b2b03bec1e.JPG",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome-Shibori"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome-Shibori",
+    "imageSource": "icr"
   },
   {
     "name": "Otto Hopfer",
@@ -724,9 +734,10 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Raspberry Pink, shading deeper on the petals' edges. Very large, semidouble form. Open, upright growth. E- L. (Reticulata hybrid 'Wild Form' x Reticulata hybrid 'Suzanne Withers' x Nitidissima). (Aus. 2005 - Colleen Sherrington, Balwyn North, Vic.).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/S/3f2364b8-4a3c-46c8-b493-8c4445f6061e.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Granddaughters"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Granddaughters",
+    "imageSource": "icr"
   },
   {
     "name": "Our Julia",
@@ -751,9 +762,10 @@
     "species": "Reticulata",
     "size": "Large",
     "description": "Pink to Neyron Rose. Large, peony form. Vigorous, open, upright growth. M. (Reticulata hybrid 'Suzanne Withers' x Reticulata hybrid 'Jean Pursel'). (Aus. 1996 - Dr. R. Withers, Donvale, Vic.).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/21/S/a41832d2-d174-4e52-a535-cd86b941dc36.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Kim"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Kim",
+    "imageSource": "icr"
   },
   {
     "name": "Our Linda",
@@ -787,9 +799,10 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Dark Pink to Red. Very large, peony form. Open, upright growth. M-L. (Reticulata 'Lion Head' seedling). (Aus. 1984 - Sebire)",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/1/21/S/315a3746-7f65-4166-8757-21c16145fb01.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Selection"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Our%20Selection",
+    "imageSource": "icr"
   },
   {
     "name": "Ovate Leaf Pink",
