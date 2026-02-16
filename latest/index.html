@@ -406,7 +406,7 @@
     });
 
     // Normalize: strip special chars for fuzzy matching
-    const normalize = s => s.toLowerCase().replace(/[\u0027\u2019\-.,()\/&]/g, '').replace(/\s+/g, ' ').trim();
+    const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\u0027\u2019\-.,()\/&"]/g, '').replace(/\s+/g, ' ').trim();
     const collapse = s => s.replace(/\s+/g, '');
 
     function precomputeNorms() { camellias.forEach(c => { c._norm = normalize(c.name); c._coll = collapse(c._norm); }); }
@@ -458,12 +458,14 @@
         return;
       }
       dropdown.innerHTML = matches.map((c, i) =>
-        `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}"
-              onclick="selectCamellia({name:'${c.name.replace(/'/g, "\\'")}',species:'${c.species.replace(/'/g, "\\'")}'})">
+        `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" data-index="${i}">
           <div class="name">${highlight(c.name, search.value)}</div>
           <div class="species">${c.species}</div>
         </div>`
       ).join('');
+      dropdown.querySelectorAll('.dropdown-item').forEach(el => {
+        el.addEventListener('click', () => selectCamellia(matches[parseInt(el.dataset.index)]));
+      });
       dropdown.classList.add('active');
     }
 
@@ -603,7 +605,7 @@
   <!-- Firebase SDK -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
-    import { getFirestore, collection, addDoc, getDocs, query, orderBy } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+    import { getFirestore, collection, addDoc } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 
     // Firebase config
     const firebaseConfig = {
@@ -656,13 +658,12 @@
         return;
       }
 
-      // Close modal immediately
-      closeBugReportModal();
-
-      // Fire-and-forget save to Firestore
+      // Show success feedback, then close after a brief delay
+      showFeedback('Bug report submitted — thank you!', 'success');
       window.submitBugReportToFirestore(description).catch(error => {
         console.error('Bug report save failed:', error);
       });
+      setTimeout(() => closeBugReportModal(), 1500);
     }
 
     function showFeedback(message, type) {
