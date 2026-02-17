@@ -364,8 +364,10 @@
     function linkifyDescription(desc) {
       if (!desc || !camelliaNameSet.size) return desc;
       return desc.replace(/['"]([A-Z][^'"]{2,}?)['"]/g, (match, name) => {
-        if (camelliaNameSet.has(name.toLowerCase())) {
-          return match[0] + '<a href="#' + encodeURIComponent(name) + '" onclick="event.preventDefault();const m=camellias.find(c=>c.name.toLowerCase()===\'' + name.toLowerCase().replace(/'/g, "\\'") + '\');if(m)selectCamellia(m);" style="color:#2d5016;text-decoration:none;cursor:pointer;background:#eee;padding:1px 6px;border-radius:4px;border:1px solid #ddd;font-size:0.95em">' + name + '</a>' + match[match.length-1];
+        const trimmed = name.replace(/[\s?.!,]+$/, '');
+        const lookupName = (trimmed.length >= 3 && camelliaNameSet.has(trimmed.toLowerCase())) ? trimmed : name;
+        if (camelliaNameSet.has(lookupName.toLowerCase())) {
+          return match[0] + '<a href="#' + encodeURIComponent(lookupName) + '" onclick="event.preventDefault();const m=camellias.find(c=>c.name.toLowerCase()===\'' + lookupName.toLowerCase().replace(/'/g, "\\'") + '\');if(m)selectCamellia(m);" style="color:#2d5016;text-decoration:none;cursor:pointer;background:#eee;padding:1px 6px;border-radius:4px;border:1px solid #ddd;font-size:0.95em">' + lookupName + '</a>' + match[match.length-1];
         }
         return match;
       });
