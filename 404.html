@@ -363,7 +363,7 @@
     let camelliaNameSet = new Set();
     function linkifyDescription(desc) {
       if (!desc || !camelliaNameSet.size) return desc;
-      return desc.replace(/['"]([A-Z][^'"]{2,}?)['"]/g, (match, name) => {
+      return desc.replace(/['"]([A-Z](?:[^'"]+|'(?=[a-z]))+)['"]/g, (match, name) => {
         const trimmed = name.replace(/[\s?.!,]+$/, '');
         const lookupName = (trimmed.length >= 3 && camelliaNameSet.has(trimmed.toLowerCase())) ? trimmed : name;
         if (camelliaNameSet.has(lookupName.toLowerCase())) {
