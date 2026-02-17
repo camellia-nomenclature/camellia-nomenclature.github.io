@@ -87,10 +87,10 @@
     "name": "Kanjiro",
     "species": "Formerly Hiemalis",
     "size": "Small to medium",
-    "description": "('Hiry\u00fc [Australia']). Rose Pink shading to Rose Red on edges of petals. Small to medium, semidouble",
+    "description": "('Hiryü [Australia']). Rose Pink shading to Rose Red on edges of petals. Small to medium, semidouble",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kanjiro.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kanjiro",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kanjir\u014d",
+    "icr_url": null,
     "imageSource": "socal"
   },
   {
@@ -697,7 +697,7 @@
     "name": "Kay Hallstone",
     "species": "Reticulata",
     "size": "Very large",
-    "description": "Light Pink washed (veined) White. Very large, semidouble. Vigorous, upright, open, spreading growth. M-L. (Reticulata hybrid 'Mouchang Variegated' \u00d7 Hybrid 'Brigadoon'). (U.S. 1992 - Hall)",
+    "description": "Light Pink washed (veined) White. Very large, semidouble. Vigorous, upright, open, spreading growth. M-L. (Reticulata hybrid 'Mouchang Variegated' × Hybrid 'Brigadoon'). (U.S. 1992 - Hall)",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kay%20Halstone.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kay%20Hallstone"
@@ -771,7 +771,7 @@
     "name": "Keith Ballard",
     "species": "Reticulata",
     "size": "Large",
-    "description": "Pale Pink at center shading to Deep Pink on outer petals. Large, peony form to rose form double. Vigorous, upright, open growth. M. (Reticulata hybrid 'Suzanne Withers' \u00d7 Japonica 'Mrs. Bertha A. Harms'). (Aus. 1992 - Dr. R. Withers, Donvale, Vic.).",
+    "description": "Pale Pink at center shading to Deep Pink on outer petals. Large, peony form to rose form double. Vigorous, upright, open growth. M. (Reticulata hybrid 'Suzanne Withers' × Japonica 'Mrs. Bertha A. Harms'). (Aus. 1992 - Dr. R. Withers, Donvale, Vic.).",
     "image": "https://file2.iflora.cn/Upload/2021/1/20/S/03aefa11-f3f3-4884-80a4-77b81c590ca9.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Keith%20Ballard",
@@ -825,7 +825,7 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelsey%20Beasley"
   },
   {
-    "name": "Kenky\u00f4",
+    "name": "Kenkyô",
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White with a Pink cast with Golden anthers and Yellow filaments. Medium, single - inner petals curved. E. (Japan 1898)",
@@ -834,10 +834,10 @@
     "icr_url": null
   },
   {
-    "name": "Ki-No-J\u00f4man(ji). (yellow J\u00f4man Temple)",
+    "name": "Ki-No-Jôman(ji). (yellow Jôman Temple)",
     "species": "NRH",
     "size": "Small",
-    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica 'J\u00f4manji' \u00d7 Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
+    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica 'Jômanji' × Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
     "image": null,
     "acs_url": null,
     "icr_url": null
@@ -855,7 +855,7 @@
     "name": "Ki-No-Moto#95",
     "species": "Reticulata",
     "size": "Large",
-    "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' \u00d7 Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
+    "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-No-Moto%2395.jpg",
     "acs_url": null,
     "icr_url": null,
@@ -1041,7 +1041,7 @@
     "name": "Kia Ora",
     "species": "NRH",
     "size": "Large",
-    "description": "Phlox Pink. Large, semidouble. Dense, spreading growth. M. (Saluenensis \u00d7 Japonica 'Lotus'). (N.Z. 1962 - Jury).",
+    "description": "Phlox Pink. Large, semidouble. Dense, spreading growth. M. (Saluenensis × Japonica 'Lotus'). (N.Z. 1962 - Jury).",
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kia%20Ora"
@@ -1078,7 +1078,7 @@
     "name": "Kifukurin Benikarato (Yellow Bordered Red Anemone)",
     "species": "Japonica",
     "size": "Miniature to small",
-    "description": "Red. Miniature to small, anemone form flower with a tight, tufted center and five outer petals. Compact, upright growth with variegated Yellowish Green on Mid-Green leaves. M-L. (Sport of Japonica 'Benikarako'). (Replaces KI-FUKURIN-BENTEN). (Japan 1859 - Kant\u00f4 area).",
+    "description": "Red. Miniature to small, anemone form flower with a tight, tufted center and five outer petals. Compact, upright growth with variegated Yellowish Green on Mid-Green leaves. M-L. (Sport of Japonica 'Benikarako'). (Replaces KI-FUKURIN-BENTEN). (Japan 1859 - Kantô area).",
     "image": null,
     "acs_url": null,
     "icr_url": null
@@ -1425,7 +1425,7 @@
     "name": "Ko-Gyoku",
     "species": "Sasanqua",
     "size": "Small",
-    "description": "('Little Gem'; 'Kogyoku'). Pink bud opening Pinkish White. Small, rose form double. 4 mine left in chanter \u2022 3 : KOTSUZUMI (SMALL DRUM) - Formerly Vernalis - Peach Red, Small, single. (Japan 1977 - Matsumura and Yatsuhiro Maeda, Inasa Town, Shizuoka Prefecture). KYO-NISHIKI - Formerly Vernalis - White striped Pink. Unknown size, single.",
+    "description": "('Little Gem'; 'Kogyoku'). Pink bud opening Pinkish White. Small, rose form double. 4 mine left in chanter • 3 : KOTSUZUMI (SMALL DRUM) - Formerly Vernalis - Peach Red, Small, single. (Japan 1977 - Matsumura and Yatsuhiro Maeda, Inasa Town, Shizuoka Prefecture). KYO-NISHIKI - Formerly Vernalis - White striped Pink. Unknown size, single.",
     "image": null,
     "acs_url": null,
     "icr_url": null
@@ -1464,7 +1464,7 @@
     "name": "Kogane-Yuri",
     "species": "Reticulata",
     "size": "Small",
-    "description": "Light Yellow. Small, single tubular form. Medium, upright, slender growth. M. (Saluenensis-Reticulata hybrid 'Barbara Clark' \u00d7 Nitidissima). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
+    "description": "Light Yellow. Small, single tubular form. Medium, upright, slender growth. M. (Saluenensis-Reticulata hybrid 'Barbara Clark' × Nitidissima). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-Yuri.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-Yuri"
@@ -1511,7 +1511,7 @@
     "name": "Kon-Wabisuke",
     "species": "Japonica",
     "size": "Small",
-    "description": "Blackish Dark Red with Golden anthers and Pink filaments. Small, single cup shaped. M-L. (Japan 1937 - Hy\u00f4go Prefecture).",
+    "description": "Blackish Dark Red with Golden anthers and Pink filaments. Small, single cup shaped. M-L. (Japan 1937 - Hyôgo Prefecture).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kon-Wabisuke.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kon-wabisuke",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kon-Wabisuke"
@@ -1587,7 +1587,7 @@
     "name": "Koshi-No-Yoso'Oi (Niigata Adornment)",
     "species": "Japonica",
     "size": "Small to medium",
-    "description": "Blush Orchid Pink. Small to medium, formal double with small, rounded, shallow notched petals arranged in tiered or star shape. Upright, sturdy growth. E- M. (Japan 1970 - Mitsuroku Makino, Fuch\u00fb Town, Niigata Prefecture).",
+    "description": "Blush Orchid Pink. Small to medium, formal double with small, rounded, shallow notched petals arranged in tiered or star shape. Upright, sturdy growth. E- M. (Japan 1970 - Mitsuroku Makino, Fuchû Town, Niigata Prefecture).",
     "image": "https://file2.iflora.cn/Upload/2021/8/25/S/1b66b585-8182-40a7-89a0-b25d9d8d40da.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-yoso%27oi",
@@ -1606,7 +1606,7 @@
     "name": "Kosho-No-Reijin",
     "species": "Japonica",
     "size": "Medium",
-    "description": "Dark Peach colored whorls on a Milk-White background with Yellow anthers and White filaments. Medium, rose form double. Strong, spreading growth. M. (Japan 1979 - Hideyo Kat\u00f4, Niigata Prefecture).",
+    "description": "Dark Peach colored whorls on a Milk-White background with Yellow anthers and White filaments. Medium, rose form double. Strong, spreading growth. M. (Japan 1979 - Hideyo Katô, Niigata Prefecture).",
     "image": null,
     "acs_url": null,
     "icr_url": null
@@ -1625,7 +1625,7 @@
     "name": "Koto-No-Kaori",
     "species": "NRH",
     "size": "Small",
-    "description": "Rose Pink. Small, single. Average, upright, lacy growth. E-M. Fragrant. (Japonica T\u00f4kai x Lutchuensis). (Japan 1977 - Kaoru Hagiya, Niigata Prefecture).",
+    "description": "Rose Pink. Small, single. Average, upright, lacy growth. E-M. Fragrant. (Japonica Tôkai x Lutchuensis). (Japan 1977 - Kaoru Hagiya, Niigata Prefecture).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Koto-No-Kaori.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/koto-no-kaori",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koto-No-Kaori"
@@ -1753,7 +1753,7 @@
     "name": "Kubal Kain Supreme",
     "species": "Japonica",
     "size": "",
-    "description": "Variegated variation of 'Kubal Kain' - Ruby Red moir\u00e9 White. (U.S. 1967 - Shackelford).",
+    "description": "Variegated variation of 'Kubal Kain' - Ruby Red moiré White. (U.S. 1967 - Shackelford).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kubal%20Kain%20Supreme.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kubal-kain-supreme",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kubal%20Kain%20Variegated"
@@ -1847,7 +1847,7 @@
     "name": "Kuro Delight",
     "species": "Japonica",
     "size": "Medium to large",
-    "description": "Maroon Red. Medium to large, semidouble form. Average, spreading growth with unique foliage. M-L. Cold hardy to -10\u00b0F. (U.S. 1999 - Ackerman).",
+    "description": "Maroon Red. Medium to large, semidouble form. Average, spreading growth with unique foliage. M-L. Cold hardy to -10°F. (U.S. 1999 - Ackerman).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kuro%20Delight.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kuro-delight",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kuro%20Delight"
@@ -1884,7 +1884,7 @@
     "name": "Kwan Yuen",
     "species": "Reticulata",
     "size": "Large",
-    "description": "Coral Rose. Large, semidouble to rose form double. Strong, upright, compact growth. M. (Reticulata hybrid 'Buddha' \u00d7 Hybrid 'Coral Delight'). (U.S. 1981 - Charvet).",
+    "description": "Coral Rose. Large, semidouble to rose form double. Strong, upright, compact growth. M. (Reticulata hybrid 'Buddha' × Hybrid 'Coral Delight'). (U.S. 1981 - Charvet).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kwan%20Yuen.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kwan-yuen",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kwan%20Yuen"
@@ -1893,7 +1893,7 @@
     "name": "Kwan Yuen Special",
     "species": "Reticulata",
     "size": "Large",
-    "description": "Coral Rose variegated White. Large, semidouble to rose form double. Strong, upright, compact growth. M. (Reticulata hybrid 'Buddha' \u00d7 Hybrid 'Coral Delight). (U.S. 2009 - Charvet).",
+    "description": "Coral Rose variegated White. Large, semidouble to rose form double. Strong, upright, compact growth. M. (Reticulata hybrid 'Buddha' × Hybrid 'Coral Delight). (U.S. 2009 - Charvet).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kwan%20Yuen%20Special.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kwan-yuen-special",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kwan%20Yuen%20Special"
