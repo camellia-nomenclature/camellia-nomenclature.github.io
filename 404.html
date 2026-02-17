@@ -538,7 +538,7 @@
       results.innerHTML = `
         <div class="card">
           <div class="card-header">
-            <div style="display:flex;align-items:center;justify-content:space-between"><h2 style="margin:0">${c.name}</h2><button onclick="navigator.clipboard.writeText(location.origin+location.pathname+'#'+encodeURIComponent('${c.name.replace(/'/g,"\\'")}'));this.textContent='✓ Copied';setTimeout(()=>this.textContent='🔗 Share',1500)" style="background:rgba(255,255,255,0.2);border:1px solid rgba(255,255,255,0.5);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.75rem;color:#fff;white-space:nowrap;flex-shrink:0" title="Copy link">🔗 Share</button></div>
+            <div style="display:flex;align-items:center;justify-content:space-between"><h2 style="margin:0">${c.name}</h2><button onclick="navigator.clipboard.writeText(location.origin+location.pathname+'#'+encodeURIComponent('${c.name.replace(/'/g,"\\'")}'));this.textContent='✓ Copied';setTimeout(()=>this.textContent='🔗 Share',1500)" style="background:linear-gradient(135deg,#2d5016,#4a7c28);border:none;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:0.75rem;color:white;white-space:nowrap;flex-shrink:0" title="Copy link">🔗 Share</button></div>
           </div>
           <div class="card-body">
             <div class="card-info">
