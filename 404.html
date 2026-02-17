@@ -336,7 +336,7 @@
 </head>
 <body>
   <div class="header">
-    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><span style="font-size:1.5em">🌺</span> Camellia Nomenclature</a></h1>
+    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><span style="font-size:1.5em">🌺</span> Camellia Nomenclature</a></h1>
   </div>
 
   <div class="search-container">
@@ -478,9 +478,10 @@
         text.substring(idx + query.length);
     }
 
-    async function selectCamellia(c) {
+    async function selectCamellia(c, skipHash) {
       dropdown.classList.remove('active');
       search.value = c.name;
+      if (!skipHash) history.replaceState(null, '', '#' + encodeURIComponent(c.name));
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
       results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#888;">Loading details...</div></div>';
@@ -576,7 +577,13 @@
       }
     });
 
-    loadData();
+    loadData().then(() => {
+      const hash = decodeURIComponent(location.hash.slice(1));
+      if (hash && camellias.length) {
+        const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
+        if (match) selectCamellia(match, true);
+      }
+    });
   </script>
   <footer style="text-align:center;padding:2rem 1rem;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
     <strong>Disclaimer:</strong> This site is for personal and educational use only.<br>Information is provided as-is without warranty and may not be complete or current.
