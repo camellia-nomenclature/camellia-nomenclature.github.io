@@ -538,7 +538,7 @@
       results.innerHTML = `
         <div class="card">
           <div class="card-header">
-            <h2>${c.name}</h2>
+            <h2>${c.name} <button onclick="navigator.clipboard.writeText(location.origin+location.pathname+'#'+encodeURIComponent('${c.name.replace(/'/g,"\\'")}'));this.textContent='✓ Copied';setTimeout(()=>this.textContent='🔗',1500)" style="background:none;border:1px solid #ccc;border-radius:6px;padding:2px 8px;cursor:pointer;font-size:0.6em;vertical-align:middle;color:#888" title="Copy link">🔗</button></h2>
           </div>
           <div class="card-body">
             <div class="card-info">
