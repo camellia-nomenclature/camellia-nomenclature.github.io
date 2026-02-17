@@ -360,6 +360,16 @@
 
   <script>
     let camellias = [];
+    let camelliaNameSet = new Set();
+    function linkifyDescription(desc) {
+      if (!desc || !camelliaNameSet.size) return desc;
+      return desc.replace(/['"]([A-Z][^'"]{2,}?)['"]/g, (match, name) => {
+        if (camelliaNameSet.has(name.toLowerCase())) {
+          return match[0] + '<a href="#' + encodeURIComponent(name) + '" onclick="event.preventDefault();const m=camellias.find(c=>c.name.toLowerCase()===\'' + name.toLowerCase().replace(/'/g, "\\'") + '\');if(m)selectCamellia(m);" style="color:#2d5016;text-decoration:none;cursor:pointer;background:#eee;padding:1px 6px;border-radius:4px;border:1px solid #ddd;font-size:0.95em">' + name + '</a>' + match[match.length-1];
+        }
+        return match;
+      });
+    }
     const entryCache = {}; // letter -> {name: fullEntry}
 
     async function loadData() {
@@ -367,6 +377,7 @@
         const resp = await fetch('index.json');
         const index = await resp.json();
         camellias = index.map(e => ({ name: e.n || e.name, species: e.s || e.species }));
+        camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
         precomputeNorms();
       } catch (e) {
         console.error('Failed to load data', e);
@@ -552,7 +563,7 @@
               </div>
               <div class="info-row">
                 <div class="info-label">Description</div>
-                <div class="info-value">${c.description}</div>
+                <div class="info-value">${linkifyDescription(c.description)}</div>
               </div>
               ${c.acs_url ? `<div class="info-row">
                 <div class="info-label">ACS Link</div>
