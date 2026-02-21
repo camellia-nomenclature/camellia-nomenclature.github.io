@@ -225,8 +225,23 @@ def load_url_cache(path: Path, reset: bool) -> Dict[str, UrlResult]:
     raw = load_json(path)
     out: Dict[str, UrlResult] = {}
     for u, v in raw.items():
+        raw_name = v.get("chinese_name", [])
+        if isinstance(raw_name, list):
+            names = []
+            seen = set()
+            for n in raw_name:
+                if isinstance(n, str):
+                    n = normalize_text(n)
+                    if n and CJK_RE.search(n) and n not in seen:
+                        seen.add(n)
+                        names.append(n)
+        elif isinstance(raw_name, str):
+            names = split_candidate_names(raw_name)
+        else:
+            names = []
+
         out[u] = UrlResult(
-            chinese_name=v.get("chinese_name", []) if isinstance(v.get("chinese_name"), list) else [],
+            chinese_name=names,
             status=v.get("status", "failed"),
             http_status=v.get("http_status"),
             error=v.get("error", ""),
@@ -375,6 +390,9 @@ def main() -> int:
     last_progress = 0.0
     run_started = time.time()
 
+    pct0 = (i / total * 100.0) if total else 100.0
+    print(f"1 {i} of {total} ({pct0:.2f}%) has been processed.", flush=True)
+
     while i < total:
         if limit is not None and processed_this_run >= limit:
             break
@@ -404,11 +422,7 @@ def main() -> int:
         now = time.time()
         if last_progress == 0.0 or (now - last_progress >= args.progress_interval):
             pct = (i / total * 100.0) if total else 100.0
-            elapsed = max(0.001, now - run_started)
-            rate = processed_this_run / elapsed
-            remaining = max(0, total - i)
-            eta = format_eta(remaining / rate) if rate > 0 else "unknown"
-            print(f"progress: {i}/{total} ({pct:.2f}%), processed_this_run={processed_this_run}, eta={eta}", flush=True)
+            print(f"1 {i} of {total} ({pct:.2f}%) has been processed.", flush=True)
             last_progress = now
 
     updated = []
@@ -436,7 +450,7 @@ def main() -> int:
     dump_json(repo / "logs" / "icr_chinese_name_summary.json", summary)
 
     pct = (i / total * 100.0) if total else 100.0
-    print(f"progress: {i}/{total} ({pct:.2f}%)")
+    print(f"1 {i} of {total} ({pct:.2f}%) has been processed.")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 

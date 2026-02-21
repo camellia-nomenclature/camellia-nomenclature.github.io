@@ -4,14 +4,14 @@
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:45:53.713829+00:00"
+    "fetched_at": "2026-02-21T05:47:49.077301+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20P.%20Fatherree": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:02.210710+00:00"
+    "fetched_at": "2026-02-21T05:47:57.696353+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20W.%20Jessep": {
     "chinese_name": [
@@ -20,7 +20,7 @@
     "status": "ok",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:10.667153+00:00"
+    "fetched_at": "2026-02-21T05:48:06.088768+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby": {
     "chinese_name": [
@@ -29,7 +29,7 @@
     "status": "ok",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:19.182501+00:00"
+    "fetched_at": "2026-02-21T05:48:14.470445+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby%20Variegated": {
     "chinese_name": [
@@ -38,50 +38,73 @@
     "status": "ok",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:27.870480+00:00"
+    "fetched_at": "2026-02-21T05:48:23.216184+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbot%20Turner": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:36.496385+00:00"
+    "fetched_at": "2026-02-21T05:48:33.312783+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbotsleigh": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:45.118246+00:00"
+    "fetched_at": "2026-02-21T05:48:41.806170+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbott%27s%20Folly": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:46:53.652424+00:00"
+    "fetched_at": "2026-02-21T05:48:50.411678+00:00"
   },
   "https://camellia.iflora.cn/Cutivars/Detail?latin=Abe": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:47:02.204817+00:00"
+    "fetched_at": "2026-02-21T05:48:59.013303+00:00"
   },
-  "https://camellia.iflora.cn/Cutivars/Detail?latin=Emperor%20of%20Russia%20Variegated": {
-    "chinese_name": [
-      "苏联皇帝(斑"
-    ],
-    "status": "ok",
-    "http_status": 200,
-    "error": "",
-    "fetched_at": "2026-02-21T05:47:11.894744+00:00"
-  },
-  "https://camellia.iflora.cn/Cutivars/Detail?latin=Alice%20Cochran": {
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Accordion": {
     "chinese_name": [],
     "status": "missing",
     "http_status": 200,
     "error": "",
-    "fetched_at": "2026-02-21T05:47:20.400817+00:00"
+    "fetched_at": "2026-02-21T05:49:07.571400+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Ace%20High": {
+    "chinese_name": [
+      "崇敬"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:49:16.115544+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Ace%20of%20Hearts": {
+    "chinese_name": [
+      "红心王牌"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:49:24.622566+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Ack-Scent": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:49:33.221155+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Ack-Scent%20Spice": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:49:41.609427+00:00"
   }
 }
