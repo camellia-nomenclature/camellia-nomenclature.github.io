@@ -1,0 +1,716 @@
+{
+  "created_at": "2026-02-21T05:32:37.088030+00:00",
+  "updated_at": "2026-02-21T05:47:20.401244+00:00",
+  "next_index": 103,
+  "last_request_ts": 1771652840.400843,
+  "results": {
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20O.%20Ellison": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:32:39.009793+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20P.%20Fatherree": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:32:47.449315+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20W.%20Jessep": {
+      "chinese_name": "白衣天使",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:32:55.904950+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby": {
+      "chinese_name": "阿郎卢比",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:04.503827+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby%20Variegated": {
+      "chinese_name": "白斑阿郎卢比",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:12.894596+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbot%20Turner": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:21.434097+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbotsleigh": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:31.565061+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbott%27s%20Folly": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:39.970749+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Abe": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:48.672508+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Accordion": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:33:57.274132+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ace%20High": {
+      "chinese_name": "崇敬",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:05.806353+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ace%20of%20Hearts": {
+      "chinese_name": "红心王牌",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:14.375910+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ack-Scent": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:22.899933+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ack-Scent%20Spice": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:31.578582+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Acs%20Jubilee": {
+      "chinese_name": "五十华诞",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:40.099182+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ada%20Alice": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:48.622098+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ada%20Bird": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:34:57.179416+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ada%20Emily": {
+      "chinese_name": "爱妲爱美",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:05.780456+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ada%20Pieper": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:14.524433+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ada%20Sebire": {
+      "chinese_name": "爱达",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:23.086324+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Superba": {
+      "chinese_name": "玫瑰茶",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:31.643670+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adah%20Pearl": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:40.183329+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adalyn": {
+      "chinese_name": "精心彩绘",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:48.789320+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adam%20Grant": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:35:57.293720+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Addie%20Black": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:05.889918+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adele%20Clairmont": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:14.492195+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adele%20Sally": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:22.992285+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adelina%20Patti": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:31.791617+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adelina%20Sargent": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:40.397680+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adeyaka": {
+      "chinese_name": "鲜艳",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:48.958777+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Admiral%20Halsey": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:36:57.363244+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Kish%C5%AB-tsukasa": {
+      "chinese_name": "纪州司",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:05.892491+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Admiration%20%28Marchant%29": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:14.537015+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adolescent": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:23.064242+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adolphe%20Audusson": {
+      "chinese_name": "大阿道夫",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:32.112287+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adolphe%20Audusson%20Special": {
+      "chinese_name": "红斑大阿道夫",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:40.611696+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adolphe%20Audusson%20Variegated": {
+      "chinese_name": "白斑阿道夫",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:49.212774+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adorable": {
+      "chinese_name": "仰慕",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:37:57.672820+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adrene%20Wheeler": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:06.210544+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adrianne%20Ila": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:14.812498+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adrianne%27s%20Betty": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:23.413628+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Adrienne%20Boueres": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:31.859888+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Advent": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:40.315963+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Afterwards": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:48.837827+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aga": {
+      "chinese_name": "Japanese Name ：阿賀 あが",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:38:57.342486+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aglaia": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:05.838220+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Celestine": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:14.352928+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Farmer": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:22.908811+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Morris": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:33.042273+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20O.%20Solomon": {
+      "chinese_name": "艾格尼丝&#183;所罗门",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:41.545927+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Of%20The%20Oaks": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:50.146564+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Rowell": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:39:58.552139+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Agnes%20Rowell%20Variegated": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:07.145424+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ai-No-Izumi": {
+      "chinese_name": "爱之泉",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:15.645288+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Masayoshi": {
+      "chinese_name": "正义",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:24.291697+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aileen%20Wade%20Chastain": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:33.041309+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ailsa%20James": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:41.552425+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aitonia%20%28Magnolia%29": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:50.051168+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Aka-Wabisuke": {
+      "chinese_name": "Japanese Name ：赤佗助 あかわびすけ",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:40:58.491582+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Madame%20Picouline": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:06.947849+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Akashigata%20%28sasanqua%29": {
+      "chinese_name": "Japanese Name ：明石潟 あかしがた",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:15.550221+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Akatsuki-No-Kaori": {
+      "chinese_name": "晓香",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:24.222705+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Akebono": {
+      "chinese_name": "拂晓红",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:33.073844+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Al%20Ewan": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:41.539676+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Al%20Gunn": {
+      "chinese_name": "阿尔",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:50.029703+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alabama%20Dawn": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:41:58.583644+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alabama%20Tide": {
+      "chinese_name": "阿拉巴马泰德",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:07.176895+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alabama%27s%20Lurleen": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:15.802759+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alabaster": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:24.383325+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alan%20Davis": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:33.478250+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alarni": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:42.011755+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alaska": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:50.521878+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alaskan%20Belle": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:42:59.077443+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alaskan%20Queen": {
+      "chinese_name": "澳洲女皇",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:07.563142+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Fimbriata": {
+      "chinese_name": "秀雅白齿轮",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:16.081675+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Gigantea": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:24.637409+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Plena": {
+      "chinese_name": "白宝塔",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:33.685380+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Queen": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:42.216116+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Simplex": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:50.693687+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Splendens": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:43:59.286554+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Magnifica": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:07.851087+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Albert%20Horne": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:16.512363+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Albert%20Raymond": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:25.082985+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alberta%20Long": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:34.716486+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alberta%20Marie": {
+      "chinese_name": "欧博塔马力耶",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:43.332769+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Albino": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:44:51.818116+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alcyone%20Ostberg": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:00.270949+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alda%20Boll": {
+      "chinese_name": "火莲花",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:08.765897+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alean%20Miller": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:17.365362+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alena": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:25.829175+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alene%20Hood": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:35.393932+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alex%20Hinson": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:43.837757+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alexander%20Black": {
+      "chinese_name": "黑亚力",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:45:52.389501+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alexander%20Nowlin": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:01.040980+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alexandra%20Rose": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:09.642895+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alexis%20Smith": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:18.108219+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alfred%20Upson": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:26.495360+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alfus%20Johnson": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:36.521409+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Ali%20Hunt": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:45.072405+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alice": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:46:53.572375+00:00"
+    },
+    "https://camellia.iflora.cn/Cutivars/Detail?latin=Alice%20Allen": {
+      "chinese_name": "Japanese Name ：",
+      "status": "ok",
+      "http_status": 200,
+      "error": "",
+      "fetched_at": "2026-02-21T05:47:02.017063+00:00"
+    }
+  },
+  "total_urls": 6544
+}

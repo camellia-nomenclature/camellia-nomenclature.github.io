@@ -1,0 +1,87 @@
+{
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20O.%20Ellison": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:45:53.713829+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20P.%20Fatherree": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:02.210710+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=A.%20W.%20Jessep": {
+    "chinese_name": [
+      "白衣天使"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:10.667153+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby": {
+    "chinese_name": [
+      "阿郎卢比"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:19.182501+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Aaron%27s%20Ruby%20Variegated": {
+    "chinese_name": [
+      "白斑阿郎卢比"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:27.870480+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbot%20Turner": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:36.496385+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbotsleigh": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:45.118246+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Abbott%27s%20Folly": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:46:53.652424+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Abe": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:47:02.204817+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Emperor%20of%20Russia%20Variegated": {
+    "chinese_name": [
+      "苏联皇帝(斑"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:47:11.894744+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Alice%20Cochran": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-21T05:47:20.400817+00:00"
+  }
+}
