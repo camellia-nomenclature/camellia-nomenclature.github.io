@@ -363,14 +363,36 @@
     let camelliaNameSet = new Set();
     function linkifyDescription(desc) {
       if (!desc || !camelliaNameSet.size) return desc;
-      return desc.replace(/['"]([A-Z](?:[^'"]+|'(?=[a-z]))+)['"]/g, (match, name) => {
+
+      const linkName = (displayName) => {
+        const safeLower = displayName.toLowerCase().replace(/'/g, "\\'");
+        return '<a href="#' + encodeURIComponent(displayName) + '" onclick="event.preventDefault();const m=camellias.find(c=>c.name.toLowerCase()===\'' + safeLower + '\');if(m)selectCamellia(m);" style="color:#2d5016;text-decoration:none;cursor:pointer;background:#eee;padding:1px 6px;border-radius:4px;border:1px solid #ddd;font-size:0.95em">' + displayName + '</a>';
+      };
+
+      // 1) Standard quoted aliases: 'Alias' or "Alias"
+      let out = desc.replace(/['"]([A-Z](?:[^'"]+|'(?=[a-z]))+)['"]/g, (match, name) => {
         const trimmed = name.replace(/[\s?.!,]+$/, '');
         const lookupName = (trimmed.length >= 3 && camelliaNameSet.has(trimmed.toLowerCase())) ? trimmed : name;
         if (camelliaNameSet.has(lookupName.toLowerCase())) {
-          return match[0] + '<a href="#' + encodeURIComponent(lookupName) + '" onclick="event.preventDefault();const m=camellias.find(c=>c.name.toLowerCase()===\'' + lookupName.toLowerCase().replace(/'/g, "\\'") + '\');if(m)selectCamellia(m);" style="color:#2d5016;text-decoration:none;cursor:pointer;background:#eee;padding:1px 6px;border-radius:4px;border:1px solid #ddd;font-size:0.95em">' + lookupName + '</a>' + match[match.length-1];
+          return match[0] + linkName(lookupName) + match[match.length - 1];
         }
         return match;
       });
+
+      // 2) Fallback for malformed alias lists in parentheses, e.g. (Aloha'; 'Beni-Arejishi; 'Callie')
+      out = out.replace(/\(([^()]*;[^()]*)\)/g, (whole, inner) => {
+        const parts = inner.split(';');
+        const mapped = parts.map(part => {
+          const token = part.trim();
+          const core = token.replace(/^[\s'"‘’]+|[\s'"‘’.,!?]+$/g, '');
+          if (!core || core.length < 3) return part;
+          if (!camelliaNameSet.has(core.toLowerCase())) return part;
+          return part.replace(core, linkName(core));
+        });
+        return '(' + mapped.join(';') + ')';
+      });
+
+      return out;
     }
     const entryCache = {}; // letter -> {name: fullEntry}
 
