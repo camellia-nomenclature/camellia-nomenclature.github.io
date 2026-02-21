@@ -392,6 +392,13 @@
         return '(' + mapped.join(';') + ')';
       });
 
+      // 3) "See 'Name'." cross-reference fallback (supports missing/mixed quotes)
+      out = out.replace(/\bSee\s+['‘"]?([A-Z][A-Za-z0-9 .'-]{1,80})['’"]?\./g, (whole, refName) => {
+        const cleaned = refName.trim().replace(/[\s?.!,]+$/, '');
+        if (!camelliaNameSet.has(cleaned.toLowerCase())) return whole;
+        return 'See ' + linkName(cleaned) + '.';
+      });
+
       return out;
     }
     const entryCache = {}; // letter -> {name: fullEntry}
