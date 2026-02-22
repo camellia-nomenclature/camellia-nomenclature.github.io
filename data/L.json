@@ -863,16 +863,6 @@
     "chinese_name": []
   },
   {
-    "name": "Large Osmanthus Leaf",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "('Daguiye' - Chinese Name). Deep Carmine. Large, semidouble to peony form. M-L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Lallarook",
     "species": "Japonica",
     "size": "Medium to large",
@@ -960,6 +950,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lane%20Moss%20Hagood.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lane-moss-hagood",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lane%20Moss%20Hagood",
+    "chinese_name": []
+  },
+  {
+    "name": "Large Osmanthus Leaf",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "('Daguiye' - Chinese Name). Deep Carmine. Large, semidouble to peony form. M-L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1082,7 +1082,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Superba",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "玫瑰茶"
+    ]
   },
   {
     "name": "Laura E. Greggs",
@@ -2409,16 +2411,6 @@
     "chinese_name": []
   },
   {
-    "name": "Lilac Red",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Dingxianghong' - Chinese Name). Carmine. Large to very large, semidouble with wavy petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Lila Rosa",
     "species": "Japonica",
     "size": "Medium",
@@ -2446,6 +2438,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilac%20Lady.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lilac-lady",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilac%20Lady",
+    "chinese_name": []
+  },
+  {
+    "name": "Lilac Red",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Dingxianghong' - Chinese Name). Carmine. Large to very large, semidouble with wavy petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

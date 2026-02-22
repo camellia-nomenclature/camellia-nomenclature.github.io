@@ -612,6 +612,17 @@
     "chinese_name": []
   },
   {
+    "name": "Interlude",
+    "species": "Formerly Hiemalis",
+    "size": "Small",
+    "description": "Light Pink. Small, rose form double to formal double.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Interlude.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/interlude",
+    "icr_url": null,
+    "imageSource": "socal",
+    "chinese_name": []
+  },
+  {
     "name": "Interval",
     "species": "Reticulata",
     "size": "Large to very large",
@@ -623,16 +634,6 @@
     "chinese_name": []
   },
   {
-    "name": "Intoxicatingly Beautiful Red",
-    "species": "Reticulata",
-    "size": "Very large",
-    "description": "('Zuijiaohong' - Chinese Name). Carmine. Very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Intoscent",
     "species": "NRH",
     "size": "Large",
@@ -640,6 +641,16 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Intoscent",
+    "chinese_name": []
+  },
+  {
+    "name": "Intoxicatingly Beautiful Red",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "('Zuijiaohong' - Chinese Name). Carmine. Very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

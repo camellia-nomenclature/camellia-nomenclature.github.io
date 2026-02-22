@@ -171,16 +171,6 @@
     "chinese_name": []
   },
   {
-    "name": "Jade Striped Red",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Yudaihong' - Chinese Name). White veined Crimson. Large to very large, semidouble with irregular petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Jack McCASKILL",
     "species": "Japonica",
     "size": "",
@@ -339,6 +329,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jade%20Snow.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jade%20Snow",
+    "chinese_name": []
+  },
+  {
+    "name": "Jade Striped Red",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Yudaihong' - Chinese Name). White veined Crimson. Large to very large, semidouble with irregular petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1612,16 +1612,6 @@
     "chinese_name": []
   },
   {
-    "name": "Jewel Flower",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "(Baoshihua' - Chinese Name). Crimson. Large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Jessie Bryson",
     "species": "Japonica",
     "size": "Medium",
@@ -1730,6 +1720,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jewel%20Box.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jewel-box",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jewel%20Box",
+    "chinese_name": []
+  },
+  {
+    "name": "Jewel Flower",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "(Baoshihua' - Chinese Name). Crimson. Large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

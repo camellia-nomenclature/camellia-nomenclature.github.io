@@ -1,15 +1,5 @@
 [
   {
-    "name": "Caw",
-    "species": "Japonica",
-    "size": "Medium",
-    "description": "Pink. Medium, formal double. Average, of Japonica 'Pink Clouds'). (U.S. 1957 - Fisher).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "D'Iberville",
     "species": "Japonica",
     "size": "Small",
@@ -248,16 +238,6 @@
     "chinese_name": []
   },
   {
-    "name": "Dali Butterfly Wing",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Dali Diechi' - Chinese Name). Carmine. Large to very large, semidouble with irregular upright petals. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Daisy Banks",
     "species": "Japonica",
     "size": "Medium",
@@ -305,6 +285,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dale%20Fitzgerald.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dale-fitzgerald",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dale%20Fitzgerald",
+    "chinese_name": []
+  },
+  {
+    "name": "Dali Butterfly Wing",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Dali Diechi' - Chinese Name). Carmine. Large to very large, semidouble with irregular upright petals. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -898,17 +888,6 @@
     "chinese_name": []
   },
   {
-    "name": "Dazzler",
-    "species": "Formerly Hiemalis",
-    "size": "Medium",
-    "description": "Rose Red. Medium, semidouble. 7 mine left in chanter DECEMBER ROSE - Formerly Vernalis - Rose Pink. Medium to large, semidouble. Vigorous, spreading, upright growth. E-L. (Not a Sasanqua). (U.S. 2002 - Nuccio's).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dazzler.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dazzler",
-    "icr_url": null,
-    "imageSource": "socal",
-    "chinese_name": []
-  },
-  {
     "name": "Dayinhong",
     "species": "Reticulata",
     "size": "",
@@ -927,6 +906,17 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dazzler.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dazzle",
+    "chinese_name": []
+  },
+  {
+    "name": "Dazzler",
+    "species": "Formerly Hiemalis",
+    "size": "Medium",
+    "description": "Rose Red. Medium, semidouble. 7 mine left in chanter DECEMBER ROSE - Formerly Vernalis - Rose Pink. Medium to large, semidouble. Vigorous, spreading, upright growth. E-L. (Not a Sasanqua). (U.S. 2002 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dazzler.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dazzler",
+    "icr_url": null,
+    "imageSource": "socal",
     "chinese_name": []
   },
   {
@@ -1223,16 +1213,6 @@
     "chinese_name": []
   },
   {
-    "name": "Dellie McCaw",
-    "species": "Japonica",
-    "size": "Medium",
-    "description": "Pink. Medium, formal double. Average, compact growth. M. (U.S. 1960 - McCaw).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Deep Purple Dream",
     "species": "Japonica",
     "size": "Medium",
@@ -1310,6 +1290,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Delightfully%20Pink.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/delightfully-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Delightfully%20Pink",
+    "chinese_name": []
+  },
+  {
+    "name": "Dellie McCaw",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Pink. Medium, formal double. Average, compact growth. M. (U.S. 1960 - McCaw).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -2201,7 +2191,9 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Donckelarii.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/donckelarii",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Masayoshi",
-    "chinese_name": []
+    "chinese_name": [
+      "正义"
+    ]
   },
   {
     "name": "Donckelarii Red",
@@ -2836,16 +2828,6 @@
     "chinese_name": []
   },
   {
-    "name": "Double Bowl",
-    "species": "Reticulata",
-    "size": "Medium to large",
-    "description": "('Lianrui' - Chinese Name). Light Pink. Medium to large, semidouble. M. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Dottie Lynch",
     "species": "Japonica",
     "size": "Large",
@@ -2853,6 +2835,16 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dottie%20Lynch",
+    "chinese_name": []
+  },
+  {
+    "name": "Double Bowl",
+    "species": "Reticulata",
+    "size": "Medium to large",
+    "description": "('Lianrui' - Chinese Name). Light Pink. Medium to large, semidouble. M. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

@@ -1065,7 +1065,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Plena",
-    "chinese_name": []
+    "chinese_name": [
+      "白宝塔"
+    ]
   },
   {
     "name": "White Pearl",
@@ -2025,7 +2027,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Masayoshi",
-    "chinese_name": []
+    "chinese_name": [
+      "正义"
+    ]
   },
   {
     "name": "Winter Carnival",

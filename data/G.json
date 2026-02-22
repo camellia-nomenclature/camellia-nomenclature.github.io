@@ -1117,6 +1117,16 @@
     "chinese_name": []
   },
   {
+    "name": "Gin Yô-Tsubaki (Silver Leaf Camellia)",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Peach Red with Yellow anthers and White filaments. Small, single. E-M. (Japan 1979 - Shu Ôta, Izu Ohshima).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
+    "chinese_name": []
+  },
+  {
     "name": "Gin-No-Zai (Silver Baton)",
     "species": "Sasanqua",
     "size": "Medium",
@@ -1175,16 +1185,6 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginny%20Ellsworth",
-    "chinese_name": []
-  },
-  {
-    "name": "Gin Yô-Tsubaki (Silver Leaf Camellia)",
-    "species": "Japonica",
-    "size": "Small",
-    "description": "Peach Red with Yellow anthers and White filaments. Small, single. E-M. (Japan 1979 - Shu Ôta, Izu Ohshima).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1653,26 +1653,6 @@
     "chinese_name": []
   },
   {
-    "name": "Golden Heart Pearl",
-    "species": "Reticulata",
-    "size": "Very large",
-    "description": "('Jinxin Baozhu' - Chinese Name). Carmine. Very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA)",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
-    "name": "Golden Stamen Hibiscus",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "(Jinrui Furong' - Chinese Name). Light Pink shaded deeper in center. Large, semidouble. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Golden Glow",
     "species": "NRH",
     "size": "Medium",
@@ -1680,6 +1660,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Golden%20Glow.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/golden-glow",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Glow",
+    "chinese_name": []
+  },
+  {
+    "name": "Golden Heart Pearl",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "('Jinxin Baozhu' - Chinese Name). Carmine. Very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA)",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1700,6 +1690,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Golden%20Spangles.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/golden-spangles",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Spangles",
+    "chinese_name": []
+  },
+  {
+    "name": "Golden Stamen Hibiscus",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "(Jinrui Furong' - Chinese Name). Light Pink shaded deeper in center. Large, semidouble. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1864,17 +1864,6 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gossamer%20Wings",
-    "chinese_name": []
-  },
-  {
-    "name": "Green's Blues",
-    "species": "Formerly Hiemalis",
-    "size": "Miniature to small",
-    "description": "Violet Purple, aging to Blue; the unique color is not dependent on cold weather. Miniature to small, rose form double. (U.S. 2004 - Bobby Green, Green Nurseries, Fairhope, AL).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Green%27s%20Blues.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greens-blues",
-    "icr_url": null,
-    "imageSource": "socal",
     "chinese_name": []
   },
   {
@@ -2460,7 +2449,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Emperor%20of%20Russia%20Variegated",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "苏联皇帝(斑"
+    ]
   },
   {
     "name": "Great Peach Blossom",
@@ -2470,6 +2461,17 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Great%20Peach%20Blossom",
+    "chinese_name": []
+  },
+  {
+    "name": "Green's Blues",
+    "species": "Formerly Hiemalis",
+    "size": "Miniature to small",
+    "description": "Violet Purple, aging to Blue; the unique color is not dependent on cold weather. Miniature to small, rose form double. (U.S. 2004 - Bobby Green, Green Nurseries, Fairhope, AL).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Green%27s%20Blues.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greens-blues",
+    "icr_url": null,
+    "imageSource": "socal",
     "chinese_name": []
   },
   {

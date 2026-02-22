@@ -12,9 +12,12 @@ from typing import Dict, List, Optional
 from urllib.parse import urlparse
 
 import requests
+from bs4 import BeautifulSoup
 
 ICR_HOST = "camellia.iflora.cn"
 CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
+KANA_RE = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff]")
+LATIN_RE = re.compile(r"[A-Za-z]")
 TAG_RE = re.compile(r"<[^>]+>", re.S)
 WS_RE = re.compile(r"\s+")
 
@@ -51,6 +54,40 @@ def normalize_text(s: str) -> str:
     return s
 
 
+def clean_candidate_name(name: str) -> str:
+    name = normalize_text(name)
+    name = name.strip(" \t\r\n:：()[]{}·•")
+    return name
+
+
+def is_valid_chinese_name(name: str) -> bool:
+    if not name:
+        return False
+    if not CJK_RE.search(name):
+        return False
+    # Chinese-only requirement: reject Japanese kana and romanized/Latin text.
+    if KANA_RE.search(name) or LATIN_RE.search(name):
+        return False
+    lowered = name.lower()
+    blocked = [
+        "japanese name",
+        "chinese name",
+        "meaning",
+        "synonym",
+        "scientific name",
+        "species/combination",
+        "description",
+    ]
+    if any(b in lowered for b in blocked):
+        return False
+    # Exclude citation-like lines (years/pages/books), keep short name-like tokens.
+    if any(ch.isdigit() for ch in name) and len(name) > 8:
+        return False
+    if len(name) > 20:
+        return False
+    return True
+
+
 def split_candidate_names(value: str) -> List[str]:
     value = normalize_text(value)
     if not value:
@@ -59,12 +96,8 @@ def split_candidate_names(value: str) -> List[str]:
     out: List[str] = []
     seen = set()
     for p in parts:
-        name = p.strip(" \t\r\n:：()[]{}")
-        if not name:
-            continue
-        if "Japanese Name" in name or "Meaning" in name or "Synonym" in name:
-            continue
-        if not CJK_RE.search(name):
+        name = clean_candidate_name(p)
+        if not is_valid_chinese_name(name):
             continue
         if name not in seen:
             seen.add(name)
@@ -76,40 +109,43 @@ def extract_chinese_names(html_doc: str) -> List[str]:
     names: List[str] = []
     seen = set()
 
-    # Pattern 1: <p><b>Chinese Name</b>：...</p>
+    def add_many(vals: List[str]):
+        for n in vals:
+            if n not in seen:
+                seen.add(n)
+                names.append(n)
+
+    soup = BeautifulSoup(html_doc, "html.parser")
+
+    # Primary Chinese name next to "Chinese Name" label.
+    for b in soup.find_all("b"):
+        label = normalize_text(b.get_text(" ", strip=True)).lower()
+        if label != "chinese name":
+            continue
+        p = b.parent
+        if p is None:
+            continue
+        raw = p.get_text(" ", strip=True)
+        raw = re.sub(r"^\s*Chinese\s*Name\s*[：:]?\s*", "", raw, flags=re.I)
+        add_many(split_candidate_names(raw))
+
+    # Synonyms section: include all CJK name-like entries.
+    syn_div = soup.find(id="synonyms")
+    if syn_div:
+        # Prefer italic spans inside synonym list rows.
+        for span in syn_div.find_all(["span", "i", "em"]):
+            txt = clean_candidate_name(span.get_text(" ", strip=True))
+            if is_valid_chinese_name(txt):
+                add_many(split_candidate_names(txt))
+
+
+    # Regex fallback for legacy page variants.
     p_pat = re.compile(
         r"<p[^>]*>\s*(?:<[^>]+>\s*)*Chinese\s*Name\s*(?:</[^>]+>\s*)*[：:]\s*(.*?)</p>",
         re.I | re.S,
     )
     for m in p_pat.finditer(html_doc):
-        for n in split_candidate_names(m.group(1)):
-            if n not in seen:
-                seen.add(n)
-                names.append(n)
-
-    # Pattern 2: table-row style ...Chinese Name...</td><td>...</td>
-    td_pat = re.compile(
-        r"<td[^>]*>\s*(?:<[^>]+>\s*)*Chinese\s*Name\s*(?:</[^>]+>\s*)*</td>\s*<td[^>]*>(.*?)</td>",
-        re.I | re.S,
-    )
-    for m in td_pat.finditer(html_doc):
-        for n in split_candidate_names(m.group(1)):
-            if n not in seen:
-                seen.add(n)
-                names.append(n)
-
-    # Pattern 3: text fallback constrained after label and before next known label.
-    text = normalize_text(html_doc)
-    fallback = re.finditer(
-        r"Chinese\s*Name\s*[：:]\s*(.+?)(?=\b(?:Japanese\s*Name|Meaning|Synonym|Scientific\s*Name|Species/Combination|Id)\b|$)",
-        text,
-        flags=re.I,
-    )
-    for m in fallback:
-        for n in split_candidate_names(m.group(1)):
-            if n not in seen:
-                seen.add(n)
-                names.append(n)
+        add_many(split_candidate_names(m.group(1)))
 
     return names
 
@@ -126,21 +162,32 @@ def ensure_chinese_name_field(records: List[dict]) -> bool:
     changed = False
     for r in records:
         cur = r.get("chinese_name")
+
+        if isinstance(cur, str):
+            cleaned = split_candidate_names(cur)
+            if r.get("chinese_name") != cleaned:
+                r["chinese_name"] = cleaned
+                changed = True
+            continue
+
         if not isinstance(cur, list):
             r["chinese_name"] = []
             changed = True
-        else:
-            cleaned = []
-            seen = set()
-            for x in cur:
-                if isinstance(x, str):
-                    x = normalize_text(x)
-                    if x and x not in seen:
-                        seen.add(x)
-                        cleaned.append(x)
-            if cleaned != cur:
-                r["chinese_name"] = cleaned
-                changed = True
+            continue
+
+        cleaned = []
+        seen = set()
+        for x in cur:
+            if isinstance(x, str):
+                # Reuse parser so placeholders/non-Chinese text collapse to [].
+                for n in split_candidate_names(x):
+                    if n not in seen:
+                        seen.add(n)
+                        cleaned.append(n)
+
+        if cleaned != cur:
+            r["chinese_name"] = cleaned
+            changed = True
     return changed
 
 
@@ -222,7 +269,10 @@ def save_checkpoints(paths: List[Path], cp: dict) -> None:
 def load_url_cache(path: Path, reset: bool) -> Dict[str, UrlResult]:
     if reset or (not path.exists()):
         return {}
-    raw = load_json(path)
+    try:
+        raw = load_json(path)
+    except Exception:
+        return {}
     out: Dict[str, UrlResult] = {}
     for u, v in raw.items():
         raw_name = v.get("chinese_name", [])
@@ -231,10 +281,10 @@ def load_url_cache(path: Path, reset: bool) -> Dict[str, UrlResult]:
             seen = set()
             for n in raw_name:
                 if isinstance(n, str):
-                    n = normalize_text(n)
-                    if n and CJK_RE.search(n) and n not in seen:
-                        seen.add(n)
-                        names.append(n)
+                    for c in split_candidate_names(n):
+                        if c not in seen:
+                            seen.add(c)
+                            names.append(c)
         elif isinstance(raw_name, str):
             names = split_candidate_names(raw_name)
         else:
@@ -274,9 +324,18 @@ def apply_result_map(records: List[dict], result_map: Dict[str, UrlResult]) -> b
         if isinstance(u, str):
             u = u.strip()
             if u in result_map:
-                names = list(result_map[u].chinese_name)
-                if r.get("chinese_name") != names:
-                    r["chinese_name"] = names
+                existing = r.get("chinese_name") if isinstance(r.get("chinese_name"), list) else []
+                merged: List[str] = []
+                seen = set()
+                for src in (existing, list(result_map[u].chinese_name)):
+                    for n in src:
+                        if isinstance(n, str):
+                            for c in split_candidate_names(n):
+                                if c not in seen:
+                                    seen.add(c)
+                                    merged.append(c)
+                if r.get("chinese_name") != merged:
+                    r["chinese_name"] = merged
                     changed = True
     return changed
 
@@ -311,6 +370,11 @@ def format_eta(seconds: float) -> str:
     if m > 0:
         return f"{m}m {sec}s"
     return f"{sec}s"
+
+
+def print_progress_line(done: int, total: int) -> None:
+    pct = (done / total * 100.0) if total else 100.0
+    print(f"1 {done} of {total} ({pct:.2f}%) has been processed.", flush=True)
 
 
 def candidate_json_paths(repo: Path) -> List[Path]:
@@ -385,13 +449,13 @@ def main() -> int:
     session.headers.update({"User-Agent": "camellia-chinese-name-array-enricher/2.0"})
 
     i = int(checkpoint.get("next_index", 0))
+    run_start_index = i
     processed_this_run = 0
     limit = args.max_urls if args.max_urls > 0 else None
     last_progress = 0.0
     run_started = time.time()
 
-    pct0 = (i / total * 100.0) if total else 100.0
-    print(f"1 {i} of {total} ({pct0:.2f}%) has been processed.", flush=True)
+    print_progress_line(i, total)
 
     while i < total:
         if limit is not None and processed_this_run >= limit:
@@ -421,8 +485,7 @@ def main() -> int:
 
         now = time.time()
         if last_progress == 0.0 or (now - last_progress >= args.progress_interval):
-            pct = (i / total * 100.0) if total else 100.0
-            print(f"1 {i} of {total} ({pct:.2f}%) has been processed.", flush=True)
+            print_progress_line(i, total)
             last_progress = now
 
     updated = []
@@ -449,8 +512,7 @@ def main() -> int:
     }
     dump_json(repo / "logs" / "icr_chinese_name_summary.json", summary)
 
-    pct = (i / total * 100.0) if total else 100.0
-    print(f"1 {i} of {total} ({pct:.2f}%) has been processed.")
+    print_progress_line(i, total)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0
 

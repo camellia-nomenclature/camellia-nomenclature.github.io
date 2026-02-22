@@ -760,7 +760,9 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fimbriata.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fimbriata",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fimbriata",
-    "chinese_name": []
+    "chinese_name": [
+      "秀雅白齿轮"
+    ]
   },
   {
     "name": "Fimbriata Alba",
@@ -771,7 +773,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fimbriata",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "秀雅白齿轮"
+    ]
   },
   {
     "name": "Fimbriata Superba",
@@ -938,17 +942,6 @@
     "chinese_name": []
   },
   {
-    "name": "First Class Red",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Yipinhong' - Chinese Name). Light Red. Large to very large, semidouble with irregular center petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/First%20Class%20Red.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/first-class-red",
-    "icr_url": null,
-    "imageSource": "socal",
-    "chinese_name": []
-  },
-  {
     "name": "Fire Dance",
     "species": "Japonica",
     "size": "Medium",
@@ -1078,6 +1071,17 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/First%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/first-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=First%20Blush",
+    "chinese_name": []
+  },
+  {
+    "name": "First Class Red",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Yipinhong' - Chinese Name). Light Red. Large to very large, semidouble with irregular center petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/First%20Class%20Red.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/first-class-red",
+    "icr_url": null,
+    "imageSource": "socal",
     "chinese_name": []
   },
   {
@@ -1252,16 +1256,6 @@
     "chinese_name": []
   },
   {
-    "name": "Flat Dali Camellia",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Pingban Dali Cha' - Chinese Name). Carmine. Large to very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Flashdance",
     "species": "Japonica",
     "size": "Large",
@@ -1270,6 +1264,16 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Flashdance",
     "imageSource": "icr",
+    "chinese_name": []
+  },
+  {
+    "name": "Flat Dali Camellia",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Pingban Dali Cha' - Chinese Name). Carmine. Large to very large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

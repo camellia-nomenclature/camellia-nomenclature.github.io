@@ -2120,16 +2120,6 @@
     "chinese_name": []
   },
   {
-    "name": "Hiryû (Australian)",
-    "species": "Formerly Hiemalis",
-    "size": "Small",
-    "description": "See 'Kanjiro'. 5 mine left in chanter HIRYÜ (FLYING DRAGON) - Formerly Vernalis - ('Hiryo'; 'Red Bird'). Deep Crimson Red. Small, rose form double. HIRYU-NISHIKI (FLYING DRAGON BROCADE) - Formerly Vernalis - ('Hiryo- Nishiki). Crimson splashed White. Unknown size, rose form double. HOSHI-HIRYÜ - Formerly Vernalis - Crimson dotted White. (Sport of Sasanqua 'Hiryû\").",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Hiodoshi",
     "species": "Japonica",
     "size": "Medium to large",
@@ -2169,6 +2159,16 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hiroshima%20F.%20N.",
+    "chinese_name": []
+  },
+  {
+    "name": "Hiryû (Australian)",
+    "species": "Formerly Hiemalis",
+    "size": "Small",
+    "description": "See 'Kanjiro'. 5 mine left in chanter HIRYÜ (FLYING DRAGON) - Formerly Vernalis - ('Hiryo'; 'Red Bird'). Deep Crimson Red. Small, rose form double. HIRYU-NISHIKI (FLYING DRAGON BROCADE) - Formerly Vernalis - ('Hiryo- Nishiki). Crimson splashed White. Unknown size, rose form double. HOSHI-HIRYÜ - Formerly Vernalis - Crimson dotted White. (Sport of Sasanqua 'Hiryû\").",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -2882,17 +2882,6 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
-  },
-  {
-    "name": "Interlude",
-    "species": "Formerly Hiemalis",
-    "size": "Small",
-    "description": "Light Pink. Small, rose form double to formal double.",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Interlude.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/interlude",
-    "icr_url": null,
-    "imageSource": "socal",
     "chinese_name": []
   },
   {

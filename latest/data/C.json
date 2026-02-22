@@ -872,7 +872,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kish%C5%AB-tsukasa",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "纪州司"
+    ]
   },
   {
     "name": "Captain Martin's Favorite",
@@ -5631,6 +5633,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Emperor%20of%20Russia%20Variegated",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "苏联皇帝(斑"
+    ]
   }
 ]

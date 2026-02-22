@@ -479,16 +479,6 @@
     "chinese_name": []
   },
   {
-    "name": "Welcoming Spring Red",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "('Yingchunhong' - Chinese Name). Crimson shaded White. Large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Webb Stanley",
     "species": "Japonica",
     "size": "Medium",
@@ -576,6 +566,16 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Weeping%20Maiden",
+    "chinese_name": []
+  },
+  {
+    "name": "Welcoming Spring Red",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "('Yingchunhong' - Chinese Name). Crimson shaded White. Large, semidouble with wavy petals. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1065,7 +1065,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Plena",
-    "chinese_name": []
+    "chinese_name": [
+      "白宝塔"
+    ]
   },
   {
     "name": "White Pearl",
@@ -1175,36 +1177,6 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=White%20Satin",
-    "chinese_name": []
-  },
-  {
-    "name": "Wild Heart",
-    "species": "Formerly Hiemalis",
-    "size": "Small to medium",
-    "description": "Pale Lavender outer petals with Light Lavender heart shading to Darker Purplish Pink center with Yellow anthers and Yellow filaments. Small to medium, semidouble. Vigorous, upright, dense growth. E-M. (Color sport of Sasanqua 'Kanjiro'). (U.S. 2016 - Glenn Read, Lucedale, MS)",
-    "image": null,
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/wild-heart",
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
-    "name": "William Lanier Hunt",
-    "species": "Formerly Hiemalis",
-    "size": "Medium",
-    "description": "Dark Orchid Pink. Medium, peony form. M. (U.S. 1986 - Parks). WINIFRED HILLS - Formerly Vernalis - Purple Red. Medium, anemone",
-    "image": null,
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/william-lanier-hunt",
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
-    "name": "Winsome",
-    "species": "Formerly Hiemalis",
-    "size": "Medium",
-    "description": "White edged Pink. Medium, semidouble to anemone form. Vigorous, bushy, spreading growth. M. (Sasanqua 'Shishi- Gashira' × Sasanqua \"Tovre'). (U.S. 1955 - McCaskill).",
-    "image": null,
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/winsome",
-    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1404,6 +1376,16 @@
     "description": "White. Small, single.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Wild%20Form%20Single.jpg",
     "acs_url": null,
+    "icr_url": null,
+    "chinese_name": []
+  },
+  {
+    "name": "Wild Heart",
+    "species": "Formerly Hiemalis",
+    "size": "Small to medium",
+    "description": "Pale Lavender outer petals with Light Lavender heart shading to Darker Purplish Pink center with Yellow anthers and Yellow filaments. Small to medium, semidouble. Vigorous, upright, dense growth. E-M. (Color sport of Sasanqua 'Kanjiro'). (U.S. 2016 - Glenn Read, Lucedale, MS)",
+    "image": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/wild-heart",
     "icr_url": null,
     "chinese_name": []
   },
@@ -1658,6 +1640,16 @@
     "chinese_name": []
   },
   {
+    "name": "William Lanier Hunt",
+    "species": "Formerly Hiemalis",
+    "size": "Medium",
+    "description": "Dark Orchid Pink. Medium, peony form. M. (U.S. 1986 - Parks). WINIFRED HILLS - Formerly Vernalis - Purple Red. Medium, anemone",
+    "image": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/william-lanier-hunt",
+    "icr_url": null,
+    "chinese_name": []
+  },
+  {
     "name": "William Paulk",
     "species": "Japonica",
     "size": "Large",
@@ -1735,16 +1727,6 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/William%20Sellers.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/william-sellers",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=William%20Sellers",
-    "chinese_name": []
-  },
-  {
-    "name": "Willow Wand",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "('Liuye Yinhung' - Chinese Name). Light Orchid Pink. Large, rose form double to semidouble with irregular, wavy petals of silky, velvety texture. Vigorous, upright growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -1865,6 +1847,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Willmetta.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/willmetta",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Willmeta",
+    "chinese_name": []
+  },
+  {
+    "name": "Willow Wand",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "('Liuye Yinhung' - Chinese Name). Light Orchid Pink. Large, rose form double to semidouble with irregular, wavy petals of silky, velvety texture. Vigorous, upright growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -2025,6 +2017,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Masayoshi",
+    "chinese_name": [
+      "正义"
+    ]
+  },
+  {
+    "name": "Winsome",
+    "species": "Formerly Hiemalis",
+    "size": "Medium",
+    "description": "White edged Pink. Medium, semidouble to anemone form. Vigorous, bushy, spreading growth. M. (Sasanqua 'Shishi- Gashira' × Sasanqua \"Tovre'). (U.S. 1955 - McCaskill).",
+    "image": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/winsome",
+    "icr_url": null,
     "chinese_name": []
   },
   {

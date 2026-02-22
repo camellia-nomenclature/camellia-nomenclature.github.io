@@ -1,15 +1,5 @@
 [
   {
-    "name": "Moore",
-    "species": "Japonica",
-    "size": "Small to medium",
-    "description": "Deep Fluorescent Pink in the outer petals with Lighter Pink interior petals with Yellow anthers and Yellowish filaments. Small to medium, formal double to rose form double with pointed petals. Average, upright, dense growth. M. (U.S. 2020 - Larry Heard, Mobile, AL).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "R. B. Zachry",
     "species": "Japonica",
     "size": "Medium to large",
@@ -585,16 +575,6 @@
     "chinese_name": []
   },
   {
-    "name": "Red Bowl",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "('Hongwan Cha' - Chinese Name). Crimson. Large, single of cupped form. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Rebel Viney",
     "species": "Japonica",
     "size": "Medium",
@@ -734,6 +714,16 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Red%20Blossom.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/red-blossom",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Red%20Blossom",
+    "chinese_name": []
+  },
+  {
+    "name": "Red Bowl",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "('Hongwan Cha' - Chinese Name). Crimson. Large, single of cupped form. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -922,16 +912,6 @@
     "chinese_name": []
   },
   {
-    "name": "Red Jewel",
-    "species": "Reticulata",
-    "size": "Large",
-    "description": "('Baoyuhong' - Chinese Name). Deep Pink. Large, semidouble with wavy petals and a few center petaloids. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Red Ensign",
     "species": "Japonica",
     "size": "Large",
@@ -1030,6 +1010,16 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Red%20Jade%20%28Parks%29",
+    "chinese_name": []
+  },
+  {
+    "name": "Red Jewel",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "('Baoyuhong' - Chinese Name). Deep Pink. Large, semidouble with wavy petals and a few center petaloids. E. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {
@@ -2366,17 +2356,6 @@
     "chinese_name": []
   },
   {
-    "name": "Rose Of Autumn",
-    "species": "Formerly Hiemalis",
-    "size": "Medium",
-    "description": "Glowing Rose Pink. Medium, rose form double opening to many petaled semidouble.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose%20Of%20Autumn.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rose-of-autumn",
-    "icr_url": null,
-    "imageSource": "accs",
-    "chinese_name": []
-  },
-  {
     "name": "Robyn Jay",
     "species": "Reticulata",
     "size": "Large",
@@ -2790,6 +2769,17 @@
     "chinese_name": []
   },
   {
+    "name": "Rose Of Autumn",
+    "species": "Formerly Hiemalis",
+    "size": "Medium",
+    "description": "Glowing Rose Pink. Medium, rose form double opening to many petaled semidouble.",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose%20Of%20Autumn.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rose-of-autumn",
+    "icr_url": null,
+    "imageSource": "accs",
+    "chinese_name": []
+  },
+  {
     "name": "Rose Of Dawn",
     "species": "Japonica",
     "size": "",
@@ -2910,7 +2900,9 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rosea%20Superba%20[United%20States].jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rosea-superba",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Superba",
-    "chinese_name": []
+    "chinese_name": [
+      "玫瑰茶"
+    ]
   },
   {
     "name": "Rosea Superba Variegated",
@@ -3077,16 +3069,6 @@
     "chinese_name": []
   },
   {
-    "name": "Rosy Osmanthus Leaf",
-    "species": "Reticulata",
-    "size": "Large to very large",
-    "description": "('Meihong Guiye' - Chinese Name). Deep Pink. Large to very large, semidouble with occasional wavy petals. Average growth. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": []
-  },
-  {
     "name": "Rosularis",
     "species": "Japonica",
     "size": "Large",
@@ -3116,6 +3098,16 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosy%20Morn",
     "imageSource": "icr",
+    "chinese_name": []
+  },
+  {
+    "name": "Rosy Osmanthus Leaf",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "('Meihong Guiye' - Chinese Name). Deep Pink. Large to very large, semidouble with occasional wavy petals. Average growth. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": []
   },
   {

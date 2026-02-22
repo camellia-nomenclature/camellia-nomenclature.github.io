@@ -1,10 +1,28 @@
 {
-  "timestamp": "2026-02-21T05:49:37.642804+00:00",
+  "timestamp": "2026-02-21T05:56:35.149549+00:00",
   "total_unique_icr_urls": 6544,
-  "processed_unique_icr_urls": 1,
-  "found_urls_with_chinese_names": 0,
-  "missing_urls": 1,
+  "processed_unique_icr_urls": 172,
+  "found_urls_with_chinese_names": 51,
+  "missing_urls": 121,
   "failed_urls": 0,
-  "next_index": 1,
-  "updated_files": []
+  "next_index": 172,
+  "updated_files": [
+    "camellias.json",
+    "index.json",
+    "data/camellias.json",
+    "latest/index.json",
+    "latest/data/camellias.json",
+    "data/A.json",
+    "data/C.json",
+    "data/F.json",
+    "data/G.json",
+    "data/V.json",
+    "data/W.json",
+    "latest/data/A.json",
+    "latest/data/C.json",
+    "latest/data/F.json",
+    "latest/data/G.json",
+    "latest/data/V.json",
+    "latest/data/W.json"
+  ]
 }

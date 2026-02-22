@@ -1082,7 +1082,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Superba",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "玫瑰茶"
+    ]
   },
   {
     "name": "Laura E. Greggs",
