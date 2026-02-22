@@ -217,121 +217,6 @@
     .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
     .empty-state p { font-size: 1.1rem; }
 
-    /* Bug Report Floating Button */
-    #bugReportBtn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: linear-gradient(135deg, #2d5016, #4a7c28);
-      color: white;
-      border: none;
-      border-radius: 50px;
-      padding: 12px 20px;
-      font-size: 14px;
-      cursor: pointer;
-      box-shadow: 0 4px 15px rgba(45, 80, 22, 0.3);
-      font-family: 'Georgia', serif;
-      font-weight: bold;
-      z-index: 1000;
-      transition: all 0.3s ease;
-    }
-    #bugReportBtn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(45, 80, 22, 0.4);
-    }
-
-    /* Bug Report Modal */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 2000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-    }
-    .modal-content {
-      background: #f5f0eb;
-      margin: 5% auto;
-      padding: 0;
-      border-radius: 15px;
-      width: 90%;
-      max-width: 500px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-      overflow: hidden;
-    }
-    .modal-header {
-      background: linear-gradient(135deg, #2d5016, #4a7c28);
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .modal-header h2 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-    .modal-body {
-      padding: 20px;
-    }
-    .modal textarea {
-      width: 100%;
-      min-height: 120px;
-      padding: 15px;
-      border: 2px solid #ddd;
-      border-radius: 10px;
-      font-family: 'Georgia', serif;
-      font-size: 14px;
-      resize: vertical;
-      outline: none;
-      margin-bottom: 15px;
-    }
-    .modal textarea:focus {
-      border-color: #4a7c28;
-    }
-    .modal-actions {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-end;
-    }
-    .btn {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      font-family: 'Georgia', serif;
-      font-size: 14px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .btn-primary {
-      background: linear-gradient(135deg, #2d5016, #4a7c28);
-      color: white;
-    }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #1a2f0d, #2d4a16);
-    }
-    .btn-secondary {
-      background: #ccc;
-      color: #666;
-    }
-    .btn-secondary:hover {
-      background: #bbb;
-    }
-    .feedback {
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 8px;
-      text-align: center;
-      display: none;
-    }
-    .feedback.success {
-      background: #d4edaa;
-      color: #2d5016;
-    }
-    .feedback.error {
-      background: #fdd;
-      color: #b00;
-    }
   </style>
 </head>
 <body>
@@ -370,7 +255,7 @@
       };
 
       // 1) Standard quoted aliases: 'Alias' or "Alias"
-      let out = desc.replace(/['"]([A-Z](?:[^'"]+|'(?=[a-z]))+)['"]/g, (match, name) => {
+      let out = desc.replace(/['"]([A-Z][^'"]*(?:'(?=[a-z])[^'"]*)*)['"]/g, (match, name) => {
         const trimmed = name.replace(/[\s?.!,]+$/, '');
         const lookupName = (trimmed.length >= 3 && camelliaNameSet.has(trimmed.toLowerCase())) ? trimmed : name;
         if (camelliaNameSet.has(lookupName.toLowerCase())) {
@@ -405,7 +290,7 @@
 
     async function loadData() {
       try {
-        const resp = await fetch('index.json');
+        const resp = await fetch('data/index.json');
         const index = await resp.json();
         camellias = index.map(e => ({ name: e.n || e.name, species: e.s || e.species }));
         camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
@@ -418,18 +303,24 @@
     async function fetchFullEntry(name) {
       const letter = name[0].toUpperCase();
       if (!entryCache[letter]) {
-        const resp = await fetch(`data/${letter}.json`);
-        const arr = await resp.json();
-        // Support both array and object formats
-        if (Array.isArray(arr)) {
-          const obj = {};
-          arr.forEach(e => { obj[e.name] = e; });
-          entryCache[letter] = obj;
-        } else {
-          entryCache[letter] = arr;
+        try {
+          const resp = await fetch(`data/${letter}.json`);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+          const arr = await resp.json();
+          // Support both array and object formats
+          if (Array.isArray(arr)) {
+            const obj = {};
+            arr.forEach(e => { obj[e.name] = e; });
+            entryCache[letter] = obj;
+          } else {
+            entryCache[letter] = arr;
+          }
+        } catch (e) {
+          console.error('fetchFullEntry error:', e);
+          return null;
         }
       }
-      return entryCache[letter][name];
+      return entryCache[letter]?.[name] ?? null;
     }
 
     const search = document.getElementById('search');
@@ -528,8 +419,10 @@
       document.getElementById('homeSection').style.display = 'none';
       results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#888;">Loading details...</div></div>';
 
+      const savedName = c.name;
+      try {
       const full = await fetchFullEntry(c.name);
-      if (!full) { results.innerHTML = '<div class="card"><div class="card-body">Entry not found.</div></div>'; return; }
+      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2>${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; return; }
       c = full;
 
       // Image URL: use stored image field first, fallback to SoCal pattern
@@ -559,7 +452,13 @@
       if (hasImage) {
         setTimeout(() => {
           const img = new Image();
+          const imgFallback = () => {
+            const ph = document.getElementById('img-placeholder');
+            if (ph) ph.innerHTML = '🌸<br>No photo available';
+          };
+          const loadTimer = setTimeout(imgFallback, 10000);
           img.onload = () => {
+            clearTimeout(loadTimer);
             const ph = document.getElementById('img-placeholder');
             if (ph) {
               img.alt = c.name;
@@ -570,8 +469,8 @@
             if (cap) cap.style.display = 'block';
           };
           img.onerror = () => {
-            const ph = document.getElementById('img-placeholder');
-            if (ph) ph.innerHTML = '🌸<br>No photo available';
+            clearTimeout(loadTimer);
+            imgFallback();
           };
           img.src = imgUrl;
         }, 50);
@@ -611,6 +510,10 @@
             </div>
           </div>
         </div>`;
+      } catch (err) {
+        console.error('selectCamellia error:', err);
+        results.innerHTML = `<div class="card"><div class="card-header"><h2>${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
+      }
     }
 
     document.addEventListener('click', (e) => {
@@ -646,110 +549,5 @@
     <strong>Disclaimer:</strong> This site is for personal and educational use only.<br>Information is provided as-is without warranty and may not be complete or current.
   </footer>
 
-  <!-- Bug Report Button -->
-  <button id="bugReportBtn" onclick="openBugReportModal()">🐛 Report Bug</button>
-
-  <!-- Bug Report Modal -->
-  <div id="bugReportModal" class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2>🐛 Report Bug</h2>
-      </div>
-      <div class="modal-body">
-        <textarea id="bugDescription" placeholder="Describe the bug you encountered..."></textarea>
-        <div id="feedback" class="feedback"></div>
-        <div class="modal-actions">
-          <button type="button" class="btn btn-secondary" onclick="closeBugReportModal()">Cancel</button>
-          <button type="button" class="btn btn-primary" onclick="submitBugReport()">Submit</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Firebase SDK -->
-  <script type="module">
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
-    import { getFirestore, collection, addDoc } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-
-    // Firebase config
-    const firebaseConfig = {
-      apiKey: "AIzaSyCV5U_BAM_I__fVr6snIV-KjYdCd1IMnBQ",
-      authDomain: "camellia-nomenclature-app.firebaseapp.com",
-      projectId: "camellia-nomenclature-app",
-      storageBucket: "camellia-nomenclature-app.firebasestorage.app",
-      messagingSenderId: "3622019419",
-      appId: "1:3622019419:web:863422d118c652a71bba7e"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-
-    // Make Firebase functions globally available
-    window.submitBugReportToFirestore = async (text) => {
-      try {
-        await addDoc(collection(db, 'bugReports'), {
-          text: text,
-          timestamp: new Date().toISOString(),
-          userAgent: navigator.userAgent,
-          url: window.location.href
-        });
-        return { success: true };
-      } catch (error) {
-        console.error('Error submitting bug report:', error);
-        return { success: false, error: error.message };
-      }
-    };
-  </script>
-
-  <script>
-    function openBugReportModal() {
-      document.getElementById('bugReportModal').style.display = 'block';
-      document.getElementById('bugDescription').focus();
-    }
-
-    function closeBugReportModal() {
-      document.getElementById('bugReportModal').style.display = 'none';
-      document.getElementById('bugDescription').value = '';
-      document.getElementById('feedback').style.display = 'none';
-    }
-
-    function submitBugReport() {
-      const description = document.getElementById('bugDescription').value.trim();
-      
-      if (!description) {
-        showFeedback('Please describe the bug you encountered.', 'error');
-        return;
-      }
-
-      // Show success feedback, then close after a brief delay
-      showFeedback('Bug report submitted — thank you!', 'success');
-      window.submitBugReportToFirestore(description).catch(error => {
-        console.error('Bug report save failed:', error);
-      });
-      setTimeout(() => closeBugReportModal(), 1500);
-    }
-
-    function showFeedback(message, type) {
-      const feedback = document.getElementById('feedback');
-      feedback.textContent = message;
-      feedback.className = `feedback ${type}`;
-      feedback.style.display = 'block';
-    }
-
-    // Close modal when clicking outside
-    window.addEventListener('click', (e) => {
-      if (e.target === document.getElementById('bugReportModal')) {
-        closeBugReportModal();
-      }
-    });
-
-    // Close modal with Escape key
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        closeBugReportModal();
-      }
-    });
-  </script>
 </body>
 </html>

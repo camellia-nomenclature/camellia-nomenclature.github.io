@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bug Reports - Camellia Lookup</title>
+  <title>Known Issues - Camellia Nomenclature</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -19,257 +19,95 @@
       text-align: center;
       color: white;
     }
-    .header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 1px;
-    }
-    .header p {
-      opacity: 0.85;
-      font-size: 0.95rem;
-    }
-    .header a {
-      color: white;
-      text-decoration: underline;
-      opacity: 0.9;
-    }
-    .header a:hover {
-      opacity: 1;
-    }
+    .header h1 { font-size: 2rem; margin-bottom: 0.5rem; letter-spacing: 1px; }
+    .header p { opacity: 0.85; font-size: 0.95rem; }
+    .header a { color: white; text-decoration: underline; opacity: 0.9; }
+    .header a:hover { opacity: 1; }
     .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 2rem 1rem;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
-    .stats {
-      text-align: center;
-      color: #888;
-      font-size: 0.85rem;
-      margin-bottom: 2rem;
-    }
-    .bug-report {
+    .bug-card {
       background: white;
       border-radius: 12px;
       box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-      margin-bottom: 1.5rem;
-      overflow: hidden;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1rem;
     }
-    .bug-report-header {
-      background: linear-gradient(135deg, #2d5016, #4a7c28);
-      color: white;
-      padding: 1rem 1.5rem;
+    .bug-header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.5rem;
     }
-    .bug-report-id {
-      font-size: 0.9rem;
-      opacity: 0.9;
+    .bug-header h3 { font-size: 1rem; flex: 1; }
+    .badge {
+      font-size: 0.75rem;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-family: sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
-    .bug-report-date {
-      font-size: 0.85rem;
-      opacity: 0.8;
-    }
-    .bug-report-body {
-      padding: 1.5rem;
-    }
-    .bug-report-text {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-    .bug-report-meta {
-      border-top: 1px solid #f0ece8;
-      padding-top: 1rem;
-      font-size: 0.8rem;
-      color: #666;
-    }
-    .bug-report-meta div {
-      margin-bottom: 0.3rem;
-    }
-    .loading {
+    .badge-open { background: #fff3cd; color: #856404; }
+    .badge-closed { background: #d4edaa; color: #2d5016; }
+    .bug-date { font-size: 0.8rem; color: #999; margin-bottom: 0.4rem; }
+    .bug-detail { font-size: 0.9rem; color: #555; line-height: 1.6; }
+    .empty {
       text-align: center;
-      padding: 3rem;
-      color: #888;
-    }
-    .spinner {
-      width: 24px; height: 24px;
-      border: 3px solid #ddd;
-      border-top-color: #6a8a4a;
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto 1rem;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .empty-state {
-      text-align: center;
-      padding: 4rem 1rem;
-      color: #aaa;
-    }
-    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
-    .error {
-      background: #fdd;
-      color: #b00;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-      text-align: center;
+      padding: 3rem 1rem;
+      color: #999;
+      font-size: 1.1rem;
     }
     @media (max-width: 600px) {
       .header { padding: 1.2rem 1rem; }
       .header h1 { font-size: 1.8rem; }
-      .container { padding: 1rem; }
-      .bug-report-header {
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: flex-start;
-      }
-      .bug-report-body {
-        padding: 1rem;
-      }
+      .container { margin: 1rem auto; }
+      .bug-card { padding: 1rem; }
     }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1><span style="font-size:1.5em">🐛</span> Bug Reports</h1>
-    <p>Community feedback for <a href="/">Camellia Nomenclature</a></p>
+    <h1><span style="font-size:1.5em">🐛</span> Known Issues</h1>
+    <p>Tracked issues for <a href="/">Camellia Nomenclature</a></p>
   </div>
 
-  <div class="container">
-    <div id="stats" class="stats">Loading bug reports...</div>
-    
-    <div id="loading" class="loading">
-      <div class="spinner"></div>
-      Loading bug reports...
-    </div>
-    
-    <div id="error" class="error" style="display: none;"></div>
-    
-    <div id="reports-container"></div>
+  <div class="container" id="bugList">
+    <div class="empty">Loading...</div>
   </div>
-
-  <!-- Firebase SDK -->
-  <script type="module">
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
-    import { getFirestore, collection, getDocs, query, orderBy } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-
-    // Firebase config
-    const firebaseConfig = {
-      apiKey: "AIzaSyCV5U_BAM_I__fVr6snIV-KjYdCd1IMnBQ",
-      authDomain: "camellia-nomenclature-app.firebaseapp.com",
-      projectId: "camellia-nomenclature-app",
-      storageBucket: "camellia-nomenclature-app.firebasestorage.app",
-      messagingSenderId: "3622019419",
-      appId: "1:3622019419:web:863422d118c652a71bba7e"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-
-    async function loadBugReports() {
-      try {
-        const q = query(collection(db, 'bugReports'), orderBy('timestamp', 'desc'));
-        const querySnapshot = await getDocs(q);
-        
-        const reports = [];
-        querySnapshot.forEach((doc) => {
-          reports.push({ id: doc.id, ...doc.data() });
-        });
-
-        renderBugReports(reports);
-      } catch (error) {
-        console.error('Error loading bug reports:', error);
-        showError('Error loading bug reports. Please refresh the page to try again.');
-      }
-    }
-
-    function renderBugReports(reports) {
-      const loading = document.getElementById('loading');
-      const container = document.getElementById('reports-container');
-      const stats = document.getElementById('stats');
-
-      loading.style.display = 'none';
-
-      if (reports.length === 0) {
-        container.innerHTML = `
-          <div class="empty-state">
-            <div class="icon">🐛</div>
-            <p>No bug reports yet. <a href="/">Go back to search</a></p>
-          </div>
-        `;
-        stats.textContent = 'No bug reports submitted yet';
-        return;
-      }
-
-      stats.textContent = `${reports.length} bug report${reports.length !== 1 ? 's' : ''} submitted`;
-
-      container.innerHTML = reports.map((report, index) => {
-        const date = new Date(report.timestamp);
-        const formattedDate = date.toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        });
-
-        const browser = getBrowserFromUserAgent(report.userAgent);
-        
-        return `
-          <div class="bug-report">
-            <div class="bug-report-header">
-              <div class="bug-report-id">Report #${reports.length - index}</div>
-              <div class="bug-report-date">${formattedDate}</div>
-            </div>
-            <div class="bug-report-body">
-              <div class="bug-report-text">${escapeHtml(report.text)}</div>
-              <div class="bug-report-meta">
-                <div><strong>Browser:</strong> ${browser}</div>
-                <div><strong>URL:</strong> ${report.url || 'Unknown'}</div>
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
-    }
-
-    function showError(message) {
-      const loading = document.getElementById('loading');
-      const error = document.getElementById('error');
-      
-      loading.style.display = 'none';
-      error.textContent = message;
-      error.style.display = 'block';
-    }
-
-    function getBrowserFromUserAgent(userAgent) {
-      if (!userAgent) return 'Unknown';
-      
-      if (userAgent.includes('Chrome')) return 'Chrome';
-      if (userAgent.includes('Firefox')) return 'Firefox';
-      if (userAgent.includes('Safari') && !userAgent.includes('Chrome')) return 'Safari';
-      if (userAgent.includes('Edge')) return 'Edge';
-      if (userAgent.includes('Opera')) return 'Opera';
-      
-      return 'Other';
-    }
-
-    function escapeHtml(text) {
-      const div = document.createElement('div');
-      div.textContent = text;
-      return div.innerHTML;
-    }
-
-    // Load reports on page load
-    loadBugReports();
-  </script>
 
   <footer style="text-align:center;padding:2rem 1rem;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
     <a href="/">← Back to Camellia Search</a>
   </footer>
+
+  <script>
+    (async () => {
+      const container = document.getElementById('bugList');
+      try {
+        const resp = await fetch('data/bugs.json');
+        if (!resp.ok) throw new Error('Failed to load');
+        const bugs = await resp.json();
+        if (!bugs.length) {
+          container.innerHTML = '<div class="empty">No known issues. Everything looks good!</div>';
+          return;
+        }
+        container.innerHTML = bugs.map(b => `
+          <div class="bug-card">
+            <div class="bug-header">
+              <h3>#${b.id} — ${b.summary}</h3>
+              <span class="badge badge-${b.status}">${b.status}</span>
+            </div>
+            <div class="bug-date">${b.date}</div>
+            ${b.detail ? `<div class="bug-detail">${b.detail}</div>` : ''}
+          </div>
+        `).join('');
+      } catch (e) {
+        container.innerHTML = '<div class="empty">Could not load issues.</div>';
+      }
+    })();
+  </script>
 </body>
 </html>

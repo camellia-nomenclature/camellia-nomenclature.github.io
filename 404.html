@@ -376,7 +376,7 @@
 
     async function loadData() {
       try {
-        const resp = await fetch('index.json');
+        const resp = await fetch('data/index.json');
         const index = await resp.json();
         camellias = index.map(e => ({ name: e.n || e.name, species: e.s || e.species }));
         camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
