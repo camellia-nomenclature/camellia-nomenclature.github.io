@@ -39847,5 +39847,333 @@
     "http_status": 200,
     "error": "",
     "fetched_at": "2026-02-22T02:52:41.399313+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Buggeln": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:52:50.102455+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Carter": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:52:58.726155+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Gordy": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:07.521320+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Gorham": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:16.220385+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Mims": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:24.823361+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Nixon": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:33.519280+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Nixon%20Pink": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:42.224117+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Turner": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:50.843666+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richard%20Ward": {
+    "chinese_name": [
+      "理查德",
+      "理查沃得"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:53:59.532177+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Richfield": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:08.235292+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rick%20Wood": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:16.832114+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rilyn%20Boueres": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:25.539250+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rio%20Rita": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:34.150549+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rio%20Rita%20%28Magnolia%20Gardens%29": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:42.846395+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rish%20Plant": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:54:51.473669+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rita%20Blythe": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:00.079371+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rita%20Thornton": {
+    "chinese_name": [
+      "丽达",
+      "云贵高原"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:08.753819+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=River%20Farm%20Beauty": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:17.479454+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rivers%20Yerger": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:26.053135+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rivers%20Yerger%20Pink": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:34.658093+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rivers%20Yerger%20Pink%20Variegated": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:43.210685+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Riverside": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:55:51.956874+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rob%20Roy": {
+    "chinese_name": [
+      "美少女"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:00.667992+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Rob%27s%20Pink": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:09.371072+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robbie": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:17.990647+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robbie%20Anne": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:26.678003+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Casamajor": {
+    "chinese_name": [
+      "罗伯特",
+      "黑色牙买加"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:35.383042+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Casamajor%20Variegated": {
+    "chinese_name": [
+      "黑色牙买加(斑"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:44.086870+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Dunn": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:56:52.708545+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20E.%20Lee": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:01.390500+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Ehrhart": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:10.094169+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Fowler": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:18.827998+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Hendrick": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:27.536765+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Henty": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:36.206877+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Hills": {
+    "chinese_name": [
+      "玉麒麟"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:44.873741+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Lowell%20Cooper": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:57:53.515208+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Mcneese": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:02.124264+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Norton": {
+    "chinese_name": [
+      "花领巾"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:10.729888+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Train": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:19.415292+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Train%20Variegated": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:28.077172+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%20Walker%20Wilder": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:36.725448+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Robert%27s%20Tina": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:45.431617+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Roberta": {
+    "chinese_name": [],
+    "status": "missing",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:58:54.039972+00:00"
+  },
+  "https://camellia.iflora.cn/Cutivars/Detail?latin=Roberta%20Hardison": {
+    "chinese_name": [
+      "紫禁城",
+      "罗伯塔哈迪花"
+    ],
+    "status": "ok",
+    "http_status": 200,
+    "error": "",
+    "fetched_at": "2026-02-22T02:59:02.729693+00:00"
   }
 }
