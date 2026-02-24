@@ -44263,10 +44263,11 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Deep Pink bordered White. Medium, formal double, imbricated petals. Vigorous, upright growth. M-L. (Japonica 'Benihagoromo' × Japonica 'Etenraku'). (Japan 2007 - Soshin Harai).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mahoroba.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mahoroba",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mahoroba",
-    "chinese_name": []
+    "chinese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Mai Tai",
