@@ -232,7 +232,7 @@
 
   <div id="searchHints" style="max-width:480px;margin:0.2rem auto 0;padding:0 1rem;color:#666;font-size:0.9rem;">
     • Spaces, apostrophes, and capitalization don't matter.<br>
-    • Just type any part of the name.
+    • Just type any part of the name.<br>
   </div>
   <div id="homeSection" style="text-align:center;margin-top:1.5rem;">
     <div class="home-flower" style="font-size:4rem;">🌸</div>
@@ -292,7 +292,14 @@
       try {
         const resp = await fetch('data/index.json');
         const index = await resp.json();
-        camellias = index.map(e => ({ name: e.n || e.name, species: e.s || e.species }));
+        camellias = index.map(e => {
+          const cn = e.chinese_name;
+          return {
+            name: e.n || e.name,
+            species: e.s || e.species,
+            cn: Array.isArray(cn) && cn.length ? cn : []
+          };
+        });
         camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
         precomputeNorms();
         const speciesCount = new Set(camellias.map(c => c.species)).size;
@@ -347,6 +354,9 @@
 
     function precomputeNorms() { camellias.forEach(c => { c._norm = normalize(c.name); c._coll = collapse(c._norm); }); }
 
+    // Detect if query contains CJK characters
+    const hasCJK = s => /[\u4e00-\u9fff]/.test(s);
+
     search.addEventListener('input', () => {
       updateClearBtn();
       const raw = search.value.trim().toLowerCase();
@@ -359,14 +369,44 @@
 
       // Typeahead: match normalized; use space-collapsed only for longer queries (avoid false positives)
       const useCollapsed = qc.length >= 2 && !q.includes(' ');
-      matches = camellias
-        .filter(c => c._norm.includes(q) || (useCollapsed && c._coll.startsWith(qc)) || c.name.toLowerCase().includes(raw))
-        .sort((a, b) => {
-          const aStarts = a._norm.startsWith(q) ? 0 : 1;
-          const bStarts = b._norm.startsWith(q) ? 0 : 1;
-          return aStarts - bStarts || a.name.localeCompare(b.name);
-        })
-        .slice(0, 20);
+      const isCJK = hasCJK(raw);
+
+      matches = [];
+      for (const c of camellias) {
+        let matchedCn = null;
+        // English matching
+        const engMatch = c._norm.includes(q) || (useCollapsed && c._coll.startsWith(qc)) || c.name.toLowerCase().includes(raw);
+        // Chinese matching: prefer exact > prefix > substring
+        if (isCJK && c.cn.length) {
+          let best = null, bestRank = 4;
+          for (const alias of c.cn) {
+            if (alias === raw) { best = alias; break; }
+            if (alias.startsWith(raw) && bestRank > 2) { best = alias; bestRank = 2; }
+            else if (alias.includes(raw) && bestRank > 3) { best = alias; bestRank = 3; }
+          }
+          matchedCn = best;
+        }
+        if (engMatch || matchedCn) {
+          matches.push({ ...c, _matchedCn: matchedCn });
+        }
+      }
+
+      matches.sort((a, b) => {
+        if (isCJK) {
+          // Exact CN match first, then prefix, then contains
+          const aExact = a._matchedCn === raw ? 0 : 1;
+          const bExact = b._matchedCn === raw ? 0 : 1;
+          if (aExact !== bExact) return aExact - bExact;
+          const aPrefix = a._matchedCn && a._matchedCn.startsWith(raw) ? 0 : 1;
+          const bPrefix = b._matchedCn && b._matchedCn.startsWith(raw) ? 0 : 1;
+          if (aPrefix !== bPrefix) return aPrefix - bPrefix;
+        }
+        const aStarts = a._norm.startsWith(q) ? 0 : 1;
+        const bStarts = b._norm.startsWith(q) ? 0 : 1;
+        return aStarts - bStarts || a.name.localeCompare(b.name);
+      });
+
+      matches = matches.slice(0, 20);
 
       selectedIdx = -1;
       renderDropdown();
@@ -393,12 +433,13 @@
         dropdown.classList.remove('active');
         return;
       }
-      dropdown.innerHTML = matches.map((c, i) =>
-        `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" data-index="${i}">
-          <div class="name">${highlight(c.name, search.value)}</div>
+      dropdown.innerHTML = matches.map((c, i) => {
+        const cnHint = c._matchedCn ? `<span style="color:#888;margin-left:0.5em;font-weight:normal">${highlight(c._matchedCn, search.value)}</span>` : '';
+        return `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" data-index="${i}">
+          <div class="name">${highlight(c.name, search.value)}${cnHint}</div>
           <div class="species">${c.species}</div>
-        </div>`
-      ).join('');
+        </div>`;
+      }).join('');
       dropdown.querySelectorAll('.dropdown-item').forEach(el => {
         el.addEventListener('click', () => selectCamellia(matches[parseInt(el.dataset.index)]));
       });
