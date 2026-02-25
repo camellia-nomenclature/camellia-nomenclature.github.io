@@ -18,7 +18,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Qingkou",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "磬口"
+    ]
   },
   {
     "name": "Quaintance",
@@ -28,7 +30,9 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Quaintance.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-q/quaintance",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Quaintance",
-    "chinese_name": []
+    "chinese_name": [
+      "奎恩腾斯"
+    ]
   },
   {
     "name": "Quaker Lady",
@@ -58,7 +62,10 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Queen%20Bee.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-q/queen-bee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Queen%20Bee",
-    "chinese_name": []
+    "chinese_name": [
+      "蜂后",
+      "女王蜂"
+    ]
   },
   {
     "name": "Queen Bessie",
@@ -68,7 +75,9 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Queen%20Bessie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-q/queen-bessie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Queen%20Bessie",
-    "chinese_name": []
+    "chinese_name": [
+      "白斯王后"
+    ]
   },
   {
     "name": "Queen Diana",
@@ -78,7 +87,12 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Queen%20Diana.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-q/queen-diana",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Queen%20Diana",
-    "chinese_name": []
+    "chinese_name": [
+      "黛安娜王后",
+      "戴安娜王妃",
+      "戴安娜皇后",
+      "戴妃"
+    ]
   },
   {
     "name": "Queen Juliana",
@@ -89,7 +103,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Southern%20Charm",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "犹安娜皇后"
+    ]
   },
   {
     "name": "Queen Of England",
@@ -139,7 +155,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Queen%20Of%20Tomorrow",
-    "chinese_name": []
+    "chinese_name": [
+      "明日女王"
+    ]
   },
   {
     "name": "Queen Tut",
@@ -160,7 +178,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Souvenir%20de%20Bahuaud-Litou",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "沙威巴奥力特"
+    ]
   },
   {
     "name": "Queen's Court",
@@ -191,7 +211,9 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Queenslander",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [
+      "昆士兰人"
+    ]
   },
   {
     "name": "Quintessence",
@@ -201,6 +223,11 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Quintessence.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-q/quintessence",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Quintessence",
-    "chinese_name": []
+    "chinese_name": [
+      "精华",
+      "珍珠毯",
+      "库因特胜斯",
+      "第五元素"
+    ]
   }
 ]

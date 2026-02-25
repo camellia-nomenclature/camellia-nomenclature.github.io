@@ -17,7 +17,10 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zambo.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zambo",
-    "chinese_name": []
+    "chinese_name": [
+      "珍波",
+      "黑红混血儿"
+    ]
   },
   {
     "name": "Zaomudan",
@@ -27,7 +30,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zaomudan",
-    "chinese_name": []
+    "chinese_name": [
+      "早牡丹"
+    ]
   },
   {
     "name": "Zaotaohong",
@@ -37,7 +42,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zaotaohong",
-    "chinese_name": []
+    "chinese_name": [
+      "早桃红"
+    ]
   },
   {
     "name": "Zebulon",
@@ -67,7 +74,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zell%20Boyce",
-    "chinese_name": []
+    "chinese_name": [
+      "载尔"
+    ]
   },
   {
     "name": "Zelma Crockett",
@@ -107,7 +116,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhangjia%20Cha",
-    "chinese_name": []
+    "chinese_name": [
+      "张家茶"
+    ]
   },
   {
     "name": "Zhanqun Lady",
@@ -127,7 +138,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhusha%20Zipao",
-    "chinese_name": []
+    "chinese_name": [
+      "朱砂紫袍"
+    ]
   },
   {
     "name": "Zi Pian",
@@ -177,7 +190,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zipao",
-    "chinese_name": []
+    "chinese_name": [
+      "紫袍"
+    ]
   },
   {
     "name": "Zoe Elizabeth",
@@ -207,7 +222,9 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zuijiaohong",
-    "chinese_name": []
+    "chinese_name": [
+      "醉娇红"
+    ]
   },
   {
     "name": "Zuiko-Nishiki",

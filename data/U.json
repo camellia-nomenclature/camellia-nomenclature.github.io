@@ -117,7 +117,10 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Utsukushi-Asaye.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi",
-    "chinese_name": []
+    "chinese_name": [
+      "美丽朝曰",
+      "小仙女"
+    ]
   },
   {
     "name": "Utsukushi-Asaye Variegated",
@@ -127,6 +130,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Utsukushi-asahi%20Variegated",
-    "chinese_name": []
+    "chinese_name": [
+      "美丽朝日（斑）"
+    ]
   }
 ]

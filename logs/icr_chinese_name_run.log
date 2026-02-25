@@ -12,3 +12,132 @@ progress: 551/6544 (8.42%), eta=14h 17m 14s
 1 3528 of 6544 (53.91%) has been processed.
 1 3563 of 6544 (54.45%) has been processed.
 1 3598 of 6544 (54.98%) has been processed.
+/Users/lukewang/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/lukewang/.openclaw/workspace/camellia-nomenclature.github.io/scripts/enrich_icr_chinese_name.py", line 15, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+Traceback (most recent call last):
+  File "/Users/lukewang/.openclaw/workspace/camellia-nomenclature.github.io/scripts/enrich_icr_chinese_name.py", line 521, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/lukewang/.openclaw/workspace/camellia-nomenclature.github.io/scripts/enrich_icr_chinese_name.py", line 422, in main
+    base = load_json(repo / "camellias.json")
+  File "/Users/lukewang/.openclaw/workspace/camellia-nomenclature.github.io/scripts/enrich_icr_chinese_name.py", line 39, in load_json
+    with path.open("r", encoding="utf-8") as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/lukewang/.openclaw/workspace/camellia-nomenclature.github.io/camellias.json'
+1 5223 of 6550 (79.74%) has been processed.
+1 5224 of 6550 (79.76%) has been processed.
+1 5296 of 6550 (80.85%) has been processed.
+1 5366 of 6550 (81.92%) has been processed.
+1 5436 of 6550 (82.99%) has been processed.
+1 5685 of 6550 (86.79%) has been processed.
+1 5686 of 6550 (86.81%) has been processed.
+1 5700 of 6550 (87.02%) has been processed.
+1 5714 of 6550 (87.24%) has been processed.
+1 5728 of 6550 (87.45%) has been processed.
+1 5742 of 6550 (87.66%) has been processed.
+1 5756 of 6550 (87.88%) has been processed.
+1 5770 of 6550 (88.09%) has been processed.
+1 5784 of 6550 (88.31%) has been processed.
+1 5798 of 6550 (88.52%) has been processed.
+1 5812 of 6550 (88.73%) has been processed.
+1 5826 of 6550 (88.95%) has been processed.
+1 5840 of 6550 (89.16%) has been processed.
+1 5854 of 6550 (89.37%) has been processed.
+1 5868 of 6550 (89.59%) has been processed.
+1 5882 of 6550 (89.80%) has been processed.
+1 5896 of 6550 (90.02%) has been processed.
+1 5910 of 6550 (90.23%) has been processed.
+1 5924 of 6550 (90.44%) has been processed.
+1 5938 of 6550 (90.66%) has been processed.
+1 5952 of 6550 (90.87%) has been processed.
+1 5966 of 6550 (91.08%) has been processed.
+1 5980 of 6550 (91.30%) has been processed.
+1 5994 of 6550 (91.51%) has been processed.
+1 6008 of 6550 (91.73%) has been processed.
+1 6022 of 6550 (91.94%) has been processed.
+1 6036 of 6550 (92.15%) has been processed.
+1 6050 of 6550 (92.37%) has been processed.
+1 6064 of 6550 (92.58%) has been processed.
+1 6078 of 6550 (92.79%) has been processed.
+1 6092 of 6550 (93.01%) has been processed.
+1 6106 of 6550 (93.22%) has been processed.
+1 6120 of 6550 (93.44%) has been processed.
+1 6134 of 6550 (93.65%) has been processed.
+1 6148 of 6550 (93.86%) has been processed.
+1 6162 of 6550 (94.08%) has been processed.
+1 6176 of 6550 (94.29%) has been processed.
+1 6190 of 6550 (94.50%) has been processed.
+1 6204 of 6550 (94.72%) has been processed.
+1 6218 of 6550 (94.93%) has been processed.
+1 6232 of 6550 (95.15%) has been processed.
+1 6246 of 6550 (95.36%) has been processed.
+1 6260 of 6550 (95.57%) has been processed.
+1 6274 of 6550 (95.79%) has been processed.
+1 6288 of 6550 (96.00%) has been processed.
+1 6302 of 6550 (96.21%) has been processed.
+1 6316 of 6550 (96.43%) has been processed.
+1 6330 of 6550 (96.64%) has been processed.
+1 6344 of 6550 (96.85%) has been processed.
+1 6358 of 6550 (97.07%) has been processed.
+1 6372 of 6550 (97.28%) has been processed.
+1 6386 of 6550 (97.50%) has been processed.
+1 6400 of 6550 (97.71%) has been processed.
+1 6414 of 6550 (97.92%) has been processed.
+1 6428 of 6550 (98.14%) has been processed.
+1 6442 of 6550 (98.35%) has been processed.
+1 6456 of 6550 (98.56%) has been processed.
+1 6470 of 6550 (98.78%) has been processed.
+1 6484 of 6550 (98.99%) has been processed.
+1 6498 of 6550 (99.21%) has been processed.
+1 6512 of 6550 (99.42%) has been processed.
+1 6526 of 6550 (99.63%) has been processed.
+1 6540 of 6550 (99.85%) has been processed.
+1 6550 of 6550 (100.00%) has been processed.
+{
+  "timestamp": "2026-02-25T07:20:30.853267+00:00",
+  "total_unique_icr_urls": 6550,
+  "processed_unique_icr_urls": 6548,
+  "found_urls_with_chinese_names": 1838,
+  "missing_urls": 4706,
+  "failed_urls": 4,
+  "next_index": 6550,
+  "updated_files": [
+    "camellias.json",
+    "data/camellias.json",
+    "data/index.json",
+    "data/A.json",
+    "data/B.json",
+    "data/C.json",
+    "data/D.json",
+    "data/E.json",
+    "data/F.json",
+    "data/G.json",
+    "data/H.json",
+    "data/I.json",
+    "data/J.json",
+    "data/K.json",
+    "data/L.json",
+    "data/M.json",
+    "data/N.json",
+    "data/O.json",
+    "data/P.json",
+    "data/Q.json",
+    "data/R.json",
+    "data/S.json",
+    "data/T.json",
+    "data/U.json",
+    "data/V.json",
+    "data/W.json",
+    "data/X.json",
+    "data/Y.json",
+    "data/Z.json",
+    "data/bugs.json"
+  ]
+}

@@ -4,6 +4,7 @@
     "date": "2025-02-21",
     "status": "open",
     "summary": "Some cultivar descriptions have unlinked cross-references",
-    "detail": "When a description says See 'Name' but the referenced cultivar was renamed or split, the link doesn't render."
+    "detail": "When a description says See 'Name' but the referenced cultivar was renamed or split, the link doesn't render.",
+    "chinese_name": []
   }
 ]

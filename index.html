@@ -506,6 +506,10 @@
                 <div class="info-label">ICR Link</div>
                 <div class="info-value"><a href="${c.icr_url}" target="_blank" style="color:#2d5016;text-decoration:underline;">View on International Camellia Register</a></div>
               </div>` : ''}
+              ${Array.isArray(c.chinese_name) && c.chinese_name.length ? `<div class="info-row">
+                <div class="info-label">Chinese Name</div>
+                <div class="info-value">${c.chinese_name.join(', ')}</div>
+              </div>` : ''}
             </div>
             <div>
               <div class="card-image">${imageHtml}</div>
