@@ -8,7 +8,8 @@
     "acs_url": null,
     "icr_url": null,
     "imageSource": "acs",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gabbie Laver",
@@ -18,7 +19,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gabbie%20Laver",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gabriel Lewis",
@@ -28,7 +30,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gabriel%20Lewis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/gabriel-lewis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gabriel%20Lewis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gabriel Maphis",
@@ -38,7 +41,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gabriel%20Maphis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gabriel-maphis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gabriel%20Maphis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gabriel's Blush",
@@ -48,7 +52,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gabriel%27s%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/gabriels-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gabriel%27s%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gael's Dream",
@@ -61,7 +66,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "苏格兰之梦"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gaiety",
@@ -72,7 +78,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gaiety",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gail",
@@ -82,7 +89,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gail.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gail",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gail Evans",
@@ -92,7 +100,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gail%20Evans.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gail%20Evans",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gail Hooks",
@@ -102,7 +111,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gail%20Hooks.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gail-hooks",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gail%20Hooks",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gail Phelan",
@@ -112,7 +122,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gail%20Phelan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gainsborough",
@@ -126,7 +137,8 @@
     "chinese_name": [
       "甘波劳",
       "坚斯勃络"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Galaxie",
@@ -139,7 +151,8 @@
     "chinese_name": [
       "银河系",
       "星系"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Galilee",
@@ -149,7 +162,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Galilee.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/galilee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Galilee",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Galilee Variegated",
@@ -159,7 +173,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Galilee%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/galilee-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Galilee%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gallant Array",
@@ -169,7 +184,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gallant%20Array.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gallant-array",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gallant%20Array",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gallic Moods",
@@ -179,7 +195,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gallic%20Moods",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Garden Glory",
@@ -192,7 +209,8 @@
     "chinese_name": [
       "丽园",
       "庭园之光"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Garden Party",
@@ -202,7 +220,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Garden%20Party.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/garden-party",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Garden%20Party",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Garden Rose",
@@ -212,7 +231,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Garden%20Rose.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/garden-rose",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Garden%20Rose",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gardenia (Bradford)",
@@ -222,7 +242,8 @@
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gardenia.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gardenia-bradford",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gardenia%20%28Bradford%29",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Garnet Gleam",
@@ -233,7 +254,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Garnet%20Gleam",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Garnett Avant",
@@ -243,7 +265,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Garnett%20Avant.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/garnett-avant",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Garnett%20Avant",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gary's Red",
@@ -253,7 +276,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gary%27s%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/garys-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gary%27s%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gary's Red Variegated",
@@ -263,7 +287,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gary's%20Red%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/garys-red-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gary%27s%20Red%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gate Of Heaven",
@@ -273,7 +298,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gate%20Of%20Heaven",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gauntlettii",
@@ -286,7 +312,8 @@
     "chinese_name": [
       "高特雷特",
       "袖隐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay",
@@ -296,7 +323,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ella%20Gayle%20Hamlin.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gay",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gay Ann Stewart",
@@ -306,7 +334,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gay%20Ann%20Stewart",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gay Baby",
@@ -320,7 +349,8 @@
       "乡愁",
       "顽童",
       "俏姑娘"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Boy",
@@ -334,7 +364,8 @@
     "chinese_name": [
       "花橘",
       "花菊"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Buttons",
@@ -345,7 +376,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gay%20Buttons",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gay Chieftain",
@@ -359,7 +391,8 @@
       "快乐酋长",
       "西班牙舞",
       "快乐王"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Chieftain Red",
@@ -372,7 +405,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "纯红快乐酋长"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Magnolia",
@@ -382,7 +416,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gay%20Magnolia",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gay Marmee",
@@ -393,7 +428,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gay%20Marmee",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gay Pixie",
@@ -407,7 +443,8 @@
       "小花帽",
       "艳丽小妖精",
       "淘气"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Sue",
@@ -420,7 +457,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "一厢情愿"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gay Time",
@@ -433,7 +471,8 @@
     "chinese_name": [
       "欢乐时光",
       "尽情欢乐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gayle Bearden",
@@ -443,7 +482,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%20Bearden.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/gayle-bearden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gayle%20Bearden",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle Gibson",
@@ -453,7 +493,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%20Gibson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayle-gibson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gayle%20Gibson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle Gibson Pink",
@@ -463,7 +504,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%20Gibson%20Pink.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayle-gibson-pink",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle Lawrence",
@@ -473,7 +515,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%20Lawrence.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayle-lawrence",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gayle%20Lawrence",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle Walden",
@@ -483,7 +526,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%20Walden.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayle-walden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gayle%20Walden",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle's Mona",
@@ -493,7 +537,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%27s%20Mona.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayles-mona",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gayle's Stella",
@@ -503,7 +548,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%27s%20Stella.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gayles-stella",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gayle%27s%20Stella",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gaynell",
@@ -513,7 +559,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gaynell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ge-Juan Wilkes",
@@ -523,7 +570,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ge-Juan%20Wilkes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gee Homeyer",
@@ -538,7 +586,8 @@
       "荷马尔",
       "吉风雅",
       "姬荷梅尔"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Geisha Girl",
@@ -548,7 +597,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Geisha%20Girl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/geisha-girl",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Geisha%20Girl",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gena Owens Fredrickson",
@@ -558,7 +608,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gena%20Owens%20Fredrickson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gena-owens-fredrickson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gena%20Owens%20Fredrickson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gene King",
@@ -568,7 +619,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gene%20King",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gene Phillips",
@@ -578,7 +630,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gene%20Phillips.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gene-phillips",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gene%20Phillips",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gene Ploof",
@@ -588,7 +641,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gene%20Ploof",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Douglas MacARTHUR Ii",
@@ -598,7 +652,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Douglas%20MacArthur",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Dwight Eisenhower",
@@ -608,7 +663,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/General%20Dwight%20Eisenhower.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/general-dwight-eisenhower",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Dwight%20Eisenhower",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General George Patton",
@@ -620,7 +676,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20George%20Patton",
     "chinese_name": [
       "巴顿将军"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "General George Patton Variegated",
@@ -632,7 +689,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Patton%20Variegated",
     "chinese_name": [
       "白斑巴顿将军"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "General Leclerc",
@@ -642,7 +700,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/General%20Leclerc.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/general-leclerc",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Leclerc Variegated",
@@ -652,7 +711,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Mark Clark",
@@ -662,7 +722,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Mark%20Clark",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Moultrie",
@@ -672,7 +733,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Moultrie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "General Washington",
@@ -682,7 +744,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/General%20Washington.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/general-washington",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Washington",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Genolden Blush",
@@ -692,7 +755,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Genolden%20Blush.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Genolden%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Geoff Hamilton",
@@ -703,7 +767,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Geoff%20Hamilton",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Geoffrey Davis",
@@ -714,7 +779,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Geoffrey%20Davis",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Geoffrey James",
@@ -725,7 +791,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Geoffrey%20James",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Ansel Nelson",
@@ -735,7 +802,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Ansel%20Nelson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George B. Barrett",
@@ -745,7 +813,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20B.%20Barrett.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/george-b-barrett",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20B.%20Barrett",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Blandford",
@@ -756,7 +825,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Blandford",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Brockman",
@@ -766,7 +836,8 @@
     "image": null,
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/george-brockman",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Brockman",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Clegg",
@@ -777,7 +848,8 @@
     "acs_url": null,
     "icr_url": null,
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Counts",
@@ -787,7 +859,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20Counts.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/george-counts",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Counts",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Firth",
@@ -800,7 +873,8 @@
     "chinese_name": [
       "暗夜牡丹",
       "乔治"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "George Gerbing",
@@ -810,7 +884,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Gerbing",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Lumsden",
@@ -820,7 +895,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20Lumsden.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/george-lumsden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Lumsden",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George O. Anderson",
@@ -830,7 +906,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20O.%20Anderson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Priest",
@@ -840,7 +917,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Priest",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Shepherd",
@@ -850,7 +928,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Shepherd",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Spencer",
@@ -860,7 +939,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20Spencer.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/george-spencer",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Spencer",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "George Stewart",
@@ -870,7 +950,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20Stewart%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Stewart",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia Belle",
@@ -880,7 +961,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Belle",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia Belle Variegated",
@@ -890,7 +972,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Belle%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia Ellen",
@@ -900,7 +983,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Ellen",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia Fire",
@@ -910,7 +994,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Georgia%20Fire.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/georgia-fire",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Fire",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia National Fair",
@@ -920,7 +1005,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Georgia%20National%20Fair.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/georgia-national-fair",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20National%20Fair",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia National Fair Blush",
@@ -930,7 +1016,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Georgia%20National%20Fair%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/georgia-national-fair-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20National%20Fair%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgia Rouse",
@@ -942,7 +1029,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Rouse",
     "chinese_name": [
       "绿珠"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Georgia Sunset",
@@ -952,7 +1040,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgia%20Sunset",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgie Girl",
@@ -963,7 +1052,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgie%20Girl",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Georgie Van De Kamp",
@@ -973,7 +1063,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Georgie%20van%20de%20Camp",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gerald Albright",
@@ -983,7 +1074,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gerald%20Albright.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gerald-albright",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gerald%20Albright",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Geraldine Pember",
@@ -993,7 +1085,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Geraldine%20Pember",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gerda's Gem",
@@ -1004,7 +1097,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gerda%27s%20Gem",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gertrude Cirlot",
@@ -1014,7 +1108,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gertrude%20Cirlot",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gertrude Murray",
@@ -1027,7 +1122,8 @@
     "chinese_name": [
       "贵夫人",
       "白金汉宫"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gervaise Smelser",
@@ -1037,7 +1133,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gervaise%20Smelser",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ghentry J.",
@@ -1047,7 +1144,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ghentry%20J..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/ghentry-j",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ghentry%20J.",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gibson Girl",
@@ -1057,7 +1155,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gibson%20Girl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gibson-girl",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gibson%20Girl",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gigantea",
@@ -1071,7 +1170,8 @@
       "大彩云",
       "巨大花龙",
       "吉根弟"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gigantea Alba",
@@ -1081,7 +1181,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gigantea%20Alba.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gigantea-alba",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Washington",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gigantea Red",
@@ -1094,7 +1195,8 @@
     "chinese_name": [
       "大红云",
       "红龙"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gilbeau Pink",
@@ -1104,7 +1206,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gilbeau%20Pink.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gilbeau-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Paeoniiflora",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gilbert Fisher",
@@ -1114,7 +1217,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gilbert%20Fisher.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gilbert-fisher",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gilbert%20Fisher",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gilford",
@@ -1124,7 +1228,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gilford",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gillette's Fluffy Red",
@@ -1134,7 +1239,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gillette%27s%20Fluffy%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gillettes-fluffy-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gillette%27s%20Fluffy%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gillette's Fluffy White",
@@ -1144,7 +1250,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gilley's Forever",
@@ -1154,7 +1261,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gilley%27s%20Forever.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/gilleys-forever",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gilley%27s%20Forever",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gilleys-34",
@@ -1164,7 +1272,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gilliam Hawke",
@@ -1174,7 +1283,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gin Yô-Tsubaki (Silver Leaf Camellia)",
@@ -1184,7 +1294,19 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Gin'Yo-Tsubaki (Silver Leaf Camellia)",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Peach Red with Yellow anthers and White filaments. Small, single. E-M. (Japan 1979 - Shu Ota, Izu Ohshima).",
+    "image": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/ginyo´-tsubaki-silver-leaf-camellia",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gin%27Yo-Tsubaki%20%28Silver%20Leaf%20Camellia%29",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gin-No-Zai (Silver Baton)",
@@ -1194,7 +1316,8 @@
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gin-no-zai.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gin-no-zai-silver-baton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gin-no-zai",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ginette Walters",
@@ -1206,7 +1329,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginette%20Walters",
     "chinese_name": [
       "吉尼弟伟特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Ginga",
@@ -1217,7 +1341,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginga",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ginger",
@@ -1227,7 +1352,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ginger.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/ginger",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginger",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ginny Anderson",
@@ -1239,7 +1365,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginny%20Anderson",
     "chinese_name": [
       "吉尼"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Ginny Ellsworth",
@@ -1249,7 +1376,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ginny%20Ellsworth",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Giorgio's Pride",
@@ -1259,7 +1387,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Giorgio%27s%20Pride.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/giorgios-pride",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Giorgio%27s%20Pride",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glad Rags",
@@ -1269,7 +1398,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glad%20Rags.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/glad-rags",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glad%20Rags",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Darling",
@@ -1279,7 +1409,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Darling",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Fendig",
@@ -1289,7 +1420,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Fendig",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Glausier",
@@ -1299,7 +1431,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Glausier",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Herbert",
@@ -1311,7 +1444,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Herbert",
     "chinese_name": [
       "赫伯特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gladys Marie",
@@ -1323,7 +1457,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Marie",
     "chinese_name": [
       "葛雷帝斯"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gladys Menard",
@@ -1333,7 +1468,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Menard",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Parks",
@@ -1346,7 +1482,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "北大荒"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gladys Pinkerton",
@@ -1356,7 +1493,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gladys%20Pinkerton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gladys-pinkerton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Pinkerton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Walker",
@@ -1368,7 +1506,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Walker",
     "chinese_name": [
       "笑傲江湖"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gladys Wannamaker",
@@ -1378,7 +1517,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gladys%20Wannamaker.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gladys-wannamaker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Wannamaker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Wilmot",
@@ -1388,7 +1528,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gladys%20Wilmot",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glamour Girl",
@@ -1400,7 +1541,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glamour%20Girl",
     "chinese_name": [
       "摩登女郎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Glen 40",
@@ -1415,7 +1557,8 @@
       "大峡谷",
       "法国红",
       "格聊40"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Glen 40 Variegated",
@@ -1429,7 +1572,8 @@
       "复色美国大红",
       "复色大峡谷",
       "千面女郎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Glen Arden",
@@ -1439,7 +1583,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glen%20Arden",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glen Blackwell Johnson",
@@ -1449,7 +1594,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glen%20Blackwell%20Johnson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glen Stanley",
@@ -1459,7 +1605,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glen%20Stanley",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenn Allan",
@@ -1469,7 +1616,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glenn%20Allan%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenn%20Allan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenn Allan Variegated",
@@ -1479,7 +1627,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glenn%20Allan%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/glenn-allan-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenn%20Allan%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenn Hanchey",
@@ -1489,7 +1638,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glenn%20Hanchey.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/glenn-hanchey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenn%20Hanchey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenn's Orbit",
@@ -1503,7 +1653,8 @@
       "轨道",
       "胡茵梦",
       "格聊的眼窝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Glenn-Ella",
@@ -1514,7 +1665,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenn-Ella",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glennis Goodrich",
@@ -1524,7 +1676,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glennis%20Goodrich",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenorie",
@@ -1535,7 +1688,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenorie",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glenwood",
@@ -1547,7 +1701,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glenwood",
     "chinese_name": [
       "森林峡谷"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gloire De Nantes",
@@ -1557,7 +1712,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gloire%20De%20Nantes.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gloire-de-nantes",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloire%20De%20Nantes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gloria",
@@ -1567,7 +1723,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gloria%20Ann.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gloria Ann",
@@ -1577,7 +1734,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gloria%20Ann.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gloria-ann",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloria%20Ann",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gloria De Fatima",
@@ -1587,7 +1745,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gloria Nan",
@@ -1597,7 +1756,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gloria%20Nan.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gloria-nan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloria%20Nan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gloria Stuart",
@@ -1607,7 +1767,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloria%20Stuart",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glory",
@@ -1617,7 +1778,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Blaze%20of%20Glory.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glory",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glory B",
@@ -1627,7 +1789,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glory%20B.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/glory-b",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glory%20B",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glory Of Canterbury",
@@ -1637,7 +1800,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glory%20Of%20Canterbury",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glory Of Isis",
@@ -1647,7 +1811,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glory%20Of%20Isis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Glowing Embers",
@@ -1660,7 +1825,8 @@
     "chinese_name": [
       "烽火台",
       "艾姆波斯"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Goggy",
@@ -1670,7 +1836,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Goggy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/goggy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Goggy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gold Dust",
@@ -1680,7 +1847,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gold%20Dust",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gold Tone",
@@ -1690,7 +1858,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gold%20Tone",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Dome",
@@ -1700,7 +1869,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Dome",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Embers",
@@ -1711,7 +1881,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Embers",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Fleece",
@@ -1723,7 +1894,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Fleece",
     "chinese_name": [
       "金色羊毛"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Golden Gate",
@@ -1735,7 +1907,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Gate",
     "chinese_name": [
       "金门"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Golden Glimmer",
@@ -1746,7 +1919,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Glimmer",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Glow",
@@ -1759,7 +1933,8 @@
     "chinese_name": [
       "金辉",
       "黄花蝴蝶"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Golden Heart Pearl",
@@ -1769,7 +1944,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Phoenix",
@@ -1779,7 +1955,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Spangles",
@@ -1792,7 +1969,8 @@
     "chinese_name": [
       "金叶飞蝶",
       "金玉满堂"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Golden Stamen Hibiscus",
@@ -1802,7 +1980,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Golden Temple",
@@ -1816,7 +1995,8 @@
     "chinese_name": [
       "出羽大轮",
       "雾水情迷"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Goldilocks",
@@ -1830,7 +2010,8 @@
     "chinese_name": [
       "贵夫人",
       "白金汉宫"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Goldwater",
@@ -1840,7 +2021,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Goldwater",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Goldwater Variegated",
@@ -1850,7 +2032,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Goldwater%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gone Again",
@@ -1864,7 +2047,8 @@
       "不了情",
       "脸红",
       "入迷"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gone Again Blush",
@@ -1877,7 +2061,8 @@
     "chinese_name": [
       "新不了情",
       "再看一眼"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gone Again Pink",
@@ -1889,7 +2074,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gone%20Again%20Pink",
     "chinese_name": [
       "粉红不了情"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gone Again Silver",
@@ -1901,7 +2087,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gone%20Again%20Silver",
     "chinese_name": [
       "覆轮不了情"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Good Fragrance",
@@ -1911,7 +2098,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Good%20Fragrance.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/good-fragrance",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Good%20Fragrance",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gordon Howell",
@@ -1921,7 +2109,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gordon%20Howell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gordy's Petite",
@@ -1931,7 +2120,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gordy%27s%20Petite.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gordys-petite",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gordy%27s%20Petite",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gordy's Pretty Lady",
@@ -1941,7 +2131,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gordy%27s%20Pretty%20Lady.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gordys-pretty-lady",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Pretty%20Lady%20%28United%20States%29",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gorgeous",
@@ -1952,7 +2143,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gorgeous",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gosho-Guruma",
@@ -1962,7 +2154,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gosho-Guruma.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gosho-guruma",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gosho-Zakura",
@@ -1973,17 +2166,19 @@
     "acs_url": null,
     "icr_url": null,
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gossamer Wings",
     "species": "Sasanqua",
     "size": "Miniature to small",
-    "description": "Light Pink. Small, single. GRADY'S EGAO - Formerly Vernalis - Light Pink, veined, with fine White edge.",
+    "description": "Light Pink. Small, single. GRADY's EGAO - Formerly Vernalis - Light Pink, veined, with fine White edge.",
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gossamer%20Wings",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Earl Warren",
@@ -1993,7 +2188,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Governor%20Earl%20Warren.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/governor-earl-warren",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Earl%20Warren",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Earl Warren Variegated",
@@ -2003,7 +2199,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Governor%20Earl%20Warren%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/governor-earl-warren-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Earl%20Warren%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Hugh White",
@@ -2013,7 +2210,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Hugh%20White",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Kennon",
@@ -2023,7 +2221,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Governor%20Kennon.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Kennon",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Lester Maddox",
@@ -2033,7 +2232,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Lester%20Maddox",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Mouton",
@@ -2047,7 +2247,8 @@
       "莫顿州长",
       "总督府",
       "州政府"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Governor Richard W. Leche",
@@ -2057,7 +2258,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Governor%20Richard%20W.%20Leche.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/governor-richard-w-leche",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Richard%20W.%20Leche",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Richards",
@@ -2067,7 +2269,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Richards",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor Robert Holmes",
@@ -2077,7 +2280,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20Robert%20Holmes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Governor William Bradford",
@@ -2087,7 +2291,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Governor%20William%20Bradford.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/governor-william-bradford",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Governor%20William%20Bradford",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace",
@@ -2099,7 +2304,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace",
     "chinese_name": [
       "格蕾丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton",
@@ -2114,7 +2320,8 @@
       "克蕾丝",
       "奥伯顿",
       "葛雷丝欧勃立顿"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton Blush",
@@ -2125,7 +2332,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20Blush",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton Flair",
@@ -2135,7 +2343,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grace%20Albritton%20Flair.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grace-albritton-flair",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20Flair",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton Pink",
@@ -2147,7 +2356,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20Pink",
     "chinese_name": [
       "粉葛蕾丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton Red",
@@ -2159,7 +2369,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20Red",
     "chinese_name": [
       "红葛蕾丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton Starfire",
@@ -2169,7 +2380,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grace%20Albritton%20Starfire.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grace-albritton-starfire",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20Starfire",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Albritton White",
@@ -2181,7 +2393,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Albritton%20White",
     "chinese_name": [
       "白葛蕃丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Anglin",
@@ -2191,7 +2404,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Anglin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Bunton",
@@ -2203,7 +2417,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Bunton",
     "chinese_name": [
       "葛蕾丝班顿"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Burkhard",
@@ -2219,7 +2434,8 @@
       "威尔逊将军",
       "威尔逊",
       "威尔生"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Caple",
@@ -2231,7 +2447,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Caple",
     "chinese_name": [
       "枫林渡"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace Chow",
@@ -2241,7 +2458,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grace%20Chow.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grace-chow",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Chow",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Gamlin",
@@ -2251,7 +2469,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grace%20Gamlin.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grace-gamlin",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Gamlin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Gerdel",
@@ -2261,7 +2480,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Gerdel",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Gordon",
@@ -2271,7 +2491,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Gordon",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Marie",
@@ -2281,7 +2502,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Marie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Rogers",
@@ -2292,7 +2514,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%20Rogers",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grace Ward",
@@ -2305,7 +2528,8 @@
     "chinese_name": [
       "宽厚",
       "葛蕾丝华德"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grace's Sweet Pea",
@@ -2317,7 +2541,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grace%27s%20Sweet%20Pea",
     "chinese_name": [
       "葛蕾丝甜豆"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Graceland",
@@ -2330,7 +2555,8 @@
     "chinese_name": [
       "葛蕾斯兰",
       "大地"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Graem Yates",
@@ -2343,7 +2569,8 @@
     "chinese_name": [
       "雅特斯",
       "皇太极"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Graem Yates Variegated",
@@ -2353,7 +2580,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Graem%20Yates%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/graem-yates-variegated",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gran Sultano",
@@ -2370,7 +2598,8 @@
       "格兰苏坦",
       "伟大的苏丹",
       "格兰苏丹"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Granada",
@@ -2385,7 +2614,8 @@
       "格瑞纳达",
       "格兰达",
       "格兰那达"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Finale",
@@ -2395,7 +2625,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grand%20Finale.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grand-finale",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Finale",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grand Fragrance",
@@ -2405,7 +2636,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Fragrance",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grand Jury",
@@ -2417,7 +2649,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Jury",
     "chinese_name": [
       "大朱瑞"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Marshal",
@@ -2430,7 +2663,8 @@
     "chinese_name": [
       "大元帅",
       "格兰马歇尔"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Marshal Variegated",
@@ -2442,7 +2676,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Marshal%20Variegated",
     "chinese_name": [
       "云斑大元帅"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Prix",
@@ -2456,7 +2691,8 @@
       "大奖赏",
       "满贯大赛",
       "头等奖"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Slam",
@@ -2470,7 +2706,8 @@
       "大满贯",
       "格兰斯兰",
       "满贯全垒打"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Slam Variegated",
@@ -2483,7 +2720,20 @@
     "chinese_name": [
       "大满贯新种",
       "满贯全垒打(斑"
-    ]
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Grand Sultan",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "(‘Gran Sultano’). Dark Red. Large, semidouble to formal double. Slow, open growth. M-L. (For a variation of this cultivar see",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grand%20Sultan.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grand-sultan",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Sultan",
+    "chinese_name": [],
+    "imageSource": "socal",
+    "japanese_name": []
   },
   {
     "name": "Grandandy",
@@ -2493,7 +2743,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grandandy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/grandandy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grandandy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grandeur",
@@ -2503,7 +2754,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grandeur.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grandeur",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grandiflora Rosea",
@@ -2513,7 +2765,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grandiflora%20Rosea.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grandiflora-rosea",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grandiflora%20Rosea",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grandiflora Rosea Variegated",
@@ -2523,7 +2776,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grandiflora%20Rosea%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grandiflora-rosea-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grandiflora%20Rosea%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grandma's Garden",
@@ -2533,7 +2787,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grandma%27s%20Garden.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/grandmas-garden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grandma%27s%20Garden",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Granite Dells",
@@ -2543,7 +2798,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Granite%20Dells",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grannie",
@@ -2553,7 +2809,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grannie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grant Black",
@@ -2563,7 +2820,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grant%20Black",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grant Campbell",
@@ -2573,7 +2831,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grant%20Campbell%20Var..jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grant Campbell Variegated",
@@ -2583,7 +2842,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grant%20Campbell%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grant-campbell-variegated",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grantham's Fragrant",
@@ -2593,7 +2853,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grantham%27s%20Fragrant",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grape Soda",
@@ -2606,7 +2867,8 @@
     "chinese_name": [
       "紫苏达",
       "葡萄美酒"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Great Day",
@@ -2616,7 +2878,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Great%20Day.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/great-day",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Great%20Day",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Great Eastern",
@@ -2631,7 +2894,8 @@
       "巨大东方龙",
       "东部巨人",
       "大东方"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Great Eastern (New Zealand)",
@@ -2645,7 +2909,8 @@
     "chinese_name": [
       "苏联皇帝(斑",
       "复色沙皇"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Great Peach Blossom",
@@ -2655,7 +2920,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Great%20Peach%20Blossom",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Green's Blues",
@@ -2666,7 +2932,8 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greens-blues",
     "icr_url": null,
     "imageSource": "socal",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Greensboro Red",
@@ -2676,7 +2943,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Greensboro%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greensboro-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Greensboro%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Greg Baker",
@@ -2686,7 +2954,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Greg%20Baker.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-t/greg-barker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Greg%20Baker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gregory Conway",
@@ -2696,7 +2965,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gregory%20Conway",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gregory Hoff",
@@ -2706,7 +2976,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gregory%20Hoff",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grey Ghosts",
@@ -2718,7 +2989,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grey%20Ghosts",
     "chinese_name": [
       "灰幽灵"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Greysen James Seaton",
@@ -2728,7 +3000,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Greysen%20James%20Seaton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/greysen-james-seaton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Greysen%20James%20Seaton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Greystone",
@@ -2738,7 +3011,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Greystone",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grover C. Chester",
@@ -2748,7 +3022,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grover%20C.%20Chester.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grover%20C.%20Chester",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Grover Meaders",
@@ -2758,7 +3033,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grover%20Meaders",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gruenwald Red",
@@ -2772,7 +3048,8 @@
     "chinese_name": [
       "红木屋",
       "红木河谷"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gualala Glow",
@@ -2782,7 +3059,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gualala%20Glow",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Guest Of Honor",
@@ -2796,7 +3074,8 @@
       "主宾",
       "荣客",
       "贵宾"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guest Of Honor Variegated",
@@ -2808,7 +3087,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guest%20Of%20Honor%20Variegated",
     "chinese_name": [
       "贵宾（斑）"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guest Star",
@@ -2818,7 +3098,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Guest%20Star.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/guest-star",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guest%20Star",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Guilio Nuccio",
@@ -2833,7 +3114,8 @@
       "变脸把戏",
       "奇力欧",
       "朱力澳新西欧"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guilio Nuccio Fimbriated",
@@ -2845,7 +3127,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guilio%20Nuccio%20Fimbriated",
     "chinese_name": [
       "齿瓣古丽奥"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guilio Nuccio Pink",
@@ -2857,7 +3140,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guilio%20Nuccio%20Pink",
     "chinese_name": [
       "粉红古力欧"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guilio Nuccio Variegated",
@@ -2870,7 +3154,8 @@
     "chinese_name": [
       "复色大牛西奥",
       "变脸把戏(斑"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guixia",
@@ -2884,7 +3169,8 @@
     "chinese_name": [
       "归霞",
       "罗威士船长"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guiyey Anghong",
@@ -2894,7 +3180,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gulf Breeze",
@@ -2904,7 +3191,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gulf%20Breeze",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gulf Park",
@@ -2914,7 +3202,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gulf%20Park",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gulfport Purple",
@@ -2924,7 +3213,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gulfport%20Purple.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gulfport-purple",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gulfport%20Purple",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gungah",
@@ -2935,7 +3225,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gungah",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gunsmoke",
@@ -2947,7 +3238,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gunsmoke",
     "chinese_name": [
       "射击火炮"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gunsmoke Variegated",
@@ -2959,7 +3251,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gunsmoke%20Variegated",
     "chinese_name": [
       "射击火炮(斑）"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gus Menard",
@@ -2971,7 +3264,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gus%20Menard",
     "chinese_name": [
       "贾斯美纳德"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gustav Gerbing",
@@ -2981,7 +3275,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gustav%20Gerbing.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gustav-gerbing",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gustav%20Gerbing",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Guy Lennard",
@@ -2994,7 +3289,8 @@
     "chinese_name": [
       "盖莲娜",
       "小丰满"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Guy Merry",
@@ -3004,7 +3300,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guy%20Merry",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Guy Rice",
@@ -3014,7 +3311,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Guy%20Rice",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gwavas",
@@ -3024,7 +3322,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gwavas.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gwavas",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwavas",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gwen Pike",
@@ -3040,7 +3339,8 @@
       "银狐",
       "吉恩山峰",
       "格文派克"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gwen Washbourne",
@@ -3050,7 +3350,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwen%20Washbourne",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gwenda",
@@ -3061,7 +3362,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwenda",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gwenneth Morey",
@@ -3074,7 +3376,8 @@
     "chinese_name": [
       "澳洲黄",
       "威斯摩"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gwyneth Scott",
@@ -3084,7 +3387,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwyneth%20Scott",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gwynne Walker",
@@ -3094,7 +3398,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwynne%20Walker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gypsy",
@@ -3104,7 +3409,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gypsy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gypsy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gypsy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gypsy Lights",
@@ -3114,7 +3420,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gypsy%20Lights",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gypsy Rose",
@@ -3127,7 +3434,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "吉普赛玫瑰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Gypsy Variegated",
@@ -3137,6 +3445,7 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gypsy%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   }
 ]

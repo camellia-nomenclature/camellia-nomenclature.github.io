@@ -8,7 +8,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=L%27Avvenire",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "L. H. Paul",
@@ -18,7 +19,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/L.%20H.%20Paul.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lh-paul",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "L. T. Dees",
@@ -32,7 +34,8 @@
       "迪士",
       "花迪斯",
       "迪斯"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "L. T. Dees Variegated",
@@ -45,7 +48,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "迪士（斑）"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "La Bella",
@@ -55,7 +59,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Bella",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Belle France",
@@ -65,7 +70,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/La%20Belle%20France.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/la-belle-france",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Belle%20France",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Esperanza",
@@ -75,7 +81,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/La%20Esperanza.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Esperanza",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Graciola",
@@ -86,7 +93,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Odoratissima",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Peppermint",
@@ -96,7 +104,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/La%20Peppermint.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/la-peppermint",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Peppermint",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Petite",
@@ -110,7 +119,8 @@
     "chinese_name": [
       "拉派",
       "小不点"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "La Sandra",
@@ -120,7 +130,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Sandra",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "La Sorella",
@@ -130,7 +141,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=La%20Sorella",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lacy Love",
@@ -140,7 +152,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lacy%20Love.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lacy%20Love",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lacy Pink",
@@ -155,7 +168,8 @@
       "粉玲珑",
       "菱唐系",
       "粉东洋茶"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Ladell Brothers",
@@ -165,7 +179,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ladell%20Brothers.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/ladell-brothers",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ladell%20Brothers",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ladiner's Red",
@@ -180,7 +195,8 @@
       "拿破仑王子",
       "尤金王子",
       "波普"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Ann",
@@ -192,7 +208,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Ann",
     "chinese_name": [
       "安小姐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Bird",
@@ -202,7 +219,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Bird",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Charlotte",
@@ -212,7 +230,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Charlotte.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-charlotte",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Charlotte",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Charlotte Variegated",
@@ -222,7 +241,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Charlotte%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-charlotte-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Charlotte%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Clare",
@@ -235,7 +255,8 @@
     "chinese_name": [
       "明石潟",
       "明石湾"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Clare Variegated",
@@ -245,7 +266,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Clare%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=%C5%8Cniji",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Cutler",
@@ -255,7 +277,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Cutler.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-cutler",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Cutler",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady De Saumarez",
@@ -265,7 +288,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20De%20Saumarez.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-de-saumarez",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20De%20Saumarez",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady De Vere",
@@ -275,7 +299,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20De%20Vere.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-de-vere",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20De%20Vere",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Diane",
@@ -285,7 +310,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Diane.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-diane",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Diane",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Edinger",
@@ -295,7 +321,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Edinger.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-edinger",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Edinger",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Erma",
@@ -305,7 +332,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Erma.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-erma",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Erma",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Estelle Peel",
@@ -315,7 +343,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Estelle%20Peel.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Estelle%20Peel",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Ethel Hill",
@@ -325,7 +354,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Ethel%20Hill",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Eva",
@@ -335,7 +365,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Eva.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-eva",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Eva",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Eva May",
@@ -345,7 +376,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Eva%20May%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Eva%20May",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Eva May Variegated",
@@ -355,7 +387,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Eva%20May%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lady-eva-may-var",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Eva%20May%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Fair",
@@ -365,7 +398,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Fair.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Fair",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Fernanda",
@@ -375,7 +409,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Fernanda.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-fernanda",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Fernanda",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Francis",
@@ -388,7 +423,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "沙威巴奥力特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Fraser",
@@ -398,7 +434,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Fraser.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Fraser",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Glencora",
@@ -408,7 +445,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Glencora",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Gowrie",
@@ -418,7 +456,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Gowrie.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Gowrie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Helen",
@@ -428,7 +467,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Helen%20Hunt",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Hope",
@@ -438,7 +478,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Hope.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Hope",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Hume's Blush",
@@ -451,7 +492,8 @@
     "chinese_name": [
       "东方亮",
       "大雪山"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Ida Pearl",
@@ -461,7 +503,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Ida%20Pearl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lady-ida-pearl",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Ida%20Pearl",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady In Pink",
@@ -471,7 +514,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20In%20Pink.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20In%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady In Red",
@@ -483,7 +527,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20In%20Red",
     "chinese_name": [
       "红衣女郎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady In Red Variegated",
@@ -495,7 +540,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20In%20Red%20Variegated",
     "chinese_name": [
       "红衣女郎(斑"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Kay",
@@ -509,7 +555,8 @@
       "凯夫人",
       "凯女士",
       "凯小姐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Kay Red",
@@ -521,7 +568,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Kay%20Red",
     "chinese_name": [
       "红凯夫人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Laura",
@@ -535,7 +583,8 @@
       "劳拉夫人",
       "罗菈小姐",
       "罗拉女士"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Laura Red",
@@ -547,7 +596,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Laura%20Red",
     "chinese_name": [
       "红罗拉"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Lee",
@@ -557,7 +607,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Lee.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-lee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Lee",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Loch",
@@ -571,7 +622,8 @@
       "洛池女士",
       "南湾姑娘",
       "女人湖"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Love",
@@ -581,7 +633,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Love",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Lucille",
@@ -591,7 +644,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Lucille.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-lucille",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Lucille",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Mackinnon",
@@ -601,7 +655,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Mackinnon.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-mackinnon",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Mackinnon",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Macon",
@@ -613,7 +668,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Macon",
     "chinese_name": [
       "玛康夫人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Macon Variegated",
@@ -623,7 +679,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Macon%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Marion",
@@ -636,7 +693,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "库马莎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Mary Cromartie",
@@ -646,7 +704,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Mary%20Cromartie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-mary-cromartie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Mary%20Cromartie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Mary Cromartie Variegated",
@@ -656,7 +715,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Mary%20Cromartie%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-mary-cromartie-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Mary%20Cromartie%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady McCAMLEY",
@@ -670,7 +730,8 @@
     "chinese_name": [
       "麦肯莉女士",
       "天残女"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Of The Lake",
@@ -680,7 +741,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Of%20The%20Lake.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-of-the-lake",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Of%20The%20Lake",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Of The Lake (New Zealand)",
@@ -690,7 +752,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Francois%20Wiot",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Pamela",
@@ -702,7 +765,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Pamela",
     "chinese_name": [
       "艺妓蝶女郎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Pielmeier",
@@ -712,7 +776,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Pielmeier",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Ruth Ritter",
@@ -722,7 +787,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Ruth%20Ritter.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-ruth-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Ruth%20Ritter",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Sadie",
@@ -732,7 +798,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Sadie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-sadie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Sadie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady St. Clair",
@@ -744,7 +811,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20St.%20Clair",
     "chinese_name": [
       "观月亭"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Sumerez",
@@ -754,7 +822,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Sumerez",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Susan",
@@ -764,7 +833,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Susan.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Susan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart",
@@ -776,7 +846,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Vansittart",
     "chinese_name": [
       "范西塔特夫人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart Blush",
@@ -786,7 +857,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Vansittart%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart Pink",
@@ -796,7 +868,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Vansittart%20Pink.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Vansittart%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart Red",
@@ -806,7 +879,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Vansittart%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lady-vansittart-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Vansittart%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart Shell",
@@ -820,7 +894,8 @@
     "chinese_name": [
       "忠实",
       "一世真情"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Vansittart Variegated",
@@ -833,7 +908,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "范西塔特夫人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lady Velma",
@@ -843,7 +919,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Velma.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Velma",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Velma Variegated",
@@ -853,7 +930,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Velma%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Velma%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady Winneke",
@@ -864,7 +942,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%20Winneke",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lady's Maid",
@@ -875,7 +954,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lady%27s%20Maid",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lafayette Beauty",
@@ -885,7 +965,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lafayette%20Beauty.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lafayette-beauty",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lafayette%20Beauty",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lafayette's Legacy",
@@ -895,7 +976,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lafayette%27s%20Legacy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lafayettes-legacy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lafayette%27s%20Legacy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lafcadio Hearn",
@@ -905,7 +987,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lafcadio%20Hearn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lafcadio-hearn",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lafcadio%20Hearn",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lafe Alewine",
@@ -915,7 +998,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lafe%20Alewine",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lake Erhai Pearl",
@@ -925,7 +1009,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lake%20Erhai%20Pearl.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lallarook",
@@ -940,7 +1025,8 @@
       "拉鲁客",
       "水袖衣带",
       "拉拉鲁克"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lamar Wilkes",
@@ -950,7 +1036,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lamar%20Wilkes.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lamar%20Wilkes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lammertsii",
@@ -963,7 +1050,8 @@
     "chinese_name": [
       "蓝莫特斯",
       "流水金勾"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lamont Glass",
@@ -973,7 +1061,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lamont%20Glass",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lana Butler",
@@ -983,7 +1072,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lana%20Butler.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lana-butler",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lana%20Butler",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Landon Waters",
@@ -993,7 +1083,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Landon%20Waters.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/landon-waters",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Landon%20Waters",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Landrethii",
@@ -1003,7 +1094,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Landrethii.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/landrethii",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Landrethii",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Landscape Beauty",
@@ -1013,7 +1105,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Landscape%20Beauty",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lane Moss Hagood",
@@ -1023,7 +1116,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lane%20Moss%20Hagood.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lane-moss-hagood",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lane%20Moss%20Hagood",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Large Osmanthus Leaf",
@@ -1033,7 +1127,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Larry Davis",
@@ -1043,7 +1138,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Larry%20Davis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Larry Piet",
@@ -1057,7 +1153,8 @@
       "拉丽皮特",
       "西楚霸王",
       "拉丽派持"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lasandra",
@@ -1067,7 +1164,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lasandra",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lasca Beauty",
@@ -1082,7 +1180,8 @@
       "美丽兰斯卡",
       "蕾莎克",
       "拉斯卡娇姣"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lassie",
@@ -1092,7 +1191,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lassie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lassie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lassie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Late White Empress",
@@ -1102,7 +1202,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Overlook%20White",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Latifolia",
@@ -1112,7 +1213,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Latifolia.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/latifolia",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Latifolia",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Latifolia Variegated",
@@ -1123,7 +1225,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Latifolia%20Variegated",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Camp",
@@ -1133,7 +1236,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Camp",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Claire",
@@ -1143,7 +1247,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%20Claire.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/laura-claire",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Claire",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Cooper",
@@ -1153,7 +1258,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%20Cooper.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Cooper",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Dasher",
@@ -1167,7 +1273,8 @@
     "chinese_name": [
       "玫瑰茶",
       "赛玫瑰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Laura E. Greggs",
@@ -1180,7 +1287,8 @@
     "chinese_name": [
       "罗拉克丽华",
       "罗拉衣葛蕾丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Laura Gordy",
@@ -1190,7 +1298,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%20Gordy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/laura-gordy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Gordy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Linker",
@@ -1200,7 +1309,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%20Linker.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/laura-linker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Linker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Lovely",
@@ -1210,7 +1320,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Lovely",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Neill",
@@ -1220,7 +1331,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%20Neill.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Neill",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Schafer",
@@ -1231,7 +1343,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Schafer",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Stokes",
@@ -1241,7 +1354,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%20Stokes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laura Walker",
@@ -1256,7 +1370,8 @@
       "拉娜奥卡",
       "天行者",
       "罗拉沃克"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Laura Walker Variegated",
@@ -1269,7 +1384,8 @@
     "chinese_name": [
       "罗拉沃克(斑）",
       "花沃克"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Laura's Beauty",
@@ -1279,7 +1395,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laura%27s%20Beauty.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauras-beauty",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laura%27s%20Beauty",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laurel Leaf",
@@ -1295,7 +1412,8 @@
       "拉鲁客",
       "水袖衣带",
       "拉拉鲁克"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lauren Burton",
@@ -1305,7 +1423,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lauren%20Burton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauren-burton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lauren%20Burton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lauren Hall",
@@ -1315,7 +1434,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lauren%20Hall.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauren-hall",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lauren%20Hall",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lauren Tudor",
@@ -1329,7 +1449,8 @@
       "罗伦朵儿",
       "龙飞凤舞",
       "罗伦都铎"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lauren Tudor Pink",
@@ -1339,7 +1460,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lauren%20Tudor%20Pink.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauren-tudor-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lauren%20Tudor%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lauren Tudor Variegated",
@@ -1349,7 +1471,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lauren%20Tudor%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauren-tudor-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lauren%20Tudor%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laurentine Nolan",
@@ -1359,7 +1482,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laurentine%20Nolan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lauretta Feathers",
@@ -1369,7 +1493,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lauretta%20Feathers.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauretta-feathers",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lauretta%20Feathers",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laurie",
@@ -1379,7 +1504,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laurie%20Bray.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laurie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laurie Bray",
@@ -1392,7 +1518,8 @@
     "chinese_name": [
       "月桂冠",
       "劳里布雷"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lavada Bailey",
@@ -1402,7 +1529,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavada%20Bailey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lavendel",
@@ -1412,7 +1540,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Purple%20Woronzoff",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lavender Girl",
@@ -1422,7 +1551,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavender%20Girl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lavender-girl",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lavender Lady",
@@ -1434,7 +1564,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavender%20Lady",
     "chinese_name": [
       "薰衣草女士"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lavender Prince Ii",
@@ -1444,7 +1575,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavender%20Prince%20Ii.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lavender-prince-ii",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavender%20Prince%20Ii",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lavender Swirl",
@@ -1458,7 +1590,8 @@
       "紫旋风",
       "紫色旋涡",
       "一代天骄"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Laverne Norris",
@@ -1468,7 +1601,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Laverne%20Norris.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/laverne-norris",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laverne%20Norris",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Laverne Ragland",
@@ -1478,7 +1612,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Laverne%20Ragland",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lavinia Lane Rountree",
@@ -1488,7 +1623,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavinia%20Lane%20Rountree.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavinia%20Lane%20Rountree",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lawrence Haines",
@@ -1498,7 +1634,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lawrence%20Haines.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lawrence-haines",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lawrence%20Haines",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lawrence Walker",
@@ -1508,7 +1645,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lawrence%20Walker.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lawrence-walker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lawrence%20Walker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lawrence Walker Variegated",
@@ -1518,7 +1656,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lawrence%20Walker%20Variegated.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lawrence-walker-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lawrence%20Walker%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lawson Bonner",
@@ -1528,7 +1667,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lawson%20Bonner.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lawson%20Bonner",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Layla Christine",
@@ -1538,7 +1678,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Layla%20Christine.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/layla-christine",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lazetta",
@@ -1548,7 +1689,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lazetta.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lazetta",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lazetta",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Le Lys",
@@ -1559,7 +1701,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Le%20Lys",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leading Lady",
@@ -1569,7 +1712,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leading%20Lady.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leading%20Lady",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leading Lady Variegated",
@@ -1579,7 +1723,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leading%20Lady%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leah Baggs",
@@ -1589,7 +1734,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leah%20Baggs.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leah-baggs",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leah%20Baggs",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leah Gay",
@@ -1601,7 +1747,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leah%20Gay",
     "chinese_name": [
       "粉欢乐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leah Homeyer",
@@ -1611,7 +1758,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leah%20Homeyer.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leah%20Homeyer",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leannah Louise",
@@ -1621,7 +1769,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leannah%20Louise.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/leannah-louise",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leannah%20Louise",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leanne's Tomorrow",
@@ -1634,7 +1783,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "林芮的明天"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leanora P. Marscher",
@@ -1644,7 +1794,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leda",
@@ -1654,7 +1805,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leda.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leda",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leda",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leda Alba",
@@ -1664,7 +1816,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leda%20Alba.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leda-alba",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leda%20Alba",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leda Rosea",
@@ -1674,7 +1827,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Wedding%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Baby",
@@ -1684,7 +1838,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20Baby.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Baby",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Eagleson",
@@ -1694,7 +1849,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20%20Eagleson.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Eagleson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Gaeta",
@@ -1704,7 +1860,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Gaeta",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Poe",
@@ -1714,7 +1871,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20Poe.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lee-poe",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Poe",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Roy Smith",
@@ -1724,7 +1882,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20Roy%20Smith.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lee-roy-smith",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Roy%20Smith",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Ryan",
@@ -1735,7 +1894,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Ryan",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Wells",
@@ -1745,7 +1905,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20Wells.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Wells",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Wilkes",
@@ -1755,7 +1916,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Wilkes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lee Wilkins",
@@ -1765,7 +1927,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lee%20Wilkins.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lee-wilkins",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lee%20Wilkins",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Legacy",
@@ -1775,7 +1938,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Legacy.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Legacy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leigh",
@@ -1785,7 +1949,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leigh.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leigh",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leila Bell",
@@ -1795,7 +1960,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leila%20Bell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leila Gibson",
@@ -1807,7 +1973,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leila%20Gibson",
     "chinese_name": [
       "白玉袍"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lela Ashley",
@@ -1817,7 +1984,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lela%20Ashley.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lela-ashley",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lela%20Ashley",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lela Laurents",
@@ -1827,7 +1995,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lela%20Laurents%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lela%20Laurents",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lelia Maryott",
@@ -1837,7 +2006,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lelia%20Maryott",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lellah Callison",
@@ -1847,7 +2017,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lellah%20Callison.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lellah%20Callison",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lemon Drop",
@@ -1861,7 +2032,8 @@
       "柠檬",
       "柠檬糖",
       "掉落的柠檬"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lemon Glow",
@@ -1871,7 +2043,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lemon%20Glow.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lemon-glow",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Glow",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lemon Honey",
@@ -1881,7 +2054,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lemon%20Honey.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lemon-honey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Honey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lemon Twist",
@@ -1893,7 +2067,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Twist",
     "chinese_name": [
       "柠檬黄"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Len Bray",
@@ -1906,7 +2081,8 @@
     "chinese_name": [
       "琳布蕾",
       "大理花含烟"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Len Jacobs",
@@ -1919,7 +2095,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "温柔乡"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Len's Gift",
@@ -1930,7 +2107,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Len%27s%20Gift",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lena Jackson",
@@ -1940,7 +2118,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lena%20Jackson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lena-jackson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lena%20Jackson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lena-Beth",
@@ -1950,7 +2129,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lena-Beth",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lenora Taylor",
@@ -1960,7 +2140,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lenora%20Taylor",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leon Benson",
@@ -1972,7 +2153,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leon%20Benson",
     "chinese_name": [
       "里昂班森"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leon Silver's Dream",
@@ -1982,7 +2164,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leon%20Silver%27s%20Dream.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leon-silvers-dream",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leon%20Silver%27s%20Dream",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leona Rish",
@@ -1992,7 +2175,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leona%20Rish.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leona%20Rish",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leona Willsey",
@@ -2002,7 +2186,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leona%20Willsey.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leona-willsey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leona%20Willsey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leonard Messel",
@@ -2016,7 +2201,8 @@
       "梅塞尔",
       "狮子王",
       "里娜密希"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leone Summerson",
@@ -2026,7 +2212,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leone%20Summerson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leone-summerson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leone%20Summerson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leonie Cowan",
@@ -2036,7 +2223,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leonie%20Cowan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leonora Novick",
@@ -2051,7 +2239,8 @@
       "白嘉莉",
       "连翁欧拉诺维克",
       "利奥诺拉"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leonora Weil",
@@ -2061,7 +2250,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leonora%20Weil.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leonora%20Weil",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lerlind",
@@ -2071,7 +2261,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lerlind.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lerlind",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Berg",
@@ -2081,7 +2272,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Berg",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Jury",
@@ -2091,7 +2283,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Les%20Jury.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/les-jury",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Jury",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Marbury",
@@ -2103,7 +2296,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Marbury",
     "chinese_name": [
       "小粉扑"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Les Marbury Blush",
@@ -2113,7 +2307,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Les%20Marbury%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/les-marbury-blush",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Marbury Red",
@@ -2123,7 +2318,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Les%20Marbury%20Red.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/les-marbury-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Marbury%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Richard",
@@ -2133,7 +2329,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les Rose",
@@ -2144,7 +2341,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Rose",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Les-Tay-Home",
@@ -2154,7 +2352,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Les-Tay-Home.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/les-tay-home",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les-Tay-Home",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leslie Ann",
@@ -2166,7 +2365,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leslie%20Ann",
     "chinese_name": [
       "白雪飘红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Leslie Howard",
@@ -2176,7 +2376,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leslie%20Howard.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leslie-howard",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leslie%20Howard",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leslie R.",
@@ -2186,7 +2387,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leslie Rivett",
@@ -2196,7 +2398,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leslie%20Rivett.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leslie-rivett",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leslie%20Rivett",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leslie Wilkes",
@@ -2206,7 +2409,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leslie%20Wilkes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Letitia Mac",
@@ -2216,7 +2420,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Letitia%20Mac",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Letitia Schrader",
@@ -2229,7 +2434,8 @@
     "chinese_name": [
       "莱迪塔",
       "罗马帝国"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Letitia Schrader Variegated",
@@ -2241,7 +2447,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Letitia%20Schrader%20Variegated",
     "chinese_name": [
       "罗马帝国（斑）"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lettie Marinda",
@@ -2251,7 +2458,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lettie%20Marinda",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leucantha",
@@ -2261,7 +2469,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leucantha.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/leucantha",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leucantha",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leverton's",
@@ -2272,7 +2481,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leverton%27s",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Leviathan",
@@ -2283,7 +2493,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leviathan",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lew Fetterman",
@@ -2293,7 +2504,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lew%20Fetterman.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lew-fetterman",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lew%20Fetterman",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lewellyn",
@@ -2303,7 +2515,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lewellyn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lewellyn",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lewellyn%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lewellyn Variegated",
@@ -2314,7 +2527,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Sweetii%20Vera",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lewis Red Peony",
@@ -2327,7 +2541,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "威德林"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Liangye Yinhong",
@@ -2340,7 +2555,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "亮叶银红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lianrui",
@@ -2353,7 +2569,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "莲蕊"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lib Scott",
@@ -2363,7 +2580,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lib%20Scott.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lib%20Scott",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liberty",
@@ -2373,7 +2591,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Liberty.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/liberty",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liberty",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liberty Bell",
@@ -2385,7 +2604,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liberty%20Bell",
     "chinese_name": [
       "自由之声"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Liberty Variegated",
@@ -2395,7 +2615,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Liberty%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/liberty-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liberty%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liddy Jenkins",
@@ -2405,7 +2626,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Liddy%20Jenkins.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liddy%20Jenkins",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liddybow",
@@ -2415,7 +2637,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liddybow",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lieutenant Bennie Folsom",
@@ -2425,7 +2648,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lieutenant%20Bennie%20Folsom",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lieutenant Victor Johnson",
@@ -2435,7 +2659,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victor%20Johnson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lieutenant William Hearn",
@@ -2445,7 +2670,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lieutenant%20William%20Hearn",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Like Sargent",
@@ -2455,7 +2681,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Like%20Sargent.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/like-sargent",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Like%20Sargent",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Red Devil",
@@ -2465,7 +2692,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Red%20Devil",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Rose",
@@ -2475,7 +2703,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Rose.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lil-rose",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Schaefer",
@@ -2485,7 +2714,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Schaefer.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lil-schaefer",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Schaefer",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Stella",
@@ -2495,7 +2725,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Stella.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Stella",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Symonds",
@@ -2505,7 +2736,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Symonds.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lil-symonds",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Symonds",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lil Tiff",
@@ -2515,7 +2747,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Tiff.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lil-tiff",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Tiff",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila Akel",
@@ -2525,7 +2758,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20Akel",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila Fretwell",
@@ -2535,7 +2769,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20Fretwell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila Lee",
@@ -2545,7 +2780,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lila%20Lee.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lila-lee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20Lee",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila Moore",
@@ -2555,7 +2791,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20Moore",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila Naff",
@@ -2569,7 +2806,8 @@
       "凌云花",
       "纳福",
       "莉拉纳福"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lila Rosa",
@@ -2579,7 +2817,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lila%20Rosa.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lila-rosa",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20Rosa",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lila S. Roberts",
@@ -2589,7 +2828,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lila%20S.%20Roberts.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lila-s-roberts",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lila%20S.%20Roberts",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilac Lady",
@@ -2599,7 +2839,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilac%20Lady.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lilac-lady",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilac%20Lady",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilac Red",
@@ -2609,7 +2850,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilac Time",
@@ -2619,7 +2861,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilac%20Time.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lilac-time",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilac%20Time",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilemac",
@@ -2629,7 +2872,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilemac.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lilemac",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilemac",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilette Witman",
@@ -2642,7 +2886,8 @@
     "chinese_name": [
       "怒江红潮",
       "维特门"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lilian Burgess",
@@ -2653,7 +2898,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilian%20Burgess",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liliane Wells",
@@ -2663,7 +2909,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liliane%20Wells",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilla Fletcher Inman",
@@ -2673,7 +2920,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilla%20Fletcher%20Inman.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilla%20Fletcher%20Inman",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilli Brewster",
@@ -2683,7 +2931,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilli%20Brewster",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian A.",
@@ -2693,7 +2942,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%20A..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20A.",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian Gordy",
@@ -2703,7 +2953,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%20Gordy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lillian-gordy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20Gordy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian Hannah Stokes",
@@ -2713,7 +2964,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%20Hannah%20Stokes.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lillian-hannah-stokes",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20Hannah%20Stokes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian Jernigan",
@@ -2723,7 +2975,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%20Jernigan.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lillian-jernigan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20Jernigan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian Mann",
@@ -2733,7 +2986,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%20Mann.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20Mann",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian's Cherry Pie",
@@ -2743,7 +2997,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%27s%20Cherry%20Pie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lillians-cherry-pie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%27s%20Cherry%20Pie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian's Shining Star",
@@ -2753,7 +3008,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%27s%20Shining%20Star.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lillians-shining-star",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%27s%20Shining%20Star",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillie G. Mealing",
@@ -2763,7 +3019,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillie%20G%20Mealing.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillie%20G.%20Mealing",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillie Robinson",
@@ -2773,7 +3030,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillie%20Robinson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillie S. Adams",
@@ -2783,7 +3041,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillie%20S.%20Adams.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillie%20S.%20Adams",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilly Marie Nichols",
@@ -2793,7 +3052,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilly%20Marie%20Nichols.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lilly-marie-nichols",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilly%20Marie%20Nichols",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lilly Ramsey",
@@ -2803,7 +3063,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lilly%20Ramsey.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lilly-ramsey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilly%20Ramsey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillye Roseman",
@@ -2815,7 +3076,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillye%20Roseman",
     "chinese_name": [
       "丽丽"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lily Barron Slay",
@@ -2825,7 +3087,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lily%20Barron%20Slay.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lily%20Barron%20Slay",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lily Grace",
@@ -2835,7 +3098,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lily%20Grace.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lily-grace",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lily%20Grace",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lily Langtry",
@@ -2845,7 +3109,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lily%20Langtry.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lily-langtry",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lily%20Langtry",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lily Pons",
@@ -2860,7 +3125,8 @@
       "百合澎澎",
       "歌星莉莉",
       "莉莉澎丝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lily Schlaudecker",
@@ -2870,7 +3136,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lily%20Schlaudecker.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lily%20Schlaudecker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lime Light",
@@ -2880,7 +3147,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lime%20Light",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Abbott",
@@ -2890,7 +3158,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Abbott.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Abbott",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda B. Browne",
@@ -2900,7 +3169,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20B.%20Browne.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/linda-b-browne",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20B.%20Browne",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Brothers",
@@ -2910,7 +3180,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Brothers.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/linda-brothers",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Brothers",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Brothers Blush",
@@ -2920,7 +3191,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Brothers%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/linda-brothers-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Brothers%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Bruce",
@@ -2931,7 +3203,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Bruce",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Carol",
@@ -2944,7 +3217,8 @@
     "chinese_name": [
       "科琳达",
       "琳达"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Linda Gilmore",
@@ -2954,7 +3228,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Gilmore.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/linda-gilmore",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Gilmore",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Griffin",
@@ -2964,7 +3239,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Griffin.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/linda-griffin",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Griffin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Henson",
@@ -2974,7 +3250,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Henson.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Henson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Laughlin",
@@ -2984,7 +3261,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Laughlin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Leary",
@@ -2994,7 +3272,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Leary",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Lee Ehrhart",
@@ -3004,7 +3283,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Lee%20Ehrhart.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/linda-lee-ehrhart",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Lee%20Ehrhart",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Margaret",
@@ -3016,7 +3296,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Margaret",
     "chinese_name": [
       "琳达玫瑰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Linda Marie Rogers",
@@ -3026,7 +3307,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20%20Marie%20Rogers.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Marie%20Rogers",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Marie Rogers Pink",
@@ -3036,7 +3318,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Marie%20Rogers%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Marie Rogers Red",
@@ -3046,7 +3329,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Marie%20Rogers%20Red",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Roberts",
@@ -3056,7 +3340,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linda%20Roberts.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Roberts",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Roberts Variegated",
@@ -3066,7 +3351,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Roberts%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda Ruth Davis",
@@ -3076,7 +3362,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%20Ruth%20Davis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linda's Blush",
@@ -3086,7 +3373,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linda%27s%20Blush",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linden Hill",
@@ -3096,7 +3384,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linden%20Hill.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linden%20Hill",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lindsay Neill",
@@ -3108,7 +3397,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lindsay%20Neill",
     "chinese_name": [
       "午夜情挑"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lindsay Rose",
@@ -3118,7 +3408,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lindsay%20Rose.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lindsay-rose",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lindsay%20Rose",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lindsey",
@@ -3130,7 +3421,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lindsey",
     "chinese_name": [
       "林赛"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Linley Reid",
@@ -3140,7 +3432,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Linton Baggs",
@@ -3150,7 +3443,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Linton%20Baggs.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linton%20Baggs",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lion Head",
@@ -3161,7 +3455,8 @@
     "acs_url": null,
     "icr_url": null,
     "imageSource": "socal",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lipstick",
@@ -3175,7 +3470,8 @@
       "艳口红",
       "口红",
       "唇膏"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lisa",
@@ -3185,7 +3481,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lisa",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Adams",
@@ -3195,7 +3492,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Adams.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Adams",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Adele Shuman",
@@ -3205,7 +3503,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Adele%20Shuman.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Adele%20Shuman",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Beasley",
@@ -3219,7 +3518,8 @@
       "莉莎小姐",
       "莉萨小姐",
       "莉莎白西里"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lisa Buono",
@@ -3229,7 +3529,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Buono.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Buono",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Burton",
@@ -3239,7 +3540,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Burton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lisa-burton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Burton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Cashion",
@@ -3249,7 +3551,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Cashion",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Gael",
@@ -3259,7 +3562,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Gael.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Gael",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Maibach",
@@ -3269,7 +3573,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Maibach",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lisa Rhody",
@@ -3279,7 +3584,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lisa%20Rhody.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lisa%20Rhody",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little 'Un",
@@ -3289,7 +3595,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20%27Un.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-un",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Aggie",
@@ -3299,7 +3606,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Aggie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-aggie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Aggie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Ann",
@@ -3310,7 +3618,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Ann",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Babe",
@@ -3320,7 +3629,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Babe.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-babe",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Babe",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Babe Variegated",
@@ -3330,7 +3640,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Babe%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-babe-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Babe%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Bit",
@@ -3342,7 +3653,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Bit",
     "chinese_name": [
       "小比特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Bo Peep",
@@ -3356,7 +3668,8 @@
       "莺声燕语",
       "立特布派普",
       "吉普车"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Brad",
@@ -3366,7 +3679,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Brad.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-brad",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Brad",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Cheeper",
@@ -3376,7 +3690,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Cheeper.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-cheeper",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Cheeper",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Cutie",
@@ -3386,7 +3701,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Cutie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little David",
@@ -3396,7 +3712,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20David.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-david",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20David",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Dixie",
@@ -3408,7 +3725,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Dixie",
     "chinese_name": [
       "西京少年"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Gem",
@@ -3420,7 +3738,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Gem",
     "chinese_name": [
       "小宝石"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Ginger",
@@ -3432,7 +3751,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Ginger",
     "chinese_name": [
       "小金戈"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Glen",
@@ -3442,7 +3762,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Glen",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Hooper",
@@ -3452,7 +3773,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Hooper.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-hooper",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Hooper",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Jon",
@@ -3462,7 +3784,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Jon.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Jon",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Joy",
@@ -3473,7 +3796,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Joy",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Katie",
@@ -3483,7 +3807,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Katie.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/little-katie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Katie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Lady",
@@ -3493,7 +3818,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Lady.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Lady",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Lavender",
@@ -3506,7 +3832,8 @@
     "chinese_name": [
       "一剪梅",
       "小蓝"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Lisa Leigh",
@@ -3517,7 +3844,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Lisa%20Leigh",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Liz",
@@ -3527,7 +3855,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Liz.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-liz",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Liz",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Man",
@@ -3541,7 +3870,8 @@
       "小人物",
       "小叮当",
       "小男人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Masterpiece",
@@ -3553,7 +3883,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Masterpiece",
     "chinese_name": [
       "小杰作"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Michael",
@@ -3568,7 +3899,8 @@
       "小麦可",
       "米迦勒",
       "小米迦勒"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Pearl",
@@ -3580,7 +3912,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Pearl",
     "chinese_name": [
       "小珍珠"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Poppy",
@@ -3590,7 +3923,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Poppy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Princess",
@@ -3601,7 +3935,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Sh%C5%8Dwa-wabisuke",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Red Ridinghood",
@@ -3611,7 +3946,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Red%20Ridinghood.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-red-ridinghood",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Ruby",
@@ -3621,7 +3957,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Ruby",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Sittart",
@@ -3631,7 +3968,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Sittart",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Little Slam",
@@ -3644,7 +3982,8 @@
     "chinese_name": [
       "小满贯",
       "小赢"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Slam Pink",
@@ -3656,7 +3995,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Slam%20Pink",
     "chinese_name": [
       "粉红小满贯"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Slam Variegated",
@@ -3669,7 +4009,8 @@
     "chinese_name": [
       "小满贯(斑）",
       "小满贯(斑"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Susie",
@@ -3682,7 +4023,8 @@
     "chinese_name": [
       "苏西",
       "小苏西"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Little Too",
@@ -3692,7 +4034,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Too.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-too",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Too",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liuye Yinhong",
@@ -3705,7 +4048,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "柳叶银红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Liz Beebe",
@@ -3715,7 +4059,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liz%20Beebe",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Liz Carter",
@@ -3726,7 +4071,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Liz%20Carter",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Boudreaux",
@@ -3736,7 +4082,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lois%20Boudreaux.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lois-boudreaux",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Boudreaux",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Coker",
@@ -3746,7 +4093,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lois%20Coker.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lois-coker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Coker",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Hill",
@@ -3756,7 +4104,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lois%20Hill.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lois-hill",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Hill",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Jean",
@@ -3766,7 +4115,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lois%20Jean.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lois-jean",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Jean",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Norvell",
@@ -3776,7 +4126,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Norvell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Norvell Variegated",
@@ -3786,7 +4137,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Norvell%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lois Shinault",
@@ -3799,7 +4151,8 @@
     "chinese_name": [
       "施纳特",
       "青草湖"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lois Silver",
@@ -3809,7 +4162,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lois%20Silver.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lois-silver",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lois%20Silver",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lola",
@@ -3819,7 +4173,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lola",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lola Barnes",
@@ -3829,7 +4184,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lola%20Barnes",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lolita",
@@ -3839,7 +4195,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lolita.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lolita",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lollypop",
@@ -3851,7 +4208,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lollypop",
     "chinese_name": [
       "棒棒糖"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Loloma",
@@ -3862,7 +4220,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Loloma",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Londontowne",
@@ -3872,7 +4231,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Londontowne%20Blush.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Londontowne Blush",
@@ -3884,7 +4244,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Londontowne%20Blush",
     "chinese_name": [
       "伦敦红颊"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Longhuozhu",
@@ -3897,7 +4258,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "龙火珠"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Longwood Centennial",
@@ -3907,7 +4269,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Longwood%20Centennial.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/longwood-centennial",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Longwood%20Centennial",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Longwood Valentine",
@@ -3917,7 +4280,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Longwood%20Valentine.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/longwood-valentine",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Longwood%20Valentine",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lonjan",
@@ -3930,7 +4294,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "眉间尺"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Look Again",
@@ -3943,7 +4308,8 @@
     "chinese_name": [
       "耀眼",
       "注目"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Look-Away",
@@ -3957,7 +4323,8 @@
       "眺望",
       "羞涩",
       "看走眼"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lora Dale Johnson",
@@ -3967,7 +4334,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lora%20Dale%20Johnson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Loraine Gloria",
@@ -3979,7 +4347,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Loraine%20Gloria",
     "chinese_name": [
       "罗兰格洛里亚"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lorelei",
@@ -3989,7 +4358,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lorelei.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lorelei",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lorelei",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Loren Littleton",
@@ -3999,7 +4369,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Loren%20Littleton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lauren-littleton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Loren%20Littleton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lori Burton",
@@ -4009,7 +4380,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lori%20Burton",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lori Clevenger",
@@ -4019,7 +4391,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lori%20Clevenger.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lori-clevenger",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lori%20Clevenger",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lori Smith",
@@ -4029,7 +4402,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lori%20Smith.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lori-smith",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lori%20Smith",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lori Weeks",
@@ -4039,7 +4413,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lori%20Weeks.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lori-weeks",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lorie J. Huff",
@@ -4049,7 +4424,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lorie%20J.%20Huff.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lorie-j-huff",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lorie%20J.%20Huff",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lorraine Cross",
@@ -4059,7 +4435,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lorraine%20Cross.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lottie's Lavender",
@@ -4069,7 +4446,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lottie%27s%20Lavender",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lotus",
@@ -4082,7 +4460,8 @@
     "chinese_name": [
       "高特雷特",
       "袖隐"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lou Akin",
@@ -4092,7 +4471,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lou%20Akin.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lou%20Akin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lou Powers",
@@ -4102,7 +4482,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lou%20Powers.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lou-powers",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lou%20Powers",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louis Law",
@@ -4112,7 +4493,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louis%20Law.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louis%20Law",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louisa Penn",
@@ -4122,7 +4504,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louisa%20Penn",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louisa Wilson",
@@ -4132,7 +4515,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louisa%20Wilson.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louisa%20Wilson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Beasley",
@@ -4142,7 +4526,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Beasley.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Beasley",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Dovell",
@@ -4152,7 +4537,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Dovell.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Dovell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Dovell Variegated",
@@ -4162,7 +4548,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Dovell%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Dowd",
@@ -4172,7 +4559,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Dowd.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-dowd",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Dowd",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise English",
@@ -4182,7 +4570,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20English",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Fitzgerald",
@@ -4192,7 +4581,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Fitzgerald.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-fitzgerald",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Fitzgerald",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Gerbing",
@@ -4202,7 +4592,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20%20Gerbing.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Gerbing",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Hairston",
@@ -4212,7 +4603,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Hairston.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-hairston",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Hairston",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Hairston Variegated",
@@ -4222,7 +4614,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Hairston%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-hairston-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Hairston%20Variegated",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Howell",
@@ -4232,7 +4625,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Howell.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Howell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Somervell",
@@ -4242,7 +4636,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Somervell",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Van Dusen",
@@ -4252,7 +4647,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Van%20Dusen.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-van-dusen",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Van%20Dusen",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Weick",
@@ -4262,7 +4658,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Weick.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-weick",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Weick",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise Whiting",
@@ -4272,7 +4669,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise%20Whiting.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-whiting",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise%20Whiting",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louise-Onetta",
@@ -4282,7 +4680,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louise-Onetta.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louise-onetta",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louise-Onetta",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Louisiana Purchase",
@@ -4292,7 +4691,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Louisiana%20Purchase.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/louisiana-purchase",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Louisiana%20Purchase",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Love Boat",
@@ -4302,7 +4702,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Love%20Boat.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Love%20Boat",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Love Letters",
@@ -4312,7 +4713,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Love%20Letters",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lovelight",
@@ -4325,7 +4727,8 @@
     "chinese_name": [
       "爱神",
       "爱情火花"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lovely Lady",
@@ -4338,7 +4741,8 @@
     "chinese_name": [
       "宝贝夫人",
       "俏佳人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lover Boy",
@@ -4348,7 +4752,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lover%20Boy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lover-boy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lover%20Boy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lowanna",
@@ -4362,7 +4767,8 @@
     "chinese_name": [
       "罗万娜",
       "落霜红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Loyce Woodle",
@@ -4372,7 +4778,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Loyce%20Woodle.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Loyce%20Woodle",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lu Ann Crowley",
@@ -4382,7 +4789,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lu Shan Snow",
@@ -4394,7 +4802,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lu%20Shan%20Snow",
     "chinese_name": [
       "庐山雪"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lu-Lu",
@@ -4404,7 +4813,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lu-Lu",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Luana's Angel",
@@ -4417,7 +4827,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "天使"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Luanye Yinhong",
@@ -4430,7 +4841,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "卵叶银红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucie Lanham",
@@ -4440,7 +4852,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucie%20Lanham.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucie%20Lanham",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucie Schwoerer",
@@ -4450,7 +4863,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucie%20Schwoerer.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucie%20Schwoerer",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucile Dickson",
@@ -4460,7 +4874,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucile%20Dickson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucile-dickson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucile%20Dickson",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Davis",
@@ -4470,7 +4885,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucille%20Davis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucille-davis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Davis",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Ferrell",
@@ -4486,7 +4902,8 @@
       "威尔逊将军",
       "威尔逊",
       "威尔生"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucille Flanagan",
@@ -4496,7 +4913,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucille%20Flanagan.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucille-flanagan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Flanagan",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Harkey",
@@ -4506,7 +4924,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucille%20Harkey.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Harkey",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Jackson Harris",
@@ -4516,7 +4935,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucille%20Jackson%20Harris.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Jackson%20Harris",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Jernigan",
@@ -4528,7 +4948,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Jernigan",
     "chinese_name": [
       "佐尼根"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucille Morris",
@@ -4538,7 +4959,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucille Smith",
@@ -4548,7 +4970,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucille%20Smith.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Smith",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucinda",
@@ -4562,7 +4985,8 @@
     "chinese_name": [
       "卢森达",
       "卢赛娜"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucky Seven",
@@ -4576,7 +5000,8 @@
       "吉祥红贝蒂",
       "幸运之星",
       "幸运七号"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucky Star",
@@ -4588,7 +5013,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Star",
     "chinese_name": [
       "幸运之星"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucky Star Variegated",
@@ -4598,7 +5024,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucky%20Star%20Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucky-star-variegated",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucky Strike",
@@ -4608,7 +5035,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucky%20Strike.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucky-strike",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Strike",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucky Thirteen",
@@ -4618,7 +5046,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/LuckyThirteen.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Thirteen",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy Ellen McCURDIE",
@@ -4628,7 +5057,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Ellen%20McCURDIE",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy Hester",
@@ -4640,7 +5070,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Hester",
     "chinese_name": [
       "福星黑斯特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucy Hester Variegated",
@@ -4652,7 +5083,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Hester%20Variegated",
     "chinese_name": [
       "福星黑斯特(斑）"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucy Jones",
@@ -4662,7 +5094,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy%20Jones.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucy-jones",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Jones",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy O",
@@ -4672,7 +5105,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy%20O..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucy-o",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy Rooney",
@@ -4682,7 +5116,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy%20Rooney.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Rooney",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy Shirah",
@@ -4692,7 +5127,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy%20Shirah.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucy-shirah",
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lucy Stewart",
@@ -4707,7 +5143,8 @@
       "白玉堂",
       "露西史帝威",
       "露西史提沃特"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucy Turner",
@@ -4717,7 +5154,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Turner",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Luisa Ann Lee",
@@ -4727,7 +5165,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Luisa%20Ann%20Lee.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/luisa-ann-lee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Luisa%20Ann%20Lee",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Luke Hill",
@@ -4737,7 +5176,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Luke%20Hill.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/luke-hill",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Luke%20Hill",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lulu Belle",
@@ -4752,7 +5192,8 @@
       "露露",
       "摩登女郎",
       "露露贝蕾"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Luminosa",
@@ -4762,7 +5203,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Luminosa",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Luminous",
@@ -4772,7 +5214,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Luminous.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Luminous",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lundy's Legacy",
@@ -4782,7 +5225,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lundy%27s%20Legacy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lundys-legacy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lundy%27s%20Legacy",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lupe",
@@ -4792,7 +5236,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lupe.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lupe",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lurie's Favorite",
@@ -4802,7 +5247,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lurie%27s%20Favorite.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/luries-favorite",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lurie%27s%20Favorite",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lurleen Wallace",
@@ -4815,7 +5261,8 @@
     "chinese_name": [
       "宫廷舞姬",
       "宫廷舞姫"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Luscious Lady",
@@ -4825,7 +5272,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Luscious%20Lady.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/luscious-lady",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Luscious%20Lady",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lydia Adams",
@@ -4835,7 +5283,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lydia%20Adams.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lydia%20Adams",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lynda's Own",
@@ -4846,7 +5295,8 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lynda%27s%20Own",
     "imageSource": "icr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lyndall",
@@ -4856,7 +5306,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lyndall.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lyndall",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lyndall",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lynette Hooper",
@@ -4869,7 +5320,8 @@
     "imageSource": "icr",
     "chinese_name": [
       "百花魁"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lynn Hairston",
@@ -4879,7 +5331,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lynn%20Hairston.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lynn-hairston",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lynn%20Hairston",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lynn Marie",
@@ -4889,7 +5342,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lynn%20Marie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lynne Woodroof",
@@ -4899,6 +5353,7 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lynne%20Woodroof",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   }
 ]

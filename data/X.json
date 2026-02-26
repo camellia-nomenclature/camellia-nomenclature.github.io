@@ -7,7 +7,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=X-Tra%20Pink",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Xiafeng Relang",
@@ -19,7 +20,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiafeng%20Relang",
     "chinese_name": [
       "夏风热浪"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiameng Wenqing",
@@ -31,7 +33,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiameng%20Wenqing",
     "chinese_name": [
       "夏梦文清"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiameng Yulan",
@@ -43,7 +46,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiameng%20Yulan",
     "chinese_name": [
       "夏梦玉兰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiaoguiye",
@@ -55,7 +59,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoguiye",
     "chinese_name": [
       "小桂叶"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiaoye Mudan",
@@ -67,7 +72,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoye%20Mudan",
     "chinese_name": [
       "小叶牡丹"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiaoyulan",
@@ -79,7 +85,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoyulan",
     "chinese_name": [
       "小玉兰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xiguiye",
@@ -91,7 +98,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiguiye",
     "chinese_name": [
       "细桂叶"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Xizi Xianghe",
@@ -103,6 +111,7 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xizi%20Xianghe",
     "chinese_name": [
       "西子香荷"
-    ]
+    ],
+    "japanese_name": []
   }
 ]

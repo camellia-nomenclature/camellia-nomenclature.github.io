@@ -1,0 +1,128 @@
+{
+  "before": 7946,
+  "after": 7789,
+  "removed": 157,
+  "normalized_dup_keys_left": 0,
+  "sample_removed": [
+    {
+      "name": "Aaron’s Ruby",
+      "species": "Japonica"
+    },
+    {
+      "name": "Aaron’s Ruby Variegated",
+      "species": "Japonica"
+    },
+    {
+      "name": "Abbott’s Folly",
+      "species": "NRH"
+    },
+    {
+      "name": "Ace O’ Hearts",
+      "species": "Japonica"
+    },
+    {
+      "name": "Adrianne’s Betty",
+      "species": "Japonica"
+    },
+    {
+      "name": "Alabama’s Lurleen",
+      "species": "Japonica"
+    },
+    {
+      "name": "Anita’s Blush",
+      "species": "Japonica"
+    },
+    {
+      "name": "Anita’s Triumph",
+      "species": "Japonica"
+    },
+    {
+      "name": "Annaleigh’s Star",
+      "species": "Japonica"
+    },
+    {
+      "name": "Anne’s Memorial",
+      "species": "NRH"
+    },
+    {
+      "name": "Armstrong’s Supreme",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s Ballet",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s Cameo",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s Fragrant Jewel",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s High Rise",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s Red Sunset",
+      "species": "Japonica"
+    },
+    {
+      "name": "Ashton’s Snow",
+      "species": "NRH"
+    },
+    {
+      "name": "Ashton’s Supreme",
+      "species": "NRH"
+    },
+    {
+      "name": "Aurora’s Bluebird",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Badgen’s Beauty",
+      "species": "Japonica"
+    },
+    {
+      "name": "Bebe’s Best",
+      "species": "Japonica"
+    },
+    {
+      "name": "Berg’s Baby Formal",
+      "species": "Japonica"
+    },
+    {
+      "name": "Berg’s Flame",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Betty’s Beauty",
+      "species": "Japonica"
+    },
+    {
+      "name": "Betty’s Delight",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Betty’s Pink Organdie",
+      "species": "Japonica"
+    },
+    {
+      "name": "Cap’N Brooks",
+      "species": "Japonica"
+    },
+    {
+      "name": "Carter’s Carnival",
+      "species": "Japonica"
+    },
+    {
+      "name": "Carter’s Sunburst",
+      "species": "Japonica"
+    },
+    {
+      "name": "Carter’s Sunburst Blush",
+      "species": "Japonica"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Link Enrichment Summary
+=======================
+Date: 2026-02-26T11:14:26.146430
+Total entries processed: 301
+
+ACS (American Camellia Society):
+  Found: 171/301 (56.8%)
+  Missing: 130
+  Index size: 4086 total ACS entries
+
+ICR (International Camellia Register):
+  Found: 299/301 (99.3%)
+  Missing: 2
+
+Combined:
+  Both links found: 170
+  At least one link: 300
+  Neither link found: 1

@@ -1,0 +1,59 @@
+BACKFILL AUDIT SUMMARY
+==================================================
+Date: 2026-02-26
+Mode: STRICT (exact name match, whitespace trim only)
+
+SOURCE FILES:
+  OCR source dir: /Users/lukewang/.openclaw/workspace/camellia-project/ocr_isolated/species_book_sections_ocr_only
+  Cleaned copies: /Users/lukewang/.openclaw/workspace/camellia-project/ocr_isolated/cleaned_for_backfill
+
+COUNTS:
+  Total OCR entries parsed:     3804
+  Matched existing (kept):      3503
+  Newly added (unique):         301
+  Still missing after sync:     0
+  Final website total entries:  8029
+
+ADDED ENTRIES BY SPECIES:
+  Japonica: 206
+  NRH: 52
+  Reticulata: 41
+  Rusticana: 1
+  Wabisuke: 1
+
+ADDED ENTRIES BY LETTER:
+  A: 24
+  B: 16
+  C: 21
+  D: 18
+  E: 9
+  F: 5
+  G: 12
+  H: 12
+  I: 8
+  J: 22
+  K: 13
+  L: 10
+  M: 23
+  N: 15
+  O: 5
+  P: 20
+  Q: 1
+  R: 9
+  S: 16
+  T: 16
+  U: 1
+  V: 1
+  W: 21
+  Y: 2
+  Z: 1
+
+ARTIFACTS REGENERATED:
+  - data/A.json through Z.json (per-letter files)
+  - data/camellias.json (full dataset)
+  - data/index.json (search index)
+  - camellias.json (root copy)
+
+VALIDATION:
+  index.json entries == camellias.json entries: True
+  Missing after sync: 0

@@ -9,7 +9,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yae-Arare",
     "chinese_name": [
       "八重霰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yamato-Nishiki",
@@ -21,7 +22,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yamato-Nishiki",
     "chinese_name": [
       "大和锦"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yamato-Nishiki Rose",
@@ -33,7 +35,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Sh%C5%8Dwa-no-hikari",
     "chinese_name": [
       "昭和之光"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yamaya",
@@ -43,7 +46,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yamaya",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yanhong",
@@ -55,7 +59,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yanhong",
     "chinese_name": [
       "嫣红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Ye Ming Zu",
@@ -65,7 +70,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yeamans Hall",
@@ -75,7 +81,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yeamans%20Hall.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yellow And Purple",
@@ -85,7 +92,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yellow%20And%20Purple.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yesterday",
@@ -95,7 +103,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yesterday.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yesterday",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yiao Huang Wei Zi",
@@ -105,7 +114,19 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Yiao Huang Weizi",
+    "species": "Reticulata",
+    "size": "",
+    "description": "See ‘Yellow and Purple’",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yiao%20Huang%20Weizi",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yifen Mudan",
@@ -115,7 +136,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yingchun Hong",
@@ -125,7 +147,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yinhong Diechi",
@@ -138,7 +161,8 @@
     "chinese_name": [
       "银红蝶翅",
       "麻叶蝶翅"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yipinhong",
@@ -150,7 +174,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yipinhong",
     "chinese_name": [
       "一品红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yirgella",
@@ -162,7 +187,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yirgella",
     "chinese_name": [
       "白光"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yobuko-Dori",
@@ -172,7 +198,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yobuko-Dori.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yohei-Haku",
@@ -182,7 +209,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yohei-Haku.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yoi Machi",
@@ -192,7 +220,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yoi%20Machi.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yona P. Dowdle",
@@ -202,7 +231,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yosemite",
@@ -214,7 +244,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yosemite",
     "chinese_name": [
       "优胜美地"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yoshiaki Andoh",
@@ -224,7 +255,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yoshiaki%20Andoh",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yoshida",
@@ -234,7 +266,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yoshida",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yours Truly",
@@ -247,7 +280,8 @@
     "chinese_name": [
       "忠实",
       "一世真情"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Youtz Wild Rose",
@@ -257,7 +291,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Youtz%20Wild%20Rose",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yudaihong",
@@ -269,7 +304,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yudaihong",
     "chinese_name": [
       "玉带红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yuki Oguni",
@@ -279,7 +315,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Botan (Snowish Peony)",
@@ -289,7 +326,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Daruma",
@@ -299,7 +337,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Fujin",
@@ -309,7 +348,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Geshiki",
@@ -319,7 +359,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yuki-Geshiki.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Komachi",
@@ -329,7 +370,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yuki-Komachi.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Shiro",
@@ -339,7 +381,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuki-Sugata",
@@ -349,7 +392,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yukimi-Guruma (Snow-Viewing Carriage)",
@@ -359,7 +403,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yulan Cha",
@@ -372,7 +417,8 @@
     "chinese_name": [
       "玉兰茶",
       "大玉兰"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yulan's Summer Dream",
@@ -382,7 +428,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yulan%27s%20Summer%20Dream.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yume (Dream)",
@@ -395,7 +442,8 @@
     "chinese_name": [
       "梦",
       "梦中情人"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yumeji",
@@ -405,7 +453,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yumeji",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yummy Fragrance",
@@ -415,7 +464,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yummy%20Fragrance",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yupan Jinhua",
@@ -427,7 +477,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yupan%20Jinhua",
     "chinese_name": [
       "玉盘金华"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yuri-Shibhori (Lily Variegated)",
@@ -437,7 +488,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yuyake-Fuji",
@@ -447,7 +499,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yuyake-Fuji.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yvonne Amizonica",
@@ -457,7 +510,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yvonne Marie",
@@ -467,7 +521,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yvonne%20Marie",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Yvonne Rolfe",
@@ -479,7 +534,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yvonne%20Rolfe",
     "chinese_name": [
       "艳冠群芳"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yvonne Tyson",
@@ -491,7 +547,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yvonne%20Tyson",
     "chinese_name": [
       "桃花渡"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Yvonne Tyson Variegated",
@@ -503,6 +560,7 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yvonne%20Tyson%20Variegated",
     "chinese_name": [
       "桃花渡(斑）"
-    ]
+    ],
+    "japanese_name": []
   }
 ]

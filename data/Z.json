@@ -7,7 +7,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zac%20Chaffin",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zambo",
@@ -20,7 +21,8 @@
     "chinese_name": [
       "珍波",
       "黑红混血儿"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zaomudan",
@@ -32,7 +34,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zaomudan",
     "chinese_name": [
       "早牡丹"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zaotaohong",
@@ -44,7 +47,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zaotaohong",
     "chinese_name": [
       "早桃红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zebulon",
@@ -54,7 +58,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zebulon.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zebulon",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zelda Fitzgerald",
@@ -64,7 +69,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zelda%20Fitzgerald.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zell Boyce",
@@ -76,7 +82,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zell%20Boyce",
     "chinese_name": [
       "载尔"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zelma Crockett",
@@ -86,7 +93,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zelma%20Crockett.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zelma%20Crockett",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zenobia",
@@ -96,7 +104,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zenobia",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zephyr",
@@ -106,7 +115,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zephyr%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zephyr",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zhangjia Cha",
@@ -118,7 +128,19 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhangjia%20Cha",
     "chinese_name": [
       "张家茶"
-    ]
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Zhanoqun Lady",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "(‘Da Qio’ - Chinese Name). Very Light Pink with slightly Deeper Pink on petal outer rim. Large to very large, rose form double to formal double with upstanding, separated, and mainly fluted petals. Vigorous growth. L. [(Reticulata hybrid ‘Suzanne Withers’ x ‘Nitidissima hybrid ‘Honeymoon’) x Japonica ‘Kona’]. (U.S. 2012 - John Wang, Orinda, CA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhanoqun%20Lady",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zhanqun Lady",
@@ -128,7 +150,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zhanqun%20Lady.jpg",
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zhusha Zipao",
@@ -140,7 +163,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhusha%20Zipao",
     "chinese_name": [
       "朱砂紫袍"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zi Pian",
@@ -150,7 +174,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zilpha Slauenwhite",
@@ -160,7 +185,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zilpha%20Slauenwhite",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zina Marie",
@@ -170,7 +196,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zing",
@@ -180,7 +207,8 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zing.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zing",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zipao",
@@ -192,7 +220,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zipao",
     "chinese_name": [
       "紫袍"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zoe Elizabeth",
@@ -202,7 +231,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zoe%20Elizabeth",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zorina",
@@ -212,7 +242,8 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zorina",
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Zuijiaohong",
@@ -224,7 +255,8 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zuijiaohong",
     "chinese_name": [
       "醉娇红"
-    ]
+    ],
+    "japanese_name": []
   },
   {
     "name": "Zuiko-Nishiki",
@@ -234,6 +266,7 @@
     "image": null,
     "acs_url": null,
     "icr_url": null,
-    "chinese_name": []
+    "chinese_name": [],
+    "japanese_name": []
   }
 ]

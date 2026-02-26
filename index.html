@@ -551,6 +551,10 @@
                 <div class="info-label">Chinese Name</div>
                 <div class="info-value">${c.chinese_name.join(', ')}</div>
               </div>` : ''}
+              ${Array.isArray(c.japanese_name) && c.japanese_name.length ? `<div class="info-row">
+                <div class="info-label">Japanese Name</div>
+                <div class="info-value">${c.japanese_name.join(', ')}</div>
+              </div>` : ''}
             </div>
             <div>
               <div class="card-image">${imageHtml}</div>

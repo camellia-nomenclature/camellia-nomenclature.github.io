@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Barney'S Joe",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Barney%27s%20Joe.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Barney'S Nina",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Barney%27s%20Nina.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Barney'S Patricia",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Barney%27s%20Patricia.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Barney'S Trula",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Barney%27s%20Trula.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Carter’S Sunburst",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Carter%E2%80%99S%20Sunburst.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Carter’S Sunburst Blush",
+    "image": "https://file4.iflora.cn/Upload/2021/12/1/S/1ba95bd3-7b24-4075-aa82-75294c3a807b.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Chujohaku",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chujohaku.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Daddy'S Girl",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Daddy%27s%20Girl.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Dautel'S Supreme",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dautel%27s%20Supreme.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Dinh'S Velvet",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dinh%27s%20Velvet.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Dona Herzilia De Freitas Magalhaes",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dona%20Herzilia%20De%20Freitas%20Magalhaes.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Dr. Tinsley",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dr.%20Tinsley.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Dr. W. H. Mcintosh",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dr.%20W.%20H.%20McINTOSH.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Elaine'S Betty Red",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Elaine%27s%20Betty%20Red.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Elaine'S Betty White",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Elaine%27s%20Betty%20White.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Emil'S Jane",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Emil%27s%20Jane.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Ethel Mcgee",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ethel%20McGEE.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Florence'S Fancy Formal",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Florence%27s%20Fancy%20Formal.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Forrest'S Royal Pearl",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Forrest%27s%20Royal%20Pearl.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gabriel'S Blush",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gabriel%27s%20Blush.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gayle'S Stella",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gayle%27s%20Stella.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gillette'S Fluffy Red",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gillette%27s%20Fluffy%20Red.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gordy'S Petite",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gordy%27s%20Petite.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Grand Sultan",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grand%20Sultan.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Isabel'S Birthday",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Isabel%27s%20Birthday.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jack Mccaskill",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jack%20McCASKILL.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jack'S Pride",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jack%27s%20Pride.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jane Hood",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jane%20Hood.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jimbo'S Tama",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jimbo%27s%20Tama.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "John Holliman",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/John%20Holliman.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Johnny Aldrich",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Johnny%20Aldrich.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Johnny Bergin",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Johnny%20Bergin.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Johnny Lamey, Iii",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Johnny%20Lamey%2C%20Iii.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Johnny Reb",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Johnny%20Reb.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Johnson Van Catherine",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Johnson%20Van%20Catherine.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Kammer'S Legacy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kammer%27s%20Legacy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Kiku-Toji Pointed",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kiku-Toji%20Pointed.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Lafayette'S Legacy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lafayette%27s%20Legacy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Lillian'S Cherry Pie",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%27s%20Cherry%20Pie.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Lillian'S Shining Star",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian%27s%20Shining%20Star.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Margaret'S Joy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Margaret%27s%20Joy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Mcquiston",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/McQUISTON.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Mehl'S Red",
+    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/dd5d13f3-5953-40e9-beff-a2df37826481.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Mini Faces",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mini%20Faces.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Orandako (Holland Red)",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Orandako.jpg",
+    "imageSource": "acs"
+  },
+  {
+    "name": "Oyler'S King David",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oyler%27s%20King%20David.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Paul Howard'S White",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Paul%20Howard%27s%20White.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Pearl'S Pet",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pearl%27s%20Pet.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Phillip'S Choice",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Phillip%27s%20Choice.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Powell'S Pink",
+    "image": "https://file4.iflora.cn/Upload/2025/4/6/S/a130638d-89ab-4a8b-8cac-7dfcf88b2561.JPG",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Queen Victoria'S Blush (South)",
+    "image": "https://file3.iflora.cn/Upload/2025/10/28/S/ec8b6c21-4c76-4120-84f2-cf020865389b.JPG",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Reland Westgate",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reland%20Westgate.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Sawada'S Mahogany",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Sawada%27s%20Mahogany.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Stephanie'S Heavenly Star",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Stephanie%27s%20Heavenly%20Star.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "T'S Rose",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/T%27s%20Rose.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Tomorrow'S Dawn Bessie",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Tomorrow%27s%20Dawn%20Bessie.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Virgin'S Blush",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virgin%27s%20Blush.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Wendell'S Dream",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Wendell%27s%20Dream.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "White Swan (Mcilhenny)",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/White Swan (McIlhenny).jpg",
+    "imageSource": "acs"
+  },
+  {
+    "name": "Woodland'S Pink Pearl",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Woodland%27s%20Pink%20Pearl.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Woodland'S Red Beauty",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Woodland%27s%20Red%20Beauty.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Barbara'S Own",
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/S/a6332dc1-8d68-42d1-95a6-5b2f9e2bd10d.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Brandon'S Beauty",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Brandon%27s%20Beauty.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gayle’S Mona",
+    "image": "https://file1.iflora.cn/Upload/2021/1/20/S/d63b66af-a269-401a-8c77-f2a502108b0e.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Jill'S Jewel",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jill%27s%20Jewel.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jubilation",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jubilation.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "King'S Lynn",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/King%27s%20Lynn.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Kramer'S Fluted Coral",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kramer%27s%20Fluted%20Coral.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Pat'S Pink",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pat%27s%20Pink.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Popsy",
+    "image": "https://file1.iflora.cn/Upload/2021/1/27/S/70c9701c-1964-4f77-bb0c-03440abab0be.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Prudence",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Prudence.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Punkin",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Punkin.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Purple Fire",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Purple%20Fire.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Reilly'S Reflection",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Reilly%27s%20Reflection.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Taylor'S Perfection",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Taylor%27s%20Perfection.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Taylor'S Supreme",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Taylor%27s%20Supreme.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Cupid",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Cupid.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Darling",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Darling.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Dream",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Dream.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Joy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Joy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Peony",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Peony.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter'S Rose",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winter%27s%20Rose.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Winter’S Snowman",
+    "image": "https://file2.iflora.cn/Upload/2021/12/1/S/91ab6efc-610b-4d63-a296-cc4d753a6c10.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Yulan'S Summer Dream",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Yulan%27s%20Summer%20Dream.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Alice Mccoughtry",
+    "image": "https://file3.iflora.cn/Upload/2020/11/22/S/02ed7732-378c-45da-a53d-c4484a1cd4b0.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Bigg Al'S",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bigg%20Al%27s.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Bill'S Pink",
+    "image": "https://file1.iflora.cn/Upload/2019/6/1/S/823a0db3-942d-461a-be95-378d6448d449.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Buddha'S Child",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Buddha%27s%20Child.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "California Fantasy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/California%20Fantasy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "California Sunrise",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/California%20Sunrise.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "California Sunset",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/California%20Sunset.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Cambria",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cambria.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Camellia City",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Camellia%20City.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Camelot",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Camelot.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Cameron Cooper",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cameron%20Cooper.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Carroll'S Legacy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Carroll%27s%20Legacy.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Eileen'S Smile",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Eileen%27s%20Smile.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Espana",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Espana.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Inspiration",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Inspiration.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "James Mccoy",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/James%20McCOY.jpg",
+    "imageSource": "socal"
+  },
+  {
+    "name": "Manaojuban",
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/57f2f16e-c3a9-4d9f-bc23-03eaab27d13d.jpg",
+    "imageSource": "icr"
+  },
+  {
+    "name": "Taiyo (The Sun)",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Taiyo.jpg",
+    "imageSource": "acs"
+  }
+]

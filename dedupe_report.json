@@ -1,0 +1,207 @@
+{
+  "before": 8029,
+  "after": 7946,
+  "removed_duplicates": 83,
+  "sample_removed": [
+    {
+      "name": "Alice Mccoughtry",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Amy Mccay",
+      "species": "Japonica"
+    },
+    {
+      "name": "Ashley Mccomb",
+      "species": "Japonica"
+    },
+    {
+      "name": "Barbara's Own",
+      "species": "NRH"
+    },
+    {
+      "name": "Barney's Joe",
+      "species": "Japonica"
+    },
+    {
+      "name": "Barney's Nina",
+      "species": "Japonica"
+    },
+    {
+      "name": "Barney's Patricia",
+      "species": "Japonica"
+    },
+    {
+      "name": "Barney's Trula",
+      "species": "Japonica"
+    },
+    {
+      "name": "Bigg Al's",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Bill's Pink",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Brandon's Beauty",
+      "species": "NRH"
+    },
+    {
+      "name": "Buddha's Child",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Carr's Circus",
+      "species": "Japonica"
+    },
+    {
+      "name": "Carroll's Legacy",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Daddy's Girl",
+      "species": "Japonica"
+    },
+    {
+      "name": "Dautel's Supreme",
+      "species": "Japonica"
+    },
+    {
+      "name": "Dinh's Velvet",
+      "species": "Japonica"
+    },
+    {
+      "name": "Dr. R. P. Mcdonald",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Dr. W. H. Mcintosh",
+      "species": "Japonica"
+    },
+    {
+      "name": "Eileen's Smile",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Elaine's Betty Red",
+      "species": "Japonica"
+    },
+    {
+      "name": "Elaine's Betty White",
+      "species": "Japonica"
+    },
+    {
+      "name": "Emil's Jane",
+      "species": "Japonica"
+    },
+    {
+      "name": "Ethel Mcgee",
+      "species": "Japonica"
+    },
+    {
+      "name": "Florence's Fancy Formal",
+      "species": "Japonica"
+    },
+    {
+      "name": "Forrest's Royal Pearl",
+      "species": "Japonica"
+    },
+    {
+      "name": "Fortune's Smile",
+      "species": "NRH"
+    },
+    {
+      "name": "Gabriel's Blush",
+      "species": "Japonica"
+    },
+    {
+      "name": "Gayle's Stella",
+      "species": "Japonica"
+    },
+    {
+      "name": "Gillette's Fluffy Red",
+      "species": "Japonica"
+    },
+    {
+      "name": "Gillette's Fluffy White",
+      "species": "Japonica"
+    },
+    {
+      "name": "Gordy's Petite",
+      "species": "Japonica"
+    },
+    {
+      "name": "Isabel's Birthday",
+      "species": "Japonica"
+    },
+    {
+      "name": "Jack Mccaskill",
+      "species": "Japonica"
+    },
+    {
+      "name": "Jack's Pride",
+      "species": "Japonica"
+    },
+    {
+      "name": "James Mccoy",
+      "species": "Reticulata"
+    },
+    {
+      "name": "Jill's Jewel",
+      "species": "NRH"
+    },
+    {
+      "name": "Jim Mchenry",
+      "species": "Japonica"
+    },
+    {
+      "name": "Jimbo's Tama",
+      "species": "Japonica"
+    },
+    {
+      "name": "Kammer's Legacy",
+      "species": "Japonica"
+    },
+    {
+      "name": "King's Lynn",
+      "species": "NRH"
+    },
+    {
+      "name": "Kramer's Fluted Coral",
+      "species": "NRH"
+    },
+    {
+      "name": "Lafayette's Legacy",
+      "species": "Japonica"
+    },
+    {
+      "name": "Lillian's Cherry Pie",
+      "species": "Japonica"
+    },
+    {
+      "name": "Lillian's Shining Star",
+      "species": "Japonica"
+    },
+    {
+      "name": "Linda's Blush",
+      "species": "Japonica"
+    },
+    {
+      "name": "Margaret's Joy",
+      "species": "Japonica"
+    },
+    {
+      "name": "Mcquiston",
+      "species": "Japonica"
+    },
+    {
+      "name": "Mehl's Red",
+      "species": "Japonica"
+    },
+    {
+      "name": "Michael's Joy",
+      "species": "Japonica"
+    }
+  ]
+}

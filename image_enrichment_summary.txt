@@ -1,0 +1,11 @@
+IMAGE ENRICHMENT SUMMARY
+==================================================
+Total input entries:  301
+Images found:         102
+  - SoCal:            88
+  - ACCS search:      0
+  - ACS encyclopedia: 3
+  - ICR API:          11
+Skipped (ambiguous):  6
+Missing (no source):  193
+==================================================
