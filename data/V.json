@@ -4,25 +4,27 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Cardinal Red. Medium, single. Average growth. M. (Aus. 1971 - Tuckfield).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vagabond.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vagabond.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vagabond",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vagabond",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Val Bieleski",
     "species": "Reticulata",
     "size": "Very large",
     "description": "Salmon Pink fading to Lighter Pink. Very large, semidouble. Vigorous, spreading growth. M-L. (Sport of Reticulata hybrid 'Valentine Day'). (N.Z. 2000 - Haydon).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Val%20Bieleski.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Val%20Bieleski.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/val-bieleski",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Val%20Bieleski",
     "chinese_name": [
       "初恋情人",
       "伯白爱莉丝奇"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Val Parker",
@@ -30,7 +32,7 @@
     "size": "Large",
     "description": "Deep Red. Large, semidouble, generally with small narrow petals standing upright and with surrounding stamens. Vigorous, compact, upright growth. M. (U.S. 1971 - Haynie).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Val%20Parker%20Var..jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/val-parker",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Val%20Parker",
     "chinese_name": [],
     "japanese_name": []
@@ -40,8 +42,8 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White shading Pink in outer petals. Medium, formal double. Vigorous, compact upright growth. M. (Aus. 1977 - Camellia Vale Nsy., Bexley North, NSW).",
-    "image": "https://file3.iflora.cn/Upload/2021/1/21/S/910687fd-a0ef-44c4-b636-bfbaddbe1b9f.jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/a8a5b67c-d14e-4e39-90f1-e5977f7c4f8c.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vale-beauty",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vale%20Beauty",
     "imageSource": "icr",
     "chinese_name": [
@@ -54,8 +56,8 @@
     "species": "Sasanqua",
     "size": "Small",
     "description": "White. Small, semidouble.",
-    "image": "https://file2.iflora.cn/Upload/2021/1/21/S/d96a8b9e-5846-4bc4-abb9-013c7f7f6228.jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/2db85433-43cd-4882-9a6e-e64592919987.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vale-mist",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vale%20Mist",
     "imageSource": "icr",
     "chinese_name": [],
@@ -66,8 +68,8 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Light Lavender Pink. Medium, semidouble with fluted petals.",
-    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/edeeac0a-ae85-4b07-9d4c-436fdea5856e.jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/164c19e5-9526-4fb4-a7a6-70f20c0655e2.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vale-princess",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vale%20Princess",
     "imageSource": "icr",
     "chinese_name": [],
@@ -78,8 +80,8 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Iridescent Pink. Very large, semidouble with irregular petals. Average, open, upright growth. M-L. (Reticulata 'Willow Wand' × Reticulata 'Crimson Robe'). (Aus. 1977 - Camellia Vale Nsy., Bexley North, NSW).",
-    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/d3efcd57-e1f1-4cf1-8c6b-6ed8b0f94eff.jpg",
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/T/35599bf1-36f6-47df-ad2f-b5f2e6462674.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vale-queen",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vale%20Queen",
     "imageSource": "icr",
     "chinese_name": [
@@ -92,8 +94,8 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Dark Red. Medium, rose form double to peony form. Average, dense, spreading growth. M. (Aus. 1977 - Camellia Vale Nsy., Bexley North, NSW).",
-    "image": "https://file3.iflora.cn/Upload/2024/3/29/S/4ab370cb-ad54-4329-a255-f9c4b5243e2a.JPG",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/1593910e-0607-43d0-bd9e-de77a9920619.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vale-sunset",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vale%20Sunset",
     "imageSource": "icr",
     "chinese_name": [],
@@ -104,79 +106,85 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Mauve Pink with Yellow anthers and Pale Pink filaments. Medium to large, full peony. Average, upright, open growth. E-L. (Seedling of Japonica 'Tar Baby'. (U.S. 2019 - Pat Johnson, Cairo, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valentine%20Ball.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valentine%20Ball.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/valentine-ball",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valentine%20Ball",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valentine Day",
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Salmon Pink. Large to very large, formal double with Rosebud center. Vigorous, upright growth. M. (Reticulata 'Crimson Robe' × Japonica \"Tiffany'). (U.S. 1969 - Asper).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valentine%20Day.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valentine%20Day.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valentine-day",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valentine%20Day",
     "chinese_name": [
       "情人节"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valentine Day Variegated",
     "species": "Reticulata",
     "size": "",
     "description": "Salmon Pink and White form of 'Valentine Day'. (U.S. 1975).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valentine%20Day%20Var..jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/5/5/T/30a1f996-79ce-4f95-bfc8-d0610412a282.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valentine-day-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valentine%20Day%20Variegated",
     "chinese_name": [
       "斑色情人节",
-      "情人节(变"
+      "情人节"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Valerie",
     "species": "Japonica",
     "size": "Medium",
     "description": "Metallic Red. Medium, semidouble. Vigorous, upright growth. E. (U.S. 1959 - Wells).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valerie.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valerie.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valerie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valerie",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valley Dee",
     "species": "Japonica",
     "size": "Medium",
     "description": "White, sometimes streaked faint, soft Pink. Medium, loose peony form. Average, upright growth. M. (U.S. 1959 - Brodies Nsy., Biloxi, MS).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Dee.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Dee.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valley-dee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valley%20Dee",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valley Dee Blush",
     "species": "Japonica",
     "size": "Medium",
     "description": "Very Light Purple with darker veining and White patches on some petals with Light Yellow anthers. Medium, loose peony form. Average, upright growth. M. (Sport of Japonica 'Valley Dee').",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Dee%20Blush.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Dee%20Blush.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valley-dee-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valley%20Dee%20Blush",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valley Knudsen",
     "species": "Reticulata",
     "size": "Medium to large",
     "description": "Deep Orchid Pink. Medium to large, semidouble to loose peony form. Vigorous, compact, upright growth. M-L. (Saluenensis × Reticulata hybrid 'Buddha'). (U.S. 1958 - Asper).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Knudsen.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valley%20Knudsen.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valley-knudsen",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valley%20Knudsen",
     "chinese_name": [
       "娃丽娜深",
@@ -185,21 +193,23 @@
       "怒特森山谷",
       "威力奴德生"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valtevareda",
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink shading to deeper Pink on outer petals. Medium, formal double of cupped form. Vigorous, compact, upright growth. L. (Italy 1853 - Rossi.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valtevareda.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Valtevareda.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valtevareda",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valtevareda",
     "chinese_name": [
       "娃蒂瓦莉达",
       "福特瓦达"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Valtevareda Variegated",
@@ -207,8 +217,8 @@
     "size": "",
     "description": "Pink blotched White form of \"Valtevareda'.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/valtevareda-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Valtevareda%20Variegated",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -218,7 +228,7 @@
     "size": "Medium",
     "description": "Red. Medium, full peony form. Average, compact growth. E-M. (U.S. 1959 - Van Hardee, Madison, FL).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/van-hardee",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Van%20Hardee",
     "chinese_name": [],
     "japanese_name": []
@@ -228,8 +238,8 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Pale Crimson. Small, formal double. Average, open upright growth. M. (Aus. 1969 - A. E. Campbell, St. Ives, NSW).",
-    "image": "https://file4.iflora.cn/Upload/2021/1/21/S/cb59baab-fed1-4de3-b8e3-c48450204d48.jpg",
-    "acs_url": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/e50fb2d9-55f6-4201-9983-c2c9757f8490.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vanda",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vanda",
     "imageSource": "icr",
     "chinese_name": [
@@ -242,24 +252,26 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Creamy White with Gold anthers and Yellow filaments. Medium to large, semidouble to anemone form. Average, spreading, open growth. E-M. (Seedling of Japonica 'Betty Sheffield Supreme'). (U.S. 2021 - Pat Johnson, Cairo, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vanilla%20Cream.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vanilla%20Cream.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vanilla-cream",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vanilla%20Cream",
     "chinese_name": [
       "香草奶油"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vanilla Moon",
     "species": "NRH",
     "size": "Small",
     "description": "Blush Pink with White anthers and White filaments. Small, single. Vigorous, upright growth. E. (Seedling of Hybrid 'Yume'). (U.S. 2016 - Tsubaki Camellias, Savannah, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vanilla%20Moon.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vanilla%20Moon.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vanilla-moon",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vanilla%20Moon",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vannate",
@@ -267,7 +279,7 @@
     "size": "Medium to large",
     "description": "Oriental Red. Medium to large, single with heavy textured petals. Slow, bushy growth. M. (Japonica 'Lady Vansittart' x Reticulata 'Crimson Robe'). (U.S. 1968 - Feathers).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vannate",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vannate",
     "chinese_name": [],
     "japanese_name": []
@@ -277,44 +289,48 @@
     "species": "Reticulata",
     "size": "Medium to large",
     "description": "White to White striped Pink to Pink. Medium to large, semidouble. Vigorous, bushy growth. M. (Japonica 'Lady Vansittart' × Reticulata 'Crimson Robe'). (U.S. 1968 - Feathers)",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vannine.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vannine.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vannine",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vannine",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Variegata",
     "species": "Japonica",
     "size": "Medium",
     "description": "Deep Rose Pink mottled White. Medium, semidouble. Spreading growth. M. (China to England [Chandler] 1792).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Variegata.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Variegata.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/variegata",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Variegata",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Variety Z",
     "species": "Japonica",
     "size": "Medium",
     "description": "Dark Pink (RHS 62A); the petaloids are Light Pink (RHS 62C) with Creamy White anthers and White filaments. Medium, rose form double to formal double. Average, upright growth. M. (U.S. 2009 - P. W. Zimmerman and Boyce Thompson, Yonkers, NY).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Variety%20Z.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Variety%20Z.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/variety-z",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Z",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vashti",
     "species": "Japonica",
     "size": "Medium",
     "description": "White splotched and striped Pink with occasional Red flowers. Medium, rose form double. Average, compact growth. M-L. (U.S. 1945 - F. L. Gibson, Thomasville, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vashti.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vashti.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vashti",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vashti",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vaughn Drinkard",
@@ -322,7 +338,7 @@
     "size": "",
     "description": "Light Salmon to Dark Rose and White. (Variegated variation of Japonica 'Dona Julia'). (U.S. 1955 - Longview).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vaughn-drinkard",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vaughn%20Drinkard",
     "chinese_name": [],
     "japanese_name": []
@@ -332,38 +348,41 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "('Ruby Glow'; 'Margaret Lawrence'; 'Bolen's Pride'; 'Cleo Wittie'; 'Mrs. T. R. McKenzie'; 'Mehl's Red'; 'Payne's Red'; 'Lewis Red Peony'). Ruby Red. Medium to large, anemone to loose peony form. Vigorous, upright, spreading growth. E-M. (For a variation of this cultivar see 'Dr. Robert E. Schwartz'). (U.S. Early 1900's - Mary Swords Debaillon, Lafayette, LA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vedrine.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vedrine.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vedrine",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vedrine",
     "chinese_name": [
       "威德林"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Veiled Beauty",
     "species": "Japonica",
     "size": "Large",
     "description": "Clear Rose to Light Pink center petals. Large, rose form double to loose peony form. Average, spreading growth. M-L. (U.S. 1968 - Haynie).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Veiled%20Beauty.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Veiled%20Beauty.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/veiled-beauty",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Veiled%20Beauty",
     "chinese_name": [
       "羞美",
       "比尔美人"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Velma Grantham",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White to Blush Pink with Pink flecks and stripes, sporting Blush, Dark Pink, White striped Pink and Blush bordered Deep Rose. Medium to large, semidouble with upright petals. Average, upright growth. M. (U.S. 1962 - A. Grantham, Bogalusa, LA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velma%20Grantham.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velma%20Grantham.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velma-grantham",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velma%20Grantham",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Velma Grantham Blush",
@@ -371,21 +390,23 @@
     "size": "",
     "description": "Blush Pink sometimes with Deeper Blush border. (Sport of Japonica 'Velma Grantham').",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velma%20Grantham%20Blush.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velma-grantham-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velma%20Grantham%20Blush",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Velma Grantham Pink",
     "species": "Japonica",
     "size": "",
     "description": "Pink. (Sport of Japonica 'Velma Grantham').",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velma%20Grantham%20Pink.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velma%20Grantham%20Pink.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velma-grantham-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velma%20Grantham%20Pink",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Velma Grantham Variegated",
@@ -393,7 +414,7 @@
     "size": "",
     "description": "Pink flecked, blotched and moired White variation of 'Velma Grantham'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velma-grantham-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velma%20Grantham%20Variegated",
     "chinese_name": [],
     "japanese_name": []
@@ -403,11 +424,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Cranberry Red. Medium, formal double form with tiny incurved petals which sometimes show White tips. Vigorous, upright, open growth. E-M. (Seedling of Japonica 'Beatrix Hoyt'). (U.S. 2020 - Pat B. Johnson, Cairo, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velvet%20Brocade.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velvet%20Brocade.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velvet-brocade",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velvet%20Brocade",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Velvet Glow",
@@ -415,32 +437,35 @@
     "size": "Large",
     "description": "White. Large, anemone form. Vigorous, upright growth. M. (U.S. 1961 - R. W. Wilder, Fairhope, AL).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Velvet%20Glow.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/velvet-glow",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Velvet%20Glow",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Vera Curry",
     "species": "Japonica",
     "size": "Small",
     "description": "Light Pink with Darker Pink stripes. Small, formal double. Average, upright growth. M. (Seedling of Japonica 'Lady Laura'). (U.S. 2019 - Jim Smelley, Moss Point, MS).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vera%20Curry.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vera%20Curry.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vera-curry",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vera%20Curry",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vera Harper",
     "species": "Japonica",
     "size": "Medium",
     "description": "Pastel Pink, petals darker to the edges and have a few Red stripes. Medium, formal double. Vigorous, spreading growth. E. (U.S. 2005 - John W. Shirah, Lakeland, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vera%20Harper.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vera%20Harper.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vera-harper",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vera%20Harper",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vergine Di Colle Beato",
@@ -448,8 +473,8 @@
     "size": "Medium",
     "description": "('Virgine Calubini'; 'Virgin of the Blessed Hill'). White. Medium, formal double with six to seven geometric swirls in either clockwise or counter clockwise formation. M-L. (Belgium [Versch] from Italy 1857; 'To U.S. from Sevesi - mid 1960's').",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vergine-di-colle-beato",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vergine%20Di%20Colle%20Beato",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -459,7 +484,7 @@
     "size": "Medium",
     "description": "Pink. Medium, single.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/verity-bettine",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Verity%20Bettine",
     "chinese_name": [],
     "japanese_name": []
@@ -470,8 +495,8 @@
     "size": "Very large",
     "description": "('Zhusha Zipao' - Chinese Name). Oriental Red. Very large, loose peony form. M. (Yunnan Reticulata). (China To U.S. 1980 - U. C. Bot. Gdn, CA).",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vermillion-purple-gown",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vermillion%20Purple%20Gown",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -480,11 +505,12 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Flesh Pink. Large, semidouble with irregular petals. Average, upright growth. M. (U.S. 1971 - Haynie).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Verna%20Halbert.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Verna%20Halbert.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/verna-halbert",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Verna%20Halbert",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vernal Breeze",
@@ -492,7 +518,7 @@
     "size": "Small",
     "description": "White. Small, single. Vigorous, upright growth; the plant has long arching branches. E. Very fragrant. (Japonica × C. lutchuensis). (U.S. 2014 - Camellia Forest, Chapel Hill, NC).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernal-breeze",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernal%20Breeze",
     "chinese_name": [],
     "japanese_name": []
@@ -503,8 +529,8 @@
     "size": "Large",
     "description": "Rose Pink. Large, peony form. Average, open, spreading growth. M. Fragrant. (U.S. 1975 - V. A. Meskell, San Marino, CA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernice%20Anne.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernice-ann",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernice%20Ann",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -514,7 +540,7 @@
     "size": "Large",
     "description": "Rose Red. Large, semidouble to anemone form. Vigorous, upright growth. E-M. (U.S. 1985 - Alfter).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernie-koegler",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernie%20Koegler",
     "chinese_name": [],
     "japanese_name": []
@@ -524,22 +550,24 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Red. Large, semidouble to full peony form. Vigorous, dense, upright growth. E-L. (U.S. 2003 - Dudley Boudreaux, Port Neches, TX).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernon%20E.%20Howell.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernon%20E.%20Howell.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernon-e-howell",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernon%20E.%20Howell",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vernon E. Howell, Jr.",
     "species": "Japonica",
     "size": "Large",
     "description": "Rose with White splotches. Large, formal double to rose form double. Vigorous. upright growth. (Seedling of Japonica 'Mary Agnes Patin'). (U.S. 2019 - Vernon E. Howell, Lucedale, MS).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernon%20E.%20Howell%2C%20Jr..jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernon%20E.%20Howell%2C%20Jr..jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernon-e-howell-jr",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernon%20E.%20Howell%2C%20Jr.",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vernon Mayo",
@@ -547,10 +575,11 @@
     "size": "Large",
     "description": "Rose Opal with Silver overcast. Large, anemone form. Vigorous, upright growth. M. (U.S. 1965 - Tammia).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vernon%20Mayo.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vernon-mayo",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vernon%20Mayo",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Vertie Leblanc",
@@ -558,10 +587,11 @@
     "size": "Small to medium",
     "description": "Light Pink center petals to Dark Pink outer petals; the bloom has occasional Dark Pink buttons in center of petals. Small to medium, formal double form. Average, upright, dense growth. M-L. (U.S. 2020 - Pat B. Johnson, Cairo, GA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vertie%20Leblanc.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vertie-leblanc",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vertie%20Leblanc",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Verve",
@@ -569,25 +599,27 @@
     "size": "Small",
     "description": "Pink in center to Deeper Pink with Red petal tips. Small, semidouble. Vigorous, open, upright growth. M-L. (Saluenensis x Japonica 'Debutante'). (U.S. 1983 - Feathers).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Verve.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/verve",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Verve",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Very Cherry",
     "species": "Japonica",
     "size": "Large",
     "description": "Very Dark Red. Large, anemone form to peony form. Average, compact, upright growth. M-L. (U.S. 1979 - W. Harmsen, Claremont, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Very%20Cherry.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Very%20Cherry.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/very-cherry",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Very%20Cherry",
     "chinese_name": [
       "黑樱桃",
       "樱桃",
       "得意人生"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vestito Rosso",
@@ -595,8 +627,8 @@
     "size": "",
     "description": "See 'Bella Jinhua'.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vestito-rosso",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vestito%20Rosso",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -606,38 +638,41 @@
     "size": "Very large",
     "description": "Red. Very large, semidouble to peony form. Average, open, upright growth. M. (Reticulata 'Crimson Robe' seedling). (Aus. 1976 - Sebire).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vi%20Henderson.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vi-henderson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vi%20Henderson",
     "chinese_name": [
       "浴火凤凰"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Vi Stone",
     "species": "Reticulata",
     "size": "Large",
     "description": "Deep bright Pink veined Red and edged White. Large, formal double to rose form double. Vigorous, upright growth. M-L. (Reticulata 'Cornelian' × Reticulata hybrid 'Jean Pursel'). (U.S. 1980 - Pursel).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vi%20Stone.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vi%20Stone.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vi-stone",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vi%20Stone",
     "chinese_name": [
       "威斯通"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vicki Galvin",
     "species": "NRH",
     "size": "Large",
     "description": "Pale Pink edged Rose Pink. Large, semidouble. Compact, upright growth. M. (Hybrid 'Margaret Waterhouse' × Japonica 'Great Eastern'). (Aus. 1980 - M. L. Galvin, Sylvania, NSW).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vicki%20Galvin.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vicki%20Galvin.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vicki-galvin",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vicki%20Galvin",
     "chinese_name": [
       "深情依旧"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vicki Marie",
@@ -645,7 +680,7 @@
     "size": "Large",
     "description": "Very Pale Pink. Large, peony form. Average, open, upright growth. M. (N.Z. 1992 - C. Treadwell, Wanganui).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vicki-marie",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vicki%20Marie",
     "chinese_name": [],
     "japanese_name": []
@@ -656,7 +691,7 @@
     "size": "Very large",
     "description": "Rose Red veined darker. Very large, semidouble. Compact, upright growth. M-L. (Reticulata hybrid 'William Hertrich' seedling). (N.Z. 1982 - A. Gamlin, Manaia).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victor-corkill",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victor%20Corkill",
     "chinese_name": [],
     "japanese_name": []
@@ -666,8 +701,8 @@
     "species": "Japonica",
     "size": "",
     "description": "See 'Blood of China'.",
-    "image": "https://file3.iflora.cn/Upload/2025/4/14/S/a2f5750c-ccc5-4ff4-82a0-ab52f89aebec.JPG",
-    "acs_url": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/T/8b201364-d4d4-462d-ae70-8364944d621f.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victor-emmanuel",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Blood%20of%20China",
     "imageSource": "icr",
     "chinese_name": [
@@ -683,7 +718,7 @@
     "size": "Medium",
     "description": "Bright Red. Medium, formal double. Upright, compact growth. M-L. (U.S. 1951 - Riverbank).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victor-johnson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victor%20Johnson",
     "chinese_name": [],
     "japanese_name": []
@@ -694,7 +729,7 @@
     "size": "Medium",
     "description": "Light Pink. Medium, semidouble with five rows of petals and top row of petals pointed. Average, upright growth. M. (U.S. 1964 - Beasley).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victoria-dowling-beasley",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victoria%20Dowling%20Beasley",
     "chinese_name": [],
     "japanese_name": []
@@ -704,33 +739,36 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Pink with flecks of Red. Medium to large, rose form double. Average, spreading growth. M-L. (U.S. 2000 - T. E. Lundy, Milton, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Martin.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Martin.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victoria-martin",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victoria%20Martin",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Victoria Vanis",
     "species": "Japonica",
     "size": "Medium",
     "description": "Light Blush Pink. Medium, formal double. Vigorous, upright growth. M. (Japonica 'April Remembered' x unknown pollen parent). (U.S. 2009 - Hal Vanis, Henderson, TX).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Vanis.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Vanis.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victoria-vanis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victoria%20Vanis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Victoria Whiddon",
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Light Pink with Golden Yellow anthers and Yellow filaments. Large to very large, semidouble. Vigorous, upright • growth. M-L. (Reticulata hybrid 'Suzanne Withers' x Reticulata hybrid 'Annabelle Fetterman'). (U.S. 2009 - Hulyn Smith).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Whiddon.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victoria%20Whiddon.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victoria-whiddon",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victoria%20Whiddon",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Victorian Posy",
@@ -738,7 +776,7 @@
     "size": "Medium",
     "description": "Bright Rose Pink. Medium, anemone form. Average, upright growth. M. (N.Z. 1972 - D. G. O'Toole, Ohope').",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victorian-posy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victorian%20Posy",
     "chinese_name": [],
     "japanese_name": []
@@ -748,25 +786,27 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Red. Large, semidouble to full peony form. Vigorous, upright growth. M. (U.S. 1942 - Youtz).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victory.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victory.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victory",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victory",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Victory White",
     "species": "Japonica",
     "size": "Medium",
     "description": "White. Medium, semidouble to loose peony form. Vigorous, open, upright growth. M. (U.S. 1939 - Overlook).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victory%20White.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Victory%20White.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/victory-white",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Victory%20White",
     "chinese_name": [
       "白色胜利",
       "维克多力"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vida Davis",
@@ -774,7 +814,7 @@
     "size": "Large",
     "description": "White washed Blush Pink. Large, semidouble with large petals and prominent bunched Ochre tipped stamens. (U.S. 1959).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vida-davis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vida%20Davis",
     "chinese_name": [],
     "japanese_name": []
@@ -785,7 +825,7 @@
     "size": "Large",
     "description": "Soft Lavender Pink shading deeper at edge. Large, semidouble with wavy, velvet textured petals. Vigorous, compact, upright growth. M. (Hybrid 'William's Lavender' × Japonica 'Kuro-tsubaki'). (U.S. 1961 - McCaskill).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vilia",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vilia",
     "chinese_name": [],
     "japanese_name": []
@@ -796,14 +836,15 @@
     "size": "Medium to large",
     "description": "Dark Red blotched White. Medium to large, semidouble with upright, fimbriated petals. M-L. (Sport of Japonica 'Donckelarii'). (For a variation of this cultivar see 'Lady Kay'). (France 1910 - Heurtin, Nantes).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ville%20De%20Nantes.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/ville-de-nantes",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ville%20De%20Nantes",
     "chinese_name": [
       "白斑康乃馨",
       "花孔雀",
       "南特镇"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Ville De Nantes Red",
@@ -811,12 +852,13 @@
     "size": "",
     "description": "Solid Red variation of 'Ville de Nantes'.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ville%20De%20Nantes%20Red.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/ville-de-nantes-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ville%20De%20Nantes%20Red",
     "chinese_name": [
       "红石竹"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Villes Delight",
@@ -824,7 +866,7 @@
     "size": "Medium",
     "description": "Crimson. Medium, semidouble. Slow growth. (Saluenensis × Japonica hybrid × Japonica 'Ville De Nantes'). (N.Z. 1981 - Jury).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/villes-delight",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Villes%20Delight",
     "chinese_name": [],
     "japanese_name": []
@@ -834,30 +876,32 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Scarlet Red with Pink stamens and anthers. Very large, single form. Vigorous, upright growth. M. (Reticulata hybrid 'Red Crystal' × Japonica 'Silver Lace'). (U.S. 2004 - Homeyer).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vince%20Dooley.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vince%20Dooley.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vince-dooley",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vince%20Dooley",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Viola Simmons",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Rose Pink. Medium to large, semidouble to loose peony form with fluffy petals. Average, compact growth. M. (U.S. 1957 - Gerbing).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Viola%20Simmons.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Viola%20Simmons.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/viola-simmons",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Viola%20Simmons",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Viola Spragg",
     "species": "Sasanqua",
     "size": "Small",
     "description": "Rose to Red. Small, peony form.",
-    "image": "https://file4.iflora.cn/Upload/2021/1/21/S/fa458a02-1335-4ed9-a069-987e950b9b36.jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/4/28/T/458c4b76-1610-414f-bd30-bd721327f5e4.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/viola-spragg",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Viola%20Spragg",
     "imageSource": "icr",
     "chinese_name": [],
@@ -869,7 +913,7 @@
     "size": "Large",
     "description": "Red. Large, semidouble to loose peony form. Average, open, upright growth. E-L. (Reticulata seedling). (N.Z. 1975 - Mrs. I. Berg, Whakatane).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/violet-boon",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Violet%20Boon",
     "chinese_name": [],
     "japanese_name": []
@@ -879,15 +923,16 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Violet Purple. Medium, anemone form. Vigorous, open, spreading growth. E-M. (U.S. 1969 - Mrs. W. H. Gates, Baton Rouge, LA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Violet%20Bouquet.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Violet%20Bouquet.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/violet-bouquet",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Violet%20Bouquet",
     "chinese_name": [
       "紫罗兰",
       "紫竹林",
       "紫花束"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Violette Rose",
@@ -895,7 +940,7 @@
     "size": "Large",
     "description": "Lavender. Large, semidouble. Vigorous, open growth, E-M. (Reticulata hybrid 'Buddha' seedling). (U.S. 1970 - Feathers).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/violette-rose",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Violette%20Rose",
     "chinese_name": [],
     "japanese_name": []
@@ -905,11 +950,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Baby ribbon Pink with Yellow anthers and Cream filaments. Medium, rose form double with incurved petals. Vigorous, upright growth. M-L. (U.S. 2014 - Manson Markette, Americus, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virgie%27s%20Eden.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virgie%27s%20Eden.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/virgies-eden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virgie%27s%20Eden",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virgin Of The Blessed Hill",
@@ -917,7 +963,7 @@
     "size": "",
     "description": "See 'Vergine Di Colle Beato'.",
     "image": "https://file1.iflora.cn/Upload/2021/1/21/S/33e1c669-32cb-440a-8180-495722934aad.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virgin-of-the-blessed-hill",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vergine%20di%20Collebeato",
     "imageSource": "icr",
     "chinese_name": [
@@ -931,13 +977,14 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White flushed faintest Pink with Yellow anthers and Yellow filaments. Medium, semidouble to peony form. Vigorous, upright growth. M. (Seedling of Japonica 'Orandagasa'). (U.S. 1944 - E. A. Mellhenny [Jungle Gardens], Avery Island, LA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virgin%27s%20Blush.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virgin%27s%20Blush.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virgins-blush",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virgin%27s%20Blush",
     "chinese_name": [
       "脸红少女"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virgin's Dream",
@@ -945,7 +992,7 @@
     "size": "Medium",
     "description": "Pink. Medium, rose form double. (U.S. 1959).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virgins-dream",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virgin%27s%20Dream",
     "chinese_name": [],
     "japanese_name": []
@@ -955,11 +1002,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Greenish White. Medium, semidouble to anemone form. Open, upright growth. M. (Aus. 1945 - Linton).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginal.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginal.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginal",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginal",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virgine Calubini",
@@ -967,7 +1015,7 @@
     "size": "Medium",
     "description": "See 'Vergine Di Colle Beato'. • VIRGINIA ALEXANDER STANGLE - Lavender Pink with Yellow anthers and White filaments. Medium, loose peony form; the bloom has light airy ruffled petals. Vigorous, spreading, medium density growth. M. Cold hardy to 10°F. (U.S. 2022 - Jeanne Stangle, Slidell, LA).",
     "image": "https://file1.iflora.cn/Upload/2021/1/21/S/33e1c669-32cb-440a-8180-495722934aad.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virgine-calubini",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vergine%20di%20Collebeato",
     "imageSource": "icr",
     "chinese_name": [
@@ -982,7 +1030,7 @@
     "size": "Medium to large",
     "description": "Bright Red. Medium to large, anemone form to loose peony form. Vigorous, upright growth. E-M. (U.S. 1984 - Alfter).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Alfter%20Var..jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-alfter",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Alfter",
     "chinese_name": [
       "弗吉尼亚阿福特"
@@ -995,7 +1043,7 @@
     "size": "",
     "description": "Bright Red center petals and petaloids and White outer guard petals variation of 'Virginia Alfter. (U.S. 1984 - Alfter).'.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Alfter%20Var..jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-alfter-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Alfter%20Variegated",
     "chinese_name": [
       "红白阿富汗"
@@ -1008,7 +1056,7 @@
     "size": "Medium",
     "description": "Blush Pink. Medium, semidouble with three rows of large petals and three very large, upright, wavy petals in cluster of delicate stamens forming a trumpet. E. (U.S. 1960 - Rester).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-cagle",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Cagle",
     "chinese_name": [],
     "japanese_name": []
@@ -1019,10 +1067,11 @@
     "size": "Medium",
     "description": "Crimson. Medium, semidouble. Vigorous, bushy growth. (England 1972 - Carlyon).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Carlyon.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-carlyon",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Carlyon",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Darden",
@@ -1030,7 +1079,7 @@
     "size": "Large",
     "description": "Red. Large, semidouble with crepe, irregular petals to anemone form. Average, upright growth. E-M. (U.S. 1966 - W. A. Fickling, Sr., Macon, GA).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-darden",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Darden",
     "chinese_name": [],
     "japanese_name": []
@@ -1040,11 +1089,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White. Medium, formal double. Vigorous, upright growth. M. (U.S. 1948 - H. Davis, El Monte, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Davis.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Davis.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-davis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Davis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia Eyler",
@@ -1052,7 +1102,7 @@
     "size": "Medium",
     "description": "Light Pink. Medium, formal double with veined petals. Vigorous, upright growth. M. (U.S. 1953 - H. B. Stanton, Savannah, GA).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-eyler",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Eyler",
     "chinese_name": [],
     "japanese_name": []
@@ -1062,31 +1112,36 @@
     "species": "Japonica",
     "size": "Small",
     "description": "White Blushed Rose and streaked and spotted Deeper Rose. Small, formal double. Upright, open, willowy growth. M. (For another form of this cultivar, see 'General Cialdini'). (Italy 1856 - Santarelli, Florence).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Franco%20Rosea.jpg",
-    "acs_url": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/T/f2b31b4e-0a40-4291-91c1-67932a350ec0.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-franco",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Franco",
     "chinese_name": [
       "法兰克",
       "法朗明哥"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Virginia Franco Rosea",
     "species": "Japonica",
     "size": "",
     "description": "Sport of' Virginia Franco' - Light Pink veined deeper Pink and edged White.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Franco%20Rosea.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Franco%20Rosea.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-franco-rosea",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Franco%20Rosea",
     "chinese_name": [
       "法兰克玫瑰",
       "佛朗哥玫瑰",
-      "弗吉尼亚-佛朗哥-玫瑰",
+      "弗吉尼亚",
+      "佛朗哥",
+      "玫瑰",
       "法兰哥玫瑰",
-      "维吉尼亚-佛朗哥-罗莎"
+      "维吉尼亚",
+      "罗莎"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia J",
@@ -1094,7 +1149,7 @@
     "size": "Large",
     "description": "Pink. Large, semidouble. Average growth. E-M. (U.S. 1959 - J. H. Johnson, Andalusia, AL).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-j",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20J",
     "chinese_name": [],
     "japanese_name": []
@@ -1104,22 +1159,24 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Pink. Medium to large, formal double. Average, upright growth. E-M. (U.S. 2017 - William & Linda Nichols. Cottonwood, AL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Lynn.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Lynn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/virginia-lynn",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Lynn",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia Maddox",
     "species": "Japonica",
     "size": "Large",
     "description": "Rose Pink with Yellow anthers and Pale Yellow filaments. Large, single. Average, spreading growth. E-M. (First Lady of Georgia Series). (U.S. 2018 - Gordy).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Maddox.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Maddox.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/virginia-maddox",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Maddox",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia Mathis",
@@ -1127,10 +1184,11 @@
     "size": "Very large",
     "description": "Veined soft Pink becoming lighter at edge. Very large, semidouble to peony form. Vigorous, upright growth. M. (Reticulata 'Crimson Robe' x Reticulata hybrid 'Jean Pursel'). (U.S. 1985 - Pursel).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Mathis.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-mathis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Mathis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Mccowen",
@@ -1138,10 +1196,11 @@
     "size": "Large",
     "description": "White shading to Light Pink at edge. Large, semidouble with wavy, crinkled petals. Average, upright growth. M-L. (U.S. 1977 - Dodd).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Mccowen.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-mccowen",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Mccowen",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Nalle",
@@ -1149,43 +1208,47 @@
     "size": "Small",
     "description": "White. Small, formal double. Average, open, upright growth. E-M. (U.S. 1989 - S. and V. Faircloth, Mobile, AL).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Nalle.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-nalle",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Nalle",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Noel",
     "species": "Japonica",
     "size": "Medium",
     "description": "Red with Yellow anthers. Medium, semidouble to single - cupped shape. Average growth. E-M. (U.S.).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Noel.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Noel.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-noel",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Noel",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia Parrish",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Red. Medium to large, loose peony form with interspersed stamens. Vigorous, upright growth. M. (U.S. 1963 - Dr. A. C. Tuck, Thomasville, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Parrish.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Parrish.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-parrish",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Parrish",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia R.",
     "species": "NRH",
     "size": "Small",
     "description": "Pink. Small, formal double. (Saluenensis seedling). (U.S. 1983 - Kramer).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20R..jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20R..jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-r",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20R.",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia R. Variegated",
@@ -1193,8 +1256,8 @@
     "size": "",
     "description": "Pink and White variation of 'Virginia R.. (U.S. 1983 - Kramer).'.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20R.%20Var..jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-r-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20R.%20Variegated",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1204,18 +1267,19 @@
     "size": "Small",
     "description": "Cream center to White to Light Pink to Orchid on edge. Small, rose form double with large, round petals on outer edge, becoming smaller toward center. Average, upright growth. M-L. (U.S. 1958 - Wheeler).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Rich.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-rich",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Rich",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Robinson",
     "species": "Japonica",
     "size": "Large",
     "description": "Light Orchid Pink. Large, semidouble. Vigorous, compact, upright growth. M-L. (U.S. 1957 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Robinson.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Robinson.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-robinson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Robinson",
     "chinese_name": [
       "罗宾逊",
@@ -1223,7 +1287,8 @@
       "维京鲁宾逊",
       "鲁滨逊"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia Robinson Variegated",
@@ -1231,10 +1296,10 @@
     "size": "",
     "description": "Light Orchid Pink blotched White variation of 'Virginia Robinson'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-robinson-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Robinson%20Variegated",
     "chinese_name": [
-      "罗宾逊(斑）"
+      "罗宾逊"
     ],
     "japanese_name": []
   },
@@ -1244,21 +1309,23 @@
     "size": "Medium",
     "description": "Deep Rose Pink. Medium, peony form. Average, upright growth. E. (U.S. 1986 - W. L. Smith, Tylertown, MS).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Smith.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-smith",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Smith",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Virginia Sunrise",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Red blotched White with Yellow anthers and Pink filaments. Medium to large, semidouble to anemone form. Vigorous, upright growth. M. (U.S. 2012 - Habel).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Sunrise.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Sunrise.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-sunrise",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Sunrise",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Virginia W. Cutter",
@@ -1266,7 +1333,7 @@
     "size": "Large",
     "description": "Red. Large, anemone form. Vigorous growth. M. Japonica 'Mrs. Bertha A. Harms' x Lutchuensis 'Ackerman's 63-32'). (U.S. 1972 - Dr. R. K. Cutter, Berkeley CA).",
     "image": "https://file1.iflora.cn/Upload/2019/7/4/S/d0d3125e-6187-4bdc-a68b-6c4d34d7fd96.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-w-cutter",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20W.%20Cutter",
     "imageSource": "icr",
     "chinese_name": [],
@@ -1277,8 +1344,8 @@
     "species": "NRH",
     "size": "Medium",
     "description": "Light Pink. Medium, formal double. Average, upright growth. E. (Hybrid 'Felice Harris' x unknown pollen parent). (U.S 1976 - Dr. R. K. Womack).",
-    "image": "https://file2.iflora.cn/Upload/2021/11/5/S/e1984e82-97d3-4759-8b78-76161f34de99.jpg",
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2019/5/5/T/3ec8ce35-4824-468d-a671-906dc0a80e52.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/virginia-womack",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Virginia%20Womack",
     "imageSource": "icr",
     "chinese_name": [
@@ -1294,7 +1361,7 @@
     "size": "Large",
     "description": "Red. Large, single. (U.S. 1959 - Nuccio's).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/viva",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Viva",
     "chinese_name": [],
     "japanese_name": []
@@ -1305,10 +1372,11 @@
     "size": "Medium",
     "description": "Light Red and White in varying degrees. Medium, formal double. Average growth. M-L. (U.S. 1959 - C. S. Jones, Elizabeth City, NC).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vivian%20Jones.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vivian-jones",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vivian%20Jones",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Vivian Oehlman",
@@ -1316,47 +1384,51 @@
     "size": "Medium",
     "description": "White. Medium, semidouble. Average, upright growth. M. (U.S. 1984 - Mrs. H. Johnson, Madison, FL).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vivian%20Oehlman.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vivian-oehlman",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vivian%20Oehlman",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Vogthorstar",
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Deep Magenta Red to Deep Purple fading to Gray as the bloom ages from the edges out. Small to medium, formal double. Average, upright growth. E. (U.S. 2015 - Carrie Lee Pierson Schwartz).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vogthorstar.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vogthorstar.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/vogthorstar",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vogthorstar",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Volcano",
     "species": "Japonica",
     "size": "Large",
     "description": "Scarlet Red. Large, anemone form. Vigorous, open, upright growth. M-L. (N.Z. 1992 - Haydon).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Volcano.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Volcano.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/volcano",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Volcano",
     "chinese_name": [
       "火山"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Volunteer",
     "species": "Japonica",
     "size": "Medium",
     "description": "Bright Strawberry Pink with a darker center, edged with Pale Pink at petal and petaloids' border. Medium, anemone form. Slow, dense, upright growth. E-L. (N.Z. 2003 - Mark Jury).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Volunteer.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Volunteer.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/volunteer",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Volunteer",
     "chinese_name": [
       "志愿者"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vonnie Cave",
@@ -1364,7 +1436,7 @@
     "size": "Miniature",
     "description": "Pale Cream, flushed Pink on reverse side of sepals. Miniature, single or semidouble form. Average, open and spreading growth. E. (Pitardii seedling). (N.Z. 2004 - Peter Cave).",
     "image": "https://file2.iflora.cn/Upload/2023/8/15/S/688ceaac-f8fc-4237-833b-2df19fca7dd9.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vonnie-cave",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vonnie%20Cave",
     "imageSource": "icr",
     "chinese_name": [
@@ -1378,7 +1450,7 @@
     "size": "Medium",
     "description": "Soft Pink shading to petal edges. Medium, semidouble with upright center petals and petaloids in center. Vigorous, compact growth. M. (N.Z. 1959 - Mrs. J. Vosper, Tirau).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vospers-rose",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vosper%27s%20Rose",
     "chinese_name": [],
     "japanese_name": []
@@ -1389,7 +1461,7 @@
     "size": "Large",
     "description": "Blood Red. Large, semidouble to loose peony form. (U.S. 1957 - G. Willis, Thomasville, GA).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/voyant",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Voyant",
     "chinese_name": [],
     "japanese_name": []
@@ -1399,21 +1471,23 @@
     "species": "Japonica",
     "size": "Large to very large",
     "description": "Deep Fiery Red. Large to very large, semidouble to peony form with irregular petals to formal double. Vigorous, upright growth. E-M. (U.S. 1958 - Wilson).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vulcan.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vulcan.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vulcan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vulcan",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Vulcan Variegated",
     "species": "Japonica",
     "size": "",
     "description": "Red dotted and blotch-White variation of \"Vulcan'.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Vulcan%20Var..jpg",
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2023/6/13/S/7e85df3b-5a0b-48c3-8446-41c861a7bc70.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-v/vulcan-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Vulcan%20Variegated",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   }
 ]

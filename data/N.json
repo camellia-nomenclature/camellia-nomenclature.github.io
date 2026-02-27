@@ -8,20 +8,25 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nadine-eshelman",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nadine%20Eshelman",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nagasaki",
     "species": "Japonica",
     "size": "Large",
     "description": "('Mikenjaku'; 'Candida Elegantissima'; 'Tennin-Kwan'; 'S. Peter Nyce'; 'Nakasaki [Coe]': 'Marguerita'; 'Princess Nagasaki'; 'Nagasaki Special'; 'Lonjan'). Rose Pink marbled White in varying degrees. Large, semidouble with large, outer petals and a few smaller center petals lying flat. Slow, spreading growth. M. (Japan to England 1889 - G. Waller).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nagasaki.jpg",
-    "acs_url": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nagasaki.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nagasaki",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mikenjaku",
     "chinese_name": [
       "眉间尺"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "眉間尺",
+      "みけんじゃく"
+    ],
+    "imageSource": "socal"
   },
   {
     "name": "Nagasaki (Coe)",
@@ -29,24 +34,28 @@
     "size": "",
     "description": "See 'Nagasaki'.",
     "image": "https://file4.iflora.cn/Upload/2019/4/11/S/962b9dc6-ddf4-4c3c-8c33-bbe1c79b3503.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nagasaki-coe",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mikenjaku",
     "imageSource": "icr",
     "chinese_name": [
       "眉间尺"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "眉間尺",
+      "みけんじゃく"
+    ]
   },
   {
     "name": "Nagasaki Rose",
     "species": "Japonica",
     "size": "",
     "description": "Solid Rose Pink sport of 'Nagasaki'.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nagasaki%20Rose.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nagasaki%20Rose.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nagasaki-rose",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Marguerita",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nagasaki Special",
@@ -54,46 +63,52 @@
     "size": "",
     "description": "See 'Nagasaki'.",
     "image": "https://file4.iflora.cn/Upload/2019/4/11/S/962b9dc6-ddf4-4c3c-8c33-bbe1c79b3503.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nagasaki-special",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mikenjaku",
     "imageSource": "icr",
     "chinese_name": [
       "眉间尺"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "眉間尺",
+      "みけんじゃく"
+    ]
   },
   {
     "name": "Nan Crowell",
     "species": "Japonica",
     "size": "Medium",
     "description": "Clear Pink fading to Blush in center. Medium, rose form double. Average, compact growth. M-L. (U.S. 1952 - Councilman).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan%20Crowell.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan%20Crowell.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nan-crowell",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20Crowell",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nan Ford",
     "species": "Japonica",
     "size": "Very large",
     "description": "Dark Pink with Yellow anthers and Yellow filaments. Very large, semidouble to full peony to loose peony form. Vigorous, upright, dense growth. E-M. (U.S. 2013 - Howell).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan%20Ford.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan%20Ford.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nan-ford",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20Ford",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nan Ford Variegated",
     "species": "Japonica",
     "size": "",
     "description": "Dark Pink and White variegated form of 'Nan Ford'. (U.S. 2013 - Howell).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan%20Ford%20Var..jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nan Ford Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nan-ford-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20Ford%20Variegated",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Nan Pickering",
@@ -101,7 +116,7 @@
     "size": "Large",
     "description": "Very soft Pink. Large, formal double. Average, spreading growth. M. (Aus. 1979 - C. P. J. Pickering, Oldgate, S. Aus.).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nan-pickering",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20Pickering",
     "chinese_name": [],
     "japanese_name": []
@@ -112,8 +127,8 @@
     "size": "Medium",
     "description": "Light Blush shading Pink at edge. Medium, rose form double. Vigorous, compact, upright growth. M. (U.S. 1977 - Dodd).",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nan-s-dodd",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20S.%20Dodd",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -122,8 +137,8 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Bright Rose. Medium, semidouble.",
-    "image": "https://file4.iflora.cn/Upload/2021/1/20/S/36ea696d-9fc3-47fb-a8c2-78b368a5bbb1.jpg",
-    "acs_url": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/28/T/fa7d4dbb-001a-4d7b-83ab-ff430f71c7f7.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nan-wood",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nan%20Wood",
     "imageSource": "icr",
     "chinese_name": [],
@@ -134,14 +149,17 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Flesh Pink streaked Rose. Medium, single. See Higo.",
-    "image": "https://file4.iflora.cn/Upload/2025/11/22/S/48d3985d-f9c8-432a-bb27-3f72d971ee64.JPG",
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/S/84a804ff-39d4-49c5-aa06-cf1003ace64d.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nana-komachi",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nana-Komachi",
     "imageSource": "icr",
     "chinese_name": [
       "七小町"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "七小町",
+      "ななこまち"
+    ]
   },
   {
     "name": "Nanban-Koh",
@@ -149,21 +167,23 @@
     "size": "Medium",
     "description": "Deep Red. Medium, anemone form. Vigorous, upright growth. M. (Japan - Ancient Variety).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nanban-Koh.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nanban-koh",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nanban-Koh",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nancy",
     "species": "Japonica",
     "size": "Large",
     "description": "Pink veined Red. Large, semidouble. (England 1951 - Caledonia).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Bird",
@@ -171,7 +191,7 @@
     "size": "Medium",
     "description": "Light Pink. Medium, semidouble to peony form. (Sport of Japonica 'Jean Lyne'). (Aus. - Hazlewood).",
     "image": "https://file3.iflora.cn/Upload/2019/5/15/S/b62089eb-2557-4119-bbf6-69846d7e1b38.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-bird",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Bird",
     "imageSource": "icr",
     "chinese_name": [
@@ -184,11 +204,12 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Dark Red with Light Purple cast. Very large, rose form double. Average, upright, open growth. M-L. (U.S. 1999 - Jernigan).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Callaway.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Callaway.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-callaway",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Callaway",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Comerford",
@@ -196,7 +217,7 @@
     "size": "Large",
     "description": "White with Light Pink shading. Large, semidouble. Average growth. M-L. (N.Z. 1998 - J. Reeves).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-comerford",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Comerford",
     "chinese_name": [],
     "japanese_name": []
@@ -207,7 +228,7 @@
     "size": "Large",
     "description": "Pink. Large, semidouble to loose peony form. Vigorous, upright growth. M-L. (U.S. 1977 - Dodd).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-d-tomlinson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20D.%20Tomlinson",
     "chinese_name": [],
     "japanese_name": []
@@ -218,7 +239,7 @@
     "size": "",
     "description": "Pink blotched White variation of 'Nancy D. Tomlinson'. (U.S. 1977 - Dodd).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-d-tomlinson-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20D.%20Tomlinson%20Variegated",
     "chinese_name": [],
     "japanese_name": []
@@ -229,7 +250,7 @@
     "size": "Large",
     "description": "Light Red. Large, semidouble. Vigorous, upright growth. M. (U.S. 1975 - Haynie).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-gunn",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Gunn",
     "chinese_name": [],
     "japanese_name": []
@@ -239,11 +260,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Pink with darker specks and streaks. Medium, semidouble. Vigorous, dense, upright growth. M. Cold hardy. (U.S. 1992 - E. and J. Atkins, Shalimar, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20K.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20K.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-k",
-    "icr_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20K",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Kelly",
@@ -251,7 +273,7 @@
     "size": "Large",
     "description": "Red. Large, semidouble to peony form with loose petals. M. (U.S. 1962 - Mr. Kelly, Hattiesburg, MS).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-kelly",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Kelly",
     "chinese_name": [],
     "japanese_name": []
@@ -261,22 +283,24 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Peach Pink. Small, rose form to formal double to peony form. Dense, upright growth. M-L. (U.S. 2002 - Marion Edwards, Jacksonville, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Lee%20Edwards.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Lee%20Edwards.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-lee-edwards",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Lee%20Edwards",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Lynn",
     "species": "Japonica",
     "size": "Medium",
     "description": "Rich Pink. Medium, formal double. Vigorous, dense, spreading growth. M. (U.S. 1990 - B. and A. Boll, Jacksonville, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Lynn.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Lynn.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-lynn",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Lynn",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Mandarich",
@@ -284,7 +308,7 @@
     "size": "Large to very large",
     "description": "White. Large to very large, anemone form to loose peony form with upright petals. Vigorous, compact, upright growth. M. (U.S. 1963 - Mandarich).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-mandarich",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Mandarich",
     "chinese_name": [],
     "japanese_name": []
@@ -294,24 +318,26 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Rose Pink. Very large, semidouble with irregular, upright, wavy petals. Average, upright growth. M. (Reticulata seedling). (U.S. 1981 - W. F. Goertz, San Marino, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Reagan.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Reagan.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-reagan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Reagan",
     "chinese_name": [
       "南希"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Schmoe",
     "species": "Japonica",
     "size": "Large",
     "description": "White with Yellow anthers and Cream filaments. Large, semidouble to loose peony form. Slow, spreading, open growth. E-M. (Seedling of Japonica 'Oneita Holland'). (U.S. 2019 - Pat Johnson, Cairo, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Schmoe.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nancy%20Schmoe.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nancy-schmoe",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Schmoe",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nancy Weems",
@@ -319,7 +345,7 @@
     "size": "Large",
     "description": "White. Large, semidouble with Yellow stamens and a few petaloids. (U.S. 1959 - W. B. Weems, Ellisville, MS).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancy-weems",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%20Weems",
     "chinese_name": [],
     "japanese_name": []
@@ -330,7 +356,7 @@
     "size": "Medium",
     "description": "White. Medium, formal double. Vigorous, upright growth. E-M. (U.S. 1960 - C. G. Heflin, Marshallville, GA).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nancys-fancy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nancy%27s%20Fancy",
     "chinese_name": [],
     "japanese_name": []
@@ -340,33 +366,36 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Brilliant Deep Pink. Medium, rose form double.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nanette.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nanette.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nanette",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nanette",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nannetensis",
     "species": "Japonica",
     "size": "Small",
     "description": "Cherry Red. Small, formal double. Average, upright growth. M. (France 1828 - Jean Gouillon, Nantes).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nannetensis.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nannetensis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nannetensis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nannetensis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nannie Brown",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Deep Pink. Medium to large, semidouble, sometimes with intermixed petaloids and stamens. Average, open growth. M. (U.S. 1960 - Mrs. T. S. Braswell, Monticello, FL).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nannie%20Brown.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nannie%20Brown.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nannie-brown",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nannie%20Brown",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nannine Simmons",
@@ -374,7 +403,7 @@
     "size": "Medium",
     "description": "Pale Pink. Medium, loose peony form with large outer petals and irregular petals in center. Average, upright growth. E. (U.S. 1950 - Mcilhenny).",
     "image": "https://file1.iflora.cn/Upload/2023/9/29/S/8cd6101d-e685-4bbb-a6d7-ff2f8a5d6f11.JPG",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nannine-simmons",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mrs%20Charles%20Simons",
     "imageSource": "icr",
     "chinese_name": [],
@@ -385,13 +414,14 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "('Nanshan Ziyu' - Chinese Name'; 'South Mountain Lavender Jade'; 'Nan Shan Zi Yu'). Pink with Lavender Purple undertones with Yellow anthers and White filaments. Medium, rose form double to formal double imbricated with apices of petals inward curved. Average, upright growth. M-L. (Reticulata hybrid 'Suzanne Withers' × Japonica 'Nuccio's Jewel\"). (U.S. 2009 - John Wang, Orinda, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nanshan%20Purple%20Jade.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nanshan%20Purple%20Jade.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nanshan-purple-jade",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nanshan%20Ziyu",
     "chinese_name": [
       "南山紫玉"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nanshan Ziyu",
@@ -399,7 +429,7 @@
     "size": "Large to very large",
     "description": "See 'Nanshan Purple Jade",
     "image": "https://file2.iflora.cn/Upload/2019/7/4/S/1a8875b8-ef98-4778-b850-f1112dd48672.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nanshan-ziyu",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nanshan%20Ziyu",
     "imageSource": "icr",
     "chinese_name": [
@@ -413,7 +443,7 @@
     "size": "Large",
     "description": "Soft Pink. Large, semidouble. Average, open growth. M. (Saluenensis x Japonica). (England 1956 - K. M. White, Devon).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nanten-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nanten%20Pink",
     "chinese_name": [],
     "japanese_name": []
@@ -424,8 +454,8 @@
     "size": "",
     "description": "See 'Elena Nobile'.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/napa-red",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Napa%20Red",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -434,11 +464,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Rose Pink. Medium, semidouble with high center. Vigorous, upright growth. M. (U.S. 1952 - Goletto).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Napoleon%20Bonaparte.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Napoleon%20Bonaparte.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/napoleon-bonaparte",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Napoleon%20Bonaparte",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Napoleon Bonaparte Variegated",
@@ -446,7 +477,7 @@
     "size": "",
     "description": "Rose Pink blotched White variation of 'Napoleon Bonaparte.'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/napoleon-bonaparte-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Napoleon%20Bonaparte%20Variegated",
     "chinese_name": [],
     "japanese_name": []
@@ -457,7 +488,7 @@
     "size": "Medium",
     "description": "Bright Orange Red. Medium, semidouble. Vigorous, willowy growth. E-L. (U.S. 1956 - Tick Tock).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/naranja",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Naranja",
     "chinese_name": [],
     "japanese_name": []
@@ -468,7 +499,7 @@
     "size": "Medium",
     "description": "Bright Orange Red. Medium, semidouble. Vigorous, willowy growth. E-L. (U.S. 1956 - Tick Tock).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/naranyja",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Naranyja",
     "chinese_name": [],
     "japanese_name": []
@@ -479,7 +510,7 @@
     "size": "Large",
     "description": "White. Large, rose form double to peony form. (Aus. 1960 - Linton).",
     "image": "https://file2.iflora.cn/Upload/2019/4/10/S/2b8983bd-3521-4901-bcbe-b5818304234d.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/narara",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Narara",
     "imageSource": "icr",
     "chinese_name": [],
@@ -491,7 +522,7 @@
     "size": "Very large",
     "description": "White. Very large, anemone form. (Aus. 1962 - Camden Park).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/narellan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leila%20%28Australia%29",
     "chinese_name": [],
     "japanese_name": []
@@ -502,7 +533,7 @@
     "size": "Large",
     "description": "Deep Pink. Large, semidouble. Average, bushy growth. E-L. (Saluenensis x Japonica 'Waiwhetu Beauty'). (N.Z. 1975 - Jury).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/narida",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Narida",
     "chinese_name": [],
     "japanese_name": []
@@ -513,8 +544,8 @@
     "size": "Large to very large",
     "description": "('Xiguiye' - Chinese Name). Deep Crimson. Large to very large, semidouble with irregular, upright petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/narrow-osmanthus-leaf",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Narrow%20Osmanthus%20Leaf",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -529,7 +560,11 @@
     "chinese_name": [
       "鸣海泻"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "鸣海潟",
+      "なるみがた"
+    ],
+    "imageSource": "acs"
   },
   {
     "name": "Nashville",
@@ -537,7 +572,7 @@
     "size": "Medium to large",
     "description": "Deep Red. Medium to large, semidouble. Average, upright growth. M. (U.S. 1975 - Haynie).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nashville",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nashville",
     "chinese_name": [],
     "japanese_name": []
@@ -547,11 +582,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Red with Yellow anthers and Red filaments. Medium, rose form double to semidouble form. Average, upright, dense growth. M-L. (U.S. 2020 - Pat B. Johnson, Cairo, GA)",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Natalie%20Burton.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Natalie%20Burton.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/natalie-burton",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Natalie%20Burton",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Natalie Carol",
@@ -559,7 +595,7 @@
     "size": "Medium",
     "description": "Pink. Medium, rose form double. Average, dense, upright growth. M-L. (Hybrid seedling). (N.Z. 1998 - M. Hurley).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/natalie-carol",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Natalie%20Carol",
     "chinese_name": [],
     "japanese_name": []
@@ -570,7 +606,7 @@
     "size": "Large",
     "description": "Dark Red and White. Large, formal double. Average growth. M. (U.S. 1974 - Marbury).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nathan-humphrey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nathan%20Humphrey",
     "chinese_name": [],
     "japanese_name": []
@@ -580,11 +616,12 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Light Pink with wide, heavy stripes of Carmine. Large, semidouble. Average, compact growth. M. (U.S. 1951 - Jones).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Native%20Dancer.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Native%20Dancer.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/native-dancer",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Native%20Dancer",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Naughty Marietta",
@@ -595,31 +632,36 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/naughty-marietta",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Naughty%20Marietta",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Navajo",
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Rose Red fading to White in center. Medium, semidouble.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Navajo.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Navajo.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/navajo",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Navajo",
     "chinese_name": [
       "凤尾蝶"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "ナバホ"
+    ],
+    "imageSource": "socal"
   },
   {
     "name": "Nedra Ann Mathis",
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Light Pink with Golden anthers and White filaments. Large to very large, semidouble to peony form. Vigorous, upright, spreading growth. M-L. (Reticulata hybrid 'Suzanne Withers' x Reticulata hybrid 'Jean Pursel'). (U.S. 1996 - Hulyn Smith).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nedra%20Ann%20Mathis.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nedra%20Ann%20Mathis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nedra-ann-mathis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nedra%20Ann%20Mathis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Neelia Little",
@@ -627,7 +669,7 @@
     "size": "Medium",
     "description": "Camellia Rose. Medium, semidouble with thick petals. Average, upright growth. E-M. (U.S. 1959 - E. P. Little, Handsboro, MS).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neelia-little",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Neelia%20Little",
     "chinese_name": [],
     "japanese_name": []
@@ -638,7 +680,7 @@
     "size": "Large",
     "description": "Red and White. Large, semidouble. Vigorous, compact, upright growth. M. (U.S. 1959 - Mrs. E. J. Prevatt, Charleston, SC).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neely-jahnz",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Neely%20Jahnz",
     "chinese_name": [],
     "japanese_name": []
@@ -649,14 +691,17 @@
     "size": "",
     "description": "See 'Purity'.",
     "image": "https://file4.iflora.cn/Upload/2019/4/10/S/9e0819a2-f940-437f-9300-59861c27f485.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neige-doree",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiragiku",
     "imageSource": "icr",
     "chinese_name": [
       "贞洁",
       "白菊"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "白菊",
+      "しらぎく"
+    ]
   },
   {
     "name": "Neil Armstrong",
@@ -664,7 +709,7 @@
     "size": "Medium to large",
     "description": "Dull Pink with Bluish cast. Medium to large, semidouble. Slow, spreading growth. M-L. (Japonica 'Debutante' x Reticulata). (U.S. 1971 - Dr. R. K. Womack, Shreveport, LA).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neil-armstrong",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Neil%20Armstrong",
     "chinese_name": [],
     "japanese_name": []
@@ -674,11 +719,12 @@
     "species": "NRH",
     "size": "Large",
     "description": "Rose Pink edged Ruby. Large, peony form. Open, spreading growth. M. (Saluenensis seedling). (N.Z. 1980 - A. P. Gamlin, Manaia).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Neisha%20Gamlin.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Neisha%20Gamlin.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neisha-gamlin",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Neisha%20Gamlin",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nel Prevatt",
@@ -686,7 +732,7 @@
     "size": "Large",
     "description": "Red. Large, semidouble with velvety texture. Average, open, upright growth. M. (U.S. 1969 - E. J. Prevatt, Bonneau, SC).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nel-prevatt",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nel%20Prevatt",
     "chinese_name": [],
     "japanese_name": []
@@ -697,7 +743,7 @@
     "size": "",
     "description": "Red and White variation of 'Nel Prevatt'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nel-prevatt-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nel%20Prevatt%20Variegated",
     "chinese_name": [],
     "japanese_name": []
@@ -707,11 +753,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White striped and blotched Pink. Medium, semidouble to loose peony form. Compact, upright growth. M. (U.S. 1958 - E. J. Prevatt, Charleston, SC).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Ashby.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Ashby.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nell-ashby",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nell%20Ashby",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nell Chester Embrey",
@@ -719,7 +766,7 @@
     "size": "Medium",
     "description": "White with Pink stripes. Medium, formal double. Average, spreading growth. E-M. (U.S. 1993 - G. Chester, Augusta, GA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Chester%20Embry.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nell-chester-embrey",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nell%20Chester%20Embrey",
     "chinese_name": [],
     "japanese_name": []
@@ -730,12 +777,13 @@
     "size": "Medium",
     "description": "Rose Red. Medium, formal double. Vigorous, dense, spreading growth. E-M. (Aus. 1973 - G. W. Hooper, Bexley North, NSW).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Hooper.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nell-hooper",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nell%20Hooper",
     "chinese_name": [
       "深情难忘"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nell Reid",
@@ -743,7 +791,7 @@
     "size": "Large",
     "description": "White to Off-White center, merging to Light Pink and edged Darker Pink. Large, semidouble. Open, upright growth. M. (Hybrid 'Lady Gowrie' seedling). (Aus. 1983 - J. B. Reid, Castle Hill, NSW).",
     "image": "https://file1.iflora.cn/Upload/2021/1/20/S/95df0583-a459-4f43-adab-4d4ca6d1f331.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nell-reid",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nell%20Reid",
     "imageSource": "icr",
     "chinese_name": [],
@@ -754,22 +802,24 @@
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Light Pink. Large to very large, semidouble. Average, upright growth. M-L. (Reticulata 'Crimson Robe' x Reticulata hybrid 'Jean Pursel'). (U.S. 1981 - Pursel).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Watson.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nell%20Watson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nell-watson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nell%20Watson",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nellie Ann Phinizy",
     "species": "Japonica",
     "size": "Medium",
     "description": "('Pink Star Variegated'). Rose Pink and White form of 'Pink Star'. Medium, semidouble with pointed outer petals and stamens among central petaloids. (U.S. 1948 - Fruitland).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nellie%20Ann%20Phinizy.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nellie%20Ann%20Phinizy.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-ann-phinizy",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20Ann%20Phinizy",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nellie Bly",
@@ -777,7 +827,7 @@
     "size": "",
     "description": "See 'Lady Clare'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-bly",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20Bly",
     "chinese_name": [],
     "japanese_name": []
@@ -788,7 +838,7 @@
     "size": "Medium",
     "description": "Dark Red spotted White. Medium, semidouble to loose peony form. (Variegated variation of 'Mrs. Charles Cobb'). (U.S. 1948 - Bradford).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-gray",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20Gray",
     "chinese_name": [],
     "japanese_name": []
@@ -799,10 +849,11 @@
     "size": "Medium",
     "description": "White. Medium, formal double. Average, upright growth. M-L. (U.S. 1988 - J. Aldrich, Brooklet, GA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nellie%20Jones.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-jones",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20Jones",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nellie K",
@@ -810,8 +861,8 @@
     "size": "Large",
     "description": "Deep Pink. Large, semidouble to anemone form to peony form. Vigorous, upright growth. M-L. (U.S. 1971 - Twin Pines Way, Theodore, AL).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nellie%20Jones.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-k",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20K",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -824,7 +875,8 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-mcgrath",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20McGRATH",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nellie White",
@@ -832,8 +884,8 @@
     "size": "",
     "description": "See Finlandia'.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nellie-white",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nellie%20White",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -843,7 +895,7 @@
     "size": "Medium",
     "description": "Red to Rose Red. Medium, semidouble with loose, irregular petals. M. (U.S. 1950 - Middleton). Japonica 'Contessa Nencini'). (U.S. 1950's - Wylam).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nelson-doubleday",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nelson%20Doubleday",
     "chinese_name": [],
     "japanese_name": []
@@ -854,7 +906,7 @@
     "size": "Miniature",
     "description": "Rose Pink. Miniature, semidouble. (Sport of",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nencini-rosea",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nencini%20Rosea",
     "chinese_name": [],
     "japanese_name": []
@@ -865,34 +917,37 @@
     "size": "Large",
     "description": "Lavender Violet. Large, single with crinkled petal edges. Average, open, upright growth. M-L. (Reticulata 'Crimson Robe' x Saluenensis). (U.S. 1986 - Ackerman).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Neon%20Tetra.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/neon-tetra",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Neon%20Tetra",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "New Horizons",
     "species": "Japonica",
     "size": "Medium",
     "description": "Medium, rose form double to formal double of Light Rose to Dark China Rose, delicately brushed and streaked Off-White with every petal variegated Deeper Rose. (Sport of Japonica Uncle Sam'). (U.S. 1959 - A H Krueger and FL Ramsey, Monterey Park, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/New%20Horizons.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/New%20Horizons.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/new-horizons",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=New%20Horizons",
     "chinese_name": [
       "新地平线"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "New Moon Rising",
     "species": "Japonica",
     "size": "Small",
     "description": "Dark Wine Red with Golden anthers and Pink filaments. Small, single. Vigorous, upright, open growth. M-L. (Seedling of Japonica 'Fuyajo'). (U.S. 2016 - Jim Moon, Portland OR).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/New%20Moon%20Rising.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/New%20Moon%20Rising.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/new-moon-rising",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=New%20Moon%20Rising",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "New Year",
@@ -900,7 +955,7 @@
     "size": "Very large",
     "description": "Crimson. Very large, semidouble. Average, upright growth. E-L. (Reticulata seedling). (N.Z. 1972 - Clark).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/new-year",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=New%20Year",
     "chinese_name": [],
     "japanese_name": []
@@ -911,7 +966,7 @@
     "size": "Large",
     "description": "Scarlet. Large, anemone form. E. (Aus. 1960 - l Newington College, Stanmore).",
     "image": "https://file1.iflora.cn/Upload/2019/4/10/S/bdf19ed1-beca-4c81-bfda-2497c5bde9d6.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/newington",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Newington",
     "imageSource": "icr",
     "chinese_name": [],
@@ -923,10 +978,11 @@
     "size": "Medium",
     "description": "Shell Pink. Medium, full peony form. Vigorous, compact growth. E-M. (U.S. 1960 - Mrs. T. M. Smithwick, Dawson, GA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nez%20Smithwick.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nez-smithwick",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nez%20Smithwick",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nice Fragrance",
@@ -934,7 +990,7 @@
     "size": "Medium to large",
     "description": "Bright Pink shading to Deeper Pink in center. Medium to large, peony form to rose form double. Slow growth. E- M. Fragrant. (Japonica 'Mrs. Bertha A. Harms' x Hybrid 'Salab'] x Hybrid 'Scentuous'). (N.Z. 1998 - J. Finlay).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nice-fragrance",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nice%20Fragrance",
     "chinese_name": [],
     "japanese_name": []
@@ -945,24 +1001,26 @@
     "size": "Large",
     "description": "Dark Red. Large, semidouble with loose petals to peony form. Average, compact growth. E-M. (U.S. 1958 - Shackelford).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nick%20Adams.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nick-adams",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nick%20Adams",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nick Carter",
     "species": "Japonica",
     "size": "Small to medium",
     "description": "Dark Red. Small to medium, anemone form. Average, open, spreading growth. E-L. (N.Z. 1991 - T. Lennard, Te Puke).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nick%20Carter.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nick%20Carter.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nick-carter",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nick%20Carter",
     "chinese_name": [
       "尼克卡特",
       "丽人小唐子"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nick's 13",
@@ -970,10 +1028,11 @@
     "size": "Medium to large",
     "description": "Blush Pink. Medium to large, semidouble with fluted petals. Vigorous, open growth. M. (U.S. 1965 - N. J. Adams, Albany, GA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nick%27s%2013.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicks-13",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nick%27s%20Thirteen",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nick's 30",
@@ -981,8 +1040,8 @@
     "size": "Large",
     "description": "Clear Light Pink. Large, semidouble. Average, upright growth. M. (U.S. 1975 - Shackelford).",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicks-30",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nick%27s%2030",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -991,8 +1050,8 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Deep Rose Pink. Medium, semidouble to peony form with stamens intermixed with large petals and petaloids.",
-    "image": "https://file1.iflora.cn/Upload/2019/4/10/S/a77950da-94b0-49ae-84fb-fc33a206322d.jpg",
-    "acs_url": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/68687e78-c740-4c6b-bb6c-53158dfaf115.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicka",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nicka",
     "imageSource": "icr",
     "chinese_name": [
@@ -1005,7 +1064,7 @@
     "species": "NRH",
     "size": "Small to medium",
     "description": "Pale Lavender Pink. Small to medium, semidouble. Slow, compact growth. E-L. (Pitardii x Pitardii/Japonica seedling). (N.Z. 1980 - Mrs. A. B. Durrant, Rotorua).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nicky%20Crisp.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nicky%20Crisp.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicky-crisp",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nicky%20Crisp",
     "chinese_name": [
@@ -1013,7 +1072,8 @@
       "小蛾嵋",
       "尼凯"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nicky Rhodes",
@@ -1021,7 +1081,7 @@
     "size": "Medium",
     "description": "Re d. Medium, semidouble. Average, compact, upright growth. M. (Japonica 'Mahogany Glow' x Saluenensis/Reticulata hybrid). (N.Z. 1975 - Mrs. I. Berg, Whakatane).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicky-rhodes",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nicky%20Rhodes",
     "chinese_name": [],
     "japanese_name": []
@@ -1031,22 +1091,23 @@
     "species": "Japonica",
     "size": "Large to very large",
     "description": "Soft Pink striped Deep Pink. Large to very large, formal double. Upright growth. M. (Aus. 1984 - T. J. Savige, Wirlinga, NSW).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bryanna%20Nicole.jpg",
-    "acs_url": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/28/T/6bd2f1d4-8449-47d6-be52-ea130926048f.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nicole",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nicole",
     "chinese_name": [
       "尼柯尔",
       "尼古拉大帝",
       "尼古"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Night Rider",
     "species": "NRH",
     "size": "Miniature",
     "description": "Very Dark Black Red. Miniature, semidouble. Average, upright growth. M-L. (Hybrid 'Ruby Bells' × Japonica 'Kuro-Tsubaki\"). (N.Z. 1985 - 0. Blumhardt, Whangarei).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Night%20Rider.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Night%20Rider.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/night-rider",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Night%20Rider",
     "chinese_name": [
@@ -1054,7 +1115,8 @@
       "午夜骑士",
       "夜行者"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Night Watchman",
@@ -1062,7 +1124,7 @@
     "size": "Medium",
     "description": "Cardinal Red. Medium, rose form double. Average, spreading growth. M. (N.Z. 1982 - W. H. Peters, Tauranga).",
     "image": "https://file3.iflora.cn/Upload/2019/6/1/S/1045cade-f47f-4f89-a30e-7c2cedd03087.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/night-watchman",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Night%20Watchman",
     "imageSource": "icr",
     "chinese_name": [],
@@ -1073,11 +1135,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Dark Red with very Dark veins with bright Gold anthers and Pink filaments. Medium, single. Vigorous, upright growth. E-M. (Japonica 'Royal Velvet' seedling). (U.S. 2013 - Gordy).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nightfall.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nightfall.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nightfall",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nightfall",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nijinski",
@@ -1085,10 +1148,11 @@
     "size": "Medium",
     "description": "Pale Pink. Medium, semidouble. Open, upright growth. (Reticulata hybrid 'Salutation' seedling). (England 1972 - Carlyon).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nijinski.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nijinski",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nijinski",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nikko",
@@ -1096,8 +1160,8 @@
     "size": "Small",
     "description": "Deep Pink. Small, single with flared soft Pink stamens. See Higo.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nikko",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nikko",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1106,24 +1170,26 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Deep Rose Red with a Purple hue and White mottling with Yellow anthers and White filaments. Large, peony form. Upright growth. M-L. (U.S. 2006 - John D. Gentry, N. Augusta, SC; Propagated by John D. Henry, Jr., Richmond Hill, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Annulette.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Annulette.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nina-annulette",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nina%20Annulette",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nina Avery",
     "species": "Japonica",
     "size": "Medium",
     "description": "White washed Rose Pink with White stamens tipped Light Brown. Medium, semidouble to loose peony form with crinkled, erect center petals. Vigorous, compact, upright growth. M. (U.S. 1949 - Mcllhenny).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Avery.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Avery.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nina-avery",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nina%20Avery",
     "chinese_name": [
       "深情海"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nina West",
@@ -1131,10 +1197,11 @@
     "size": "Large",
     "description": "Cherry Red. Large, semidouble with wavy, crinkled petals. Average, upright growth. M. (U.S. 1981 - W. T. Shepherd, North Charleston, SC).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20West.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nina-west",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nina%20West",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nina West Variegated",
@@ -1142,7 +1209,7 @@
     "size": "",
     "description": "Cherry Red and White variation of 'Nina West'. (U.S. 1981 - W. T. Shepherd, North Charleston, SC).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20West%20Var..jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nina-west-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nina%20West%20Variegated",
     "chinese_name": [],
     "japanese_name": []
@@ -1152,11 +1219,12 @@
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Deep Pink. Medium to large, formal double with heavy petal texture. Average, upright, spreading growth. M. (Sport of Japonica 'Joy Kendrick'). (U.S. 2001 - Bob Ross, Houston, TX).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Zilkha.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nina%20Zilkha.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nina-zilkha",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nina%20Zilkha",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nioi Fubuki (Fragrant Snow Storm)",
@@ -1165,7 +1233,7 @@
     "description": "White striped Rose. Medium to large, wavy single with petaloids or high crown of stamens. Vigorous, open, upright growth. M-L. Mild fragrance. (Japan 1968 - Tsugio Ôta, Kumamoto Prefecture). See Higo.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nioi-fubuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nioi-fubuki-fragrant-snow-storm",
-    "icr_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nioi%20Fubuki%20%28Fragrant%20Snow%20Storm%29",
     "imageSource": "acs",
     "chinese_name": [],
     "japanese_name": []
@@ -1176,8 +1244,8 @@
     "size": "",
     "description": "Light Pink bordered White with occasional Rose Pink stripe. (Sport of Japonica 'Nioi Fubuki'). See Higo.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nioi-fukurin",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nioi%20Fukurin",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1187,8 +1255,8 @@
     "size": "Small",
     "description": "Pink striped Red. Small, rose form double. Very showy, compact, shrubby, upright growth. M-L.",
     "image": null,
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nishiki-kirin",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nishiki%20Kirin",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1201,18 +1269,20 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nita-mcrae",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nita%20Mcrae",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "No Doubt",
     "species": "Sasanqua",
     "size": "Medium",
     "description": "Rich Crimson Rose Red with Golden anthers and Golden filaments. Medium, loose peony to semidouble. Vigorous, upright, dense growth. E-M. (U.S. 2016 - Glenn Read, Lucedale, MS).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/No%20Doubt.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/No%20Doubt.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/no-doubt",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=No%20Doubt",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "No Regrets",
@@ -1220,7 +1290,7 @@
     "size": "Large to very large",
     "description": "Light Orchid Pink. Medium, loose peony form; many petals are upright and folded with wavy margins. Slow, strong, upright growth. M. {(Pitardii var. 'Yunnanica' × Reticulata hybrid 'Forty-Niner') x [(Pitardii var. 'Yunnanica' x Reticulata 'Purple Gown') x (Saluenensis × Trasnokoensis)|}. (U.S. 2006 - Charvet)",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/no-regrets",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=No%20Regrets",
     "chinese_name": [],
     "japanese_name": []
@@ -1231,24 +1301,26 @@
     "size": "Large",
     "description": "White. Large, rose form double. Average, compact, upright growth. M. (U.S. 1966 - H. S. Entriken, Sacramento, CA).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nob%20Hill.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nob-hill",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nob%20Hill",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nobilissima",
     "species": "Japonica",
     "size": "Medium",
     "description": "('Fuji-Yama'). White with Yellow shading. Medium, full peony form. Vigorous, upright growth. E-M. (Belgium 1834 - M. Lefevre, Ghent).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nobilissima.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nobilissima.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nobilissima",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nobilissima",
     "chinese_name": [
       "贵族",
       "白诺波"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Noble Pearl",
@@ -1256,8 +1328,8 @@
     "size": "Large to very large",
     "description": "('Baozhu Cha' - Chinese Name). Oriental Red. Large to very large, semidouble with large, heavily textured, outer petals, 20 mine left in chanter and crinkled inner petals. Compact growth. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Noble%20Pearl.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noble-pearl",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Noble%20Pearl",
     "imageSource": "socal",
     "chinese_name": [],
     "japanese_name": []
@@ -1274,7 +1346,10 @@
       "野田见后",
       "朦胧"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "ノダミウシロ"
+    ],
+    "imageSource": "accs"
   },
   {
     "name": "Noel",
@@ -1282,7 +1357,7 @@
     "size": "Medium",
     "description": "Red with White border. Medium, anemone form. Average, upright growth. E-M. (U.S. 1992 - Piet and Gaeta).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Virginia%20Noel.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noel",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Noel",
     "chinese_name": [],
     "japanese_name": []
@@ -1293,8 +1368,8 @@
     "size": "Medium",
     "description": "Bright Pink. Medium, semidouble.",
     "image": "https://file4.iflora.cn/Upload/2021/1/20/S/27a3f186-f182-41c9-81d3-276f4edcf583.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noelas-pick",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Noela%27s%20Pick",
     "imageSource": "icr",
     "chinese_name": [],
     "japanese_name": []
@@ -1306,7 +1381,7 @@
     "description": "Red. Small, single. (Japan 1859 - Kantô Area).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nokogiriba-tsubaki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nokogiriba-tsubaki",
-    "icr_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nokogiriba-%20Tsubaki",
     "imageSource": "acs",
     "chinese_name": [],
     "japanese_name": []
@@ -1317,7 +1392,7 @@
     "size": "Large",
     "description": "White. Large, formal double. Average, upright growth. E-M. (U.S. 1980 - Gilley).",
     "image": "https://file4.iflora.cn/Upload/2019/4/10/S/edabef85-a9df-4eb1-9daa-b0466a855d47.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nola-firth",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nola%20Firth",
     "imageSource": "icr",
     "chinese_name": [
@@ -1330,18 +1405,19 @@
     "species": "Japonica",
     "size": "Miniature",
     "description": "White shading to Pink on edge. Miniature, formal double to rose form double. Slow, upright, dense growth. E-M. (Seedling of Japonica 'China Doll'). (U.S. 2016 - Pat Johnson, Cairo, GA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nolan%20Lewis.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nolan%20Lewis.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nolan-lewis",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nolan%20Lewis",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nonie Haydon",
     "species": "NRH",
     "size": "Large",
     "description": "Pink. Large, peony form. Average growth. M-L. (Yunnanica × Pitardii). (N.Z. 1990 - Haydon).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nonie%20Haydon.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nonie%20Haydon.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nonie-haydon",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nonie%20Haydon",
     "chinese_name": [
@@ -1349,7 +1425,8 @@
       "海登",
       "粉红珠芽"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Noonie Carroll",
@@ -1357,10 +1434,11 @@
     "size": "Medium",
     "description": "Pink with Light Pink inner petals. Medium, formal double. Average, upright growth. M. (U.S. 1988 - Tammia).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Noonie%20Carroll.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noonie-carroll",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Noonie%20Carroll",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nora",
@@ -1368,7 +1446,7 @@
     "size": "Medium",
     "description": "Rose Pink with Pink tipped Yellow stamens. Medium, semidouble.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Leonora%20Novick.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nora",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nora",
     "chinese_name": [],
     "japanese_name": []
@@ -1378,11 +1456,12 @@
     "species": "Reticulata",
     "size": "Very large",
     "description": "Bright Pink with Yellow anthers and White filaments. Very large, semidouble. Average, upright, spreading growth. M. (U.S. 2018 - Don Bergamini, Martinez, CA).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nora%20Kate.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nora%20Kate.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/nora-kate",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nora%20Kate",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nora Lawson",
@@ -1390,10 +1469,11 @@
     "size": "Very large",
     "description": "White splashed Pink. Very large, anemone form. Average, open, upright growth. E. (U.S. 1968 - Camelliana).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nora%20Lawson.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nora-lawson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nora%20Lawson",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nora's Choice",
@@ -1401,7 +1481,7 @@
     "size": "Large to very large",
     "description": "Red with Pinky Red stamens. Large to very large, peony form. Slow, spreading growth. M-L. (N.Z. 1989 - Miss K. N. Ferguson, Uatamata).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noras-choice",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nora%27s%20Choice",
     "chinese_name": [],
     "japanese_name": []
@@ -1411,14 +1491,15 @@
     "species": "NRH",
     "size": "Miniature",
     "description": "Fuchsia Pink, becoming lighter at center. Miniature, semidouble to anemone form. Average, upright growth. M-L. (Hybrid 'Alpen Glo' seedling). (N.Z. 1999 - Haydon).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Norina.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Norina.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/norina",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Norina",
     "chinese_name": [
       "罗莉娜",
       "水车"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Norma Borland",
@@ -1426,10 +1507,11 @@
     "size": "Medium",
     "description": "White, occasionally dashed Red. Medium, full peony form with White stamens. Average, compact growth. E. (U.S. 1954 - Julington).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Norma%20Borland.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/norma-borland",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Norma%20Borland",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Norma Knight",
@@ -1437,10 +1519,11 @@
     "size": "Large",
     "description": "Red. Large, peony form. Average growth. E-M. (U.S. 1964 - C. A. Knight, Beaumont, TX).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Norma%20Knight.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/norma-knight",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Norma%20Knight",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Norman Edwards",
@@ -1448,7 +1531,7 @@
     "size": "Medium",
     "description": "Light Pink shading to Deeper Pink. Medium, peony form. Average, compact, upright growth. M. (U.S. 1958 - McCaskill).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/norman-edwards",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Norman%20Edwards",
     "chinese_name": [],
     "japanese_name": []
@@ -1458,11 +1541,12 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Cream White striped Red to Red and Red variegated White. Large, semidouble to peony form. Vigorous, upright growth. M. (U.S. 1964 - Mealing).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/North%20Augusta.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/North%20Augusta.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/north-augusta",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=North%20Augusta",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "North Bay",
@@ -1470,7 +1554,7 @@
     "size": "Medium",
     "description": "White with Orchid Blush. Medium, semidouble with fluted petals. Vigorous, upright, open growth. E-M. {Pitardii var. 'Yunnanica' x. [Reticulata 'Crimson Robe' x. (Reticulata 'Crimson Robe' x Fraterna)]}. (U.S. 1999 - Charvet).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/north-bay",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=North%20Bay",
     "chinese_name": [],
     "japanese_name": []
@@ -1481,7 +1565,7 @@
     "size": "Large",
     "description": "Pink. Large, peony form. M. (Aus. 1966 - Miss W. Henderson, NSW).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/north-shore",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=North%20Shore",
     "chinese_name": [],
     "japanese_name": []
@@ -1491,35 +1575,38 @@
     "species": "Sasanqua",
     "size": "Medium",
     "description": "White with Golden anthers. Medium, single. Upright growth. E.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Exposure.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Exposure.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/northern-exposure",
-    "icr_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Northern%20Exposure",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Northern Light",
     "species": "Japonica",
     "size": "Medium",
     "description": "Dark Pink. Medium, semidouble to loose peony form with narrow petals. (U.S. 1944 - Magnolia).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Light.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Light.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/northern-light",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Northern%20Light",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Northern Lights",
     "species": "Sasanqua",
     "size": "Large",
     "description": "White with Pink edges. Large, single.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Lights.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Northern%20Lights.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/northern-lights",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Northern%20Lights",
     "chinese_name": [
       "北辰星光"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Norwilk",
@@ -1527,10 +1614,11 @@
     "size": "Medium",
     "description": "Turkey Red. Medium, semidouble to peony form. Average growth. M-L. (U.S. 1957 - Wilkinson).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Norwilk.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/norwilk",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Norwilk",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Notre Dame",
@@ -1538,10 +1626,11 @@
     "size": "Very large",
     "description": "Pink washed Silver. Very large, loose peony form. Vigorous, upright growth. M-L. (Reticulata seedling). (U.S. 1977 - Mrs. M. O'Malley, Woodside, CA').",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Notre%20Dame.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/notre-dame",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Notre%20Dame",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "November Pink",
@@ -1549,10 +1638,11 @@
     "size": "Medium",
     "description": "Phlox Pink. Medium, single. E. (Saluenensis x Japonica). (England 1951 - Williams)",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/November%20Pink.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/november-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=November%20Pink",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Novick's Seven",
@@ -1560,7 +1650,7 @@
     "size": "Large",
     "description": "Pink. Large, anemone form to peony form with loose petals. Average, open growth. M-L. (Reported as similar to 'Elizabeth Le Bey'). (U.S. 1963 - Novick).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/novicks-seven",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Novick%27s%20Seven",
     "chinese_name": [],
     "japanese_name": []
@@ -1571,7 +1661,7 @@
     "size": "Medium",
     "description": "Pink. Medium, peony form. Strong, upright, well-branched growth. E-M. (Pitardii var. 'Yunnanica' x Reticulata 'Purple Gown'). (U.S. 1981 - Charvet).",
     "image": "https://file1.iflora.cn/Upload/2021/12/1/S/0cbe6cae-3bfa-4cf3-ade8-a9dfa43e7f89.jpg",
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/noyo-princess",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Noyo%20Princess",
     "imageSource": "icr",
     "chinese_name": [],
@@ -1582,50 +1672,57 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Red. Large, formal double. Average, bushy, upright growth. E-L. (U.S. 2000 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Bella%20Rossa.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Bella%20Rossa.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-bella-rossa",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Bella%20Rossa",
     "chinese_name": [
       "贝拉大玫瑰",
       "大红锦衣卫",
-      "纽西欧-贝拉-大玫瑰",
+      "纽西欧",
+      "贝拉",
+      "大玫瑰",
       "纽西欧的贝拉玫瑰",
       "红贝拉"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Bella Rossa Crinkled",
     "species": "Japonica",
     "size": "Medium",
     "description": "Red. Medium, formal double with very wavy petals. Slow, compact, upright growth; Foliage is irregular, crinkled, Green in center with irregular Yellowish Green margin (Benten type). E-M. (Flower and foliage sport of Japonica 'Nuccio's Bella Rossa'). (U.S. 2012 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Bella%20Rossa%20Crinkled.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Bella%20Rossa%20Crinkled.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-bella-rossa-crinkled",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Bella%20Rossa%20Crinkled",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Bella Rossa Variegated",
     "species": "Japonica",
     "size": "",
     "description": "Red blotched White variation of Nuccio's Bella Rossa. (U.S. 2001 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio's%20Bella%20Rossa%20Var..jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio's Bella Rossa Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-bella-rossa-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Bella%20Rossa%20Variegated",
     "chinese_name": [
       "花贝拉",
-      "纽西欧-贝拉-大玫瑰(斑",
-      "红贝拉（斑）"
+      "纽西欧",
+      "贝拉",
+      "大玫瑰",
+      "红贝拉"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Nuccio's Cameo",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Light Pink to Coral Pink. Medium to large, formal double to rose form double. Average, compact, upright growth. E-L. (U.S. 1983 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Cameo.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Cameo.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-cameo",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Cameo",
     "chinese_name": [
@@ -1634,43 +1731,46 @@
       "纽西耳玛瑙",
       "纽西欧卡米欧"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Cameo Variegated",
     "species": "Japonica",
     "size": "",
     "description": "Light Pink to Coral Pink blotched White variation of Nuccio's Cameo. (U.S. 2014).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio's%20Cameo%20Var..jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio's Cameo Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-cameo-variegated",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Cameo%20Variegated",
     "chinese_name": [
-      "玫瑰蒂(斑",
-      "纽西欧卡米欧(变",
+      "玫瑰蒂",
+      "纽西欧卡米欧",
       "复色牛西奥雕石"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Nuccio's Carousel",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "Soft Pink toned deeper at edge. Medium to large, semidouble of tubular form. Average, compact, upright growth. E-L. (U.S. 1988 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Carousel.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Carousel.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-carousel",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Carousel",
     "chinese_name": [
       "牛西奥转马",
       "旋转木马"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Gem",
     "species": "Japonica",
     "size": "Medium to large",
     "description": "White. Medium to large, formal double. Vigorous, compact, upright growth. E-M. (U.S. 1970 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Gem.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Gem.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-gem",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Gem",
     "chinese_name": [
@@ -1679,14 +1779,15 @@
       "纽西欧珠宝",
       "纽西耳珍宝"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Jewel",
     "species": "Japonica",
     "size": "Medium",
     "description": "White washed and shaded Orchid Pink. Medium, full peony form. Slow, bushy growth. M. (U.S. 1977 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Jewel.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Jewel.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-jewel",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Jewel",
     "chinese_name": [
@@ -1696,14 +1797,15 @@
       "纽西耳宝石",
       "纽西欧珠宝"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Pearl",
     "species": "Japonica",
     "size": "Medium",
     "description": "White washed and shaded Orchid Pink. Medium, formal double. Vigorous, compact, upright growth. M. (U.S. 1977 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Pearl.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Pearl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-pearl",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Pearl",
     "chinese_name": [
@@ -1712,14 +1814,15 @@
       "纽西欧珍珠",
       "纽西耳珍珠"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Pink Lace",
     "species": "Japonica",
     "size": "Large",
     "description": "Light Pink. Large, anemone form, occasional flower with rosette of center petaloids. Average, compact, upright growth. E-L. (U.S. 1987 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Pink%20Lace.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Pink%20Lace.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-pink-lace",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Pink%20Lace",
     "chinese_name": [
@@ -1727,14 +1830,15 @@
       "纽西欧粉蕾丝",
       "粉带"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nuccio's Ruby",
     "species": "Reticulata",
     "size": "Large to very large",
     "description": "Very Dark Rich Red. Large to very large, semidouble with irregular, ruffled petals. Average, compact, upright growth. M. (Reticulata seedling). (U.S. 1974 - Nuccio's).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Ruby.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio%27s%20Ruby.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-ruby",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Ruby",
     "chinese_name": [
@@ -1742,7 +1846,8 @@
       "纽西欧红玉",
       "纽西耳红宝石"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "socal"
   },
   {
     "name": "Nu’Erhong",
@@ -1750,7 +1855,7 @@
     "size": "",
     "description": "See ‘Daughter’s Red’.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuerhong",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nu%27Erhong",
     "chinese_name": [],
     "japanese_name": []
@@ -1761,23 +1866,25 @@
     "size": "Large",
     "description": "Orchid Pink. Large, loose peony form with upright petals. Average, open, upright growth. E-M. (U.S. 1960 - W. F. Hutcheson, Texarkana, TX).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nyla%20Fran.jpg",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nyla-fran",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nyla%20Fran",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "accs"
   },
   {
     "name": "Nymph",
     "species": "NRH",
     "size": "Miniature",
     "description": "Pale Pink flushed Ivory. Miniature, semidouble. Vigorous, spreading growth. E-L. Fragrant. (Lutchuensis × Japonica 'Helen Metson'). (N.Z. 1982 - D. G. O'Toole, Christchurch)",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Snow%20Nymph.jpg",
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/10/T/17d2048b-059f-4058-806e-9f671532721a.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nymph",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nymph",
     "chinese_name": [
       "古典美人"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Nü'Erhong",
@@ -1785,10 +1892,12 @@
     "size": null,
     "description": "See 'Daughter's Red'.",
     "image": "https://file1.iflora.cn/Upload/2022/2/1/S/f8adc359-8db8-40cf-86ef-d9d0676218ad.png",
-    "acs_url": null,
-    "icr_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nerhong",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=N%C3%BC%27Erhong",
     "imageSource": "icr",
-    "chinese_name": [],
+    "chinese_name": [
+      "女儿红"
+    ],
     "japanese_name": []
   }
 ]

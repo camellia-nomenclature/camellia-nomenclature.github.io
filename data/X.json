@@ -5,7 +5,7 @@
     "size": "Large",
     "description": "Deep to Light Rose Pink, at times with Bluish sheen or Bluish undertones and veining. Large, semidouble to anemone form to peony form. Average, upright growth. M. (U.S. 1998 - P. Gilley, Grand Ridge, FL).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/x-tra-pink",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=X-Tra%20Pink",
     "chinese_name": [],
     "japanese_name": []
@@ -15,65 +15,70 @@
     "species": "NRH",
     "size": "",
     "description": "See 'Summer's Wind and Hot Waves",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2020/12/11/T/cbf54691-137b-4fec-bd41-3ea4f2fa32a4.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiafeng-relang",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiafeng%20Relang",
     "chinese_name": [
       "夏风热浪"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xiameng Wenqing",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Wenging's Summer Dream",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2019/5/6/T/f903f239-d8d9-4ce5-92a1-dac508b05520.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiameng-wenqing",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiameng%20Wenqing",
     "chinese_name": [
       "夏梦文清"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xiameng Yulan",
     "species": "NRH",
     "size": "",
     "description": "See 'Yulan's Summer Dream",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file3.iflora.cn/Upload/2020/12/11/T/d91d3ef3-10e7-41a2-b81d-28247333b447.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiameng-yulan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiameng%20Yulan",
     "chinese_name": [
       "夏梦玉兰"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xiaoguiye",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Small Osmanthus Leaf'.",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file4.iflora.cn/Upload/2021/4/18/S/ec1e189b-d6eb-4e1a-82c4-b5b3cf48eda8.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiaoguiye",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoguiye",
     "chinese_name": [
       "小桂叶"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xiaoye Mudan",
     "species": "Reticulata",
     "size": "",
     "description": "See 'Small Leaf Peony'.",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file3.iflora.cn/Upload/2019/4/7/S/de18acc6-4c41-450b-9db4-5114f812eeb6.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiaoye-mudan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoye%20Mudan",
     "chinese_name": [
       "小叶牡丹"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xiaoyulan",
@@ -81,7 +86,7 @@
     "size": "",
     "description": "See 'Small Magnolia'.",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiaoyulan",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiaoyulan",
     "chinese_name": [
       "小玉兰"
@@ -93,25 +98,27 @@
     "species": "Reticulata",
     "size": "",
     "description": "See 'Narrow Osmanthus Leaf\".",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/7/S/7ddb29e0-27a7-414d-a9f6-bee50753aced.JPG",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xiguiye",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xiguiye",
     "chinese_name": [
       "细桂叶"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Xizi Xianghe",
     "species": "Japonica",
     "size": "",
     "description": "See 'Westlake Fragrant Lotus",
-    "image": null,
-    "acs_url": null,
+    "image": "https://file1.iflora.cn/Upload/2021/7/3/S/7d1a7b96-0718-436c-90ce-11a4a4dc782e.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-x/xizi-xianghe",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xizi%20Xianghe",
     "chinese_name": [
       "西子香荷"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   }
 ]
