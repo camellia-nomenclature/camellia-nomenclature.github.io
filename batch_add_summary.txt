@@ -1,0 +1,36 @@
+BATCH ADD SUMMARY (15 targets)
+========================================
+
+Added:            7
+Already exists:   3
+Unresolved:       5
+Total:            15
+
+ADDED (7):
+  + Atago (Japonica) — https://camellia.iflora.cn/Cutivars/Detail?latin=Atago
+  + Mochuan (Japonica) — https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan
+  + Toki-no-mai (Japonica) — https://camellia.iflora.cn/Cutivars/Detail?latin=Toki-no-mai
+  + Tomo-no-ura (Japonica) — https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-no-ura
+  + Sōshin-wabisuke (Japonica) — https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke
+  + Zangetsu (Hybrid) — https://camellia.iflora.cn/Cutivars/Detail?latin=Zangetsu
+  + Hi-no-tsukasa (Sasanqua) — https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa
+
+ALREADY EXISTS (3):
+  = Lucky Star Variegated → Lucky Star Variegated (NRH)
+  = Tudor Baby Variegated → Tudor Baby Variegated (Japonica)
+  = Shira ōgi → Shira-Ogi (Japonica)
+
+UNRESOLVED (5):
+  ? Mahoroba Variegated — ICR page empty; no data extracted. ICR recommendations: Madonna Variegated, Mathotiana Variegated, Adorable Variegated — none match target.
+  ? Takanini Variegated — ICR page empty; no data extracted. ICR recommendations: Wakanoura Variegated, Akebono Variegated, Amabilis Variegated — none match target.
+  ? Christmas Hat — ICR page empty; no data extracted. ICR recommendations: Christmas Day, Christmas Star, Christmas Eve — none match target.
+  ? Midnight Magic Variegated — ICR page empty; no data extracted. ICR recommendations: Midnight Variegated, Mima Mac Variegated, Bright Buoy Variegated — none match target.
+  ? Margaret Lesher Variegated — ICR page empty; no data extracted. ICR recommendations: Margaret Short Variegated, Margaret Wells Variegated, Margaret Hilford Variegated — none match target.
+
+ARTIFACTS SYNCED:
+  data/camellias.json
+  data/A.json, data/H.json, data/M.json, data/S.json, data/T.json, data/Z.json
+  data/index.json
+  All consistency checks: PASS
+
+No commit, no push.

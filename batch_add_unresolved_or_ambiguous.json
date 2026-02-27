@@ -1,0 +1,47 @@
+[
+  {
+    "target": "Mahoroba Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Madonna Variegated, Mathotiana Variegated, Adorable Variegated — none match target."
+  },
+  {
+    "target": "Takanini Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Wakanoura Variegated, Akebono Variegated, Amabilis Variegated — none match target."
+  },
+  {
+    "target": "Christmas Hat",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Christmas Day, Christmas Star, Christmas Eve — none match target."
+  },
+  {
+    "target": "Midnight Magic Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Midnight Variegated, Mima Mac Variegated, Bright Buoy Variegated — none match target."
+  },
+  {
+    "target": "Margaret Lesher Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Margaret Short Variegated, Margaret Wells Variegated, Margaret Hilford Variegated — none match target."
+  }
+]

@@ -2635,6 +2635,17 @@
     "japanese_name": []
   },
   {
+    "name": "Atago",
+    "species": "Japonica",
+    "chinese_name": [
+      "爱宕"
+    ],
+    "japanese_name": [
+      "愛宕",
+      "あたご"
+    ]
+  },
+  {
     "name": "Athelyne",
     "species": "Japonica",
     "chinese_name": [],
@@ -21187,7 +21198,19 @@
     ]
   },
   {
-    "name": "Hi-No-Tsukasa (Lord Of Scarlet)",
+    "name": "Hi-No-Tsukasa",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "绯司",
+      "绯之司"
+    ],
+    "japanese_name": [
+      "緋の司",
+      "ひのつかさ"
+    ]
+  },
+  {
+    "name": "Hi-No-Tsukasa",
     "species": "Japonica",
     "chinese_name": [
       "绯司",
@@ -34323,6 +34346,14 @@
     "name": "Mme. Chiang Kai-Shek",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Mochuan",
+    "species": "Japonica",
+    "chinese_name": [
+      "墨川"
+    ],
     "japanese_name": []
   },
   {
@@ -47911,6 +47942,15 @@
     "japanese_name": []
   },
   {
+    "name": "Sōshin-wabisuke",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "湊晨佗助",
+      "そうしんわびすけ"
+    ]
+  },
+  {
     "name": "T'Ang",
     "species": "Reticulata",
     "chinese_name": [],
@@ -49265,6 +49305,17 @@
     ]
   },
   {
+    "name": "Toki-no-mai",
+    "species": "Japonica",
+    "chinese_name": [
+      "朱鹭舞"
+    ],
+    "japanese_name": [
+      "朱鷺の舞",
+      "ときのまい"
+    ]
+  },
+  {
     "name": "Tokiiro-Wabisuke",
     "species": "Wabisuke",
     "chinese_name": [
@@ -49401,6 +49452,16 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Tomo-no-ura",
+    "species": "Japonica",
+    "chinese_name": [
+      "友浦"
+    ],
+    "japanese_name": [
+      "友の浦"
+    ]
   },
   {
     "name": "Tomorrow",
@@ -53382,6 +53443,15 @@
       "黑红混血儿"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Zangetsu",
+    "species": "Hybrid",
+    "chinese_name": [],
+    "japanese_name": [
+      "残月",
+      "ざんげつ"
+    ]
   },
   {
     "name": "Zaomudan",

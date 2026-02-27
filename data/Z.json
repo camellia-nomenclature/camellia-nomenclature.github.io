@@ -26,6 +26,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Zangetsu",
+    "species": "Hybrid",
+    "size": "Medium",
+    "description": "Nippon Tsubaki - Sasanqua Meikan, 1998, p.115 with colour photo; English translation p.78. Medium size, pinkish pale yellow, cup-shaped single with thin petals. Flowers mid-season. Leaves narrowly elliptic, medium size, glossy. Upright, vigorous growth. An interspecific hybrid between three species. Named and released by Kazuo Yoshikawa in 1994. From Osaka.",
+    "image": "https://file3.iflora.cn/Upload/2021/8/25/S/6db79fd9-226b-4941-aef4-e602b8c4ac24.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zangetsu",
+    "chinese_name": [],
+    "japanese_name": [
+      "残月",
+      "ざんげつ"
+    ]
+  },
+  {
     "name": "Zaomudan",
     "species": "Reticulata",
     "size": "",

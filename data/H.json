@@ -2177,13 +2177,31 @@
     "imageSource": "accs"
   },
   {
-    "name": "Hi-No-Tsukasa (Lord Of Scarlet)",
+    "name": "Hi-No-Tsukasa",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Kajitsu’en, 1905, Chabaika Meikan: Medium size, red, cup­shaped. Originated in Japan.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/10/S/ab156104-f296-44b1-9832-7176773dc619.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa",
+    "chinese_name": [
+      "绯司",
+      "绯之司"
+    ],
+    "japanese_name": [
+      "緋の司",
+      "ひのつかさ"
+    ]
+  },
+  {
+    "name": "Hi-No-Tsukasa",
     "species": "Japonica",
     "size": "Large",
     "description": "Scarlet. Large, single. See Higo.",
     "image": "https://file3.iflora.cn/Upload/2019/4/10/S/ab156104-f296-44b1-9832-7176773dc619.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/hi-no-tsukasa-lord-of-scarlet",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa%20(Higo)",
     "imageSource": "icr",
     "chinese_name": [
       "绯司",

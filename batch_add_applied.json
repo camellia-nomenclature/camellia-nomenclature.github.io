@@ -1,0 +1,1255 @@
+[
+  {
+    "url": "Atago",
+    "name": "Atago",
+    "letter": "A",
+    "entry": null,
+    "proposed": {
+      "name": "Atago",
+      "species": "Japonica",
+      "size": "Small",
+      "description": "Latest Illustrated Book of Japanese Camellias (Camellias of Japan) 2010, p.143 with colour photo; Small single, tubular to trumpet shape, white spots on purplish deep red ground. Leaves small, elliptic. Upright growth. Breeding unknown, released by Soshin Hirai, Kurume, Saitama Pref., Japan.",
+      "image": "https://file1.iflora.cn/Upload/2019/4/11/T/2ea7b40a-4fde-4bf8-807a-8dd0de9316c0.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Atago",
+      "chinese_name": [
+        "爱宕"
+      ],
+      "japanese_name": [
+        "愛宕",
+        "あたご"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Atago"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Japonica"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: Latest Illustrated Book of Japanese Camellias (Camellias of Japan) 2010, p.143 w"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Small"
+      },
+      {
+        "field": "chinese_name",
+        "status": "pass",
+        "detail": "extracted: ['爱宕']"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['愛宕', 'あたご']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7791 camellias.json=7791"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7791 letters=7791"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "Mochuan",
+    "name": "Mochuan",
+    "letter": "M",
+    "entry": null,
+    "proposed": {
+      "name": "Mochuan",
+      "species": "Japonica",
+      "size": "Large",
+      "description": "China Camellia Regn No. 2019-264.&nbsp; Published in China Flowers &amp; Horticulture , 2019, No.8, p.57 with a colour photo.&nbsp; It was originated and registered by Chen Jianchuan, from Yingxiang Nursery, Yongfu Town, Longyan City, Fujian Province. This cultivar is a sport of C. japonica ‘ Chidan ’, which was discovered in 2012 and then grafted and reproduced by cutting. The flower is dark red with velvety light, rose double forml to fully double form, large flower, flower diameter 12.0cm with about 80 petals, arranged in multiple rounds, thick petals, slightly concave apex. The leaves are medium green, tender buds and young leaves are green and shiny, lavender patches, elliptical, 9 cm long, 6cm wide, acuminate, and the other characteristic are the same as ' Chidan '. The plants are compact and grow vigorously. Flowering from February to March.",
+      "image": "https://file1.iflora.cn/Upload/2021/3/12/S/c64b3f9b-1f27-453d-ae09-ed5f2fefa001.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan",
+      "chinese_name": [
+        "墨川"
+      ],
+      "japanese_name": []
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Japonica"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: China Camellia Regn No. 2019-264.&nbsp; Published in China Flowers &amp; Horticu"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Large"
+      },
+      {
+        "field": "chinese_name",
+        "status": "pass",
+        "detail": "extracted: ['墨川']"
+      },
+      {
+        "field": "japanese_name",
+        "status": "info",
+        "detail": "none found"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7792 camellias.json=7792"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7792 letters=7792"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "Toki-no-mai",
+    "name": "Toki-no-mai",
+    "letter": "T",
+    "entry": null,
+    "proposed": {
+      "name": "Toki-no-mai",
+      "species": "Japonica",
+      "size": "Medium",
+      "description": "Encyclopedia of Camellias in Colour, vol.II, 1978, pl.454, p.178, description, p.264: Medium size, full anemone form with one row of outer guard petals, transparent, white with red streaks and a full hemispherical centre of small, erect, com­pact, folded and twisted petals with no stamens visible. Leaves long-elliptic, keeled, thick, dark green, sometimes, apex tapered acuminate, margins irregularly and coarsely serrate, becoming obscure towards the petiole. Originated in Murakami City, Niigata Prefecture, Japan. Named and released by Tokuji Ōoka in 1973. See colour pl.: Seibundō Shinkōsha, 1980, Senchinshū, pp.105, 384, 385, Yokoyama &amp; Kirino, 1989, Nihon no Chinka. Sport: Kifukurin-toki-no-mai.",
+      "image": "https://file3.iflora.cn/Upload/2019/4/11/T/00a3b7c1-0c31-4d9d-8a44-353d9545d9ec.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Toki-no-mai",
+      "chinese_name": [
+        "朱鹭舞"
+      ],
+      "japanese_name": [
+        "朱鷺の舞",
+        "ときのまい"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Toki-no-mai"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Japonica"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: Encyclopedia of Camellias in Colour, vol.II, 1978, pl.454, p.178, description, p"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Medium"
+      },
+      {
+        "field": "chinese_name",
+        "status": "pass",
+        "detail": "extracted: ['朱鹭舞']"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['朱鷺の舞', 'ときのまい']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7793 camellias.json=7793"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7793 letters=7793"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "Tomo-no-ura",
+    "name": "Tomo-no-ura",
+    "letter": "T",
+    "entry": null,
+    "proposed": {
+      "name": "Tomo-no-ura",
+      "species": "Japonica",
+      "size": "Large",
+      "description": "Latest Illustrated Book of Japanese Camellias, (Camellias of Japan), 2010, p.169 with colour photo; Large semi-double, deep red widely bordered white. Flowers mid-season to late. Leaves ovate, medium size. Upright growth with excellent branching. Selected by Tomo’o Ebata from seedlings of unknown parentage. Named by Tora Ebata, released by Soshin Hirai in 2005. From Saitama Pref., Japan.",
+      "image": "https://file3.iflora.cn/Upload/2019/4/11/T/715dc9cb-2182-48e2-bb06-b2473e4370e7.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-no-ura",
+      "chinese_name": [
+        "友浦"
+      ],
+      "japanese_name": [
+        "友の浦"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-no-ura"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Japonica"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: Latest Illustrated Book of Japanese Camellias, (Camellias of Japan), 2010, p.169"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Large"
+      },
+      {
+        "field": "chinese_name",
+        "status": "pass",
+        "detail": "extracted: ['友浦']"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['友の浦']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7794 camellias.json=7794"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7794 letters=7794"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke",
+    "name": "Sōshin-wabisuke",
+    "letter": "S",
+    "entry": null,
+    "proposed": {
+      "name": "Sōshin-wabisuke",
+      "species": "Japonica",
+      "size": "Miniature",
+      "description": "from Saitama Pref. Published as the front cover of Japan Camellia, No.78, August 2005: A natural seedling of Shimofusa-wabisuke, clearly a hybrid with Tama-no-ura, growing next to the mother tree. Bloomed first in 1995, miniature, red widely bordered white, single. White filaments with degenerated anthers, slightly hairy ovary. Profuse blooming from late autumn to mid-season. Leaves waved like those of Tama-no-ura. Tree vigorous. Originated by Sōshin Hirai and named for himself.",
+      "image": "https://file3.iflora.cn/Upload/2019/4/11/S/786aab64-d2c4-43d3-b6d4-2ec77c90a06b.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke",
+      "chinese_name": [],
+      "japanese_name": [
+        "湊晨佗助",
+        "そうしんわびすけ"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Japonica"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: from Saitama Pref. Published as the front cover of Japan Camellia, No.78, August"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Miniature"
+      },
+      {
+        "field": "chinese_name",
+        "status": "info",
+        "detail": "none found"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['湊晨佗助', 'そうしんわびすけ']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7795 camellias.json=7795"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7795 letters=7795"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "Zangetsu",
+    "name": "Zangetsu",
+    "letter": "Z",
+    "entry": null,
+    "proposed": {
+      "name": "Zangetsu",
+      "species": "Hybrid",
+      "size": "Medium",
+      "description": "Nippon Tsubaki - Sasanqua Meikan, 1998, p.115 with colour photo; English translation p.78. Medium size, pinkish pale yellow, cup-shaped single with thin petals. Flowers mid-season. Leaves narrowly elliptic, medium size, glossy. Upright, vigorous growth. An interspecific hybrid between three species. Named and released by Kazuo Yoshikawa in 1994. From Osaka.",
+      "image": "https://file3.iflora.cn/Upload/2021/8/25/S/6db79fd9-226b-4941-aef4-e602b8c4ac24.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zangetsu",
+      "chinese_name": [],
+      "japanese_name": [
+        "残月",
+        "ざんげつ"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Zangetsu"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Hybrid"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: Nippon Tsubaki - Sasanqua Meikan, 1998, p.115 with colour photo; English transla"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Medium"
+      },
+      {
+        "field": "chinese_name",
+        "status": "info",
+        "detail": "none found"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['残月', 'ざんげつ']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7796 camellias.json=7796"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7796 letters=7796"
+      }
+    ],
+    "consistency_pass": true
+  },
+  {
+    "url": "Hi-no-tsukasa",
+    "name": "Hi-no-tsukasa",
+    "letter": "H",
+    "entry": null,
+    "proposed": {
+      "name": "Hi-no-tsukasa",
+      "species": "Sasanqua",
+      "size": "Medium",
+      "description": "Kajitsu’en, 1905, Chabaika Meikan: Medium size, red, cup­shaped. Originated in Japan.",
+      "image": "https://file3.iflora.cn/Upload/2019/4/10/S/ab156104-f296-44b1-9832-7176773dc619.jpg",
+      "imageSource": "icr",
+      "acs_url": null,
+      "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa",
+      "chinese_name": [
+        "绯司",
+        "绯之司"
+      ],
+      "japanese_name": [
+        "緋の司",
+        "ひのつかさ"
+      ]
+    },
+    "exists": false,
+    "action": "add",
+    "applied": true,
+    "checks": [
+      {
+        "field": "icr_page",
+        "status": "pass",
+        "detail": "fetched https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa"
+      },
+      {
+        "field": "species",
+        "status": "pass",
+        "detail": "extracted: Sasanqua"
+      },
+      {
+        "field": "description",
+        "status": "pass",
+        "detail": "extracted: Kajitsu’en, 1905, Chabaika Meikan: Medium size, red, cup­shaped. Originated in J"
+      },
+      {
+        "field": "size",
+        "status": "pass",
+        "detail": "extracted: Medium"
+      },
+      {
+        "field": "chinese_name",
+        "status": "pass",
+        "detail": "extracted: ['绯司', '绯之司']"
+      },
+      {
+        "field": "japanese_name",
+        "status": "pass",
+        "detail": "extracted: ['緋の司', 'ひのつかさ']"
+      },
+      {
+        "field": "image",
+        "status": "pass",
+        "detail": "found 1 ICR image(s)"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "check": "A.json exists",
+        "pass": true
+      },
+      {
+        "check": "B.json exists",
+        "pass": true
+      },
+      {
+        "check": "C.json exists",
+        "pass": true
+      },
+      {
+        "check": "D.json exists",
+        "pass": true
+      },
+      {
+        "check": "E.json exists",
+        "pass": true
+      },
+      {
+        "check": "F.json exists",
+        "pass": true
+      },
+      {
+        "check": "G.json exists",
+        "pass": true
+      },
+      {
+        "check": "H.json exists",
+        "pass": true
+      },
+      {
+        "check": "I.json exists",
+        "pass": true
+      },
+      {
+        "check": "J.json exists",
+        "pass": true
+      },
+      {
+        "check": "K.json exists",
+        "pass": true
+      },
+      {
+        "check": "L.json exists",
+        "pass": true
+      },
+      {
+        "check": "M.json exists",
+        "pass": true
+      },
+      {
+        "check": "N.json exists",
+        "pass": true
+      },
+      {
+        "check": "O.json exists",
+        "pass": true
+      },
+      {
+        "check": "P.json exists",
+        "pass": true
+      },
+      {
+        "check": "Q.json exists",
+        "pass": true
+      },
+      {
+        "check": "R.json exists",
+        "pass": true
+      },
+      {
+        "check": "S.json exists",
+        "pass": true
+      },
+      {
+        "check": "T.json exists",
+        "pass": true
+      },
+      {
+        "check": "U.json exists",
+        "pass": true
+      },
+      {
+        "check": "V.json exists",
+        "pass": true
+      },
+      {
+        "check": "W.json exists",
+        "pass": true
+      },
+      {
+        "check": "X.json exists",
+        "pass": true
+      },
+      {
+        "check": "Y.json exists",
+        "pass": true
+      },
+      {
+        "check": "Z.json exists",
+        "pass": true
+      },
+      {
+        "check": "camellias.json count matches letter files",
+        "pass": true,
+        "detail": "letters=7797 camellias.json=7797"
+      },
+      {
+        "check": "index.json count matches",
+        "pass": true,
+        "detail": "index=7797 letters=7797"
+      }
+    ],
+    "consistency_pass": true
+  }
+]

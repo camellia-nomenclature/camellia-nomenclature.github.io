@@ -4807,6 +4807,23 @@
     "imageSource": "socal"
   },
   {
+    "name": "Atago",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Latest Illustrated Book of Japanese Camellias (Camellias of Japan) 2010, p.143 with colour photo; Small single, tubular to trumpet shape, white spots on purplish deep red ground. Leaves small, elliptic. Upright growth. Breeding unknown, released by Soshin Hirai, Kurume, Saitama Pref., Japan.",
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/T/2ea7b40a-4fde-4bf8-807a-8dd0de9316c0.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Atago",
+    "chinese_name": [
+      "爱宕"
+    ],
+    "japanese_name": [
+      "愛宕",
+      "あたご"
+    ]
+  },
+  {
     "name": "Athelyne",
     "species": "Japonica",
     "size": "Medium to large",

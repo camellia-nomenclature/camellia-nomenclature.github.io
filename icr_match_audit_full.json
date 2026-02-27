@@ -1,0 +1,944 @@
+[
+  {
+    "input_name": "超墨",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "超墨"
+    ]
+  },
+  {
+    "input_name": "仙种五宝",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "仙种五宝"
+    ]
+  },
+  {
+    "input_name": "仙种五宝 - 白仙",
+    "status": "no_match",
+    "candidates": [
+      {
+        "scientific_name": "白仙蒂",
+        "accepted_name": "Centifolia Alba",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Centifolia%20Alba",
+        "score": 0.4444
+      }
+    ],
+    "best_match": null,
+    "confidence": 0.4444,
+    "queries_tried": [
+      "仙种五宝 - 白仙",
+      "仙种五宝白仙",
+      "白仙",
+      "仙种五宝",
+      "仙种五宝-白仙"
+    ]
+  },
+  {
+    "input_name": "仙种五宝 - 黑仙",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "仙种五宝 - 黑仙",
+      "仙种五宝黑仙",
+      "黑仙",
+      "仙种五宝",
+      "仙种五宝-黑仙"
+    ]
+  },
+  {
+    "input_name": "仙种五宝-白仙",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "仙种五宝-白仙",
+      "仙种五宝白仙"
+    ]
+  },
+  {
+    "input_name": "伊予姬",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "伊予姬"
+    ]
+  },
+  {
+    "input_name": "信义黄彩",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "信义黄彩"
+    ]
+  },
+  {
+    "input_name": "凌波仙子",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "凌波仙子"
+    ]
+  },
+  {
+    "input_name": "凤尾蝶",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "凤尾蝶",
+        "accepted_name": "Navajo",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Navajo",
+        "score": 1.0
+      }
+    ],
+    "best_match": {
+      "scientific_name": "凤尾蝶",
+      "accepted_name": "Navajo",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Navajo"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "凤尾蝶"
+    ]
+  },
+  {
+    "input_name": "十八学士",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "白十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8889
+      },
+      {
+        "scientific_name": "粉十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8889
+      },
+      {
+        "scientific_name": "红十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8889
+      },
+      {
+        "scientific_name": "花十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8889
+      }
+    ],
+    "best_match": {
+      "scientific_name": "十八学士",
+      "accepted_name": "Shiba Xueshi",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "十八学士"
+    ]
+  },
+  {
+    "input_name": "十八学士 - 叶变",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8
+      },
+      {
+        "scientific_name": "白十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "粉十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "红十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "花十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      }
+    ],
+    "best_match": {
+      "scientific_name": "十八学士",
+      "accepted_name": "Shiba Xueshi",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi"
+    },
+    "confidence": 0.8,
+    "queries_tried": [
+      "十八学士 - 叶变",
+      "十八学士叶变",
+      "叶变",
+      "十八学士",
+      "十八学士-叶变"
+    ]
+  },
+  {
+    "input_name": "十八学士 - 金边",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.8
+      },
+      {
+        "scientific_name": "白十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "粉十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "红十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "花十八学士",
+        "accepted_name": "Shiba Xueshi",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi",
+        "score": 0.7273
+      },
+      {
+        "scientific_name": "金边牡丹",
+        "accepted_name": "Jinbian Mudan",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jinbian%20Mudan",
+        "score": 0.4
+      },
+      {
+        "scientific_name": "金边可娜",
+        "accepted_name": "Kona Benten",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kona%20Benten",
+        "score": 0.4
+      },
+      {
+        "scientific_name": "金边红露珍",
+        "accepted_name": "Jinbian Hongluzhen",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jinbian%20Hongluzhen",
+        "score": 0.3636
+      },
+      {
+        "scientific_name": "金边绿叶茶",
+        "accepted_name": "Jinbian LÜyecha",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jinbian%20L%C3%9Cyecha",
+        "score": 0.3636
+      }
+    ],
+    "best_match": {
+      "scientific_name": "十八学士",
+      "accepted_name": "Shiba Xueshi",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiba%20Xueshi"
+    },
+    "confidence": 0.8,
+    "queries_tried": [
+      "十八学士 - 金边",
+      "十八学士金边",
+      "金边",
+      "十八学士",
+      "十八学士-金边"
+    ]
+  },
+  {
+    "input_name": "唐子咲云龙",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "唐子咲云龙"
+    ]
+  },
+  {
+    "input_name": "墨川 - 超墨",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "墨川",
+        "accepted_name": "Mochuan",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan",
+        "score": 0.6667
+      }
+    ],
+    "best_match": {
+      "scientific_name": "墨川",
+      "accepted_name": "Mochuan",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan"
+    },
+    "confidence": 0.6667,
+    "queries_tried": [
+      "墨川 - 超墨",
+      "墨川超墨",
+      "超墨",
+      "墨川",
+      "墨川-超墨"
+    ]
+  },
+  {
+    "input_name": "复色粉红螺旋",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "复色粉红螺旋"
+    ]
+  },
+  {
+    "input_name": "复色紫金山",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "复色紫金山"
+    ]
+  },
+  {
+    "input_name": "大锦茶梅 彩叶",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "大锦茶梅 彩叶",
+      "大锦茶梅彩叶"
+    ]
+  },
+  {
+    "input_name": "姬侘助",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "姬侘助"
+    ]
+  },
+  {
+    "input_name": "婵",
+    "status": "ambiguous",
+    "candidates": [
+      {
+        "scientific_name": "雪婵",
+        "accepted_name": "Snow Chan",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Snow%20Chan",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "舍婵",
+        "accepted_name": "Shiro Chan",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shiro%20Chan",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "东方紫婵",
+        "accepted_name": "Dongfang Zichan",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dongfang%20Zichan",
+        "score": 0.4
+      }
+    ],
+    "best_match": {
+      "scientific_name": "雪婵",
+      "accepted_name": "Snow Chan",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Snow%20Chan"
+    },
+    "confidence": 0.6667,
+    "queries_tried": [
+      "婵"
+    ]
+  },
+  {
+    "input_name": "彩槟榔",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "彩槟榔"
+    ]
+  },
+  {
+    "input_name": "彩霞",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "彩霞",
+        "accepted_name": "Caixia",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caixia",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "彩霞",
+        "accepted_name": "Saika",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Saika",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "雪映彩霞",
+        "accepted_name": "Xueying Caixia",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Xueying%20Caixia",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "云海彩霞",
+        "accepted_name": "Yunhai Caixia",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yunhai%20Caixia",
+        "score": 0.6667
+      }
+    ],
+    "best_match": {
+      "scientific_name": "彩霞",
+      "accepted_name": "Caixia",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caixia"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "彩霞"
+    ]
+  },
+  {
+    "input_name": "抓破 - 嫦娥彩",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "嫦娥彩",
+        "accepted_name": "Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chang%27e%20Cai",
+        "score": 0.75
+      },
+      {
+        "scientific_name": "白嫦娥彩",
+        "accepted_name": "Bai Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bai%20Chang%27e%20Cai",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "粉嫦娥彩",
+        "accepted_name": "Fen Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fen%20Chang%27e%20Cai",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "红嫦娥彩",
+        "accepted_name": "Hong Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hong%20Chang%27e%20Cai",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "花嫦娥彩",
+        "accepted_name": "Hua Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hua%20Chang%27e%20Cai",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "卷瓣嫦娥彩",
+        "accepted_name": "Juanban Chang'e Cai",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Juanban%20Chang%27e%20Cai",
+        "score": 0.6
+      },
+      {
+        "scientific_name": "抓破脸",
+        "accepted_name": "Zhuapolian",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhuapolian",
+        "score": 0.5
+      }
+    ],
+    "best_match": {
+      "scientific_name": "嫦娥彩",
+      "accepted_name": "Chang'e Cai",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chang%27e%20Cai"
+    },
+    "confidence": 0.75,
+    "queries_tried": [
+      "抓破 - 嫦娥彩",
+      "抓破嫦娥彩",
+      "嫦娥彩",
+      "抓破",
+      "抓破-嫦娥彩"
+    ]
+  },
+  {
+    "input_name": "抓破 - 赤丹",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "赤丹",
+        "accepted_name": "Chidan",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chidan",
+        "score": 0.6667
+      },
+      {
+        "scientific_name": "抓破脸",
+        "accepted_name": "Zhuapolian",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhuapolian",
+        "score": 0.5714
+      }
+    ],
+    "best_match": {
+      "scientific_name": "赤丹",
+      "accepted_name": "Chidan",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chidan"
+    },
+    "confidence": 0.6667,
+    "queries_tried": [
+      "抓破 - 赤丹",
+      "抓破赤丹",
+      "赤丹",
+      "抓破",
+      "抓破-赤丹"
+    ]
+  },
+  {
+    "input_name": "无名",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "无名"
+    ]
+  },
+  {
+    "input_name": "春待姬",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "春待姬"
+    ]
+  },
+  {
+    "input_name": "极光",
+    "status": "fuzzy_match",
+    "candidates": [
+      {
+        "scientific_name": "北极光",
+        "accepted_name": "Bicentennary Joy",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bicentennary%20Joy",
+        "score": 0.8
+      }
+    ],
+    "best_match": {
+      "scientific_name": "北极光",
+      "accepted_name": "Bicentennary Joy",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bicentennary%20Joy"
+    },
+    "confidence": 0.8,
+    "queries_tried": [
+      "极光"
+    ]
+  },
+  {
+    "input_name": "柳叶赛牡丹",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "柳叶赛牡丹"
+    ]
+  },
+  {
+    "input_name": "桃花公主",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "桃花公主"
+    ]
+  },
+  {
+    "input_name": "楼兰王妃",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "楼兰王妃"
+    ]
+  },
+  {
+    "input_name": "粉红螺旋",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "粉红螺旋"
+    ]
+  },
+  {
+    "input_name": "粉霞",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "粉霞",
+        "accepted_name": "Fenxia",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenxia",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "粉霞朝晖",
+        "accepted_name": "Fenxia Zhaohui",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenxia%20Zhaohui",
+        "score": 0.6667
+      }
+    ],
+    "best_match": {
+      "scientific_name": "粉霞",
+      "accepted_name": "Fenxia",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fenxia"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "粉霞"
+    ]
+  },
+  {
+    "input_name": "紫琪",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "紫琪"
+    ]
+  },
+  {
+    "input_name": "紫螺旋",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "紫螺旋"
+    ]
+  },
+  {
+    "input_name": "紫螺旋 复色",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "紫螺旋 复色",
+      "紫螺旋复色"
+    ]
+  },
+  {
+    "input_name": "紫金山",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "紫金山"
+    ]
+  },
+  {
+    "input_name": "红胶仓 / 红屁屁",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "红胶仓 / 红屁屁",
+      "红胶仓红屁屁",
+      "红胶仓",
+      "红屁屁",
+      "红胶仓/红屁屁"
+    ]
+  },
+  {
+    "input_name": "至宝",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "至宝",
+        "accepted_name": "Shihō",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shih%C5%8D",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "玄至宝",
+        "accepted_name": "Genjiho",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Genjiho",
+        "score": 0.8
+      }
+    ],
+    "best_match": {
+      "scientific_name": "至宝",
+      "accepted_name": "Shihō",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shih%C5%8D"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "至宝"
+    ]
+  },
+  {
+    "input_name": "覆轮姬侘助",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "覆轮姬侘助"
+    ]
+  },
+  {
+    "input_name": "覆轮桃色丹",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "覆轮桃色丹"
+    ]
+  },
+  {
+    "input_name": "金玉满堂",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "金玉满堂",
+        "accepted_name": "Jinyu Mantang",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jinyu%20Mantang",
+        "score": 1.0
+      },
+      {
+        "scientific_name": "金玉满堂",
+        "accepted_name": "Golden Spangles",
+        "status": "Synonym",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Spangles",
+        "score": 1.0
+      }
+    ],
+    "best_match": {
+      "scientific_name": "金玉满堂",
+      "accepted_name": "Jinyu Mantang",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jinyu%20Mantang"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "金玉满堂"
+    ]
+  },
+  {
+    "input_name": "金边赛",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "金边赛"
+    ]
+  },
+  {
+    "input_name": "锦鲤",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "锦鲤"
+    ]
+  },
+  {
+    "input_name": "雪精灵",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "雪精灵"
+    ]
+  },
+  {
+    "input_name": "青叶黑贝",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "青叶黑贝"
+    ]
+  },
+  {
+    "input_name": "香荷茶梅",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "香荷茶梅"
+    ]
+  },
+  {
+    "input_name": "黑狮子金鱼",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "黑狮子金鱼"
+    ]
+  },
+  {
+    "input_name": "日天",
+    "status": "exact",
+    "candidates": [
+      {
+        "scientific_name": "日天",
+        "accepted_name": "Nitten",
+        "status": "Accepted",
+        "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nitten",
+        "score": 1.0
+      }
+    ],
+    "best_match": {
+      "scientific_name": "日天",
+      "accepted_name": "Nitten",
+      "icr_status": "Accepted",
+      "detail_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nitten"
+    },
+    "confidence": 1.0,
+    "queries_tried": [
+      "日天"
+    ]
+  },
+  {
+    "input_name": "紫八重咲云龙",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "紫八重咲云龙"
+    ]
+  },
+  {
+    "input_name": "小果连蕊茶",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "小果连蕊茶"
+    ]
+  },
+  {
+    "input_name": "黄妃",
+    "status": "no_match",
+    "candidates": [],
+    "best_match": null,
+    "confidence": 0.0,
+    "queries_tried": [
+      "黄妃"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+ICR Match Audit Summary  (50 names)
+==================================================
+
+[EXACT] (7)
+  凤尾蝶 -> 凤尾蝶 [Navajo] (Accepted)  conf=1.00
+  十八学士 -> 十八学士 [Shiba Xueshi] (Accepted)  conf=1.00
+  彩霞 -> 彩霞 [Caixia] (Accepted)  conf=1.00
+  粉霞 -> 粉霞 [Fenxia] (Accepted)  conf=1.00
+  至宝 -> 至宝 [Shihō] (Accepted)  conf=1.00
+  金玉满堂 -> 金玉满堂 [Jinyu Mantang] (Accepted)  conf=1.00
+  日天 -> 日天 [Nitten] (Accepted)  conf=1.00
+
+[FUZZY_MATCH] (6)
+  十八学士 - 叶变 -> 十八学士 [Shiba Xueshi] (Accepted)  conf=0.80
+  十八学士 - 金边 -> 十八学士 [Shiba Xueshi] (Accepted)  conf=0.80
+  墨川 - 超墨 -> 墨川 [Mochuan] (Accepted)  conf=0.67
+  抓破 - 嫦娥彩 -> 嫦娥彩 [Chang'e Cai] (Accepted)  conf=0.75
+  抓破 - 赤丹 -> 赤丹 [Chidan] (Accepted)  conf=0.67
+  极光 -> 北极光 [Bicentennary Joy] (Accepted)  conf=0.80
+
+[AMBIGUOUS] (1)
+  婵 -> 雪婵 [Snow Chan] (Accepted)  conf=0.67
+
+[NO_MATCH] (36)
+  超墨
+  仙种五宝
+  仙种五宝 - 白仙
+  仙种五宝 - 黑仙
+  仙种五宝-白仙
+  伊予姬
+  信义黄彩
+  凌波仙子
+  唐子咲云龙
+  复色粉红螺旋
+  复色紫金山
+  大锦茶梅 彩叶
+  姬侘助
+  彩槟榔
+  无名
+  春待姬
+  柳叶赛牡丹
+  桃花公主
+  楼兰王妃
+  粉红螺旋
+  紫琪
+  紫螺旋
+  紫螺旋 复色
+  紫金山
+  红胶仓 / 红屁屁
+  覆轮姬侘助
+  覆轮桃色丹
+  金边赛
+  锦鲤
+  雪精灵
+  青叶黑贝
+  香荷茶梅
+  黑狮子金鱼
+  紫八重咲云龙
+  小果连蕊茶
+  黄妃
+
+[ERROR] (0)

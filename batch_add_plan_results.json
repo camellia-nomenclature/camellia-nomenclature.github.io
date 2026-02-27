@@ -1,0 +1,137 @@
+[
+  {
+    "target": "Atago",
+    "resolved_name": "Atago",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Atago",
+    "action": "add",
+    "applied": true,
+    "species": "Japonica",
+    "status": "added"
+  },
+  {
+    "target": "Mochuan",
+    "resolved_name": "Mochuan",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mochuan",
+    "action": "add",
+    "applied": true,
+    "species": "Japonica",
+    "status": "added"
+  },
+  {
+    "target": "Toki-no-mai",
+    "resolved_name": "Toki-no-mai",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Toki-no-mai",
+    "action": "add",
+    "applied": true,
+    "species": "Japonica",
+    "status": "added"
+  },
+  {
+    "target": "Tomo-no-ura",
+    "resolved_name": "Tomo-no-ura",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-no-ura",
+    "action": "add",
+    "applied": true,
+    "species": "Japonica",
+    "status": "added"
+  },
+  {
+    "target": "https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke",
+    "resolved_name": "Sōshin-wabisuke",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=S%C5%8Dshin-wabisuke",
+    "action": "add",
+    "applied": true,
+    "species": "Japonica",
+    "status": "added"
+  },
+  {
+    "target": "Zangetsu",
+    "resolved_name": "Zangetsu",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zangetsu",
+    "action": "add",
+    "applied": true,
+    "species": "Hybrid",
+    "status": "added"
+  },
+  {
+    "target": "Hi-no-tsukasa",
+    "resolved_name": "Hi-no-tsukasa",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hi-no-tsukasa",
+    "action": "add",
+    "applied": true,
+    "species": "Sasanqua",
+    "status": "added"
+  },
+  {
+    "target": "Lucky Star Variegated",
+    "resolved_name": "Lucky Star Variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Star%20Variegated",
+    "action": "skip",
+    "applied": false,
+    "species": "NRH",
+    "status": "already_exists"
+  },
+  {
+    "target": "Tudor Baby Variegated",
+    "resolved_name": "Tudor Baby Variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tudor%20Baby%20Variegated",
+    "action": "skip",
+    "applied": false,
+    "species": "Japonica",
+    "status": "already_exists"
+  },
+  {
+    "target": "Shira ōgi",
+    "resolved_name": "Shira-Ogi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shira-Ogi",
+    "action": "skip",
+    "applied": false,
+    "species": "Japonica",
+    "status": "already_exists"
+  },
+  {
+    "target": "Mahoroba Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Madonna Variegated, Mathotiana Variegated, Adorable Variegated — none match target."
+  },
+  {
+    "target": "Takanini Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Wakanoura Variegated, Akebono Variegated, Amabilis Variegated — none match target."
+  },
+  {
+    "target": "Christmas Hat",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Christmas Day, Christmas Star, Christmas Eve — none match target."
+  },
+  {
+    "target": "Midnight Magic Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Midnight Variegated, Mima Mac Variegated, Bright Buoy Variegated — none match target."
+  },
+  {
+    "target": "Margaret Lesher Variegated",
+    "resolved_name": null,
+    "icr_url": null,
+    "action": "skip",
+    "applied": false,
+    "status": "unresolved",
+    "reason": "ICR page empty; no data extracted. ICR recommendations: Margaret Short Variegated, Margaret Wells Variegated, Margaret Hilford Variegated — none match target."
+  }
+]

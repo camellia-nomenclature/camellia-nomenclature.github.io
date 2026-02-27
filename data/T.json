@@ -2442,6 +2442,23 @@
     ]
   },
   {
+    "name": "Toki-no-mai",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Encyclopedia of Camellias in Colour, vol.II, 1978, pl.454, p.178, description, p.264: Medium size, full anemone form with one row of outer guard petals, transparent, white with red streaks and a full hemispherical centre of small, erect, com­pact, folded and twisted petals with no stamens visible. Leaves long-elliptic, keeled, thick, dark green, sometimes, apex tapered acuminate, margins irregularly and coarsely serrate, becoming obscure towards the petiole. Originated in Murakami City, Niigata Prefecture, Japan. Named and released by Tokuji Ōoka in 1973. See colour pl.: Seibundō Shinkōsha, 1980, Senchinshū, pp.105, 384, 385, Yokoyama &amp; Kirino, 1989, Nihon no Chinka. Sport: Kifukurin-toki-no-mai.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/00a3b7c1-0c31-4d9d-8a44-353d9545d9ec.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Toki-no-mai",
+    "chinese_name": [
+      "朱鹭舞"
+    ],
+    "japanese_name": [
+      "朱鷺の舞",
+      "ときのまい"
+    ]
+  },
+  {
     "name": "Tokiiro-Wabisuke",
     "species": "Wabisuke",
     "size": "",
@@ -2686,6 +2703,22 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-Chi-Chi",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Tomo-no-ura",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Latest Illustrated Book of Japanese Camellias, (Camellias of Japan), 2010, p.169 with colour photo; Large semi-double, deep red widely bordered white. Flowers mid-season to late. Leaves ovate, medium size. Upright growth with excellent branching. Selected by Tomo’o Ebata from seedlings of unknown parentage. Named by Tora Ebata, released by Soshin Hirai in 2005. From Saitama Pref., Japan.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/715dc9cb-2182-48e2-bb06-b2473e4370e7.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tomo-no-ura",
+    "chinese_name": [
+      "友浦"
+    ],
+    "japanese_name": [
+      "友の浦"
+    ]
   },
   {
     "name": "Tomorrow",
