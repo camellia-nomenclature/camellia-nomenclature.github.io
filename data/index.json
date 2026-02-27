@@ -44351,6 +44351,17 @@
     "japanese_name": []
   },
   {
+    "name": "Senbazuru",
+    "species": "Rusticana",
+    "chinese_name": [
+      "千羽鹤"
+    ],
+    "japanese_name": [
+      "千羽鶴",
+      "せんばずる"
+    ]
+  },
+  {
     "name": "Senorita",
     "species": "NRH",
     "chinese_name": [],

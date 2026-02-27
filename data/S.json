@@ -2016,6 +2016,23 @@
     "imageSource": "socal"
   },
   {
+    "name": "Senbazuru",
+    "species": "Rusticana",
+    "size": "Small",
+    "description": "JCS., Jan. 1973, Tsubaki, No. 12, colour photo No.7, p.3, description, p.10: Small, 5-6 cm across, light to dark red, irregular, open peony to semi-double. Outer petals, about 10, oblong, emarginate, are in two rows. In the centre from a short stamen cluster of about 30 to a mixture of stamens, petaloids and small, erect petals, twisted and folded in various degrees, filaments yellow. Leaves dull green, ovate-elliptic, apex acute, margins sharply, shallowly serrate; petioles 7-8 mm long hirsute. Flowers early to mid-season. The tree is low growing and compact; heavy flowering. Originated in Yamamoto, Ojiya City, Niigata Prefecture, Japan. Collected by Susumu Ishizawa, named and released by Kaoru Hagiya in 1973. See: Seibundō Shinkōsha, 1980, Senchinshū, p.84, colour photo. Resembles Aiaigasa, but smaller in size and paler in colour.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/08757b73-9580-4c35-9a2f-b155446e9044.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Senbazuru",
+    "chinese_name": [
+      "千羽鹤"
+    ],
+    "japanese_name": [
+      "千羽鶴",
+      "せんばずる"
+    ]
+  },
+  {
     "name": "Senorita",
     "species": "NRH",
     "size": "Medium",
