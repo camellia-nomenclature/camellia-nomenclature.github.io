@@ -1,0 +1,2474 @@
+[
+  {
+    "input_name": "Ai-no-izumi",
+    "normalized": "ai-no-izumi",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ai-No-Izumi",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Aka-kamo-honnami",
+    "normalized": "aka-kamo-honnami",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kamo-Hon-Ami",
+    "similarity_score": 78,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Akebono",
+    "normalized": "akebono",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Akebono",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Amplexiaulis White",
+    "normalized": "amplexiaulis white",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Campanulata White",
+    "similarity_score": 68,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Amplexicaulis A",
+    "normalized": "amplexicaulis a",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Mexicali Rose",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Ann Clayton",
+    "normalized": "ann clayton",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ann Clayton",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Anticipation Var",
+    "normalized": "anticipation var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Anticipation",
+    "similarity_score": 85,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Aoi-sangoshō",
+    "normalized": "aoi-sangoshō",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Joni Sans",
+    "similarity_score": 57,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Asagao",
+    "normalized": "asagao",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Asagao",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Asahi no minato",
+    "normalized": "asahi no minato",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fashionata",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Ashton's Shooting Star",
+    "normalized": "ashton's shooting star",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ashton's Shooting Star",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Astro Nova",
+    "normalized": "astro nova",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Astro Nova",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Atago",
+    "normalized": "atago",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tango",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Awajishima",
+    "normalized": "awajishima",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Arajishi",
+    "similarity_score": 77,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Ay Ay Ay",
+    "normalized": "ay ay ay",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ay-Ay-Ay!",
+    "similarity_score": 70,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Baby Sis Blush",
+    "normalized": "baby sis blush",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Baby Sis Blush",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Barbara Woodroff",
+    "normalized": "barbara woodroff",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Barbara Woodroof",
+    "similarity_score": 93,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Bella Jinhua",
+    "normalized": "bella jinhua",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Bella Jinhua",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Benten-kagura",
+    "normalized": "benten-kagura",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Benten-Kagura",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Betsy",
+    "normalized": "betsy",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Betsy",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Betty foy sanders",
+    "normalized": "betty foy sanders",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Betty Foy Sanders",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Betty Lewis Red",
+    "normalized": "betty lewis red",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Betty Theisen",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Biyu",
+    "normalized": "biyu",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kiyosu",
+    "similarity_score": 60,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Black Magic",
+    "normalized": "black magic",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Black Magic",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Black Opal",
+    "normalized": "black opal",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Black Opal",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Blush purity",
+    "normalized": "blush purity",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Blush Purity",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Botanyuki",
+    "normalized": "botanyuki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Botan-Yuki",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Brushfield's Yellow",
+    "normalized": "brushfield's yellow",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Brushfield's Yellow",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "C.perpetua",
+    "normalized": "c.perpetua",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Pearl's Pet",
+    "similarity_score": 57,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Cabernet",
+    "normalized": "cabernet",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Cabernet",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Caihuang",
+    "normalized": "caihuang",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Capitan",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Camellia parviovata",
+    "normalized": "camellia parviovata",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Camellia City",
+    "similarity_score": 68,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Camellia perpetua S. Y",
+    "normalized": "camellia perpetua s. y",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Camellia City",
+    "similarity_score": 62,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Campari",
+    "normalized": "campari",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Campari",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Can Can",
+    "normalized": "can can",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Can Can",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Candy Cane",
+    "normalized": "candy cane",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Candy Cane",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Cardinal's Cap",
+    "normalized": "cardinal's cap",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Cardinal's Cap",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Carol Ann",
+    "normalized": "carol ann",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Carol Ann",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Cherries Jubilee",
+    "normalized": "cherries jubilee",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Cherries Jubilee",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Chidan",
+    "normalized": "chidan",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sheridan",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Chiyoda-nishiki",
+    "normalized": "chiyoda-nishiki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Choyo-No-Nishiki",
+    "similarity_score": 77,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Chōjiguruma",
+    "normalized": "chōjiguruma",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Choji Guruma",
+    "similarity_score": 86,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Chris Bergamini",
+    "normalized": "chris bergamini",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Chris Bergamini",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Christmas hat",
+    "normalized": "christmas hat",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Christmas Day",
+    "similarity_score": 84,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Cile Mitchell",
+    "normalized": "cile mitchell",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Cile Mitchell",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Circus",
+    "normalized": "circus",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Circus",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Confetti Blush",
+    "normalized": "confetti blush",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Confetti Blush",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Contemplation",
+    "normalized": "contemplation",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Contemplation",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Cupcake",
+    "normalized": "cupcake",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Cupcake",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Dahlohnega",
+    "normalized": "dahlohnega",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Dahlohnega",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Daikanhō",
+    "normalized": "daikanhō",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Daikagura",
+    "similarity_score": 58,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Dancing Blaze",
+    "normalized": "dancing blaze",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Dancing Blaze",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Demi-Tasse",
+    "normalized": "demi-tasse",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Demi-Tasse",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Dewatairin (Higo)",
+    "normalized": "dewatairin (higo)",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Dewatairin",
+    "similarity_score": 74,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Donald Dean",
+    "normalized": "donald dean",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Al Ewan",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Dragon fireball / Longhuozhu",
+    "normalized": "dragon fireball / longhuozhu",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Dragon Fireball",
+    "similarity_score": 69,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Dream Boat",
+    "normalized": "dream boat",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Dream Boat",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "E. G. Waterhouse",
+    "normalized": "e. g. waterhouse",
+    "exact_match": true,
+    "best_fuzzy_candidate": "E. G. Waterhouse",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "E. G. Waterhouse Var",
+    "normalized": "e. g. waterhouse var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "E. G. Waterhouse",
+    "similarity_score": 88,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Edithae",
+    "normalized": "edithae",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Edith Mazzei",
+    "similarity_score": 73,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Elaine Betty",
+    "normalized": "elaine betty",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Elaine's Betty",
+    "similarity_score": 92,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Elaine Betty Red",
+    "normalized": "elaine betty red",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Elaine's Betty Red",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Elegans Champagne",
+    "normalized": "elegans champagne",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Elegans Champagne",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Elegans Splendor",
+    "normalized": "elegans splendor",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Elegans Splendor",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Elegans Supreme",
+    "normalized": "elegans supreme",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Elegans Supreme",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Elizabeth Down Silver",
+    "normalized": "elizabeth down silver",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Elizabeth Dowd Silver",
+    "similarity_score": 95,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Ellen Daniel",
+    "normalized": "ellen daniel",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ellen Daniel",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Erhai Zhenzhu",
+    "normalized": "erhai zhenzhu",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Erhai Zhenzu",
+    "similarity_score": 96,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Etenraku",
+    "normalized": "etenraku",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tenju",
+    "similarity_score": 61,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Feathery Touch",
+    "normalized": "feathery touch",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Feathery Touch",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ferris Wheel",
+    "normalized": "ferris wheel",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ferris Wheel",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Finlandia Variegated",
+    "normalized": "finlandia variegated",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Finlandia Variegated",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Fircone Var",
+    "normalized": "fircone var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fircone",
+    "similarity_score": 77,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Firedance Var",
+    "normalized": "firedance var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fire Dance",
+    "similarity_score": 78,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Freckles",
+    "normalized": "freckles",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Freckles",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Frimbriatta",
+    "normalized": "frimbriatta",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fimbriata",
+    "similarity_score": 90,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Fubuki-shiratama",
+    "normalized": "fubuki-shiratama",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Yuki-Shiro",
+    "similarity_score": 61,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Fujimusume",
+    "normalized": "fujimusume",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fuji",
+    "similarity_score": 57,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Fukiage-shibori",
+    "normalized": "fukiage-shibori",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Iwane-Shibori",
+    "similarity_score": 78,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Fukurin-wabisuke",
+    "normalized": "fukurin-wabisuke",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fukurin Wabisuke",
+    "similarity_score": 93,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Galaxie",
+    "normalized": "galaxie",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Galaxie",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Goshozakura",
+    "normalized": "goshozakura",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Gosho-Zakura",
+    "similarity_score": 95,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Grand Prix",
+    "normalized": "grand prix",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Grand Prix",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Grand Tinsie",
+    "normalized": "grand tinsie",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Grand Finale",
+    "similarity_score": 75,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Grape Soda",
+    "normalized": "grape soda",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Grape Soda",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Gypsy Girl",
+    "normalized": "gypsy girl",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Gypsy Rose",
+    "similarity_score": 70,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Hakusen",
+    "normalized": "hakusen",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Haku-Rakuten",
+    "similarity_score": 63,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Hana-akari",
+    "normalized": "hana-akari",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Hana-Fuki",
+    "similarity_score": 73,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Happy Birthday",
+    "normalized": "happy birthday",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Happy Birthday",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Happy Harlequin",
+    "normalized": "happy harlequin",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Happy Harlequin",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Haru-no-utena",
+    "normalized": "haru-no-utena",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Haru-No-Utena",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Hawaii",
+    "normalized": "hawaii",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Hawaii",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Herme",
+    "normalized": "herme",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Herme",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Hi-no-maru",
+    "normalized": "hi-no-maru",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Hi-No-Maru",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Hi-no-tsukasa",
+    "normalized": "hi-no-tsukasa",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shin-Tsukasa",
+    "similarity_score": 88,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Hime no ka",
+    "normalized": "hime no ka",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Hide 'n Seek",
+    "similarity_score": 63,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Himuro-setsugekka",
+    "normalized": "himuro-setsugekka",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Setsugekka",
+    "similarity_score": 74,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Hinomaru",
+    "normalized": "hinomaru",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Hi-No-Maru",
+    "similarity_score": 88,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Hishikaraito",
+    "normalized": "hishikaraito",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Hishi-Karaito",
+    "similarity_score": 96,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Hiten",
+    "normalized": "hiten",
+    "exact_match": false,
+    "best_fuzzy_candidate": "White Nun",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "House of Horus",
+    "normalized": "house of horus",
+    "exact_match": false,
+    "best_fuzzy_candidate": "House Of Gold",
+    "similarity_score": 74,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Huabaozhu",
+    "normalized": "huabaozhu",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Huanghainan Baozhu",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Huaheling",
+    "normalized": "huaheling",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Heraldings",
+    "similarity_score": 63,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Huanghainan Baozhu",
+    "normalized": "huanghainan baozhu",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Huanghainan Baozhu",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Hulyn Smith",
+    "normalized": "hulyn smith",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Hulyn Smith",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ichiraku",
+    "normalized": "ichiraku",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ichiraku",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ikutoshitsuki",
+    "normalized": "ikutoshitsuki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kuro-Tsubaki",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Island Sunset",
+    "normalized": "island sunset",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Island Sunset",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Iwane",
+    "normalized": "iwane",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Iwane",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Iwane-shibori",
+    "normalized": "iwane-shibori",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Iwane-Shibori",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Jerry Donna",
+    "normalized": "jerry donna",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Jerry Donnan",
+    "similarity_score": 95,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Jinpan Lizhi",
+    "normalized": "jinpan lizhi",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Jane Polizzi",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Jitsugetsusei",
+    "normalized": "jitsugetsusei",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Jitsu-Getsu-Sei",
+    "similarity_score": 92,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Joan L",
+    "normalized": "joan l",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Joan L",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Joe Nuccio",
+    "normalized": "joe nuccio",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Joe Nuccio",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Joy Kendrick",
+    "normalized": "joy kendrick",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Joy Kendrick",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Julius Nuccio",
+    "normalized": "julius nuccio",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Julius Nuccio",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kakure-iso",
+    "normalized": "kakure-iso",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kakure-Iso",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kaleidoscope",
+    "normalized": "kaleidoscope",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kaleidoscope",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kamo-honnami",
+    "normalized": "kamo-honnami",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kamo-Hon-Ami",
+    "similarity_score": 91,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Kasenzan",
+    "normalized": "kasenzan",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kalarena",
+    "similarity_score": 62,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Kasuga yama",
+    "normalized": "kasuga yama",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kasuga-Yama",
+    "similarity_score": 90,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Kay Berridge",
+    "normalized": "kay berridge",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kay Berridge",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ki-no-gozen",
+    "normalized": "ki-no-gozen",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ki-No-Gozen",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ki-no-joman",
+    "normalized": "ki-no-joman",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ki-No-Gozen",
+    "similarity_score": 72,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Ki-renge",
+    "normalized": "ki-renge",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Irene",
+    "similarity_score": 76,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Kiho",
+    "normalized": "kiho",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kiho",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "King's Cup",
+    "normalized": "king's cup",
+    "exact_match": true,
+    "best_fuzzy_candidate": "King's Cup",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kogane Nishiki",
+    "normalized": "kogane nishiki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kogane Nishiki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kokinran",
+    "normalized": "kokinran",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kiandra",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Kona",
+    "normalized": "kona",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kona",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kramer's Supreme",
+    "normalized": "kramer's supreme",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kramer's Supreme",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kujaku-tsubaki",
+    "normalized": "kujaku-tsubaki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kujaku-Tsubaki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kumagai",
+    "normalized": "kumagai",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kumagai",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kuni-no-hikari",
+    "normalized": "kuni-no-hikari",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kuni-No-Hikari",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kuro-tsubaki",
+    "normalized": "kuro-tsubaki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Kuro-Tsubaki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Kurume-kingyo",
+    "normalized": "kurume-kingyo",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kakure-Iso",
+    "similarity_score": 60,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Kyō-nishiki",
+    "normalized": "kyō-nishiki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kyo-Nishiki",
+    "similarity_score": 90,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Lake Erhai Pearl",
+    "normalized": "lake erhai pearl",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Lake Erhai Pearl",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Les Marbury",
+    "normalized": "les marbury",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Les Marbury",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Lipstick",
+    "normalized": "lipstick",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Lipstick",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Little Lavender",
+    "normalized": "little lavender",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Little Lavender",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Little Michael",
+    "normalized": "little michael",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Little Michael",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Little Pearl",
+    "normalized": "little pearl",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Little Pearl",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Lixiangde Yü",
+    "normalized": "lixiangde yü",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Lillian Gordy",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Loki Schmidt",
+    "normalized": "loki schmidt",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Lori Smith",
+    "similarity_score": 72,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Look Again",
+    "normalized": "look again",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Look Again",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Louise Fitzgarald",
+    "normalized": "louise fitzgarald",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Louise Fitzgerald",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Lucky Star",
+    "normalized": "lucky star",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Lucky Star",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Lucky Star Var",
+    "normalized": "lucky star var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Lucky Star",
+    "similarity_score": 83,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Madge Rouge",
+    "normalized": "madge rouge",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Madge Rouse",
+    "similarity_score": 90,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Magalhaes Var",
+    "normalized": "magalhaes var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Magalhaes Variegated",
+    "similarity_score": 78,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Magnoliaflora",
+    "normalized": "magnoliaflora",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Magnoliaeflora",
+    "similarity_score": 96,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Mahoroba",
+    "normalized": "mahoroba",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Mahoroba",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Mahoroba Var",
+    "normalized": "mahoroba var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Mahoroba",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Mangetsu",
+    "normalized": "mangetsu",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Mangetsu",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Manuroa Road",
+    "normalized": "manuroa road",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Manuroa Road",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Marchioness of Salsbury",
+    "normalized": "marchioness of salsbury",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Marchioness Of Salisbury",
+    "similarity_score": 97,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Margaret Davis",
+    "normalized": "margaret davis",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Margaret Davis",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Margaret Lesher Var",
+    "normalized": "margaret lesher var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Margaret Lesher",
+    "similarity_score": 88,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Maroon and Gold",
+    "normalized": "maroon and gold",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Maroon And Gold",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Mary Edna Curlee",
+    "normalized": "mary edna curlee",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Mary Edna Curlee",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Maui",
+    "normalized": "maui",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Maui",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Meredith Green",
+    "normalized": "meredith green",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Meredith Green",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Midnight Magic Var",
+    "normalized": "midnight magic var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Midnight Magic",
+    "similarity_score": 87,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Midnight Variegated",
+    "normalized": "midnight variegated",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Midnight Variegated",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Mikuni-no-homare",
+    "normalized": "mikuni-no-homare",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Mikuni-No-Homare",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Milinda",
+    "normalized": "milinda",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Milinda",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Mini Mint",
+    "normalized": "mini mint",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Mini Mint",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Miyako-no-haru",
+    "normalized": "miyako-no-haru",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Miyako-No-Haru",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Miyakodori",
+    "normalized": "miyakodori",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Miyako-No-Haru",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Mochuan",
+    "normalized": "mochuan",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Mouchang",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Momotarō",
+    "normalized": "momotarō",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Moore",
+    "similarity_score": 61,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Moonlight Bay",
+    "normalized": "moonlight bay",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Moonlight Bay",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Moonrise",
+    "normalized": "moonrise",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Moonrise",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Moonstruck",
+    "normalized": "moonstruck",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Moonstruck",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Mrs D. W. Davis Descanso",
+    "normalized": "mrs d. w. davis descanso",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Mrs. D. W. Davis Descanso",
+    "similarity_score": 97,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Nakoi-no-haru",
+    "normalized": "nakoi-no-haru",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Miyako-No-Haru",
+    "similarity_score": 81,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Nanban Koh",
+    "normalized": "nanban koh",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nanban-Koh",
+    "similarity_score": 90,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Nanpū",
+    "normalized": "nanpū",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nancy",
+    "similarity_score": 60,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Nanshan Purple Jade",
+    "normalized": "nanshan purple jade",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Nanshan Purple Jade",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Nicky Crisp",
+    "normalized": "nicky crisp",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Nicky Crisp",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Night Rider",
+    "normalized": "night rider",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Night Rider",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Nioi-fubuki",
+    "normalized": "nioi-fubuki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nioi Fukurin",
+    "similarity_score": 69,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Nitidissima",
+    "normalized": "nitidissima",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Candidissima",
+    "similarity_score": 78,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Nitten",
+    "normalized": "nitten",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Little 'Un",
+    "similarity_score": 62,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "No Koensis/ nokoensis",
+    "normalized": "no koensis/ nokoensis",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Governor Kennon",
+    "similarity_score": 50,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Nuccio Jewel",
+    "normalized": "nuccio jewel",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nuccio's Jewel",
+    "similarity_score": 92,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Nuccio's Bella Rossa Crinkled",
+    "normalized": "nuccio's bella rossa crinkled",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Nuccio's Bella Rossa Crinkled",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Nuccio's Cameo Var",
+    "normalized": "nuccio's cameo var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nuccio's Cameo",
+    "similarity_score": 87,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Nuccio's Carousel",
+    "normalized": "nuccio's carousel",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Nuccio's Carousel",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Nuccio's Pink Lace",
+    "normalized": "nuccio's pink lace",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Nuccio's Pink Lace",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ohkan",
+    "normalized": "ohkan",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ohkan",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Oo la la",
+    "normalized": "oo la la",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Oo-La-La!",
+    "similarity_score": 70,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Optical Illusion",
+    "normalized": "optical illusion",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Optical Illusion",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Orchid Beauty",
+    "normalized": "orchid beauty",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Orchid Beauty",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Osaraku",
+    "normalized": "osaraku",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Osaraku",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Otohime",
+    "normalized": "otohime",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Otohime",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ozeki",
+    "normalized": "ozeki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ozeki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Panaché de Gaujacq",
+    "normalized": "panaché de gaujacq",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Blanche Graham",
+    "similarity_score": 56,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Park Leo",
+    "normalized": "park leo",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sparkler",
+    "similarity_score": 75,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Party Popper",
+    "normalized": "party popper",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Party Poppers",
+    "similarity_score": 96,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Peter Pan",
+    "normalized": "peter pan",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Peter Pan",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Pitardii",
+    "normalized": "pitardii",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Isaribi",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Pitardii yunnanica",
+    "normalized": "pitardii yunnanica",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Paradise Donna",
+    "similarity_score": 56,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Plugged in Purple",
+    "normalized": "plugged in purple",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Plugged-In Purple",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Princess Masako",
+    "normalized": "princess masako",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Princess Masako",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Queen Diana",
+    "normalized": "queen diana",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Queen Diana",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Ramona",
+    "normalized": "ramona",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ramona",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Rasenzome",
+    "normalized": "rasenzome",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Rasen-Zome",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Raspberry Ice",
+    "normalized": "raspberry ice",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Raspberry Ice",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Red Devil",
+    "normalized": "red devil",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Red Devil",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Red Devil Var",
+    "normalized": "red devil var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Red Devil",
+    "similarity_score": 81,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Red Hots",
+    "normalized": "red hots",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Red Hots",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Rokkasen",
+    "normalized": "rokkasen",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Rokukasen",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Rōranka",
+    "normalized": "rōranka",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ramona",
+    "similarity_score": 61,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Royal Velvet Var",
+    "normalized": "royal velvet var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Royal Velvet",
+    "similarity_score": 85,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Rudy's Magnoliiflora",
+    "normalized": "rudy's magnoliiflora",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Rudy's Magnoliaeflora",
+    "similarity_score": 92,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Sado-benifukurin",
+    "normalized": "sado-benifukurin",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Nioi Fukurin",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Sajin Baozhu",
+    "normalized": "sajin baozhu",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Sajin Baozhu",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Sakura-tsukasa",
+    "normalized": "sakura-tsukasa",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kishu-Tsukasa",
+    "similarity_score": 74,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Sanpei-tsubaki",
+    "normalized": "sanpei-tsubaki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kan-Tsubaki",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Sawada's Mahogany",
+    "normalized": "sawada's mahogany",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Sawada's Mahogany",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Scented Gem",
+    "normalized": "scented gem",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Scented Gem",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Scented Sun",
+    "normalized": "scented sun",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Scented Sun",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Secchū-no-ka？",
+    "normalized": "secchū-no-ka？",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Showa-No-Sakae",
+    "similarity_score": 59,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Seigen-sakurahime",
+    "normalized": "seigen-sakurahime",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sode-Gakushi",
+    "similarity_score": 55,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Seiōbo",
+    "normalized": "seiōbo",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Seiso",
+    "similarity_score": 72,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Senritsu-ko",
+    "normalized": "senritsu-ko",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Senritsu-Ko",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Shelter Cove",
+    "normalized": "shelter cove",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Shelter Cove",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Shibori-Egao Corkscrew",
+    "normalized": "shibori-egao corkscrew",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Wirlinga Cascade",
+    "similarity_score": 52,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shibori-kingyo-tsubaki",
+    "normalized": "shibori-kingyo-tsubaki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kingyo-Tsubaki",
+    "similarity_score": 77,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shintsukasa-nishiki",
+    "normalized": "shintsukasa-nishiki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shin-Tsukasa-Nishiki",
+    "similarity_score": 97,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Shira ōgi",
+    "normalized": "shira ōgi",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shira Sagi",
+    "similarity_score": 84,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Shiranui",
+    "normalized": "shiranui",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shira Yuki",
+    "similarity_score": 77,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shirayuki",
+    "normalized": "shirayuki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shira Yuki",
+    "similarity_score": 94,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Shirobokuhan",
+    "normalized": "shirobokuhan",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Momoiro Bokuhan",
+    "similarity_score": 74,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shirobotanzaki-kingyoba-tsubaki",
+    "normalized": "shirobotanzaki-kingyoba-tsubaki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kingyo-Tsubaki",
+    "similarity_score": 62,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shizukiyama",
+    "normalized": "shizukiyama",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sukiya",
+    "similarity_score": 70,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shōkaen",
+    "normalized": "shōkaen",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ohkan",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shooting star",
+    "normalized": "shooting star",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Shooting Star",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Shōwa-nishiki",
+    "normalized": "shōwa-nishiki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Kara-Nishiki",
+    "similarity_score": 72,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Shōwa-no-hikari",
+    "normalized": "shōwa-no-hikari",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Showa-No-Hikari",
+    "similarity_score": 93,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Shunpū",
+    "normalized": "shunpū",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Shunpū",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Shūran",
+    "normalized": "shūran",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sheridan",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Sir Robert Mudoon",
+    "normalized": "sir robert mudoon",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sir Robert Muldoon",
+    "similarity_score": 97,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Something Beautiful",
+    "normalized": "something beautiful",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Something Beautiful",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Sōshin-wabisuke",
+    "normalized": "sōshin-wabisuke",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Shiro-Wabisuke",
+    "similarity_score": 82,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Splash of Pink",
+    "normalized": "splash of pink",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Splash Of Pink",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Spring Daze",
+    "normalized": "spring daze",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Spring Daze",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Stained Glass",
+    "normalized": "stained glass",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sporting Class",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Stop!",
+    "normalized": "stop!",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Stop!",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Sugar Dream",
+    "normalized": "sugar dream",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Sugar Dream",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Sukiya-unryū",
+    "normalized": "sukiya-unryū",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sukiya",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Sunny Side",
+    "normalized": "sunny side",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Sunny Side",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Sunnyvale Circus",
+    "normalized": "sunnyvale circus",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Sunnyvale Carnival",
+    "similarity_score": 70,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Surusumi",
+    "normalized": "surusumi",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Surusumi",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Takanini",
+    "normalized": "takanini",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Takanini",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Takanini Var",
+    "normalized": "takanini var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Takanini",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Tama Carousel",
+    "normalized": "tama carousel",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tama Carousel",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tama Grande",
+    "normalized": "tama grande",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fiesta Grande",
+    "similarity_score": 75,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tama Pecock",
+    "normalized": "tama pecock",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tama Peacock",
+    "similarity_score": 95,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Tama Pecock Var",
+    "normalized": "tama pecock var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tama Peacock",
+    "similarity_score": 81,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Tama Pinwheel",
+    "normalized": "tama pinwheel",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Pinwheel",
+    "similarity_score": 76,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tama Velvet",
+    "normalized": "tama velvet",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tama Velvet",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tama Vino",
+    "normalized": "tama vino",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tama Vino",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tama-ikari",
+    "normalized": "tama-ikari",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tama-Ikari",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tama-no-ura",
+    "normalized": "tama-no-ura",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tama-No-Ura",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tamagasumi",
+    "normalized": "tamagasumi",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tamagasumi",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tancho",
+    "normalized": "tancho",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tancho",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tarō'an",
+    "normalized": "tarō'an",
+    "exact_match": false,
+    "best_fuzzy_candidate": "T'Ang",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tenjū",
+    "normalized": "tenjū",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tenju",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Tenuivalvis",
+    "normalized": "tenuivalvis",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Centennial",
+    "similarity_score": 57,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tinker Bell",
+    "normalized": "tinker bell",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tinker Bell",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tinsie",
+    "normalized": "tinsie",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tinsie",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Tiptoe",
+    "normalized": "tiptoe",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Tiptoe",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Toichi Domoto",
+    "normalized": "toichi domoto",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Toichi Domoto",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Toki-no-mai",
+    "normalized": "toki-no-mai",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Oki-No-Nami",
+    "similarity_score": 81,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Tomo-no-ura",
+    "normalized": "tomo-no-ura",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tama-No-Ura",
+    "similarity_score": 81,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Tomo-no-ura Var",
+    "normalized": "tomo-no-ura var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tama-No-Ura",
+    "similarity_score": 69,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tsubame-gaeshi",
+    "normalized": "tsubame-gaeshi",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Itsukamachi",
+    "similarity_score": 64,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tsugawa-shibori",
+    "normalized": "tsugawa-shibori",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Iwane-Shibori",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tsuki-no-wa",
+    "normalized": "tsuki-no-wa",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Akatsuki-No-Kaori",
+    "similarity_score": 71,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tsukimi-no-en",
+    "normalized": "tsukimi-no-en",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ki-No-Gozen",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tsushima-no-musume",
+    "normalized": "tsushima-no-musume",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Hi-No-Maru",
+    "similarity_score": 57,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Tudor Baby Var",
+    "normalized": "tudor baby var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tudor Baby",
+    "similarity_score": 83,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Umegaki",
+    "normalized": "umegaki",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Ume-Gaki",
+    "similarity_score": 93,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Unforgettable",
+    "normalized": "unforgettable",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Unforgettable",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Valentine Day Var",
+    "normalized": "valentine day var",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Valentine Day",
+    "similarity_score": 86,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Vestito Rossa",
+    "normalized": "vestito rossa",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Vestito Rosso",
+    "similarity_score": 92,
+    "bucket": "high_confidence"
+  },
+  {
+    "input_name": "Ville de Nantes",
+    "normalized": "ville de nantes",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Ville De Nantes",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Virginia Robinson",
+    "normalized": "virginia robinson",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Virginia Robinson",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Volunteer",
+    "normalized": "volunteer",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Volunteer",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Wakamurasaki",
+    "normalized": "wakamurasaki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Wakamurasaki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Whoopee",
+    "normalized": "whoopee",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Whoopee",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Wuse Furong",
+    "normalized": "wuse furong",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Jinrui Furong",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Xinzi",
+    "normalized": "xinzi",
+    "exact_match": false,
+    "best_fuzzy_candidate": "India",
+    "similarity_score": 60,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Xuejiao",
+    "normalized": "xuejiao",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Fenejiao",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Yamato-nishiki",
+    "normalized": "yamato-nishiki",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Yamato-Nishiki",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Yellow and Purple",
+    "normalized": "yellow and purple",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Yellow And Purple",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Yilanjiao",
+    "normalized": "yilanjiao",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Finlandia",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Yours Truly",
+    "normalized": "yours truly",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Yours Truly",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Yuki Geshik",
+    "normalized": "yuki geshik",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Yuki-Geshiki",
+    "similarity_score": 86,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Yume",
+    "normalized": "yume",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Yumeji",
+    "similarity_score": 80,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Yupan Jinhua",
+    "normalized": "yupan jinhua",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Yupan Jinhua",
+    "similarity_score": 100,
+    "bucket": "exact"
+  },
+  {
+    "input_name": "Yuri-shibori",
+    "normalized": "yuri-shibori",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Iwane-Shibori",
+    "similarity_score": 72,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Yutianshi",
+    "normalized": "yutianshi",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Tinsie",
+    "similarity_score": 66,
+    "bucket": "missing"
+  },
+  {
+    "input_name": "Zangetsu",
+    "normalized": "zangetsu",
+    "exact_match": false,
+    "best_fuzzy_candidate": "Mangetsu",
+    "similarity_score": 87,
+    "bucket": "possible"
+  },
+  {
+    "input_name": "Zelma Crockett",
+    "normalized": "zelma crockett",
+    "exact_match": true,
+    "best_fuzzy_candidate": "Zelma Crockett",
+    "similarity_score": 100,
+    "bucket": "exact"
+  }
+]

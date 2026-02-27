@@ -241,11 +241,17 @@
     "species": "Japonica",
     "size": "Large",
     "description": "('Hon-Ami', 'Sotan'). White. Large, single. E-M. (Similar to 'Amabilis'). (Japan 1935 - Chugai).",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2021/4/26/S/7a190eec-436e-4117-aef6-a7db2700894c.JPG",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kamo-hon-ami",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kamo-Hon-Ami",
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kamo-honnami",
+    "chinese_name": [
+      "加茂本阿弥"
+    ],
+    "japanese_name": [
+      "加茂本阿弥",
+      "かもほんなみ"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Kan-Tsubaki",
@@ -424,12 +430,17 @@
     "species": "Rusticana",
     "size": "Small",
     "description": "Red blotched White. Small, irregular semidouble.",
-    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/5e6286a7-423b-40d9-8be1-81769a5c353f.jpg",
+    "image": "https://file1.iflora.cn/Upload/2021/2/10/S/b37b6e28-b2f2-4cf9-a436-a8e287cb56a4.JPG",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kasuga-yama",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kasuga-Yama",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kasugayama",
     "imageSource": "icr",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "春曰山"
+    ],
+    "japanese_name": [
+      "春日山",
+      "かすがやま"
+    ]
   },
   {
     "name": "Kate Cargill",
@@ -2794,11 +2805,16 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "(Brocade of Kyoto). White streaked and spotted Pink. Medium, single. See 'Higo'.",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kyo-Nishiki.jpg",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/fbecbab7-e623-424d-b932-888d2a48286f.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kyo-nishiki",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kyo-Nishiki",
-    "chinese_name": [],
-    "japanese_name": [],
-    "imageSource": "accs"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ky%C5%8D-nishiki",
+    "chinese_name": [
+      "京锦"
+    ],
+    "japanese_name": [
+      "京錦",
+      "きょうにしき"
+    ],
+    "imageSource": "icr"
   }
 ]

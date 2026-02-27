@@ -25360,8 +25360,13 @@
   {
     "name": "Kamo-Hon-Ami",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "加茂本阿弥"
+    ],
+    "japanese_name": [
+      "加茂本阿弥",
+      "かもほんなみ"
+    ]
   },
   {
     "name": "Kan-Tsubaki",
@@ -25458,8 +25463,13 @@
   {
     "name": "Kasuga-Yama",
     "species": "Rusticana",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "春曰山"
+    ],
+    "japanese_name": [
+      "春日山",
+      "かすがやま"
+    ]
   },
   {
     "name": "Kate Cargill",
@@ -26769,8 +26779,13 @@
   {
     "name": "Kyo-Nishiki",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "京锦"
+    ],
+    "japanese_name": [
+      "京錦",
+      "きょうにしき"
+    ]
   },
   {
     "name": "L'Avenire",

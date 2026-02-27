@@ -1,0 +1,83 @@
+============================================================
+FUZZY NAME AUDIT SUMMARY
+============================================================
+Input names:       309
+Dataset entries:   7789
+
+Bucket counts:
+  exact:           154
+  high_confidence: 28
+  possible:        35
+  missing:         92
+
+------------------------------------------------------------
+RISKY AMBIGUOUS MATCHES (possible, 80-91):
+------------------------------------------------------------
+  [80] 'Atago'  ->  'Tango'
+  [80] 'Mahoroba Var'  ->  'Mahoroba'
+  [80] 'Mochuan'  ->  'Mouchang'
+  [80] 'Sanpei-tsubaki'  ->  'Kan-Tsubaki'
+  [80] 'Takanini Var'  ->  'Takanini'
+  [80] 'Tenjū'  ->  'Tenju'
+  [80] 'Yume'  ->  'Yumeji'
+  [81] 'Nakoi-no-haru'  ->  'Miyako-No-Haru'
+  [81] 'Red Devil Var'  ->  'Red Devil'
+  [81] 'Tama Pecock Var'  ->  'Tama Peacock'
+  [81] 'Toki-no-mai'  ->  'Oki-No-Nami'
+  [81] 'Tomo-no-ura'  ->  'Tama-No-Ura'
+  [82] 'Sōshin-wabisuke'  ->  'Shiro-Wabisuke'
+  [83] 'Lucky Star Var'  ->  'Lucky Star'
+  [83] 'Tudor Baby Var'  ->  'Tudor Baby'
+  [84] 'Christmas hat'  ->  'Christmas Day'
+  [84] 'Shira ōgi'  ->  'Shira Sagi'
+  [85] 'Anticipation Var'  ->  'Anticipation'
+  [85] 'Royal Velvet Var'  ->  'Royal Velvet'
+  [86] 'Chōjiguruma'  ->  'Choji Guruma'
+  [86] 'Valentine Day Var'  ->  'Valentine Day'
+  [86] 'Yuki Geshik'  ->  'Yuki-Geshiki'
+  [87] 'Midnight Magic Var'  ->  'Midnight Magic'
+  [87] "Nuccio's Cameo Var"  ->  "Nuccio's Cameo"
+  [87] 'Zangetsu'  ->  'Mangetsu'
+  [88] 'E. G. Waterhouse Var'  ->  'E. G. Waterhouse'
+  [88] 'Hi-no-tsukasa'  ->  'Shin-Tsukasa'
+  [88] 'Hinomaru'  ->  'Hi-No-Maru'
+  [88] 'Margaret Lesher Var'  ->  'Margaret Lesher'
+  [90] 'Frimbriatta'  ->  'Fimbriata'
+  [90] 'Kasuga yama'  ->  'Kasuga-Yama'
+  [90] 'Kyō-nishiki'  ->  'Kyo-Nishiki'
+  [90] 'Madge Rouge'  ->  'Madge Rouse'
+  [90] 'Nanban Koh'  ->  'Nanban-Koh'
+  [91] 'Kamo-honnami'  ->  'Kamo-Hon-Ami'
+
+------------------------------------------------------------
+HIGH CONFIDENCE FUZZY MATCHES (>=92, not exact):
+------------------------------------------------------------
+  [92] 'Elaine Betty'  ->  "Elaine's Betty"
+  [92] 'Jitsugetsusei'  ->  'Jitsu-Getsu-Sei'
+  [92] 'Nuccio Jewel'  ->  "Nuccio's Jewel"
+  [92] "Rudy's Magnoliiflora"  ->  "Rudy's Magnoliaeflora"
+  [92] 'Vestito Rossa'  ->  'Vestito Rosso'
+  [93] 'Barbara Woodroff'  ->  'Barbara Woodroof'
+  [93] 'Fukurin-wabisuke'  ->  'Fukurin Wabisuke'
+  [93] 'Shōwa-no-hikari'  ->  'Showa-No-Hikari'
+  [93] 'Umegaki'  ->  'Ume-Gaki'
+  [94] 'Botanyuki'  ->  'Botan-Yuki'
+  [94] 'Elaine Betty Red'  ->  "Elaine's Betty Red"
+  [94] 'Louise Fitzgarald'  ->  'Louise Fitzgerald'
+  [94] 'Plugged in Purple'  ->  'Plugged-In Purple'
+  [94] 'Rasenzome'  ->  'Rasen-Zome'
+  [94] 'Rokkasen'  ->  'Rokukasen'
+  [94] 'Shirayuki'  ->  'Shira Yuki'
+  [95] 'Elizabeth Down Silver'  ->  'Elizabeth Dowd Silver'
+  [95] 'Goshozakura'  ->  'Gosho-Zakura'
+  [95] 'Jerry Donna'  ->  'Jerry Donnan'
+  [95] 'Tama Pecock'  ->  'Tama Peacock'
+  [96] 'Erhai Zhenzhu'  ->  'Erhai Zhenzu'
+  [96] 'Hishikaraito'  ->  'Hishi-Karaito'
+  [96] 'Magnoliaflora'  ->  'Magnoliaeflora'
+  [96] 'Party Popper'  ->  'Party Poppers'
+  [97] 'Marchioness of Salsbury'  ->  'Marchioness Of Salisbury'
+  [97] 'Mrs D. W. Davis Descanso'  ->  'Mrs. D. W. Davis Descanso'
+  [97] 'Shintsukasa-nishiki'  ->  'Shin-Tsukasa-Nishiki'
+  [97] 'Sir Robert Mudoon'  ->  'Sir Robert Muldoon'
+
