@@ -1,0 +1,23 @@
+ACS Link Audit Summary
+======================
+Date: 2026-02-27 14:09:00
+
+Total entries in dataset:   7797
+Entries with acs_url:       7789
+Entries without acs_url:    8
+
+Valid (live) links:         3402
+Broken/dead links:          4387
+  - Recovered (fixed):      23
+  - Cleared (set to null):  4364
+
+Recovery rate: 23/4387 (0.5% of broken links recovered)
+Overall health: 3402/7789 (43.7%) valid before fix
+Post-fix health: 3425/7789 (44.0%) valid after fix
+
+Notes:
+- The ACS website (americancamellias.com) returns HTTP 200 with Content-Length: 0
+  for pages that have been removed, so broken links were detected by empty response body.
+- Recovery attempted deterministic slug rebuilding and common variations
+  (removing parenthetical suffixes, "Variegated" -> "var", etc.).
+- 4364 entries had their acs_url set to null because no valid ACS page exists.
