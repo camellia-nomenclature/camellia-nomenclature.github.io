@@ -4518,7 +4518,9 @@
     "imageSource": "icr",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ch%C5%ABbu-senbazuru",
-    "chinese_name": [],
+    "chinese_name": [
+      "中部千羽鹤"
+    ],
     "japanese_name": [
       "中部千羽鶴",
       "ちゅうぶせんばずる"
