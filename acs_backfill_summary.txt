@@ -1,0 +1,16 @@
+ACS Backfill Audit Summary
+========================================
+Date               : 2026-02-27 17:12:33
+Website entries     : 7799
+ACS catalog records : 4080
+
+Results:
+  Already correct   : 3392
+  Added (valid)     : 15
+  Added (invalid)   : 3
+  Replaced (valid)  : 7
+  Replaced (invalid): 0
+  Unmatched (no ACS): 4382
+
+Total changes applied: 25
+Runtime: 6.2s

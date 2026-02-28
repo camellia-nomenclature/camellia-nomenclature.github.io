@@ -586,6 +586,12 @@
     "japanese_name": []
   },
   {
+    "name": "Alba Compacta",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Alba Fimbriata",
     "species": "Japonica",
     "chinese_name": [
@@ -680,6 +686,15 @@
     "species": "Japonica",
     "chinese_name": [
       "欧博塔马力耶"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Albertii",
+    "species": "Japonica",
+    "chinese_name": [
+      "亚伯特",
+      "艾伯特"
     ],
     "japanese_name": []
   },
@@ -1477,6 +1492,15 @@
     "name": "Angel's Kiss",
     "species": "Sasanqua",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Angela Cocchi",
+    "species": "Japonica",
+    "chinese_name": [
+      "安格拉",
+      "库奇天使"
+    ],
     "japanese_name": []
   },
   {
@@ -3495,6 +3519,12 @@
   },
   {
     "name": "Barbara Mcbride",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Barbara Morgan",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -6424,6 +6454,12 @@
   },
   {
     "name": "C. Allen Favrot",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "C. C. Crutcher",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []

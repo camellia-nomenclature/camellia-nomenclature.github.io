@@ -583,7 +583,7 @@
     "size": "Medium to large",
     "description": "Dark Pink with bright Yellow anthers and White filaments. Medium to large, rose form double. Average, spreading growth. M-L. (Reticulata hybrid 'Frank Houser' seedling). (U.S. 2013 - Howard and Mary Rhodes, Tallahassee, FL).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Adrienne%20Boueres.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/adrienne-boueres",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/adrienne-boueres",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Adrienne%20Boueres",
     "chinese_name": [],
     "japanese_name": [],
@@ -1041,6 +1041,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Alba Compacta",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White. Form: Formal double; well imbricated. Size: Medium. Leaf Characteristics: Dark green. Place of Origination: England. Year of Registration / Origination: 1871. Other Information: Improvement on the old Alba Plena.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Alba Compacta.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/alba-compacta",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Alba%20Compacta",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Alba Fimbriata",
     "species": "Japonica",
     "size": "",
@@ -1203,6 +1215,21 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Alberta%20Marie",
     "chinese_name": [
       "欧博塔马力耶"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Albertii",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Pink striped carmine and sometimes white. Form: Full peony form. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright, compact growth. Leaf Characteristics: Dark green. Originator: Chandler of Vauxhall Nursery. Place of Origination: China to England. Year of Registration / Origination: 1841 - first bloomed in 1839. Other Information: Named for Prince Albert.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Albertii.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/albertii",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Albertii",
+    "chinese_name": [
+      "亚伯特",
+      "艾伯特"
     ],
     "japanese_name": []
   },
@@ -1535,7 +1562,7 @@
     "size": "Large",
     "description": "Bubble Gum Pink with Yellow anthers and White filaments. Large, semidouble to loose peony form. Vigorous, upright, spreading growth. M. (U.S. 2019 - Gordy).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Alice%20In-The%20Palace.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/alice-in-the-palace",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/alice-in-the-palace",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Alice%20In-The%20Palace",
     "chinese_name": [],
     "japanese_name": [],
@@ -2663,6 +2690,21 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Angel%27s%20Kiss",
     "imageSource": "icr",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Angela Cocchi",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White, striped sometimes clear red, sometimes dark red. Form: Formal double. Size: Medium. Bloom Season: M. Growth Characteristics: Compact, upright growth. Originator: Cocchi. Place of Origination: Italy - Brescia. Year of Registration / Origination: 18156.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Angela Cocchi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/angela-cocchi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Angela%20Cocchi",
+    "chinese_name": [
+      "安格拉",
+      "库奇天使"
+    ],
     "japanese_name": []
   },
   {
@@ -5571,7 +5613,7 @@
     "size": "Medium",
     "description": "Veined Deep Pink, Red stripes in background, some White on petal edges, and occasional White blotches. Medium, single to semidouble. Average, upright growth. E-L. (Sport of Japonica 'Oo-La-La!'). (U.S. 1995 - Nuccio's).",
     "image": null,
-    "acs_url": null,
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/ay-ay-ay!",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ay-Ay-Ay%21",
     "chinese_name": [],
     "japanese_name": []
