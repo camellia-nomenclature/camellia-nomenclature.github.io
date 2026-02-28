@@ -5612,11 +5612,12 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Veined Deep Pink, Red stripes in background, some White on petal edges, and occasional White blotches. Medium, single to semidouble. Average, upright growth. E-L. (Sport of Japonica 'Oo-La-La!'). (U.S. 1995 - Nuccio's).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ay-Ay-Ay.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/ay-ay-ay!",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ay-Ay-Ay%21",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Ayer Maid",

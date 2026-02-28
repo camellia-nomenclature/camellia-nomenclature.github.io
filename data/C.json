@@ -4504,11 +4504,12 @@
     "species": "Japonica",
     "size": "Large",
     "description": "Pure White with Yellow anthers and Yellow filaments. Large, single occasionally anemone. Slow, spreading growth. E-L. (Japan 1934 - Kansai District). See Higo",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chujohaku.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/chujohaku",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ch%C3%BBj%C3%B4haku",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Chûjôshiro",

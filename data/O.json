@@ -535,11 +535,12 @@
     "species": "NRH",
     "size": "Small",
     "description": "Pink. Small, rose form double. Compact growth. L. (Saluenensis hybrid). (U.S. 1977 - H. Fish, Santa Cruz, CA).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ole&#39;.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/ole",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ol%C3%A9",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Omega",
@@ -732,11 +733,12 @@
     "species": "Japonica",
     "size": "Small",
     "description": "Deep Pink striped White. Small, formal double. Vigorous, upright growth. E-L. (Japan 1733 - Chikinshô Furoku).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Orandako.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/orandako-holland-red",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Orandak%C3%B4%20%28Holland%20Red%29",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Orchid Beauty",

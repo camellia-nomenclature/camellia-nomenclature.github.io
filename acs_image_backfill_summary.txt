@@ -1,0 +1,19 @@
+ACS IMAGE BACKFILL SUMMARY (SCOPED)
+==================================================
+Total scoped entries:     22
+  from acs_backfill_added:    15
+  from acs_backfill_replaced: 7
+
+Images added:             6
+Skipped (already has image): 16
+Skipped (no ACS image):   0
+Skipped (not in dataset): 0
+==================================================
+
+Updated entries:
+  - Ay-Ay-Ay!: https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ay-
+  - Chûjôhaku: https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chu
+  - Olé: https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ole
+  - Orandakô (Holland Red): https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ora
+  - Sekiyô (Setting Sun): https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Sek
+  - Taiyô (The Sun): https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Tai

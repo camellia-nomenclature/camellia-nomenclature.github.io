@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Elegans (Chandler) Variegated",
+    "reason": "image already exists",
+    "existing_image": "https://file4.iflora.cn/Upload/2021/1/20/S/8a8dc0e9-dc4a-4961-862f-85506296d264.JPG",
+    "existing_source": "icr"
+  },
+  {
+    "name": "G. W. Ellis",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/G.W. Ellis.jpg",
+    "existing_source": "acs"
+  },
+  {
+    "name": "Hi-no-tsukasa",
+    "reason": "image already exists",
+    "existing_image": "https://file3.iflora.cn/Upload/2019/4/10/S/ab156104-f296-44b1-9832-7176773dc619.jpg",
+    "existing_source": "icr"
+  },
+  {
+    "name": "Imperator (American)",
+    "reason": "image already exists",
+    "existing_image": "https://file3.iflora.cn/Upload/2022/3/26/S/b2a77ed3-5c75-4981-93a7-3210d0af8dca.JPG",
+    "existing_source": "icr"
+  },
+  {
+    "name": "Imperator (France)",
+    "reason": "image already exists",
+    "existing_image": "https://file3.iflora.cn/Upload/2022/3/26/S/b2a77ed3-5c75-4981-93a7-3210d0af8dca.JPG",
+    "existing_source": "icr"
+  },
+  {
+    "name": "Kira-Shiro-Kantsubaki",
+    "reason": "image already exists",
+    "existing_image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kira-Shiro-Kantsubaki.jpg",
+    "existing_source": "accs"
+  },
+  {
+    "name": "Margaret Walker",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Margaret%20Walker.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Oo-La-La!",
+    "reason": "image already exists",
+    "existing_image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oo-La-La%21.jpg",
+    "existing_source": "accs"
+  },
+  {
+    "name": "Stop!",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Stop%21.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Adrienne Boueres",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Adrienne%20Boueres.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Alice In-The Palace",
+    "reason": "image already exists",
+    "existing_image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Alice%20In-The%20Palace.jpg",
+    "existing_source": "accs"
+  },
+  {
+    "name": "Bubble Gum",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bubble%20Gum.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Greg Baker",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Greg%20Baker.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Mrs. D. W. Davis Descanso",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mrs.%20D.%20W.%20Davis%20Descanso.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Mrs. D. W. Davis Special",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mrs.%20D.%20W.%20Davis%20Special.jpg",
+    "existing_source": "socal"
+  },
+  {
+    "name": "Strawberry Limeade",
+    "reason": "image already exists",
+    "existing_image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Strawberry%20Limeade.jpg",
+    "existing_source": "socal"
+  }
+]

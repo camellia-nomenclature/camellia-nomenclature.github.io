@@ -1940,11 +1940,12 @@
     "species": "Sasanqua",
     "size": "Large",
     "description": "Bright Pink. Large, single. E. Fragrant.",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Sekiyo.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/sekiyo-setting-sun",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Sekiy%C3%B4%20%28Setting%20Sun%29",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Selina Louise",

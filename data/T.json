@@ -234,11 +234,12 @@
     "species": "Rusticana",
     "size": "Small",
     "description": "Claret Rose with Yellow anthers and Creamy filaments. Small, single. Slow, upright growth; bloom has broad, overlapping petals, emarginate and slightly creped, with a compact stamen column; this snow Camellia cultivar has Light Yellow variegation along the midrib and the major veins of the Dark Green, glossy leaves. M-L. (Japan 1966 - Niigata Prefecture).",
-    "image": null,
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Taiyo.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-t/taiyo-the-sun",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Taiy%C3%B4%20%28The%20Sun%29",
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "acs"
   },
   {
     "name": "Takane-No-Yuki",
