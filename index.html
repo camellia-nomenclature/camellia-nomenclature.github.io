@@ -293,12 +293,20 @@
       try {
         const resp = await fetch('data/index.json');
         const index = await resp.json();
+        const isAllHan = s => /^[\u4e00-\u9fff]+$/.test(s);
         camellias = index.map(e => {
-          const cn = e.chinese_name;
+          const cn = Array.isArray(e.chinese_name) && e.chinese_name.length ? [...e.chinese_name] : [];
+          const cnSet = new Set(cn);
+          // Include Han-only japanese_name tokens in Chinese search (deduplicated)
+          if (Array.isArray(e.japanese_name)) {
+            for (const jp of e.japanese_name) {
+              if (isAllHan(jp) && !cnSet.has(jp)) cn.push(jp);
+            }
+          }
           return {
             name: e.n || e.name,
             species: e.s || e.species,
-            cn: Array.isArray(cn) && cn.length ? cn : []
+            cn
           };
         });
         camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
