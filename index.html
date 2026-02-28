@@ -348,8 +348,8 @@
       updateClearBtn();
     });
 
-    // Normalize: strip special chars for fuzzy matching
-    const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\u0027\u2019\-.,()\/&"]/g, '').replace(/\s+/g, ' ').trim();
+    // Normalize: strip special chars for fuzzy matching (hyphens become spaces so "tama n" matches "Tama-No-Ura")
+    const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\-]/g, ' ').replace(/[\u0027\u2019.,()\/&"]/g, '').replace(/\s+/g, ' ').trim();
     const collapse = s => s.replace(/\s+/g, '');
 
     function precomputeNorms() { camellias.forEach(c => { c._norm = normalize(c.name); c._coll = collapse(c._norm); }); }
