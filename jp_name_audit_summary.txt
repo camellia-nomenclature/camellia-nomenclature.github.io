@@ -1,0 +1,48 @@
+Japanese Name Audit Summary
+===========================
+Total entries in camellias.json: 8071
+Entries with japanese_name: 361
+Entries without japanese_name: 7710
+Entries fixed (combined-first removed): 13
+Entries passed (no change needed): 348
+
+Fixed entries:
+  - Chisato-no-aki (Autumn in Villages)
+    before: ['千里の秋 ちさとのあき', '千里の秋', 'ちさとのあき']
+    after:  ['千里の秋', 'ちさとのあき']
+  - Hana-no-yuki (Flowers Strewn Like Snow)
+    before: ['花の雪 はなのゆき', '花の雪', 'はなのゆき']
+    after:  ['花の雪', 'はなのゆき']
+  - Hinomaru (Hi-no-maru)
+    before: ['日の丸 ひのまる', '日の丸', 'ひのまる']
+    after:  ['日の丸', 'ひのまる']
+  - Koshi-no-reijin (Niigata Beauty)
+    before: ['越の麗人 こしのれいじん', '越の麗人', 'こしのれいじん']
+    after:  ['越の麗人', 'こしのれいじん']
+  - Koshi-no-yoso'oi
+    before: ['越の粧い こしのよそおい', '越の粧い', 'こしのよそおい']
+    after:  ['越の粧い', 'こしのよそおい']
+  - Mikuni-no-homare (Nation's Honor)
+    before: ['御国の誉 みくにのほまれ', '御国の誉', 'みくにのほまれ']
+    after:  ['御国の誉', 'みくにのほまれ']
+  - Minato-no-haru
+    before: ['港の春 みなとのはる', '港の春', 'みなとのはる']
+    after:  ['港の春', 'みなとのはる']
+  - Miyako-no-haru (Metropolis Spring)
+    before: ['都の春 みやこのはる', '都の春', 'みやこのはる']
+    after:  ['都の春', 'みやこのはる']
+  - Oki-no-nami (Waves in the Offing)
+    before: ['沖の浪 おきのなみ', '沖の浪', 'おきのなみ', '冲の浪']
+    after:  ['沖の浪', 'おきのなみ', '冲の浪']
+  - Otome-sazanka
+    before: ['乙女サザン力 おとめさざんか', '乙女サザン力', 'おとめさざんか']
+    after:  ['乙女サザン力', 'おとめさざんか']
+  - Takane-no-yuki (Snow on the High Peaks)
+    before: ['高嶺の雪 たかねのゆき', '高嶺の雪', 'たかねのゆき']
+    after:  ['高嶺の雪', 'たかねのゆき']
+  - Toki-no-hagasane
+    before: ['鴇の羽重 ときのはがさね', '鴇の羽重', 'ときのはがさね', '鸨の羽重']
+    after:  ['鴇の羽重', 'ときのはがさね', '鸨の羽重']
+  - Tsuki-no-wa
+    before: ['月の輪 つきのわ', '月の輪', 'つきのわ']
+    after:  ['月の輪', 'つきのわ']

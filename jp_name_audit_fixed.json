@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Chisato-no-aki (Autumn in Villages)",
+    "japanese_name_before": [
+      "千里の秋 ちさとのあき",
+      "千里の秋",
+      "ちさとのあき"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "千里の秋",
+      "ちさとのあき"
+    ]
+  },
+  {
+    "name": "Hana-no-yuki (Flowers Strewn Like Snow)",
+    "japanese_name_before": [
+      "花の雪 はなのゆき",
+      "花の雪",
+      "はなのゆき"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "花の雪",
+      "はなのゆき"
+    ]
+  },
+  {
+    "name": "Hinomaru (Hi-no-maru)",
+    "japanese_name_before": [
+      "日の丸 ひのまる",
+      "日の丸",
+      "ひのまる"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "日の丸",
+      "ひのまる"
+    ]
+  },
+  {
+    "name": "Koshi-no-reijin (Niigata Beauty)",
+    "japanese_name_before": [
+      "越の麗人 こしのれいじん",
+      "越の麗人",
+      "こしのれいじん"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "越の麗人",
+      "こしのれいじん"
+    ]
+  },
+  {
+    "name": "Koshi-no-yoso'oi",
+    "japanese_name_before": [
+      "越の粧い こしのよそおい",
+      "越の粧い",
+      "こしのよそおい"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "越の粧い",
+      "こしのよそおい"
+    ]
+  },
+  {
+    "name": "Mikuni-no-homare (Nation's Honor)",
+    "japanese_name_before": [
+      "御国の誉 みくにのほまれ",
+      "御国の誉",
+      "みくにのほまれ"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "御国の誉",
+      "みくにのほまれ"
+    ]
+  },
+  {
+    "name": "Minato-no-haru",
+    "japanese_name_before": [
+      "港の春 みなとのはる",
+      "港の春",
+      "みなとのはる"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "港の春",
+      "みなとのはる"
+    ]
+  },
+  {
+    "name": "Miyako-no-haru (Metropolis Spring)",
+    "japanese_name_before": [
+      "都の春 みやこのはる",
+      "都の春",
+      "みやこのはる"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "都の春",
+      "みやこのはる"
+    ]
+  },
+  {
+    "name": "Oki-no-nami (Waves in the Offing)",
+    "japanese_name_before": [
+      "沖の浪 おきのなみ",
+      "沖の浪",
+      "おきのなみ",
+      "冲の浪"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "沖の浪",
+      "おきのなみ",
+      "冲の浪"
+    ]
+  },
+  {
+    "name": "Otome-sazanka",
+    "japanese_name_before": [
+      "乙女サザン力 おとめさざんか",
+      "乙女サザン力",
+      "おとめさざんか"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "乙女サザン力",
+      "おとめさざんか"
+    ]
+  },
+  {
+    "name": "Takane-no-yuki (Snow on the High Peaks)",
+    "japanese_name_before": [
+      "高嶺の雪 たかねのゆき",
+      "高嶺の雪",
+      "たかねのゆき"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "高嶺の雪",
+      "たかねのゆき"
+    ]
+  },
+  {
+    "name": "Toki-no-hagasane",
+    "japanese_name_before": [
+      "鴇の羽重 ときのはがさね",
+      "鴇の羽重",
+      "ときのはがさね",
+      "鸨の羽重"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "鴇の羽重",
+      "ときのはがさね",
+      "鸨の羽重"
+    ]
+  },
+  {
+    "name": "Tsuki-no-wa",
+    "japanese_name_before": [
+      "月の輪 つきのわ",
+      "月の輪",
+      "つきのわ"
+    ],
+    "status": "fixed",
+    "japanese_name_after": [
+      "月の輪",
+      "つきのわ"
+    ]
+  }
+]
