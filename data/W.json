@@ -350,6 +350,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Waltz Dream Variegated",
+    "species": "NRH",
+    "size": "Very large",
+    "description": "Color: Orchid pink blotched white. Form: Semidouble. Size: Very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Heritage: Virus variegated form of Non-reticulata hybrid 'Waltz Dream'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Waltz Dream Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/waltz-dream-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Waltz%20Dream%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Waltz Time",
     "species": "NRH",
     "size": "Medium",
@@ -1735,7 +1747,7 @@
   },
   {
     "name": "Wild Heart",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small to medium",
     "description": "Pale Lavender outer petals with Light Lavender heart shading to Darker Purplish Pink center with Yellow anthers and Yellow filaments. Small to medium, semidouble. Vigorous, upright, dense growth. E-M. (Color sport of Sasanqua 'Kanjiro'). (U.S. 2016 - Glenn Read, Lucedale, MS)",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Wild%20Heart.jpg",
@@ -2070,7 +2082,7 @@
   },
   {
     "name": "William Lanier Hunt",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Dark Orchid Pink. Medium, peony form. M. (U.S. 1986 - Parks). WINIFRED HILLS - Formerly Vernalis - Purple Red. Medium, anemone",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/William%20Lanier%20Hunt.jpg",
@@ -2183,6 +2195,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "William Sellers Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Deep Crimson blotched white with yellow anthers and white fiilaments. Form: Semidouble with very large folding petals. Size: Very large. Bloom Season: M-L. Growth Rate: Slow. Growth Characteristics: Spreading growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1983. Heritage: Virus variegated of Reticulata hybrid 'William Sellers'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/William Sellers Var.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/william-sellers-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=William%20Sellers%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "William Spragg",
@@ -2529,7 +2553,7 @@
   },
   {
     "name": "Winsome",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "White edged Pink. Medium, semidouble to anemone form. Vigorous, bushy, spreading growth. M. (Sasanqua 'Shishi-Gashira' × Sasanqua \"Tovre'). (U.S. 1955 - McCaskill).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Winsome.jpg",
@@ -3262,6 +3286,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Woodford Harrison Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Deep rose red veined red blotched white with golden anthers and pink filaments. Form: Semidouble. Size: Very large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Upright, spreading growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1983. Heritage: Virus variegated form of Reticulata hybrid 'Woodford Harrison'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Woodford Harrison Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/woodford-harrison-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Woodford%20Harrison%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Woodland Glen",

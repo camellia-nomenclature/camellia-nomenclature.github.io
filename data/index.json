@@ -426,6 +426,17 @@
     ]
   },
   {
+    "name": "Aiaigasa (Sharing an Umbrella)",
+    "species": "Rusticana",
+    "chinese_name": [
+      "相合伞"
+    ],
+    "japanese_name": [
+      "相合傘",
+      "あいあいがさ"
+    ]
+  },
+  {
     "name": "Aileen",
     "species": "Japonica",
     "chinese_name": [
@@ -1653,6 +1664,12 @@
     "japanese_name": []
   },
   {
+    "name": "Ann Miller Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ann Morrison",
     "species": "Japonica",
     "chinese_name": [],
@@ -1983,6 +2000,12 @@
     "japanese_name": []
   },
   {
+    "name": "Annie Tee Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Annie Wylam",
     "species": "Japonica",
     "chinese_name": [],
@@ -1990,6 +2013,12 @@
   },
   {
     "name": "Anniversary",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Anoaika",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -2073,8 +2102,14 @@
     "japanese_name": []
   },
   {
+    "name": "Apache Variegated (Red Giant Variegated)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Aphrodite",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -2290,6 +2325,15 @@
     "japanese_name": []
   },
   {
+    "name": "Arcadia Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "阿卡迪亚(斑)",
+      "阿卡迪亚"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Arch Of Triumph",
     "species": "Reticulata",
     "chinese_name": [
@@ -2301,6 +2345,15 @@
       "おぶ",
       "とらいあんふ"
     ]
+  },
+  {
+    "name": "Arch of Triumph Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "凯旋门(斑）",
+      "凯旋门"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Archie Lanier",
@@ -2786,6 +2839,22 @@
     "japanese_name": []
   },
   {
+    "name": "Auguste Delfosse",
+    "species": "Japonica",
+    "chinese_name": [
+      "蓝色八月"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Auguste Delfosse (Andre)",
+    "species": "Japonica",
+    "chinese_name": [
+      "蓝色八月"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Auguste Delfosse (Belgium)",
     "species": "Japonica",
     "chinese_name": [
@@ -2902,7 +2971,7 @@
   },
   {
     "name": "Autumn Gold",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "金秋",
       "金头佗"
@@ -3187,6 +3256,12 @@
       "娃娃",
       "小甜姐儿"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Baby Face (Fish)",
+    "species": "NRH",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -3481,6 +3556,12 @@
   },
   {
     "name": "Barbara Colbert Silver",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Barbara Dooley",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -4044,7 +4125,7 @@
   },
   {
     "name": "Beni-Kan-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -4082,6 +4163,15 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Benizuru (Red Crane)",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": [
+      "紅鶴",
+      "べにづる"
+    ]
   },
   {
     "name": "Benjamin Thompson Iv",
@@ -4349,6 +4439,16 @@
     "name": "Betsy Ross",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Bett's Supreme",
+    "species": "NRH",
+    "chinese_name": [
+      "梦幻山庄",
+      "超级贝特",
+      "超级贝慈"
+    ],
     "japanese_name": []
   },
   {
@@ -4671,6 +4771,12 @@
     "japanese_name": []
   },
   {
+    "name": "Betty Sheffield Veined",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Betty Sheffield White",
     "species": "Japonica",
     "chinese_name": [
@@ -4852,6 +4958,15 @@
     "japanese_name": []
   },
   {
+    "name": "Big Dipper Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "北斗七星(斑）",
+      "北斗七星"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Big Jack",
     "species": "Japonica",
     "chinese_name": [],
@@ -4921,6 +5036,14 @@
     "chinese_name": [
       "比尔大齿轮",
       "比勒勾耶芝"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Bill Goertz Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "复色大齿轮"
     ],
     "japanese_name": []
   },
@@ -5019,7 +5142,7 @@
   },
   {
     "name": "Bill Wylam",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "比尔魏伦",
       "夕阳残红"
@@ -5127,6 +5250,15 @@
     "japanese_name": []
   },
   {
+    "name": "Black Gold Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "云中月",
+      "黑金"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Black Heart",
     "species": "Japonica",
     "chinese_name": [],
@@ -5157,6 +5289,12 @@
       "黑绒带牡丹",
       "黑牡丹蕾丝"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Black Lace Peony Variegated",
+    "species": "Reticulata",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -5206,6 +5344,15 @@
     "chinese_name": [
       "黑带",
       "黑领带"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Black Tie Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "黑带(斑)",
+      "黑带"
     ],
     "japanese_name": []
   },
@@ -5438,6 +5585,15 @@
     "japanese_name": []
   },
   {
+    "name": "Blush Rosette",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "粉玫瑰石",
+      "害羞脸红"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Blush Tinsie",
     "species": "Japonica",
     "chinese_name": [],
@@ -5498,6 +5654,15 @@
     "japanese_name": []
   },
   {
+    "name": "Bob Hope Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "包勃霍伯(斑）",
+      "包勃霍伯"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Bob Mealing",
     "species": "Japonica",
     "chinese_name": [],
@@ -5554,6 +5719,12 @@
     "japanese_name": []
   },
   {
+    "name": "Bobby Moore",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Bobbye Dennis",
     "species": "Japonica",
     "chinese_name": [],
@@ -5591,6 +5762,12 @@
     "chinese_name": [
       "威德林"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Bomb Shell",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -5667,7 +5844,7 @@
   },
   {
     "name": "Bonsai Baby",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "宝贝盆栽"
     ],
@@ -5687,7 +5864,7 @@
   },
   {
     "name": "Borderline Beauty",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -5704,6 +5881,17 @@
     "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Botanyuki",
+    "species": "Rusticana",
+    "chinese_name": [
+      "牡丹雪"
+    ],
+    "japanese_name": [
+      "牡丹雪",
+      "ぼたんゆき"
+    ]
   },
   {
     "name": "Boutonniere",
@@ -6001,6 +6189,12 @@
     "chinese_name": [
       "艳丽"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Brilliant (South)",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -6605,6 +6799,12 @@
     "japanese_name": []
   },
   {
+    "name": "Cajun King",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cajun Queen",
     "species": "Japonica",
     "chinese_name": [],
@@ -6612,6 +6812,12 @@
   },
   {
     "name": "Calder's Treasure",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Calico",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -7238,6 +7444,16 @@
     "japanese_name": []
   },
   {
+    "name": "Carlotta Grisi",
+    "species": "Japonica",
+    "chinese_name": [
+      "卡洛店员",
+      "卡达",
+      "卡洛塔格里西"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Carlton Lacour",
     "species": "Japonica",
     "chinese_name": [],
@@ -7650,6 +7866,12 @@
     "japanese_name": []
   },
   {
+    "name": "Caryophylloides",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Casablanca",
     "species": "Japonica",
     "chinese_name": [],
@@ -7666,6 +7888,14 @@
     "species": "Japonica",
     "chinese_name": [
       "加西利达"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Casimir",
+    "species": "Japonica",
+    "chinese_name": [
+      "卡西米尔"
     ],
     "japanese_name": []
   },
@@ -7962,7 +8192,7 @@
   },
   {
     "name": "Chansonette",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "钱桑纳特",
       "强生爱特",
@@ -7990,6 +8220,15 @@
     "chinese_name": [
       "北国佳丽",
       "查琳"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Charlean Variegated",
+    "species": "NRH",
+    "chinese_name": [
+      "北国佳丽(斑)",
+      "北国佳丽"
     ],
     "japanese_name": []
   },
@@ -8170,6 +8409,12 @@
     "japanese_name": []
   },
   {
+    "name": "Charlotte Blount Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Charlotte Bradford",
     "species": "Japonica",
     "chinese_name": [],
@@ -8335,6 +8580,12 @@
     "japanese_name": []
   },
   {
+    "name": "Cherries Jubilee Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cherries O'Toole",
     "species": "Japonica",
     "chinese_name": [],
@@ -8342,6 +8593,12 @@
   },
   {
     "name": "Cherry Blossom",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Cherry Blossom (Cherry Leaf Camellia)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -8531,15 +8788,37 @@
   },
   {
     "name": "Chiri-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Chisato-no-aki (Autumn in Villages)",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": [
+      "千里の秋 ちさとのあき",
+      "千里の秋",
+      "ちさとのあき"
+    ]
   },
   {
     "name": "Chittagong",
     "species": "Reticulata",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Chiyoda-nishiki",
+    "species": "Japonica",
+    "chinese_name": [
+      "千代锦",
+      "千代田锦"
+    ],
+    "japanese_name": [
+      "千代田錦",
+      "ちよだにしき"
+    ]
   },
   {
     "name": "Chiyoda-Nishiki (Myraid Brocade)",
@@ -8778,7 +9057,7 @@
   },
   {
     "name": "Christmas Candles",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "圣诞蜡烛"
     ],
@@ -9242,6 +9521,12 @@
     "japanese_name": []
   },
   {
+    "name": "Cleo Atkins",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cleo Gliddon Arras",
     "species": "Japonica",
     "chinese_name": [],
@@ -9257,6 +9542,14 @@
   },
   {
     "name": "Cleopatra",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "克利欧佩特拉"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Cleopatra (Sawada)",
     "species": "Sasanqua",
     "chinese_name": [
       "克利欧佩特拉"
@@ -9290,6 +9583,15 @@
     "japanese_name": []
   },
   {
+    "name": "Cleve James Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "雅客名士(斑）",
+      "雅客名士"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Cliff Harris",
     "species": "Japonica",
     "chinese_name": [
@@ -9306,6 +9608,12 @@
   },
   {
     "name": "Cliveana",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Cliveana (Gerbing)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -9532,7 +9840,24 @@
     ]
   },
   {
+    "name": "Comte de Gomer",
+    "species": "Japonica",
+    "chinese_name": [
+      "戈默",
+      "康特哥摩"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Comte De Nesselrode",
+    "species": "Japonica",
+    "chinese_name": [
+      "涅索洛德伯爵"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Comte de Nesselrode (MG)",
     "species": "Japonica",
     "chinese_name": [
       "涅索洛德伯爵"
@@ -9893,6 +10218,14 @@
     "japanese_name": []
   },
   {
+    "name": "Coronation (US)",
+    "species": "Japonica",
+    "chinese_name": [
+      "加冕典礼"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Corporal Pugg Johnson",
     "species": "Japonica",
     "chinese_name": [],
@@ -9922,6 +10255,12 @@
     ]
   },
   {
+    "name": "Cotes D'Armor",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cottage Queen",
     "species": "Reticulata",
     "chinese_name": [],
@@ -9946,6 +10285,12 @@
   },
   {
     "name": "Countess Of Orkney",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Countess of Orkney (England)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -10229,6 +10574,12 @@
     "japanese_name": []
   },
   {
+    "name": "Cruciata",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Crusader",
     "species": "Japonica",
     "chinese_name": [],
@@ -10503,6 +10854,12 @@
     "japanese_name": []
   },
   {
+    "name": "Daintrie Sievers",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Dainty (California)",
     "species": "Japonica",
     "chinese_name": [
@@ -10678,6 +11035,12 @@
     "japanese_name": []
   },
   {
+    "name": "Dana Homeyer Variegated",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Danatta Merryday",
     "species": "Japonica",
     "chinese_name": [],
@@ -10797,6 +11160,12 @@
     "japanese_name": []
   },
   {
+    "name": "Darsi",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Dataohong",
     "species": "Reticulata",
     "chinese_name": [
@@ -10902,6 +11271,14 @@
     "japanese_name": []
   },
   {
+    "name": "Daviesii",
+    "species": "Japonica",
+    "chinese_name": [
+      "台维斯"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Dawn Lynn",
     "species": "Japonica",
     "chinese_name": [],
@@ -10978,7 +11355,7 @@
   },
   {
     "name": "Dazzler",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "眼花撩乱"
     ],
@@ -11070,6 +11447,14 @@
     "japanese_name": []
   },
   {
+    "name": "Debbie Ellis",
+    "species": "NRH",
+    "chinese_name": [
+      "黛比埃利斯"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Debbie Odom",
     "species": "Reticulata",
     "chinese_name": [],
@@ -11085,6 +11470,15 @@
     "name": "Debbie Stutts",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Debbie Variegated",
+    "species": "NRH",
+    "chinese_name": [
+      "黛比(斑)",
+      "黛比"
+    ],
     "japanese_name": []
   },
   {
@@ -11147,6 +11541,15 @@
     "name": "Debutante-Benten",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "December Rose",
+    "species": "Vernalis",
+    "chinese_name": [
+      "十二月玫瑰",
+      "腊月玫瑰"
+    ],
     "japanese_name": []
   },
   {
@@ -11230,6 +11633,12 @@
   },
   {
     "name": "Delectissima",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Delectissima (MG)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -11333,6 +11742,15 @@
     "species": "Japonica",
     "chinese_name": [
       "登尼斯",
+      "丹尼斯博根"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Dennis Vaughn Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "丹尼斯博根(斑）",
       "丹尼斯博根"
     ],
     "japanese_name": []
@@ -11472,6 +11890,12 @@
   },
   {
     "name": "Dianne Dickson Reynolds",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Dianthiflora",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -11683,6 +12107,14 @@
     "japanese_name": []
   },
   {
+    "name": "Doctor Dan Nathan Supreme",
+    "species": "Reticulata",
+    "chinese_name": [
+      "丹纳森博士"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Dody's Delight",
     "species": "Japonica",
     "chinese_name": [],
@@ -11734,6 +12166,12 @@
   },
   {
     "name": "Dolly Parler",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Dolly Parler Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -12496,6 +12934,15 @@
     "chinese_name": [
       "帕克斯先生",
       "克里福德帕克斯博士"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Dr. Clifford Parks Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "帕克博士(斑）",
+      "帕克博士"
     ],
     "japanese_name": []
   },
@@ -13332,6 +13779,14 @@
     "japanese_name": []
   },
   {
+    "name": "Duc de Bretagne",
+    "species": "Japonica",
+    "chinese_name": [
+      "教友"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Duc De Devonshire",
     "species": "Japonica",
     "chinese_name": [],
@@ -13745,6 +14200,12 @@
     "japanese_name": []
   },
   {
+    "name": "Eddie Gilley Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Edelweiss",
     "species": "Japonica",
     "chinese_name": [
@@ -13840,6 +14301,14 @@
     "japanese_name": []
   },
   {
+    "name": "Edna Bass Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "白斑巴斯"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Edna Butler",
     "species": "Sasanqua",
     "chinese_name": [
@@ -13854,6 +14323,15 @@
     "name": "Edna Campbell",
     "species": "Japonica",
     "chinese_name": [
+      "黑色炫风"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Edna Campbell Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "黑色炫风(斑）",
       "黑色炫风"
     ],
     "japanese_name": []
@@ -13974,6 +14452,16 @@
       "笑顔",
       "えがお"
     ]
+  },
+  {
+    "name": "Egao Corkscrew",
+    "species": "Vernalis",
+    "chinese_name": [
+      "九转螺丝",
+      "曲枝笑颜",
+      "依勾茶梅"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Eighteen Scholars",
@@ -14338,6 +14826,16 @@
     "japanese_name": []
   },
   {
+    "name": "Elegans Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "雅致(斑）",
+      "雅致",
+      "复色雅致"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Elegant Beauty",
     "species": "NRH",
     "chinese_name": [
@@ -14382,7 +14880,7 @@
   },
   {
     "name": "Elfin Rose",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "矮玫瑰",
       "玫瑰精灵"
@@ -14709,6 +15207,12 @@
     "japanese_name": []
   },
   {
+    "name": "Ella Drayton (MG)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ella Gamlin",
     "species": "NRH",
     "chinese_name": [],
@@ -14880,6 +15384,15 @@
       "大陪审团",
       "艾斯裘力",
       "爱尔丝茱莉"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Elsie Jury Variegated",
+    "species": "NRH",
+    "chinese_name": [
+      "埃尔西(斑）",
+      "埃尔西"
     ],
     "japanese_name": []
   },
@@ -15251,6 +15764,12 @@
     "japanese_name": []
   },
   {
+    "name": "Enrico Bettoni (US)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Envying Sky's Height",
     "species": "Reticulata",
     "chinese_name": [],
@@ -15259,6 +15778,12 @@
   {
     "name": "Eoline Nelson",
     "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Eos",
+    "species": "Vernalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -15777,6 +16302,12 @@
     "japanese_name": []
   },
   {
+    "name": "Evelyn Poe Pink Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Evelyn Ramirez",
     "species": "Japonica",
     "chinese_name": [],
@@ -15881,6 +16412,17 @@
     ]
   },
   {
+    "name": "Ezo-nishiki (Portugal)",
+    "species": "Japonica",
+    "chinese_name": [
+      "虾夷锦"
+    ],
+    "japanese_name": [
+      "蝦夷錦",
+      "えぞにしき"
+    ]
+  },
+  {
     "name": "F. G. No. 2",
     "species": "Japonica",
     "chinese_name": [],
@@ -15974,6 +16516,12 @@
   {
     "name": "Fairy Princess",
     "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Fairy Queen",
+    "species": "Sasanqua",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -16115,6 +16663,12 @@
     "japanese_name": []
   },
   {
+    "name": "Fantasy",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Fantasy (California)",
     "species": "Japonica",
     "chinese_name": [],
@@ -16145,6 +16699,16 @@
       "风流",
       "上流社会",
       "最新流行"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Fashionata Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "上流社会（斑）",
+      "上流社会",
+      "复色风流"
     ],
     "japanese_name": []
   },
@@ -16550,6 +17114,14 @@
     "japanese_name": []
   },
   {
+    "name": "Fire Falls Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "复色火红瀑布"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Fire Frost",
     "species": "NRH",
     "chinese_name": [],
@@ -16665,6 +17237,12 @@
   },
   {
     "name": "Firstborn",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Firstborn Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -17133,6 +17711,16 @@
     "chinese_name": [
       "人队",
       "掏金者"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Forty-Niner Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "白斑49人队",
+      "白斑",
+      "人队"
     ],
     "japanese_name": []
   },
@@ -17822,6 +18410,12 @@
     "japanese_name": []
   },
   {
+    "name": "Freedom Bell Variegated",
+    "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Fregeo",
     "species": "Reticulata",
     "chinese_name": [],
@@ -17915,6 +18509,15 @@
     "japanese_name": []
   },
   {
+    "name": "Frosted Star",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "霜星",
+      "冰冻星辰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Frosty",
     "species": "Sasanqua",
     "chinese_name": [],
@@ -17998,6 +18601,17 @@
     "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Fukutsuzumi",
+    "species": "Japonica",
+    "chinese_name": [
+      "福鼓"
+    ],
+    "japanese_name": [
+      "福鼓",
+      "ふくつづみ"
+    ]
   },
   {
     "name": "Fukutsuzumi (Fortune's Hand Drum)",
@@ -18419,6 +19033,18 @@
     "japanese_name": []
   },
   {
+    "name": "Gene's Autumn Fire",
+    "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "General Douglas MacArthur",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "General Douglas MacARTHUR Ii",
     "species": "Japonica",
     "chinese_name": [],
@@ -18585,6 +19211,12 @@
   },
   {
     "name": "George Stewart",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "George Stewart Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -18820,6 +19452,17 @@
     "japanese_name": []
   },
   {
+    "name": "Gingetsu (Silver Moon)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "银月"
+    ],
+    "japanese_name": [
+      "銀月",
+      "ぎんげつ"
+    ]
+  },
+  {
     "name": "Ginny Anderson",
     "species": "Japonica",
     "chinese_name": [
@@ -18842,6 +19485,12 @@
   {
     "name": "Glad Rags",
     "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Glad Tidings",
+    "species": "Vernalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -19040,6 +19689,12 @@
   },
   {
     "name": "Gloria De Fatima",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Gloria del Verbano",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -19288,6 +19943,17 @@
     "japanese_name": []
   },
   {
+    "name": "Goshozakura",
+    "species": "Japonica",
+    "chinese_name": [
+      "御所樱"
+    ],
+    "japanese_name": [
+      "御所桜",
+      "ごしょざくら"
+    ]
+  },
+  {
     "name": "Gossamer Wings",
     "species": "Sasanqua",
     "chinese_name": [],
@@ -19515,6 +20181,14 @@
     "japanese_name": []
   },
   {
+    "name": "Grady's Egao",
+    "species": "Vernalis",
+    "chinese_name": [
+      "倩影"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Graem Yates",
     "species": "Reticulata",
     "chinese_name": [
@@ -19553,6 +20227,14 @@
     "japanese_name": []
   },
   {
+    "name": "Granada Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "复色格兰那达"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Grand Finale",
     "species": "Japonica",
     "chinese_name": [],
@@ -19566,6 +20248,14 @@
   },
   {
     "name": "Grand Jury",
+    "species": "Reticulata",
+    "chinese_name": [
+      "大朱瑞"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Grand Jury (Dazhurui)",
     "species": "Reticulata",
     "chinese_name": [
       "大朱瑞"
@@ -19596,6 +20286,14 @@
       "大奖赏",
       "满贯大赛",
       "头等奖"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Grand Prix Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "复色大奖赏"
     ],
     "japanese_name": []
   },
@@ -19739,7 +20437,7 @@
   },
   {
     "name": "Green's Blues",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "格林蓝"
     ],
@@ -19893,6 +20591,12 @@
   },
   {
     "name": "Gulf Breeze",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Gulf Glory",
     "species": "Sasanqua",
     "chinese_name": [],
     "japanese_name": []
@@ -20112,6 +20816,35 @@
     "japanese_name": []
   },
   {
+    "name": "Hakuhan-kujaku",
+    "species": "Japonica",
+    "chinese_name": [
+      "白斑孔雀"
+    ],
+    "japanese_name": [
+      "白斑孔雀",
+      "はくはんくじゃく"
+    ]
+  },
+  {
+    "name": "Hakusen",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "白扇",
+      "はくせん"
+    ]
+  },
+  {
+    "name": "Hakutaka",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "肥後白鷹",
+      "ひごはくたか"
+    ]
+  },
+  {
     "name": "Halcyon",
     "species": "Japonica",
     "chinese_name": [],
@@ -20262,6 +20995,18 @@
     ]
   },
   {
+    "name": "Hana-no-yuki (Flowers Strewn Like Snow)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "花之雪"
+    ],
+    "japanese_name": [
+      "花の雪 はなのゆき",
+      "花の雪",
+      "はなのゆき"
+    ]
+  },
+  {
     "name": "Hana-No-Yuki (Snow On Flower)",
     "species": "Sasanqua",
     "chinese_name": [
@@ -20273,10 +21018,49 @@
     ]
   },
   {
+    "name": "Hanadaijin (Minister of Flowers)",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": [
+      "花大臣",
+      "はなだいじん"
+    ]
+  },
+  {
+    "name": "Hanadaijin-benten",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "花大臣弁天"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Hanajiman (Flower to Boast of)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "花自慢"
+    ],
+    "japanese_name": [
+      "花自慢",
+      "はなじまん"
+    ]
+  },
+  {
     "name": "Hanami Gasa",
     "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Hanamigasa",
+    "species": "Rusticana",
+    "chinese_name": [
+      "花见笠"
+    ],
+    "japanese_name": [
+      "花見笠",
+      "はなみがさ"
+    ]
   },
   {
     "name": "Hank Stone",
@@ -20906,6 +21690,12 @@
     "japanese_name": []
   },
   {
+    "name": "Helen Glenn Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Helen Jene",
     "species": "Japonica",
     "chinese_name": [],
@@ -21068,6 +21858,15 @@
     "species": "Japonica",
     "chinese_name": [
       "亨利",
+      "大亨利"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Henry Lunsford Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "大亨利(斑)",
       "大亨利"
     ],
     "japanese_name": []
@@ -21432,6 +22231,18 @@
     "japanese_name": []
   },
   {
+    "name": "Hikarugenji",
+    "species": "Japonica",
+    "chinese_name": [
+      "光源氏",
+      "何美"
+    ],
+    "japanese_name": [
+      "光源氏",
+      "ひかるげんじ"
+    ]
+  },
+  {
     "name": "Hilda Jaggs",
     "species": "NRH",
     "chinese_name": [],
@@ -21478,6 +22289,18 @@
     "japanese_name": []
   },
   {
+    "name": "Hina-wabisuke",
+    "species": "Wabisuke",
+    "chinese_name": [
+      "绯之香",
+      "雏佗介"
+    ],
+    "japanese_name": [
+      "皺佗助",
+      "ひなわびすけ"
+    ]
+  },
+  {
     "name": "Hinode-Gumo",
     "species": "Sasanqua",
     "chinese_name": [
@@ -21497,6 +22320,16 @@
     "japanese_name": [
       "日の出の海",
       "ひのでのうみ"
+    ]
+  },
+  {
+    "name": "Hinomaru (Hi-no-maru)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "日の丸 ひのまる",
+      "日の丸",
+      "ひのまる"
     ]
   },
   {
@@ -21533,7 +22366,7 @@
   },
   {
     "name": "Hiryû (Australian)",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -21616,6 +22449,14 @@
       "冬青之光",
       "侯利布莱特",
       "皱叶奇花"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Holly Bright Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "花皱奇"
     ],
     "japanese_name": []
   },
@@ -21714,6 +22555,14 @@
     "japanese_name": []
   },
   {
+    "name": "Hongluzhen",
+    "species": "Japonica",
+    "chinese_name": [
+      "红露珍"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Hongluzhen (Red Showing Treasure)",
     "species": "Japonica",
     "chinese_name": [
@@ -21745,6 +22594,12 @@
       "金华美女",
       "红叶贝拉"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Hooker",
+    "species": "NRH",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -21885,6 +22740,15 @@
     "japanese_name": []
   },
   {
+    "name": "Howard Asper Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "霍华德(斑）",
+      "霍华德"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Howard Burnette",
     "species": "Reticulata",
     "chinese_name": [],
@@ -21980,6 +22844,16 @@
     "chinese_name": [
       "史密斯",
       "修林史密司",
+      "珊瑚恋"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Hulyn Smith Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "修林史密斯(斑）",
+      "修林史密斯",
       "珊瑚恋"
     ],
     "japanese_name": []
@@ -22293,6 +23167,18 @@
     "japanese_name": []
   },
   {
+    "name": "Imbricata Dunlapii",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Imbricata Rubra",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Imbricata Rubra Plena",
     "species": "Japonica",
     "chinese_name": [
@@ -22474,8 +23360,14 @@
     ]
   },
   {
+    "name": "Insula Oya",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Interlude",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "插曲",
       "富贵海",
@@ -22811,9 +23703,23 @@
     "japanese_name": []
   },
   {
+    "name": "J-Wings",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "J. Bishop Alexander Ii",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. C. Williams",
+    "species": "NRH",
+    "chinese_name": [
+      "广东花"
+    ],
     "japanese_name": []
   },
   {
@@ -22828,6 +23734,20 @@
     "name": "J. J. Joyner",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. J. Pringle Smith",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. J. Whitfield",
+    "species": "Japonica",
+    "chinese_name": [
+      "白野"
+    ],
     "japanese_name": []
   },
   {
@@ -22852,7 +23772,19 @@
     "japanese_name": []
   },
   {
+    "name": "J. Morgan Sprott",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "J. R. Rosa",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. Stewart Howard",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -22946,6 +23878,12 @@
     "japanese_name": []
   },
   {
+    "name": "Jack's",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Jack's Pride",
     "species": "Japonica",
     "chinese_name": [],
@@ -22992,6 +23930,12 @@
   },
   {
     "name": "Jacksoni",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jacksonii",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -23129,6 +24073,12 @@
   {
     "name": "Jan Hughes",
     "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jan J.",
+    "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -23427,6 +24377,12 @@
   },
   {
     "name": "Jay Ellis",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jay's Surprise",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -23888,6 +24844,15 @@
     "japanese_name": []
   },
   {
+    "name": "Jessie Burgess Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "花柏格斯",
+      "自由城市"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Jessie Conner",
     "species": "Japonica",
     "chinese_name": [
@@ -24244,6 +25209,17 @@
     "japanese_name": []
   },
   {
+    "name": "Jitsugetsusei",
+    "species": "Japonica",
+    "chinese_name": [
+      "日月星"
+    ],
+    "japanese_name": [
+      "日月星",
+      "じつげつせし"
+    ]
+  },
+  {
     "name": "Jo Anna Wilson",
     "species": "Japonica",
     "chinese_name": [],
@@ -24463,6 +25439,18 @@
     "japanese_name": []
   },
   {
+    "name": "John Illges",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "John L. Shirah",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "John Movich",
     "species": "Reticulata",
     "chinese_name": [],
@@ -24481,8 +25469,20 @@
     "japanese_name": []
   },
   {
+    "name": "John Rumbach",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "John Taylor",
     "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "John Williams",
+    "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -24783,6 +25783,15 @@
     "japanese_name": []
   },
   {
+    "name": "Jubilation Variegated",
+    "species": "NRH",
+    "chinese_name": [
+      "新庆祝",
+      "庆祝"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Judge Jackson",
     "species": "Reticulata",
     "chinese_name": [],
@@ -24918,6 +25927,14 @@
     "name": "Juil",
     "species": "Sasanqua",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jules verne",
+    "species": "Japonica",
+    "chinese_name": [
+      "儒勒凡尔纳"
+    ],
     "japanese_name": []
   },
   {
@@ -25446,13 +26463,13 @@
   },
   {
     "name": "Kan-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
   {
     "name": "Kanjiro",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -25479,7 +26496,7 @@
   },
   {
     "name": "Kara-Goromo",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -25498,6 +26515,18 @@
     "japanese_name": [
       "唐錦",
       "からにしき"
+    ]
+  },
+  {
+    "name": "Karabenten",
+    "species": "Japonica",
+    "chinese_name": [
+      "唐弁天",
+      "唐办天"
+    ],
+    "japanese_name": [
+      "唐弁天",
+      "からべんてん"
     ]
   },
   {
@@ -25540,6 +26569,18 @@
     "name": "Kasuga-Yama",
     "species": "Rusticana",
     "chinese_name": [
+      "春曰山"
+    ],
+    "japanese_name": [
+      "春日山",
+      "かすがやま"
+    ]
+  },
+  {
+    "name": "Kasugayama",
+    "species": "Rusticana",
+    "chinese_name": [
+      "春日山",
       "春曰山"
     ],
     "japanese_name": [
@@ -25766,6 +26807,12 @@
     "japanese_name": []
   },
   {
+    "name": "Katie Northcutt Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Katie Shipley",
     "species": "Reticulata",
     "chinese_name": [],
@@ -25898,7 +26945,7 @@
   },
   {
     "name": "Kelly McKnight",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -25962,6 +27009,18 @@
   },
   {
     "name": "Kenny Howard",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kerdalo",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kerguelen",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -26065,6 +27124,16 @@
     "japanese_name": []
   },
   {
+    "name": "Ki-no-senritsu",
+    "species": "NRH",
+    "chinese_name": [
+      "黄的旋律"
+    ],
+    "japanese_name": [
+      "黄の旋律"
+    ]
+  },
+  {
     "name": "Ki-No-Senritsu (Yellow Melody).",
     "species": "NRH",
     "chinese_name": [
@@ -26151,6 +27220,12 @@
     "japanese_name": []
   },
   {
+    "name": "Kim McGowan",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Kimberley",
     "species": "Japonica",
     "chinese_name": [
@@ -26161,6 +27236,12 @@
   },
   {
     "name": "Kimberley Junior",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kimberly Junior",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -26261,7 +27342,7 @@
   },
   {
     "name": "Kira-Shiro-Kantsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "吉良白寒椿"
     ],
@@ -26405,8 +27486,26 @@
   {
     "name": "Kogane Nishiki",
     "species": "NRH",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "金色锦锻",
+      "黄锦秀"
+    ],
+    "japanese_name": [
+      "こがね錦",
+      "こがねにしき"
+    ]
+  },
+  {
+    "name": "Kogane-nishiki (Golden Brocade)",
+    "species": "NRH",
+    "chinese_name": [
+      "金色锦锻",
+      "黄锦秀"
+    ],
+    "japanese_name": [
+      "こがね錦",
+      "こがねにしき"
+    ]
   },
   {
     "name": "Kogane-Yuri",
@@ -26421,6 +27520,19 @@
     ]
   },
   {
+    "name": "Kogane-yuri (Golden Lily)",
+    "species": "Reticulata",
+    "chinese_name": [
+      "金百合花",
+      "金币",
+      "黄金百合"
+    ],
+    "japanese_name": [
+      "こがねゆり こがねゆり",
+      "こがねゆり"
+    ]
+  },
+  {
     "name": "Kogyoku",
     "species": "Sasanqua",
     "chinese_name": [],
@@ -26430,6 +27542,15 @@
     "name": "Kohinor",
     "species": "Reticulata",
     "chinese_name": [
+      "科欣诺"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Kohinor Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "科欣诺(斑)",
       "科欣诺"
     ],
     "japanese_name": []
@@ -26490,6 +27611,17 @@
     "japanese_name": []
   },
   {
+    "name": "Konronkoku",
+    "species": "Japonica",
+    "chinese_name": [
+      "昆仑黑"
+    ],
+    "japanese_name": [
+      "崑崙黒",
+      "こんろんこく"
+    ]
+  },
+  {
     "name": "Korean Fire",
     "species": "Japonica",
     "chinese_name": [],
@@ -26530,6 +27662,28 @@
     ]
   },
   {
+    "name": "Koshi-no-reijin (Niigata Beauty)",
+    "species": "Japonica",
+    "chinese_name": [
+      "越之丽人"
+    ],
+    "japanese_name": [
+      "越の麗人 こしのれいじん",
+      "越の麗人",
+      "こしのれいじん"
+    ]
+  },
+  {
+    "name": "Koshi-no-yoso'oi",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "越の粧い こしのよそおい",
+      "越の粧い",
+      "こしのよそおい"
+    ]
+  },
+  {
     "name": "Koshi-No-Yoso'Oi (Niigata Adornment)",
     "species": "Japonica",
     "chinese_name": [],
@@ -26565,6 +27719,17 @@
     ],
     "japanese_name": [
       "古都の香"
+    ]
+  },
+  {
+    "name": "Kotsuzumi (Small Drum)",
+    "species": "Vernalis",
+    "chinese_name": [
+      "小鼓"
+    ],
+    "japanese_name": [
+      "小鼓",
+      "こつづみ"
     ]
   },
   {
@@ -26664,6 +27829,12 @@
   },
   {
     "name": "Kubal Kain Supreme",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kubal Kain Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -26864,7 +28035,19 @@
     ]
   },
   {
+    "name": "L'Ange Bleu",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "L'Avenire",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "L'Avvenire",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -27489,6 +28672,12 @@
     "japanese_name": []
   },
   {
+    "name": "Lanarth",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Landon Waters",
     "species": "Japonica",
     "chinese_name": [],
@@ -27552,7 +28741,23 @@
     "japanese_name": []
   },
   {
+    "name": "LASCA Beauty Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "加州美女(斑）",
+      "加州美女",
+      "复色拉斯卡"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Lassie",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Lassie Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -27806,6 +29011,23 @@
     "japanese_name": []
   },
   {
+    "name": "Lavinia Maggi",
+    "species": "Japonica",
+    "chinese_name": [
+      "肯玛吉",
+      "拉芬玛吉"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Lavinia Maggi Rosea",
+    "species": "Japonica",
+    "chinese_name": [
+      "拉芬玛吉玫瑰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Lawrence Haines",
     "species": "Japonica",
     "chinese_name": [],
@@ -28005,6 +29227,12 @@
   },
   {
     "name": "Lela Laurents",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Lela Laurents Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -28564,6 +29792,12 @@
   },
   {
     "name": "Lillian Mann",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Lillian Ricketts",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -29725,6 +30959,15 @@
     "japanese_name": []
   },
   {
+    "name": "Lucky Seven Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "幸运七(斑）",
+      "幸运七"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Lucky Star",
     "species": "NRH",
     "chinese_name": [
@@ -29998,6 +31241,12 @@
     "japanese_name": []
   },
   {
+    "name": "Madame Ambroise Verschaffelt",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Charles Blard",
     "species": "Japonica",
     "chinese_name": [],
@@ -30059,13 +31308,34 @@
     "japanese_name": []
   },
   {
+    "name": "Madame Lourmand",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Marguerite Calusaut",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
   },
   {
+    "name": "Madame Martin Cachet",
+    "species": "Japonica",
+    "chinese_name": [
+      "马丁凱琪夫人",
+      "马丁凯琪夫人"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Picouline",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Madame Picouline (Akaroa Rouge)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -30124,6 +31394,14 @@
     "chinese_name": [
       "麦哲伦",
       "斑色埃及艳后"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Magali",
+    "species": "Japonica",
+    "chinese_name": [
+      "马加利"
     ],
     "japanese_name": []
   },
@@ -30437,6 +31715,15 @@
     "japanese_name": []
   },
   {
+    "name": "Mandalay Queen Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "满清皇后(斑)",
+      "满清皇后"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Mandie Shuman",
     "species": "Japonica",
     "chinese_name": [],
@@ -30487,6 +31774,18 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Manzairaku",
+    "species": "Japonica",
+    "chinese_name": [
+      "万岁乐",
+      "万才乐"
+    ],
+    "japanese_name": [
+      "万歳楽",
+      "まんざいらく"
+    ]
   },
   {
     "name": "Mar-Vel Murray",
@@ -30970,6 +32269,12 @@
     "japanese_name": []
   },
   {
+    "name": "Marguerite Sears Supreme",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Marguerite Tourje",
     "species": "Japonica",
     "chinese_name": [],
@@ -31020,6 +32325,15 @@
     "name": "Marian Mitchell",
     "species": "Japonica",
     "chinese_name": [
+      "玛莉安"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Marian Mitchell Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "玛莉安(斑）",
       "玛莉安"
     ],
     "japanese_name": []
@@ -31441,6 +32755,12 @@
     "japanese_name": []
   },
   {
+    "name": "Mark Chason Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Mark Culver",
     "species": "Japonica",
     "chinese_name": [],
@@ -31649,6 +32969,12 @@
     "chinese_name": [
       "玛萨"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Martha Norwood Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -32073,8 +33399,14 @@
     "japanese_name": []
   },
   {
+    "name": "Mary Jane Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Mary Jennifer",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -32424,6 +33756,17 @@
     "japanese_name": []
   },
   {
+    "name": "Masayoshi",
+    "species": "Japonica",
+    "chinese_name": [
+      "正义"
+    ],
+    "japanese_name": [
+      "正義",
+      "まさよし"
+    ]
+  },
+  {
     "name": "Mason Farm",
     "species": "NRH",
     "chinese_name": [
@@ -32445,6 +33788,12 @@
       "美西大道",
       "梅西大道"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Massee Lane Variegated",
+    "species": "Reticulata",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -32594,6 +33943,18 @@
     ]
   },
   {
+    "name": "Matsukasa (Pine Cone)",
+    "species": "Japonica",
+    "chinese_name": [
+      "松子",
+      "松笠"
+    ],
+    "japanese_name": [
+      "松笠",
+      "まつかさ"
+    ]
+  },
+  {
     "name": "Matterhorn",
     "species": "Japonica",
     "chinese_name": [
@@ -32629,6 +33990,12 @@
   },
   {
     "name": "Mattie O'Reilly",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Mattie O'Reilly Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -32940,6 +34307,12 @@
     "japanese_name": []
   },
   {
+    "name": "Melanie Ann Poe",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Melanie Anne Poe",
     "species": "Japonica",
     "chinese_name": [],
@@ -33083,7 +34456,7 @@
   },
   {
     "name": "Meoto-Zaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -33266,6 +34639,12 @@
   },
   {
     "name": "Michelle Howell",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Michelle S Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -33455,6 +34834,19 @@
     ]
   },
   {
+    "name": "Mikuni-no-homare (Nation's Honor)",
+    "species": "Japonica",
+    "chinese_name": [
+      "御国之誉",
+      "御国"
+    ],
+    "japanese_name": [
+      "御国の誉 みくにのほまれ",
+      "御国の誉",
+      "みくにのほまれ"
+    ]
+  },
+  {
     "name": "Mikuni-No-Homare Red",
     "species": "Japonica",
     "chinese_name": [
@@ -33538,6 +34930,12 @@
     "japanese_name": []
   },
   {
+    "name": "Milton Brown",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Milton H. Brown",
     "species": "Reticulata",
     "chinese_name": [],
@@ -33584,6 +34982,18 @@
     ]
   },
   {
+    "name": "Minato-no-haru",
+    "species": "NRH",
+    "chinese_name": [
+      "港春"
+    ],
+    "japanese_name": [
+      "港の春 みなとのはる",
+      "港の春",
+      "みなとのはる"
+    ]
+  },
+  {
     "name": "Minato-No-Haru (Harbor In Spring)",
     "species": "NRH",
     "chinese_name": [
@@ -33597,6 +35007,14 @@
   {
     "name": "Mine-No-Yuki",
     "species": "Japonica",
+    "chinese_name": [
+      "峰之雪茶梅"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Mine-no-yuki (Snow on the Ridge)",
+    "species": "Sasanqua",
     "chinese_name": [
       "峰之雪茶梅"
     ],
@@ -33730,7 +35148,7 @@
   },
   {
     "name": "Minuet",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -33754,7 +35172,7 @@
   },
   {
     "name": "Mirandy",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -34381,6 +35799,19 @@
     ]
   },
   {
+    "name": "Miyako-no-haru (Metropolis Spring)",
+    "species": "Japonica",
+    "chinese_name": [
+      "都之春",
+      "都春"
+    ],
+    "japanese_name": [
+      "都の春 みやこのはる",
+      "都の春",
+      "みやこのはる"
+    ]
+  },
+  {
     "name": "Miyako-No-Nishiki",
     "species": "Japonica",
     "chinese_name": [],
@@ -34394,6 +35825,15 @@
     "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Mizuyoshi",
+    "species": "Rusticana",
+    "chinese_name": [],
+    "japanese_name": [
+      "水吉",
+      "みずよし"
+    ]
   },
   {
     "name": "Mme. Chiang Kai-Shek",
@@ -34534,6 +35974,19 @@
     ]
   },
   {
+    "name": "Momozono-nishiki (Peach Garden Brocade)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "桃园锦",
+      "平和"
+    ],
+    "japanese_name": [
+      "桃園錦",
+      "ももぞのにしき",
+      "平和の光"
+    ]
+  },
+  {
     "name": "Mona Freeman",
     "species": "Japonica",
     "chinese_name": [],
@@ -34557,6 +36010,15 @@
       "莫娜朱瑞",
       "珠黄牡丹",
       "蒙娜朱瑞"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Mona Jury Variegated",
+    "species": "NRH",
+    "chinese_name": [
+      "莫娜朱端(斑）",
+      "莫娜朱端"
     ],
     "japanese_name": []
   },
@@ -34604,6 +36066,12 @@
   {
     "name": "Monica",
     "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Monica Dance",
+    "species": "NRH",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -34660,6 +36128,12 @@
       "大红云",
       "红龙"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Mont Blanc",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -34734,6 +36208,12 @@
     "chinese_name": [
       "月亮节"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Moon Glow",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -35494,6 +36974,12 @@
   },
   {
     "name": "Murillo",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Murillo (Tuckfield)",
     "species": "Reticulata",
     "chinese_name": [],
     "japanese_name": []
@@ -36390,6 +37876,17 @@
     "japanese_name": []
   },
   {
+    "name": "Nishiki-kirin (Kirin Brocade)",
+    "species": "Rusticana",
+    "chinese_name": [
+      "锦麒麟"
+    ],
+    "japanese_name": [
+      "錦麒麟",
+      "にしききりん"
+    ]
+  },
+  {
     "name": "Nita Mcrae",
     "species": "Reticulata",
     "chinese_name": [],
@@ -36447,7 +37944,7 @@
   },
   {
     "name": "Noela's Pick",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -36723,6 +38220,17 @@
     "japanese_name": []
   },
   {
+    "name": "Nuccio's Ruby Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "纽西欧红玉(斑）",
+      "纽西欧红玉",
+      "纽西耳红宝石",
+      "牛西奥新红宝石"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Nu’Erhong",
     "species": "NRH",
     "chinese_name": [],
@@ -36877,6 +38385,14 @@
     "japanese_name": []
   },
   {
+    "name": "October Magic White Shi-Shi",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "十月梦露"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Ode Of Edgewood",
     "species": "Japonica",
     "chinese_name": [],
@@ -36935,6 +38451,19 @@
       "冲之浪"
     ],
     "japanese_name": [
+      "沖の浪",
+      "おきのなみ",
+      "冲の浪"
+    ]
+  },
+  {
+    "name": "Oki-no-nami (Waves in the Offing)",
+    "species": "Japonica",
+    "chinese_name": [
+      "冲之浪"
+    ],
+    "japanese_name": [
+      "沖の浪 おきのなみ",
       "沖の浪",
       "おきのなみ",
       "冲の浪"
@@ -37224,6 +38753,15 @@
     "japanese_name": []
   },
   {
+    "name": "Oscar B. Elmer Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "奥斯卡(斑)",
+      "奥斯卡"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Osmanthus Leaf Carmine",
     "species": "Reticulata",
     "chinese_name": [],
@@ -37281,6 +38819,19 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Otome-sazanka",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "乙女茶梅",
+      "乙女山茶花"
+    ],
+    "japanese_name": [
+      "乙女サザン力 おとめさざんか",
+      "乙女サザン力",
+      "おとめさざんか"
+    ]
   },
   {
     "name": "Otome-Shibori",
@@ -37664,6 +39215,15 @@
     "japanese_name": []
   },
   {
+    "name": "Paolina Guichardini",
+    "species": "Japonica",
+    "chinese_name": [
+      "包林奇卡汀",
+      "包琳纳奇卡汀"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Paolina Maggi",
     "species": "Japonica",
     "chinese_name": [
@@ -37749,7 +39309,7 @@
   },
   {
     "name": "Paradise Beverly",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -37769,7 +39329,7 @@
   },
   {
     "name": "Paradise Caroline",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "澳卡林",
       "卡若林"
@@ -37823,6 +39383,12 @@
     "japanese_name": []
   },
   {
+    "name": "Paradise Illumination",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Paradise Jenni",
     "species": "Sasanqua",
     "chinese_name": [
@@ -37842,7 +39408,7 @@
   },
   {
     "name": "Paradise Jill",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -37908,7 +39474,7 @@
   },
   {
     "name": "Paradise Sandra",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "仙躲儿",
       "山德拉"
@@ -38295,6 +39861,18 @@
     "japanese_name": []
   },
   {
+    "name": "Paul Maymou",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Paul Plantiveau",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Paul Sherrington",
     "species": "Japonica",
     "chinese_name": [],
@@ -38403,6 +39981,12 @@
     "japanese_name": []
   },
   {
+    "name": "Peach Blossom (Fleur Dipater)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Peach Blush",
     "species": "Japonica",
     "chinese_name": [],
@@ -38410,7 +39994,7 @@
   },
   {
     "name": "Peach Puff",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -38537,7 +40121,7 @@
   },
   {
     "name": "Peerless",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -38649,6 +40233,14 @@
     "name": "Perla",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Perle de l'Odet",
+    "species": "Japonica",
+    "chinese_name": [
+      "奥德特之珠"
+    ],
     "japanese_name": []
   },
   {
@@ -38811,6 +40403,12 @@
     "japanese_name": []
   },
   {
+    "name": "Phoenix",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Photenia P",
     "species": "Japonica",
     "chinese_name": [],
@@ -38866,6 +40464,12 @@
   },
   {
     "name": "Piccadilly",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Picturata",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -39177,7 +40781,7 @@
   },
   {
     "name": "Pink Goddess",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "粉红女神"
     ],
@@ -39434,6 +41038,14 @@
     "japanese_name": []
   },
   {
+    "name": "Pink Ruffles (Sebire)",
+    "species": "NRH",
+    "chinese_name": [
+      "粉红壁饰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Pink Satin",
     "species": "Japonica",
     "chinese_name": [],
@@ -39463,13 +41075,13 @@
   },
   {
     "name": "Pink Shishi-Gashira",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
   {
     "name": "Pink Shower",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "粉红烟雨",
       "粉红阵雨"
@@ -39585,6 +41197,12 @@
       "粉翅",
       "飞行翼"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Pink Yuletide",
+    "species": "Sasanqua",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -39706,6 +41324,12 @@
     "japanese_name": []
   },
   {
+    "name": "Pocahontas (Haynie)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Pod Mate",
     "species": "Japonica",
     "chinese_name": [
@@ -39734,8 +41358,29 @@
     "japanese_name": []
   },
   {
+    "name": "Polar Ice",
+    "species": "NRH",
+    "chinese_name": [
+      "北极冰",
+      "北极冰原"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Polaris",
+    "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Polly Mitchell",
     "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Polly Trapnell Dorsey",
+    "species": "NRH",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -39949,6 +41594,12 @@
     "japanese_name": []
   },
   {
+    "name": "Preston Rose",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Pretty In Pink",
     "species": "Japonica",
     "chinese_name": [],
@@ -39974,7 +41625,7 @@
   },
   {
     "name": "Pretty Patsy",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -40165,6 +41816,12 @@
     "chinese_name": [
       "贝西乌奇公主"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Princess Baciocchi Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -40364,6 +42021,12 @@
     "japanese_name": []
   },
   {
+    "name": "Puce",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Puck",
     "species": "Japonica",
     "chinese_name": [],
@@ -40438,7 +42101,7 @@
   },
   {
     "name": "Purple Haze",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -40976,6 +42639,12 @@
     "japanese_name": []
   },
   {
+    "name": "Ray Gentry Variegated",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ray Lange",
     "species": "Japonica",
     "chinese_name": [],
@@ -40984,6 +42653,12 @@
   {
     "name": "Ray Watson",
     "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Raymond Beales",
+    "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -41007,6 +42682,12 @@
   },
   {
     "name": "Razzle-Dazzle",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Rebecca",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -41247,6 +42928,15 @@
     "name": "Red Elephant",
     "species": "Japonica",
     "chinese_name": [
+      "红象"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Red Elephant Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "红象(斑)",
       "红象"
     ],
     "japanese_name": []
@@ -41593,6 +43283,12 @@
   },
   {
     "name": "Regina Dei Giganti",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Regina dei Giganti (US)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -42275,6 +43971,14 @@
     "japanese_name": []
   },
   {
+    "name": "Roi des Belges",
+    "species": "Japonica",
+    "chinese_name": [
+      "比利时"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Roi Leopold",
     "species": "Japonica",
     "chinese_name": [],
@@ -42460,6 +44164,12 @@
     "japanese_name": []
   },
   {
+    "name": "Rose Dawn",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Rose Dawn (Davis)",
     "species": "Japonica",
     "chinese_name": [],
@@ -42507,7 +44217,7 @@
   },
   {
     "name": "Rose Of Autumn",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -42595,11 +44305,30 @@
     "japanese_name": []
   },
   {
+    "name": "Rosea Plena (MG)",
+    "species": "Japonica",
+    "chinese_name": [
+      "粉红玫瑰花",
+      "罗莎普莉娜",
+      "深纹玫瑰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Rosea Superba",
     "species": "Japonica",
     "chinese_name": [
       "玫瑰茶",
       "赛玫瑰"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Rosea Superba (US)",
+    "species": "Japonica",
+    "chinese_name": [
+      "赛玫瑰",
+      "超级玫瑰"
     ],
     "japanese_name": []
   },
@@ -42762,6 +44491,12 @@
     "japanese_name": []
   },
   {
+    "name": "Rouge Baiser",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Rouge Variegated",
     "species": "Japonica",
     "chinese_name": [],
@@ -42868,6 +44603,12 @@
     "japanese_name": []
   },
   {
+    "name": "Royal Trumpeter",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Royal Velvet",
     "species": "Japonica",
     "chinese_name": [
@@ -42921,6 +44662,14 @@
     "name": "Rubaiyat",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Rubens",
+    "species": "Japonica",
+    "chinese_name": [
+      "鲁宾士"
+    ],
     "japanese_name": []
   },
   {
@@ -43261,6 +45010,12 @@
     "japanese_name": []
   },
   {
+    "name": "Ruth Smith",
+    "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ruth Stewart",
     "species": "Japonica",
     "chinese_name": [],
@@ -43354,6 +45109,12 @@
     "japanese_name": []
   },
   {
+    "name": "Sabiniana",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Sabrina",
     "species": "Japonica",
     "chinese_name": [
@@ -43434,6 +45195,12 @@
     "japanese_name": []
   },
   {
+    "name": "Saint Philibert",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Sainty's Special",
     "species": "Japonica",
     "chinese_name": [],
@@ -43460,6 +45227,17 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Sakuraba-Tsubaki",
+    "species": "Japonica",
+    "chinese_name": [
+      "樱叶椿"
+    ],
+    "japanese_name": [
+      "桜葉椿",
+      "さくらばつばき"
+    ]
   },
   {
     "name": "Sakuraba-Tsubaki Cherry Leaf Camellia)",
@@ -43714,13 +45492,13 @@
   },
   {
     "name": "Sandan",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
   {
     "name": "Sandan-Zaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -43817,6 +45595,17 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Sanpei-tsubaki",
+    "species": "Japonica",
+    "chinese_name": [
+      "参平椿"
+    ],
+    "japanese_name": [
+      "参平椿",
+      "さんぺいつばき"
+    ]
   },
   {
     "name": "Santa Cruz",
@@ -44030,6 +45819,14 @@
     "japanese_name": []
   },
   {
+    "name": "Sasanqua Compacta (Nuccio)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "紧密茶梅"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Sassafras Zoe",
     "species": "Japonica",
     "chinese_name": [
@@ -44157,6 +45954,15 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Sayohime (Princess of Sayo)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [
+      "佐用媛",
+      "さよひめ"
+    ]
   },
   {
     "name": "Sayonara",
@@ -44349,6 +46155,14 @@
     "japanese_name": []
   },
   {
+    "name": "Sea Shell",
+    "species": "Japonica",
+    "chinese_name": [
+      "海贝"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Sea Witch",
     "species": "Japonica",
     "chinese_name": [],
@@ -44381,8 +46195,16 @@
     "japanese_name": []
   },
   {
+    "name": "Seigneur d'Oudon",
+    "species": "Japonica",
+    "chinese_name": [
+      "欧东领主"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Seikaiha (Quiet Ocean Waves)",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -44395,6 +46217,12 @@
   {
     "name": "Sekiyô (Setting Sun)",
     "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Seko-no-yuki",
+    "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -44505,6 +46333,17 @@
   },
   {
     "name": "Setsugekka",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "雪月花茶梅"
+    ],
+    "japanese_name": [
+      "雪月花",
+      "せつげっか"
+    ]
+  },
+  {
+    "name": "Setsugekka (Snow, Moon and Flowers)",
     "species": "Sasanqua",
     "chinese_name": [
       "雪月花茶梅"
@@ -44769,6 +46608,14 @@
     "japanese_name": []
   },
   {
+    "name": "Shengjie (Holy Pure)",
+    "species": "Reticulata",
+    "chinese_name": [
+      "圣洁"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Shepherdess",
     "species": "Japonica",
     "chinese_name": [
@@ -44841,6 +46688,26 @@
     "japanese_name": []
   },
   {
+    "name": "Shibori-egao",
+    "species": "Vernalis",
+    "chinese_name": [
+      "花笑颜"
+    ],
+    "japanese_name": [
+      "絞笑顔",
+      "しぼりえがお"
+    ]
+  },
+  {
+    "name": "Shibori-egao Corkscrew",
+    "species": "Vernalis",
+    "chinese_name": [
+      "斑叶九转螺丝",
+      "九转螺丝"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Shibori-Otome",
     "species": "Japonica",
     "chinese_name": [
@@ -44878,13 +46745,13 @@
   },
   {
     "name": "Shikishima (Poetic Name For Japan)",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
   {
     "name": "Shikishima Splash",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -44960,6 +46827,39 @@
     ]
   },
   {
+    "name": "Shinonome (Japonica)",
+    "species": "Japonica",
+    "chinese_name": [
+      "东云茶梅"
+    ],
+    "japanese_name": [
+      "東雲",
+      "しののめ"
+    ]
+  },
+  {
+    "name": "Shinonome (Sasanqua - Eastern Cloud)",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "东云茶梅"
+    ],
+    "japanese_name": [
+      "東雲",
+      "しののめ"
+    ]
+  },
+  {
+    "name": "Shintsukasa-nishiki",
+    "species": "Japonica",
+    "chinese_name": [
+      "新司锦"
+    ],
+    "japanese_name": [
+      "新司錦",
+      "しつかさにしき"
+    ]
+  },
+  {
     "name": "Shira Sagi",
     "species": "Japonica",
     "chinese_name": [],
@@ -45004,6 +46904,15 @@
     "japanese_name": [
       "不知火",
       "しらぬい"
+    ]
+  },
+  {
+    "name": "Shirayuki",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "白雪",
+      "しらゆき"
     ]
   },
   {
@@ -45128,9 +47037,20 @@
   },
   {
     "name": "Shishi-Gashira",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Shishigashira",
+    "species": "Hiemalis",
+    "chinese_name": [
+      "日本狮子头"
+    ],
+    "japanese_name": [
+      "獅子頭",
+      "ししがしら"
+    ]
   },
   {
     "name": "Shivel Duncan",
@@ -45232,7 +47152,7 @@
   },
   {
     "name": "Showa Supreme",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -45250,7 +47170,7 @@
   },
   {
     "name": "Showa-No-Sakae",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -45340,6 +47260,16 @@
     "japanese_name": []
   },
   {
+    "name": "Silicon Valley",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "硅谷"
+    ],
+    "japanese_name": [
+      "シリコンバレー"
+    ]
+  },
+  {
     "name": "Silk Road",
     "species": "Reticulata",
     "chinese_name": [],
@@ -45378,6 +47308,14 @@
   },
   {
     "name": "Silver Cloud",
+    "species": "Japonica",
+    "chinese_name": [
+      "银云"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Silver Cloud (Nuccio's)",
     "species": "Japonica",
     "chinese_name": [
       "银云"
@@ -45985,6 +47923,14 @@
     "japanese_name": []
   },
   {
+    "name": "Snowflake",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "雪花"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Snowflake (Sawada)",
     "species": "Sasanqua",
     "chinese_name": [
@@ -46104,7 +48050,7 @@
   },
   {
     "name": "Somerset",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -46323,7 +48269,7 @@
   },
   {
     "name": "Sparkling Burgundy",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "葡萄酒",
       "火红白兰地",
@@ -46336,7 +48282,7 @@
   },
   {
     "name": "Sparkling Burgundy Blush",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -46453,6 +48399,12 @@
   },
   {
     "name": "Splash-O-White",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Splendens Carlyon",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -46726,7 +48678,7 @@
   },
   {
     "name": "Stan Jones",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "袖月"
     ],
@@ -46758,6 +48710,20 @@
       "艳阳春"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Star Above Star",
+    "species": "Vernalis",
+    "chinese_name": [
+      "星上星",
+      "超级巨星"
+    ],
+    "japanese_name": [
+      "スター&#183",
+      "アバブ&#183",
+      "スター",
+      "アバブ"
+    ]
   },
   {
     "name": "Star Bright",
@@ -46844,6 +48810,12 @@
   },
   {
     "name": "Stars And Bars",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Stella Sewell",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -46948,6 +48920,12 @@
   },
   {
     "name": "Steve Blount",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Steve Blount Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -47337,6 +49315,12 @@
     "japanese_name": []
   },
   {
+    "name": "Sunbeam",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Sunburst",
     "species": "Japonica",
     "chinese_name": [],
@@ -47504,6 +49488,12 @@
   },
   {
     "name": "Surprise",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Surprise (MG)",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -47937,6 +49927,12 @@
     "japanese_name": []
   },
   {
+    "name": "Sweetheart (Huntington)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Sweetie Pie",
     "species": "Japonica",
     "chinese_name": [
@@ -47975,6 +49971,12 @@
     "japanese_name": []
   },
   {
+    "name": "Sylvia",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Sylvia May",
     "species": "NRH",
     "chinese_name": [],
@@ -47992,6 +49994,12 @@
     "chinese_name": [
       "交响乐"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Symphonette Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -48023,6 +50031,12 @@
   },
   {
     "name": "T. C. Patin Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "T. K. Variegated",
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
@@ -48093,6 +50107,17 @@
     "japanese_name": []
   },
   {
+    "name": "Tai-shuhai",
+    "species": "Sasanqua",
+    "chinese_name": [
+      "大朱杯"
+    ],
+    "japanese_name": [
+      "大朱盃",
+      "たいしゅはい"
+    ]
+  },
+  {
     "name": "Tai-Tai",
     "species": "Japonica",
     "chinese_name": [],
@@ -48114,6 +50139,15 @@
     ]
   },
   {
+    "name": "Taiheiraku (Pacific Music)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "太平楽",
+      "たいへいらく"
+    ]
+  },
+  {
     "name": "Taishuhai",
     "species": "Sasanqua",
     "chinese_name": [
@@ -48123,6 +50157,14 @@
       "大朱盃",
       "だいしゅはい"
     ]
+  },
+  {
+    "name": "Taiwan Jiuqu",
+    "species": "Japonica",
+    "chinese_name": [
+      "台湾九曲"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Taiyo (The Sun)",
@@ -48141,6 +50183,16 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": [
+      "高嶺の雪",
+      "たかねのゆき"
+    ]
+  },
+  {
+    "name": "Takane-no-yuki (Snow on the High Peaks)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "高嶺の雪 たかねのゆき",
       "高嶺の雪",
       "たかねのゆき"
     ]
@@ -48688,6 +50740,15 @@
     "japanese_name": []
   },
   {
+    "name": "Terrell Weaver Variegated",
+    "species": "Reticulata",
+    "chinese_name": [
+      "帝罗威门(斑）",
+      "帝罗威门"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Terry Clayton Newell",
     "species": "Japonica",
     "chinese_name": [],
@@ -48697,6 +50758,15 @@
     "name": "Terry Gilley",
     "species": "Japonica",
     "chinese_name": [
+      "心声泪痕"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Terry Gilley Variegated",
+    "species": "Japonica",
+    "chinese_name": [
+      "心声泪痕(斑）",
       "心声泪痕"
     ],
     "japanese_name": []
@@ -49050,6 +51120,12 @@
     "japanese_name": []
   },
   {
+    "name": "Tiffany Variegated",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Tiffany's Dawn",
     "species": "Japonica",
     "chinese_name": [],
@@ -49343,6 +51419,20 @@
       "玛格丽柯莉"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Toki-no-hagasane",
+    "species": "Japonica",
+    "chinese_name": [
+      "鸨羽重",
+      "羽重"
+    ],
+    "japanese_name": [
+      "鴇の羽重 ときのはがさね",
+      "鴇の羽重",
+      "ときのはがさね",
+      "鸨の羽重"
+    ]
   },
   {
     "name": "Toki-No-Hagasane (Feather Of Wild Goose)",
@@ -49937,6 +52027,12 @@
     "japanese_name": []
   },
   {
+    "name": "Tricolor Nova",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Tricolor Pink",
     "species": "Japonica",
     "chinese_name": [],
@@ -50062,6 +52158,18 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Tsuki-no-wa",
+    "species": "Japonica",
+    "chinese_name": [
+      "月之轮"
+    ],
+    "japanese_name": [
+      "月の輪 つきのわ",
+      "月の輪",
+      "つきのわ"
+    ]
   },
   {
     "name": "Tsuki-Sekai",
@@ -50304,7 +52412,7 @@
   },
   {
     "name": "Usubeni",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": [
       "ウスべニ"
@@ -51330,6 +53438,12 @@
     "japanese_name": []
   },
   {
+    "name": "Waltz Dream Variegated",
+    "species": "NRH",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Waltz Time",
     "species": "NRH",
     "chinese_name": [
@@ -52099,7 +54213,7 @@
   },
   {
     "name": "Wild Heart",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -52287,7 +54401,7 @@
   },
   {
     "name": "William Lanier Hunt",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [
       "拉尼尔"
     ],
@@ -52345,6 +54459,12 @@
   },
   {
     "name": "William Sellers",
+    "species": "Reticulata",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "William Sellers Variegated",
     "species": "Reticulata",
     "chinese_name": [],
     "japanese_name": []
@@ -52539,7 +54659,7 @@
   },
   {
     "name": "Winsome",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -52941,6 +55061,12 @@
       "玫瑰花车",
       "伍德特哈立森"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Woodford Harrison Variegated",
+    "species": "Reticulata",
+    "chinese_name": [],
     "japanese_name": []
   },
   {

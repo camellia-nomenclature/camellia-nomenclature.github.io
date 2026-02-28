@@ -125,6 +125,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Baby Face (Fish)",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Color: Blush pink to deeper pink edges. Form: Rose form double. Size: Small. Bloom Season: M-L. Originator: H. Fish. Place of Origination: U.S. - Santa Cruz, California. Year of Registration / Origination: 1977. Heritage: Saluenensis hybrid.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Baby Face.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/baby-face-fish",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Baby%20Face%20%28Fish%29",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Baby Face (NRH)",
     "species": "NRH",
     "size": "Small",
@@ -649,6 +661,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Barbara%20Colbert%20Silver",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Barbara Dooley",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Light red with yellow anthers and pink filaments. Form: Anemone form with 12 petals and 30 or more petaloids. Size: Large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Upright, dense growth. Leaf Characteristics: Dark green; holly-like. Originator: Gene Phillips - Gene's Nursery. Place of Origination: U.S. - Savannah, Georgia. Year of Registration / Origination: 2023 - ACS Registration #3347 - First bloomed in 2017. Heritage: Japonica 'Royal Velvet' x Japonica 'Francis Eugene Phillips'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Barbara Dooley.jpeg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/barbara-dooley",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Barbara%20Dooley",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1692,7 +1716,7 @@
   },
   {
     "name": "Beni-Kan-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "See 'Shishi-Gashira'. BENI-SUZUME - Formerly Vernalis - Deep Pink shaded White. Small, rose form double.",
     "image": null,
@@ -1763,6 +1787,21 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "acs"
+  },
+  {
+    "name": "Benizuru (Red Crane)",
+    "species": "Sasanqua",
+    "size": "Small to medium",
+    "description": "Color: Deep rose pink with gold anthers and light yellow filaments. Form: Single with twisted petals. Size: Small to medium. Bloom Season: VE. Leaf Characteristics: Dark green.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Benizuru.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/benizuru-red-crane",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Benizuru",
+    "chinese_name": [],
+    "japanese_name": [
+      "紅鶴",
+      "べにづる"
+    ]
   },
   {
     "name": "Benjamin Thompson Iv",
@@ -2259,6 +2298,22 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mrs%20Confer",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Bett's Supreme",
+    "species": "NRH",
+    "size": "Large to very large",
+    "description": "Color: Soft pink with yellow anthers and white filaments. Form: Semidouble. Size: Large to very large. Bloom Season: E-L. Growth Rate: Average. Growth Characteristics: Spreading growth. Leaf Characteristics: Dark green. Originator: P. A. Betts. Place of Origination: New Zealand - Te Awamutu. Year of Registration / Origination: 1986 - NZCS  Registration #243. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Betts Supreme.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/betts-supreme",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bett%27s%20Supreme",
+    "chinese_name": [
+      "梦幻山庄",
+      "超级贝特",
+      "超级贝慈"
+    ],
     "japanese_name": []
   },
   {
@@ -2839,6 +2894,18 @@
     "imageSource": "acs"
   },
   {
+    "name": "Betty Sheffield Veined",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Light pink, veined deep pink with golden anthers and white filaments. Form: Semidouble to loose peony form with slightly waved petals. Size: Medium to large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Tammia Nurseries. Place of Origination: U.S. - Slidell, Louisiana. Year of Registration / Origination: 1965. Heritage: Sport of Japonica 'Betty Sheffield'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Betty Sheffield Veined.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/betty-sheffield-veined",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Betty%20Sheffield%20Veined",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Betty Sheffield White",
     "species": "Japonica",
     "size": "",
@@ -3175,6 +3242,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Big Dipper Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Carmine pink, blotched white with gold anthers, yellow filaments. Form: Semidouble. Size: Very large. Bloom Season: E. Growth Rate: Vigorous. Growth Characteristics: Upright, spreading growth. Leaf Characteristics: Dark green. Heritage: Virus variegated form of 'Big Dipper'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Big Dipper Var. - II.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/big-dipper-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Big%20Dipper%20Variegated",
+    "chinese_name": [
+      "北斗七星(斑）",
+      "北斗七星"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Big Jack",
     "species": "Japonica",
     "size": "Miniature",
@@ -3308,6 +3390,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Bill Goertz Variegated",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Red, blotched white. Form: Semidouble with upright, heavily notched petals and flared stamens. Size: Large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Upright, compact growth. Originator: Valdosta Camellias. Place of Origination: U.S. - Valdosta, Georgia. Year of Registration / Origination: 1990. Heritage: Virus variegated form of Reticulata hybrid 'Bill Goertz'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bill Goertz Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/bill-goertz-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bill%20Goertz%20Variegated",
+    "chinese_name": [
+      "复色大齿轮"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Bill Hairston",
@@ -3483,7 +3579,7 @@
   },
   {
     "name": "Bill Wylam",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Deep Rose. Medium, semidouble with fluted petals.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bill%20Wylam.jpg",
@@ -3678,6 +3774,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Black Gold Variegated",
+    "species": "Japonica",
+    "size": "Small to medium",
+    "description": "Color: Black red blotched white with golden anthers and red filaments. Form: Semidouble with wavy, crinkled petals. Size: Small to medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact growth. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Black Gold'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Black Gold Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/black-gold-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Black%20Gold%20Variegated",
+    "chinese_name": [
+      "云中月",
+      "黑金"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Black Heart",
     "species": "Japonica",
     "size": "Miniature to small",
@@ -3733,6 +3844,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Black Lace Peony Variegated",
+    "species": "Reticulata",
+    "size": "Medium",
+    "description": "Color: Dark velvet red blotched white. Form: Full peony form. Size: Medium. Bloom Season: M-L. Growth Characteristics: Upright, compact growth. Heritage: Virus variegated form of 'Black Lace Peony'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Black Lace Peony Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/black-lace-peony-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Black%20Lace%20Peony%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Black Magic",
@@ -3819,6 +3942,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Black Tie Variegated",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Color: Dark red blotched white. Form: Formal double resembling a rose bud. Size: Small. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Open, upright growth. Place of Origination: U.S.. Year of Registration / Origination: 1971. Heritage: Virus variegated form of Japonica 'Black Tie'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Black Tie Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/black-tie-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Black%20Tie%20Variegated",
+    "chinese_name": [
+      "黑带(斑)",
+      "黑带"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Black Velvet",
@@ -4226,6 +4364,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Blush Rosette",
+    "species": "Sasanqua",
+    "size": "Miniature to small",
+    "description": "Color: Very light blush pink. Form: Rose form double. Size: Miniature to small. Bloom Season: L. Growth Characteristics: Upright, spreading growth. Originator: Nuccio's Nurseries. Place of Origination: U.S. - Altadena, California. Year of Registration / Origination: 1994.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Blush Rosette.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/blush-rosette",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Blush%20Rosette",
+    "chinese_name": [
+      "粉玫瑰石",
+      "害羞脸红"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Blush Tinsie",
     "species": "Japonica",
     "size": "Miniature",
@@ -4336,6 +4489,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Bob Hope Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Black red blotched white. Form: Semidouble with irregular petals. Size: Large. Bloom Season: M. Growth Rate: Slow. Growth Characteristics: Compact growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Heritage: Virus variegated form of 'Bob Hope'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bob Hope Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/bob-hope-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bob%20Hope%20Variegated",
+    "chinese_name": [
+      "包勃霍伯(斑）",
+      "包勃霍伯"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Bob Mealing",
     "species": "Japonica",
     "size": "Medium",
@@ -4434,6 +4602,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Bobby Moore",
+    "species": "Japonica",
+    "size": null,
+    "description": "Year of Registration / Origination: 2020.",
+    "image": "https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/standard/PAGE/46309/large/Bobby Moore.jpg",
+    "imageSource": "acs",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/bobby-moore",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bobby%20Moore",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Bobbye Dennis",
     "species": "Japonica",
     "size": "Large",
@@ -4500,6 +4680,18 @@
     "chinese_name": [
       "威德林"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Bomb Shell",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Soft rose red with gold anthers and pale pink filaments. Form: Semidouble sometimes with creped, ruffled petals. Size: Large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Medium green. Originator: C. M. and Lillian Gordy. Place of Origination: U.S. - Ocala, Florida. Year of Registration / Origination: 2015 - ACS Registration #2948 - first bloomed in 2010. Heritage: Chance seedling. Other Information: Originally Gordy #1084.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Bomb Shell.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/bomb-shell",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Bomb%20Shell",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -4639,7 +4831,7 @@
   },
   {
     "name": "Bonsai Baby",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Deep Red. Small, rose form double to formal double.",
     "image": "https://file3.iflora.cn/Upload/2019/4/10/S/6d96bf5d-fd04-4fd0-af8d-5d42d1d0694a.jpg",
@@ -4677,7 +4869,7 @@
   },
   {
     "name": "Borderline Beauty",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "White with Magenta-Pink, narrow Picotee border and wavy petals. Medium, peony form.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Borderline%20Beauty.jpg",
@@ -4712,6 +4904,23 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Botanyuki",
+    "species": "Rusticana",
+    "size": "Miniature",
+    "description": "Color: Blush pink with yellow petaloid center. Form: Anemone form. Size: Miniature. Bloom Season: L. Growth Characteristics: Spreading, bushy growth. Place of Origination: Japan. Other Information: Means 'Snow Peony' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Botan-yuki.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/botanyuki",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Botanyuki",
+    "chinese_name": [
+      "牡丹雪"
+    ],
+    "japanese_name": [
+      "牡丹雪",
+      "ぼたんゆき"
+    ]
   },
   {
     "name": "Boutonniere",
@@ -5271,6 +5480,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Brilliant (South)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Carmine red. Form: Rose for double. Size: Medium. Bloom Season: E-M. Growth Characteristics: Bushy, upright growth. Leaf Characteristics: Medium green. Heritage: Sport of Japonica 'La Peppermint'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Brilliant (South).jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/brilliant-south",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Brilliant%20%28South%29",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Brilliant Butterfly",

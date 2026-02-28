@@ -685,6 +685,30 @@
     "japanese_name": []
   },
   {
+    "name": "Gene's Autumn Fire",
+    "species": "NRH",
+    "size": "Large",
+    "description": "Color: Bright orange-red with yellow anthers and pink filaments. Form: Single with 5 petals. Size: Large. Bloom Season: E-L. Growth Rate: Vigorous. Growth Characteristics: Upright, dense growth. Leaf Characteristics: Dark green. Originator: Gene Phillips - Gene's Nursery. Place of Origination: U.S. - Savannah, Georgia. Year of Registration / Origination: 2023 - ACS Registration #3348 - First bloomed in 2013. Heritage: Camellia azalea x Japonica 'Royal Velvet'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gene's Autumn Fire.jpeg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/genes-autumn-fire",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gene%27s%20Autumn%20Fire",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "General Douglas MacArthur",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose pink veined red with red petaloids grading to white at edges. Form: Semidouble of cupped form. Size: Large. Originator: E. A. McIlhenny - Jungle gardens. Place of Origination: U.S. - Avery island, Louisiana. Year of Registration / Origination: 1950.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/General Douglas MacArthur.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/general-douglas-macarthur",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=General%20Douglas%20MacArthur",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "General Douglas MacARTHUR Ii",
     "species": "Japonica",
     "size": "Large",
@@ -1002,6 +1026,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George%20Stewart%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Stewart",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "George Stewart Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Red with deeper red veining blotched white with yellow anthers and light yellow filaments. Form: Semidouble. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Place of Origination: U.S.. Year of Registration / Origination: 1982. Heritage: Virus variegated form of Japonica 'George Stewart'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/George Stewart Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/george-stewart-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=George%20Stewart%20Variegated",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1432,6 +1468,23 @@
     "imageSource": "socal"
   },
   {
+    "name": "Gingetsu (Silver Moon)",
+    "species": "Sasanqua",
+    "size": "Large",
+    "description": "Color: White with petal tips tinged with red with golden anthers and yellowish-white filaments. Form: Single of 6-7 petals; creped and frilled. Size: Large. Bloom Season: E. Growth Rate: Vigorous. Growth Characteristics: Upright, dense growth. Leaf Characteristics: Yellowish-green. Place of Origination: Japan - Kumamoto Prefecture. Year of Registration / Origination: 1967. Other Information: Means 'Silver Moon' in English; authorized by the Higo Sasanqua Society in 1970s.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gingetsu.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gingetsu-silver-moon",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gingetsu",
+    "chinese_name": [
+      "银月"
+    ],
+    "japanese_name": [
+      "銀月",
+      "ぎんげつ"
+    ]
+  },
+  {
     "name": "Ginny Anderson",
     "species": "Japonica",
     "size": "Large",
@@ -1479,6 +1532,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Glad Tidings",
+    "species": "Vernalis",
+    "size": "Small",
+    "description": "Color: Deep rose pink to red with golden anthers and yellow filaments. Form: Semidouble. Size: Small. Bloom Season: E-L. Growth Rate: Rapid. Growth Characteristics: Erect, dense growth. Leaf Characteristics: Dark green. Originator: Houghton S. Hall. Place of Origination: U.S. - San Anselmo, California. Year of Registration / Origination: 1985 - ACS Registration #1987 - first bloomed in 1981. Heritage: Seedling of Vernalis 'Yuletide'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Glad Tidings.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/glad-tidings",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Glad%20Tidings",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Gladys Darling",
@@ -1835,6 +1900,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloria%20De%20Fatima",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Gloria del Verbano",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Vivid red and lined with white. Form: Formal double. Size: Medium. Bloom Season: E-L. Leaf Characteristics: Dark green. Place of Origination: Italy. Year of Registration / Origination: 1845.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gloria del Verbano.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gloria-del-verbano",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gloria%20del%20Verbano",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -2278,6 +2355,23 @@
     "japanese_name": []
   },
   {
+    "name": "Goshozakura",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Light pink with white base with flared gold anthers and light yellow filaments. Form: Single with petals curled when fully open. Size: Medium. Bloom Season: E-M. Place of Origination: Japan - Kumamoto Prefecture. Year of Registration / Origination: Early 1900's. Other Information: Means 'Cherry Blossom in the Royal Garden' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Goshozakura.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/goshozakura",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Goshozakura",
+    "chinese_name": [
+      "御所樱"
+    ],
+    "japanese_name": [
+      "御所桜",
+      "ごしょざくら"
+    ]
+  },
+  {
     "name": "Gossamer Wings",
     "species": "Sasanqua",
     "size": "Miniature to small",
@@ -2684,6 +2778,20 @@
     "japanese_name": []
   },
   {
+    "name": "Grady's Egao",
+    "species": "Vernalis",
+    "size": "Medium",
+    "description": "Color: Light pink, veined, with fine white edge with golden anthers and light yellow filaments. Form: Semidouble. Size: Medium. Bloom Season: M. Leaf Characteristics: Mid-green. Originator: Grady Perigan. Place of Origination: U.S. - San Marino, California. Year of Registration / Origination: 1995. Heritage: Sport of Vernalis 'Egao'. Other Information: Flowers and foliage smaller than Egao, more compact with a heavier bud set.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grady's Egao.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gradys-egao",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grady%27s%20Egao",
+    "chinese_name": [
+      "倩影"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Graem Yates",
     "species": "Reticulata",
     "size": "Very large",
@@ -2746,6 +2854,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Granada Variegated",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Color: Vivid red blotched white. Form: Semidouble to full peony form. Size: Large to very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Originator: Ray Gentry. Place of Origination: U.S. - Jackson, Mississippi. Year of Registration / Origination: 1969. Heritage: Virus variegated form of Japonica 'Granada'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Granada Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/granada-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Granada%20Variegated",
+    "chinese_name": [
+      "复色格兰那达"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Grand Finale",
     "species": "Japonica",
     "size": "Large to very large",
@@ -2781,6 +2903,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Grand Jury (Dazhurui)",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Salmon pink with gold anthers and pale yellow filaments. Form: Semidouble to peony form with an irregular center of mixed stamens and petaloids. Size: Large. Bloom Season: M. Growth Characteristics: Open, spreading growth. Originator: Les Jury. Place of Origination: New Zealand. Year of Registration / Origination: 1962 - NZCS Registration #12 - first bloomed in 1958. Heritage: Saluenensis x Reticulata hybrid 'Salutation'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grand Jury.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grand-jury-dazhurui",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Jury",
+    "chinese_name": [
+      "大朱瑞"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Marshal",
@@ -2826,6 +2962,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Grand Prix Variegated",
+    "species": "Japonica",
+    "size": "Very large",
+    "description": "Color: Brilliant red blotched white with yellow anthers and white filaments. Form: Semidouble with irregular petals. Size: Very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Grand prix'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Grand Prix Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/grand-prix-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Grand%20Prix%20Variegated",
+    "chinese_name": [
+      "复色大奖赏"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Grand Slam",
@@ -3075,7 +3225,7 @@
   },
   {
     "name": "Green's Blues",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Miniature to small",
     "description": "Violet Purple, aging to Blue; the unique color is not dependent on cold weather. Miniature to small, rose form double. (U.S. 2004 - Bobby Green, Green Nurseries, Fairhope, AL).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Green%27s%20Blues.jpg",
@@ -3352,6 +3502,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gulf%20Breeze",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Gulf Glory",
+    "species": "Sasanqua",
+    "size": "Very large",
+    "description": "Color: Pure white with dark yellow anthers and light yellow filaments. Form: Single, petals wedge shaped, creped and notched at the apex; stamens flare out in a sunburst fashion. Size: Very large. Bloom Season: E. Growth Characteristics: Upright but somewhat spreading. Leaf Characteristics: Dark green. Originator: K. Sawada. Place of Origination: U.S. - Mobile, Alabama. Year of Registration / Origination: 1948. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gulf Glory.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gulf-glory",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gulf%20Glory",
     "chinese_name": [],
     "japanese_name": []
   },

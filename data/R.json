@@ -594,6 +594,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Ray Gentry Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Red variegated white with golden anthers and golden filaments. Form: Semidouble to peony form with prominent rabbit ears. Size: Very large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Upright grow. Leaf Characteristics: Dark green. Heritage: Virus variegated form of Reticulata hybrid 'Ray Gentry'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ray Gentry Var. - 2015.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/ray-gentry-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ray%20Gentry%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ray Lange",
     "species": "Japonica",
     "size": "Large",
@@ -615,6 +627,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Raymond Beales",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Dark pink with gold anthers and white filaments. Form: Semidouble. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Originator: Shepp's Shade Garden. Place of Origination: U.S. - Pasadena, California. Year of Registration / Origination: 1950. Heritage: Sport of Japonica  'Olive Lee Shepp'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Raymond Beals.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/raymond-beales",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Raymond%20Beales",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Raymond Beals",
@@ -660,6 +684,18 @@
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/razzle-dazzle",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Razzle-Dazzle",
     "imageSource": "acs",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Rebecca",
+    "species": "Japonica",
+    "size": "Very large",
+    "description": "Color: Vivid pink streaked with white with yellow anthers and white filaments. Form: Single. Size: Very large. Bloom Season: E. Leaf Characteristics: Dark green. Place of Origination: Belgium. Year of Registration / Origination: 1858.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rebecca.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rebecca",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rebecca",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1110,6 +1146,21 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Red%20Elephant",
     "chinese_name": [
+      "红象"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Red Elephant Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark red blotched white. Form: Peony form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Place of Origination: U.S.. Year of Registration / Origination: 1962. Heritage: Virus variegated form of Japonica 'Red Elephant. Other Information: Also called 'King Size Variegated'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Red Elephant Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/red-elephant-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Red%20Elephant%20Variegated",
+    "chinese_name": [
+      "红象(斑)",
       "红象"
     ],
     "japanese_name": []
@@ -1733,6 +1784,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Regina%20Dei%20Giganti%20[United%20States].jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Regina%20Dei%20Giganti",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Regina dei Giganti (US)",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Bright pink. Form: Semidouble with fluted petals. Size: Medium to large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Place of Origination: U.S..",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Regina Dei Giganti (US).jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/regina-dei-giganti-us",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Regina%20dei%20Giganti%20%28US%29",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -3003,6 +3066,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Roi des Belges",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Different colors on the same plant, sometimes self red (Lavinia Maggi Rosea), sometimes red with splashes of white. Form: Peony form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Medium green. Originator: Dominique Vervaene. Place of Origination: Belgium. Year of Registration / Origination: 1864. Heritage: Virus variegated form of Japonica 'Lavinia Maggi Rosea'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Roi des Belges.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/roi-des-belges",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Roi%20des%20Belges",
+    "chinese_name": [
+      "比利时"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Roi Leopold",
     "species": "Japonica",
     "size": "Medium",
@@ -3347,6 +3424,18 @@
     "japanese_name": []
   },
   {
+    "name": "Rose Dawn",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Deep rose pink. Form: Formal double to rose form double. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Spreading growth. Originator: Davis Ornamental Nursery. Place of Origination: U.S. - Mobile Alabama. Year of Registration / Origination: 1944.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose Dawn.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rose-dawn",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rose%20Dawn",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Rose Dawn (Davis)",
     "species": "Japonica",
     "size": "Medium",
@@ -3434,7 +3523,7 @@
   },
   {
     "name": "Rose Of Autumn",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Glowing Rose Pink. Medium, rose form double opening to many petaled semidouble.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rose%20Of%20Autumn.jpg",
@@ -3591,6 +3680,22 @@
     "imageSource": "icr"
   },
   {
+    "name": "Rosea Plena (MG)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Rose pink with dark veins. Form: Formal double. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark glossy green. Originator: Magnolia Plantation & Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1840's Europe to U.S.. Heritage: Lost label imported plant or a chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rosea Plena.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rosea-plena-mg",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Plena%20%28MG%29",
+    "chinese_name": [
+      "粉红玫瑰花",
+      "罗莎普莉娜",
+      "深纹玫瑰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Rosea Superba",
     "species": "Japonica",
     "size": "Large to very large",
@@ -3604,6 +3709,21 @@
     ],
     "japanese_name": [],
     "imageSource": "icr"
+  },
+  {
+    "name": "Rosea Superba (US)",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Color: Rose pink. Form: Rose form double to formal double. Size: Large to very large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Originator: Tea gardens. Place of Origination: U.S. - Summerville, South Carolina. Year of Registration / Origination: 1890 - Europe to U.S.. Heritage: Sport of Japonica 'Mathotiana'. Other Information: Sometimes called 'Mathotiana Rosea'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rosea Superba.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rosea-superba-us",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rosea%20Superba%20%28US%29",
+    "chinese_name": [
+      "赛玫瑰",
+      "超级玫瑰"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Rosea Superba Variegated",
@@ -3896,6 +4016,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Rouge Baiser",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Bright red with yellow anthers and white filaments. Form: Rose form double. Size: Medium. Bloom Season: M. Growth Rate: Slow. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Roger SalaÃ¼n. Place of Origination: France. Year of Registration / Origination: First bloomed in 2009. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rouge Baiser.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rouge-baiser",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rouge%20Baiser",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Rouge Variegated",
     "species": "Japonica",
     "size": "",
@@ -4100,6 +4232,18 @@
     "japanese_name": []
   },
   {
+    "name": "Royal Trumpeter",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White opening from blush pink bud. Form: Semidouble with center three petals forming a trumpet with 16 petals. Size: Medium. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Compact growth. Leaf Characteristics: Dark green. Originator: Marshall's Camellia Nursery. Place of Origination: U.S. - San Gabriel, California. Year of Registration / Origination: 1955. Heritage: Seedling of 'Magnoliaeflora' (Hagoromo).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Royal Trumpeter.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/royal-trumpeter",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Royal%20Trumpeter",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Royal Velvet",
     "species": "Japonica",
     "size": "Large",
@@ -4194,6 +4338,20 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rubaiyat",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Rubens",
+    "species": "Japonica",
+    "size": "Miniature",
+    "description": "Color: Deep rose with white stripes. Form: Formal double. Size: Miniature. Bloom Season: L. Growth Rate: Vigorous. Growth Characteristics: Compact growth. Leaf Characteristics: Dark green. Place of Origination: Belgium. Year of Registration / Origination: 1845-1846.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rubens.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/rubens",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rubens",
+    "chinese_name": [
+      "鲁宾士"
+    ],
     "japanese_name": []
   },
   {
@@ -4822,6 +4980,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Ruth Smith",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Color: Pale pink edged deep pink. Form: Peony form. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Leaf Characteristics: Mid-green. Originator: Marvin Jernigan. Place of Origination: U.S. - Warner Robbins, Georgia. Year of Registration / Origination: 1989 - ACS Registration #2144 - first bloomed in 1986. Heritage: Non-reticulata hybrid 'Donation' x Non-reticulata hybrid 'Anticipation'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ruth Smith2.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-r/ruth-smith",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ruth%20Smith",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Ruth Stewart",

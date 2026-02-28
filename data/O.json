@@ -243,6 +243,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "October Magic White Shi-Shi",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Color: Porcelain white. Form: Formal double. Size: Medium. Bloom Season: E-L. Growth Rate: Average. Growth Characteristics: Bushy, spreading growth. Leaf Characteristics: Dark green. Originator: Bobby Green, Green Nurseries. Place of Origination: U.S. - Fairhope, Alabama. Year of Registration / Origination: 2021 - first bloomed in 2004. Heritage: Seedling of Hiemalis 'Shishigashira' x Sasanqua. Other Information: â€˜Green 02-004â€™ PP27553; cold hardy.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/White Shi-Shi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/october-magic-white-shi-shi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=October%20Magic%20White%20Shi-Shi",
+    "chinese_name": [
+      "十月梦露"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Ode Of Edgewood",
     "species": "Japonica",
     "size": "Large",
@@ -351,6 +365,25 @@
       "冲の浪"
     ],
     "imageSource": "accs"
+  },
+  {
+    "name": "Oki-no-nami (Waves in the Offing)",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Pink edged white with dark red stripes with golden anthers and pinkish filaments. Form: Semidouble. Size: Large. Bloom Season: M. Place of Origination: Japan - Kantï¿½ Area. Year of Registration / Origination: Early 1700's. Other Information: Means 'Waves in the Offing' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oki-no-nami2.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/oki-no-nami-waves-in-the-offing",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Oki-no-nami",
+    "chinese_name": [
+      "冲之浪"
+    ],
+    "japanese_name": [
+      "沖の浪 おきのなみ",
+      "沖の浪",
+      "おきのなみ",
+      "冲の浪"
+    ]
   },
   {
     "name": "Okke's Delight",
@@ -869,6 +902,21 @@
     "japanese_name": []
   },
   {
+    "name": "Oscar B. Elmer Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark velvet red blotched white with yellow anthers. Form: Semidouble. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Originator: Bob Wine's Nursery. Place of Origination: U.S. - Florida. Year of Registration / Origination: 1985-86. Heritage: Virus variegated form of Japonica 'Oscar B. Elmer'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Oscar B. Elmer Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/oscar-b-elmer-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Oscar%20B.%20Elmer%20Variegated",
+    "chinese_name": [
+      "奥斯卡(斑)",
+      "奥斯卡"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Osmanthus Leaf Carmine",
     "species": "Reticulata",
     "size": "Large to very large",
@@ -977,6 +1025,25 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Otome-sazanka",
+    "species": "Sasanqua",
+    "size": "Miniature to small",
+    "description": "Color: Pale pink. Form: Formal double to rose form double - 20-30 incurving petals. Size: Miniature to small. Bloom Season: E. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Deep green. Place of Origination: Japan - Kansai District. Year of Registration / Origination: 1956.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Otome-sazanka.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/otome-sazanka",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Otome-sazanka",
+    "chinese_name": [
+      "乙女茶梅",
+      "乙女山茶花"
+    ],
+    "japanese_name": [
+      "乙女サザン力 おとめさざんか",
+      "乙女サザン力",
+      "おとめさざんか"
+    ]
   },
   {
     "name": "Otome-Shibori",

@@ -753,6 +753,23 @@
     "imageSource": "accs"
   },
   {
+    "name": "Aiaigasa (Sharing an Umbrella)",
+    "species": "Rusticana",
+    "size": "Small",
+    "description": "Color: Red with golden anthers. Form: Anemone to loose peony form with up to 10 outer petals and a crown of larger petals, protruding through and above the anemone center. Size: Small. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Erect growth. Place of Origination: Japan - Ojiya-shi, Niigata Prefecture.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ai-Ai-Gasa - Ruth.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/aiaigasa-sharing-an-umbrella",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Aiaigasa",
+    "chinese_name": [
+      "相合伞"
+    ],
+    "japanese_name": [
+      "相合傘",
+      "あいあいがさ"
+    ]
+  },
+  {
     "name": "Aileen",
     "species": "Japonica",
     "size": "",
@@ -2988,6 +3005,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Ann Miller Variegated",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Light salmon pink blotched white with yellow anthers. Form: Peony form. Size: Medium. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Compact growth. Place of Origination: Australia. Year of Registration / Origination: 1962. Heritage: Virus variegated form of Japonica 'Ann Miller'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ann Miller Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/ann-miller-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ann%20Miller%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Ann Morrison",
     "species": "Japonica",
     "size": "Medium",
@@ -3605,6 +3634,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Annie Tee Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Ruby red blotched white with golden stamens. Form: Loose peony form. Size: Large. Bloom Season: E-M. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Originator: Annie T. Williams. Place of Origination: U.S. - Dothan, Alabama. Year of Registration / Origination: 1972. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Annie Tee Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/annie-tee-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Annie%20Tee%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Annie Wylam",
     "species": "Japonica",
     "size": "Medium",
@@ -3627,6 +3668,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Anoaika",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White with medium pink stripes and flecks with yellow anthers and white filaments. Form: Anemone form with stamens usually well hidden. Size: Large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Upright, medium density growth. Leaf Characteristics: Dark green. Originator: Meyer Piet. Place of Origination: U.S. - Arcadia, California. Year of Registration / Origination: 2023 - ACS Registration #3332 - First bloomed in 2015. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Anoaika.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/anoaika",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Anoaika",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Antarctic Star",
@@ -3767,8 +3820,20 @@
     "imageSource": "icr"
   },
   {
+    "name": "Apache Variegated (Red Giant Variegated)",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Deep pink blotched white with yellow anthers and white filaments. Form: Loose peony form. Size: Large. Bloom Season: E-M. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Hugh Shackelford. Place of Origination: U.S. - Albany, Georgia. Year of Registration / Origination: 1954 - ACS Registration #182 - first bloomed in 1953. Heritage: Virus variegated form of Japonica 'Apache'. Other Information: Originally registered as 'Red Giant'; subsequently changed to 'Apache'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Apache Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/apache-variegated-red-giant-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Apache%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Aphrodite",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "White, edged Magenta Pink often with Peach-Pink bud center. Medium, rose form double; petals are wavy and ruffled edged.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Aphrodite.jpg",
@@ -4160,6 +4225,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Arcadia Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Salmon pink blotched white. Form: Semidouble to loose peony form. Size: Very large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Upright, open growth. Place of Origination: U.S.. Heritage: Virus variegated form of Reticulata hybrid 'Arcadia'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Arcadia Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/arcadia-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Arcadia%20Variegated",
+    "chinese_name": [
+      "阿卡迪亚(斑)",
+      "阿卡迪亚"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Arch Of Triumph",
     "species": "Reticulata",
     "size": "Very large",
@@ -4177,6 +4257,21 @@
       "とらいあんふ"
     ],
     "imageSource": "accs"
+  },
+  {
+    "name": "Arch of Triumph Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Deep pink to wine red blotched white with gold anthers and light yellow filaments. Form: Loose peony form. Size: Very large. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Upright, bushy, growth. Place of Origination: U.S.. Year of Registration / Origination: 1972. Heritage: Virus variegated form of Reticulata hybrid 'Arch of Triumph'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Arch of Triumph Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/arch-of-triumph-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Arch%20of%20Triumph%20Variegated",
+    "chinese_name": [
+      "凯旋门(斑）",
+      "凯旋门"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Archie Lanier",
@@ -5078,6 +5173,34 @@
     "japanese_name": []
   },
   {
+    "name": "Auguste Delfosse",
+    "species": "Japonica",
+    "size": "medium",
+    "description": "Color: deep red. Size: medium. Bloom Season: mid-season. Growth Rate: vigorous. Growth Characteristics: compact and upright growth. Originator: Andre. Place of Origination: France.",
+    "image": "https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/standard/PAGE/5728/large/augusta del fosse 1-6-07 p1011463.jpg",
+    "imageSource": "acs",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/auguste-delfosse",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Auguste%20Delfosse",
+    "chinese_name": [
+      "蓝色八月"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Auguste Delfosse (Andre)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Deep red. Form: Peony form. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Originator: Andre. Place of Origination: France. Year of Registration / Origination: 1864.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Auguste Delfosse (Andre).jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-a/auguste-delfosse-andre",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Auguste%20Delfosse",
+    "chinese_name": [
+      "蓝色八月"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Auguste Delfosse (Belgium)",
     "species": "Japonica",
     "size": "Large",
@@ -5285,7 +5408,7 @@
   },
   {
     "name": "Autumn Gold",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Rose Red shading to Darker Red on margins. Small, semidouble to peony form.",
     "image": "https://file4.iflora.cn/Upload/2019/4/28/T/8f1cad09-0cad-479b-81f5-12cab868f66f.jpg",

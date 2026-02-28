@@ -1261,6 +1261,23 @@
     "japanese_name": []
   },
   {
+    "name": "Nishiki-kirin (Kirin Brocade)",
+    "species": "Rusticana",
+    "size": "Small",
+    "description": "Color: Pink striped red. Form: Rose form double. Size: Small. Bloom Season: M-L. Growth Characteristics: Compact, shrubby, upright growth. Originator: Yaichi Kawamura. Place of Origination: Japan - Higashikanbara-gun, Niigata Prefecture. Year of Registration / Origination: 1958. Other Information: Very showy.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nishiki-kirin.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nishiki-kirin-kirin-brocade",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nishiki-kirin",
+    "chinese_name": [
+      "锦麒麟"
+    ],
+    "japanese_name": [
+      "錦麒麟",
+      "にしききりん"
+    ]
+  },
+  {
     "name": "Nita Mcrae",
     "species": "Reticulata",
     "size": "Large",
@@ -1364,7 +1381,7 @@
   },
   {
     "name": "Noela's Pick",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Bright Pink. Medium, semidouble.",
     "image": "https://file4.iflora.cn/Upload/2021/1/20/S/27a3f186-f182-41c9-81d3-276f4edcf583.jpg",
@@ -1848,6 +1865,23 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Nuccio's Ruby Variegated",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "Color: Very dark rich red blotched white with yellow anthers and white filaments. Form: Semidouble with irregular, ruffled petals. Size: Large to very large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Originator: Nuccio's Nurseries. Place of Origination: U.S. - Altadena, California. Year of Registration / Origination: 1984. Heritage: Virus variegated form of Reticulata hybrid 'Nuccio's Ruby'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nuccio's Ruby Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nuccios-ruby-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nuccio%27s%20Ruby%20Variegated",
+    "chinese_name": [
+      "纽西欧红玉(斑）",
+      "纽西欧红玉",
+      "纽西耳红宝石",
+      "牛西奥新红宝石"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Nu’Erhong",

@@ -135,6 +135,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Madame Ambroise Verschaffelt",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White with pink stripes. Form: Formal double. Size: Large. Place of Origination: Italy. Year of Registration / Origination: 1868-1869.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Madame Ambriose Verschaffelt.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/madame-ambroise-verschaffelt",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Madame%20Ambroise%20Verschaffelt",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Charles Blard",
     "species": "Japonica",
     "size": "Medium",
@@ -249,6 +261,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Madame Lourmand",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Pure white. Form: Single. Size: Large. Bloom Season: E. Growth Characteristics: Compact growth. Place of Origination: France. Year of Registration / Origination: 1910.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Madame Lourmand.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/madame-lourmand",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Madame%20Lourmand",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Marguerite Calusaut",
     "species": "Japonica",
     "size": "Large",
@@ -261,6 +285,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Madame Martin Cachet",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Pink. Form: Peony form with creped petals. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Place of Origination: France. Year of Registration / Origination: 1914.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Madame Martin Cachet.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/madame-martin-cachet",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Madame%20Martin%20Cachet",
+    "chinese_name": [
+      "马丁凱琪夫人",
+      "马丁凯琪夫人"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Madame Picouline",
     "species": "Japonica",
     "size": "Medium",
@@ -271,6 +310,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Madame Picouline (Akaroa Rouge)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Cherry red. Form: Peony form. Size: Medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: M. Francotte, Sr.. Place of Origination: Belgium - Liege. Year of Registration / Origination: About 1850. Heritage: Unknown. Other Information: Synonym for Japonica 'Akaroa Rouge'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Madame Picouline.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/madame-picouline-akaroa-rouge",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Madame%20Picouline",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Madelin Nadeau",
@@ -377,6 +428,20 @@
     "chinese_name": [
       "麦哲伦",
       "斑色埃及艳后"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Magali",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Pink with yellow anthers and white filaments. Form: Single. Size: Medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact growth. Leaf Characteristics: Dark, dull green. Place of Origination: Belgium. Year of Registration / Origination: before 1914.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magali.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/magali",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Magali",
+    "chinese_name": [
+      "马加利"
     ],
     "japanese_name": []
   },
@@ -948,6 +1013,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Mandalay Queen Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Rose pink with yellow anthers blotched white - petaloids variegated. Form: Semidouble with fluted petals. Size: Very large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1969. Heritage: Virus variegated form of Reticulata hybrid 'Mandalay Queen'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mandalay Queen Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mandalay-queen-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mandalay%20Queen%20Variegated",
+    "chinese_name": [
+      "满清皇后(斑)",
+      "满清皇后"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Mandie Shuman",
     "species": "Japonica",
     "size": "Large",
@@ -1039,6 +1119,24 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Manzai-Raku",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Manzairaku",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White spots on rose-pink with flared yellow anthers and white filaments. Form: Single. Size: Large. Place of Origination: Japan - Chûbu district. Year of Registration / Origination: 1964. Heritage: Virus variegated form of Japonica 'Dewatairin'. Other Information: Means 'Theme of Japanese Court Music' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Manzairaku.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/manzairaku",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Manzairaku",
+    "chinese_name": [
+      "万岁乐",
+      "万才乐"
+    ],
+    "japanese_name": [
+      "万歳楽",
+      "まんざいらく"
+    ]
   },
   {
     "name": "Mar-Vel Murray",
@@ -1917,6 +2015,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Marguerite Sears Supreme",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Light pink toward center gradually deepening to coral pink at margin blotched white. Form: Semidouble with irregular petals to loose peony form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact growth. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Marguerite Sears'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Marguerite Sears Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/marguerite-sears-supreme",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Marguerite%20Sears%20Supreme",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Marguerite Tourje",
     "species": "Japonica",
     "size": "Large",
@@ -2017,6 +2127,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Marian Mitchell Variegated",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Scarlet blotched white. Form: Semidouble, sometimes with fragile petaloids mixed with stamens. Size: Medium. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Originator: Magnolia Plantation &  Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1944. Heritage: Virus variegated form of Japonica 'Marian Mitchell'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Marion Mitchell Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/marian-mitchell-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Marian%20Mitchell%20Variegated",
+    "chinese_name": [
+      "玛莉安(斑）",
+      "玛莉安"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Mariana",
@@ -2796,6 +2921,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Mark Chason Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark red with orange cast blotched white with light red anthers and yellow filaments. Form: Semidouble with wavy, crinkled petals. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Heritage: Virus variegated form of Japonica 'Mark Chason'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mark Chason Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mark-chason-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mark%20Chason%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Mark Culver",
     "species": "Japonica",
     "size": "Large",
@@ -3189,6 +3326,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Martha Norwood Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark red blotched white. Form: Semidouble. Size: Large. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Upright, average growth. Leaf Characteristics: Dark green. Originator: Ray Gentry. Place of Origination: U.S. - Jackson, Mississippi. Year of Registration / Origination: 1967. Heritage: Virus variegated form of Japonica 'Martha Norwood'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Martha Norwood Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/martha-norwood-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Martha%20Norwood%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Martha Proppe",
@@ -3970,8 +4119,20 @@
     "japanese_name": []
   },
   {
+    "name": "Mary Jane Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Red blotched white. Form: Loose peony form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Bushy growth. Originator: Malbis Nursery. Place of Origination: U.S. - Daphne, Alabama. Year of Registration / Origination: 1949.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mary Jane Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mary-jane-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mary%20Jane%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Mary Jennifer",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Pale Pink to Pink with darker margin. Medium, semidouble.",
     "image": null,
@@ -4613,6 +4774,23 @@
     "japanese_name": []
   },
   {
+    "name": "Masayoshi",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose-red with parallel striped variegation with yellow anthers and white filaments. Form: Semidouble. Size: Large. Bloom Season: M. Growth Rate: Very slow. Growth Characteristics: Upright growth. Leaf Characteristics: Medium green. Place of Origination: Japan. Year of Registration / Origination: 1788.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Masayoshi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/masayoshi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Masayoshi",
+    "chinese_name": [
+      "正义"
+    ],
+    "japanese_name": [
+      "正義",
+      "まさよし"
+    ]
+  },
+  {
     "name": "Mason Farm",
     "species": "NRH",
     "size": "Large",
@@ -4652,6 +4830,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Massee Lane Variegated",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Pink blotched white with yellow anthers. Form: Anemone form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Spreading, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1973. Heritage: Virus variegated form of Reticulata hybrid 'Massee Lane'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Massee Lane Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/massee-lane-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Massee%20Lane%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Masterpiece",
@@ -4900,6 +5090,24 @@
     "imageSource": "socal"
   },
   {
+    "name": "Matsukasa (Pine Cone)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Rose pink marked white with yellow anthers and light yellow filaments. Form: Semidouble of pine cone formation with high center and wavy petals. Size: Medium. Bloom Season: Slow. Growth Rate: Bushy growth. Leaf Characteristics: Dark green. Place of Origination: Japan - Kansai area. Year of Registration / Origination: 1681. Heritage: Japan to U.S. - 1932. Other Information: Mean 'Pine Cone' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Matsukasa.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/matsukasa-pine-cone",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Matsukasa",
+    "chinese_name": [
+      "松子",
+      "松笠"
+    ],
+    "japanese_name": [
+      "松笠",
+      "まつかさ"
+    ]
+  },
+  {
     "name": "Matterhorn",
     "species": "Japonica",
     "size": "Medium to large",
@@ -4973,6 +5181,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Mattie O'Reilly Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Coral rose pink blotched white. Form: Semidouble to full peony form. Size: Large. Bloom Season: E-L. Growth Rate: Slow. Growth Characteristics: Compact, upright growth. Leaf Characteristics: dark green. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Mattie O'Reilly'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mattie O'Reilly Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mattie-oreilly-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mattie%20O%27Reilly%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Mattie R",
@@ -5539,6 +5759,18 @@
     "japanese_name": []
   },
   {
+    "name": "Melanie Ann Poe",
+    "species": "Japonica",
+    "size": "Very large",
+    "description": "Color: White to light pink with one to two red petals with medium yellow anthers and cream filaments. Form: Anemone form. Size: Very large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Spreading growth. Leaf Characteristics: Dark green. Originator: W. Lee Poe, Jr.. Place of Origination: U.S. - Aiken, South Carolina. Year of Registration / Origination: 2009 - ACS Registration #2771 - first bloomed in 1975. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Melanie Ann Poe.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/melanie-ann-poe",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Melanie%20Ann%20Poe",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Melanie Anne Poe",
     "species": "Japonica",
     "size": "Very large",
@@ -5808,7 +6040,7 @@
   },
   {
     "name": "Meoto-Zaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Pink touched and edged White. Small, semidouble with curled petals, producing two flowers from each bud.",
     "image": null,
@@ -6162,6 +6394,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Michelle S Variegated",
+    "species": "Japonica",
+    "size": "Miniature",
+    "description": "Color: Rose pink and white. Form: Semidouble, occasionally formal double. Size: Miniature. Bloom Season: M-L. Growth Rate: Slow. Growth Characteristics: Dense growth. Originator: James M. Habel, Jr.. Place of Origination: U.S. - Suffolk, Virginia. Year of Registration / Origination: 2004 - ACS Registration #2620 - first bloomed in 2000. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Michelle S...jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/michelle-s",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Michelle%20S.",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Michelle S.",
     "species": "Japonica",
     "size": "Miniature",
@@ -6480,6 +6724,25 @@
     "imageSource": "accs"
   },
   {
+    "name": "Mikuni-no-homare (Nation's Honor)",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Pink, reddish striped, margined white with flared pale yellow stamens and white filaments. Form: Single. Size: Medium to large. Bloom Season: M-L. Place of Origination: Japan - Kumamoto Prefecture. Heritage: Sport of Japonica 'Higo-kyÃ´-nishiki'. Other Information: means 'Nation's Honor' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/MIkuni-no-homare2.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mikuni-no-homare-nations-honor",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mikuni-no-homare",
+    "chinese_name": [
+      "御国之誉",
+      "御国"
+    ],
+    "japanese_name": [
+      "御国の誉 みくにのほまれ",
+      "御国の誉",
+      "みくにのほまれ"
+    ]
+  },
+  {
     "name": "Mikuni-No-Homare Red",
     "species": "Japonica",
     "size": "",
@@ -6631,6 +6894,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Milton Brown",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Brownish red with gold anthers and white filaments. Form: Semidouble with upright petals. Size: Very large. Bloom Season: M-L. Growth Rate: Rapid. Growth Characteristics: Average growth. Leaf Characteristics: Dark green. Originator: David L. Feathers. Place of Origination: U.S. - Lafayette, California. Year of Registration / Origination: 1989 - ACS Registration #2150 - first bloomed in 1978. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Milton Brown.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/milton-brown",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Milton%20Brown",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Milton H. Brown",
     "species": "Reticulata",
     "size": "Very large",
@@ -6711,6 +6986,24 @@
     "imageSource": "accs"
   },
   {
+    "name": "Minato-no-haru",
+    "species": "NRH",
+    "size": "Miniature",
+    "description": "Color: Deep peach pink. Form: Single. Size: Miniature. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Upright, floriferous, slightly loose growth. Leaf Characteristics: Medium green. Originator: Masaome Murata. Place of Origination: Japan - Kanagawa,  Yokohama Prefecture. Year of Registration / Origination: 1987. Heritage: Japonica 'Kon-wabisuke' x Lutchuensis. Other Information: Fragrant; means 'Harbour in Spring' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Minato-no-haru.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/minato-no-haru",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Minato-no-haru",
+    "chinese_name": [
+      "港春"
+    ],
+    "japanese_name": [
+      "港の春 みなとのはる",
+      "港の春",
+      "みなとのはる"
+    ]
+  },
+  {
     "name": "Minato-No-Haru (Harbor In Spring)",
     "species": "NRH",
     "size": "Miniature",
@@ -6740,6 +7033,20 @@
     ],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Mine-no-yuki (Snow on the Ridge)",
+    "species": "Sasanqua",
+    "size": "Small",
+    "description": "Color: White with orange anthers and yellow filaments. Form: Semidouble to loose peony form. Size: Small. Bloom Season: Fall. Growth Rate: Medium. Growth Characteristics: Willowy, spreading growth. Leaf Characteristics: Dull, dark green. Place of Origination: Japan. Other Information: means 'Snow on the Ridge' in Japanese.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mine-no-yuki.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mine-no-yuki-snow-on-the-ridge",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mine-no-yuki",
+    "chinese_name": [
+      "峰之雪茶梅"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Ming Temple",
@@ -6982,7 +7289,7 @@
   },
   {
     "name": "Minuet",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Light Pink. Small, semidouble to peony form with large petals",
     "image": null,
@@ -7027,7 +7334,7 @@
   },
   {
     "name": "Mirandy",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Rose Pink shaded with a frosty White. Small, semidouble with fluted petals.",
     "image": "https://file2.iflora.cn/Upload/2021/12/1/S/0fac96f6-ddc6-4586-a85f-0d508113641b.jpg",
@@ -8160,6 +8467,25 @@
     "imageSource": "accs"
   },
   {
+    "name": "Miyako-no-haru (Metropolis Spring)",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Pink with pale yellow anthers and white filaments. Form: Single with 6 petals and 70 light yellow stamens in a circle. Size: Medium to large. Bloom Season: M-L. Place of Origination: Japan - Kumamoto Prefecture. Year of Registration / Origination: 1961.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Miyako-no-haru.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/miyako-no-haru-metropolis-spring",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Miyako-no-haru",
+    "chinese_name": [
+      "都之春",
+      "都春"
+    ],
+    "japanese_name": [
+      "都の春 みやこのはる",
+      "都の春",
+      "みやこのはる"
+    ]
+  },
+  {
     "name": "Miyako-No-Nishiki",
     "species": "Japonica",
     "size": "Large",
@@ -8184,6 +8510,21 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mizu-Yoshi",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Mizuyoshi",
+    "species": "Rusticana",
+    "size": "Medium",
+    "description": "Color: White with yellow anthers and yellow filaments. Form: Semidouble to full peony form. Size: Medium. Leaf Characteristics: Dark green. Originator: Kaoru Hagiya. Place of Origination: Japan - Nakakubiki-gun, Niigata Prefecture. Year of Registration / Origination: 1960. Heritage: Collected from wild. Other Information: Fragrant.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mizuyoshi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mizuyoshi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mizuyoshi",
+    "chinese_name": [],
+    "japanese_name": [
+      "水吉",
+      "みずよし"
+    ]
   },
   {
     "name": "Mme. Chiang Kai-Shek",
@@ -8428,6 +8769,25 @@
     "imageSource": "accs"
   },
   {
+    "name": "Momozono-nishiki (Peach Garden Brocade)",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Color: Rose shaded white with dark yellow anthers and light yellow filaments. Form: Semidouble with curled petals. Size: Medium.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Momozono-nishiki.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/momozono-nishiki-peach-garden-brocade",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Momozono-nishiki",
+    "chinese_name": [
+      "桃园锦",
+      "平和"
+    ],
+    "japanese_name": [
+      "桃園錦",
+      "ももぞのにしき",
+      "平和の光"
+    ]
+  },
+  {
     "name": "Mona Freeman",
     "species": "Japonica",
     "size": "Medium",
@@ -8471,6 +8831,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Mona Jury Variegated",
+    "species": "NRH",
+    "size": "Large",
+    "description": "Color: Apricot pink blotched white with heavily veined petals with yellow anthers and white filaments. Form: Peony form. Size: Large. Bloom Season: E-L. Growth Rate: Average. Growth Characteristics: Open growth. Leaf Characteristics: Light green. Heritage: Virus variegated form of Non-reticulata hybrid 'Mona Jury'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mona Jury Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mona-jury-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mona%20Jury%20Variegated",
+    "chinese_name": [
+      "莫娜朱端(斑）",
+      "莫娜朱端"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Mona Lisa",
@@ -8554,6 +8929,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Monica%20Burch.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Monica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Monica Dance",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Color: Pink mottled white with gold anthers and white filaments. Form: Semidouble. Size: Medium. Bloom Season: M. Originator: Arnold Dance. Place of Origination: England - Burncoose, Cornwall. Year of Registration / Origination: 1984.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Monica Dance.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/monica-dance",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Monica%20Dance",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -8649,6 +9036,18 @@
       "大红云",
       "红龙"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Mont Blanc",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Color: White with faint yellowish tinge at the center. Form: Peony form. Size: Small. Growth Characteristics: Compact growth. Leaf Characteristics: Medium green. Originator: Mr. Boddaert. Place of Origination: Belgium - Deinze. Year of Registration / Origination: 1843-1844.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mont Blanc.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/mont-blanc",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mont%20Blanc",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -8789,6 +9188,18 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Moon Glow",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White with yellow anthers and white filaments. Form: Semidouble with a few fragile stamens and petaloids. Size: Medium. Bloom Season: M. Growth Characteristics: Informal, willowy growth. Leaf Characteristics: Dark green. Originator: Magnolia Plantation & Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: Late 1800's.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Moon Glow.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/moon-glow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Moon%20Glow",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Moon Moth",
@@ -10220,6 +10631,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Murillo%20[Tuckfield].jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Murillo",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Murillo (Tuckfield)",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Bright pink veined deeper with yellow anthers and white filaments. Form: Semidouble to loose peony form. Size: Very large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Open, growth. Originator: F. S. Tuckfield. Place of Origination: Australia - Berwick, Victoria,. Year of Registration / Origination: 1968 - ACRS Registration #97 - first bloomed in 1966. Heritage: Seedling of Reticulata 'Crimson Robe'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Murillo.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-m/murillo-tuckfield",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Murillo%20%28Tuckfield%29",
     "chinese_name": [],
     "japanese_name": []
   },

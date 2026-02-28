@@ -1,5 +1,17 @@
 [
   {
+    "name": "L'Ange Bleu",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Rose lavender with yellow anthers and white filaments. Form: Semidouble to peony form. Size: Very large. Bloom Season: E-L. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Originator: Roger Salan. Place of Origination: France - Guipronvel. Year of Registration / Origination: 2008.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/L'Ange Bleu.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lange-bleu",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=L%27Ange%20Bleu",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "L'Avenire",
     "species": "Japonica",
     "size": "",
@@ -8,6 +20,18 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=L%27Avvenire",
     "imageSource": "icr",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "L'Avvenire",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Pink veined deeper pink. Form: Formal double. Size: Medium. Bloom Season: M. Leaf Characteristics: Dark green with pale green veins. Originator: Sig. V. Corsi. Place of Origination: Italy. Year of Registration / Origination: 1851. Heritage: Seeding of Japonica 'Donckelaeri'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/L'Avvenire.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lavvenire",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=L%27Avvenire",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1146,6 +1170,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Lanarth",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Cherry red approaching blood red with yellow anthers and white filaments. Form: Single. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Michael Williams. Place of Origination: England - Lanarth, Cornwall. Year of Registration / Origination: 1960. Heritage: Thought to be seeding of Japonica 'Kimberly'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lanarth.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lanarth",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lanarth",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Landon Waters",
     "species": "Japonica",
     "size": "Medium",
@@ -1259,6 +1295,22 @@
     "imageSource": "accs"
   },
   {
+    "name": "LASCA Beauty Variegated",
+    "species": "Reticulata",
+    "size": "Very large",
+    "description": "Color: Soft pink blotched white with yellow anthers and cream filaments. Form: Semidouble with heavy textured thick petals. Size: Very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1975.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/LASCA Beauty Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lasca-beauty-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=LASCA%20Beauty%20Variegated",
+    "chinese_name": [
+      "加州美女(斑）",
+      "加州美女",
+      "复色拉斯卡"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Lassie",
     "species": "Japonica",
     "size": "Large",
@@ -1269,6 +1321,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Lassie Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Light red blotched white with yellow anthers and light cream filaments. Form: Anemone form. Size: Large. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: M. S. Cannon. Place of Origination: U.S. - Dothan, Alabama. Year of Registration / Origination: 1980. Heritage: Virus variegated form of Japonica 'Lassie'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lassie Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lassie-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lassie%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Late White Empress",
@@ -1726,6 +1790,35 @@
     "imageSource": "accs"
   },
   {
+    "name": "Lavinia Maggi",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White with red streaks. Form: Formal double. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Onofrio Maggi. Place of Origination: Italy. Year of Registration / Origination: 1858.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavinia Maggi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lavinia-maggi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavinia%20Maggi",
+    "chinese_name": [
+      "肯玛吉",
+      "拉芬玛吉"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Lavinia Maggi Rosea",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rosy-carmine. Form: Formal double. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: William Bull. Place of Origination: England. Year of Registration / Origination: 1867. Heritage: Probably sport of Japonica  'Lavinia Maggi.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavinia Maggi Rosea.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lavinia-maggi-rosea",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavinia%20Maggi%20Rosea",
+    "chinese_name": [
+      "拉芬玛吉玫瑰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Lawrence Haines",
     "species": "Japonica",
     "size": "Medium",
@@ -2116,6 +2209,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lela%20Laurents%20Var..jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lela%20Laurents",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Lela Laurents Variegated",
+    "species": "Japonica",
+    "size": "Miniature",
+    "description": "Color: Dark red blotched white. Form: Formal double. Size: Miniature. Bloom Season: E. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Lela Laurents'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lela Laurents Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lela-laurents-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lela%20Laurents%20Variegated",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -3166,6 +3271,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Lillian Ricketts",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White. Form: Semidouble. Size: Medium. Bloom Season: M. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Wally Rickets. Place of Origination: Australia- Melbourne, Victoria. Year of Registration / Origination: 1960. Heritage: Seedling of Japonica 'Gauntlettii'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lillian Rickets.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lillian-ricketts",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lillian%20Ricketts",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Lillian's Cherry Pie",
@@ -5311,6 +5428,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Lucky Seven Variegated",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Red blotched white with yellow anthers. Form: Semidouble to loose peony form with slightly waved petals. Size: Medium to large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact growth. Originator: Charmwood Nursery. Place of Origination: U.S.. Year of Registration / Origination: 1964. Heritage: Virus variegated of Japonica 'Lucky Seven\".",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucky Seven Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucky-seven-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Seven%20Variegated",
+    "chinese_name": [
+      "幸运七(斑）",
+      "幸运七"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Lucky Star",

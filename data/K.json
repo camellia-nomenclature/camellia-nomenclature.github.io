@@ -257,7 +257,7 @@
   },
   {
     "name": "Kan-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Crimson Pink. Small, semidouble",
     "image": "https://file2.iflora.cn/Upload/2019/4/11/S/2be099dd-18d7-4108-b24f-63d24a74fd72.jpg",
@@ -269,7 +269,7 @@
   },
   {
     "name": "Kanjiro",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small to medium",
     "description": "('Hiryü [Australia']). Rose Pink shading to Rose Red on edges of petals. Small to medium, semidouble",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kanjiro.jpg",
@@ -319,7 +319,7 @@
   },
   {
     "name": "Kara-Goromo",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Deep Pink. Small, semidouble.",
     "image": "https://file1.iflora.cn/Upload/2019/4/10/S/d667d448-251a-4714-b208-c98ff73833c8.jpg",
@@ -356,6 +356,24 @@
     "japanese_name": [
       "唐錦",
       "からにしき"
+    ]
+  },
+  {
+    "name": "Karabenten",
+    "species": "Japonica",
+    "size": "?",
+    "description": "Color: Red with golden anthers and white filaments. Form: Single of five large petals, widely opening with prominent stamen cluster. Size: ?. Bloom Season: ?. Leaf Characteristics: Mid-green with clear, creamy variegation, irregularly around the margins. Place of Origination: Japan - Chubu. Year of Registration / Origination: 1963. Other Information: Means Chinese Beauty in Japanese.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Karabenten.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/karabenten",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Karabenten",
+    "chinese_name": [
+      "唐弁天",
+      "唐办天"
+    ],
+    "japanese_name": [
+      "唐弁天",
+      "からべんてん"
     ]
   },
   {
@@ -437,6 +455,24 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kasugayama",
     "imageSource": "icr",
     "chinese_name": [
+      "春曰山"
+    ],
+    "japanese_name": [
+      "春日山",
+      "かすがやま"
+    ]
+  },
+  {
+    "name": "Kasugayama",
+    "species": "Rusticana",
+    "size": "Small",
+    "description": "Color: Red blotched white with golden anthers and white filaments. Form: Irregular semidouble. Size: Small. Leaf Characteristics: Glossy, mid-green. Originator: Kawamura, Yaich. Place of Origination: Japan - JÃ´-etsu City, Niigata Prefecture. Year of Registration / Origination: 1966. Other Information: Means 'Mount Kasuga' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kasugayama.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kasugayama",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kasugayama",
+    "chinese_name": [
+      "春日山",
       "春曰山"
     ],
     "japanese_name": [
@@ -852,6 +888,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Katie Northcutt Variegated",
+    "species": "Japonica",
+    "size": "very large 5 1/2\" x 3\" [6 1/4\" x 3 1/2\" treated]",
+    "description": "Color: Light pink variegated white with yellow anthers and yellow filaments.. Size: very large 5 1/2\" x 3\" [6 1/4\" x 3 1/2\" treated]. Bloom Season: Early to Midseason. Growth Rate: The growth rate is vigorous.. Growth Characteristics: The plant habit is upright.. Leaf Characteristics: The dark green leaves average 4\" x 2\". The plant is suitable for landscaping and exhibition uses.. Originator: Originated by Ed Northcutt of Tallahassee, Florida, registered by E. Hulyn Smith of Valdosta, Georgia, and propagated by Ed Northcutt of Tallahassee, Florida, E. Hulyn Smith of Valdosta, Georgia, and Mark Crawford of Valdosta, Georgia.. Place of Origination: Tallahassee, Florida. Year of Registration / Origination: 2010. Heritage: unknown pollen parent.",
+    "image": "https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/standard/PAGE/12857/large/KatieNorthcuttVar.jpg",
+    "imageSource": "acs",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/katie-northcutt-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Katie%20Northcutt%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Katie Shipley",
     "species": "Reticulata",
     "size": "Large to very large",
@@ -1093,7 +1141,7 @@
   },
   {
     "name": "Kelly McKnight",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Brilliant Red. Small, rose form double.",
     "image": null,
@@ -1218,6 +1266,30 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kenny%20Howard",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kerdalo",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Coral rose with yellow anthers and white filaments. Form: Semidouble to rose form double. Size: Large. Bloom Season: M. Leaf Characteristics: Medium green. Originator: Roger Salan. Place of Origination: France - Guipronvel. Year of Registration / Origination: First bloomed in 2008. Other Information: Named for a Bretagne garden.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kerdalo.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kerdalo",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kerdalo",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kerguelen",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Bright pink rose. Form: Rose form double. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Genetically variegated foliage, dark green centers to silvery edges in various combinations. Originator: Stervinou Nursery. Place of Origination: France. Year of Registration / Origination: 1998.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kerguelen.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kerguelen",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kerguelen",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1404,6 +1476,22 @@
     "japanese_name": []
   },
   {
+    "name": "Ki-no-senritsu",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Color: Soft light yellow. Form: Peony to loose peony form. Size: Small to medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Open growth. Leaf Characteristics: Medium green - Japonica-like. Originator: Tadao Yamaguchi. Place of Origination: Japan - Ishikawa. Year of Registration / Origination: 1998. Heritage: Nitidissima x Japonica 'Hakuhï¿½'. Other Information: Means  'Yellow Melody' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-no-senritsu.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/ki-no-senritsu",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-senritsu",
+    "chinese_name": [
+      "黄的旋律"
+    ],
+    "japanese_name": [
+      "黄の旋律"
+    ]
+  },
+  {
     "name": "Ki-No-Senritsu (Yellow Melody).",
     "species": "NRH",
     "size": "Small to medium",
@@ -1562,6 +1650,18 @@
     "japanese_name": []
   },
   {
+    "name": "Kim McGowan",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White with golden anthers and white filaments. Form: Rose form double to formal double. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Originator: Jack L. Mandarich. Place of Origination: U.S. - Menlo Park, California. Year of Registration / Origination: 1980 - ACS Registration #1690 - first bloomed in 1968. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kim McGowan.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kim-mcgowan",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kim%20McGowan",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Kimberley",
     "species": "Japonica",
     "size": "Medium",
@@ -1585,6 +1685,18 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kimberly%20Junior",
     "imageSource": "icr",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kimberly Junior",
+    "species": "Japonica",
+    "size": "Miniature",
+    "description": "Color: Dark red. Form: Full peony form. Size: Miniature. Originator: Earl Hudson Nursery. Place of Origination: U.S. - Sun Valley, California. Year of Registration / Origination: 1958.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kimberly Junior.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kimberly-junior",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kimberly%20Junior",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1759,7 +1871,7 @@
   },
   {
     "name": "Kira-Shiro-Kantsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "White. Small, semidouble. E. (Japan 1960's - Kira Firm, Nishio City, Chiba Prefecture).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kira-Shiro-Kantsubaki.jpg",
@@ -2025,10 +2137,34 @@
     "description": "Pale Yellow with slender stripes of Red. Small, trumpet shaped single. Vigorous, upright growth. M-L. (Japonica 'Betty Foy Sanders' x C. nitidissima). (U.S. 1993 - Kazuo Yoshikawa, Osaka, Japan).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-nishiki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-nishiki",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane%20Nishiki",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-nishiki",
     "imageSource": "acs",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "金色锦锻",
+      "黄锦秀"
+    ],
+    "japanese_name": [
+      "こがね錦",
+      "こがねにしき"
+    ]
+  },
+  {
+    "name": "Kogane-nishiki (Golden Brocade)",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Color: slender stripes of red on pale yellow background. Size: Small. Bloom Season: mid-season to late. Growth Characteristics: upright. Originator: Kazuo Yoshikawa. Place of Origination: Osaka. Heritage: Betty Foy Sanders.",
+    "image": "https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/standard/PAGE/14202/large/Koganenishiki.jpg",
+    "imageSource": "acs",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-nishiki-golden-brocade",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-nishiki",
+    "chinese_name": [
+      "金色锦锻",
+      "黄锦秀"
+    ],
+    "japanese_name": [
+      "こがね錦",
+      "こがねにしき"
+    ]
   },
   {
     "name": "Kogane-Yuri",
@@ -2047,6 +2183,25 @@
       "こがねゆり"
     ],
     "imageSource": "accs"
+  },
+  {
+    "name": "Kogane-yuri (Golden Lily)",
+    "species": "Reticulata",
+    "size": "?",
+    "description": "Color: Pale yellow with deep golden anthers. Form: Single of 7 rounded petals, with a slight fold up the center to apex. Size: ?. Bloom Season: ?. Leaf Characteristics: Mid-green. Originator: Kazuo Yoshikawa. Place of Origination: Japan. Year of Registration / Origination: 1995. Heritage: (Reticulata x Saluenensis 'Barbara Clark') x Nitidissima.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-Yuri.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-yuri-golden-lily",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-yuri",
+    "chinese_name": [
+      "金百合花",
+      "金币",
+      "黄金百合"
+    ],
+    "japanese_name": [
+      "こがねゆり こがねゆり",
+      "こがねゆり"
+    ]
   },
   {
     "name": "Kogyoku",
@@ -2073,6 +2228,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Kohinor Variegated",
+    "species": "Reticulata",
+    "size": "Large to very large",
+    "description": "Color: Orchid pink with yellow anthers and yellow filaments. Form: Semidouble with irregular, upright petals. Size: Large to very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1969. Heritage: Virus variegated form of Reticulata hybrid 'Kohinor'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kohinor Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kohinor-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kohinor%20Variegated",
+    "chinese_name": [
+      "科欣诺(斑)",
+      "科欣诺"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Koku-Ryu (Black Dragon)",
@@ -2165,6 +2335,23 @@
     "japanese_name": []
   },
   {
+    "name": "Konronkoku",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Cardinal red. Form: Rose form double to peony form; petals round, incurved, 11-25, slightly emarginate. Size: Medium. Bloom Season: M-L. Leaf Characteristics: Medium green. Place of Origination: Japan - Kanto area. Year of Registration / Origination: 1925.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Konronkoku.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/konronkoku",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Konronkoku",
+    "chinese_name": [
+      "昆仑黑"
+    ],
+    "japanese_name": [
+      "崑崙黒",
+      "こんろんこく"
+    ]
+  },
+  {
     "name": "Korean Fire",
     "species": "Japonica",
     "size": "Small to medium",
@@ -2235,6 +2422,40 @@
     ]
   },
   {
+    "name": "Koshi-no-reijin (Niigata Beauty)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Dark peach colored whorls on a milk-white background with yellow anthers and white filaments. Form: Rose form double. Size: Medium. Bloom Season: M. Growth Rate: Strong. Growth Characteristics: Spreading growth. Leaf Characteristics: Dark green. Originator: Hideyo KatÃ´. Place of Origination: Japan - Niigata Prefecture. Year of Registration / Origination: 1979. Heritage: Branch mutation of Japonica 'Jitsugetsu'. Other Information: Means 'Niigata Beauty' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Koshi-no-reijin.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/koshi-no-reijin-niigata-beauty",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-reijin",
+    "chinese_name": [
+      "越之丽人"
+    ],
+    "japanese_name": [
+      "越の麗人 こしのれいじん",
+      "越の麗人",
+      "こしのれいじん"
+    ]
+  },
+  {
+    "name": "Koshi-no-yoso'oi",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Blush orchid-pink. Form: Formal double with small, rounded, emarginate petals arranged in tiered or star shape. Size: Medium. Leaf Characteristics: Mid-green. Originator: Mitsuroku Makino. Place of Origination: Japan - Fuchû Town, Niigata Prefecture. Year of Registration / Origination: 1970. Other Information: Means 'Niigata Adornment' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Koshi-no-yoso'oi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/koshi-no-yosooi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Koshi-no-yoso%27oi",
+    "chinese_name": [],
+    "japanese_name": [
+      "越の粧い こしのよそおい",
+      "越の粧い",
+      "こしのよそおい"
+    ]
+  },
+  {
     "name": "Koshi-No-Yoso'Oi (Niigata Adornment)",
     "species": "Japonica",
     "size": "Small to medium",
@@ -2299,6 +2520,23 @@
       "古都の香"
     ],
     "imageSource": "accs"
+  },
+  {
+    "name": "Kotsuzumi (Small Drum)",
+    "species": "Vernalis",
+    "size": "Small",
+    "description": "Color: Peach red with light yellow anthers and darker yellow filaments. Form: Single. Size: Small. Originator: Matsumura and Yatsuhiro Maeda, Inasa Town, Shizuoka Prefecture. Place of Origination: Japan -  Inasa Town, Shizuoka Prefecture. Year of Registration / Origination: 1977.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kotsuzumi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kotsuzumi-small-drum",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kotsuzumi",
+    "chinese_name": [
+      "小鼓"
+    ],
+    "japanese_name": [
+      "小鼓",
+      "こつづみ"
+    ]
   },
   {
     "name": "Kramer's Beauty",
@@ -2482,6 +2720,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Kubal Kain Variegated",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Ruby red moire white with light yellow anthers and white filaments. Form: Loose peony form. Size: Medium to large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact growth. Originator: Shackelford Nurseries. Place of Origination: U.S. - Albany, Georgia,. Year of Registration / Origination: 1964. Heritage: Virus variegated form of Japonica 'Kubal Kain'. Other Information: Called 'Kubal Kain Supreme' in SCCS Nomenclature.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kubal Kain Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kubal-kain-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kubal%20Kain%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Kujaku-Tsubaki",

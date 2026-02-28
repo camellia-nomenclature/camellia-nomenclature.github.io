@@ -1,5 +1,17 @@
 [
   {
+    "name": "J-Wings",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Medium red. Form: Formal double. Size: Large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Spreading, open growth. Leaf Characteristics: Light green. Originator: Pat B. Johnson. Place of Origination: U.S. - Cairo, Georgia. Year of Registration / Origination: 2019 - ACS Registration #3102 - first bloomed in 2012. Heritage: Seedling of Japonica 'Lady Macon'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J-Wings.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/j-wings",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J-Wings",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "J. Bishop Alexander Ii",
     "species": "Japonica",
     "size": "Large",
@@ -8,6 +20,20 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20Bishop%20Alexander%20Ii",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. C. Williams",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Color: Phlox pink with golden anthers and white filaments. Form: Single. Size: Medium. Bloom Season: E-L. Growth Rate: Vigorous. Growth Characteristics: Upright, pendulous growth. Originator: J .C. Williams. Place of Origination: England - Caerhays Castle, Cornwall. Year of Registration / Origination: 1940. Heritage: Saluenensis x Japonica.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J. C. Williams.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/j-c-williams",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20C.%20Williams",
+    "chinese_name": [
+      "广东花"
+    ],
     "japanese_name": []
   },
   {
@@ -33,6 +59,32 @@
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20J.%20Joyner",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. J. Pringle Smith",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Bright red to rose pink with yellow anthers. Form: Semidouble. Size: Large. Bloom Season: M-L. Growth Rate: Slow. Growth Characteristics: Compact Growth. Originator: Middleton Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1941.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J. J. Pringle Smith.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/j-j-pringle-smith",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20J.%20Pringle%20Smith",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. J. Whitfield",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Dark red with golden anthers. Form: Loose to full peony form. Size: Medium. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Light green. Originator: Magnolia Plantation and Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1950. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J. J. Whitfield.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/j-j-whitfield",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20J.%20Whitfield",
+    "chinese_name": [
+      "白野"
+    ],
     "japanese_name": []
   },
   {
@@ -74,6 +126,18 @@
     "japanese_name": []
   },
   {
+    "name": "J. Morgan Sprott",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Deep cherry red. Form: Semidouble with loose irregular petals. Size: Large. Bloom Season: L. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: J. Morgan Sprott. Place of Origination: U.S. - Elloree, South Carolina. Year of Registration / Origination: 1973 - ACS Registration #1298 - first bloomed in 1965. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J. Morgan Sprott.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/j-morgan-sprott",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20Morgan%20Sprott",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "J. R. Rosa",
     "species": "Japonica",
     "size": "Medium",
@@ -81,6 +145,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20R.%20Rosa",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "J. Stewart Howard",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Bright red with bright yellow anthers and blush pink filaments. Form: Semidouble with crinkled petals. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Upright, dense growth. Leaf Characteristics: Dark green. Originator: E. Ray Bond. Place of Origination: U.S. - Dallas, Texas. Year of Registration / Origination: 1983 - ACS Registration #1901 - first bloomed in 1974. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/J. Stewart Howard.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/j-stewart-howard",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=J.%20Stewart%20Howard",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -253,6 +329,18 @@
     "imageSource": "acs"
   },
   {
+    "name": "Jack's",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Rose pink. Form: Formal double. Size: Medium. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Compact growth. Place of Origination: U.S..",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jacks.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jacks",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jacks",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Jack's Pride",
     "species": "Japonica",
     "size": "Large",
@@ -346,6 +434,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jacksonii.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jacksoni",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jacksonii",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Color: Bright carmine red, with a wide stripe of white in the middle with golden anthers. Form: Semidouble to peony to anemone form. Size: Large to very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open growth. Originator: Mr. Jackson, horticulturalist of Kensington. Place of Origination: England - London. Year of Registration / Origination: 1849. Heritage: Sport of Japonica 'Gigantea'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jacksonii.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jacksonii",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jacksonii",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -600,6 +700,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jan%20Hughes",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jan J.",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose pink with gold anthers and filament. Form: Peony form with 15+ petals. Size: Large. Bloom Season: E-M. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: O. L. Jacobson. Place of Origination: U.S. - Jacksonville Beach, Florida. Year of Registration / Origination: 1989 - ACS Registration #2151 - first bloomed in 1985. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jan J..jpeg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jan-j",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jan%20J.",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1172,6 +1284,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Jay's Surprise",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Color: Deep red with yellow anthers and pink filaments. Form: Semidouble to loose peony to anemone form. Size: Large to very large. Bloom Season: E-L. Growth Rate: Vigorous. Growth Characteristics: Spreading, open growth. Leaf Characteristics: Dark green. Originator: Jay & Debbie Ellis. Place of Origination: U.S. - Keystone Heights, Florida. Year of Registration / Origination: 2023 - ACS Registraton #3349 - first observed in 2018. Heritage: Sport of Japonica 'Ferris Wheel'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jay's Surprise.jpeg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jays-surprise",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jay%27s%20Surprise",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Jaylyle",
@@ -2014,6 +2138,21 @@
     "imageSource": "socal"
   },
   {
+    "name": "Jessie Burgess Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose with white blotches with yellow stamens. Form: Semidouble. Size: Large. Bloom Season: E. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1965. Heritage: Virus variegated form of Japonica 'Jessie Burgess'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jessie Burgess Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jessie-burgess-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jessie%20Burgess%20Variegated",
+    "chinese_name": [
+      "花柏格斯",
+      "自由城市"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Jessie Conner",
     "species": "Japonica",
     "size": "Small to medium",
@@ -2680,6 +2819,23 @@
     "japanese_name": []
   },
   {
+    "name": "Jitsugetsusei",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White blotches on crimson with spreading yellow anthers and white filaments. Form: Single. Size: Medium. Bloom Season: M-L. Leaf Characteristics: Deep green. Place of Origination: Japan - Kumamoto Prefecture. Heritage: Sport of Japonica 'Higo-kyÃ´-nishiki'. Other Information: means 'Host of Heaven' or 'Sun, Moon and Stars' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jitsugetsusei.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jitsugetsusei",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jitsugetsusei",
+    "chinese_name": [
+      "日月星"
+    ],
+    "japanese_name": [
+      "日月星",
+      "じつげつせし"
+    ]
+  },
+  {
     "name": "Jo Anna Wilson",
     "species": "Japonica",
     "size": "Small",
@@ -3102,6 +3258,30 @@
     "imageSource": "socal"
   },
   {
+    "name": "John Illges",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Bright red with yellow anthers and cream tinted pink filaments. Form: Single of flat form. Size: Medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Loose, upright form. Leaf Characteristics: Dark green. Originator: Magnolia Plantation &  Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1840's. Heritage: Seedling of Japonica 'Gigantea'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/John Illges.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/john-illges",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=John%20Illges",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "John L. Shirah",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: White, with a slight blush. Form: Formal double. Size: Medium to large. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Spreading growth. Leaf Characteristics: Dark green. Originator: John W. Shirah. Place of Origination: U.S. - Lakeland, Florida. Year of Registration / Origination: 2005 - ACS Registration #2639 - first bloomed in 1989. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/John L. Shirah.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/john-l-shirah",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=John%20L.%20Shirah",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "John Movich",
     "species": "Reticulata",
     "size": "Very large",
@@ -3138,6 +3318,18 @@
     "japanese_name": []
   },
   {
+    "name": "John Rumbach",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark red with yellow anthers and white filaments. Form: Semidouble to loose peony form. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Spreading, dense growth. Leaf Characteristics: Dark green with low serration. Originator: John Rumbach. Place of Origination: U.S. - Jacksonville, Florida. Year of Registration / Origination: 2013 - ACS Registration #2865 - first bloomed in 2007. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/John Rumbach.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/john-rumbach",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=John%20Rumbach",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "John Taylor",
     "species": "Reticulata",
     "size": "Very large",
@@ -3148,6 +3340,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "John Williams",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose and white with gold anthers and white filaments. Form: Single. Size: Large. Originator: Riverbank Camellia Nursery. Place of Origination: U.S. - Riverbank, California. Year of Registration / Origination: 1946.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/John Williams.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/john-williams",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=John%20Williams",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Johnny Aldrich",
@@ -3699,6 +3903,21 @@
     "japanese_name": []
   },
   {
+    "name": "Jubilation Variegated",
+    "species": "NRH",
+    "size": "Large to very large",
+    "description": "Color: Pink with occasional deeper pink fleck blotched white with yellow stamens and white anthers. Form: Rose form double. Size: Large to very large. Bloom Season: M-L. Growth Characteristics: Upright growth. Leaf Characteristics: Light green. Heritage: Virus variegated form of Non-reticulata hybrid 'Jubilation'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jubilation Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jubilation-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jubilation%20Variegated",
+    "chinese_name": [
+      "新庆祝",
+      "庆祝"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Judge Jackson",
     "species": "Reticulata",
     "size": "Large to very large",
@@ -3960,6 +4179,20 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Juil",
     "imageSource": "icr",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Jules verne",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Vivid red with gold anthers and white filaments. Form: Single to semidouble form. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact growth. Leaf Characteristics: Medium green. Originator: Claude Thoby. Place of Origination: France - Nantes. Year of Registration / Origination: 1989.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jules Verne.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jules-verne",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jules%20verne",
+    "chinese_name": [
+      "儒勒凡尔纳"
+    ],
     "japanese_name": []
   },
   {

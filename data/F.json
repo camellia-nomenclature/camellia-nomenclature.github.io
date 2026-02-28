@@ -185,6 +185,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Fairy Queen",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Color: Light Pink. Form: Single. Size: Medium. Originator: McCaskill Gardens. Place of Origination: U.S. - Pasadena, California. Year of Registration / Origination: 1956.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fairy Queen.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fairy-queen",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fairy%20Queen",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Fairy Queen (McCASKILL)",
     "species": "Sasanqua",
     "size": "Medium",
@@ -436,6 +448,18 @@
     "japanese_name": []
   },
   {
+    "name": "Fantasy",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Color: Bright red of pine-cone construction with golden anthers. Form: Semidouble. Size: Small. Bloom Season: M. Originator: Magnolia Plantation &  Gardens. Place of Origination: U.S. - Charleston, South Carolina. Year of Registration / Origination: 1942.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fantasy.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fantasy",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fantasy",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Fantasy (California)",
     "species": "Japonica",
     "size": "Medium",
@@ -496,6 +520,22 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Fashionata Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Apricot pink blotched white with yellow anthers and creamy yellow filaments. Form: semidouble with curled and crepe outer petals and occasional cluster of petaloids. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Fashionata'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fashionata Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fashionata-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fashionata%20Variegated",
+    "chinese_name": [
+      "上流社会（斑）",
+      "上流社会",
+      "复色风流"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Father L.",
@@ -1222,6 +1262,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Fire Falls Variegated",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "Color: Glowing Crimson.. Form: Full peony form.. Size: Medium to large. Bloom Season: E-L. Growth Rate: Vigorous. Growth Characteristics: Open, upright growth. Place of Origination: U.S.. Heritage: Virus variegated form of Japonica 'Fire Falls'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fire Falls Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fire-falls-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fire%20Falls%20Variegated",
+    "chinese_name": [
+      "复色火红瀑布"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Fire Frost",
     "species": "NRH",
     "size": "",
@@ -1442,6 +1496,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Firstborn Variegated",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Bright red blotched white with yellow anthers and white filaments. Form: Semidouble with petals standing apart. Size: Medium. Bloom Season: M. Growth Characteristics: Open, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1963. Heritage: Virus variegated form of Japonica 'Firstborn'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Firstborn Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/firstborn-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Firstborn%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Five Star General",
@@ -2299,6 +2365,22 @@
     ],
     "japanese_name": [],
     "imageSource": "acs"
+  },
+  {
+    "name": "Forty-Niner Variegated",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Brilliant red blotched white with golden anthers. Form: Full peony form. Size: Large. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Spreading growth. Place of Origination: U.S.. Year of Registration / Origination: 1969. Heritage: Virus variegated form of Reticulata hybrid - 'Forty-Niner'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Forty-Niner Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/forty-niner-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Forty-Niner%20Variegated",
+    "chinese_name": [
+      "白斑49人队",
+      "白斑",
+      "人队"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Four Winds",
@@ -3543,6 +3625,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Freedom Bell Variegated",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Color: Bright red blotched white with yellow anthers and pinkish filaments. Form: Bell-shaped semidouble. Size: Small. Bloom Season: E-M. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Originator: Ray Gentry. Place of Origination: U.S. - Jackson, Mississippi. Year of Registration / Origination: 1968.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Freedom Bell Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/freedom-bell-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Freedom%20Bell%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Fregeo",
     "species": "Reticulata",
     "size": "Large",
@@ -3715,6 +3809,21 @@
     "japanese_name": []
   },
   {
+    "name": "Frosted Star",
+    "species": "Sasanqua",
+    "size": "Small",
+    "description": "Color: White toned light pink with golden anthers and white filaments. Form: Semidouble. Size: Small. Bloom Season: E. Growth Rate: Average. Growth Characteristics: Bushy, upright, somewhat spreading growth. Leaf Characteristics: Dark green. Originator: Nuccio's Nurseries. Place of Origination: U.S. - Altadena, California. Year of Registration / Origination: 1993.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Frosted Star.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/frosted-star",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Frosted%20Star",
+    "chinese_name": [
+      "霜星",
+      "冰冻星辰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Frosty",
     "species": "Sasanqua",
     "size": "Medium",
@@ -3860,6 +3969,23 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Fukutsuzumi",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Color: Dark red petals mottled white with yellow anthers and red filaments. Form: Single. Size: Small. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Somewhat open growth. Leaf Characteristics: dark green, elliptic. Originator: Minoru Sat??. Place of Origination: Japan - Chûbu area. Year of Registration / Origination: 1969. Heritage: Variegated form of Japonica  'Kuro-wabisuke'. Other Information: Means 'Fortune's Hand Drum' in Japanese.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Fukuzutsumi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/fukutsuzumi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fukutsuzumi",
+    "chinese_name": [
+      "福鼓"
+    ],
+    "japanese_name": [
+      "福鼓",
+      "ふくつづみ"
+    ]
   },
   {
     "name": "Fukutsuzumi (Fortune's Hand Drum)",

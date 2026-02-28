@@ -456,6 +456,30 @@
     "imageSource": "socal"
   },
   {
+    "name": "Imbricata Dunlapii",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Dark rose with a whitish shade through the center of the petals. Form: Formal double. Size: Medium. Leaf Characteristics: Clear green. Originator: T. Dunlap. Place of Origination: U.S. - New York, New York. Year of Registration / Origination: 1840 - first bloomed in 1838. Heritage: Japonica 'Middlemist' x Japonica 'Parksii.'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Imbricata Dunlapii.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/imbricata-dunlapii",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imbricata%20Dunlapii",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Imbricata Rubra",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Carmine rose, often with central petals streaked white. Form: Formal double - fully imbricated. Size: Medium. Leaf Characteristics: Dark green. Originator: John Dampier Parks for the Royal Horticultural Society of London. Place of Origination: China to England. Year of Registration / Origination: 1824 - first bloomed in England in 1827.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Imbricata Rubra.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/imbricata-rubra",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Imbricata%20Rubra",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Imbricata Rubra Plena",
     "species": "Japonica",
     "size": "",
@@ -780,8 +804,20 @@
     ]
   },
   {
+    "name": "Insula Oya",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Red with yellow anthers and white filaments. Form: Semidouble. Size: Medium. Leaf Characteristics: Medium green. Originator: Botanic Nursery Thoby. Place of Origination: France - Thoby. Year of Registration / Origination: 2009.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Insula Oya.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-i/insula-oya",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Insula%20Oya",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Interlude",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "Light Pink. Small, rose form double to formal double.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Interlude.jpg",

@@ -277,6 +277,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Cajun King",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Red with gold anthers and flesh filaments. Form: Loose peony form. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact growth. Leaf Characteristics: Medium green. Year of Registration / Origination: 1970.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cajun King.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cajun-king",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cajun%20King",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cajun Queen",
     "species": "Japonica",
     "size": "Large",
@@ -296,6 +308,18 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Calder%27s%20Treasure",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Calico",
+    "species": "Japonica",
+    "size": "medium to large",
+    "description": "Color: white, striped dark pink. Size: medium to large. Bloom Season: late. Growth Rate: vigorous. Growth Characteristics: compact, upright growth. Originator: Orton Plantation Nursery. Place of Origination: Winnabow, North Carolina, USA.",
+    "image": "https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/standard/PAGE/8028/large/calico p1014606.jpg",
+    "imageSource": "acs",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/calico",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Calico",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1424,6 +1448,22 @@
     "imageSource": "acs"
   },
   {
+    "name": "Carlotta Grisi",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Light red, striped white at the center of the petals. Form: Formal double; imbricated. Size: Medium. Leaf Characteristics: Dark green. Place of Origination: France - Obtained from seed in Italy. Year of Registration / Origination: 1848.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Carlotta Grisi.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/carlotta-grisi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Carlotta%20Grisi",
+    "chinese_name": [
+      "卡洛店员",
+      "卡达",
+      "卡洛塔格里西"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Carlton Lacour",
     "species": "Japonica",
     "size": "Medium to large",
@@ -2198,6 +2238,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Caryophylloides",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Delicate pink with the poppy colored stripes. Form: Formal double. Size: Medium. Leaf Characteristics: Dark green. Originator: Hugh Low. Place of Origination: England - Clapton. Year of Registration / Origination: 1848.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Caryophylloides.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/caryophylloides",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caryophylloides",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Casablanca",
     "species": "Japonica",
     "size": "",
@@ -2233,6 +2285,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Casimir",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: White and red (RHS.CC.46D). Form: Single, somewhat Higo-type, with about 150 stamens. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Prostrate, bushy growth. Leaf Characteristics: Medium green. Originator: M. Aldred LeMaÃ®tre. Place of Origination: France - Carquefou. Year of Registration / Origination: 2004 - ICS Registration #47 - first bloomed on March 4th, 2000, the feast day of St. Casimir. Heritage: Seedling of Japonica 'Yamato-nishiki'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Casimir.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/casimir",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Casimir",
+    "chinese_name": [
+      "卡西米尔"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Catherine Cathcart",
@@ -2774,7 +2840,7 @@
   },
   {
     "name": "Chansonette",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Brilliant Pink. Medium, formal double with ruffled petals. (Sasanqua 'Shishi-Gashira' seedling). (Ralph S. Peer Sasanqua seedling Award of American Camellia Society - First Award Season-1959).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chansonette.jpg",
@@ -2827,6 +2893,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Charlean Variegated",
+    "species": "NRH",
+    "size": "Large",
+    "description": "Color: Translucent pink blotched white with pink filaments and lemon yellow anthers. Form: Semidouble. Size: Large. Bloom Season: M-L. Growth Rate: Vigorous. Growth Characteristics: Spreading, upright growth. Leaf Characteristics: Light green. Place of Origination: U.S.. Heritage: Virus variegated of Non-reticulata hybrid 'Charlean'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Charlean Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/charlean-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Charlean%20Variegated",
+    "chinese_name": [
+      "北国佳丽(斑)",
+      "北国佳丽"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Charlene Ellison",
@@ -3169,6 +3250,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Charlotte Blount Variegated",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Strawberry red marbled white with white anthers and white filaments. Form: Semidouble to peony form with 85 to 94 petals. Size: Large. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Upright Growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1980. Heritage: Virus variegated form of Japonica 'Charlotte Blount'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Charlotte Blount Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/charlotte-blount-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Charlotte%20Blount%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Charlotte Bradford",
     "species": "Japonica",
     "size": "Medium",
@@ -3465,6 +3558,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Cherries Jubilee Variegated",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Burgundy red blotched white with red and white petaloids intermingled with stamens. Form: Full semidouble to rose form double. Size: Medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Originator: Valdosta Camellia Scions. Place of Origination: U.S. - Valdosta, Georgia. Year of Registration / Origination: 1993. Heritage: Virus variegated form of Japonica 'Cherries Jubilee'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cherries Jubilee Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cherries-jubilee-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cherries%20Jubilee%20Variegated",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cherries O'Toole",
     "species": "Japonica",
     "size": "Large",
@@ -3487,6 +3592,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Cherry Blossom (Cherry Leaf Camellia)",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: White with pink and red specks and peppering to red streaks with yellow anthers. Form: Single with 7-9 wide, overlapping, crinkled petals and a small, central stamen cluster.. Size: Large. Bloom Season: M. Leaf Characteristics: Foliage resembles that of a cherry tree. Originator: 1867. Place of Origination: Japan. Other Information: Called 'Sakuraba-tsubaki' in Japanese.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cherry Blossom.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cherry-blossom-cherry-leaf-camellia",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cherry%20Blossom",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Cherry Bounce",
@@ -3822,7 +3939,7 @@
   },
   {
     "name": "Chiri-Tsubaki",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Small",
     "description": "('Pink Shishi-Gashira'). Light Pink. Small, semidouble to rose form double.",
     "image": "https://file3.iflora.cn/Upload/2019/4/10/S/d2fe53e1-89b5-4ec2-8fa6-76992103084d.jpg",
@@ -3831,6 +3948,22 @@
     "imageSource": "icr",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Chisato-no-aki (Autumn in Villages)",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Color: Cream with occasional dark pink splashes. Form: Formal double. Size: Medium. Bloom Season: E. Growth Characteristics: Arching growth. Leaf Characteristics: Dark green. Place of Origination: Japan - Kumamoto Prefecture. Other Information: Means 'Autumn in Villages' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chisato-no-aki.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/chisato-no-aki-autumn-in-villages",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chisato-no-aki",
+    "chinese_name": [],
+    "japanese_name": [
+      "千里の秋 ちさとのあき",
+      "千里の秋",
+      "ちさとのあき"
+    ]
   },
   {
     "name": "Chittagong",
@@ -3842,6 +3975,24 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chittagong",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Chiyoda-nishiki",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Soft pink marbled white and rose pink with yellow anthers and yellow filaments. Form: Semidouble. Size: Medium. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Low, spreading growth. Originator: Chugai. Place of Origination: Japan - ChÃ»bu. Year of Registration / Origination: 1935.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Chiyoda-nishiki.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/chiyoda-nishiki",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chiyoda-nishiki",
+    "chinese_name": [
+      "千代锦",
+      "千代田锦"
+    ],
+    "japanese_name": [
+      "千代田錦",
+      "ちよだにしき"
+    ]
   },
   {
     "name": "Chiyoda-Nishiki (Myraid Brocade)",
@@ -4272,7 +4423,7 @@
   },
   {
     "name": "Christmas Candles",
-    "species": "Formerly Hiemalis",
+    "species": "Hiemalis",
     "size": "Medium",
     "description": "Bright Red. Medium, semidouble. CHRISTMAS CAROL - Formerly Vernalis - Coral Red blooms have highly variable White picotee edges with Yellow anthers and White filaments. 7 mine left in chanter Medium, semidouble. Vigorous, upright, semi-weeping growth. E-M. (Sasanqua 'Egao' x Japonica Tama cultivar). (U.S. 2021 - Bobby Green, Green Nurseries, Fairhope, AL).",
     "image": "https://file2.iflora.cn/Upload/2019/4/10/S/7e6c3af4-baed-408a-a17e-c6789a0808ee.jpg",
@@ -5127,6 +5278,18 @@
     "imageSource": "accs"
   },
   {
+    "name": "Cleo Atkins",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Dark red with yellow anthers and light pink filaments. Form: Semidouble with five separate sections of stamens with 18 petals, 3 petaloids. Size: Large. Bloom Season: M-L. Growth Rate: Average. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: Johnny Aldrich. Place of Origination: U.S. - Brooklet, Georgia. Year of Registration / Origination: 1988 - ACS Registration #2103 - first bloomed in 1978. Heritage: Chance seedling.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cleo Akins.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cleo-atkins",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cleo%20Atkins",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cleo Gliddon Arras",
     "species": "Japonica",
     "size": "Medium",
@@ -5165,6 +5328,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Cleopatra (Sawada)",
+    "species": "Sasanqua",
+    "size": "Medium",
+    "description": "Color: Rose pink shading to lighter pink at the center with yellow anthers. Form: Semidouble. Size: Medium. Bloom Season: Fall. Growth Rate: Vigorous. Growth Characteristics: Very compact growth. Leaf Characteristics: Dark green. Originator: Imported to U.S. from Japan by K. Sawada - Overlook Nurseries. Place of Origination: U.S. - Crichton, Alabama. Year of Registration / Origination: Imported in approximately 1929. Other Information: Formal name: 'Cleopatra (Sawada)'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cleopatra.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cleopatra",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cleopatra",
+    "chinese_name": [
+      "克利欧佩特拉"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Cleopatra White",
@@ -5211,6 +5388,21 @@
     "imageSource": "accs"
   },
   {
+    "name": "Cleve James Variegated",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Color: Deep rose blotched white with yellow anthers and white filaments. Form: Peony form. Size: Large to very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Compact, upright growth. Leaf Characteristics: Dark green. Place of Origination: U.S.. Year of Registration / Origination: 1990. Heritage: Virus variegated form of Japonica 'Cleve James'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cleve James Var..jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cleve-james-variegated",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cleve%20James%20Variegated",
+    "chinese_name": [
+      "雅客名士(斑）",
+      "雅客名士"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Cliff Harris",
     "species": "Japonica",
     "size": "Medium to large",
@@ -5248,6 +5440,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "icr"
+  },
+  {
+    "name": "Cliveana (Gerbing)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Light pink with yellow anthers and white filaments. Form: Anemone form. Size: Medium. Bloom Season: L. Growth Rate: Vigorous. Growth Characteristics: Compact growth. Leaf Characteristics: Dark glossy green. Originator: Gerbing Camellia Nursery. Place of Origination: U.S. - Fernandina, Florida. Year of Registration / Origination: 1939.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cliveana.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cliveana-gerbing",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cliveana%20%28Gerbing%29",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Cloisonne",
@@ -5643,6 +5847,21 @@
     ]
   },
   {
+    "name": "Comte de Gomer",
+    "species": "Japonica",
+    "size": "?",
+    "description": "Color: Delicate pink coloring is closely striped and banded with crimson. Form: Formal double. Size: ?. Leaf Characteristics: Mid-green. Originator: Count Bernadino Lechi. Place of Origination: Italy - Brescia. Heritage: Chance seedling. Other Information: Named for the French horticulturalist, Comte de Gomer of Amiens.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Comte de Gomer.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/comte-de-gomer",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Comte%20de%20Gomer",
+    "chinese_name": [
+      "戈默",
+      "康特哥摩"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Comte De Nesselrode",
     "species": "Japonica",
     "size": "Medium",
@@ -5655,6 +5874,20 @@
     ],
     "japanese_name": [],
     "imageSource": "acs"
+  },
+  {
+    "name": "Comte de Nesselrode (MG)",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Color: Deep pink striped and spotted red with golden anthers and yellowish-white filaments. Form: Loose peony form. Size: Medium. Bloom Season: M-L. Growth Rate: Medium. Growth Characteristics: Upright growth. Place of Origination: U.S.. Heritage: Believed to be a color sport of Japonica 'Margaret Walker'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Comte De Nesselrode.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/comte-de-nesselrode-mg",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Comte%20de%20Nesselrode",
+    "chinese_name": [
+      "涅索洛德伯爵"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Comtesse De Flers",
@@ -6288,6 +6521,20 @@
     "japanese_name": []
   },
   {
+    "name": "Coronation (US)",
+    "species": "Japonica",
+    "size": "Very large",
+    "description": "Color: White with golden anthers and yellowish-white filaments. Form: Semidouble. Size: Very large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Open, spreading growth. Originator: McCaskill Gardens. Place of Origination: U.S. - Pasadena, California. Year of Registration / Origination: 1954. Heritage: Seedling of Japonica 'Lotus'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Coronation.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/coronation-us",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Coronation%20%28US%29",
+    "chinese_name": [
+      "加冕典礼"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Corporal Pugg Johnson",
     "species": "Japonica",
     "size": "Medium",
@@ -6340,6 +6587,18 @@
     "imageSource": "socal"
   },
   {
+    "name": "Cotes D'Armor",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Color: Red-purple with yellow anthers and yellow filaments. Form: Semidouble. Size: Large. Bloom Season: M. Growth Rate: Vigorous. Growth Characteristics: Upright growth. Leaf Characteristics: Dark green. Originator: FaÃ±ch Le Moal. Place of Origination: France - Guingamp. Year of Registration / Origination: 1996. Heritage: C.x williamsii 'Mary Jobson' x the C.reticulata x C.saluenensis 'Inspiration'.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cotes D'Armor.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cotes-darmor",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cotes%20D%27Armor",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
     "name": "Cottage Queen",
     "species": "Reticulata",
     "size": "Medium",
@@ -6387,6 +6646,18 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Countess%20of%20Orkney%20[England].jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Countess%20Of%20Orkney",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Countess of Orkney (England)",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Cream white striped rose pink with yellow anthers. Form: Peony form. Size: Large. Bloom Season: M. Growth Rate: Slow. Growth Characteristics: Compact growth. Originator: Mr. Nicholson, Gardener to the Earl of Orkney. Place of Origination: England - Orkney. Year of Registration / Origination: 1847.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Countess of Orkney.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/countess-of-orkney-england",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Countess%20of%20Orkney",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -6901,6 +7172,18 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Cruciata",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Color: Rose pink spotted white with gold anthers and pink filaments. Form: Formal double. Size: Large. Bloom Season: L. Growth Rate: Average. Growth Characteristics: Compact growth. Leaf Characteristics: Dark green. Originator: Soeurs Guichard. Place of Origination: France - Nantes. Year of Registration / Origination: 1908.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Cruciata.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/cruciata",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Cruciata",
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Crusader",
