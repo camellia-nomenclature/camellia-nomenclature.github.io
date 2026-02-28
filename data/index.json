@@ -16265,7 +16265,9 @@
   {
     "name": "Ferris Wheel",
     "species": "Japonica",
-    "chinese_name": [],
+    "chinese_name": [
+      "摩天轮"
+    ],
     "japanese_name": []
   },
   {

@@ -777,7 +777,9 @@
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ferris%20Wheel.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-f/ferris-wheel",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ferris%20Wheel",
-    "chinese_name": [],
+    "chinese_name": [
+      "摩天轮"
+    ],
     "japanese_name": [],
     "imageSource": "socal"
   },
