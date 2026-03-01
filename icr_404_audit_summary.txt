@@ -1,0 +1,6 @@
+ICR 404 Redirect Audit Summary
+Total inspected: 8071
+Cleared (set icr_url=null): 873
+Invalid links exported: 877
+Kept/non-404: 7198
+Rate limit: 1 req / 6 sec

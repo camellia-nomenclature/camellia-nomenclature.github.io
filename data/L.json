@@ -42,7 +42,7 @@
     "description": "Dark Pink with Lighter Pink at edges with Golden anthers and White filaments. Very large, semidouble to peony form. M-L. (Reticulata hybrid 'Suzanne Withers' x Reticulata hybrid 'Jean Pursel'). (U.S. 1996 - Hulyn Smith).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/L.%20H.%20Paul.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lh-paul",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=L.%20H.%20Paul",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -305,7 +305,7 @@
     "description": "See 'Oniji'.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lady%20Clare%20Var..jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=%C5%8Cniji",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1097,7 +1097,7 @@
     "description": "('Erhai Zhenzu' - Chinese Name'; 'Er Lake Pearl'). Picotee coloring, White center and Pink margins; color changes with opening flower to a Light Purple shade. Medium, formal double with petals slightly incurved, tight upright bud center; 55-60 imbricated petals. M-L. • [(Reticulata hybrid 'Suzanne Withers' x 'Nitidissima hybrid 'Honeymoon') x Japonica 'Elaine's Betty']. (U.S. 2015 - John Wang, Orinda, CA)",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lake%20Erhai%20Pearl.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lake%20Erhai%20Pearl",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -1235,7 +1235,7 @@
     "description": "('Daguiye' - Chinese Name). Deep Carmine. Large, semidouble to peony form. M-L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Large%20Osmanthus%20Leaf",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -1707,7 +1707,7 @@
     "description": "Burgundy Red with Lavender edge with Yellow anthers and White filaments. Medium, semidouble to anemone. Slow, upright, dense growth. M-L. (Seedling of Hybrid 'Super Star'). (U.S. 2016 - Pat Johnson, Cairo, GA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lavender%20Girl.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-c/lavender-girl",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lavender%20Girl",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -1873,7 +1873,7 @@
     "description": "Red with Yellow anthers and White filaments. Medium, anemone form. Average, upright, open growth. M-L. (U.S. 2021 - Don Bergamini, Martinez, CA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Layla%20Christine.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/layla-christine",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Layla%20Christine",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -1996,7 +1996,7 @@
     "description": "Light Pink. Large, peony form. Average, upright growth. M. (U.S. 1965 - J. F. Marscher, Beaufort, SC).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leanora%20P.%20Marscher",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -2550,7 +2550,7 @@
     "description": "Blush Pink bleeding out to a White border. Small, formal double. Vigorous, dense, upright growth. M. (Sport of Japonica 'Les Marbury'). (U.S. 2013 - Bob Black, Windsor, VA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Les%20Marbury%20Blush.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/les-marbury-blush",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Marbury%20Blush",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -2574,7 +2574,7 @@
     "description": "Deep Cardinal Red. Large, cup-shaped semidouble of tiered form. Compact, upright growth. M. (U.S. 1965 - Witman).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Les%20Richard",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -2638,7 +2638,7 @@
     "description": "Light Pink. Large, semidouble to anemone form with large petals. E-M. (U.S. 1959 - L. Richards, Mobile, AL).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Leslie%20R.",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -2966,7 +2966,7 @@
     "description": "Brilliant Rose Red, Small, rose form double to semidouble. Average, spreading growth. M. (U.S. 2015 - Nuccio's).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lil%20Rose.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lil-rose",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lil%20Rose",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -3123,7 +3123,7 @@
     "description": "('Dingxianghong' - Chinese Name). Carmine. Large to very large, semidouble with wavy petals. L. (Yunnan Reticulata). (China to U.S. 1980 - U. C. Bot. Gdn, CA).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lilac%20Red",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -3752,7 +3752,7 @@
     "description": "Soft Pink. Large, peony form. Average, upright growth. M. (Reticulata seedling). (N.Z. 1986 - Mrs. I. Berg, Whakatane).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Linley%20Reid",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -3775,7 +3775,7 @@
     "description": "('Shizitou' - Chinese Name). Deep Turkey Red. Large to very large, peony form with irregular, heavy, crinkled petals near base, arching over and covering center as flower develops. Vigorous, 26 ming left in chanter compact growth. M. (Yunnan Reticulata). (China to U.S. 1948 - Descanso and Peer).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lion%20Head.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lion%20Head",
+    "icr_url": null,
     "imageSource": "socal",
     "chinese_name": [],
     "japanese_name": []
@@ -3925,7 +3925,7 @@
     "description": "Rose. Miniature, semidouble. Slow, compact growth. L. (U.S. 1959 - Wylam).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20%27Un.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-un",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20%27Un",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -4303,7 +4303,7 @@
     "description": "Crimson. Miniature to small, formal double to peony form. Vigorous, compact, upright growth. M-L. (U.S. 1965 - McCaskill).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Little%20Red%20Ridinghood.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/little-red-ridinghood",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Little%20Red%20Ridinghood",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -4601,7 +4601,7 @@
     "description": "Deep Red Pink. Unknown size, semidouble to loose peony. Cold hardy to - 5°F. (Japonica 'Mrs. Bertha A. Harms' x. Oleifera 'Plain Jane'). (U.S. 2009 - Ackerman).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Londontowne%20Blush.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Londontowne",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -4796,7 +4796,7 @@
     "description": "Very Light Pink with Dark Pink streaks radiating along petals. Medium, formal double to rose form double with cupped imbricated petals. Average, upright growth. M. (U.S. 2019 - Tommy Weeks, Conroe, TX).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lori%20Weeks.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lori-weeks",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lori%20Weeks",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
@@ -4820,7 +4820,7 @@
     "description": "Deep Fire Red. Large, peony form with curled and twisted petals divided to expose bunches of stamens. Average, spreading growth. M. (U.S. 1972 - Witman).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lorraine%20Cross.jpg",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lorraine%20Cross",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
@@ -5200,7 +5200,7 @@
     "description": "Deep Pink speckled Red. Large, formal double. Average, spreading growth. M. (U.S. 1988 - J. Aldrich, Brooklet, GA).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lu%20Ann%20Crowley",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -5380,7 +5380,7 @@
     "description": "Red. Medium, semidouble with irregular petals. L. (U.S. 1955 - C. Morris, Greenville, SC).",
     "image": null,
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucille%20Morris",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -5465,7 +5465,7 @@
     "description": "Rich Pink blotched White. Medium, semidouble. Average, dense, upright growth. M-L. (Virus variegated form of Hybrid 'Lucky Star'). (U.S. 2020 - Nuccio's).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucky Star Var..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucky-star-variegated",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucky%20Star%20Variegated",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "acs"
@@ -5550,7 +5550,7 @@
     "description": "White with Yellow anthers and Light Yellow filaments. Large, semidouble. Average, upright spreading, open growth. E-M. (U.S. 2011 - Lindsey Odom, Wilmington, NC).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy O..jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucy-o",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20O",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "acs"
@@ -5574,7 +5574,7 @@
     "description": "Pink with variegation. Medium to large, formal double. Vigorous, upright growth. E-M. (U.S. 2005 - John W. Shirah, Lakeland, FL).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lucy%20Shirah.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lucy-shirah",
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lucy%20Shirah",
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
