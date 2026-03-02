@@ -247,7 +247,7 @@
   <script>
     let camellias = [];
     let camelliaNameSet = new Set();
-    function linkifyDescription(desc) {
+    function linkifyDescription(desc, entryName) {
       if (!desc || !camelliaNameSet.size) return desc;
 
       const linkName = (displayName) => {
@@ -278,12 +278,40 @@
         return '(' + mapped.join(';') + ')';
       });
 
-      // 3) "See 'Name'." cross-reference fallback (supports missing/mixed quotes)
-      out = out.replace(/\bSee\s+['‘"]?([A-Z][A-Za-z0-9 .'-]{1,80})['’"]?\./g, (whole, refName) => {
+      // 3) "See ‘Name’." cross-reference fallback (supports missing/mixed quotes)
+      out = out.replace(/\bSee\s+[‘’"]?([A-Z][A-Za-z0-9 .’-]{1,80})[‘’"]?\./g, (whole, refName) => {
         const cleaned = refName.trim().replace(/[\s?.!,]+$/, '');
         if (!camelliaNameSet.has(cleaned.toLowerCase())) return whole;
         return 'See ' + linkName(cleaned) + '.';
       });
+
+      // 4) General pass: link unquoted multi-word cultivar names not already inside links
+      //    Excludes: self-references, text inside origin parenthetical (Country Year - Person)
+      const selfName = entryName ? entryName.toLowerCase() : '';
+      if (!linkifyDescription._candidates) {
+        linkifyDescription._candidates = [...camelliaNameSet]
+          .filter(n => n.includes(' '))
+          .sort((a, b) => b.length - a.length);
+      }
+      // Temporarily replace regions prone to false positives before matching
+      const hold = [];
+      const ph = m => { hold.push(m); return '\x00H' + (hold.length - 1) + '\x00'; };
+      // a) Origin parenthetical: (Country Year - Person, Location)
+      out = out.replace(/\([^()]*\b\d{4}\b\s*-[^()]*\)/g, ph);
+      // b) Leading color sentence (before first ‘. ‘ when it has no quotes/parens)
+      const dotIdx = out.indexOf('. ');
+      if (dotIdx > 0 && !/['(]/.test(out.substring(0, dotIdx))) {
+        out = ph(out.substring(0, dotIdx)) + out.substring(dotIdx);
+      }
+      for (const nameLower of linkifyDescription._candidates) {
+        if (nameLower === selfName) continue;
+        if (!out.toLowerCase().includes(nameLower)) continue;
+        const escaped = nameLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const re = new RegExp('(?<![a-zA-Z])' + escaped + '(?![a-zA-Z])', 'gi');
+        const parts = out.split(/(<a\b[^>]*>.*?<\/a>)/i);
+        out = parts.map(p => /<a\b/i.test(p) ? p : p.replace(re, m => linkName(m))).join('');
+      }
+      out = out.replace(/\x00H(\d+)\x00/g, (_, i) => hold[+i]);
 
       return out;
     }
@@ -546,7 +574,7 @@
               </div>
               <div class="info-row">
                 <div class="info-label">Description</div>
-                <div class="info-value">${linkifyDescription(c.description)}</div>
+                <div class="info-value">${linkifyDescription(c.description, c.name)}</div>
               </div>
               ${c.acs_url ? `<div class="info-row">
                 <div class="info-label">ACS Link</div>
