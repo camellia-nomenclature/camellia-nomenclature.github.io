@@ -1431,28 +1431,6 @@
     "imageSource": "accs"
   },
   {
-    "name": "Ki-No-Joman(Ji). (Yellow Joman Temple)",
-    "species": "NRH",
-    "size": "Small",
-    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica ‘Jémanji’ x Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
-  },
-  {
-    "name": "Ki-No-Jôman(ji). (yellow Jôman Temple)",
-    "species": "NRH",
-    "size": "Small",
-    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica 'Jômanji' × Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
-    "image": null,
-    "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
-  },
-  {
     "name": "Ki-No-Moto No.92",
     "species": "Reticulata",
     "size": "Medium",
@@ -3066,5 +3044,17 @@
       "きょうにしき"
     ],
     "imageSource": "icr"
+  },
+  {
+    "name": "Ki-No-Joman(Ji). (Yellow Joman Temple)",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica ‘Jémanji’ x Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
+    "image": "https://file1.iflora.cn/Upload/2021/12/1/S/415c701f-5f70-4004-88a0-167b59b15e70.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-jōmanji",
+    "chinese_name": [],
+    "japanese_name": []
   }
 ]

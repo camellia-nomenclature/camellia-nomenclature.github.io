@@ -27097,18 +27097,6 @@
     ]
   },
   {
-    "name": "Ki-No-Joman(Ji). (Yellow Joman Temple)",
-    "species": "NRH",
-    "chinese_name": [],
-    "japanese_name": []
-  },
-  {
-    "name": "Ki-No-Jôman(ji). (yellow Jôman Temple)",
-    "species": "NRH",
-    "chinese_name": [],
-    "japanese_name": []
-  },
-  {
     "name": "Ki-No-Moto No.92",
     "species": "Reticulata",
     "chinese_name": [],
@@ -55764,6 +55752,12 @@
   {
     "name": "Zuiko-Nishiki",
     "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Ki-No-Joman(Ji). (Yellow Joman Temple)",
+    "species": "NRH",
     "chinese_name": [],
     "japanese_name": []
   }
