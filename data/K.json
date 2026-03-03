@@ -3054,7 +3054,9 @@
     "imageSource": "icr",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-jōmanji",
-    "chinese_name": [],
+    "chinese_name": [
+      "黄的常满寺"
+    ],
     "japanese_name": []
   }
 ]
