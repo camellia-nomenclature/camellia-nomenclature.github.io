@@ -5807,5 +5807,22 @@
     "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Awajishima",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "White to pale pink striped crimson, small, anemone to semidouble (often petaloid center). Mid-season blooming. Leaves small, wide-oval. Plant habit spreading/weak. Old Edo cultivar recorded in 1695.",
+    "image": "https://file4.iflora.cn/Upload/2021/4/20/S/f86680f6-ecbc-4d02-93ce-aa1bd8d392e9.JPG",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Awajishima",
+    "chinese_name": [
+      "淡路岛"
+    ],
+    "japanese_name": [
+      "淡路島",
+      "あわじしま"
+    ]
   }
 ]

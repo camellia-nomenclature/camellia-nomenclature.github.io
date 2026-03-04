@@ -55770,5 +55770,27 @@
       "华丽侍从"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Awajishima",
+    "species": "Japonica",
+    "chinese_name": [
+      "淡路岛"
+    ],
+    "japanese_name": [
+      "淡路島",
+      "あわじしま"
+    ]
+  },
+  {
+    "name": "Fujimusume",
+    "species": "Japonica",
+    "chinese_name": [
+      "藤娘"
+    ],
+    "japanese_name": [
+      "藤娘",
+      "ふじむすめ"
+    ]
   }
 ]

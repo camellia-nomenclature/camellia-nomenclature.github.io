@@ -4064,5 +4064,22 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Fujimusume",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Large semidouble, white with occasional clear crimson streaks; 15–17 round petals in rows with central stamens; blooms mid-season.",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/35d88dbd-1a33-41cd-948c-dc7d7751262a.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fujimusume",
+    "chinese_name": [
+      "藤娘"
+    ],
+    "japanese_name": [
+      "藤娘",
+      "ふじむすめ"
+    ]
   }
 ]
