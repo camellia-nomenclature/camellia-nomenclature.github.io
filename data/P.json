@@ -5755,5 +5755,19 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Pygmy",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Panaché de Gaujacq",
+    "species": "Hiemalis",
+    "size": null,
+    "description": "Single flower with 8–10 deep pink petals with white mottling and stripes; seedling of C. hiemalis with possible C. sasanqua “Variegata” pollen (first flowering 1996).",
+    "image": "https://file4.iflora.cn/Upload/2022/7/9/S/0658b65f-da5d-4489-9291-2b723463275f.jpeg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Panaché%20de%20Gaujacq",
+    "chinese_name": [
+      "华丽侍从"
+    ],
+    "japanese_name": []
   }
 ]
