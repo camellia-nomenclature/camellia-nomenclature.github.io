@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Camellia Lookup</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌺</text></svg>">
+  <link rel="icon" type="image/png" href="assets/camellia-icon.png">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -14,7 +14,7 @@
       min-height: 100vh;
     }
     .header {
-      background: linear-gradient(135deg, #2d5016 0%, #4a7c28 100%);
+      background: linear-gradient(135deg, #6b2d42 0%, #a3506a 100%);
       padding: 2rem;
       text-align: center;
       color: white;
@@ -45,7 +45,7 @@
       font-family: inherit;
     }
     #search:focus {
-      box-shadow: 0 4px 20px rgba(45,80,22,0.3);
+      box-shadow: 0 4px 20px rgba(107,45,66,0.3);
     }
     #search { padding-right: 2.5rem; }
     #search::placeholder { color: #aaa; }
@@ -88,7 +88,7 @@
       border-bottom: 1px solid #f0f0f0;
     }
     .dropdown-item:hover, .dropdown-item.selected {
-      background: #f0f7e8;
+      background: #f7eef1;
     }
     .dropdown-item .name { font-weight: bold; }
     .dropdown-item .species { color: #6a8a4a; font-size: 0.85rem; }
@@ -111,7 +111,7 @@
       margin-bottom: 1.5rem;
     }
     .card-header {
-      background: linear-gradient(135deg, #2d5016, #4a7c28);
+      background: linear-gradient(135deg, #6b2d42, #a3506a);
       color: white;
       padding: 1rem 1.5rem;
     }
@@ -221,7 +221,7 @@
 </head>
 <body>
   <div class="header">
-    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><span style="font-size:1.5em">🌺</span> Camellia Nomenclature</a></h1>
+    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><img src="assets/camellia-icon.png" alt="Camellia" style="height:1.5em;vertical-align:-0.28em;margin-right:0.25em;"> Camellia Nomenclature</a></h1>
   </div>
 
   <div class="search-container">
@@ -235,7 +235,7 @@
     • Just type any part of the name.<br>
   </div>
   <div id="homeSection" style="text-align:center;margin-top:1.5rem;">
-    <div class="home-flower" style="font-size:4rem;">🌸</div>
+    <div class="home-flower"><img src="assets/home-flower.png" alt="Camellia" style="width:4.2rem;height:4.2rem;object-fit:contain;"></div>
     <div id="bookTitle" style="color:#666;font-size:0.9rem;margin-top:0.5rem;font-style:italic;">Camellia Nomenclature and Picture Gallery</div>
     <div style="color:#888;font-size:0.82rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book and ACS Database</div>
     <div id="statsLine" style="color:#888;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
@@ -528,14 +528,14 @@
       // Lazy load: show placeholder, only display image after fully downloaded
       const imageHtml = hasImage
         ? `<div class="no-image" id="img-placeholder"><div class="spinner"></div><br>Loading photo...</div>`
-        : `<div class="no-image">🌸<br>No photo available</div>`;
+        : `<div class="no-image"><img src="assets/camellia-icon.png" alt="Camellia" style="width:2.2rem;height:2.2rem;object-fit:contain;display:block;margin:0 auto 0.25rem;"><br>No photo available</div>`;
       // Start background download after a small delay to prioritize text rendering
       if (hasImage) {
         setTimeout(() => {
           const img = new Image();
           const imgFallback = () => {
             const ph = document.getElementById('img-placeholder');
-            if (ph) ph.innerHTML = '🌸<br>No photo available';
+            if (ph) ph.innerHTML = '<img src="assets/camellia-icon.png" alt="Camellia" style="width:2.2rem;height:2.2rem;object-fit:contain;display:block;margin:0 auto 0.25rem;"><br>No photo available';
           };
           const loadTimer = setTimeout(imgFallback, 10000);
           img.onload = () => {
