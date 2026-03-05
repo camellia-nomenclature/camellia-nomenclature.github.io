@@ -152,14 +152,40 @@
     }
     /* Mobile responsive */
     @media (max-width: 600px) {
-      .header { padding: 1.2rem 1rem; }
-      .header h1 { font-size: 1.8rem; }
+      .header { padding: 1.4rem 1rem; }
+      .header h1 { font-size: 2rem; }
       .search-container { margin-top: -1rem; }
-      #search { font-size: 1.5rem; padding: 1.1rem 1.3rem; padding-right: 3rem; }
+      #search { font-size: 1.6rem !important; padding: 1.1rem 1.3rem; padding-right: 3rem; }
+      #search::placeholder { font-size: 1.4rem; }
       .clear-btn { right: 1.5rem; width: 2rem; height: 2rem; font-size: 1.2rem; }
-      .dropdown .item { font-size: 1.1rem; padding: 0.7rem 1rem; }
+      .dropdown-item { padding: 0.85rem 1.2rem; }
+      .dropdown-item .name { font-size: 1.1rem; }
+      .dropdown-item .species { font-size: 0.95rem; }
       .search-tip { font-size: 1.1rem !important; }
       .home-flower { font-size: 5rem !important; }
+      #searchHints {
+        font-size: 1.2rem !important;
+        line-height: 1.9;
+        margin-top: 0.5rem !important;
+      }
+      #bookTitle {
+        font-size: 1.2rem !important;
+        line-height: 1.7;
+      }
+      #subtitleLine {
+        font-size: 1.1rem !important;
+        line-height: 1.7;
+        margin-top: 0.4rem !important;
+      }
+      #statsLine {
+        font-size: 1.15rem !important;
+        margin-top: 0.5rem !important;
+      }
+      footer {
+        font-size: 1.1rem !important;
+        line-height: 1.8;
+        padding: 2rem 1.2rem !important;
+      }
       .card-body {
         flex-direction: column;
       }
@@ -176,8 +202,9 @@
         width: 100%;
         height: 100%;
       }
-      .info-value { font-size: 0.9rem; }
-      .card-header h2 { font-size: 1.2rem; }
+      .info-value { font-size: 1rem; }
+      .info-label { font-size: 0.8rem; }
+      .card-header h2 { font-size: 1.3rem; }
     }
     .info-row {
       padding: 0.6rem 0;
@@ -217,6 +244,31 @@
     .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
     .empty-state p { font-size: 1.1rem; }
 
+    /* --- Accessibility: base readability improvements --- */
+    #search {
+      font-size: 1.35rem !important;
+    }
+    #searchHints {
+      font-size: 0.95rem !important;
+      line-height: 1.65;
+    }
+    #bookTitle {
+      font-size: 1.05rem !important;
+      line-height: 1.6;
+    }
+    #subtitleLine {
+      font-size: 1rem !important;
+      line-height: 1.55;
+    }
+    #statsLine {
+      font-size: 1rem !important;
+      line-height: 1.6;
+    }
+    footer {
+      font-size: 0.75rem !important;
+      line-height: 1.5;
+    }
+
   </style>
 </head>
 <body>
@@ -237,7 +289,7 @@
   <div id="homeSection" style="text-align:center;margin-top:1.5rem;">
     <div class="home-flower"><img src="assets/home-flower.png" alt="Camellia" style="width:4.2rem;height:4.2rem;object-fit:contain;"></div>
     <div id="bookTitle" style="color:#666;font-size:0.9rem;margin-top:0.5rem;font-style:italic;">Camellia Nomenclature and Picture Gallery</div>
-    <div style="color:#888;font-size:0.82rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book and ACS Database</div>
+    <div id="subtitleLine" style="color:#888;font-size:0.9rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book and ACS Database</div>
     <div id="statsLine" style="color:#6d9e4a;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
   </div>
 
