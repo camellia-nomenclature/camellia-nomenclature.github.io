@@ -5769,5 +5769,19 @@
       "华丽侍从"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Park Leo",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Imbricated formal double deep red with broad white stripes; bushy upright vigorous growth; blooms mid-season to very late.",
+    "image": "https://file4.iflora.cn/Upload/2019/5/11/T/4dc04fac-2b2c-46b4-8fff-52929fc4fca7.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Park%20Leo",
+    "chinese_name": [
+      "帕克莱奥"
+    ],
+    "japanese_name": []
   }
 ]

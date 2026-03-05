@@ -55792,5 +55792,24 @@
       "藤娘",
       "ふじむすめ"
     ]
+  },
+  {
+    "name": "Ikari-shibori",
+    "species": "Japonica",
+    "chinese_name": [
+      "锚绞"
+    ],
+    "japanese_name": [
+      "イカリ絞",
+      "いかりしぼり"
+    ]
+  },
+  {
+    "name": "Park Leo",
+    "species": "Japonica",
+    "chinese_name": [
+      "帕克莱奥"
+    ],
+    "japanese_name": []
   }
 ]

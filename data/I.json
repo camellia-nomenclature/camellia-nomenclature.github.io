@@ -1429,5 +1429,22 @@
     "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Ikari-shibori",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "Large semidouble white with crimson streaks, 13–15 petals; blooms mid-season to late.",
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/T/f2c9b2bd-3147-44fa-b5b5-d29402a2a647.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ikari-shibori",
+    "chinese_name": [
+      "锚绞"
+    ],
+    "japanese_name": [
+      "イカリ絞",
+      "いかりしぼり"
+    ]
   }
 ]
