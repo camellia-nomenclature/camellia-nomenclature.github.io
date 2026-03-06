@@ -3779,5 +3779,19 @@
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gypsy%20Variegated",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Gypsy Girl",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Camellia japonica cultivar from Zhejiang, China; variegated form related to Gypsy Rose, with similar plant characteristics.",
+    "image": "https://file4.iflora.cn/Upload/2019/4/10/T/4aead0e8-1f40-4352-9e18-6f3228583a10.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gypsy%20Girl",
+    "chinese_name": [
+      "吉普赛女郎"
+    ],
+    "japanese_name": []
   }
 ]
