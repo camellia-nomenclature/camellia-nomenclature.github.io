@@ -55842,5 +55842,24 @@
       "彩黄"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Oshima Pink",
+    "species": "Japonica",
+    "chinese_name": [
+      "大岛(粉)"
+    ],
+    "japanese_name": []
+  },
+  {
+    "name": "Kurume-otome",
+    "species": "Japonica",
+    "chinese_name": [
+      "久留米乙女"
+    ],
+    "japanese_name": [
+      "久留米乙女",
+      "くるめおとめ"
+    ]
   }
 ]

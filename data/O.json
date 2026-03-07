@@ -1396,5 +1396,19 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Oshima Pink",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Light pink single, small size; medium upright growth; blooms mid-season.",
+    "image": null,
+    "imageSource": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Oshima%20Pink",
+    "chinese_name": [
+      "大岛(粉)"
+    ],
+    "japanese_name": []
   }
 ]
