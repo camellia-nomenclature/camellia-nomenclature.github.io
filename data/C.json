@@ -7410,5 +7410,19 @@
       "复色沙皇"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Caihuang",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "White flower with yellow tone and purple-red spots/stripes on upper petals, semidouble; vigorous spreading habit; blooms from late autumn through winter/spring.",
+    "image": "https://file4.iflora.cn/Upload/2020/12/11/T/18db01d7-9e97-4d91-96f8-35e58e43804f.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caihuang",
+    "chinese_name": [
+      "彩黄"
+    ],
+    "japanese_name": []
   }
 ]
