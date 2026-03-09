@@ -55599,8 +55599,13 @@
   {
     "name": "Yuri-Shibhori (Lily Variegated)",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "百合絞"
+    ],
+    "japanese_name": [
+      "百合絞",
+      "ゆりしぼり"
+    ]
   },
   {
     "name": "Yutianshi",

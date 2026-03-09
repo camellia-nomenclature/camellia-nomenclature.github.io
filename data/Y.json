@@ -524,11 +524,16 @@
     "species": "Japonica",
     "size": "Small",
     "description": "White with Crimson stripes with Golden anthers and White filaments. Small, single. (Japan 1976 - Kan Utsugi, Osaka).",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2025/2/17/S/f3659db3-8df7-4448-90f7-f6af952db5b8.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yuri-shibori",
+    "chinese_name": [
+      "百合絞"
+    ],
+    "japanese_name": [
+      "百合絞",
+      "ゆりしぼり"
+    ]
   },
   {
     "name": "Yutianshi",
