@@ -775,12 +775,17 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "White streaked Crimson. Medium, single. See Higo.",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Tancho.jpg",
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/T/ce0c7407-2809-4bf8-82b7-03d37acfb9df.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-t/tancho",
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": [],
-    "imageSource": "socal"
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tanch%C5%8D",
+    "chinese_name": [
+      "丹顶"
+    ],
+    "japanese_name": [
+      "丹頂",
+      "たんちょう"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Tango",

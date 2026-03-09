@@ -10713,6 +10713,14 @@
     "japanese_name": []
   },
   {
+    "name": "Caihuang",
+    "species": "Japonica",
+    "chinese_name": [
+      "彩黄"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "D'Iberville",
     "species": "Japonica",
     "chinese_name": [],
@@ -20768,6 +20776,14 @@
     "japanese_name": []
   },
   {
+    "name": "Gypsy Girl",
+    "species": "Japonica",
+    "chinese_name": [
+      "吉普赛女郎"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "H. A. Downing",
     "species": "Japonica",
     "chinese_name": [
@@ -28057,6 +28073,17 @@
       "黄的常满寺"
     ],
     "japanese_name": []
+  },
+  {
+    "name": "Kurume-otome",
+    "species": "Japonica",
+    "chinese_name": [
+      "久留米乙女"
+    ],
+    "japanese_name": [
+      "久留米乙女",
+      "くるめおとめ"
+    ]
   },
   {
     "name": "L'Ange Bleu",
@@ -38280,6 +38307,17 @@
     "japanese_name": []
   },
   {
+    "name": "Nakoi-no-haru",
+    "species": "Japonica",
+    "chinese_name": [
+      "那古井之春"
+    ],
+    "japanese_name": [
+      "那古井の春",
+      "なこいのはる"
+    ]
+  },
+  {
     "name": "O. C. Cotten",
     "species": "Japonica",
     "chinese_name": [],
@@ -39045,6 +39083,14 @@
     "name": "Ozeki",
     "species": "Japonica",
     "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Oshima Pink",
+    "species": "Japonica",
+    "chinese_name": [
+      "大岛(粉)"
+    ],
     "japanese_name": []
   },
   {
@@ -50492,8 +50538,13 @@
   {
     "name": "Tancho",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "丹顶"
+    ],
+    "japanese_name": [
+      "丹頂",
+      "たんちょう"
+    ]
   },
   {
     "name": "Tango",
@@ -55820,51 +55871,5 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
-  },
-  {
-    "name": "Nakoi-no-haru",
-    "species": "Japonica",
-    "chinese_name": [
-      "那古井之春"
-    ],
-    "japanese_name": [
-      "那古井の春",
-      "なこいのはる"
-    ]
-  },
-  {
-    "name": "Gypsy Girl",
-    "species": "Japonica",
-    "chinese_name": [
-      "吉普赛女郎"
-    ],
-    "japanese_name": []
-  },
-  {
-    "name": "Caihuang",
-    "species": "Japonica",
-    "chinese_name": [
-      "彩黄"
-    ],
-    "japanese_name": []
-  },
-  {
-    "name": "Oshima Pink",
-    "species": "Japonica",
-    "chinese_name": [
-      "大岛(粉)"
-    ],
-    "japanese_name": []
-  },
-  {
-    "name": "Kurume-otome",
-    "species": "Japonica",
-    "chinese_name": [
-      "久留米乙女"
-    ],
-    "japanese_name": [
-      "久留米乙女",
-      "くるめおとめ"
-    ]
   }
 ]
