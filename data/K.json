@@ -1486,6 +1486,23 @@
     ]
   },
   {
+    "name": "Ki-renge",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "From Kodaira, Tokyo, Japan Camellia No.84, August 2007: Pale yellow, lotus-formed semi-double, medium to large, cylindrical to split stamens, blooming in March to May. Tree spreading. Leaves ovate, large. An interspecific hybrid between Miyakodori and C.cucphuongensis. Hybridized by Shinichi Noguchi and named in 2004.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/b217d035-c5f4-47bf-854a-0b0823da50fa.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-renge",
+    "chinese_name": [
+      "黄莲华"
+    ],
+    "japanese_name": [
+      "黄蓮華",
+      "きれんげ"
+    ]
+  },
+  {
     "name": "Kia Ora",
     "species": "NRH",
     "size": "Large",
