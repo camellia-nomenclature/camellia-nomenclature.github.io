@@ -1530,12 +1530,17 @@
     "species": "NRH",
     "size": "Small",
     "description": "Pale Yellow. Small, tubular single. Vigorous, upright growth. (Japonica 'Hatsu-Arashi' x Nitidissima). (U.S. 1990 - Nuccio's hybridizer Tadao Yamaguchi, Japan).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kicho.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kicho",
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": [],
-    "imageSource": "socal"
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/ae2ca322-1426-42f9-a9c0-38ac237f5eea.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kich%C5%8D",
+    "chinese_name": [
+      "黄调"
+    ],
+    "japanese_name": [
+      "黄調",
+      "きちょう"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Kick Off",

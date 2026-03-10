@@ -27210,8 +27210,13 @@
   {
     "name": "Kicho",
     "species": "NRH",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "黄调"
+    ],
+    "japanese_name": [
+      "黄調",
+      "きちょう"
+    ]
   },
   {
     "name": "Kick Off",
