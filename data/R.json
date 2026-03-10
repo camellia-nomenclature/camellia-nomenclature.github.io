@@ -4616,8 +4616,10 @@
     "description": "Deep Pink. Medium, semidouble. (Sport of Japonica 'Magnoliaeflora'). (U.S. 1988 - F. Moore, West Covina, CA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Rudy%27s%20Magnoliaeflora.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Magnolia",
+    "chinese_name": [
+      "红木兰"
+    ],
     "japanese_name": [],
     "imageSource": "socal"
   },

@@ -3148,8 +3148,12 @@
   {
     "name": "Ay-Ay-Ay!",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "惊讶",
+      "惊叹连连"
+    ],
+    "japanese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ay%20Ay%20Ay"
   },
   {
     "name": "Ayer Maid",
@@ -22143,7 +22147,8 @@
     "species": "NRH",
     "chinese_name": [
       "烈香",
-      "天香"
+      "天香",
+      "香妃"
     ],
     "japanese_name": []
   },
@@ -25265,8 +25270,16 @@
   {
     "name": "Jitsu-Getsu-Sei",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "日月星"
+    ],
+    "japanese_name": [
+      "日月星",
+      "じつげつせし"
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jitsugetsusei",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/f40776bf-7dc3-4d7d-b0ce-0ebc57dfb4a4.jpg",
+    "imageSource": "icr"
   },
   {
     "name": "Jitsugetsusei",
@@ -44950,8 +44963,11 @@
   {
     "name": "Rudy's Magnoliaeflora",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "红木兰"
+    ],
+    "japanese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Magnolia"
   },
   {
     "name": "Ruffian",

@@ -2812,11 +2812,17 @@
     "species": "Japonica",
     "size": "Medium",
     "description": "Red splotched White. Medium, single with crepe petals and flared soft Pink stamens. See Higo.",
-    "image": null,
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/f40776bf-7dc3-4d7d-b0ce-0ebc57dfb4a4.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jitsugetsusei",
+    "chinese_name": [
+      "日月星"
+    ],
+    "japanese_name": [
+      "日月星",
+      "じつげつせし"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Jitsugetsusei",
