@@ -3152,8 +3152,7 @@
       "惊讶",
       "惊叹连连"
     ],
-    "japanese_name": [],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ay%20Ay%20Ay"
+    "japanese_name": []
   },
   {
     "name": "Ayer Maid",
@@ -22008,8 +22007,7 @@
     "japanese_name": [
       "光源氏",
       "ひかるげんじ"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hikarugenji"
+    ]
   },
   {
     "name": "Herme Pink",
@@ -22252,8 +22250,13 @@
   {
     "name": "Higo-Ozeki",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "肥后大关"
+    ],
+    "japanese_name": [
+      "肥後大関",
+      "ひごおおぜき"
+    ]
   },
   {
     "name": "Hikaru-Genji",
@@ -25276,10 +25279,7 @@
     "japanese_name": [
       "日月星",
       "じつげつせし"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jitsugetsusei",
-    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/f40776bf-7dc3-4d7d-b0ce-0ebc57dfb4a4.jpg",
-    "imageSource": "icr"
+    ]
   },
   {
     "name": "Jitsugetsusei",
@@ -39149,8 +39149,13 @@
   {
     "name": "Ozeki",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "肥后大关"
+    ],
+    "japanese_name": [
+      "肥後大関",
+      "ひごおおぜき"
+    ]
   },
   {
     "name": "Oshima Pink",
@@ -44966,8 +44971,7 @@
     "chinese_name": [
       "红木兰"
     ],
-    "japanese_name": [],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Magnolia"
+    "japanese_name": []
   },
   {
     "name": "Ruffian",
@@ -55450,8 +55454,7 @@
     "japanese_name": [
       "日本錦",
       "やまとにしき"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yamato-nishiki%20%28Higo%29"
+    ]
   },
   {
     "name": "Yamato-Nishiki Rose",

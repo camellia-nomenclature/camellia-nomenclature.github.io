@@ -1392,10 +1392,15 @@
     "size": "Large",
     "description": "Rose Pink. Large, single with soft Pink stamens which in some flowers are partially topped with soft Pink and White petaloids. See Higo.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ozeki.jpg",
-    "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ozeki",
-    "chinese_name": [],
-    "japanese_name": [],
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/higo-ozeki",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Higo-%C5%8Dzeki",
+    "chinese_name": [
+      "肥后大关"
+    ],
+    "japanese_name": [
+      "肥後大関",
+      "ひごおおぜき"
+    ],
     "imageSource": "accs"
   },
   {
