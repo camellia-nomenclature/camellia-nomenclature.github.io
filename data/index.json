@@ -21997,8 +21997,15 @@
   {
     "name": "Herme",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "光源氏",
+      "何美"
+    ],
+    "japanese_name": [
+      "光源氏",
+      "ひかるげんじ"
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hikarugenji"
   },
   {
     "name": "Herme Pink",
@@ -55421,12 +55428,14 @@
     "name": "Yamato-Nishiki",
     "species": "Japonica",
     "chinese_name": [
-      "大和锦"
+      "日本锦",
+      "肥后日本锦"
     ],
     "japanese_name": [
-      "大和錦",
+      "日本錦",
       "やまとにしき"
-    ]
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yamato-nishiki%20%28Higo%29"
   },
   {
     "name": "Yamato-Nishiki Rose",
