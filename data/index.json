@@ -27155,12 +27155,17 @@
   {
     "name": "Ki-No-Moto No.92",
     "species": "Reticulata",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "黄基92"
+    ],
+    "japanese_name": [
+      "黄基92",
+      "きのもと92"
+    ]
   },
   {
     "name": "Ki-No-Moto No.95",
-    "species": "Hybrid",
+    "species": "Reticulata",
     "chinese_name": [
       "黄基95"
     ],
@@ -47288,8 +47293,13 @@
   {
     "name": "Showa-No-Hikari",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "昭和之光"
+    ],
+    "japanese_name": [
+      "昭和の光",
+      "しょうわのひかり"
+    ]
   },
   {
     "name": "Showa-No-Sakae",

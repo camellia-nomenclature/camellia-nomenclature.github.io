@@ -1435,15 +1435,21 @@
     "species": "Reticulata",
     "size": "Medium",
     "description": "Light Yellow. Medium, cup-shaped single. Slow spreading growth. M-L. (Japonica, Nitidissima, Reticulata in background). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2021/8/25/S/fdd366b7-1115-495b-9580-39238d925fe4.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kinomoto%2092",
+    "chinese_name": [
+      "黄基92"
+    ],
+    "japanese_name": [
+      "黄基92",
+      "きのもと92"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Ki-No-Moto No.95",
-    "species": "Hybrid",
+    "species": "Reticulata",
     "size": "Large",
     "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
     "image": "https://file1.iflora.cn/Upload/2021/9/12/S/f4546b4c-1ff9-4baf-aab7-4f7c530c61c5.jpeg",

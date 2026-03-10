@@ -3740,8 +3740,13 @@
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Showa-No-Hikari.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/showa-no-hikari",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shōwa-no-hikari",
-    "chinese_name": [],
-    "japanese_name": [],
+    "chinese_name": [
+      "昭和之光"
+    ],
+    "japanese_name": [
+      "昭和の光",
+      "しょうわのひかり"
+    ],
     "imageSource": "accs"
   },
   {
