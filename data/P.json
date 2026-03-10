@@ -3398,8 +3398,8 @@
   {
     "name": "Pink Lace",
     "species": "Japonica",
-    "size": "",
-    "description": "See Hishi-Karaito'.",
+    "size": "Small",
+    "description": "See 'Hishi-Karaito'.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Pink%20Lace.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hishikaraito",
