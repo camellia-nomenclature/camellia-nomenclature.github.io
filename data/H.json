@@ -2903,12 +2903,19 @@
     "species": "Japonica",
     "size": "Small",
     "description": "('Emily Brown'; 'Pink Lace'; 'Lacy Pink'). Delicate Pink. Small, semidouble with mixed petaloids and stamens. Average, compact growth. M-L. (Japan 1934 - Chugai).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Hishi-Karaito.jpg",
-    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/hishi-karaito",
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": [],
-    "imageSource": "accs"
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/54c8c358-804e-4c0f-8155-7c4ad7e99b3a.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hishikaraito",
+    "chinese_name": [
+      "粉玲珑",
+      "菱唐系",
+      "粉东洋茶"
+    ],
+    "japanese_name": [
+      "菱唐糸",
+      "ひしからいと"
+    ],
+    "imageSource": "icr"
   },
   {
     "name": "Hit Parade",

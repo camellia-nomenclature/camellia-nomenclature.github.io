@@ -22414,8 +22414,15 @@
   {
     "name": "Hishi-Karaito",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "粉玲珑",
+      "菱唐系",
+      "粉东洋茶"
+    ],
+    "japanese_name": [
+      "菱唐糸",
+      "ひしからいと"
+    ]
   },
   {
     "name": "Hit Parade",
@@ -28002,6 +28009,15 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Kurume-kingyo",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "久留米金魚",
+      "くるめきんぎょ"
+    ]
   },
   {
     "name": "Kute Kate",
