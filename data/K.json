@@ -1443,15 +1443,20 @@
   },
   {
     "name": "Ki-No-Moto No.95",
-    "species": "Reticulata",
+    "species": "Hybrid",
     "size": "Large",
     "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
-    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-No-Moto%2395.jpg",
+    "image": "https://file1.iflora.cn/Upload/2021/9/12/S/f4546b4c-1ff9-4baf-aab7-4f7c530c61c5.jpeg",
     "acs_url": null,
-    "icr_url": null,
-    "imageSource": "accs",
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kinomoto%2095",
+    "imageSource": "icr",
+    "chinese_name": [
+      "黄基95"
+    ],
+    "japanese_name": [
+      "黄基95",
+      "きのもと95"
+    ]
   },
   {
     "name": "Ki-no-senritsu",

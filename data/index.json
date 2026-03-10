@@ -27160,9 +27160,14 @@
   },
   {
     "name": "Ki-No-Moto No.95",
-    "species": "Reticulata",
-    "chinese_name": [],
-    "japanese_name": []
+    "species": "Hybrid",
+    "chinese_name": [
+      "黄基95"
+    ],
+    "japanese_name": [
+      "黄基95",
+      "きのもと95"
+    ]
   },
   {
     "name": "Ki-no-senritsu",
