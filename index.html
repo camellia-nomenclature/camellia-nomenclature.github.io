@@ -268,6 +268,30 @@
       font-size: 0.75rem !important;
       line-height: 1.5;
     }
+    .report-link-wrap {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .report-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: #6a8a4a;
+      text-decoration: none;
+      font-size: 0.9rem;
+      border: 1px solid #e6e6e6;
+      border-radius: 999px;
+      padding: 0.45rem 0.9rem;
+      background: #fafaf8;
+    }
+    .report-link:hover {
+      background: #f3f6ee;
+      border-color: #d9e5cb;
+    }
+    .report-icon {
+      font-size: 1.8em;
+      line-height: 1;
+    }
 
   </style>
 </head>
@@ -686,6 +710,12 @@
       }
     });
   </script>
+  <div class="report-link-wrap">
+    <a class="report-link" href="mailto:Camellia.Nomenclature+report@gmail.com?subject=Camellia%20Nomenclature%20Issue%20Report" aria-label="report an issue or request to add/update a cultivar">
+      <span class="report-icon" aria-hidden="true">🌸</span>
+      <span>report an issue or request to add/update a cultivar</span>
+    </a>
+  </div>
   <footer style="text-align:center;padding:2rem 1rem;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
     <strong>Disclaimer:</strong> This site is for personal and educational use only.<br>Information is provided as-is without warranty and may not be complete or current.
   </footer>
