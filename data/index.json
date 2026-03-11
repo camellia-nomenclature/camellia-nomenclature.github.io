@@ -37974,8 +37974,13 @@
   {
     "name": "Nioi Fubuki (Fragrant Snow Storm)",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "勾吹雪"
+    ],
+    "japanese_name": [
+      "匂吹雪",
+      "においふぶき"
+    ]
   },
   {
     "name": "Nioi Fukurin",

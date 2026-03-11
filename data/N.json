@@ -1233,10 +1233,15 @@
     "description": "White striped Rose. Medium to large, wavy single with petaloids or high crown of stamens. Vigorous, open, upright growth. M-L. Mild fragrance. (Japan 1968 - Tsugio Ôta, Kumamoto Prefecture). See Higo.",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nioi-fubuki.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nioi-fubuki-fragrant-snow-storm",
-    "icr_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nioi-fubuki",
     "imageSource": "acs",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "勾吹雪"
+    ],
+    "japanese_name": [
+      "匂吹雪",
+      "においふぶき"
+    ]
   },
   {
     "name": "Nioi Fukurin",
