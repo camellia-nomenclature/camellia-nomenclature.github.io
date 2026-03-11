@@ -917,6 +917,20 @@
     "japanese_name": []
   },
   {
+    "name": "Oshima Pink",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Light pink single, small size; medium upright growth; blooms mid-season.",
+    "image": null,
+    "imageSource": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Oshima%20Pink",
+    "chinese_name": [
+      "大岛(粉)"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Osmanthus Leaf Carmine",
     "species": "Reticulata",
     "size": "Large to very large",
@@ -1404,17 +1418,20 @@
     "imageSource": "accs"
   },
   {
-    "name": "Oshima Pink",
+    "name": "Ō-zora",
     "species": "Japonica",
-    "size": "Small",
-    "description": "Light pink single, small size; medium upright growth; blooms mid-season.",
-    "image": null,
-    "imageSource": null,
+    "size": "Medium",
+    "description": "Taniguchi, 1912, Chinka Kyōkan: Blush pink, medium. Hiratsuka, Taizō, 1964, Higo Camellia, pp.12, 17. Tuyama, 1968, Camellias of Japan, pl.114, p.57, description, p.121 as ‘Oo-zora’: Higo Camellia, pink (Rose Madder 23/3). Leaves ovoid-elliptic to broadly elliptic, rounded at the base; petioles glabrous; petals about 6, incurved and strongly wavy. Staminal tube very broad with stamens in a circle. About 8 cm across with 120 stamens with white filaments. Colour photos and descriptions, see: Adachi, 1960, Camellia. Its Appreciation &amp; Artistic .... p.65; Seibundō Shinkōsha, 1979, Senchinshū, pp.26, 204. Corruption of Japanese name: ‘Ozorah’. Different reading: ‘Oo-zora’, ‘Oh-zora’. Originated in the Kumamoto Prefecture, Japan.",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/64accf0f-ec98-461f-9141-9d0f6fd65483.jpg",
+    "imageSource": "icr",
     "acs_url": null,
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Oshima%20Pink",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=%C5%8C-zora",
     "chinese_name": [
-      "大岛(粉)"
+      "大空"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "大空",
+      "おおぞら"
+    ]
   }
 ]

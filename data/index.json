@@ -38887,6 +38887,14 @@
     "japanese_name": []
   },
   {
+    "name": "Oshima Pink",
+    "species": "Japonica",
+    "chinese_name": [
+      "大岛(粉)"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Osmanthus Leaf Carmine",
     "species": "Reticulata",
     "chinese_name": [],
@@ -39158,12 +39166,15 @@
     ]
   },
   {
-    "name": "Oshima Pink",
+    "name": "Ō-zora",
     "species": "Japonica",
     "chinese_name": [
-      "大岛(粉)"
+      "大空"
     ],
-    "japanese_name": []
+    "japanese_name": [
+      "大空",
+      "おおぞら"
+    ]
   },
   {
     "name": "Pacific Beauty",
@@ -46990,8 +47001,7 @@
     "japanese_name": [
       "東雲",
       "しののめ"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shinonome%20%281976%29"
+    ]
   },
   {
     "name": "Shinonome (Sasanqua - Eastern Cloud)",
