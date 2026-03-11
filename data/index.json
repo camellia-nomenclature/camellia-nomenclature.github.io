@@ -46985,12 +46985,13 @@
     "name": "Shinonome (Japonica)",
     "species": "Japonica",
     "chinese_name": [
-      "东云茶梅"
+      "东云"
     ],
     "japanese_name": [
       "東雲",
       "しののめ"
-    ]
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shinonome%20%281976%29"
   },
   {
     "name": "Shinonome (Sasanqua - Eastern Cloud)",
