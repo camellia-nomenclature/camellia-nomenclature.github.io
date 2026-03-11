@@ -171,8 +171,10 @@
     "description": "('Da Qio' - Chinese Name). Very Light Pink with slightly Deeper Pink on petal outer rim. Large to very large, rose form double to formal double with upstanding, separated, and mainly fluted petals. Vigorous growth. L. I(Reticulata hybrid 'Suzanne Withers' × 'Nitidissima hybrid 'Honeymoon') × Japonica 'Kona']. (U.S. 2012 - John Wang, Orinda, CA).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Zhanqun%20Lady.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Da%20Qio",
+    "chinese_name": [
+      "大乔"
+    ],
     "japanese_name": [],
     "imageSource": "socal"
   },

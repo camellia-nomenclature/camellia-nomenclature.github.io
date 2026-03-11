@@ -37980,7 +37980,8 @@
     "japanese_name": [
       "匂吹雪",
       "においふぶき"
-    ]
+    ],
+    "size": "Medium"
   },
   {
     "name": "Nioi Fukurin",
@@ -55899,8 +55900,11 @@
   {
     "name": "Zhanqun Lady",
     "species": "Reticulata",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "大乔"
+    ],
+    "japanese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Da%20Qio"
   },
   {
     "name": "Zhusha Zipao",
