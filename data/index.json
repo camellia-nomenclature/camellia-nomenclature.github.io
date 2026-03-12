@@ -10193,8 +10193,16 @@
   {
     "name": "Cornelian",
     "species": "Reticulata",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "大玛瑙",
+      "红白玛瑙狮子头",
+      "猪血拌豆腐"
+    ],
+    "japanese_name": [
+      "ターマーナオ",
+      "たあまあなお"
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Damanao"
   },
   {
     "name": "Cornelian Chrysanthemum Petal",
@@ -11017,7 +11025,8 @@
     "japanese_name": [
       "ターマーナオ",
       "たあまあなお"
-    ]
+    ],
+    "size": "Large to very large"
   },
   {
     "name": "Dame Silvia",
@@ -15793,8 +15802,12 @@
   {
     "name": "Envying Sky's Height",
     "species": "Reticulata",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "恨天高",
+      "汉红菊瓣"
+    ],
+    "japanese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hentiangao"
   },
   {
     "name": "Eoline Nelson",
@@ -21959,7 +21972,8 @@
       "恨天高",
       "汉红菊瓣"
     ],
-    "japanese_name": []
+    "japanese_name": [],
+    "size": "Medium"
   },
   {
     "name": "Her Majesty Queen Elizabeth Ii",
