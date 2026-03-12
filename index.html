@@ -98,6 +98,34 @@
       font-size: 0.85rem;
       margin-bottom: 1.5rem;
     }
+    .stats-link {
+      display: inline-block;
+      margin-left: 0.2rem;
+      padding: 0.08rem 0.5rem;
+      border-radius: 999px;
+      color: #355b1f;
+      background: #edf5e2;
+      border: 1px solid #c9ddaf;
+      text-decoration: none;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 2px;
+      cursor: pointer;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.08s ease;
+    }
+    .stats-link:hover {
+      color: #244113;
+      background: #e2efcf;
+      border-color: #b5ce95;
+      text-decoration-thickness: 2px;
+    }
+    .stats-link:active {
+      transform: translateY(1px);
+    }
+    .stats-link:focus-visible {
+      outline: 3px solid rgba(111, 154, 74, 0.35);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 1px #6f9a4a;
+    }
     .results {
       max-width: 800px;
       margin: 0 auto;
@@ -420,7 +448,7 @@
         const speciesCount = speciesSet.size;
         const statsEl = document.getElementById('statsLine');
         statsEl.innerHTML =
-          `${camellias.length.toLocaleString()} camellias indexed across <a href="#species" style="color:inherit;text-decoration:underline;text-underline-offset:2px;cursor:pointer;" aria-label="View all ${speciesCount} species">${speciesCount} species</a>`;
+          `${camellias.length.toLocaleString()} camellias indexed across <a href="#species" class="stats-link" aria-label="View all ${speciesCount} species">${speciesCount} species</a>`;
       } catch (e) {
         console.error('Failed to load data', e);
       }
