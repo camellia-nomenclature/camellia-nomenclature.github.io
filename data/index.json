@@ -36647,8 +36647,16 @@
   {
     "name": "Mrs. D. W. Davis Descanso",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "笛斯康瑟",
+      "玻璃花",
+      "水晶",
+      "戴氏之歌",
+      "迪斯康瑟夫人"
+    ],
+    "japanese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mrs%20D.%20W.%20Davis%20Descanso",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mrs.%20D.%20W.%20Davis%20Descanso.jpg"
   },
   {
     "name": "Mrs. D. W. Davis Peony",
@@ -37980,8 +37988,7 @@
     "japanese_name": [
       "匂吹雪",
       "においふぶき"
-    ],
-    "size": "Medium"
+    ]
   },
   {
     "name": "Nioi Fukurin",
@@ -55903,8 +55910,7 @@
     "chinese_name": [
       "大乔"
     ],
-    "japanese_name": [],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Da%20Qio"
+    "japanese_name": []
   },
   {
     "name": "Zhusha Zipao",
