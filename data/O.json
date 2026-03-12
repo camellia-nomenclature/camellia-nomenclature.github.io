@@ -1299,6 +1299,23 @@
     "imageSource": "socal"
   },
   {
+    "name": "Owarifuji",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Satō, 1975, Chūbu no Tsubaki. p.67 colour photo and description: Small. single, campanulate with 6 emarginate petals, soft pink, white at the base, with a compact stamen cylinder; anthers yellow, filaments creamy. Flowers mid-season. Leaves lanceolate. dark green, venation prominent, apex acuminate, margins shallowly serrate. See p.205, Seibundō Shinkōsha, 1979, Senchinshū; Colour pl.306, Encyclopedia of Camellias in Colour, vol.II, 1978. Originated in Chūbu, Japan. A chance seedling of unknown parentage, originated and released by Yoshiyasu Wakayama in 1974. Resembles Kayoiji.",
+    "image": "https://file2.iflora.cn/Upload/2021/8/25/S/68328f2a-3744-46fb-981b-e16b8be27253.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Owarifuji",
+    "chinese_name": [
+      "尾张富士"
+    ],
+    "japanese_name": [
+      "尾張富士",
+      "おわりふじ"
+    ]
+  },
+  {
     "name": "Owen Henry",
     "species": "Japonica",
     "size": "Large",
