@@ -2755,6 +2755,23 @@
     "imageSource": "accs"
   },
   {
+    "name": "Hime-wabisuke",
+    "species": "Wabisuke",
+    "size": "Small",
+    "description": "Yokoyama, 1975, Gendai Tsubaki Meikan, p.200, black and white photo; Encyclopedia of Camellias in Colour, vol.II, 1978, pl.349, p.144; Seibundō Shinkōsha, 1979, Senchinshū, p.128 colour photo, p.243, description: Small single, 6-7 petals, wabisuke type flower, soft pink with streaks of deeper pink. Three outer petals, notched at the apex and a compact, central column of stamens with white degenerate anthers. Leaves small, elliptic, coriaceous, long acuminate, dark green, finely serrate. See colour photo, p.277, Yokoyama &amp; Kirino, 1989, Nihon no Chinka. Discovered at Ama-gun, Aichi Prefecture. Discovered by Shinichi Asai, named and released in 1974. For botanical drawing, colour photo and description see pp.51, 52, 54; Kyōto Engei Kurabu, 1971, Tsubaki Tokushū`, No.11. Chinese synonym ‘Jituozhu’.",
+    "image": "https://file1.iflora.cn/Upload/2019/4/11/S/9aa9d154-c0d8-4317-a5dd-fe9322b22896.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hime-wabisuke",
+    "chinese_name": [
+      "姬佗助"
+    ],
+    "japanese_name": [
+      "姬佗助",
+      "ひめわびすけ"
+    ]
+  },
+  {
     "name": "Himegoto",
     "species": "Rusticana",
     "size": "Medium",

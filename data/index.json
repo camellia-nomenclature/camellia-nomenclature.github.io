@@ -10201,8 +10201,7 @@
     "japanese_name": [
       "ターマーナオ",
       "たあまあなお"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Damanao"
+    ]
   },
   {
     "name": "Cornelian Chrysanthemum Petal",
@@ -11025,8 +11024,7 @@
     "japanese_name": [
       "ターマーナオ",
       "たあまあなお"
-    ],
-    "size": "Large to very large"
+    ]
   },
   {
     "name": "Dame Silvia",
@@ -15806,8 +15804,7 @@
       "恨天高",
       "汉红菊瓣"
     ],
-    "japanese_name": [],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hentiangao"
+    "japanese_name": []
   },
   {
     "name": "Eoline Nelson",
@@ -21972,8 +21969,7 @@
       "恨天高",
       "汉红菊瓣"
     ],
-    "japanese_name": [],
-    "size": "Medium"
+    "japanese_name": []
   },
   {
     "name": "Her Majesty Queen Elizabeth Ii",
@@ -22346,6 +22342,17 @@
     "species": "Rusticana",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Hime-wabisuke",
+    "species": "Wabisuke",
+    "chinese_name": [
+      "姬佗助"
+    ],
+    "japanese_name": [
+      "姬佗助",
+      "ひめわびすけ"
+    ]
   },
   {
     "name": "Himegoto",
@@ -36668,9 +36675,7 @@
       "戴氏之歌",
       "迪斯康瑟夫人"
     ],
-    "japanese_name": [],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Mrs%20D.%20W.%20Davis%20Descanso",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Mrs.%20D.%20W.%20Davis%20Descanso.jpg"
+    "japanese_name": []
   },
   {
     "name": "Mrs. D. W. Davis Peony",
