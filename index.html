@@ -416,9 +416,11 @@
         });
         camelliaNameSet = new Set(camellias.map(c => c.name.toLowerCase()));
         precomputeNorms();
-        const speciesCount = new Set(camellias.map(c => c.species)).size;
-        document.getElementById('statsLine').textContent =
-          `${camellias.length.toLocaleString()} camellias indexed across ${speciesCount} species`;
+        const speciesSet = new Set(camellias.map(c => c.species));
+        const speciesCount = speciesSet.size;
+        const statsEl = document.getElementById('statsLine');
+        statsEl.innerHTML =
+          `${camellias.length.toLocaleString()} camellias indexed across <a href="#species" style="color:inherit;text-decoration:underline;text-underline-offset:2px;cursor:pointer;" aria-label="View all ${speciesCount} species">${speciesCount} species</a>`;
       } catch (e) {
         console.error('Failed to load data', e);
       }
@@ -688,9 +690,44 @@
       }
     });
 
-    window.addEventListener('popstate', () => {
-      const hash = decodeURIComponent(location.hash.slice(1));
-      if (hash && camellias.length) {
+    function showSpeciesPage(skipHash) {
+      if (!skipHash) history.pushState({species: true}, '', '#species');
+      document.getElementById('searchHints').style.display = 'none';
+      document.getElementById('homeSection').style.display = 'none';
+      search.value = '';
+      updateClearBtn();
+      dropdown.classList.remove('active');
+
+      // Build species list with counts, sorted alphabetically
+      const counts = {};
+      camellias.forEach(c => { counts[c.species] = (counts[c.species] || 0) + 1; });
+      const sorted = Object.keys(counts).sort((a, b) => a.localeCompare(b));
+
+      const rows = sorted.map(s =>
+        `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;"><span style="font-style:italic">${s}</span><span style="color:#888;font-size:0.85rem">${counts[s].toLocaleString()} cultivars</span></div></div>`
+      ).join('');
+
+      results.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <div style="display:flex;align-items:center;gap:16px">
+                <button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button>
+                <h2 style="margin:0">Species (${sorted.length})</h2>
+              </div>
+            </div>
+          </div>
+          <div class="card-body" style="display:block;padding:1rem 1.5rem;">
+            ${rows}
+          </div>
+        </div>`;
+
+    }
+
+    function navigateHash(hash, skipHistory) {
+      if (hash === 'species') {
+        showSpeciesPage(skipHistory);
+      } else if (hash && camellias.length) {
         const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
         if (match) selectCamellia(match, true);
       } else {
@@ -701,14 +738,15 @@
         document.getElementById('searchHints').style.display = '';
         document.getElementById('homeSection').style.display = '';
       }
+    }
+
+    window.addEventListener('popstate', () => {
+      navigateHash(decodeURIComponent(location.hash.slice(1)), true);
     });
 
     loadData().then(() => {
       const hash = decodeURIComponent(location.hash.slice(1));
-      if (hash && camellias.length) {
-        const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
-        if (match) selectCamellia(match, true);
-      }
+      if (hash) navigateHash(hash, true);
     });
   </script>
   <div class="report-link-wrap">
