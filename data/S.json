@@ -3215,11 +3215,12 @@
     "species": "Japonica",
     "size": "Large",
     "description": "White with flared Gold stamens. Large, single. See Higo. Also known as Shirayuke.",
-    "image": null,
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/30d4e9ae-991c-4a04-a76b-162294ab9285.jpg",
     "acs_url": null,
     "icr_url": null,
     "chinese_name": [],
-    "japanese_name": []
+    "japanese_name": [],
+    "imageSource": "icr"
   },
   {
     "name": "Shira-Ogi",
