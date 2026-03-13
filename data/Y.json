@@ -79,12 +79,14 @@
   {
     "name": "Ye Ming Zu",
     "species": "Reticulata",
-    "size": "",
+    "size": "Large to very large",
     "description": "See 'Evening Glow Pearl'.",
-    "image": null,
+    "image": "https://file3.iflora.cn/Upload/2019/7/4/S/8a8dbef8-8a69-43d6-9e61-b2527a40263f.jpg",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Zhanqun%20Mingzhu",
+    "chinese_name": [
+      "展群明珠"
+    ],
     "japanese_name": []
   },
   {
