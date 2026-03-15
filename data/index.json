@@ -22971,6 +22971,14 @@
     "japanese_name": []
   },
   {
+    "name": "Huoyan",
+    "species": "Japonica",
+    "chinese_name": [
+      "火焰"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Hussar",
     "species": "Japonica",
     "chinese_name": [],
@@ -30555,6 +30563,12 @@
     "chinese_name": [
       "柳叶银红"
     ],
+    "japanese_name": []
+  },
+  {
+    "name": "Lixiangde Yü",
+    "species": "Japonica",
+    "chinese_name": [],
     "japanese_name": []
   },
   {
@@ -39220,15 +39234,6 @@
     ]
   },
   {
-    "name": "Tabaruzaka",
-    "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": [
-      "田原坂",
-      "たばるざか"
-    ]
-  },
-  {
     "name": "Ō-zora",
     "species": "Japonica",
     "chinese_name": [
@@ -47433,6 +47438,15 @@
     "japanese_name": []
   },
   {
+    "name": "Shugetsu",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "朱月",
+      "しゅげつ"
+    ]
+  },
+  {
     "name": "Shunpū",
     "species": "NRH",
     "chinese_name": [
@@ -50292,6 +50306,15 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Tabaruzaka",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "田原坂",
+      "たばるざか"
+    ]
   },
   {
     "name": "Tabbs",
