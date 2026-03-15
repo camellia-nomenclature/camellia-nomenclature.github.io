@@ -92,6 +92,21 @@
     "imageSource": "acs"
   },
   {
+    "name": "Tabaruzaka",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Soft pink with deeper pink and red streaks and splashes, single, opening flat with a central burst of yellow stamens. Mid-season to late bloom; a sport of Mikuni-no-homare collected near Tabaruzaka, Kumamoto.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/8caac07a-0730-49ca-9852-d94454d919b8.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tabaruzaka",
+    "imageSource": "icr",
+    "chinese_name": [],
+    "japanese_name": [
+      "田原坂",
+      "たばるざか"
+    ]
+  },
+  {
     "name": "Tabbs",
     "species": "Japonica",
     "size": "Medium to large",

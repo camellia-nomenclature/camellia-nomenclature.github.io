@@ -3810,6 +3810,21 @@
     "japanese_name": []
   },
   {
+    "name": "Shugetsu",
+    "species": "Japonica",
+    "size": "Large to very large",
+    "description": "Large size, vermilion red, Higo form with 6-7 petals and a wide spreading stamen cluster, small gold anthers and stout pale yellow filaments. Originated in Kumamoto Prefecture, Japan. A mutation of Daikanhō; designated as a new Higo by the Higo Camellia Society in the 1980s.",
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/3a8090f5-62f9-4f9a-aff8-826a3338c67f.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shugetsu",
+    "chinese_name": [],
+    "japanese_name": [
+      "朱月",
+      "しゅげつ"
+    ],
+    "imageSource": "icr"
+  },
+  {
     "name": "Shunpū",
     "species": "NRH",
     "size": "Small",
