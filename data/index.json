@@ -47428,8 +47428,14 @@
   {
     "name": "Shuchuka",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "酒中花"
+    ],
+    "japanese_name": [
+      "酒中花",
+      "しゅちゅうか"
+    ],
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shuchūka"
   },
   {
     "name": "Shuchukaa",
