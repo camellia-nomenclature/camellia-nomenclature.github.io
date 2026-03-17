@@ -3754,6 +3754,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Chidan",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Deep red. Medium, formal double with 7-8 rows of rounded petals, sometimes tiered. (China 1949). Synonyms: Ch'ih Tan, Loyal Red; also listed as 赤丹 and linked with Liujiao Dahong.",
+    "image": "https://file4.iflora.cn/Upload/2020/3/3/S/e52b995f-6663-4523-8976-0408ccf0ee85.JPG",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Chidan",
+    "imageSource": "icr",
+    "chinese_name": [
+      "赤丹"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Chie Tarumoto",
     "species": "Japonica",
     "size": "Medium",
