@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Alice B. Dupont",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Light Yellow. Small, semidouble. Very slow, compact growth. M-L. (Nitidissima × Hybrid 'Golden Glow'). (U.S. 2008 - CamelliaShop, Savannah, GA).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Botan-Yuki",
+    "species": "Rusticana",
+    "size": "Miniature",
+    "description": "Blush Pink with Yellow petaloid center. Miniature, anemone form.",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Botan-Yuki.jpg",
+    "acs_url": null,
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "accs"
+  },
+  {
+    "name": "Canary",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "White. Small, anemone form with Yellow petaloids. M. (U.S. 1962 - Rogerson, Florence, SC).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Canary.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Canary",
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "accs"
+  },
+  {
+    "name": "Dahlohnega",
+    "species": "Japonica",
+    "size": "Small to medium",
+    "description": "Canary Yellow. Small to medium, formal double. Slow, open, upright growth. M. (U.S. 1986. Homeyer).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dahlohnega.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-d/dahlohnega",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Dahlohnega",
+    "chinese_name": [
+      "黄达",
+      "戴罗尼加",
+      "终身心愿"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Golden Glow",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Creamy White deepening to Light Yellow at base with edge and back of petals slightly toned Pink. Medium, semidouble. Average, dense, upright growth. L. (Japonica 'Guilio Nuccio' × Pitardii] * Chrysantha). (U.S. 1994 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Golden%20Glow.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/golden-glow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Golden%20Glow",
+    "chinese_name": [
+      "金辉",
+      "黄花蝴蝶"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gus Menard",
+    "species": "Japonica",
+    "size": "Large",
+    "description": "White with Canary Yellow petaloids. Large, anemone form with center petals divided by petaloids. Average, upright growth. M. (U.S. 1962 - Judice).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gus%20Menard.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gus-menard",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gus%20Menard",
+    "chinese_name": [
+      "贾斯美纳德"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Gwenneth Morey",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "White outer petals and Deep Cream to Pale Primrose Yellow petaloids. Medium, anemone form. Average, upright growth. M-L. See also 'Brushfield's Yellow' which is similar but not identical. (Aus. 1965 - Dr. B. R. Morey, Carlingford).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Gwenneth%20Morey.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-g/gwenneth-morey",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Gwenneth%20Morey",
+    "chinese_name": [
+      "澳洲黄",
+      "威斯摩"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jaune",
+    "species": "Oleifera",
+    "size": "Small",
+    "description": "White with large center of Yellow petaloids and a few stamens of Darker Yellow. Small, anemone form. (China to France, 1850 - Fortune's Yellow Camellia).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jaune.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jaune",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jaune",
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jinhua's Jade Tray",
+    "species": "NRH",
+    "size": "Large to very large",
+    "description": "('Yupan Jinhua' - Chinese name). White to Light Pink or Yellowish with Green tone, edged with Pink with Yellow anthers and Yellow filaments. Large to very large, anemone to peony form; petals broad and wrinkled or serrated at the edges and waved; a large number of petaloids mixed with stamens forming a central raised ball. Vigorous, upright growth. E-L. Sweetly fragrant. (Williamsii x fragrant cultivar). (U.S. 2007 - John Wang, Orinda, CA).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jinhua%27s%20Jade%20Tray.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jinhuas-jade-tray",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yupan%20Jinhua",
+    "chinese_name": [
+      "玉盘金华"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Jury's Yellow",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "White with Cream-Yellow petaloids. Medium, anemone form. Average, compact, upright growth. E-L. (Saluenensis/ Japonica hybrid × Japonica 'Gwenneth Morey'). (N.Z. 1976 - Jury).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Jury%27s%20Yellow.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-j/jurys-yellow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Jury%27s%20Yellow",
+    "chinese_name": [
+      "朱瑞黄",
+      "黄裘莉丝",
+      "乳黄珍珠",
+      "裘莉之黄"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Kagirohi (First Light Of Dawn)",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Pale Yellow. Small to medium, formal double. Upright growth. L. (Nitidissima x Japonica 'Silver Chalice'). (Japan 1996 - Kazuo Yoshikawa, Ishikawa).",
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/T/ce77da0a-3746-4e04-adef-341cc36a139e.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kagirohi",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kagiroi",
+    "imageSource": "icr",
+    "chinese_name": [
+      "正黄旗"
+    ],
+    "japanese_name": [
+      "かぎろい"
+    ]
+  },
+  {
+    "name": "Ki-No-Gozen",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Light Yellow. Small to medium, single cup- shaped with thick petals. Vigorous, upright growth. (Japonica 'Jomanji' x Nitidissima). (U.S. 1990 - Nuccio's hybridizer Tadao Yamaguchi, Japan).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-No-Gozen.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/ki-no-gozen",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-No-Gozen",
+    "chinese_name": [
+      "皇家风采"
+    ],
+    "japanese_name": [
+      "黄の御前",
+      "きのごぜん"
+    ],
+    "imageSource": "accs"
+  },
+  {
+    "name": "Ki-No-Moto No.95",
+    "species": "Reticulata",
+    "size": "Large",
+    "description": "Light Yellow. Large, semidouble. Slow, upright growth. M-L. (Reticulata hybrid 'LASCA Beauty' × Japonica). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
+    "image": "https://file1.iflora.cn/Upload/2021/9/12/S/f4546b4c-1ff9-4baf-aab7-4f7c530c61c5.jpeg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kinomoto%2095",
+    "imageSource": "icr",
+    "chinese_name": [
+      "黄基95"
+    ],
+    "japanese_name": [
+      "黄基95",
+      "きのもと95"
+    ]
+  },
+  {
+    "name": "Ki-no-senritsu",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Color: Soft light yellow. Form: Peony to loose peony form. Size: Small to medium. Bloom Season: M. Growth Rate: Average. Growth Characteristics: Open growth. Leaf Characteristics: Medium green - Japonica-like. Originator: Tadao Yamaguchi. Place of Origination: Japan - Ishikawa. Year of Registration / Origination: 1998. Heritage: Nitidissima x Japonica 'Hakuhï¿½'. Other Information: Means  'Yellow Melody' in English.",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ki-no-senritsu.jpg",
+    "imageSource": "socal",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/ki-no-senritsu",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-senritsu",
+    "chinese_name": [
+      "黄的旋律"
+    ],
+    "japanese_name": [
+      "黄の旋律"
+    ]
+  },
+  {
+    "name": "Kicho",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Pale Yellow. Small, tubular single. Vigorous, upright growth. (Japonica 'Hatsu-Arashi' x Nitidissima). (U.S. 1990 - Nuccio's hybridizer Tadao Yamaguchi, Japan).",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/ae2ca322-1426-42f9-a9c0-38ac237f5eea.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kich%C5%8D",
+    "chinese_name": [
+      "黄调"
+    ],
+    "japanese_name": [
+      "黄調",
+      "きちょう"
+    ],
+    "imageSource": "icr"
+  },
+  {
+    "name": "Kiho",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Light Yellow. Small to medium, single with tubular, wavy petals. Vigorous, upright growth. E-M. (U.S. 1990 - Nuccio's hybridizer Tadao Yamaguchi, Japan).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kiho.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kiho",
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Kogane-Yuri",
+    "species": "Reticulata",
+    "size": "Small",
+    "description": "Light Yellow. Small, single tubular form. Medium, upright, slender growth. M. (Saluenensis-Reticulata hybrid 'Barbara Clark' × Nitidissima). (U.S. - Nuccio's Hybridizer Kazuo Yoshikawa, Japan).",
+    "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-Yuri.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-Yuri",
+    "chinese_name": [
+      "金百合花",
+      "金币",
+      "黄金百合"
+    ],
+    "japanese_name": [
+      "こがねゆり"
+    ],
+    "imageSource": "accs"
+  },
+  {
+    "name": "Lemon Drop",
+    "species": "Japonica",
+    "size": "Miniature",
+    "description": "White with Lemon center. Miniature, anemone form to rose form double to formal double. Average, dense, upright growth. M. (U.S. 1981 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lemon%20Drop.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lemon-drop",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Drop",
+    "chinese_name": [
+      "柠檬",
+      "柠檬糖",
+      "掉落的柠檬"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Lemon Glow",
+    "species": "Japonica",
+    "size": "Small to medium",
+    "description": "Creamy Yellow. Small to medium, formal double. Slow, upright, compact growth. M. (Sport of Japonica 'Dahlohnega'). (U.S. 2009 - Cam Too Camellia Nursery, Greensboro, NC).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lemon%20Glow.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lemon-glow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Glow",
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Lemon Twist",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Off White to Pale Yellow, deeper at center. Medium, semidouble. Vigorous, somewhat open, upright growth. L. (Japonica 'Guilio Nuccio' × Pitardii × Nitidissima). (U.S. 1996 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Lemon%20Twist.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-l/lemon-twist",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Lemon%20Twist",
+    "chinese_name": [
+      "柠檬黄"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Nobilissima",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "('Fuji-Yama'). White with Yellow shading. Medium, full peony form. Vigorous, upright growth. E-M. (Belgium 1834 - M. Lefevre, Ghent).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Nobilissima.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-n/nobilissima",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Nobilissima",
+    "chinese_name": [
+      "贵族",
+      "白诺波"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Optical Illusion",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Yellow with Pink overtones. Medium, formal double with strap-like petals that can be arranged in a somewhat spiral pattern. (Flava x Japonica). (U.S. 2015 - Parks).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Optical%20Illusion.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-o/optical-illusion",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Optical%20Illusion",
+    "chinese_name": [
+      "视觉幻象",
+      "旋转黄"
+    ],
+    "japanese_name": [
+      "錯視",
+      "さくし"
+    ],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Senritsu-Ko",
+    "species": "NRH",
+    "size": "Small to medium",
+    "description": "Light Yellow edges toned Pink. Small to medium, formal double to rose form double. Moderate, upright, open growth. M. (Hybrid 'Kiho' x Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Senritsu-Ko.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/senritsu-ko",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Senritsu-Ko",
+    "chinese_name": [
+      "新世纪"
+    ],
+    "japanese_name": [
+      "旋律紅",
+      "せんりつこ"
+    ],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Shoko",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Light Yellow. Small, single with thick petals. Vigorous, open, upright growth. E-M. (U.S. 1989 - Nuccio's hybridizer Tadao Yamaguchi, Japan).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Shoko.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/shoko",
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Solstice",
+    "species": "NRH",
+    "size": "Medium",
+    "description": "Light Yellow. Medium, rose form double. Vigorous, upright growth with narrow Light Green leaves with long leaf tips. (Flava x Japonica). (U.S. 2009 - Parks).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Solstice.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-s/solstice",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Solstice",
+    "chinese_name": [
+      "冬至"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  }
+]

@@ -112,6 +112,15 @@
       cursor: pointer;
       transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.08s ease;
     }
+    .stats-pill {
+      display: inline-block;
+      margin-left: 0.2rem;
+      padding: 0.08rem 0.5rem;
+      border-radius: 999px;
+      color: #355b1f;
+      background: #edf5e2;
+      border: 1px solid #c9ddaf;
+    }
     .stats-link:hover {
       color: #244113;
       background: #e2efcf;
@@ -126,6 +135,44 @@
       outline-offset: 2px;
       box-shadow: 0 0 0 1px #6f9a4a;
     }
+    .home-links {
+      margin-top: 0.9rem;
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #c9ddaf;
+      background: #edf5e2;
+      color: #355b1f;
+      border-radius: 999px;
+      padding: 0.32rem 0.9rem;
+      text-decoration: none;
+      font-size: 0.92rem;
+      cursor: pointer;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.08s ease;
+    }
+    .home-link:hover {
+      color: #244113;
+      background: #e2efcf;
+      border-color: #b5ce95;
+    }
+    .home-link:active { transform: translateY(1px); }
+    .home-link:focus-visible {
+      outline: 3px solid rgba(111, 154, 74, 0.35);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 1px #6f9a4a;
+    }
+    .list-link {
+      color: #2d5016;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .list-link:hover { color: #244113; }
     .results {
       max-width: 800px;
       margin: 0 auto;
@@ -344,6 +391,11 @@
     <div id="bookTitle" style="color:#666;font-size:0.9rem;margin-top:0.5rem;font-style:italic;">Camellia Nomenclature and Picture Gallery</div>
     <div id="subtitleLine" style="color:#888;font-size:0.9rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book, ACS Database, and more.</div>
     <div id="statsLine" style="color:#6d9e4a;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
+    <div class="home-links" id="homeLinks" style="display:none;">
+      <a href="#species" class="home-link" aria-label="Browse all species">Browse species</a>
+      <a href="#fragrant" class="home-link" aria-label="Browse fragrant camellias">Fragrant Camellias</a>
+      <a href="#yellow" class="home-link" aria-label="Browse yellow camellias">Yellow Camellias</a>
+    </div>
   </div>
 
   <div class="results" id="results">
@@ -351,6 +403,8 @@
 
   <script>
     let camellias = [];
+    let fragrantCamellias = [];
+    let yellowCamellias = [];
     let camelliaNameSet = new Set();
     function linkifyDescription(desc, entryName) {
       if (!desc || !camelliaNameSet.size) return desc;
@@ -448,7 +502,8 @@
         const speciesCount = speciesSet.size;
         const statsEl = document.getElementById('statsLine');
         statsEl.innerHTML =
-          `${camellias.length.toLocaleString()} camellias indexed across <a href="#species" class="stats-link" aria-label="View all ${speciesCount} species">${speciesCount} species</a>`;
+          `${camellias.length.toLocaleString()} camellias indexed across ${speciesCount} species`;
+        document.getElementById('homeLinks').style.display = '';
       } catch (e) {
         console.error('Failed to load data', e);
       }
@@ -476,6 +531,78 @@
       }
       return entryCache[letter]?.[name] ?? null;
     }
+
+    function buildFragrantFallback() {
+      const fragrantKeywords = [
+        'fragrant', 'fragrance', 'scent', 'scented', 'perfume', 'perfumed',
+        'sweetly fragrant', 'sweet scent', 'spicy fragrance', 'musky fragrance', 'honey fragrance'
+      ];
+      const hasKeyword = (text) => {
+        const lower = (text || '').toLowerCase();
+        return fragrantKeywords.some(k => lower.includes(k));
+      };
+      return camellias
+        .filter(c => hasKeyword(c.name) || hasKeyword(c.species))
+        .sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    async function loadFragrantCamellias() {
+      try {
+        const resp = await fetch('data/fragrant-camellias.json');
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const arr = await resp.json();
+        if (!Array.isArray(arr)) throw new Error('fragrant list is not an array');
+        const seen = new Set();
+        fragrantCamellias = arr
+          .filter(e => e && typeof e.name === 'string' && e.name.trim())
+          .map(e => ({
+            name: e.name.trim(),
+            species: e.species || camellias.find(c => c.name === e.name)?.species || 'Unknown species'
+          }))
+          .filter(e => {
+            const key = e.name.toLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          })
+          .sort((a, b) => a.name.localeCompare(b.name));
+      } catch (e) {
+        console.warn('Failed to load fragrant list, using fallback filter.', e);
+        fragrantCamellias = buildFragrantFallback();
+      }
+    }
+
+    async function loadCuratedList(path) {
+      const resp = await fetch(path);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const arr = await resp.json();
+      if (!Array.isArray(arr)) throw new Error(`${path} is not an array`);
+
+      const seen = new Set();
+      return arr
+        .filter(e => e && typeof e.name === 'string' && e.name.trim())
+        .map(e => ({
+          name: e.name.trim(),
+          species: e.species || camellias.find(c => c.name === e.name)?.species || 'Unknown species'
+        }))
+        .filter(e => {
+          const key = e.name.toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    async function loadYellowCamellias() {
+      try {
+        yellowCamellias = await loadCuratedList('data/yellow-camellias.json');
+      } catch (e) {
+        console.warn('Failed to load yellow camellia list.', e);
+        yellowCamellias = [];
+      }
+    }
+
 
     const search = document.getElementById('search');
     const dropdown = document.getElementById('dropdown');
@@ -752,9 +879,60 @@
 
     }
 
+    function showCuratedPage(title, list, hash, emptyText, skipHash) {
+      if (!skipHash) history.pushState({[hash]: true}, '', `#${hash}`);
+      document.getElementById('searchHints').style.display = 'none';
+      document.getElementById('homeSection').style.display = 'none';
+      search.value = '';
+      updateClearBtn();
+      dropdown.classList.remove('active');
+
+      const rows = list.map(c => {
+        const displayName = c.name.replace(/_/g, ' ');
+        return `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;"><a href="#${encodeURIComponent(c.name)}" class="list-link" data-camellia="${c.name.replace(/"/g, '&quot;')}">${displayName}</a><span style="color:#888;font-size:0.85rem">${c.species || 'Unknown species'}</span></div></div>`;
+      }).join('');
+
+      results.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <div style="display:flex;align-items:center;gap:16px">
+                <button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button>
+                <h2 style="margin:0">${title} (${list.length})</h2>
+              </div>
+            </div>
+          </div>
+          <div class="card-body" style="display:block;padding:1rem 1.5rem;">
+            ${rows || `<div class="empty-state" style="padding:2rem 1rem;"><p>${emptyText}</p></div>`}
+          </div>
+        </div>`;
+
+      results.querySelectorAll('[data-camellia]').forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          const name = link.getAttribute('data-camellia');
+          const match = camellias.find(item => item.name.toLowerCase() === name.toLowerCase());
+          if (match) selectCamellia(match);
+        });
+      });
+    }
+
+    function showFragrantPage(skipHash) {
+      showCuratedPage('Fragrant Camellias', fragrantCamellias, 'fragrant', 'No fragrant camellias found.', skipHash);
+    }
+
+    function showYellowPage(skipHash) {
+      showCuratedPage('Yellow Camellias', yellowCamellias, 'yellow', 'No yellow camellias found.', skipHash);
+    }
+
+
     function navigateHash(hash, skipHistory) {
       if (hash === 'species') {
         showSpeciesPage(skipHistory);
+      } else if (hash === 'fragrant') {
+        showFragrantPage(skipHistory);
+      } else if (hash === 'yellow') {
+        showYellowPage(skipHistory);
       } else if (hash && camellias.length) {
         const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
         if (match) selectCamellia(match, true);
@@ -772,10 +950,19 @@
       navigateHash(decodeURIComponent(location.hash.slice(1)), true);
     });
 
-    loadData().then(() => {
-      const hash = decodeURIComponent(location.hash.slice(1));
-      if (hash) navigateHash(hash, true);
+    window.addEventListener('hashchange', () => {
+      navigateHash(decodeURIComponent(location.hash.slice(1)), true);
     });
+
+    loadData()
+      .then(() => Promise.all([
+        loadFragrantCamellias(),
+        loadYellowCamellias()
+      ]))
+      .then(() => {
+        const hash = decodeURIComponent(location.hash.slice(1));
+        if (hash) navigateHash(hash, true);
+      });
   </script>
   <div class="report-link-wrap">
     <a class="report-link" href="mailto:Camellia.Nomenclature+report@gmail.com?subject=Camellia%20Nomenclature%20Issue%20Report" aria-label="report an issue or request to add/update a cultivar">
