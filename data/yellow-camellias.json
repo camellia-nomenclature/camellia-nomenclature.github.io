@@ -11,6 +11,36 @@
     "japanese_name": []
   },
   {
+    "name": "Brushfield's Yellow",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Antique White guard petals surround double center of lightly ruffled Pale Primrose Yellow petaloids. Medium, anemone form. Vigorous, compact, columnar growth. M-L. (See also Japonica 'Gwenneth Morey' which is similar but not identical). (Aus. 1968 - K. Brushfield).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Brushfield%27s%20Yellow.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/brushfields-yellow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Brushfield%27s%20Yellow",
+    "chinese_name": [
+      "黄绣球",
+      "黄色灌木园",
+      "布氏的黄茶花"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Caihuang",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "White flower with yellow tone and purple-red spots/stripes on upper petals, semidouble; vigorous spreading habit; blooms from late autumn through winter/spring.",
+    "image": "https://file4.iflora.cn/Upload/2020/12/11/T/18db01d7-9e97-4d91-96f8-35e58e43804f.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caihuang",
+    "chinese_name": [
+      "彩黄"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Canary",
     "species": "Japonica",
     "size": "Small",
@@ -81,6 +111,21 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Huanghainan Baozhu",
+    "species": "NRH",
+    "size": "Miniature to Small",
+    "description": "Huang Nursery Catalogue, 1949. No description. Originated in China. Different reading: 'Huang Hai Nan Pao Chu'. Gao, Jiyin, 1998, The World's Best Camellia Cultivars, p.155, and Gao, Jiyin, 2007, The Identification....Outstanding Camellias, p.297 with colour photos; A crossing of C.sasanqua and C.oleifera. The first yellowish hybrid successfully bred in China. Flowers white with yellowish centre, occasionally with pink tips to petals. Anemone form, miniature to small, outside petals 7-10, small petals and petaloids in a ball-shaped centre. Leaves mid-green, small and narrow. Upright, average groawth. Flowers early.",
+    "image": "https://file2.iflora.cn/Upload/2021/7/21/S/9c17d223-73a6-4605-b00c-5cbc385ebad9.jpg",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Huanghainan+Baozhu",
+    "imageSource": "icr",
+    "chinese_name": [
+      "黄海南宝珠",
+      "黄海内宝珠"
+    ],
+    "japanese_name": []
   },
   {
     "name": "Jaune",
@@ -159,6 +204,20 @@
     "imageSource": "accs"
   },
   {
+    "name": "Ki-No-Joman(Ji). (Yellow Joman Temple)",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Unusual shade of Salmon Pink. Small, single form. Upright, bushy growth. M-L. (Japonica ‘Jémanji’ x Nitidissima). (Japan 2007 - Tadao Yamaguchi, Ishikawa).",
+    "image": "https://file1.iflora.cn/Upload/2021/12/1/S/415c701f-5f70-4004-88a0-167b59b15e70.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-no-jōmanji",
+    "chinese_name": [
+      "黄的常满寺"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Ki-No-Moto No.95",
     "species": "Reticulata",
     "size": "Large",
@@ -189,6 +248,23 @@
     ],
     "japanese_name": [
       "黄の旋律"
+    ]
+  },
+  {
+    "name": "Ki-renge",
+    "species": "NRH",
+    "size": "Medium to large",
+    "description": "From Kodaira, Tokyo, Japan Camellia No.84, August 2007: Pale yellow, lotus-formed semi-double, medium to large, cylindrical to split stamens, blooming in March to May. Tree spreading. Leaves ovate, large. An interspecific hybrid between Miyakodori and C.cucphuongensis. Hybridized by Shinichi Noguchi and named in 2004.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/T/b217d035-c5f4-47bf-854a-0b0823da50fa.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ki-renge",
+    "chinese_name": [
+      "黄莲华"
+    ],
+    "japanese_name": [
+      "黄蓮華",
+      "きれんげ"
     ]
   },
   {
