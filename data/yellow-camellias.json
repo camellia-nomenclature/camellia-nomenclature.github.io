@@ -27,6 +27,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Buttermint",
+    "species": "NRH",
+    "size": "Miniature",
+    "description": "Very Creamy White to Pale Yellow. Miniature, formal double to rose form double to occasionally peony form. Average, upright growth. E-L. (Kissi seedling). (U.S. 1997 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Buttermint.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-b/buttermint",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Buttermint",
+    "chinese_name": [
+      "奶油薄荷"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
     "name": "Caihuang",
     "species": "Japonica",
     "size": "Medium",
@@ -108,6 +122,36 @@
     "chinese_name": [
       "澳洲黄",
       "威斯摩"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Honeyglow",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Deep Honey color to Ivory center petals and faint Blush under petals. Medium, formal double with incurved center petals resembling six pointed star. Vigorous, open, upright growth. M-L. (U.S. 1974 - Stone).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Honeyglow.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/honeyglow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Honeyglow",
+    "chinese_name": [
+      "田黄白露",
+      "汉尼格罗",
+      "甜蜜光辉"
+    ],
+    "japanese_name": [],
+    "imageSource": "socal"
+  },
+  {
+    "name": "Honeymoon",
+    "species": "NRH",
+    "size": "Medium to large",
+    "description": "Coral Pink bud opening to a very Creamy White with Yellow petals at the base. Medium to large, semidouble. Vigorous, open, upright growth. L. (Japonica 'Guilio Nuccio' \u00d7 Pitardii x Chrysantha). (U.S. 1992 - Nuccio's).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Honeymoon.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/honeymoon",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Honeymoon",
+    "chinese_name": [
+      "蜜月"
     ],
     "japanese_name": [],
     "imageSource": "socal"
@@ -297,6 +341,25 @@
     "imageSource": "socal"
   },
   {
+    "name": "Kogane Nishiki",
+    "species": "NRH",
+    "size": "Small",
+    "description": "Pale Yellow with slender stripes of Red. Small, trumpet shaped single. Vigorous, upright growth. M-L. (Japonica 'Betty Foy Sanders' x C. nitidissima). (U.S. 1993 - Kazuo Yoshikawa, Osaka, Japan).",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kogane-nishiki.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kogane-nishiki",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kogane-nishiki",
+    "imageSource": "acs",
+    "chinese_name": [
+      "金色锦锻",
+      "黄锦秀",
+      "黄金锦"
+    ],
+    "japanese_name": [
+      "こがね錦",
+      "こがねにしき"
+    ]
+  },
+  {
     "name": "Kogane-Yuri",
     "species": "Reticulata",
     "size": "Small",
@@ -431,5 +494,20 @@
     ],
     "japanese_name": [],
     "imageSource": "socal"
+  },
+  {
+    "name": "Witman Yellow",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "White tinged Yellow. Medium, semidouble. Average, upright growth. M. (U.S. 1963 - Homeyer).",
+    "image": "https://file4.iflora.cn/Upload/2021/12/1/S/10d345c9-a2d6-4c2b-bded-917d5bd1dcc1.jpg",
+    "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-w/witman-yellow",
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Witman%20Yellow",
+    "chinese_name": [
+      "威特曼黄",
+      "黄山春色"
+    ],
+    "japanese_name": [],
+    "imageSource": "icr"
   }
 ]
