@@ -3500,7 +3500,9 @@
     "imageSource": "icr",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shirokanoko",
-    "chinese_name": [],
+    "chinese_name": [
+      "白唐子"
+    ],
     "japanese_name": [
       "白唐子",
       "しろからこ"
