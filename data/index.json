@@ -42836,8 +42836,7 @@
       "冰山莓",
       "冷若冰霜"
     ],
-    "japanese_name": [],
-    "image": "https://file3.iflora.cn/Upload/2023/12/28/S/c2fe4426-37e0-4737-811c-c228812af5f3.jpg"
+    "japanese_name": []
   },
   {
     "name": "Raspberry Parfait",
@@ -47268,6 +47267,16 @@
     ]
   },
   {
+    "name": "Shirokanoko",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "白唐子",
+      "しろからこ"
+    ],
+    "size": "Small"
+  },
+  {
     "name": "Shirokingyoba-Tsubaki (White Goldfish Camellia)",
     "species": "Japonica",
     "chinese_name": [
@@ -47443,8 +47452,7 @@
     "japanese_name": [
       "酒中花",
       "しゅちゅうか"
-    ],
-    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shuchūka"
+    ]
   },
   {
     "name": "Shugetsu",
@@ -55281,8 +55289,7 @@
       "威特曼黄",
       "黄山春色"
     ],
-    "japanese_name": [],
-    "image": "https://file4.iflora.cn/Upload/2021/12/1/S/10d345c9-a2d6-4c2b-bded-917d5bd1dcc1.jpg"
+    "japanese_name": []
   },
   {
     "name": "Wo-He-Lo",

@@ -3492,6 +3492,21 @@
     ]
   },
   {
+    "name": "Shirokanoko",
+    "species": "Japonica",
+    "size": "Small",
+    "description": "Wada, 1941, Japanese Garden Treasures, p.29: White bell shape with a disc of petaloids in the throat. Originated in Japan. Different reading: ‘Shirakanoko’. Corruption of name: ‘Shiro-kanako’.",
+    "image": "https://file2.iflora.cn/Upload/2023/4/28/S/f5953408-d88f-40cb-9111-e85a64d2a0ab.JPG",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Shirokanoko",
+    "chinese_name": [],
+    "japanese_name": [
+      "白唐子",
+      "しろからこ"
+    ]
+  },
+  {
     "name": "Shirokingyoba-Tsubaki (White Goldfish Camellia)",
     "species": "Japonica",
     "size": "Medium",
