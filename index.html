@@ -744,11 +744,11 @@
       const imgName = c.name.replace(/'/g, "%27").replace(/ /g, '%20');
       const imgUrl = c.image || `https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/${imgName}.jpg`;
       const encodedName = encodeURIComponent(c.name);
-      const icrUrl = `https://camellia.iflora.cn/Cutivars/Detail?latin=${encodedName}`;
-      // ACS: direct link — strip apostrophes, lowercase, hyphens for spaces
+      const icrUrl = c.icr_url || `https://camellia.iflora.cn/Cutivars/Detail?latin=${encodedName}`;
+      // ACS: prefer stored URL, fallback to derived link
       const acsSlug = c.name.toLowerCase().replace(/['']/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
       const firstLetter = c.name[0].toLowerCase();
-      const acsUrl = `https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-${firstLetter}/${acsSlug}`;
+      const acsUrl = c.acs_url || `https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-${firstLetter}/${acsSlug}`;
       // Determine image source from URL
       function getImageSource(url) {
         if (url.includes('atlanticcoastcamellia')) return 'ACCS';
