@@ -20857,7 +20857,9 @@
     "japanese_name": [
       "羽衣",
       "はごろも"
-    ]
+    ],
+    "size": "Medium",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magnoliaeflora.jpg"
   },
   {
     "name": "Hahn Supreme",
@@ -22274,6 +22276,18 @@
     "species": "Japonica",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Higo Hagoromo",
+    "species": "Higo",
+    "chinese_name": [
+      "肥后羽衣"
+    ],
+    "japanese_name": [
+      "肥後羽衣",
+      "ひごはごろも"
+    ],
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Hagoromo.jpg"
   },
   {
     "name": "Higo-Ozeki",

@@ -65,9 +65,9 @@
   {
     "name": "Hagoromo",
     "species": "Japonica",
-    "size": "",
+    "size": "Medium",
     "description": "See 'Magnoliaeflora' ('Hagoromo' is reported as priority name for this cultivar but as 'Magnoliaeflora' [Japan to Italy 1886] has been in such common use in the U.S. we do not believe a change is necessary or warranted). (Japan 1695).",
-    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Hagoromo.jpg",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Magnoliaeflora.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-h/hagoromo",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Hagoromo",
     "imageSource": "socal",
@@ -2605,6 +2605,23 @@
     "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Higo Hagoromo",
+    "species": "Higo",
+    "size": "Very large",
+    "description": "Taniguchi, 1912, Chinka Kyōkan: Deep red, very large, single. Thick petals, occasionally with petaloids. Originated in the Kumamoto Prefecture, Japan. Synonym: ‘Hagoromo’(Higo)",
+    "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Hagoromo.jpg",
+    "imageSource": "socal",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Higo-hagoromo",
+    "chinese_name": [
+      "肥后羽衣"
+    ],
+    "japanese_name": [
+      "肥後羽衣",
+      "ひごはごろも"
+    ]
   },
   {
     "name": "Higo-Ozeki",
