@@ -3768,8 +3768,7 @@
     "name": "Baronne De Bleichroeder (United States)",
     "species": "Japonica",
     "chinese_name": [],
-    "japanese_name": [],
-    "image": "https://rail.huntington.org/IIIF3/Image/22APN4XOSGO4/full/max/0/default.jpg"
+    "japanese_name": []
   },
   {
     "name": "Baronne De Bleichroeder Pink",
@@ -22389,8 +22388,7 @@
     "japanese_name": [
       "皺佗助",
       "ひなわびすけ"
-    ],
-    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/59ab2abc-6f16-4548-ac71-b0580721469f.jpg"
+    ]
   },
   {
     "name": "Hinode-Gumo",
@@ -36277,6 +36275,17 @@
     ]
   },
   {
+    "name": "Monjusu",
+    "species": "Japonica",
+    "chinese_name": [
+      "纹繻子"
+    ],
+    "japanese_name": [
+      "紋襦子",
+      "もんじゆす"
+    ]
+  },
+  {
     "name": "Monke",
     "species": "Japonica",
     "chinese_name": [],
@@ -47277,8 +47286,7 @@
     "japanese_name": [
       "白唐子",
       "しろからこ"
-    ],
-    "size": "Small"
+    ]
   },
   {
     "name": "Shirokingyoba-Tsubaki (White Goldfish Camellia)",
