@@ -510,7 +510,7 @@
     }
 
     async function fetchFullEntry(name) {
-      const letter = name[0].toUpperCase();
+      const letter = name[0].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
       if (!entryCache[letter]) {
         try {
           const resp = await fetch(`data/${letter}.json`);
