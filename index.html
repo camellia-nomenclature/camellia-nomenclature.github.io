@@ -751,6 +751,7 @@
       const acsUrl = c.acs_url || `https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-${firstLetter}/${acsSlug}`;
       // Determine image source from URL
       function getImageSource(url) {
+        if (!/^https?:/.test(url)) return null; // photo hosted in this repo
         if (url.includes('atlanticcoastcamellia')) return 'ACCS';
         if (url.includes('iflora')) return 'ICR';
         if (url.includes('socalcamellia')) return 'SoCal';
@@ -829,7 +830,7 @@
             </div>
             <div>
               <div class="card-image">${imageHtml}</div>
-              <div id="img-caption" style="display:none;text-align:center;font-size:0.8rem;color:#888;margin-top:0.3rem;font-style:italic;">Photo from ${imgSource} database</div>
+              <div id="img-caption" style="display:none;text-align:center;font-size:0.8rem;color:#888;margin-top:0.3rem;font-style:italic;">${imgSource ? `Photo from ${imgSource} database` : 'Original photo'}</div>
             </div>
           </div>
         </div>`;

@@ -27549,6 +27549,16 @@
     "imageSource": "icr"
   },
   {
+    "name": "Huanle Juhui (Joyous Party)",
+    "species": "NRH",
+    "chinese_name": [
+      "欢乐聚会"
+    ],
+    "japanese_name": [],
+    "image": "https://file4.iflora.cn/Upload/2019/7/4/S/dfbbd669-242d-4224-a724-fdc33d90265a.jpg",
+    "imageSource": "icr"
+  },
+  {
     "name": "Hubert Osteen",
     "species": "Japonica",
     "chinese_name": [],
@@ -56167,6 +56177,16 @@
     "japanese_name": [],
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Sebe.jpg",
     "imageSource": "socal"
+  },
+  {
+    "name": "Secchū-no-ka",
+    "species": "NRH",
+    "chinese_name": [
+      "雪中花"
+    ],
+    "japanese_name": [],
+    "image": "images/Secchu-no-ka.webp",
+    "imageSource": "local"
   },
   {
     "name": "Seigneur d'Oudon",

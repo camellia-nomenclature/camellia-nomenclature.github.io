@@ -2015,6 +2015,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Secchū-no-ka",
+    "species": "NRH",
+    "size": "Large",
+    "description": "Chu Kuo-Tung & Tsai Tsan-Yu, 2011, Taiwan Camellia Genealogy (台灣茶花族譜), p.237. (C. hybrid). Originated in Japan, 2008. Hiemalis 'Kanjiro' x C. yuhsienensis. Flowers white with pale pink at the base, or with pale pink inner petals. Semidouble with wavy petals and spreading, plum-blossom type stamens. Large (10 cm). Blooms December to January. Fragrant.",
+    "image": "images/Secchu-no-ka.webp",
+    "imageSource": "local",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Secch%C5%AB-no-ka",
+    "chinese_name": [
+      "雪中花"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Seigneur d'Oudon",
     "species": "Japonica",
     "size": "Medium",
