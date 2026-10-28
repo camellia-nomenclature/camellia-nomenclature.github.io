@@ -614,6 +614,23 @@
     "imageSource": "socal"
   },
   {
+    "name": "Tama-Ariake",
+    "species": "Japonica",
+    "size": "Medium to large",
+    "description": "from Nagasaki Pref. Japan Camellia No.78, August 2005; A crossing of Tama-no-ura × Iwane-shibori. Red bordered white, semi-double to peony form, split stamens, medium to large. Blooming early to mid-season. Leaves lanceolate, medium. Branches weeping. Tree vigorous. Originated by Kaoru Kusumoto.",
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/b2b641f8-0154-4177-af58-bf9b7f8ef8c9.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Tama-Ariake",
+    "chinese_name": [
+      "玉明"
+    ],
+    "japanese_name": [
+      "玉ありあけ",
+      "たまありあけ"
+    ]
+  },
+  {
     "name": "Tama-Ikari",
     "species": "Japonica",
     "size": "Medium",

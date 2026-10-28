@@ -22479,6 +22479,17 @@
     "japanese_name": []
   },
   {
+    "name": "Fubuki-shiratama",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [
+      "吹雪白玉",
+      "ふぶきしらたま"
+    ],
+    "image": "https://file2.iflora.cn/Upload/2019/4/11/S/3d04dea2-d312-4814-9b0d-281184dafbd5.jpg",
+    "imageSource": "icr"
+  },
+  {
     "name": "Fuchsia",
     "species": "Reticulata",
     "chinese_name": [],
@@ -61227,6 +61238,19 @@
     "japanese_name": [],
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Tama%20Vino.jpg",
     "imageSource": "socal"
+  },
+  {
+    "name": "Tama-Ariake",
+    "species": "Japonica",
+    "chinese_name": [
+      "玉明"
+    ],
+    "japanese_name": [
+      "玉ありあけ",
+      "たまありあけ"
+    ],
+    "image": "https://file3.iflora.cn/Upload/2019/4/11/S/b2b641f8-0154-4177-af58-bf9b7f8ef8c9.jpg",
+    "imageSource": "icr"
   },
   {
     "name": "Tama-Ikari",
