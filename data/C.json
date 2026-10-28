@@ -277,6 +277,19 @@
     "imageSource": "accs"
   },
   {
+    "name": "Caixia",
+    "species": "Japonica",
+    "size": "Medium",
+    "description": "Wang & Yu, 1989, Camellias, vol.2, No.75, p.4, colour photo, [p.138]: Petals in 5-6 rows, formal double, pink, with radiating red stripes like a colourful “morning glow”. Stamens mixed with petaloids. Pistil undeveloped; flower 10cm diameter. Originated in Fujian Province, China.",
+    "image": null,
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Caixia",
+    "chinese_name": [
+      "彩霞"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Cajun King",
     "species": "Japonica",
     "size": "Large",

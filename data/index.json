@@ -8213,6 +8213,14 @@
     "imageSource": "accs"
   },
   {
+    "name": "Caixia",
+    "species": "Japonica",
+    "chinese_name": [
+      "彩霞"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Cajun King",
     "species": "Japonica",
     "chinese_name": [],
