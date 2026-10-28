@@ -3893,7 +3893,9 @@
     "imageSource": "icr",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Fubuki-shiratama",
-    "chinese_name": [],
+    "chinese_name": [
+      "吹雪白玉"
+    ],
     "japanese_name": [
       "吹雪白玉",
       "ふぶきしらたま"
