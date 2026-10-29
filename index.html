@@ -478,7 +478,7 @@
 
     async function loadData() {
       try {
-        const resp = await fetch('data/index.json');
+        const resp = await fetch('data/index.json', { cache: 'no-cache' }); // new entries searchable right after a deploy
         const index = await resp.json();
         const isAllHan = s => /^[\u4e00-\u9fff]+$/.test(s);
         camellias = index.map(e => {
@@ -509,11 +509,11 @@
       }
     }
 
-    async function fetchFullEntry(name) {
+    async function fetchFullEntry(name, revalidate = false) {
       const letter = name[0].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
       if (!entryCache[letter]) {
         try {
-          const resp = await fetch(`data/${letter}.json`);
+          const resp = await fetch(`data/${letter}.json`, revalidate ? { cache: 'no-cache' } : undefined);
           if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
           const arr = await resp.json();
           // Support both array and object formats
@@ -529,7 +529,14 @@
           return null;
         }
       }
-      return entryCache[letter]?.[name] ?? null;
+      const entry = entryCache[letter]?.[name] ?? null;
+      // After a deploy the browser may still hold the old letter file (Pages max-age=600)
+      // while index.json is new: revalidate it once before reporting the entry missing.
+      if (!entry && !revalidate) {
+        delete entryCache[letter];
+        return fetchFullEntry(name, true);
+      }
+      return entry;
     }
 
     function buildFragrantFallback() {
