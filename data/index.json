@@ -8385,6 +8385,16 @@
     "imageSource": "accs"
   },
   {
+    "name": "Camellia perpetua",
+    "species": "Perpetua",
+    "chinese_name": [
+      "崇左金花茶"
+    ],
+    "japanese_name": [],
+    "image": "https://file1.iflora.cn/Upload/2022/2/25/S/5a6b6f52-2961-4df6-b0ab-972937ff4989.jpg",
+    "imageSource": "icr"
+  },
+  {
     "name": "Camellia T",
     "species": "Japonica",
     "chinese_name": [],

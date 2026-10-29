@@ -55,6 +55,20 @@
     "japanese_name": []
   },
   {
+    "name": "Camellia perpetua",
+    "species": "Perpetua",
+    "size": "Small to medium",
+    "description": "Camellia perpetua S. Y. Liang et L. D. Huang, sect. Chrysantha (golden camellias); ICR lists this name as a synonym of Camellia chuongtsoensis. Nanning Golden Camellia Park, 2021, Golden Camellia Species of China and Abroad (国内外金花茶物种图鉴), pp.80-81: Evergreen shrub, 2-5 m tall. Young leaves purplish brown; mature leaves thinly leathery, elliptic, 6.5-8.0 cm long, dark grey-green and glossy above, finely serrate. Flowers golden yellow, mostly solitary, terminal or axillary, 5.7-8.0 cm across; petals 12-14, oval to ovate, apex rounded or slightly notched; stamens in 4-5 whorls, filaments 1.6-2.2 cm; styles 3-5, free. Capsule flattened-globose, 2.6-3.9 cm across. Flowers in several seasons each year, peaking May to July. Endemic to Chongzuo, Guangxi, China, in limestone evergreen forest at about 350 m.",
+    "image": "https://file1.iflora.cn/Upload/2022/2/25/S/5a6b6f52-2961-4df6-b0ab-972937ff4989.jpg",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Species/Detail?latin=Camellia%20perpetua",
+    "chinese_name": [
+      "崇左金花茶"
+    ],
+    "japanese_name": []
+  },
+  {
     "name": "Canary",
     "species": "Japonica",
     "size": "Small",
