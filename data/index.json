@@ -55000,6 +55000,19 @@
     "imageSource": "icr"
   },
   {
+    "name": "Saika",
+    "species": "Japonica",
+    "chinese_name": [
+      "彩霞"
+    ],
+    "japanese_name": [
+      "彩霞",
+      "さいか"
+    ],
+    "image": "https://file4.iflora.cn/Upload/2019/4/11/S/4d4c09a0-7f33-478f-868d-b7f671395beb.jpg",
+    "imageSource": "icr"
+  },
+  {
     "name": "Saimudan",
     "species": "Reticulata",
     "chinese_name": [
