@@ -101956,6 +101956,24 @@
     "imageSource": "socal"
   },
   {
+    "name": "Yuletide",
+    "species": "Vernalis",
+    "size": "Small",
+    "description": "Nuccio’s Nurseries Catalogue, 1963: Brilliant orange red single with yellow stamens. Dekker, 1965, American Camellia Yearbook, p.61: A Hiryū seedling. A bushy, upright shrub with small, very dark green leaves and small, brilliant red flowers. A 5 year old chance seedling that first bloomed 1959. Plant growth is upright, dense and medium. Leaves 4.5 cm x 2.5 cm. The flower has golden anthers, is 7.5 cm across with 5-7 petals and is early blooming. Originated by Nuccio’s Nurseries, Altadena, California, USA. Received the Ralph Peer Sasanqua Seedling Award for 1974. See: American Camellia Yearbook, 1971, p.51, Reg. No.1130. For colour photos see: American Camellia Yearbook, vol.II, 1974, facing p.12; Macoboy, 1981, The Colour Dictionary of Camellias, p.179; Front cover, 1965, SCCS., The Camellia Review. vol.26, No.6.",
+    "image": "https://file3.iflora.cn/Upload/2021/4/3/S/35c5c4f6-00ad-4563-811c-87504f475bd8.JPG",
+    "imageSource": "icr",
+    "acs_url": null,
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Yuletide",
+    "chinese_name": [
+      "圣诞节",
+      "圣诞节日",
+      "小金叶"
+    ],
+    "japanese_name": [
+      "ユールタイド"
+    ]
+  },
+  {
     "name": "Yume",
     "species": "NRH",
     "size": "Small",
