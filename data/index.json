@@ -67523,6 +67523,20 @@
     "imageSource": "socal"
   },
   {
+    "name": "Yuletide",
+    "species": "Vernalis",
+    "chinese_name": [
+      "圣诞节",
+      "圣诞节日",
+      "小金叶"
+    ],
+    "japanese_name": [
+      "ユールタイド"
+    ],
+    "image": "https://file3.iflora.cn/Upload/2021/4/3/S/35c5c4f6-00ad-4563-811c-87504f475bd8.JPG",
+    "imageSource": "icr"
+  },
+  {
     "name": "Yume",
     "species": "NRH",
     "chinese_name": [
