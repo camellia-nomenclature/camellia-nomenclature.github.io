@@ -887,6 +887,106 @@ def test_stale_card_load(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
+def hold_letter(page, letter):
+    """Holds the next data/<letter>.json request until release() is called."""
+    held = []
+    page.route(f"**/data/{letter}.json", lambda route: held.append(route))
+    return held
+
+
+def wait_held(page, held):
+    for _ in range(200):  # wait for the request to reach the route handler
+        if held:
+            return
+        page.wait_for_timeout(25)
+    raise AssertionError("Letter-file request was not intercepted")
+
+
+def release(page, held, letter):
+    """Lets the held response through and waits until the page has consumed it."""
+    held[0].continue_()
+    page.wait_for_function(f"typeof entryCache.{letter} === 'object'", timeout=TIMEOUT)
+    page.evaluate("() => new Promise(r => setTimeout(r, 0))")  # let the load finish
+
+
+def start_held_pick(context):
+    """Search-pick Kwan Yuen Special with its data (K.json) held: "Loading details..." shown."""
+    page, js_errors = open_home(context)
+    held = hold_letter(page, "K")
+    page.fill("#search", "Kwan Yuen Special")
+    page.locator(".dropdown-item", has_text="Kwan Yuen Special").first.click()
+    expect(page.locator(".card-body")).to_contain_text("Loading details...", timeout=TIMEOUT)
+    wait_held(page, held)
+    return page, js_errors, held
+
+
+def test_held_load_focus_on_clear(context):
+    """Focus moved to ✕ while the card loads: the finished load leaves it there."""
+    page, js_errors, held = start_held_pick(context)
+    page.locator("#clearBtn").focus()
+    release(page, held, "K")
+    expect_card(page, "Kwan Yuen Special")
+    f = focus_info(page)
+    assert f["id"] == "clearBtn", f"Focus moved from ✕ to {f['tag']} {f['text'][:40]!r}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_held_load_typing_in_search(context):
+    """The user goes back to the search box and types while the card loads: focus stays there."""
+    page, js_errors, held = start_held_pick(context)
+    page.locator("#search").click()
+    page.keyboard.type("abc")
+    release(page, held, "K")
+    assert page.evaluate(SEARCH_FOCUSED), f"Focus moved out of #search to {focus_info(page)}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_held_load_untouched_focus(context):
+    """Control: nobody moves focus during a slow hash navigation, so the heading still gets it."""
+    page, js_errors = open_home(context)
+    held = hold_letter(page, "K")
+    page.evaluate("location.hash = '#Kwan%20Yuen%20Special'")
+    expect(page.locator(".card-body")).to_contain_text("Loading details...", timeout=TIMEOUT)
+    wait_held(page, held)
+    release(page, held, "K")
+    expect_card(page, "Kwan Yuen Special")
+    assert_heading_focused(page, "Kwan Yuen Special")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_held_load_unknown_hash(context):
+    """An unknown hash while a card loads: the card must not appear later. (An unknown name
+    shows nothing new, so the loading card stays as it was.)"""
+    page, js_errors, held = start_held_pick(context)
+    page.evaluate("location.hash = '#no-such-camellia'")
+    release(page, held, "K")
+    assert page.locator(".card-body .card-info").count() == 0, "The pending card rendered under #no-such-camellia"
+    f = focus_info(page)
+    assert not f["heading"], f"Focus moved to the heading {f['text'][:40]!r}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_modified_click_records_nothing(context):
+    """Only plain primary clicks remember an opener; Ctrl/Cmd/Shift/Alt and middle clicks
+    (new tab/window) don't. Synthetic clicks on a pill, navigation prevented, no new tabs."""
+    page, js_errors = open_home(context)
+    out = page.evaluate("""() => {
+      document.addEventListener('click', e => e.preventDefault());  // keep the page where it is
+      const pill = document.querySelector("a.home-link[href='#species']"), out = {};
+      for (const [name, init] of Object.entries({ plain: {}, ctrl: { ctrlKey: true },
+          meta: { metaKey: true }, shift: { shiftKey: true }, alt: { altKey: true }, middle: { button: 1 } })) {
+        history.replaceState({}, '');
+        pill.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, ...init }));
+        out[name] = (history.state && history.state.returnFocus) || null;
+      }
+      return out;
+    }""")
+    assert out["plain"] == 'a.home-link[href="#species"]', f"Plain click did not record the opener: {out}"
+    recorded = {k: v for k, v in out.items() if k != "plain" and v}
+    assert not recorded, f"Modified/middle clicks recorded an opener: {recorded}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
 RING = """(sel) => {
   const el = document.querySelector(sel), cs = getComputedStyle(el);
   return { focused: document.activeElement === el, focusVisible: el.matches(':focus-visible'),
@@ -1061,6 +1161,11 @@ ITEM4_TESTS = (
     ("focus: search pick A → pick B → Back → card A heading", test_focus_back_between_picks),
     ("slow card load does not replace the newer view or take focus", test_stale_card_load),
     ("header headings get a visible ≥3:1 :focus-visible ring", test_heading_focus_ring),
+    ("slow load: focus moved to ✕ stays there", test_held_load_focus_on_clear),
+    ("slow load: typing in #search keeps focus there", test_held_load_typing_in_search),
+    ("slow load with untouched focus still focuses the heading", test_held_load_untouched_focus),
+    ("slow load + unknown hash: the card never appears", test_held_load_unknown_hash),
+    ("modified/middle clicks don't record an opener", test_modified_click_records_nothing),
     ("initial deep link does not move focus or scroll", test_initial_deep_link_keeps_focus),
     ("document.title per view and after Back", test_titles),
     ("clear button visible on deep-link card, hidden on home", test_clear_button),

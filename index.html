@@ -868,6 +868,7 @@
     }
 
     document.addEventListener('click', (e) => {
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // new tab etc.
       const link = e.target.closest('a.home-link, a.list-link');
       if (!link) return;
       rememberOpener(link.matches('.list-link')
@@ -885,6 +886,13 @@
 
     const viewHeading = () => results.querySelector('.card-header h2');
 
+    // True if the user hasn't put focus anywhere since `atStart` was recorded (focus is still
+    // there, or on <body>; an element that has since been removed counts as <body>).
+    function focusUnmoved(atStart) {
+      const a = document.activeElement;
+      return !a || a === document.body || a === atStart;
+    }
+
     // Bumped on every view change, so a card whose data arrives after the user has moved on
     // neither replaces the newer view nor takes focus.
     let navToken = 0;
@@ -900,12 +908,15 @@
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
       results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#888;">Loading details...</div></div>';
+      // Recorded after search.blur() and after the old view is gone: when the data arrives,
+      // the heading only takes focus if the user hasn't moved it meanwhile.
+      const focusAtStart = document.activeElement;
 
       const savedName = c.name;
       try {
       const full = await fetchFullEntry(c.name);
       if (token !== navToken) return; // the user has moved on
-      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus, viewHeading()); return; }
+      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus && focusUnmoved(focusAtStart), viewHeading()); return; }
       c = full;
 
       // Image URL: use stored image field first, fallback to SoCal pattern
@@ -1004,12 +1015,12 @@
         </div>`;
       const copyBtn = results.querySelector('.copy-link-btn');
       copyBtn.addEventListener('click', () => copyLink(copyBtn, c.name));
-      focusView(moveFocus, viewHeading());
+      focusView(moveFocus && focusUnmoved(focusAtStart), viewHeading());
       } catch (err) {
         console.error('selectCamellia error:', err);
         if (token !== navToken) return;
         results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
-        focusView(moveFocus, viewHeading());
+        focusView(moveFocus && focusUnmoved(focusAtStart), viewHeading());
       }
     }
 
@@ -1115,6 +1126,7 @@
       } else if (hash && camellias.length) {
         const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
         if (match) selectCamellia(match, true, moveFocus);
+        else navToken++; // unknown name: nothing new is shown, but a pending card must not appear
       } else {
         // Back to home
         navToken++;
