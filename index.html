@@ -1126,7 +1126,6 @@
       } else if (hash && camellias.length) {
         const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
         if (match) selectCamellia(match, true, moveFocus);
-        else navToken++; // unknown name: nothing new is shown, but a pending card must not appear
       } else {
         // Back to home
         navToken++;

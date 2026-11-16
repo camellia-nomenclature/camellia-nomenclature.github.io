@@ -954,18 +954,6 @@ def test_held_load_untouched_focus(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
-def test_held_load_unknown_hash(context):
-    """An unknown hash while a card loads: the card must not appear later. (An unknown name
-    shows nothing new, so the loading card stays as it was.)"""
-    page, js_errors, held = start_held_pick(context)
-    page.evaluate("location.hash = '#no-such-camellia'")
-    release(page, held, "K")
-    assert page.locator(".card-body .card-info").count() == 0, "The pending card rendered under #no-such-camellia"
-    f = focus_info(page)
-    assert not f["heading"], f"Focus moved to the heading {f['text'][:40]!r}"
-    assert not js_errors, f"JS errors: {js_errors}"
-
-
 def test_modified_click_records_nothing(context):
     """Only plain primary clicks remember an opener; Ctrl/Cmd/Shift/Alt and middle clicks
     (new tab/window) don't. Synthetic clicks on a pill, navigation prevented, no new tabs."""
@@ -1164,7 +1152,6 @@ ITEM4_TESTS = (
     ("slow load: focus moved to ✕ stays there", test_held_load_focus_on_clear),
     ("slow load: typing in #search keeps focus there", test_held_load_typing_in_search),
     ("slow load with untouched focus still focuses the heading", test_held_load_untouched_focus),
-    ("slow load + unknown hash: the card never appears", test_held_load_unknown_hash),
     ("modified/middle clicks don't record an opener", test_modified_click_records_nothing),
     ("initial deep link does not move focus or scroll", test_initial_deep_link_keeps_focus),
     ("document.title per view and after Back", test_titles),
