@@ -583,8 +583,12 @@ def test_match_count(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
+SEARCH_FOCUSED = "document.activeElement === document.getElementById('search')"
+
+
 def test_option_pick(context):
-    """Tapping (touch) or clicking an option still selects it now that blur closes the list."""
+    """Tapping (touch) or clicking an option selects it and leaves the search box
+    (so a phone's on-screen keyboard drops)."""
     page, js_errors = open_search(context, "Kwan Yuen Special")
     option = page.locator(".dropdown-item", has_text="Kwan Yuen Special").first  # behaviour, not roles
     if page.evaluate("matchMedia('(pointer: coarse)').matches"):
@@ -593,6 +597,93 @@ def test_option_pick(context):
         option.click()
     expect_card(page, "Kwan Yuen Special")
     expect(page.locator("#search")).to_have_attribute("aria-expanded", "false")
+    assert not page.evaluate(SEARCH_FOCUSED), "Focus stayed in #search after picking an option"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_enter_pick(context):
+    page, js_errors = open_search(context, "Kwan Yuen Special")
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Enter")
+    expect_card(page, "Kwan Yuen Special")
+    assert not page.evaluate(SEARCH_FOCUSED), "Focus stayed in #search after Enter on an option"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def assert_list_open(page, is_open):
+    """The list's visibility, plus aria-expanded whenever #search is a combobox
+    (so the same check also runs on the pre-combobox cc3108f baseline)."""
+    dropdown = page.locator("#dropdown")
+    expect(dropdown).to_be_visible() if is_open else expect(dropdown).to_be_hidden()
+    if page.locator("#search").get_attribute("role") == "combobox":
+        expect(page.locator("#search")).to_have_attribute("aria-expanded", "true" if is_open else "false")
+
+
+def test_blur_keeps_list(context):
+    """A bare blur (e.g. iOS keyboard "Done") leaves the list as it was, like cc3108f."""
+    page, js_errors = open_search(context, "kwan")
+    page.evaluate("document.activeElement.blur()")
+    assert_list_open(page, True)
+    assert page.locator("#search").input_value() == "kwan"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_outside_click(context):
+    """Clicks inside .search-container keep the list; a click outside closes it, like cc3108f."""
+    page, js_errors = open_search(context, "kwan")
+    page.locator("#search").click()
+    assert_list_open(page, True)
+    page.locator(".header").click(position={"x": 5, "y": 5})  # header background, not its link
+    assert_list_open(page, False)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_caret_keys_clear_option(context):
+    """Home / ArrowLeft after ArrowDown return to text editing: no active option, and Enter
+    then does nothing (as cc3108f does with no selection)."""
+    page, js_errors = open_search(context, "kwan")
+    for key in ("Home", "ArrowLeft"):
+        page.keyboard.press("ArrowDown")
+        st = page.evaluate(ACTIVE_STATE)
+        assert st["active"], f"ArrowDown did not set an active option before {key}"
+        page.keyboard.press(key)
+        st = page.evaluate(ACTIVE_STATE)
+        assert st["active"] is None, f"{key}: aria-activedescendant still {st['active']!r}"
+        assert st["selected"] == [], f"{key}: options still aria-selected: {st['selected']}"
+        assert st["expanded"] == "true", f"{key}: list closed (aria-expanded={st['expanded']!r})"
+        assert st["focused"], f"{key}: focus left #search"
+    page.keyboard.press("Enter")
+    assert page.locator("#results .card").count() == 0, "Enter opened a card with no active option"
+    assert page.evaluate("location.hash") == "", f"Enter changed the hash to {page.url}"
+    assert_list_open(page, True)
+    assert page.locator("#search").input_value() == "kwan"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_match_count_written_once(context):
+    """An unchanged count is not rewritten (no repeat announcement). The page clock is
+    controlled so the 400 ms debounce fires exactly when the test says."""
+    page, js_errors = make_page(context)
+    page.clock.install()
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_data(page)
+    status = page.locator("#searchStatus")
+    page.click("#search")
+    page.keyboard.type("kwan")
+    page.clock.run_for(500)
+    expect(status).to_have_text("3 matches")
+    page.evaluate("""() => { window.__statusWrites = 0;
+      new MutationObserver(r => { window.__statusWrites += r.length; })
+        .observe(document.getElementById('searchStatus'), { childList: true, characterData: true, subtree: true }); }""")
+    page.keyboard.type(" ")  # "kwan " searches the same thing: still 3 matches
+    page.clock.run_for(500)
+    writes_same = page.evaluate("window.__statusWrites")
+    page.keyboard.type("y")  # "kwan y": 2 matches
+    page.clock.run_for(500)
+    expect(status).to_have_text("2 matches")
+    writes_total = page.evaluate("window.__statusWrites")
+    assert writes_same == 0, f"Unchanged count was rewritten ({writes_same} mutation records)"
+    assert writes_total > 0, "Changed count was not written"
     assert not js_errors, f"JS errors: {js_errors}"
 
 
@@ -626,7 +717,12 @@ ITEM3_TESTS = (
     ("arrow keys move the active option", test_arrow_keys),
     ("Escape and Tab close the list", test_escape_and_tab),
     ("live match count", test_match_count),
-    ("tap/click on an option selects it", test_option_pick),
+    ("tap/click on an option selects it and leaves the search box", test_option_pick),
+    ("Enter on an option selects it and leaves the search box", test_enter_pick),
+    ("blur keeps the list open (cc3108f parity)", test_blur_keeps_list),
+    ("outside click closes the list, inside click doesn't (cc3108f parity)", test_outside_click),
+    ("Home/ArrowLeft clear the active option; Enter then does nothing", test_caret_keys_clear_option),
+    ("unchanged match count is not rewritten", test_match_count_written_once),
     ("focus returns to the copy button after a fallback copy", test_copy_focus_return),
 )
 

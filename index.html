@@ -721,8 +721,9 @@
       // Announce the match count once typing pauses (polite, debounced)
       clearTimeout(statusTimer);
       statusTimer = setTimeout(() => {
-        searchStatus.textContent = total === 0 ? 'No matches'
+        const text = total === 0 ? 'No matches'
           : `${total} ${total === 1 ? 'match' : 'matches'}${total > matches.length ? `, showing first ${matches.length}` : ''}`;
+        if (searchStatus.textContent !== text) searchStatus.textContent = text;
       }, 400);
     });
 
@@ -734,7 +735,19 @@
         }
         return;
       }
+      if (e.key === 'Tab') {
+        setListOpen(false); // Tab / Shift+Tab move on as usual; the list closes behind them
+        return;
+      }
       if (!matches.length) return;
+      if (['Home', 'End', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+        // Back to editing the text: drop the highlighted option (the caret moves natively)
+        if (selectedIdx >= 0) {
+          selectedIdx = -1;
+          renderDropdown();
+        }
+        return;
+      }
       if (e.key === 'ArrowDown') {
         e.preventDefault();
         selectedIdx = Math.min(selectedIdx + 1, matches.length - 1);
@@ -748,11 +761,6 @@
         selectCamellia(matches[selectedIdx]);
       }
     });
-
-    // Close the list when focus leaves the input (Tab, or clicking elsewhere). Option clicks
-    // keep focus in the input (mousedown below), so they still reach their click handler.
-    search.addEventListener('blur', () => setListOpen(false));
-    dropdown.addEventListener('mousedown', e => e.preventDefault());
 
     function renderDropdown() {
       if (!matches.length) {
@@ -835,6 +843,7 @@
 
     async function selectCamellia(c, skipHash) {
       setListOpen(false);
+      search.blur(); // a card is opening: let the on-screen keyboard go (no-op if not focused)
       search.value = c.name;
       if (!skipHash) history.pushState({cultivar: c.name}, '', '#' + encodeURIComponent(c.name));
       document.getElementById('searchHints').style.display = 'none';
