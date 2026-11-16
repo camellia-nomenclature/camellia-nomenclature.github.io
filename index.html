@@ -368,6 +368,18 @@
       font-size: 1.8em;
       line-height: 1;
     }
+    /* Visually hidden but still read by screen readers (copy-link status) */
+    .visually-hidden:where(:not(:focus-within, :active)) {
+      position: absolute !important;
+      clip-path: inset(50%) !important;
+      overflow: hidden !important;
+      width: 1px !important;
+      height: 1px !important;
+      margin: -1px !important;
+      padding: 0 !important;
+      border: 0 !important;
+      white-space: nowrap !important;
+    }
 
   </style>
 </head>
@@ -733,6 +745,32 @@
         text.substring(idx + query.length);
     }
 
+    // Copy the cultivar's share link. The name is only ever handled as a JS string,
+    // so quotes or apostrophes in it can't break anything.
+    let copyTimer, lastCopyMessage = '';
+    async function copyLink(btn, name) {
+      const url = location.origin + location.pathname + '#' + encodeURIComponent(name);
+      const status = btn.nextElementSibling; // role="status" text for screen readers
+      let ok = true;
+      try {
+        await navigator.clipboard.writeText(url);
+      } catch {
+        ok = false; // no clipboard access (denied, or not a secure context)
+      }
+      let message = ok ? 'Link copied' : 'Copy failed';
+      if (message === lastCopyMessage) message += '\u00A0'; // VoiceOver skips repeats
+      lastCopyMessage = message;
+      clearTimeout(copyTimer);
+      btn.textContent = ok ? '✅' : '❌';
+      btn.style.background = 'rgba(255,255,255,0.45)';
+      status.textContent = message;
+      copyTimer = setTimeout(() => {
+        btn.textContent = '🔗';
+        btn.style.background = 'rgba(255,255,255,0.15)';
+        status.textContent = '';
+      }, 1200);
+    }
+
     async function selectCamellia(c, skipHash) {
       dropdown.classList.remove('active');
       search.value = c.name;
@@ -802,7 +840,7 @@
       results.innerHTML = `
         <div class="card">
           <div class="card-header">
-            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back">←</button><h2 style="margin:0">${c.name}</h2></div><button onclick="var url=location.origin+location.pathname+'#'+encodeURIComponent('${c.name.replace(/'/g,"\\'")}');var t=document.createElement('textarea');t.value=url;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.select();document.execCommand('copy');document.body.removeChild(t);this.textContent='✅';this.style.background='rgba(255,255,255,0.45)';var b=this;setTimeout(function(){b.textContent='🔗';b.style.background='rgba(255,255,255,0.15)'},1200)" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link">🔗</button></div>
+            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back">←</button><h2 style="margin:0">${c.name}</h2></div><button type="button" class="copy-link-btn" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link" aria-label="Copy link">🔗</button><span class="copy-link-status visually-hidden" role="status"></span></div>
           </div>
           <div class="card-body">
             <div class="card-info">
@@ -841,6 +879,8 @@
             </div>
           </div>
         </div>`;
+      const copyBtn = results.querySelector('.copy-link-btn');
+      copyBtn.addEventListener('click', () => copyLink(copyBtn, c.name));
       } catch (err) {
         console.error('selectCamellia error:', err);
         results.innerHTML = `<div class="card"><div class="card-header"><h2>${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
@@ -954,11 +994,9 @@
       }
     }
 
+    // popstate also fires for hash changes (links, location.hash, Back/Forward), so a
+    // separate hashchange listener would render every view twice.
     window.addEventListener('popstate', () => {
-      navigateHash(decodeURIComponent(location.hash.slice(1)), true);
-    });
-
-    window.addEventListener('hashchange', () => {
       navigateHash(decodeURIComponent(location.hash.slice(1)), true);
     });
 

@@ -17,10 +17,14 @@ or install it once with: python3 -m playwright install webkit
 
 Image requests are aborted, as before: tests never wait on third-party photo hosts, and the
 card's fixed-size image box keeps the layout identical for the overflow checks.
-Any failure raises and exits nonzero; success ends with "All tests passed."
+The checks above stop at the first failure. The item 2 checks (copy link, copy button name,
+one render per navigation) run after them; each reports PASS/FAIL and the run exits nonzero
+at the end if any failed. The copy-link check only writes the headless browser's own clipboard.
+Success ends with "All tests passed."
 """
 import os
 import sys
+from urllib.parse import urlsplit
 
 from playwright.sync_api import sync_playwright, expect
 
@@ -29,6 +33,7 @@ BROWSER = os.environ.get("TEST_BROWSER", "chromium")
 if BROWSER not in ("chromium", "webkit"):
     sys.exit(f"TEST_BROWSER must be 'chromium' or 'webkit', got {BROWSER!r}")
 TIMEOUT = 8000  # ms for card to render
+ORIGIN = "{0.scheme}://{0.netloc}".format(urlsplit(BASE))
 
 # is_mobile/has_touch are supported by Chromium and WebKit (not Firefox). Both then match
 # (pointer: coarse); Chromium also honours the page's <meta name="viewport">.
@@ -168,6 +173,141 @@ def check_overflow(browser):
     return checks
 
 
+# --- Item 2 checks: copy link (F04), copy button name (F03), one render per navigation (F16) ---
+
+QUOTE_NAME = 'Robert "Bobby" Moore'
+QUOTE_HASH = "#Robert%20%22Bobby%22%20Moore"
+
+# Records the text passed to navigator.clipboard.writeText, then calls the real method.
+RECORD_CLIPBOARD = """
+if (window.Clipboard && Clipboard.prototype.writeText) {
+  const write = Clipboard.prototype.writeText;
+  Clipboard.prototype.writeText = function (text) { window.__copiedText = text; return write.call(this, text); };
+}"""
+
+# A "render" is one call into a view renderer, counted by the write that starts the view in
+# #results (each innerHTML assignment is exactly one childList MutationRecord):
+#   detail view: the "Loading details..." card; list views: a card whose h2 starts with
+#   "Species (", "Fragrant Camellias (" or "Yellow Camellias ("; home: #results emptied.
+# The later write that replaces "Loading details..." with the full card belongs to the same
+# render and is not counted. hashchange is counted too, so the test can wait for it to fire.
+RENDER_COUNTER = """
+window.__renders = 0; window.__hashchanges = 0;
+addEventListener('hashchange', () => { window.__hashchanges++; });
+document.addEventListener('DOMContentLoaded', () => {
+  const results = document.getElementById('results');
+  new MutationObserver(records => {
+    for (const r of records) {
+      const card = [...r.addedNodes].find(n => n.nodeType === 1);
+      if (card) {
+        const h2 = card.querySelector('h2')?.textContent || '';
+        if (card.textContent.includes('Loading details...') ||
+            /^(Species|Fragrant Camellias|Yellow Camellias) \(/.test(h2)) window.__renders++;
+      } else if (r.removedNodes.length && !results.firstElementChild) {
+        window.__renders++;
+      }
+    }
+  }).observe(results, { childList: true });
+});"""
+
+
+def test_copy_link(context):
+    if BROWSER == "chromium":
+        context.grant_permissions(["clipboard-read", "clipboard-write"], origin=ORIGIN)
+    context.add_init_script(RECORD_CLIPBOARD)
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/" + QUOTE_HASH, wait_until="commit", timeout=10000)
+    expect_card(page, QUOTE_NAME)
+    button = page.locator(".card-header button[title='Copy link']")
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)  # the existing ✅ feedback
+    assert not js_errors, f"JS errors: {js_errors}"
+    if BROWSER == "chromium":
+        method = "clipboard read back with navigator.clipboard.readText()"
+        copied = page.evaluate("navigator.clipboard.readText()")
+    else:
+        method = "URL captured by wrapping navigator.clipboard.writeText"
+        copied = page.evaluate("window.__copiedText ?? null")
+    assert copied, "Nothing was written to the clipboard"
+    page_url = page.evaluate("location.origin + location.pathname")
+    assert copied.startswith(page_url + "#"), f"Copied {copied!r}, expected a link to {page_url}"
+    decoded = page.evaluate("u => decodeURIComponent(new URL(u).hash.slice(1))", copied)
+    assert decoded == QUOTE_NAME, f"Copied link decodes to {decoded!r}, expected {QUOTE_NAME!r}"
+    return method
+
+
+def test_copy_button_name(context):
+    page, js_errors = make_page(context)
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    expect(page.locator(".card-header").get_by_role("button", name="Copy link", exact=True)).to_have_count(1)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_render_count(context):
+    context.add_init_script(RENDER_COUNTER)
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_startup(page)
+
+    def species():
+        expect(page.locator(".card-header h2")).to_contain_text("Species (", timeout=TIMEOUT)
+
+    def home():
+        expect(page.locator("#homeSection")).to_be_visible(timeout=TIMEOUT)
+        expect(page.locator("#results .card")).to_have_count(0, timeout=TIMEOUT)
+
+    def search_select():
+        page.fill("#search", "Kwan Yuen Special")
+        page.locator(".dropdown-item").first.click()
+
+    steps = [  # (navigation, action, wait for the resulting view, fires hashchange?)
+        ("home pill #species", lambda: page.click("a[href='#species']"), species, True),
+        ("Back to home", page.go_back, home, True),
+        ("Forward to #species", page.go_forward, species, True),
+        ("location.hash = #Yuletide", lambda: page.evaluate("location.hash = '#Yuletide'"),
+         lambda: expect_card(page, "Yuletide"), True),
+        ("search-select (pushState)", search_select, lambda: expect_card(page, "Kwan Yuen Special"), False),
+        ("Back between two details", page.go_back, lambda: expect_card(page, "Yuletide"), True),
+    ]
+    counts = {}
+    for name, action, wait_view, fires_hashchange in steps:
+        renders, hashchanges = page.evaluate("[window.__renders, window.__hashchanges]")
+        action()
+        if fires_hashchange:
+            # popstate is handled before hashchange; once hashchange has fired, every listener
+            # for this navigation has run, so the count below is final.
+            page.wait_for_function("n => window.__hashchanges > n", arg=hashchanges, timeout=TIMEOUT)
+        wait_view()
+        counts[name] = page.evaluate("window.__renders") - renders
+    assert all(n == 1 for n in counts.values()), f"Renders per navigation (want 1 each): {counts}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def run_item2_checks(browser):
+    print("Item 2 checks: each reports PASS/FAIL")
+    tests = (
+        ('copy link for Robert "Bobby" Moore', test_copy_link),
+        ("copy button accessible name", test_copy_button_name),
+        ("one render per navigation", test_render_count),
+    )
+    passed, failed = 0, []
+    for label, opts in VIEWPORTS.items():
+        for name, test in tests:
+            context = browser.new_context(**opts)
+            try:
+                note = test(context)
+                print(f"  PASS: [{label}] {name}" + (f" ({note})" if note else ""))
+                passed += 1
+            except Exception as e:
+                lines = [ln.strip() for ln in str(e).splitlines() if ln.strip()]
+                print(f"  FAIL: [{label}] {name}: {' / '.join(lines[:2]) or type(e).__name__}")
+                failed.append(f"[{label}] {name}")
+            finally:
+                context.close()
+    return passed, failed
+
+
 def main():
     print(f"BASE_URL={BASE} TEST_BROWSER={BROWSER}")
     passed = 0
@@ -180,8 +320,13 @@ def main():
         for label, opts in VIEWPORTS.items():
             passed += run_checks(browser, label, opts)
         passed += check_overflow(browser)
+        new_passed, failed = run_item2_checks(browser)
         browser.close()
+    passed += new_passed
     print(f"\n{passed} checks passed ({BROWSER}).")
+    if failed:
+        print(f"{len(failed)} check(s) FAILED: " + "; ".join(failed))
+        sys.exit(1)
     print("All tests passed.")
 
 
