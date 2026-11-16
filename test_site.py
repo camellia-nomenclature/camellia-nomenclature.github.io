@@ -23,6 +23,7 @@ at the end if any failed. The copy-link check only writes the headless browser's
 Success ends with "All tests passed."
 """
 import os
+import re
 import sys
 from urllib.parse import urlsplit
 
@@ -187,10 +188,24 @@ if (window.Clipboard && Clipboard.prototype.writeText) {
 
 # Clipboard stubs for the fallback tests (installed before the page's scripts run).
 NO_CLIPBOARD_API = "Object.defineProperty(Navigator.prototype, 'clipboard', { get: () => undefined, configurable: true });"
-# Rejects like a denied permission, after a delay, so the fallback runs after an await.
-REJECT_WRITE_TEXT = """
-if (window.Clipboard) Clipboard.prototype.writeText = () =>
-  new Promise((_, reject) => setTimeout(() => reject(new DOMException('denied', 'NotAllowedError')), 100));"""
+# The first writeText call returns a promise the test settles itself with
+# window.__firstWrite.resolve() / REJECT_FIRST_WRITE (deterministic, and the fallback then
+# runs after an await). Later calls use the real method.
+CONTROL_FIRST_WRITE = """
+if (window.Clipboard) {
+  const write = Clipboard.prototype.writeText; let calls = 0;
+  Clipboard.prototype.writeText = function (text) {
+    if (calls++ > 0) return write.call(this, text);
+    return new Promise((resolve, reject) => { window.__firstWrite = { resolve, reject }; });
+  };
+}"""
+REJECT_FIRST_WRITE = "window.__firstWrite.reject(new DOMException('denied', 'NotAllowedError'))"
+# Counts finished copyLink() calls (installed after the page's script has defined copyLink).
+TRACK_COPY_DONE = """() => {
+  window.__copyDone = 0;
+  const copy = window.copyLink;
+  window.copyLink = (...args) => copy(...args).finally(() => { window.__copyDone++; });
+}"""
 # Records every document.execCommand call: command, return value and the text in the copy
 # fallback's textarea. With window.__execResult set, returns that instead of copying.
 SPY_EXEC_COMMAND = """
@@ -290,8 +305,10 @@ def test_copy_fallback_no_clipboard_api(context):
 
 
 def test_copy_fallback_after_rejected_write(context):
-    page, js_errors, button, status = open_quote_card(context, NO_STUB, REJECT_WRITE_TEXT, SPY_EXEC_COMMAND)
+    page, js_errors, button, status = open_quote_card(context, NO_STUB, CONTROL_FIRST_WRITE, SPY_EXEC_COMMAND)
     button.click()
+    page.wait_for_function("window.__firstWrite", timeout=TIMEOUT)
+    page.evaluate(REJECT_FIRST_WRITE)
     expect(button).to_have_text("\u2705", timeout=TIMEOUT)
     expect(status).to_have_text("Link copied")
     assert_fallback_copied(page)
@@ -304,6 +321,24 @@ def test_copy_failure(context):
     expect(button).to_have_text("\u274c", timeout=TIMEOUT)  # ❌
     text = status.text_content().strip()  # strip() also drops the VoiceOver \u00A0 suffix
     assert text == "Copy failed", f"Status text {text!r}, expected 'Copy failed'"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_rejected_and_fallback_fails(context):
+    page, js_errors, button, status = open_quote_card(context, STUB_EXEC_FALSE, CONTROL_FIRST_WRITE, SPY_EXEC_COMMAND)
+    page.evaluate(TRACK_COPY_DONE)
+    button.click()
+    page.wait_for_function("window.__firstWrite", timeout=TIMEOUT)
+    page.evaluate(REJECT_FIRST_WRITE)
+    page.wait_for_function("window.__copyDone >= 1", timeout=TIMEOUT)
+    calls = [c for c in page.evaluate("window.__execCalls") if c["command"] == "copy"]
+    assert calls and calls[-1]["result"] is False, f"Fallback not invoked as expected: {calls}"
+    expect(button).to_have_text("\u274c")  # ❌
+    text = status.text_content().strip()
+    assert text == "Copy failed", f"Status text {text!r}, expected 'Copy failed'"
+    assert page.locator("body > textarea").count() == 0, "Fallback textarea was not removed"
+    expect(button).to_have_text("\U0001f517", timeout=3000)  # reset to 🔗
+    expect(status).to_be_empty(timeout=3000)
     assert not js_errors, f"JS errors: {js_errors}"
 
 
@@ -331,33 +366,49 @@ def test_copy_feedback_resets(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
-# Holds the first writeText until window.__releaseFirstWrite() is called.
-HOLD_FIRST_WRITE = """
-if (window.Clipboard) {
-  const write = Clipboard.prototype.writeText; let calls = 0;
-  Clipboard.prototype.writeText = function (text) {
-    if (calls++ > 0) return write.call(this, text);
-    return new Promise(r => { window.__releaseFirstWrite = r; }).then(() => write.call(this, text));
-  };
-}"""
-
-
-def test_copy_timer_per_button(context):
-    """A slow copy on an old card must not cancel a newer card's reset (one shared timer did)."""
+def copy_on_a_then_open_b(context, *init_scripts):
+    """Card A (Yuletide): click copy, its first writeText stays pending. Then open card B."""
     grant_clipboard(context)
-    context.add_init_script(HOLD_FIRST_WRITE)
+    for script in (CONTROL_FIRST_WRITE,) + init_scripts:
+        context.add_init_script(script)
     page, js_errors = make_page(context)
     page.goto(f"{BASE}/#Yuletide", wait_until="commit", timeout=10000)
     expect_card(page, "Yuletide")
-    page.locator(".card-header button[title='Copy link']").click()  # card A: write held
+    page.evaluate(TRACK_COPY_DONE)
+    page.locator(".card-header button[title='Copy link']").click()
+    page.wait_for_function("window.__firstWrite", timeout=TIMEOUT)
     page.fill("#search", "Kwan Yuen Special")
     page.locator(".dropdown-item").first.click()
     expect_card(page, "Kwan Yuen Special")
-    button = page.locator(".card-header button[title='Copy link']")
+    return page, js_errors, page.locator(".card-header button[title='Copy link']")
+
+
+def test_copy_timer_per_button(context):
+    """A late copy on an old card must not cancel a newer card's reset (one shared timer did)."""
+    page, js_errors, button = copy_on_a_then_open_b(context)
     button.click()  # card B
     expect(button).to_have_text("\u2705", timeout=TIMEOUT)
-    page.evaluate("window.__releaseFirstWrite()")  # card A's copy finishes before B's reset
+    page.evaluate("window.__firstWrite.resolve()")  # card A's copy finishes before B's reset
+    page.wait_for_function("window.__copyDone >= 2", timeout=TIMEOUT)  # A's copyLink has run
     expect(button).to_have_text("\U0001f517", timeout=3000)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_stale_card(context):
+    """Card A's write rejects after B replaced it: no fallback, no feedback, B unaffected."""
+    page, js_errors, button = copy_on_a_then_open_b(context, NO_STUB, SPY_EXEC_COMMAND)
+    status = page.locator(".card-header [role='status']")
+    focused = page.evaluate("document.activeElement && document.activeElement.outerHTML.slice(0, 60)")
+    page.evaluate(REJECT_FIRST_WRITE)
+    page.wait_for_function("window.__copyDone >= 1", timeout=TIMEOUT)  # A's copyLink has run
+    calls = [c for c in page.evaluate("window.__execCalls") if c["command"] == "copy"]
+    assert not calls, f"Fallback ran for a replaced card: {calls}"
+    expect(button).to_have_text("\U0001f517")
+    expect(status).to_be_empty()
+    now = page.evaluate("document.activeElement && document.activeElement.outerHTML.slice(0, 60)")
+    assert now == focused, f"Focus moved from {focused!r} to {now!r}"
+    button.click()  # card B still copies normally
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
     assert not js_errors, f"JS errors: {js_errors}"
 
 
@@ -409,34 +460,198 @@ def test_render_count(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
-def run_item2_checks(browser):
-    print("Item 2 checks: each reports PASS/FAIL")
-    tests = (
-        ('copy link for Robert "Bobby" Moore', test_copy_link),
-        ("copy button accessible name", test_copy_button_name),
-        ("one render per navigation", test_render_count),
-        ("copy fallback without Clipboard API (execCommand)", test_copy_fallback_no_clipboard_api),
-        ("copy fallback after writeText rejects", test_copy_fallback_after_rejected_write),
-        ("copy failure shows the failed state", test_copy_failure),
-        ('copy status reads "Link copied"', test_copy_status_text),
-        ("copy feedback resets to the link icon", test_copy_feedback_resets),
-        ("copy feedback timer is per button", test_copy_timer_per_button),
-    )
+ITEM2_TESTS = (
+    ('copy link for Robert "Bobby" Moore', test_copy_link),
+    ("copy button accessible name", test_copy_button_name),
+    ("one render per navigation", test_render_count),
+    ("copy fallback without Clipboard API (execCommand)", test_copy_fallback_no_clipboard_api),
+    ("copy fallback after writeText rejects", test_copy_fallback_after_rejected_write),
+    ("copy failure shows the failed state", test_copy_failure),
+    ('copy status reads "Link copied"', test_copy_status_text),
+    ("copy feedback resets to the link icon", test_copy_feedback_resets),
+    ("copy feedback timer is per button", test_copy_timer_per_button),
+    ("copy fallback returns false after writeText rejects", test_copy_rejected_and_fallback_fails),
+    ("late rejection on a replaced card is ignored", test_copy_stale_card),
+)
+
+
+# --- Item 3 checks: search combobox (F01), Esc/Tab (F10), link names (F13), back button (F03) ---
+
+def width_opts(width):
+    opts = dict(viewport={"width": width, "height": 900 if width > 600 else 844})
+    if width <= 600:
+        opts.update(is_mobile=True, has_touch=True)
+    return opts
+
+
+def open_search(context, query):
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_data(page)
+    page.click("#search")
+    page.keyboard.type(query, delay=20)
+    expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
+    return page, js_errors
+
+
+ACTIVE_STATE = """() => {
+  const s = document.getElementById('search');
+  return {
+    focused: document.activeElement === s,
+    expanded: s.getAttribute('aria-expanded'),
+    active: s.getAttribute('aria-activedescendant'),
+    ids: [...document.querySelectorAll('#dropdown [role=option]')].map(o => o.id),
+    selected: [...document.querySelectorAll('#dropdown [aria-selected=true]')].map(o => o.id),
+  };
+}"""
+
+
+def test_search_names(context):
+    page, js_errors = open_search(context, "kwan")
+    expect(page.get_by_role("combobox", name="Camellia name", exact=True)).to_have_count(1)
+    listbox = page.get_by_role("listbox", name="Matching camellias", exact=True)
+    expect(listbox).to_be_visible()
+    options = listbox.get_by_role("option")
+    n = options.count()
+    assert n > 0, "No options in the listbox"
+    expect(listbox.get_by_role("option", name=re.compile(r"\S"))).to_have_count(n)  # all named
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    expect(page.locator(".card-header").get_by_role("button", name="Go back", exact=True)).to_have_count(1)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_home_link_names(context):
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_data(page)
+    for text in ("Browse species", "Fragrant Camellias", "Yellow Camellias"):
+        expect(page.get_by_role("link", name=text, exact=True)).to_have_count(1)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_arrow_keys(context):
+    page, js_errors = open_search(context, "kwan")
+    seen = []
+    for key, want in (("ArrowDown", 0), ("ArrowDown", 1), ("ArrowUp", 0)):
+        page.keyboard.press(key)
+        st = page.evaluate(ACTIVE_STATE)
+        seen.append(st)
+        assert len(st["ids"]) > 1 and len(set(st["ids"])) == len(st["ids"]) and all(st["ids"]), f"Option ids: {st['ids']}"
+        want_id = st["ids"][want]
+        assert st["expanded"] == "true", f"aria-expanded={st['expanded']!r} while open"
+        assert st["active"] == want_id, f"{key}: aria-activedescendant={st['active']!r}, want {want_id!r}"
+        assert st["selected"] == [want_id], f"{key}: aria-selected=true on {st['selected']}, want [{want_id!r}]"
+        assert st["focused"], f"{key}: focus left #search"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_escape_and_tab(context):
+    page, js_errors = open_search(context, "kwan")
+    dropdown = page.locator("#dropdown")
+    search = page.locator("#search")
+    expect(search).to_have_attribute("aria-expanded", "true")
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Escape")
+    expect(search).to_have_attribute("aria-expanded", "false")
+    expect(dropdown).to_be_hidden()
+    st = page.evaluate(ACTIVE_STATE)
+    assert st["focused"], "Escape moved focus out of #search"
+    assert st["active"] is None, f"aria-activedescendant left set: {st['active']!r}"
+    assert search.input_value() == "kwan", f"Escape changed the text to {search.input_value()!r}"
+    page.keyboard.press("Backspace")  # "kwa": reopen the list
+    expect(dropdown).to_be_visible(timeout=TIMEOUT)
+    page.keyboard.press("Tab")
+    expect(search).to_have_attribute("aria-expanded", "false")
+    expect(dropdown).to_be_hidden()
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_match_count(context):
+    page, js_errors = open_search(context, "kwan")
+    status = page.locator("#searchStatus")
+    n = page.locator("#dropdown [role=option]").count()
+    assert n > 0, "No [role=option] items in the list"
+    expect(status).to_have_text(f"{n} matches" if n != 1 else "1 match", timeout=3000)
+    page.fill("#search", "zzqxjv")
+    expect(status).to_have_text("No matches", timeout=3000)
+    page.fill("#search", "a")
+    expect(status).to_have_text(re.compile(r"^\d+ matches, showing first 20$"), timeout=3000)
+    total = int(status.text_content().split()[0])
+    shown = page.locator("#dropdown [role=option]").count()
+    assert total > shown == 20, f"Status {status.text_content()!r} but {shown} options shown"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_option_pick(context):
+    """Tapping (touch) or clicking an option still selects it now that blur closes the list."""
+    page, js_errors = open_search(context, "Kwan Yuen Special")
+    option = page.locator(".dropdown-item", has_text="Kwan Yuen Special").first  # behaviour, not roles
+    if page.evaluate("matchMedia('(pointer: coarse)').matches"):
+        option.tap()
+    else:
+        option.click()
+    expect_card(page, "Kwan Yuen Special")
+    expect(page.locator("#search")).to_have_attribute("aria-expanded", "false")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_focus_return(context):
+    page, js_errors, button, status = open_quote_card(context, NO_STUB, NO_CLIPBOARD_API, SPY_EXEC_COMMAND)
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    assert_fallback_copied(page)
+    focused = page.evaluate("document.activeElement && document.activeElement.className")
+    assert focused == "copy-link-btn", f"Focus after fallback copy is on {focused!r}, not the copy button"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_open_list_overflow(context):
+    page, js_errors = open_search(context, "a")  # common query: full 20-item list
+    url = page.url
+    width = page.viewport_size["width"]
+    m = page.evaluate("""() => ({
+        html_sw: document.documentElement.scrollWidth, html_cw: document.documentElement.clientWidth,
+        body_sw: document.body.scrollWidth})""")
+    assert m["html_sw"] <= m["html_cw"], (
+        f"Horizontal overflow with the list open on {url} at width {width}: html scrollWidth={m['html_sw']} > clientWidth={m['html_cw']}")
+    assert m["body_sw"] <= m["html_cw"], (
+        f"Horizontal overflow with the list open on {url} at width {width}: body scrollWidth={m['body_sw']} > clientWidth={m['html_cw']}")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+ITEM3_TESTS = (
+    ("search combobox, listbox, options and back button are named", test_search_names),
+    ("home links' names contain their visible text", test_home_link_names),
+    ("arrow keys move the active option", test_arrow_keys),
+    ("Escape and Tab close the list", test_escape_and_tab),
+    ("live match count", test_match_count),
+    ("tap/click on an option selects it", test_option_pick),
+    ("focus returns to the copy button after a fallback copy", test_copy_focus_return),
+)
+
+
+def run_block(browser, title, cases):
+    """Runs (label, context options, name, test) cases; each reports PASS/FAIL."""
+    print(title)
     passed, failed = 0, []
-    for label, opts in VIEWPORTS.items():
-        for name, test in tests:
-            context = browser.new_context(**opts)
-            try:
-                note = test(context)
-                print(f"  PASS: [{label}] {name}" + (f" ({note})" if note else ""))
-                passed += 1
-            except Exception as e:
-                lines = [ln.strip() for ln in str(e).splitlines() if ln.strip()]
-                print(f"  FAIL: [{label}] {name}: {' / '.join(lines[:2]) or type(e).__name__}")
-                failed.append(f"[{label}] {name}")
-            finally:
-                context.close()
+    for label, opts, name, test in cases:
+        context = browser.new_context(**opts)
+        try:
+            note = test(context)
+            print(f"  PASS: [{label}] {name}" + (f" ({note})" if note else ""))
+            passed += 1
+        except Exception as e:
+            lines = [ln.strip() for ln in str(e).splitlines() if ln.strip()]
+            print(f"  FAIL: [{label}] {name}: {' / '.join(lines[:2]) or type(e).__name__}")
+            failed.append(f"[{label}] {name}")
+        finally:
+            context.close()
     return passed, failed
+
+
+def per_viewport(tests):
+    return [(label, opts, name, test) for label, opts in VIEWPORTS.items() for name, test in tests]
 
 
 def main():
@@ -451,9 +666,13 @@ def main():
         for label, opts in VIEWPORTS.items():
             passed += run_checks(browser, label, opts)
         passed += check_overflow(browser)
-        new_passed, failed = run_item2_checks(browser)
+        p2, f2 = run_block(browser, "Item 2 checks: each reports PASS/FAIL", per_viewport(ITEM2_TESTS))
+        p3, f3 = run_block(browser, "Item 3 checks: each reports PASS/FAIL", per_viewport(ITEM3_TESTS) + [
+            (f"width {w}", width_opts(w), "no horizontal overflow with the list open", test_open_list_overflow)
+            for w in OVERFLOW_WIDTHS])
         browser.close()
-    passed += new_passed
+    passed += p2 + p3
+    failed = f2 + f3
     print(f"\n{passed} checks passed ({BROWSER}).")
     if failed:
         print(f"{len(failed)} check(s) FAILED: " + "; ".join(failed))

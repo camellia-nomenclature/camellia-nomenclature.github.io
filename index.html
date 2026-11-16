@@ -389,9 +389,11 @@
   </div>
 
   <div class="search-container">
-    <input type="text" id="search" placeholder="Type a camellia name..." autocomplete="off">
+    <label for="search" class="visually-hidden">Camellia name</label>
+    <input type="text" id="search" placeholder="Type a camellia name..." autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="dropdown">
     <button class="clear-btn" id="clearBtn" aria-label="Clear search">✕</button>
-    <div class="dropdown" id="dropdown"></div>
+    <div class="dropdown" id="dropdown" role="listbox" aria-label="Matching camellias"></div>
+    <div id="searchStatus" class="visually-hidden" role="status"></div>
   </div>
 
   <div id="searchHints" style="max-width:480px;margin:0.2rem auto 0;padding:0 1rem;color:#666;font-size:0.9rem;">
@@ -404,9 +406,9 @@
     <div id="subtitleLine" style="color:#888;font-size:0.9rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book, ACS Database, and more.</div>
     <div id="statsLine" style="color:#6d9e4a;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
     <div class="home-links" id="homeLinks" style="display:none;">
-      <a href="#species" class="home-link" aria-label="Browse all species">Browse species</a>
-      <a href="#fragrant" class="home-link" aria-label="Browse fragrant camellias">Fragrant Camellias</a>
-      <a href="#yellow" class="home-link" aria-label="Browse yellow camellias">Yellow Camellias</a>
+      <a href="#species" class="home-link">Browse species</a>
+      <a href="#fragrant" class="home-link">Fragrant Camellias</a>
+      <a href="#yellow" class="home-link">Yellow Camellias</a>
     </div>
   </div>
 
@@ -627,8 +629,23 @@
     const dropdown = document.getElementById('dropdown');
     const results = document.getElementById('results');
     const clearBtn = document.getElementById('clearBtn');
+    const searchStatus = document.getElementById('searchStatus');
     let selectedIdx = -1;
     let matches = [];
+    let statusTimer;
+
+    // Combobox (WAI-ARIA APG list autocomplete): every open/close goes through here so
+    // aria-expanded and aria-activedescendant stay in sync with the visible list.
+    function setListOpen(open) {
+      dropdown.classList.toggle('active', open);
+      search.setAttribute('aria-expanded', String(open));
+      if (!open) {
+        selectedIdx = -1;
+        search.removeAttribute('aria-activedescendant');
+        clearTimeout(statusTimer);
+        searchStatus.textContent = '';
+      }
+    }
 
     function updateClearBtn() { clearBtn.style.display = search.value ? 'block' : 'none'; }
     clearBtn.addEventListener('click', () => {
@@ -651,7 +668,7 @@
       updateClearBtn();
       const raw = search.value.trim().toLowerCase();
       if (raw.length < 1) {
-        dropdown.classList.remove('active');
+        setListOpen(false);
         return;
       }
       const q = normalize(raw);
@@ -696,13 +713,27 @@
         return aStarts - bStarts || a.name.localeCompare(b.name);
       });
 
+      const total = matches.length;
       matches = matches.slice(0, 20);
 
       selectedIdx = -1;
       renderDropdown();
+      // Announce the match count once typing pauses (polite, debounced)
+      clearTimeout(statusTimer);
+      statusTimer = setTimeout(() => {
+        searchStatus.textContent = total === 0 ? 'No matches'
+          : `${total} ${total === 1 ? 'match' : 'matches'}${total > matches.length ? `, showing first ${matches.length}` : ''}`;
+      }, 400);
     });
 
     search.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (dropdown.classList.contains('active')) {
+          e.preventDefault();
+          setListOpen(false); // keep the text and focus in the input
+        }
+        return;
+      }
       if (!matches.length) return;
       if (e.key === 'ArrowDown') {
         e.preventDefault();
@@ -718,14 +749,19 @@
       }
     });
 
+    // Close the list when focus leaves the input (Tab, or clicking elsewhere). Option clicks
+    // keep focus in the input (mousedown below), so they still reach their click handler.
+    search.addEventListener('blur', () => setListOpen(false));
+    dropdown.addEventListener('mousedown', e => e.preventDefault());
+
     function renderDropdown() {
       if (!matches.length) {
-        dropdown.classList.remove('active');
+        setListOpen(false);
         return;
       }
       dropdown.innerHTML = matches.map((c, i) => {
         const cnHint = c._matchedCn ? `<span style="color:#888;margin-left:0.5em;font-weight:normal">${highlight(c._matchedCn, search.value)}</span>` : '';
-        return `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" data-index="${i}">
+        return `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" role="option" id="search-option-${i}" aria-selected="${i === selectedIdx}" data-index="${i}">
           <div class="name">${highlight(c.name, search.value)}${cnHint}</div>
           <div class="species">${c.species}</div>
         </div>`;
@@ -733,7 +769,13 @@
       dropdown.querySelectorAll('.dropdown-item').forEach(el => {
         el.addEventListener('click', () => selectCamellia(matches[parseInt(el.dataset.index)]));
       });
-      dropdown.classList.add('active');
+      setListOpen(true);
+      if (selectedIdx >= 0) {
+        search.setAttribute('aria-activedescendant', `search-option-${selectedIdx}`);
+        dropdown.querySelector('.selected').scrollIntoView({ block: 'nearest' });
+      } else {
+        search.removeAttribute('aria-activedescendant');
+      }
     }
 
     function highlight(text, query) {
@@ -747,13 +789,19 @@
 
     // Fallback for when the Async Clipboard API is missing (plain-http origins, e.g. a LAN
     // dev server) or rejects. Runs inside the click's user activation.
-    function legacyCopy(text) {
+    function legacyCopy(text, returnFocusTo) {
       const field = Object.assign(document.createElement('textarea'), { value: text });
       field.setAttribute('readonly', '');
       field.style.cssText = 'position:fixed;inset-block-start:0;opacity:0';
       document.body.append(field);
       field.select();
-      try { return document.execCommand('copy'); } catch { return false; } finally { field.remove(); }
+      try { return document.execCommand('copy'); } catch { return false; } finally {
+        // select() moves focus to the temporary field; give it back to the button, unless
+        // focus has gone somewhere else meanwhile.
+        const refocus = document.activeElement === field || document.activeElement === document.body;
+        field.remove();
+        if (refocus && returnFocusTo?.isConnected) returnFocusTo.focus({ preventScroll: true });
+      }
     }
 
     // Copy the cultivar's share link. The name is only ever handled as a JS string,
@@ -763,13 +811,14 @@
     async function copyLink(btn, name) {
       const url = location.origin + location.pathname + '#' + encodeURIComponent(name);
       const status = btn.nextElementSibling; // role="status" text for screen readers
-      let ok;
+      let ok = true;
       try {
         await navigator.clipboard.writeText(url);
-        ok = true;
       } catch {
-        ok = legacyCopy(url); // no Clipboard API (not a secure context) or the write was denied
+        // No Clipboard API (not a secure context) or the write was denied
+        if (btn.isConnected) ok = legacyCopy(url, btn);
       }
+      if (!btn.isConnected) return; // card was replaced meanwhile: no fallback, no feedback
       let message = ok ? 'Link copied' : 'Copy failed';
       if (message === lastCopyMessage) message += '\u00A0'; // VoiceOver skips repeats
       lastCopyMessage = message;
@@ -785,7 +834,7 @@
     }
 
     async function selectCamellia(c, skipHash) {
-      dropdown.classList.remove('active');
+      setListOpen(false);
       search.value = c.name;
       if (!skipHash) history.pushState({cultivar: c.name}, '', '#' + encodeURIComponent(c.name));
       document.getElementById('searchHints').style.display = 'none';
@@ -853,7 +902,7 @@
       results.innerHTML = `
         <div class="card">
           <div class="card-header">
-            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back">←</button><h2 style="margin:0">${c.name}</h2></div><button type="button" class="copy-link-btn" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link" aria-label="Copy link">🔗</button><span class="copy-link-status visually-hidden" role="status"></span></div>
+            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button><h2 style="margin:0">${c.name}</h2></div><button type="button" class="copy-link-btn" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link" aria-label="Copy link">🔗</button><span class="copy-link-status visually-hidden" role="status"></span></div>
           </div>
           <div class="card-body">
             <div class="card-info">
@@ -902,7 +951,7 @@
 
     document.addEventListener('click', (e) => {
       if (!e.target.closest('.search-container')) {
-        dropdown.classList.remove('active');
+        setListOpen(false);
       }
     });
 
@@ -912,7 +961,7 @@
       document.getElementById('homeSection').style.display = 'none';
       search.value = '';
       updateClearBtn();
-      dropdown.classList.remove('active');
+      setListOpen(false);
 
       // Build species list with counts, sorted alphabetically
       const counts = {};
@@ -946,7 +995,7 @@
       document.getElementById('homeSection').style.display = 'none';
       search.value = '';
       updateClearBtn();
-      dropdown.classList.remove('active');
+      setListOpen(false);
 
       const rows = list.map(c => {
         const displayName = c.name.replace(/_/g, ' ');
