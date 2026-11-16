@@ -5,13 +5,13 @@ Requires: pip install playwright && playwright install chromium
 
 How to run:
   python3 -m http.server 8081          # in the repo root, in another terminal
-  python3 test_site.py                 # default: BASE_URL=http://localhost:8081, BROWSER=chromium
+  python3 test_site.py                 # default: BASE_URL=http://localhost:8081, TEST_BROWSER=chromium
 
-  BASE_URL=http://127.0.0.1:18500 BROWSER=webkit python3 test_site.py
+  BASE_URL=http://127.0.0.1:18500 TEST_BROWSER=webkit python3 test_site.py
   BASE_URL=https://camellia-nomenclature.github.io/ python3 test_site.py    # prod
 
 WebKit needs a WebKit build matching this Playwright version: either point at an existing one,
-  PLAYWRIGHT_BROWSERS_PATH=/tmp/camellia-modern-web/pw-browsers BROWSER=webkit python3 test_site.py
+  PLAYWRIGHT_BROWSERS_PATH=/tmp/camellia-modern-web/pw-browsers TEST_BROWSER=webkit python3 test_site.py
 or install it once with: python3 -m playwright install webkit
 (PLAYWRIGHT_BROWSERS_PATH replaces the default browser cache, so only set it for WebKit runs.)
 
@@ -25,9 +25,9 @@ import sys
 from playwright.sync_api import sync_playwright, expect
 
 BASE = os.environ.get("BASE_URL", "http://localhost:8081").rstrip("/")
-BROWSER = os.environ.get("BROWSER", "chromium")
+BROWSER = os.environ.get("TEST_BROWSER", "chromium")
 if BROWSER not in ("chromium", "webkit"):
-    sys.exit(f"BROWSER must be 'chromium' or 'webkit', got {BROWSER!r}")
+    sys.exit(f"TEST_BROWSER must be 'chromium' or 'webkit', got {BROWSER!r}")
 TIMEOUT = 8000  # ms for card to render
 
 # is_mobile/has_touch are supported by Chromium and WebKit (not Firefox). Both then match
@@ -57,8 +57,23 @@ def wait_for_data(page):
 
 
 def expect_card(page, name):
+    """The real detail card: .card-info only exists in a successful render (index.html:808),
+    so the 'Entry not found.' and 'Failed to load entry.' cards fail this check."""
     expect(page.locator(".card-header h2")).to_have_text(name, timeout=TIMEOUT)
-    expect(page.locator(".card-body")).not_to_contain_text("Loading details...", timeout=TIMEOUT)
+    expect(page.locator(".card-body .card-info")).to_be_visible(timeout=TIMEOUT)
+    body = page.locator(".card-body")
+    for text in ("Loading details...", "Entry not found.", "Failed to load entry."):
+        expect(body).not_to_contain_text(text, timeout=TIMEOUT)
+
+
+def wait_for_startup(page):
+    """Startup is loadData() -> both curated lists -> navigateHash(location.hash), with no
+    task boundary after the lists are assigned (index.html:965-973). Once a poll sees the
+    catalogue and both lists, the initial hash routing has already run."""
+    wait_for_data(page)
+    page.wait_for_function(
+        "camellias.length > 0 && fragrantCamellias.length > 0 && yellowCamellias.length > 0",
+        timeout=TIMEOUT)
 
 
 def run_checks(browser, label, opts):
@@ -68,9 +83,8 @@ def run_checks(browser, label, opts):
     print(f"[{label}] Test 1: direct hash navigation to #Kwan%20Yuen%20Special")
     page, js_errors = make_page(context)
     page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
-    # Both the header AND body must be fully rendered (not just loading state)
-    expect(page.locator(".card-body")).not_to_contain_text("Loading details...", timeout=TIMEOUT)
-    expect(page.locator(".card-header h2")).to_have_text("Kwan Yuen Special", timeout=TIMEOUT)
+    # Both the header AND body must be fully rendered (not loading, not an error card)
+    expect_card(page, "Kwan Yuen Special")
     body_text = page.locator(".card-body").inner_text()
     assert "Reticulata" in body_text, f"Expected species in card body, got: {body_text[:200]}"
     assert not js_errors, f"JS errors: {js_errors}"
@@ -88,14 +102,16 @@ def run_checks(browser, label, opts):
     print("  PASS: card rendered after search+click")
 
     # --- Test 3: missing entry does not hang ---
+    # A hash that matches no cultivar is ignored (index.html:944-946): the home view stays
+    # and no card (loading or otherwise) is rendered.
     print(f"[{label}] Test 3: missing entry does not hang on 'Loading details...'")
     page, js_errors = make_page(context)
     page.goto(f"{BASE}/#__nonexistent_cultivar__", wait_until="commit", timeout=10000)
-    page.wait_for_timeout(2500)
-    loading = page.locator(".card-body").filter(has_text="Loading details...")
-    assert loading.count() == 0, "Page stuck on 'Loading details...' for missing entry"
+    wait_for_startup(page)
+    expect(page.locator("#results .card")).to_have_count(0)
+    expect(page.locator("#homeSection")).to_be_visible()
     assert not js_errors, f"JS errors: {js_errors}"
-    print("  PASS: no infinite hang for missing entry")
+    print("  PASS: no infinite hang for missing entry (home view stays, no card)")
 
     # --- Test 4: smoke: type, pick from dropdown, card, back to home ---
     print(f"[{label}] Test 4: type in search, pick dropdown item, card renders, Back returns home")
@@ -153,7 +169,7 @@ def check_overflow(browser):
 
 
 def main():
-    print(f"BASE_URL={BASE} BROWSER={BROWSER}")
+    print(f"BASE_URL={BASE} TEST_BROWSER={BROWSER}")
     passed = 0
     with sync_playwright() as p:
         try:
