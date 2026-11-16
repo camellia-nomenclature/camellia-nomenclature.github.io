@@ -745,30 +745,43 @@
         text.substring(idx + query.length);
     }
 
+    // Fallback for when the Async Clipboard API is missing (plain-http origins, e.g. a LAN
+    // dev server) or rejects. Runs inside the click's user activation.
+    function legacyCopy(text) {
+      const field = Object.assign(document.createElement('textarea'), { value: text });
+      field.setAttribute('readonly', '');
+      field.style.cssText = 'position:fixed;inset-block-start:0;opacity:0';
+      document.body.append(field);
+      field.select();
+      try { return document.execCommand('copy'); } catch { return false; } finally { field.remove(); }
+    }
+
     // Copy the cultivar's share link. The name is only ever handled as a JS string,
     // so quotes or apostrophes in it can't break anything.
-    let copyTimer, lastCopyMessage = '';
+    const copyTimers = new WeakMap(); // per button, so an old card's timer can't reset a new one
+    let lastCopyMessage = '';
     async function copyLink(btn, name) {
       const url = location.origin + location.pathname + '#' + encodeURIComponent(name);
       const status = btn.nextElementSibling; // role="status" text for screen readers
-      let ok = true;
+      let ok;
       try {
         await navigator.clipboard.writeText(url);
+        ok = true;
       } catch {
-        ok = false; // no clipboard access (denied, or not a secure context)
+        ok = legacyCopy(url); // no Clipboard API (not a secure context) or the write was denied
       }
       let message = ok ? 'Link copied' : 'Copy failed';
       if (message === lastCopyMessage) message += '\u00A0'; // VoiceOver skips repeats
       lastCopyMessage = message;
-      clearTimeout(copyTimer);
+      clearTimeout(copyTimers.get(btn));
       btn.textContent = ok ? '✅' : '❌';
       btn.style.background = 'rgba(255,255,255,0.45)';
       status.textContent = message;
-      copyTimer = setTimeout(() => {
+      copyTimers.set(btn, setTimeout(() => {
         btn.textContent = '🔗';
         btn.style.background = 'rgba(255,255,255,0.15)';
         status.textContent = '';
-      }, 1200);
+      }, 1200));
     }
 
     async function selectCamellia(c, skipHash) {

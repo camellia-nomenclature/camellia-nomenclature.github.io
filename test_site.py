@@ -185,12 +185,34 @@ if (window.Clipboard && Clipboard.prototype.writeText) {
   Clipboard.prototype.writeText = function (text) { window.__copiedText = text; return write.call(this, text); };
 }"""
 
+# Clipboard stubs for the fallback tests (installed before the page's scripts run).
+NO_CLIPBOARD_API = "Object.defineProperty(Navigator.prototype, 'clipboard', { get: () => undefined, configurable: true });"
+# Rejects like a denied permission, after a delay, so the fallback runs after an await.
+REJECT_WRITE_TEXT = """
+if (window.Clipboard) Clipboard.prototype.writeText = () =>
+  new Promise((_, reject) => setTimeout(() => reject(new DOMException('denied', 'NotAllowedError')), 100));"""
+# Records every document.execCommand call: command, return value and the text in the copy
+# fallback's textarea. With window.__execResult set, returns that instead of copying.
+SPY_EXEC_COMMAND = """
+window.__execCalls = [];
+const exec = Document.prototype.execCommand;
+Document.prototype.execCommand = function (command, ...args) {
+  const field = document.querySelector('body > textarea');
+  const result = 'execResult' in window.__stub ? window.__stub.execResult : exec.call(this, command, ...args);
+  window.__execCalls.push({ command, result, text: field ? field.value : null });
+  return result;
+};"""
+STUB_EXEC_FALSE = "window.__stub = { execResult: false };"
+NO_STUB = "window.__stub = {};"
+
 # A "render" is one call into a view renderer, counted by the write that starts the view in
-# #results (each innerHTML assignment is exactly one childList MutationRecord):
+# #results (one childList MutationRecord per innerHTML assignment that changes children):
 #   detail view: the "Loading details..." card; list views: a card whose h2 starts with
 #   "Species (", "Fragrant Camellias (" or "Yellow Camellias ("; home: #results emptied.
 # The later write that replaces "Loading details..." with the full card belongs to the same
 # render and is not counted. hashchange is counted too, so the test can wait for it to fire.
+# Known blind spot: setting innerHTML = '' on an already-empty #results produces no record,
+# so a second home render is invisible and the "Back to home" step cannot catch a double render.
 RENDER_COUNTER = """
 window.__renders = 0; window.__hashchanges = 0;
 addEventListener('hashchange', () => { window.__hashchanges++; });
@@ -212,8 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 def test_copy_link(context):
-    if BROWSER == "chromium":
-        context.grant_permissions(["clipboard-read", "clipboard-write"], origin=ORIGIN)
+    grant_clipboard(context)
     context.add_init_script(RECORD_CLIPBOARD)
     page, js_errors = make_page(context)
     page.goto(BASE + "/" + QUOTE_HASH, wait_until="commit", timeout=10000)
@@ -234,6 +255,110 @@ def test_copy_link(context):
     decoded = page.evaluate("u => decodeURIComponent(new URL(u).hash.slice(1))", copied)
     assert decoded == QUOTE_NAME, f"Copied link decodes to {decoded!r}, expected {QUOTE_NAME!r}"
     return method
+
+
+def open_quote_card(context, *init_scripts):
+    for script in init_scripts:
+        context.add_init_script(script)
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/" + QUOTE_HASH, wait_until="commit", timeout=10000)
+    expect_card(page, QUOTE_NAME)
+    button = page.locator(".card-header button[title='Copy link']")
+    status = page.locator(".card-header [role='status']")
+    return page, js_errors, button, status
+
+
+def assert_fallback_copied(page):
+    calls = page.evaluate("window.__execCalls")
+    copies = [c for c in calls if c["command"] == "copy"]
+    assert copies, f"Fallback did not run: execCommand calls = {calls}"
+    assert copies[-1]["result"] is True, f"execCommand('copy') returned {copies[-1]['result']!r}"
+    copied = copies[-1]["text"]
+    assert copied, "No text in the copy fallback's textarea"
+    decoded = page.evaluate("u => decodeURIComponent(new URL(u).hash.slice(1))", copied)
+    assert decoded == QUOTE_NAME, f"Copied link decodes to {decoded!r}, expected {QUOTE_NAME!r}"
+
+
+def test_copy_fallback_no_clipboard_api(context):
+    page, js_errors, button, status = open_quote_card(context, NO_STUB, NO_CLIPBOARD_API, SPY_EXEC_COMMAND)
+    assert page.evaluate("navigator.clipboard === undefined"), "navigator.clipboard stub not applied"
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    expect(status).to_have_text("Link copied")
+    assert_fallback_copied(page)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_fallback_after_rejected_write(context):
+    page, js_errors, button, status = open_quote_card(context, NO_STUB, REJECT_WRITE_TEXT, SPY_EXEC_COMMAND)
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    expect(status).to_have_text("Link copied")
+    assert_fallback_copied(page)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_failure(context):
+    page, js_errors, button, status = open_quote_card(context, STUB_EXEC_FALSE, NO_CLIPBOARD_API, SPY_EXEC_COMMAND)
+    button.click()
+    expect(button).to_have_text("\u274c", timeout=TIMEOUT)  # ❌
+    text = status.text_content().strip()  # strip() also drops the VoiceOver \u00A0 suffix
+    assert text == "Copy failed", f"Status text {text!r}, expected 'Copy failed'"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def grant_clipboard(context):
+    if BROWSER == "chromium":
+        context.grant_permissions(["clipboard-read", "clipboard-write"], origin=ORIGIN)
+
+
+def test_copy_status_text(context):
+    grant_clipboard(context)
+    page, js_errors, button, status = open_quote_card(context)
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    expect(status).to_have_text("Link copied")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_copy_feedback_resets(context):
+    grant_clipboard(context)
+    page, js_errors, button, status = open_quote_card(context)
+    button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    expect(button).to_have_text("\U0001f517", timeout=3000)  # back to 🔗 (reset after 1.2 s)
+    expect(status).to_be_empty(timeout=3000)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+# Holds the first writeText until window.__releaseFirstWrite() is called.
+HOLD_FIRST_WRITE = """
+if (window.Clipboard) {
+  const write = Clipboard.prototype.writeText; let calls = 0;
+  Clipboard.prototype.writeText = function (text) {
+    if (calls++ > 0) return write.call(this, text);
+    return new Promise(r => { window.__releaseFirstWrite = r; }).then(() => write.call(this, text));
+  };
+}"""
+
+
+def test_copy_timer_per_button(context):
+    """A slow copy on an old card must not cancel a newer card's reset (one shared timer did)."""
+    grant_clipboard(context)
+    context.add_init_script(HOLD_FIRST_WRITE)
+    page, js_errors = make_page(context)
+    page.goto(f"{BASE}/#Yuletide", wait_until="commit", timeout=10000)
+    expect_card(page, "Yuletide")
+    page.locator(".card-header button[title='Copy link']").click()  # card A: write held
+    page.fill("#search", "Kwan Yuen Special")
+    page.locator(".dropdown-item").first.click()
+    expect_card(page, "Kwan Yuen Special")
+    button = page.locator(".card-header button[title='Copy link']")
+    button.click()  # card B
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    page.evaluate("window.__releaseFirstWrite()")  # card A's copy finishes before B's reset
+    expect(button).to_have_text("\U0001f517", timeout=3000)
+    assert not js_errors, f"JS errors: {js_errors}"
 
 
 def test_copy_button_name(context):
@@ -290,6 +415,12 @@ def run_item2_checks(browser):
         ('copy link for Robert "Bobby" Moore', test_copy_link),
         ("copy button accessible name", test_copy_button_name),
         ("one render per navigation", test_render_count),
+        ("copy fallback without Clipboard API (execCommand)", test_copy_fallback_no_clipboard_api),
+        ("copy fallback after writeText rejects", test_copy_fallback_after_rejected_write),
+        ("copy failure shows the failed state", test_copy_failure),
+        ('copy status reads "Link copied"', test_copy_status_text),
+        ("copy feedback resets to the link icon", test_copy_feedback_resets),
+        ("copy feedback timer is per button", test_copy_timer_per_button),
     )
     passed, failed = 0, []
     for label, opts in VIEWPORTS.items():
