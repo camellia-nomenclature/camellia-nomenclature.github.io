@@ -816,28 +816,143 @@ def test_focus_back_to_list_keeps_scroll(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
+HOME_HEADING_FOCUSED = "document.activeElement === document.querySelector('.header h1')"
+
+
 def test_focus_back_to_home_fallback(context):
-    """Back to home focuses the opener; with no opener (hash edit) or a missing one, #search."""
+    """Back to home: the pill that opened the view (pills test); otherwise (search pick, hash
+    edit, remembered element gone) the home h1. #search is never focused by navigation."""
     page, js_errors = open_home(context)
-    page.fill("#search", "Kwan Yuen Special")  # search pick: the opener is the search box
+    page.fill("#search", "Kwan Yuen Special")  # search pick: nothing is remembered
     page.locator(".dropdown-item").first.click()
     expect_card(page, "Kwan Yuen Special")
     page.go_back()
     expect_home(page)
-    assert page.evaluate(SEARCH_FOCUSED), f"After a search pick + Back: focus on {focus_info(page)}"
-    page.evaluate("location.hash = '#Yuletide'")  # no opener remembered for a hash edit
+    f = focus_info(page)
+    assert page.evaluate(HOME_HEADING_FOCUSED), f"Search pick + Back: focus on {f}"
+    assert f["scrollY"] == 0, f"Search pick + Back: scrollY {f['scrollY']}, expected 0"
+    page.evaluate("location.hash = '#Yuletide'")  # hash edit: nothing remembered
     expect_card(page, "Yuletide")
     page.go_back()
     expect_home(page)
-    assert page.evaluate(SEARCH_FOCUSED), f"No opener + Back: focus on {focus_info(page)}"
+    assert page.evaluate(HOME_HEADING_FOCUSED), f"Hash edit + Back: focus on {focus_info(page)}"
     # opener gone: the remembered element no longer exists
     page.evaluate("""() => history.replaceState({ ...history.state, returnFocus: 'a.home-link[href="#gone"]' }, '')""")
     page.evaluate("location.hash = '#Yuletide'")
     expect_card(page, "Yuletide")
     page.go_back()
     expect_home(page)
-    assert page.evaluate(SEARCH_FOCUSED), f"Missing opener + Back: focus on {focus_info(page)}"
+    f = focus_info(page)
+    assert page.evaluate(HOME_HEADING_FOCUSED), f"Missing opener + Back: focus on {f}"
+    assert f["scrollY"] == 0, f"Missing opener + Back: scrollY {f['scrollY']}, expected 0"
+    assert not page.evaluate(SEARCH_FOCUSED)
     assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_focus_back_between_picks(context):
+    """Search pick A, then search pick B from A's card, then Back: card A's heading."""
+    page, js_errors = open_home(context)
+    for name in ("Yuletide", "Kwan Yuen Special"):
+        page.fill("#search", name)
+        page.locator(".dropdown-item", has_text=name).first.click()
+        expect_card(page, name)
+    page.go_back()
+    expect_card(page, "Yuletide")
+    assert_heading_focused(page, "Yuletide")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_stale_card_load(context):
+    """A card whose data arrives after the user moved on neither replaces the newer view nor
+    takes focus (Y.json is held until the species list is open)."""
+    page, js_errors = open_home(context)
+    held = []
+    page.route("**/data/Y.json", lambda route: held.append(route))
+    page.evaluate("location.hash = '#Yuletide'")  # starts loading, data held
+    expect(page.locator(".card-body")).to_contain_text("Loading details...", timeout=TIMEOUT)
+    for _ in range(200):  # wait for the request to reach the route handler
+        if held:
+            break
+        page.wait_for_timeout(25)
+    assert held, "Y.json request was not intercepted"
+    page.evaluate("location.hash = '#species'")  # the user moves on
+    expect_list(page, "Species (")
+    assert_heading_focused(page, "Species (", prefix=True)
+    held[0].continue_()  # Yuletide's data now arrives
+    page.wait_for_function("typeof entryCache.Y === 'object'", timeout=TIMEOUT)
+    page.evaluate("() => new Promise(r => setTimeout(r, 0))")  # let the old load finish
+    expect(page.locator(".card-header h2")).to_contain_text("Species (")
+    assert_heading_focused(page, "Species (", prefix=True)
+    expect(page).to_have_title(f"Species | {HOME_TITLE}")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+RING = """(sel) => {
+  const el = document.querySelector(sel), cs = getComputedStyle(el);
+  return { focused: document.activeElement === el, focusVisible: el.matches(':focus-visible'),
+           style: cs.outlineStyle, width: parseFloat(cs.outlineWidth), color: cs.outlineColor,
+           bg: getComputedStyle(el.closest('.card-header, .header')).backgroundImage };
+}"""
+
+
+def _rgb_list(text):
+    return [tuple(int(float(v)) for v in m[:3]) for m in re.findall(r"rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)", text)]
+
+
+def _contrast(a, b):
+    def lum(c):
+        ch = [v / 255 for v in c]
+        ch = [v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4 for v in ch]
+        return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2]
+    hi, lo = sorted((lum(a), lum(b)), reverse=True)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def assert_ring(page, sel):
+    r = page.evaluate(RING, sel)
+    assert r["focused"], f"{sel} is not focused"
+    assert r["focusVisible"], f"{sel} does not match :focus-visible after a keyboard action"
+    assert r["style"] != "none" and r["width"] >= 2, f"{sel} focus ring: {r['style']} {r['width']}px"
+    ring, stops = _rgb_list(r["color"])[0], _rgb_list(r["bg"])
+    assert stops, f"No header background colours in {r['bg']!r}"
+    worst = min(_contrast(ring, s) for s in stops)
+    assert worst >= 3, f"{sel} ring {r['color']} contrast {worst:.2f}:1 vs header {stops} (< 3:1)"
+    return worst
+
+
+# WebKit only applies :focus-visible to script focus made synchronously inside a keydown that
+# is not default-prevented; the app focuses after a fetch or popstate, so in WebKit the ring is
+# exercised by re-focusing the heading from such a keydown (test-only listener, F2).
+REFOCUS_ON_F2 = """(sel) => document.addEventListener('keydown', e => {
+  if (e.key === 'F2') document.querySelector(sel).focus({ preventScroll: true });
+}, { once: true })"""
+
+
+def check_ring(page, sel):
+    if BROWSER == "webkit":
+        page.evaluate(REFOCUS_ON_F2, sel)
+        page.keyboard.press("F2")
+    return assert_ring(page, sel)
+
+
+def test_heading_focus_ring(context):
+    """Keyboard path: Enter on an option focuses the card heading; Enter on the focused back
+    button returns home and focuses the h1. Both get a visible :focus-visible ring, >=3:1 against
+    the header gradient's stops."""
+    page, js_errors = open_search(context, "Kwan Yuen Special")
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Enter")
+    expect_card(page, "Kwan Yuen Special")
+    assert_heading_focused(page, "Kwan Yuen Special")
+    card = check_ring(page, ".card-header h2")
+    page.locator(".card-header button[title='Go back']").focus()
+    page.keyboard.press("Enter")
+    expect_home(page)
+    assert page.evaluate(HOME_HEADING_FOCUSED), f"Back to home: focus on {focus_info(page)}"
+    home = check_ring(page, ".header h1")
+    assert not js_errors, f"JS errors: {js_errors}"
+    how = "app focus path" if BROWSER != "webkit" else "app focus, ring via F2 keydown re-focus"
+    return f"{how}; min ring contrast: card {card:.2f}:1, home {home:.2f}:1"
 
 
 def test_initial_deep_link_keeps_focus(context):
@@ -942,7 +1057,10 @@ ITEM4_TESTS = (
     ("focus: pill → list heading, Back → pill, hash nav → card heading", test_focus_pills_and_hash),
     ("focus: Back/Forward → heading of the restored view", test_focus_back_forward),
     ("focus: Back to a list → activated link, scroll restored", test_focus_back_to_list_keeps_scroll),
-    ("focus: Back to home → opener, else #search", test_focus_back_to_home_fallback),
+    ("focus: Back to home → opener (pill), else the home h1", test_focus_back_to_home_fallback),
+    ("focus: search pick A → pick B → Back → card A heading", test_focus_back_between_picks),
+    ("slow card load does not replace the newer view or take focus", test_stale_card_load),
+    ("header headings get a visible ≥3:1 :focus-visible ring", test_heading_focus_ring),
     ("initial deep link does not move focus or scroll", test_initial_deep_link_keeps_focus),
     ("document.title per view and after Back", test_titles),
     ("clear button visible on deep-link card, hidden on home", test_clear_button),

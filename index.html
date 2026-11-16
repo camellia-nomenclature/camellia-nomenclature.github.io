@@ -368,6 +368,12 @@
       font-size: 1.8em;
       line-height: 1;
     }
+    /* Focus ring for the headings that receive focus on view changes (dark green #244113:
+       3.48:1 on #6f9a4a, 5.23:1 on #8fbd63, the header gradient's two stops) */
+    .header h1:focus-visible, .card-header h2:focus-visible {
+      outline: 3px solid #244113;
+      outline-offset: 2px;
+    }
     /* Visually hidden but still read by screen readers (copy-link status) */
     .visually-hidden:where(:not(:focus-within, :active)) {
       position: absolute !important;
@@ -385,7 +391,7 @@
 </head>
 <body>
   <div class="header">
-    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';document.title=homeTitle;history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><img src="assets/camellia-icon.png" alt="Camellia" style="height:1.5em;vertical-align:-0.28em;margin-right:0.25em;"> Camellia Nomenclature</a></h1>
+    <h1 tabindex="-1"><a href="/" onclick="navToken++;document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';document.title=homeTitle;history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><img src="assets/camellia-icon.png" alt="Camellia" style="height:1.5em;vertical-align:-0.28em;margin-right:0.25em;"> Camellia Nomenclature</a></h1>
   </div>
 
   <div class="search-container">
@@ -765,7 +771,6 @@
         renderDropdown();
       } else if (e.key === 'Enter' && selectedIdx >= 0) {
         e.preventDefault();
-        rememberOpener('#search');
         selectCamellia(matches[selectedIdx]);
       }
     });
@@ -783,10 +788,7 @@
         </div>`;
       }).join('');
       dropdown.querySelectorAll('.dropdown-item').forEach(el => {
-        el.addEventListener('click', () => {
-          rememberOpener('#search');
-          selectCamellia(matches[parseInt(el.dataset.index)]);
-        });
+        el.addEventListener('click', () => selectCamellia(matches[parseInt(el.dataset.index)]));
       });
       setListOpen(true);
       if (selectedIdx >= 0) {
@@ -853,11 +855,12 @@
     }
 
     // --- Focus and titles across views (F02, F11) ---
-    // A view change the user started moves focus to the new view's heading (tabindex="-1").
-    // Going back to a view returns focus to the link that was activated there, remembered in
-    // that history entry (views are re-rendered, so it is stored as a selector). The initial
-    // page load (deep link) never moves focus. preventScroll keeps the existing scroll
-    // behaviour, including the browser's scroll restoration on Back.
+    // A view change the user started moves focus to the new view's heading (tabindex="-1";
+    // the page's h1 for home). Going back to a view returns focus to the link that was
+    // activated there (a home pill or list link), remembered once in that history entry as a
+    // selector because views are re-rendered. The search box is never focused by navigation
+    // (it would pop up a phone's keyboard). The initial page load (deep link) never moves
+    // focus. preventScroll keeps the existing scroll behaviour, incl. scroll restoration on Back.
     const homeTitle = document.title;
 
     function rememberOpener(selector) {
@@ -875,13 +878,19 @@
     function focusView(moveFocus, fallback) {
       if (!moveFocus) return;
       const remembered = history.state && history.state.returnFocus;
+      if (remembered) rememberOpener(null); // restore once, then forget
       const target = (remembered && document.querySelector(remembered)) || fallback;
       if (target) target.focus({ preventScroll: true });
     }
 
     const viewHeading = () => results.querySelector('.card-header h2');
 
+    // Bumped on every view change, so a card whose data arrives after the user has moved on
+    // neither replaces the newer view nor takes focus.
+    let navToken = 0;
+
     async function selectCamellia(c, skipHash, moveFocus = true) {
+      const token = ++navToken;
       setListOpen(false);
       search.blur(); // a card is opening: let the on-screen keyboard go (no-op if not focused)
       search.value = c.name;
@@ -895,6 +904,7 @@
       const savedName = c.name;
       try {
       const full = await fetchFullEntry(c.name);
+      if (token !== navToken) return; // the user has moved on
       if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus, viewHeading()); return; }
       c = full;
 
@@ -997,6 +1007,7 @@
       focusView(moveFocus, viewHeading());
       } catch (err) {
         console.error('selectCamellia error:', err);
+        if (token !== navToken) return;
         results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
         focusView(moveFocus, viewHeading());
       }
@@ -1009,6 +1020,7 @@
     });
 
     function showSpeciesPage(skipHash, moveFocus = true) {
+      navToken++;
       if (!skipHash) history.pushState({species: true}, '', '#species');
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
@@ -1044,6 +1056,7 @@
     }
 
     function showCuratedPage(title, list, hash, emptyText, skipHash, moveFocus = true) {
+      navToken++;
       if (!skipHash) history.pushState({[hash]: true}, '', `#${hash}`);
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
@@ -1104,13 +1117,14 @@
         if (match) selectCamellia(match, true, moveFocus);
       } else {
         // Back to home
+        navToken++;
         document.getElementById('search').value = '';
         document.getElementById('search').dispatchEvent(new Event('input'));
         results.innerHTML = '';
         document.getElementById('searchHints').style.display = '';
         document.getElementById('homeSection').style.display = '';
         document.title = homeTitle;
-        focusView(moveFocus, search); // the link that opened the view, else the search box
+        focusView(moveFocus, document.querySelector('.header h1')); // the opener (pill), else the h1
       }
     }
 
