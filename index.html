@@ -385,7 +385,7 @@
 </head>
 <body>
   <div class="header">
-    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><img src="assets/camellia-icon.png" alt="Camellia" style="height:1.5em;vertical-align:-0.28em;margin-right:0.25em;"> Camellia Nomenclature</a></h1>
+    <h1><a href="/" onclick="document.getElementById('search').value='';document.getElementById('search').dispatchEvent(new Event('input'));document.getElementById('results').innerHTML='';document.getElementById('searchHints').style.display='';document.getElementById('homeSection').style.display='';document.title=homeTitle;history.replaceState(null,'',location.pathname);return false;" style="text-decoration:none;color:inherit;cursor:pointer;"><img src="assets/camellia-icon.png" alt="Camellia" style="height:1.5em;vertical-align:-0.28em;margin-right:0.25em;"> Camellia Nomenclature</a></h1>
   </div>
 
   <div class="search-container">
@@ -635,15 +635,22 @@
     let statusTimer;
 
     // Combobox (WAI-ARIA APG list autocomplete): every open/close goes through here so
-    // aria-expanded and aria-activedescendant stay in sync with the visible list.
-    function setListOpen(open) {
+    // aria-expanded, aria-activedescendant and aria-selected stay in sync with the visible list.
+    // keepStatus: the list only hides because nothing matches, so "No matches" stays announced.
+    function setListOpen(open, keepStatus = false) {
       dropdown.classList.toggle('active', open);
       search.setAttribute('aria-expanded', String(open));
       if (!open) {
         selectedIdx = -1;
         search.removeAttribute('aria-activedescendant');
-        clearTimeout(statusTimer);
-        searchStatus.textContent = '';
+        dropdown.querySelectorAll('[aria-selected="true"]').forEach(o => {
+          o.setAttribute('aria-selected', 'false');
+          o.classList.remove('selected');
+        });
+        if (!keepStatus) {
+          clearTimeout(statusTimer);
+          searchStatus.textContent = '';
+        }
       }
     }
 
@@ -758,13 +765,14 @@
         renderDropdown();
       } else if (e.key === 'Enter' && selectedIdx >= 0) {
         e.preventDefault();
+        rememberOpener('#search');
         selectCamellia(matches[selectedIdx]);
       }
     });
 
     function renderDropdown() {
       if (!matches.length) {
-        setListOpen(false);
+        setListOpen(false, true);
         return;
       }
       dropdown.innerHTML = matches.map((c, i) => {
@@ -775,7 +783,10 @@
         </div>`;
       }).join('');
       dropdown.querySelectorAll('.dropdown-item').forEach(el => {
-        el.addEventListener('click', () => selectCamellia(matches[parseInt(el.dataset.index)]));
+        el.addEventListener('click', () => {
+          rememberOpener('#search');
+          selectCamellia(matches[parseInt(el.dataset.index)]);
+        });
       });
       setListOpen(true);
       if (selectedIdx >= 0) {
@@ -841,10 +852,41 @@
       }, 1200));
     }
 
-    async function selectCamellia(c, skipHash) {
+    // --- Focus and titles across views (F02, F11) ---
+    // A view change the user started moves focus to the new view's heading (tabindex="-1").
+    // Going back to a view returns focus to the link that was activated there, remembered in
+    // that history entry (views are re-rendered, so it is stored as a selector). The initial
+    // page load (deep link) never moves focus. preventScroll keeps the existing scroll
+    // behaviour, including the browser's scroll restoration on Back.
+    const homeTitle = document.title;
+
+    function rememberOpener(selector) {
+      history.replaceState({ ...history.state, returnFocus: selector }, '');
+    }
+
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('a.home-link, a.list-link');
+      if (!link) return;
+      rememberOpener(link.matches('.list-link')
+        ? `.list-link[data-camellia="${CSS.escape(link.dataset.camellia)}"]`
+        : `a.home-link[href="${link.getAttribute('href')}"]`);
+    }, true); // capture: runs before the navigation the click starts
+
+    function focusView(moveFocus, fallback) {
+      if (!moveFocus) return;
+      const remembered = history.state && history.state.returnFocus;
+      const target = (remembered && document.querySelector(remembered)) || fallback;
+      if (target) target.focus({ preventScroll: true });
+    }
+
+    const viewHeading = () => results.querySelector('.card-header h2');
+
+    async function selectCamellia(c, skipHash, moveFocus = true) {
       setListOpen(false);
       search.blur(); // a card is opening: let the on-screen keyboard go (no-op if not focused)
       search.value = c.name;
+      updateClearBtn();
+      document.title = `${c.name} | ${homeTitle}`;
       if (!skipHash) history.pushState({cultivar: c.name}, '', '#' + encodeURIComponent(c.name));
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
@@ -853,7 +895,7 @@
       const savedName = c.name;
       try {
       const full = await fetchFullEntry(c.name);
-      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2>${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; return; }
+      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus, viewHeading()); return; }
       c = full;
 
       // Image URL: use stored image field first, fallback to SoCal pattern
@@ -911,7 +953,7 @@
       results.innerHTML = `
         <div class="card">
           <div class="card-header">
-            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button><h2 style="margin:0">${c.name}</h2></div><button type="button" class="copy-link-btn" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link" aria-label="Copy link">🔗</button><span class="copy-link-status visually-hidden" role="status"></span></div>
+            <div style="display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:16px"><button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button><h2 tabindex="-1" style="margin:0">${c.name}</h2></div><button type="button" class="copy-link-btn" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background 0.2s" title="Copy link" aria-label="Copy link">🔗</button><span class="copy-link-status visually-hidden" role="status"></span></div>
           </div>
           <div class="card-body">
             <div class="card-info">
@@ -952,9 +994,11 @@
         </div>`;
       const copyBtn = results.querySelector('.copy-link-btn');
       copyBtn.addEventListener('click', () => copyLink(copyBtn, c.name));
+      focusView(moveFocus, viewHeading());
       } catch (err) {
         console.error('selectCamellia error:', err);
-        results.innerHTML = `<div class="card"><div class="card-header"><h2>${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
+        results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${savedName}</h2></div><div class="card-body" style="color:#c00;padding:2rem;text-align:center;">Failed to load entry. Please try again.</div></div>`;
+        focusView(moveFocus, viewHeading());
       }
     }
 
@@ -964,7 +1008,7 @@
       }
     });
 
-    function showSpeciesPage(skipHash) {
+    function showSpeciesPage(skipHash, moveFocus = true) {
       if (!skipHash) history.pushState({species: true}, '', '#species');
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
@@ -987,7 +1031,7 @@
             <div style="display:flex;align-items:center;justify-content:space-between">
               <div style="display:flex;align-items:center;gap:16px">
                 <button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button>
-                <h2 style="margin:0">Species (${sorted.length})</h2>
+                <h2 tabindex="-1" style="margin:0">Species (${sorted.length})</h2>
               </div>
             </div>
           </div>
@@ -995,10 +1039,11 @@
             ${rows}
           </div>
         </div>`;
-
+      document.title = `Species | ${homeTitle}`;
+      focusView(moveFocus, viewHeading());
     }
 
-    function showCuratedPage(title, list, hash, emptyText, skipHash) {
+    function showCuratedPage(title, list, hash, emptyText, skipHash, moveFocus = true) {
       if (!skipHash) history.pushState({[hash]: true}, '', `#${hash}`);
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
@@ -1017,7 +1062,7 @@
             <div style="display:flex;align-items:center;justify-content:space-between">
               <div style="display:flex;align-items:center;gap:16px">
                 <button onclick="history.back()" style="background:rgba(255,255,255,0.15);border:none;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:1.1rem;color:white;display:flex;align-items:center;justify-content:center;flex-shrink:0" title="Go back" aria-label="Go back">←</button>
-                <h2 style="margin:0">${title} (${list.length})</h2>
+                <h2 tabindex="-1" style="margin:0">${title} (${list.length})</h2>
               </div>
             </div>
           </div>
@@ -1034,27 +1079,29 @@
           if (match) selectCamellia(match);
         });
       });
+      document.title = `${title} | ${homeTitle}`;
+      focusView(moveFocus, viewHeading());
     }
 
-    function showFragrantPage(skipHash) {
-      showCuratedPage('Fragrant Camellias', fragrantCamellias, 'fragrant', 'No fragrant camellias found.', skipHash);
+    function showFragrantPage(skipHash, moveFocus) {
+      showCuratedPage('Fragrant Camellias', fragrantCamellias, 'fragrant', 'No fragrant camellias found.', skipHash, moveFocus);
     }
 
-    function showYellowPage(skipHash) {
-      showCuratedPage('Yellow Camellias', yellowCamellias, 'yellow', 'No yellow camellias found.', skipHash);
+    function showYellowPage(skipHash, moveFocus) {
+      showCuratedPage('Yellow Camellias', yellowCamellias, 'yellow', 'No yellow camellias found.', skipHash, moveFocus);
     }
 
 
-    function navigateHash(hash, skipHistory) {
+    function navigateHash(hash, skipHistory, moveFocus = true) {
       if (hash === 'species') {
-        showSpeciesPage(skipHistory);
+        showSpeciesPage(skipHistory, moveFocus);
       } else if (hash === 'fragrant') {
-        showFragrantPage(skipHistory);
+        showFragrantPage(skipHistory, moveFocus);
       } else if (hash === 'yellow') {
-        showYellowPage(skipHistory);
+        showYellowPage(skipHistory, moveFocus);
       } else if (hash && camellias.length) {
         const match = camellias.find(c => c.name.toLowerCase() === hash.toLowerCase());
-        if (match) selectCamellia(match, true);
+        if (match) selectCamellia(match, true, moveFocus);
       } else {
         // Back to home
         document.getElementById('search').value = '';
@@ -1062,6 +1109,8 @@
         results.innerHTML = '';
         document.getElementById('searchHints').style.display = '';
         document.getElementById('homeSection').style.display = '';
+        document.title = homeTitle;
+        focusView(moveFocus, search); // the link that opened the view, else the search box
       }
     }
 
@@ -1078,7 +1127,7 @@
       ]))
       .then(() => {
         const hash = decodeURIComponent(location.hash.slice(1));
-        if (hash) navigateHash(hash, true);
+        if (hash) navigateHash(hash, true, false); // initial load: don't move focus
       });
   </script>
   <div class="report-link-wrap">

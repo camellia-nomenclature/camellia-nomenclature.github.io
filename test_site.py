@@ -585,6 +585,23 @@ def test_match_count(context):
 
 SEARCH_FOCUSED = "document.activeElement === document.getElementById('search')"
 
+FOCUS_INFO = """() => {
+  const a = document.activeElement, r = a.getBoundingClientRect();
+  return { tag: a.tagName, id: a.id, text: (a.textContent || '').trim(),
+           heading: a.matches('.card-header h2'), href: a.getAttribute('href'),
+           camellia: a.dataset ? a.dataset.camellia || null : null,
+           inView: r.bottom > 0 && r.top < innerHeight, scrollY: Math.round(scrollY) };
+}"""
+
+
+def assert_heading_focused(page, text, prefix=False):
+    """Focus is on the current view's heading (.card-header h2) and it is on screen."""
+    f = page.evaluate(FOCUS_INFO)
+    ok = f["heading"] and (f["text"].startswith(text) if prefix else f["text"] == text)
+    assert ok, f"Expected focus on heading {text!r}, got {f['tag']} {f['text'][:40]!r}"
+    assert f["inView"], f"Focused heading {text!r} is off-screen (scrollY={f['scrollY']})"
+    return f
+
 
 def test_option_pick(context):
     """Tapping (touch) or clicking an option selects it and leaves the search box
@@ -598,6 +615,7 @@ def test_option_pick(context):
     expect_card(page, "Kwan Yuen Special")
     expect(page.locator("#search")).to_have_attribute("aria-expanded", "false")
     assert not page.evaluate(SEARCH_FOCUSED), "Focus stayed in #search after picking an option"
+    assert_heading_focused(page, "Kwan Yuen Special")
     assert not js_errors, f"JS errors: {js_errors}"
 
 
@@ -607,6 +625,7 @@ def test_enter_pick(context):
     page.keyboard.press("Enter")
     expect_card(page, "Kwan Yuen Special")
     assert not page.evaluate(SEARCH_FOCUSED), "Focus stayed in #search after Enter on an option"
+    assert_heading_focused(page, "Kwan Yuen Special")
     assert not js_errors, f"JS errors: {js_errors}"
 
 
@@ -711,6 +730,227 @@ def test_open_list_overflow(context):
     assert not js_errors, f"JS errors: {js_errors}"
 
 
+# --- Item 4 checks: focus on view changes / Back (F02), titles (F11), ✕ on deep link (F15) ---
+
+HOME_TITLE = "Camellia Lookup"
+
+
+def open_home(context):
+    page, js_errors = make_page(context)
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_startup(page)
+    return page, js_errors
+
+
+def expect_list(page, prefix):
+    expect(page.locator(".card-header h2")).to_contain_text(prefix, timeout=TIMEOUT)
+
+
+def expect_home(page):
+    expect(page.locator("#homeSection")).to_be_visible(timeout=TIMEOUT)
+    expect(page.locator("#results .card")).to_have_count(0, timeout=TIMEOUT)
+
+
+def focus_info(page):
+    return page.evaluate(FOCUS_INFO)
+
+
+def test_focus_pills_and_hash(context):
+    """Pill → list heading (scrollY stays 0, as before); Back → that pill; hash edit → card heading."""
+    page, js_errors = open_home(context)
+    for href, prefix in (("#species", "Species ("), ("#fragrant", "Fragrant Camellias (")):
+        page.click(f"a.home-link[href='{href}']")
+        expect_list(page, prefix)
+        f = assert_heading_focused(page, prefix, prefix=True)
+        assert f["scrollY"] == 0, f"Pill {href}: scrollY {f['scrollY']}, expected 0 (unchanged behaviour)"
+        page.go_back()
+        expect_home(page)
+        f = focus_info(page)
+        assert f["href"] == href, f"Back to home: focus on {f['tag']} {f['href'] or f['id']!r}, expected the {href} pill"
+    page.evaluate("location.hash = '#Yuletide'")  # same-document hash navigation
+    expect_card(page, "Yuletide")
+    f = assert_heading_focused(page, "Yuletide")
+    assert f["scrollY"] == 0, f"Hash navigation: scrollY {f['scrollY']}, expected 0"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_focus_back_forward(context):
+    page, js_errors = open_home(context)
+    page.click("a.home-link[href='#species']")
+    expect_list(page, "Species (")
+    page.evaluate("location.hash = '#Yuletide'")
+    expect_card(page, "Yuletide")
+    assert_heading_focused(page, "Yuletide")
+    page.go_back()
+    expect_list(page, "Species (")
+    assert_heading_focused(page, "Species (", prefix=True)
+    page.go_forward()
+    expect_card(page, "Yuletide")
+    assert_heading_focused(page, "Yuletide")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_focus_back_to_list_keeps_scroll(context):
+    """Far list row → card (heading focused, scrollY 0 as before) → Back: scroll restored and
+    the activated list link focused; Forward: card heading again."""
+    page, js_errors = open_home(context)
+    page.click("a.home-link[href='#fragrant']")
+    expect_list(page, "Fragrant Camellias (")
+    link = page.locator(".list-link").nth(120)
+    link.scroll_into_view_if_needed()
+    y0 = page.evaluate("Math.round(scrollY)")
+    name = link.get_attribute("data-camellia")
+    link.click()
+    expect_card(page, name)
+    f = assert_heading_focused(page, name)
+    assert f["scrollY"] == 0, f"List link: scrollY {f['scrollY']}, expected 0 (unchanged behaviour)"
+    page.go_back()
+    expect_list(page, "Fragrant Camellias (")
+    page.wait_for_function("y0 => Math.abs(scrollY - y0) <= 2", arg=y0, timeout=TIMEOUT)
+    f = focus_info(page)
+    assert f["camellia"] == name, f"Back to list: focus on {f['tag']} {f['text'][:40]!r}, expected link {name!r}"
+    assert f["inView"], "Restored list link is off-screen"
+    page.go_forward()
+    expect_card(page, name)
+    assert_heading_focused(page, name)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_focus_back_to_home_fallback(context):
+    """Back to home focuses the opener; with no opener (hash edit) or a missing one, #search."""
+    page, js_errors = open_home(context)
+    page.fill("#search", "Kwan Yuen Special")  # search pick: the opener is the search box
+    page.locator(".dropdown-item").first.click()
+    expect_card(page, "Kwan Yuen Special")
+    page.go_back()
+    expect_home(page)
+    assert page.evaluate(SEARCH_FOCUSED), f"After a search pick + Back: focus on {focus_info(page)}"
+    page.evaluate("location.hash = '#Yuletide'")  # no opener remembered for a hash edit
+    expect_card(page, "Yuletide")
+    page.go_back()
+    expect_home(page)
+    assert page.evaluate(SEARCH_FOCUSED), f"No opener + Back: focus on {focus_info(page)}"
+    # opener gone: the remembered element no longer exists
+    page.evaluate("""() => history.replaceState({ ...history.state, returnFocus: 'a.home-link[href="#gone"]' }, '')""")
+    page.evaluate("location.hash = '#Yuletide'")
+    expect_card(page, "Yuletide")
+    page.go_back()
+    expect_home(page)
+    assert page.evaluate(SEARCH_FOCUSED), f"Missing opener + Back: focus on {focus_info(page)}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_initial_deep_link_keeps_focus(context):
+    """Decision: the initial page load never moves focus or scrolls (html guide: focus moves
+    are for user-initiated view changes)."""
+    for path, wait in (("/#Kwan%20Yuen%20Special", lambda p: expect_card(p, "Kwan Yuen Special")),
+                       ("/#fragrant", lambda p: expect_list(p, "Fragrant Camellias ("))):
+        page, js_errors = make_page(context)
+        page.goto(BASE + path, wait_until="commit", timeout=10000)
+        wait(page)
+        wait_for_startup(page)
+        f = focus_info(page)
+        assert f["tag"] == "BODY", f"{path}: initial load moved focus to {f['tag']} {f['text'][:40]!r}"
+        assert f["scrollY"] == 0, f"{path}: initial load scrolled to {f['scrollY']}"
+        assert not js_errors, f"JS errors on {path}: {js_errors}"
+        page.close()
+
+
+def test_titles(context):
+    page, js_errors = open_home(context)
+    expect(page).to_have_title(HOME_TITLE)
+    for href, title in (("#species", "Species"), ("#fragrant", "Fragrant Camellias"),
+                        ("#yellow", "Yellow Camellias")):
+        page.click(f"a.home-link[href='{href}']")
+        expect(page).to_have_title(f"{title} | {HOME_TITLE}", timeout=TIMEOUT)
+        page.go_back()
+        expect(page).to_have_title(HOME_TITLE, timeout=TIMEOUT)
+    page.fill("#search", "Kwan Yuen Special")
+    page.locator(".dropdown-item").first.click()
+    expect_card(page, "Kwan Yuen Special")
+    expect(page).to_have_title(f"Kwan Yuen Special | {HOME_TITLE}")
+    page.go_back()
+    expect(page).to_have_title(HOME_TITLE, timeout=TIMEOUT)
+    page.goto(f"{BASE}/#Yuletide", wait_until="commit", timeout=10000)  # deep link
+    expect_card(page, "Yuletide")
+    expect(page).to_have_title(f"Yuletide | {HOME_TITLE}")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_clear_button(context):
+    """✕ is visible when a card opens from a deep link, hidden on home (and after Back)."""
+    page, js_errors = make_page(context)
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    expect(page.locator("#clearBtn")).to_be_visible()
+    page2, js_errors2 = open_home(context)
+    expect(page2.locator("#clearBtn")).to_be_hidden()
+    page2.evaluate("location.hash = '#Yuletide'")
+    expect_card(page2, "Yuletide")
+    expect(page2.locator("#clearBtn")).to_be_visible()
+    page2.go_back()
+    expect_home(page2)
+    expect(page2.locator("#clearBtn")).to_be_hidden()
+    assert not js_errors and not js_errors2, f"JS errors: {js_errors + js_errors2}"
+
+
+def test_zero_count_not_rewritten(context):
+    """0 → 0: once "No matches" is announced, another non-matching query writes nothing."""
+    page, js_errors = make_page(context)
+    page.clock.install()
+    page.goto(BASE + "/", wait_until="commit", timeout=10000)
+    wait_for_data(page)
+    status = page.locator("#searchStatus")
+    page.click("#search")
+    page.keyboard.type("zzq")
+    page.clock.run_for(500)
+    expect(status).to_have_text("No matches")
+    page.evaluate("""() => { window.__statusWrites = 0;
+      new MutationObserver(r => { window.__statusWrites += r.length; })
+        .observe(document.getElementById('searchStatus'), { childList: true, characterData: true, subtree: true }); }""")
+    page.keyboard.type("x")  # "zzqx": still no matches
+    page.clock.run_for(500)
+    writes = page.evaluate("window.__statusWrites")
+    assert writes == 0, f"Unchanged 'No matches' was rewritten ({writes} mutation records)"
+    expect(status).to_have_text("No matches")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+NO_SELECTED_OPTION = "document.querySelectorAll('#dropdown [aria-selected=true]').length"
+
+
+def test_aria_selected_cleared_on_close(context):
+    page, js_errors = open_search(context, "kwan")
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Escape")
+    assert page.evaluate(NO_SELECTED_OPTION) == 0, "aria-selected=true left on an option after Escape"
+    page.keyboard.press("Backspace")  # "kwa": reopen
+    expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Tab")
+    assert page.evaluate(NO_SELECTED_OPTION) == 0, "aria-selected=true left on an option after Tab"
+    page.locator("#search").fill("Kwan Yuen Special")
+    page.locator("#search").focus()
+    page.keyboard.press("ArrowDown")
+    page.keyboard.press("Enter")
+    expect_card(page, "Kwan Yuen Special")
+    assert page.evaluate(NO_SELECTED_OPTION) == 0, "aria-selected=true left on an option after Enter"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+ITEM4_TESTS = (
+    ("focus: pill → list heading, Back → pill, hash nav → card heading", test_focus_pills_and_hash),
+    ("focus: Back/Forward → heading of the restored view", test_focus_back_forward),
+    ("focus: Back to a list → activated link, scroll restored", test_focus_back_to_list_keeps_scroll),
+    ("focus: Back to home → opener, else #search", test_focus_back_to_home_fallback),
+    ("initial deep link does not move focus or scroll", test_initial_deep_link_keeps_focus),
+    ("document.title per view and after Back", test_titles),
+    ("clear button visible on deep-link card, hidden on home", test_clear_button),
+    ("0 → 0 match count is not rewritten", test_zero_count_not_rewritten),
+    ("aria-selected cleared when the list closes (Esc/Tab/Enter)", test_aria_selected_cleared_on_close),
+)
+
+
 ITEM3_TESTS = (
     ("search combobox, listbox, options and back button are named", test_search_names),
     ("home links' names contain their visible text", test_home_link_names),
@@ -766,9 +1006,10 @@ def main():
         p3, f3 = run_block(browser, "Item 3 checks: each reports PASS/FAIL", per_viewport(ITEM3_TESTS) + [
             (f"width {w}", width_opts(w), "no horizontal overflow with the list open", test_open_list_overflow)
             for w in OVERFLOW_WIDTHS])
+        p4, f4 = run_block(browser, "Item 4 checks: each reports PASS/FAIL", per_viewport(ITEM4_TESTS))
         browser.close()
-    passed += p2 + p3
-    failed = f2 + f3
+    passed += p2 + p3 + p4
+    failed = f2 + f3 + f4
     print(f"\n{passed} checks passed ({BROWSER}).")
     if failed:
         print(f"{len(failed)} check(s) FAILED: " + "; ".join(failed))
