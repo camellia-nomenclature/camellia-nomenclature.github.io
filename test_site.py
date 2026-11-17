@@ -1439,7 +1439,9 @@ def test_list_modifier_clicks(context):
     page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
     expect_list(page, "Fragrant Camellias (")
     out = page.evaluate("""() => {
-      const seen = [];
+      // Runs after the row's own handler (bubble phase on document): records whether the app
+      // prevented the click, then cancels the browser's navigation so no tab opens.
+      const seen = window.__prevented = [];
       document.addEventListener('click', e => { seen.push(e.defaultPrevented); e.preventDefault(); });
       const link = document.querySelector('.list-link'), out = {};
       for (const [name, init] of Object.entries({ ctrl: { ctrlKey: true }, meta: { metaKey: true },
@@ -1454,13 +1456,145 @@ def test_list_modifier_clicks(context):
            or not v["heading"].startswith("Fragrant Camellias (")}
     assert not bad, f"Modified/middle clicks were handled in-page: {bad}"
     name = page.locator(".list-link").first.get_attribute("data-camellia")
-    prevented = page.evaluate("""() => { let p = null;
-      document.addEventListener('click', e => { p = e.defaultPrevented; }, { once: true });
+    prevented = page.evaluate("""() => {
       document.querySelector('.list-link').dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
-      return p; }""")
+      return window.__prevented.pop(); }""")
     assert prevented is True, "A plain click on a list row was not handled in-page"
     expect_card(page, name)
     assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_state_text_contrast(context):
+    """The card's loading, not-found (no entry, or HTTP 500) and error texts and the empty-list
+    text are >=4.5:1 on the white card. Data files are held or faked with page.route."""
+    page, js_errors = open_home(context)
+    held = hold_letter(page, "K")
+    page.evaluate("location.hash = '#Kwan%20Yuen%20Special'")
+    expect(page.locator(".card-body")).to_contain_text("Loading details...", timeout=TIMEOUT)
+    got = {"loading": assert_text_contrast(page, "loading", ".card-body", [".card"])}
+    wait_held(page, held)
+    held[0].abort()
+    page.close()
+    for label, fulfil in (("not found (no entry)", dict(status=200, content_type="application/json", body="[]")),
+                          ("not found (HTTP 500)", dict(status=500, body="")),
+                          ("load error", dict(status=200, content_type="application/json",
+                                              body='[{"name": "Kwan Yuen Special", "species": "Reticulata", "description": {"not": "a string"}}]'))):
+        page, errs = make_page(context)
+        page.route("**/data/K.json", (lambda f: lambda route: route.fulfill(**f))(fulfil))
+        page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+        want = "Failed to load entry." if label == "load error" else "Entry not found."
+        expect(page.locator(".card-body")).to_contain_text(want, timeout=TIMEOUT)
+        got[label] = assert_text_contrast(page, label, ".card-body", [".card"])
+        page.close()
+    page, errs = make_page(context)
+    page.route("**/data/fragrant-camellias.json", lambda route: route.fulfill(status=200, content_type="application/json", body="[]"))
+    page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
+    expect(page.locator(".empty-state")).to_contain_text("No fragrant camellias found.", timeout=TIMEOUT)
+    got["empty list"] = assert_text_contrast(page, "empty list", ".empty-state p", [".card"])
+    assert not js_errors, f"JS errors: {js_errors}"
+    return "min: " + ", ".join(f"{k} {v:.2f}" for k, v in got.items())
+
+
+# Records each `new Image()` load/error after the app's own handler for it has run.
+TRACK_IMAGES = """
+window.__imgEvents = [];
+const NativeImage = window.Image;
+window.Image = function (...args) {
+  const img = new NativeImage(...args);
+  for (const type of ['load', 'error'])
+    img.addEventListener(type, () => setTimeout(() => window.__imgEvents.push([type, img.src]), 0));
+  return img;
+};"""
+
+
+def test_stale_photo(context):
+    """Card A's photo arriving after card B opened must not land on card B."""
+    context.add_init_script(TRACK_IMAGES)
+    page, js_errors = make_page(context)
+    held = []
+    page.route(re.compile(r"\.jpe?g$", re.I), lambda route: held.append(route))  # both photos (B's is .JPG)
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    page.evaluate("location.hash = '#Yuletide'")
+    expect_card(page, "Yuletide")
+    for _ in range(200):
+        if len(held) >= 2:
+            break
+        page.wait_for_timeout(25)
+    assert len(held) >= 2, f"Expected both photo requests to be held, got {len(held)}"
+    a, b = held[0], held[1]
+    assert "Kwan" in a.request.url, f"First held photo is not card A's: {a.request.url}"
+    a.fulfill(status=200, content_type="image/gif", body=TINY_GIF)  # A's photo arrives late
+    page.wait_for_function("u => window.__imgEvents.some(e => e[1] === u)", arg=a.request.url, timeout=TIMEOUT)
+    stale = page.locator(".card-image img[alt='Kwan Yuen Special']").count()
+    assert stale == 0, "Card A's photo landed on card B"
+    expect(page.locator("#img-placeholder .spinner")).to_be_visible()  # B still waits for its own
+    b.fulfill(status=200, content_type="image/gif", body=TINY_GIF)
+    expect(page.locator(".card-image img[alt='Yuletide']")).to_have_count(1, timeout=TIMEOUT)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+LONG_QUERY = "Shirokingyoba Tsubaki White Goldfish"
+TEXT_EDGE = """() => {
+  const s = document.getElementById('search'), x = document.getElementById('clearBtn');
+  const r = s.getBoundingClientRect(), cr = x.getBoundingClientRect();
+  const textRight = r.right - parseFloat(getComputedStyle(s).paddingRight) - parseFloat(getComputedStyle(s).borderRightWidth);
+  const y = cr.top + cr.height / 2;
+  let hitLeft = null;  // first x (scanning left to right) that hits the ✕
+  for (let px = Math.floor(textRight) - 12; px < r.right; px++) {
+    if (document.elementFromPoint(px, y) === x) { hitLeft = px; break; }
+  }
+  return { textRight, y, hitLeft, atEdge: document.elementFromPoint(textRight - 2, y) === s };
+}"""
+
+
+def test_clear_hit_area_clear_of_text(context):
+    """The ✕ hit area never reaches into the input's editable text area (any width/pointer);
+    on coarse pointers it is still >=44px."""
+    page, js_errors = open_home(context)
+    page.fill("#search", LONG_QUERY)
+    expect(page.locator("#clearBtn")).to_be_visible()
+    g = page.evaluate(TEXT_EDGE)
+    assert g["atEdge"], f"2px inside the text area's right end hits something other than #search: {g}"
+    assert g["hitLeft"] is not None and g["hitLeft"] >= g["textRight"], f"✕ hit area overlaps the text area: {g}"
+    coarse = page.evaluate("matchMedia('(pointer: coarse)').matches")
+    hit = page.evaluate(HIT_BOX, "#clearBtn")
+    need = 44 if coarse else 24
+    assert hit["w"] >= need and hit["h"] >= need, f"✕ hit area {hit} under {need}px (coarse={coarse})"
+    assert not js_errors, f"JS errors: {js_errors}"
+    return f"text ends {g['textRight']:.1f}, ✕ hit starts {g['hitLeft']}, ✕ hit {hit['w']}x{hit['h']}"
+
+
+def test_tap_end_of_query(context):
+    """Real tap 2px inside the right end of a long query keeps the text."""
+    page, js_errors = open_home(context)
+    page.fill("#search", LONG_QUERY)
+    expect(page.locator("#clearBtn")).to_be_visible()
+    g = page.evaluate(TEXT_EDGE)
+    page.touchscreen.tap(g["textRight"] - 2, g["y"])
+    page.wait_for_timeout(100)  # let a (wrong) ✕ click handler run if the tap reached it
+    assert page.locator("#search").input_value() == LONG_QUERY, "Tapping the end of the query cleared it"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_tap_clear(context):
+    """Real tap on the ✕ centre clears the query."""
+    page, js_errors = open_home(context)
+    page.fill("#search", LONG_QUERY)
+    box = page.locator("#clearBtn").bounding_box()
+    page.touchscreen.tap(box["x"] + box["width"] / 2, box["y"] + box["height"] / 2)
+    expect(page.locator("#search")).to_have_value("", timeout=TIMEOUT)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+TABLET_TOUCH = dict(viewport={"width": 768, "height": 1024}, is_mobile=True, has_touch=True)
+
+
+def pointer_opts(width, coarse):
+    opts = dict(viewport={"width": width, "height": 900 if width > 600 else 844})
+    if coarse:
+        opts.update(is_mobile=True, has_touch=True)
+    return opts
 
 
 ITEM5_TESTS = (
@@ -1472,6 +1606,8 @@ ITEM5_TESTS = (
     ("description links wrap between words", test_link_wrapping),
     ("card photo requested with fetchpriority=high", test_photo_fetch_priority),
     ("list rows: modified/middle clicks left to the browser", test_list_modifier_clicks),
+    ("loading / not-found / error / empty-list text contrast >=4.5:1", test_state_text_contrast),
+    ("a late photo for card A never lands on card B", test_stale_photo),
 )
 
 
@@ -1515,7 +1651,11 @@ def main():
             (f"width {w}", width_opts(w), "no horizontal overflow with the list open", test_open_list_overflow)
             for w in OVERFLOW_WIDTHS])
         p4, f4 = run_block(browser, "Item 4 checks: each reports PASS/FAIL", per_viewport(ITEM4_TESTS))
-        p5, f5 = run_block(browser, "Item 5 checks: each reports PASS/FAIL", per_viewport(ITEM5_TESTS))
+        p5, f5 = run_block(browser, "Item 5 checks: each reports PASS/FAIL", per_viewport(ITEM5_TESTS) + [
+            (f"width {w} {'coarse' if c else 'fine'}", pointer_opts(w, c), "✕ hit area stays out of the text",
+             test_clear_hit_area_clear_of_text) for w in (320, 390, 768, 1440) for c in (True, False)] + [
+            ("768x1024 touch", TABLET_TOUCH, "tap at the end of a long query keeps it", test_tap_end_of_query),
+            ("768x1024 touch", TABLET_TOUCH, "tap on ✕ clears the query", test_tap_clear)])
         browser.close()
     passed += p2 + p3 + p4 + p5
     failed = f2 + f3 + f4 + f5

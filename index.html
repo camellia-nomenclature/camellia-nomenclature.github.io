@@ -253,7 +253,7 @@
     .empty-state {
       text-align: center;
       padding: 4rem 1rem;
-      color: #aaa;
+      color: #6b6b6b;
     }
     .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
     .empty-state p { font-size: 1.1rem; }
@@ -336,6 +336,9 @@
         inset: min(0px, calc(50% - 22px));
       }
       .home-links { row-gap: 1rem; }
+      /* The ✕ hit area reaches 47.6px in from the input's right edge above 600px (46px
+         below, where the mobile block keeps 3rem): keep it out of the editable text. */
+      #search { padding-right: 3.25rem; }
     }
     /* Visually hidden but still read by screen readers (copy-link status) */
     .visually-hidden:where(:not(:focus-within, :active)) {
@@ -927,7 +930,7 @@
       if (!skipHash) history.pushState({cultivar: c.name}, '', '#' + encodeURIComponent(c.name));
       document.getElementById('searchHints').style.display = 'none';
       document.getElementById('homeSection').style.display = 'none';
-      results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#888;">Loading details...</div></div>';
+      results.innerHTML = '<div class="card"><div class="card-header"><h2>' + c.name + '</h2></div><div class="card-body" style="justify-content:center;padding:2rem;color:#6b6b6b;">Loading details...</div></div>';
       // Recorded after search.blur() and after the old view is gone: when the data arrives,
       // the heading only takes focus if the user hasn't moved it meanwhile.
       const focusAtStart = document.activeElement;
@@ -936,7 +939,7 @@
       try {
       const full = await fetchFullEntry(c.name);
       if (token !== navToken) return; // the user has moved on
-      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#888;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus && focusUnmoved(focusAtStart), viewHeading()); return; }
+      if (!full) { results.innerHTML = `<div class="card"><div class="card-header"><h2 tabindex="-1">${c.name}</h2></div><div class="card-body" style="color:#6b6b6b;padding:2rem;text-align:center;">Entry not found.</div></div>`; focusView(moveFocus && focusUnmoved(focusAtStart), viewHeading()); return; }
       c = full;
 
       // Image URL: use stored image field first, fallback to SoCal pattern
@@ -968,13 +971,16 @@
         (() => {
           const img = new Image();
           img.fetchPriority = 'high';
+          // The user may have opened another card meanwhile: its placeholder is not ours.
           const imgFallback = () => {
+            if (token !== navToken) return;
             const ph = document.getElementById('img-placeholder');
             if (ph) ph.innerHTML = '<img src="assets/camellia-icon.png" alt="Camellia" style="width:2.2rem;height:2.2rem;object-fit:contain;display:block;margin:0 auto 0.25rem;"><br>No photo available';
           };
           const loadTimer = setTimeout(imgFallback, 10000);
           img.onload = () => {
             clearTimeout(loadTimer);
+            if (token !== navToken) return;
             const ph = document.getElementById('img-placeholder');
             if (ph) {
               img.alt = c.name;
