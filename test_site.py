@@ -978,13 +978,8 @@ def test_modified_click_records_nothing(context):
 RING = """(sel) => {
   const el = document.querySelector(sel), cs = getComputedStyle(el);
   return { focused: document.activeElement === el, focusVisible: el.matches(':focus-visible'),
-           style: cs.outlineStyle, width: parseFloat(cs.outlineWidth), color: cs.outlineColor,
-           bg: getComputedStyle(el.closest('.card-header, .header')).backgroundImage };
+           style: cs.outlineStyle, width: parseFloat(cs.outlineWidth), color: cs.outlineColor };
 }"""
-
-
-def _rgb_list(text):
-    return [tuple(int(float(v)) for v in m[:3]) for m in re.findall(r"rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)", text)]
 
 
 def _contrast(a, b):
@@ -996,51 +991,47 @@ def _contrast(a, b):
     return (hi + 0.05) / (lo + 0.05)
 
 
-def assert_ring(page, sel):
-    r = page.evaluate(RING, sel)
-    assert r["focused"], f"{sel} is not focused"
-    assert r["focusVisible"], f"{sel} does not match :focus-visible after a keyboard action"
-    assert r["style"] != "none" and r["width"] >= 2, f"{sel} focus ring: {r['style']} {r['width']}px"
-    ring, stops = _rgb_list(r["color"])[0], _rgb_list(r["bg"])
-    assert stops, f"No header background colours in {r['bg']!r}"
-    worst = min(_contrast(ring, s) for s in stops)
-    assert worst >= 3, f"{sel} ring {r['color']} contrast {worst:.2f}:1 vs header {stops} (< 3:1)"
-    return worst
-
-
-# WebKit only applies :focus-visible to script focus made synchronously inside a keydown that
-# is not default-prevented; the app focuses after a fetch or popstate, so in WebKit the ring is
-# exercised by re-focusing the heading from such a keydown (test-only listener, F2).
+# Re-focuses sel from inside a non-prevented keydown (F2, test-only listener): both engines
+# then match :focus-visible, so a "no outline" check covers the keyboard case too. (WebKit
+# only applies :focus-visible to script focus made synchronously in such a keydown; the app
+# focuses after a fetch or popstate.)
 REFOCUS_ON_F2 = """(sel) => document.addEventListener('keydown', e => {
   if (e.key === 'F2') document.querySelector(sel).focus({ preventScroll: true });
 }, { once: true })"""
 
 
-def check_ring(page, sel):
-    if BROWSER == "webkit":
-        page.evaluate(REFOCUS_ON_F2, sel)
-        page.keyboard.press("F2")
-    return assert_ring(page, sel)
+def assert_no_outline(page, sel):
+    """sel has focus and draws no outline (not even the UA's); returns :focus-visible."""
+    r = page.evaluate(RING, sel)
+    assert r["focused"], f"{sel} is not focused"
+    assert r["style"] == "none" or r["width"] == 0, f"{sel} draws an outline: {r['style']} {r['width']}px {r['color']}"
+    return r["focusVisible"]
 
 
-def test_heading_focus_ring(context):
+def test_heading_focus_no_outline(context):
     """Keyboard path: Enter on an option focuses the card heading; Enter on the focused back
-    button returns home and focuses the h1. Both get a visible :focus-visible ring, >=3:1 against
-    the header gradient's stops."""
+    button returns home and focuses the h1. Focus lands on the headings, but they draw no
+    outline (not even the UA one), also while :focus-visible matches."""
     page, js_errors = open_search(context, "Kwan Yuen Special")
     page.keyboard.press("ArrowDown")
     page.keyboard.press("Enter")
     expect_card(page, "Kwan Yuen Special")
     assert_heading_focused(page, "Kwan Yuen Special")
-    card = check_ring(page, ".card-header h2")
+    card = assert_no_outline(page, ".card-header h2")
+    page.evaluate(REFOCUS_ON_F2, ".card-header h2")  # keydown re-focus: :focus-visible in both engines
+    page.keyboard.press("F2")
+    card_fv = assert_no_outline(page, ".card-header h2")
     page.locator(".card-header button[title='Go back']").focus()
     page.keyboard.press("Enter")
     expect_home(page)
     assert page.evaluate(HOME_HEADING_FOCUSED), f"Back to home: focus on {focus_info(page)}"
-    home = check_ring(page, ".header h1")
+    home = assert_no_outline(page, ".header h1")
+    page.evaluate(REFOCUS_ON_F2, ".header h1")  # keydown re-focus: :focus-visible in both engines
+    page.keyboard.press("F2")
+    home_fv = assert_no_outline(page, ".header h1")
+    assert card_fv and home_fv, f":focus-visible never matched (card {card_fv}, home {home_fv}): the check is vacuous"
     assert not js_errors, f"JS errors: {js_errors}"
-    how = "app focus path" if BROWSER != "webkit" else "app focus, ring via F2 keydown re-focus"
-    return f"{how}; min ring contrast: card {card:.2f}:1, home {home:.2f}:1"
+    return f"no outline; :focus-visible after app focus: card {card}, home {home}; after F2 re-focus: True"
 
 
 def test_initial_deep_link_keeps_focus(context):
@@ -1148,7 +1139,7 @@ ITEM4_TESTS = (
     ("focus: Back to home → opener (pill), else the home h1", test_focus_back_to_home_fallback),
     ("focus: search pick A → pick B → Back → card A heading", test_focus_back_between_picks),
     ("slow card load does not replace the newer view or take focus", test_stale_card_load),
-    ("header headings get a visible ≥3:1 :focus-visible ring", test_heading_focus_ring),
+    ("header headings take focus but draw no outline, even under :focus-visible", test_heading_focus_no_outline),
     ("slow load: focus moved to ✕ stays there", test_held_load_focus_on_clear),
     ("slow load: typing in #search keeps focus there", test_held_load_typing_in_search),
     ("slow load with untouched focus still focuses the heading", test_held_load_untouched_focus),
@@ -1232,8 +1223,9 @@ def assert_ring_ok(page, sel, bg_sels, keyboard=True):
 
 
 def test_focus_rings(context):
-    """Every control type shows a >=2px ring, >=3:1 against the background it sits on, under
-    :focus-visible; a mouse click on a button shows none."""
+    """Every link and button shows a >=2px ring, >=3:1 against the background it sits on, under
+    :focus-visible; #search never draws one (the caret is enough); a mouse click on a button
+    shows none."""
     grant_clipboard(context)
     page, js_errors = open_home(context)
     worst = {}
@@ -1243,7 +1235,11 @@ def test_focus_rings(context):
     page.click("#search")
     page.keyboard.type("kwan")
     expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
-    worst["search box"] = assert_ring_ok(page, "#search", ["body", ".header"])
+    r = page.evaluate(CONTROL_RING, "#search")  # clicked: the caret is the only indicator
+    assert r["focused"] and (r["style"] == "none" or r["width"] == 0), f"#search after a click: {r}"
+    r = ring_report(page, "#search", ["body"])  # keyboard re-focus: still no outline
+    assert r["focused"] and r["focusVisible"], f"#search: {r}"
+    assert r["style"] == "none" or r["width"] == 0, f"#search draws an outline under :focus-visible: {r}"
     page.keyboard.press("ArrowDown")  # active option: aria-activedescendant, ring drawn inset
     worst["search option"] = assert_ring_ok(page, ".dropdown-item.selected", [".dropdown-item.selected"], keyboard=False)
     page.keyboard.press("Escape")
@@ -1263,6 +1259,158 @@ def test_focus_rings(context):
     worst["list link"] = assert_ring_ok(page, ".list-link", [".card"])
     assert not js_errors, f"JS errors: {js_errors}"
     return "min ring contrast: " + ", ".join(f"{k} {v:.2f}" for k, v in worst.items())
+
+
+# The focused element (or <body>) and its outline, for the pointer and Tab checks.
+ACTIVE_OUTLINE = """() => {
+  const a = document.activeElement || document.body, cs = getComputedStyle(a);
+  const name = (a.getAttribute('aria-label') || a.textContent || '').trim().replace(/\\s+/g, ' ');
+  const tag = a.tagName.toLowerCase() + (a.id ? '#' + a.id : '') + (a.classList[0] ? '.' + a.classList[0] : '');
+  return { tag, name: name.slice(0, 24), focusVisible: a.matches(':focus-visible'),
+           style: cs.outlineStyle, width: parseFloat(cs.outlineWidth), color: cs.outlineColor };
+}"""
+
+
+def pointer_check(page, what, results):
+    """After a real click/tap on `what`: whatever has focus draws no outline. Records
+    (what, activeElement, :focus-visible, outline) for the note."""
+    r = page.evaluate(ACTIVE_OUTLINE)
+    results.append(f"{what} → {r['tag']} fv={'Y' if r['focusVisible'] else 'N'} {r['style']}/{r['width']:g}")
+    assert r["style"] == "none" or r["width"] == 0, f"{what}: focused {r['tag']} {r['name']!r} draws an outline: {r}"
+
+
+def test_pointer_no_outline(context):
+    """Real mouse clicks (fine pointer) or taps (touch) on the search box, an option, ✕, 🔗,
+    ←, a description link, the external ACS link, the header link, a pill and a list link:
+    nothing that ends up focused draws an outline, in either engine. Hovering an option never
+    makes it the active (outlined) option."""
+    grant_clipboard(context)
+    context.add_init_script(RECORD_CLIPBOARD)
+    page, js_errors = open_home(context)
+    touch = page.evaluate("matchMedia('(pointer: coarse)').matches")
+    act = (lambda loc: loc.tap()) if touch else (lambda loc: loc.click())
+    done = []
+    act(page.locator("#search"))
+    pointer_check(page, "#search", done)
+    page.keyboard.type("kwan")
+    expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
+    if not touch:
+        page.locator(".dropdown-item").nth(1).hover()
+        assert page.locator(".dropdown-item.selected").count() == 0, "Hover made an option the active one"
+    act(page.locator("#clearBtn"))
+    expect(page.locator("#search")).to_have_value("")
+    pointer_check(page, "✕", done)
+    page.keyboard.type("Kwan Yuen Special")
+    act(page.locator(".dropdown-item", has_text="Kwan Yuen Special").first)
+    expect_card(page, "Kwan Yuen Special")
+    assert_heading_focused(page, "Kwan Yuen Special")
+    pointer_check(page, "option", done)
+    act(page.locator(".copy-link-btn"))
+    expect(page.locator(".copy-link-btn")).to_have_text("\u2705", timeout=TIMEOUT)
+    pointer_check(page, "🔗", done)
+    link = page.locator(".info-value a[href^='#']").first
+    act(link)
+    expect(page.locator(".card-header h2")).not_to_have_text("Kwan Yuen Special", timeout=TIMEOUT)
+    expect(page.locator(".card-body .card-info")).to_be_visible(timeout=TIMEOUT)
+    pointer_check(page, "description link", done)
+    act(page.locator(".card-header button[title='Go back']"))
+    expect_card(page, "Kwan Yuen Special")
+    pointer_check(page, "← (card)", done)
+    acs = page.locator(".info-value a[target='_blank']").first
+    context.route(acs.get_attribute("href"), lambda route: route.abort())  # don't leave the site
+    with context.expect_page(timeout=TIMEOUT) as popup:
+        act(acs)
+    popup.value.close()
+    pointer_check(page, "ACS link", done)
+    act(page.locator(".header h1 a"))
+    expect_home(page)
+    pointer_check(page, "header link", done)
+    act(page.locator("a.home-link[href='#fragrant']"))
+    expect_list(page, "Fragrant Camellias (")
+    assert_heading_focused(page, "Fragrant Camellias (", prefix=True)
+    pointer_check(page, "pill", done)
+    row = page.locator(".list-link").first
+    name = row.get_attribute("data-camellia")
+    act(row)
+    expect_card(page, name)
+    assert_heading_focused(page, name)
+    pointer_check(page, "list link", done)
+    act(page.locator(".card-header button[title='Go back']"))
+    expect_list(page, "Fragrant Camellias (")
+    expect(page.locator(f".list-link[data-camellia=\"{name}\"]")).to_be_focused(timeout=TIMEOUT)
+    pointer_check(page, "← (to list link)", done)
+    act(page.locator(".card-header button[title='Go back']"))
+    expect_home(page)
+    expect(page.locator("a.home-link[href='#fragrant']")).to_be_focused(timeout=TIMEOUT)
+    pointer_check(page, "← (to pill)", done)
+    assert not js_errors, f"JS errors: {js_errors}"
+    return ("tap" if touch else "click") + ": " + "; ".join(done)
+
+
+def test_copy_fallback_click_no_outline(context):
+    """No Clipboard API: after a mouse click/tap on 🔗, the focus the fallback hands back to
+    the button draws no outline; after Enter from the keyboard it keeps the 3px ring."""
+    page, js_errors, button, status = open_quote_card(context, NO_STUB, NO_CLIPBOARD_API, SPY_EXEC_COMMAND)
+    touch = page.evaluate("matchMedia('(pointer: coarse)').matches")
+    button.tap() if touch else button.click()
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    assert_fallback_copied(page)
+    done = []
+    pointer_check(page, "🔗 (fallback)", done)
+    expect(button).to_have_text("\U0001f517", timeout=3000)  # reset to 🔗
+    key, _ = tab_to(page, ".copy-link-btn")
+    page.keyboard.press("Enter")
+    expect(button).to_have_text("\u2705", timeout=TIMEOUT)
+    r = page.evaluate(ACTIVE_OUTLINE)
+    assert r["tag"] == "button.copy-link-btn" and r["focusVisible"], f"Keyboard copy: focus on {r}"
+    assert (r["style"], r["width"], r["color"]) == KEYBOARD_RING, f"Keyboard copy: ring {r}"
+    assert not js_errors, f"JS errors: {js_errors}"
+    return ("tap" if touch else "click") + ": " + done[0] + f"; {key}+Enter: ring kept"
+
+
+KEYBOARD_RING = ("solid", 3.0, "rgb(36, 65, 19)")  # #244113
+
+
+def tab_to(page, sel, limit=80):
+    """From the top of the page, presses Tab (then, if Tab never gets there, Alt+Tab: WebKit's
+    default Tab only reaches text fields) until sel has focus. Returns the key and presses."""
+    for key in ("Tab", "Alt+Tab"):
+        page.evaluate("window.scrollTo(0, 0)")
+        page.mouse.click(1, 1)  # header background: sequential focus starts at the top
+        for n in range(1, limit + 1):
+            page.keyboard.press(key)
+            if page.evaluate("s => document.activeElement.matches(s)", sel):
+                return key, n
+    raise AssertionError(f"Neither Tab nor Alt+Tab reached {sel}")
+
+
+def test_keyboard_tab_ring(context):
+    """Real Tab key presses reach a pill, a button (✕, ←) and links (header, list, description,
+    ACS): each shows the 3px #244113 ring under :focus-visible."""
+    page, js_errors = open_home(context)
+    page.fill("#search", "kwan")  # shows ✕
+    got = []
+
+    def ring(sel, what):
+        key, n = tab_to(page, sel)
+        r = page.evaluate(ACTIVE_OUTLINE)
+        got.append(f"{what} via {key}×{n}")
+        assert r["focusVisible"], f"{what}: Tab focus does not match :focus-visible: {r}"
+        assert (r["style"], r["width"], r["color"]) == KEYBOARD_RING, f"{what}: ring {r}"
+
+    ring("#clearBtn", "✕")
+    ring("a.home-link", "pill")
+    page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
+    expect_list(page, "Fragrant Camellias (")
+    ring(".card-header button[title='Go back']", "← (list)")
+    ring(".list-link", "list link")
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    ring(".copy-link-btn", "🔗")
+    ring(".info-value a[href^='#']", "description link")
+    ring(".info-value a[target='_blank']", "ACS link")
+    assert not js_errors, f"JS errors: {js_errors}"
+    return "3px solid #244113 on: " + ", ".join(got)
 
 
 TEXT_AND_BG = """([sel, pseudo]) => {
@@ -1598,7 +1746,7 @@ def pointer_opts(width, coarse):
 
 
 ITEM5_TESTS = (
-    ("focus-visible ring on every control type, >=3:1, none on mouse click", test_focus_rings),
+    ("focus-visible ring on links/buttons, >=3:1; none on #search or on mouse click", test_focus_rings),
     ("secondary text and ✕ contrast >=4.5:1", test_secondary_text_contrast),
     ("reduced motion stops the photo spinner", test_reduced_motion_spinner),
     ("mobile font sizes match efa72e6 (desktop unchanged)", test_mobile_font_sizes),
@@ -1608,6 +1756,9 @@ ITEM5_TESTS = (
     ("list rows: modified/middle clicks left to the browser", test_list_modifier_clicks),
     ("loading / not-found / error / empty-list text contrast >=4.5:1", test_state_text_contrast),
     ("a late photo for card A never lands on card B", test_stale_photo),
+    ("real clicks/taps: nothing focused draws an outline", test_pointer_no_outline),
+    ("🔗 copy fallback: no outline after click/tap, ring after Enter", test_copy_fallback_click_no_outline),
+    ("real Tab: 3px #244113 ring on pill, buttons, links", test_keyboard_tab_ring),
 )
 
 
