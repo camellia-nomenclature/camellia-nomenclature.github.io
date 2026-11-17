@@ -1177,6 +1177,304 @@ ITEM3_TESTS = (
 )
 
 
+# --- Item 5 checks: focus rings (F06), contrast (F05), reduced motion (F12), mobile type (F07),
+# touch targets (F14), link wrapping (F09), photo priority (F17), list-row modifier clicks ---
+
+# Colours a control's ring sits on: background-color plus any gradient stops of each selector.
+BACKGROUNDS = """(sels) => sels.flatMap(sel => {
+  const cs = getComputedStyle(document.querySelector(sel));
+  return [cs.backgroundColor, cs.backgroundImage].join(' ');
+}).join(' ')"""
+
+CONTROL_RING = """(sel) => {
+  const el = document.querySelector(sel), cs = getComputedStyle(el);
+  return { focused: document.activeElement === el, focusVisible: el.matches(':focus-visible'),
+           style: cs.outlineStyle, width: parseFloat(cs.outlineWidth), color: cs.outlineColor };
+}"""
+
+FOCUS_ON_F2 = """(sel) => document.addEventListener('keydown', e => {
+  if (e.key === 'F2') document.querySelector(sel).focus({ preventScroll: true });
+}, { once: true })"""
+
+
+def _colours(text):
+    """rgb()/rgba() colours in a computed-style string, skipping fully transparent ones."""
+    out = []
+    for m in re.findall(r"rgba?\(([^)]*)\)", text):
+        parts = [float(v) for v in re.split(r"[ ,/]+", m.strip()) if v]
+        if len(parts) == 4 and parts[3] == 0:
+            continue
+        out.append(tuple(int(v) for v in parts[:3]))
+    return out
+
+
+def ring_report(page, sel, bg_sels, keyboard=True):
+    """Focuses sel the way a keyboard user would (a synchronous, non-prevented keydown, which
+    both engines treat as :focus-visible), then returns its ring and min contrast vs bg_sels."""
+    if keyboard:
+        page.evaluate(FOCUS_ON_F2, sel)
+        page.keyboard.press("F2")
+    r = page.evaluate(CONTROL_RING, sel)
+    bgs = _colours(page.evaluate(BACKGROUNDS, bg_sels))
+    ring = _colours(r["color"])
+    assert bgs and ring, f"{sel}: no colours (ring {r['color']!r}, bg {bg_sels})"
+    r["contrast"] = min(_contrast(ring[0], b) for b in bgs)
+    return r
+
+
+def assert_ring_ok(page, sel, bg_sels, keyboard=True):
+    r = ring_report(page, sel, bg_sels, keyboard)
+    if keyboard:
+        assert r["focused"] and r["focusVisible"], f"{sel}: focused={r['focused']} :focus-visible={r['focusVisible']}"
+    assert r["style"] != "none" and r["width"] >= 2, f"{sel}: ring {r['style']} {r['width']}px"
+    assert r["contrast"] >= 3, f"{sel}: ring {r['color']} only {r['contrast']:.2f}:1 on {bg_sels}"
+    return r["contrast"]
+
+
+def test_focus_rings(context):
+    """Every control type shows a >=2px ring, >=3:1 against the background it sits on, under
+    :focus-visible; a mouse click on a button shows none."""
+    grant_clipboard(context)
+    page, js_errors = open_home(context)
+    worst = {}
+    worst["header link"] = assert_ring_ok(page, ".header h1 a", [".header"])
+    worst["pill"] = assert_ring_ok(page, "a.home-link", ["body"])
+    worst["report link"] = assert_ring_ok(page, ".report-link", ["body"])
+    page.click("#search")
+    page.keyboard.type("kwan")
+    expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
+    worst["search box"] = assert_ring_ok(page, "#search", ["body", ".header"])
+    page.keyboard.press("ArrowDown")  # active option: aria-activedescendant, ring drawn inset
+    worst["search option"] = assert_ring_ok(page, ".dropdown-item.selected", [".dropdown-item.selected"], keyboard=False)
+    page.keyboard.press("Escape")
+    worst["clear button"] = assert_ring_ok(page, "#clearBtn", ["#search"])
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    worst["back button"] = assert_ring_ok(page, ".card-header button[title='Go back']", [".card-header"])
+    worst["copy button"] = assert_ring_ok(page, ".copy-link-btn", [".card-header"])
+    worst["description link"] = assert_ring_ok(page, ".info-value a[href^='#']", [".card"])
+    worst["external link"] = assert_ring_ok(page, ".info-value a[target='_blank']", [".card"])
+    page.mouse.click(0, 0)
+    page.locator(".copy-link-btn").click()  # mouse: no ring
+    r = ring_report(page, ".copy-link-btn", [".card-header"], keyboard=False)
+    assert r["style"] == "none" or not r["focused"], f"Mouse click on the copy button shows a ring: {r}"
+    page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
+    expect_list(page, "Fragrant Camellias (")
+    worst["list link"] = assert_ring_ok(page, ".list-link", [".card"])
+    assert not js_errors, f"JS errors: {js_errors}"
+    return "min ring contrast: " + ", ".join(f"{k} {v:.2f}" for k, v in worst.items())
+
+
+TEXT_AND_BG = """([sel, pseudo]) => {
+  if (pseudo) {  // WebKit's getComputedStyle(el, '::placeholder') returns the input's own colour
+    const rule = [...document.styleSheets].flatMap(s => [...s.cssRules]).find(r => r.selectorText === sel + pseudo);
+    return rule ? rule.style.color : null;  // serialised as rgb() by both engines
+  }
+  const el = document.querySelector(sel);
+  return el ? getComputedStyle(el).color : null;
+}"""
+
+
+def assert_text_contrast(page, label, sel, bg_sels, pseudo=None):
+    colour = page.evaluate(TEXT_AND_BG, [sel, pseudo])
+    assert colour, f"{label}: {sel} not found"
+    fg = _colours(colour)[0]
+    bgs = _colours(page.evaluate(BACKGROUNDS, bg_sels))
+    c = min(_contrast(fg, b) for b in bgs)
+    assert c >= 4.5, f"{label}: {colour} only {c:.2f}:1 on {bg_sels}"
+    return c
+
+
+def test_secondary_text_contrast(context):
+    """F05: the secondary text that failed (and the ✕ glyph) is >=4.5:1 on its background."""
+    page, js_errors = open_home(context)
+    got = {
+        "stats line": assert_text_contrast(page, "stats line", "#statsLine", ["body"]),
+        "subtitle": assert_text_contrast(page, "subtitle", "#subtitleLine", ["body"]),
+        "footer": assert_text_contrast(page, "footer", "footer", ["body"]),
+        "report link": assert_text_contrast(page, "report link", ".report-link", [".report-link"]),
+        "placeholder": assert_text_contrast(page, "placeholder", "#search", ["#search"], "::placeholder"),
+    }
+    page.click("#search")
+    page.keyboard.type("kwan")
+    expect(page.locator("#dropdown")).to_be_visible(timeout=TIMEOUT)
+    got["✕ glyph"] = assert_text_contrast(page, "✕ glyph", "#clearBtn", ["#clearBtn"])
+    got["option species"] = assert_text_contrast(page, "option species", ".dropdown-item .species", ["#dropdown"])
+    page.keyboard.press("ArrowDown")
+    got["active option species"] = assert_text_contrast(page, "active option species", ".dropdown-item.selected .species", [".dropdown-item.selected"])
+    page.fill("#search", "圣诞")  # Chinese name of Yuletide: shows the Chinese-name hint
+    expect(page.locator("#dropdown .name span").first).to_be_visible(timeout=TIMEOUT)
+    got["Chinese-name hint"] = assert_text_contrast(page, "Chinese-name hint", "#dropdown .name span", ["#dropdown"])
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    expect(page.locator(".card-image")).to_contain_text("No photo available", timeout=TIMEOUT)  # photos aborted
+    got["field label"] = assert_text_contrast(page, "field label", ".info-label", [".card"])
+    got["photo caption"] = assert_text_contrast(page, "photo caption", "#img-caption", [".card"])
+    got["no-photo text"] = assert_text_contrast(page, "no-photo text", ".card-image .no-image", [".card-image .no-image"])
+    page.goto(f"{BASE}/#species", wait_until="commit", timeout=10000)
+    expect_list(page, "Species (")
+    got["species count"] = assert_text_contrast(page, "species count", ".info-value span:last-child", [".card"])
+    page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
+    expect_list(page, "Fragrant Camellias (")
+    got["list species"] = assert_text_contrast(page, "list species", ".info-value span", [".card"])
+    assert not js_errors, f"JS errors: {js_errors}"
+    return "min: " + ", ".join(f"{k} {v:.2f}" for k, v in got.items())
+
+
+def test_reduced_motion_spinner(context):
+    """F12: with reduced motion the photo spinner doesn't animate; without, it still spins."""
+    page, js_errors = make_page(context)
+    held = []
+    page.route("**/*.jpg", lambda route: held.append(route))  # keep the photo loading
+    page.emulate_media(reduced_motion="reduce")
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect(page.locator(".card-image .spinner")).to_be_visible(timeout=TIMEOUT)
+    name = page.evaluate("getComputedStyle(document.querySelector('.spinner')).animationName")
+    assert name == "none", f"Spinner animates under reduced motion: animation-name {name!r}"
+    page.emulate_media(reduced_motion="no-preference")
+    name = page.evaluate("getComputedStyle(document.querySelector('.spinner')).animationName")
+    assert name == "spin", f"Spinner doesn't animate without reduced motion: {name!r}"
+    for route in held:
+        route.abort()
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+MOBILE_SIZES = {"#search": 25.6, "#searchHints": 19.2, "#bookTitle": 19.2, "#subtitleLine": 17.6,
+                "#statsLine": 18.4, "footer": 17.6}
+DESKTOP_SIZES = {"#search": 21.6, "#searchHints": 15.2, "#bookTitle": 16.8, "#subtitleLine": 16,
+                 "#statsLine": 16, "footer": 12}
+FONT_SIZE = "(sel) => parseFloat(getComputedStyle(document.querySelector(sel)).fontSize)"
+
+
+def test_mobile_font_sizes(context):
+    """F07: at <=600px the efa72e6 mobile sizes apply; wider viewports keep the base sizes."""
+    page, js_errors = open_home(context)
+    mobile = page.viewport_size["width"] <= 600
+    want = MOBILE_SIZES if mobile else DESKTOP_SIZES
+    got = {sel: page.evaluate(FONT_SIZE, sel) for sel in want}
+    bad = {sel: (got[sel], want[sel]) for sel in want if abs(got[sel] - want[sel]) > 0.1}
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    label = page.evaluate(FONT_SIZE, ".info-label")
+    if abs(label - (12.8 if mobile else 12)) > 0.1:
+        bad[".info-label"] = (label, 12.8 if mobile else 12)
+    assert not bad, f"Font sizes (got, want) px: {bad}"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+HIT_BOX = """(sel) => {
+  const el = document.querySelector(sel), r = el.getBoundingClientRect();
+  const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+  const hits = (x, y) => { const t = document.elementFromPoint(x, y); return !!t && (t === el || el.contains(t)); };
+  // Hit pixels in a row / column through the centre, counted outwards until the first miss
+  const span = (fx, fy) => { let n = 1;
+    for (let d = 1; d <= 40 && hits(...fx(-d), ...fy(-d)); d++) n++;
+    for (let d = 1; d <= 40 && hits(...fx(d), ...fy(d)); d++) n++;
+    return n; };
+  const w = span(d => [cx + d], () => [cy]), h = span(() => [cx], d => [cy + d]);
+  return { w, h, box: [Math.round(r.width), Math.round(r.height)] };
+}"""
+
+
+def test_touch_targets(context):
+    """F14: ✕, 🔗, back and the pills hit >=44x44px on a coarse pointer (>=24px otherwise)."""
+    page, js_errors = open_home(context)
+    coarse = page.evaluate("matchMedia('(pointer: coarse)').matches")
+    need = 44 if coarse else 24
+    sizes = {}
+    for href in ("#species", "#fragrant", "#yellow"):
+        sizes[f"pill {href}"] = page.evaluate(HIT_BOX, f"a.home-link[href='{href}']")
+    page.click("#search")
+    page.keyboard.type("kwan")
+    sizes["✕"] = page.evaluate(HIT_BOX, "#clearBtn")
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    sizes["back"] = page.evaluate(HIT_BOX, ".card-header button[title='Go back']")
+    sizes["🔗"] = page.evaluate(HIT_BOX, ".copy-link-btn")
+    small = {k: v for k, v in sizes.items() if v["w"] < need or v["h"] < need}
+    assert not small, f"Hit areas under {need}px (coarse={coarse}): {small}"
+    assert not js_errors, f"JS errors: {js_errors}"
+    return "hit areas: " + ", ".join(f"{k} {v['w']}x{v['h']}" for k, v in sizes.items())
+
+
+def test_link_wrapping(context):
+    """F09: a linked cultivar name in a description wraps between words, not inside one."""
+    page, js_errors = make_page(context)
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    r = page.evaluate("""() => {
+      const a = [...document.querySelectorAll('.info-value a')].find(x => x.textContent === 'Coral Delight');
+      const text = a.firstChild, range = document.createRange();
+      const start = text.textContent.indexOf('Delight');
+      range.setStart(text, start); range.setEnd(text, start + 'Delight'.length);
+      const lines = new Set([...range.getClientRects()].filter(q => q.width > 0).map(q => Math.round(q.top)));
+      const cs = getComputedStyle(a);
+      return { lines: lines.size, wordBreak: cs.wordBreak, overflowWrap: cs.overflowWrap };
+    }""")
+    assert r["lines"] == 1, f"'Delight' is split across {r['lines']} lines ({r})"
+    assert r["wordBreak"] != "break-all", f"Links still use word-break: break-all ({r})"
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+TINY_GIF = bytes.fromhex("47494638396101000100800000000000ffffff21f90401000000002c00000000010001000002024401003b")
+
+
+def test_photo_fetch_priority(context):
+    """F17: the card's photo (its LCP image) is requested with fetchpriority=high."""
+    page, js_errors = make_page(context)
+    page.route("**/*.jpg", lambda route: route.fulfill(status=200, content_type="image/gif", body=TINY_GIF))
+    page.goto(f"{BASE}/#Kwan%20Yuen%20Special", wait_until="commit", timeout=10000)
+    expect_card(page, "Kwan Yuen Special")
+    img = page.locator(".card-image img")
+    expect(img).to_have_count(1, timeout=TIMEOUT)
+    expect(img).to_have_attribute("fetchpriority", "high")
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+def test_list_modifier_clicks(context):
+    """Ctrl/Cmd/Shift/Alt/middle clicks on a list row are left to the browser (not prevented,
+    no in-page navigation); a plain click still opens the card in-page. Synthetic clicks, with
+    the browser's own navigation prevented afterwards so no tab opens."""
+    page, js_errors = make_page(context)
+    page.goto(f"{BASE}/#fragrant", wait_until="commit", timeout=10000)
+    expect_list(page, "Fragrant Camellias (")
+    out = page.evaluate("""() => {
+      const seen = [];
+      document.addEventListener('click', e => { seen.push(e.defaultPrevented); e.preventDefault(); });
+      const link = document.querySelector('.list-link'), out = {};
+      for (const [name, init] of Object.entries({ ctrl: { ctrlKey: true }, meta: { metaKey: true },
+          shift: { shiftKey: true }, alt: { altKey: true }, middle: { button: 1 } })) {
+        link.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, ...init }));
+        out[name] = { prevented: seen.pop(), hash: location.hash,
+                      heading: document.querySelector('.card-header h2').textContent };
+      }
+      return out;
+    }""")
+    bad = {k: v for k, v in out.items() if v["prevented"] or v["hash"] != "#fragrant"
+           or not v["heading"].startswith("Fragrant Camellias (")}
+    assert not bad, f"Modified/middle clicks were handled in-page: {bad}"
+    name = page.locator(".list-link").first.get_attribute("data-camellia")
+    prevented = page.evaluate("""() => { let p = null;
+      document.addEventListener('click', e => { p = e.defaultPrevented; }, { once: true });
+      document.querySelector('.list-link').dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+      return p; }""")
+    assert prevented is True, "A plain click on a list row was not handled in-page"
+    expect_card(page, name)
+    assert not js_errors, f"JS errors: {js_errors}"
+
+
+ITEM5_TESTS = (
+    ("focus-visible ring on every control type, >=3:1, none on mouse click", test_focus_rings),
+    ("secondary text and ✕ contrast >=4.5:1", test_secondary_text_contrast),
+    ("reduced motion stops the photo spinner", test_reduced_motion_spinner),
+    ("mobile font sizes match efa72e6 (desktop unchanged)", test_mobile_font_sizes),
+    ("touch targets: ✕, 🔗, back, pills hit area", test_touch_targets),
+    ("description links wrap between words", test_link_wrapping),
+    ("card photo requested with fetchpriority=high", test_photo_fetch_priority),
+    ("list rows: modified/middle clicks left to the browser", test_list_modifier_clicks),
+)
+
+
 def run_block(browser, title, cases):
     """Runs (label, context options, name, test) cases; each reports PASS/FAIL."""
     print(title)
@@ -1217,9 +1515,10 @@ def main():
             (f"width {w}", width_opts(w), "no horizontal overflow with the list open", test_open_list_overflow)
             for w in OVERFLOW_WIDTHS])
         p4, f4 = run_block(browser, "Item 4 checks: each reports PASS/FAIL", per_viewport(ITEM4_TESTS))
+        p5, f5 = run_block(browser, "Item 5 checks: each reports PASS/FAIL", per_viewport(ITEM5_TESTS))
         browser.close()
-    passed += p2 + p3 + p4
-    failed = f2 + f3 + f4
+    passed += p2 + p3 + p4 + p5
+    failed = f2 + f3 + f4 + f5
     print(f"\n{passed} checks passed ({BROWSER}).")
     if failed:
         print(f"{len(failed)} check(s) FAILED: " + "; ".join(failed))

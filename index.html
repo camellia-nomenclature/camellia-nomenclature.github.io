@@ -48,13 +48,13 @@
       box-shadow: 0 4px 20px rgba(107,45,66,0.3);
     }
     #search { padding-right: 2.5rem; }
-    #search::placeholder { color: #aaa; }
+    #search::placeholder { color: #767676; }
     .clear-btn {
       position: absolute;
       right: 1.8rem;
       top: 50%;
       transform: translateY(-50%);
-      background: #ccc;
+      background: #767676;
       border: none;
       color: #fff;
       font-size: 1rem;
@@ -67,7 +67,7 @@
       padding: 0;
       z-index: 2;
     }
-    .clear-btn:hover { background: #999; }
+    .clear-btn:hover { background: #5f5f5f; }
     .dropdown {
       position: absolute;
       top: 100%;
@@ -91,7 +91,7 @@
       background: #f7eef1;
     }
     .dropdown-item .name { font-weight: bold; }
-    .dropdown-item .species { color: #6a8a4a; font-size: 0.85rem; }
+    .dropdown-item .species { color: #4f6b35; font-size: 0.85rem; }
     .stats {
       text-align: center;
       color: #888;
@@ -162,11 +162,6 @@
       border-color: #b5ce95;
     }
     .home-link:active { transform: translateY(1px); }
-    .home-link:focus-visible {
-      outline: 3px solid rgba(111, 154, 74, 0.35);
-      outline-offset: 2px;
-      box-shadow: 0 0 0 1px #6f9a4a;
-    }
     .list-link {
       color: #2d5016;
       text-decoration: none;
@@ -221,12 +216,142 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: #aaa;
+      color: #5f5f5f;
       font-size: 0.85rem;
       text-align: center;
       padding: 1rem;
     }
-    /* Mobile responsive */
+    .info-row {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #f0ece8;
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #4f6b35;
+      font-weight: bold;
+      margin-bottom: 0.2rem;
+    }
+    .info-value {
+      font-size: 1rem;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .info-value a {
+      overflow-wrap: anywhere;
+    }
+    .spinner {
+      width: 24px; height: 24px;
+      border: 3px solid #ddd;
+      border-top-color: #6a8a4a;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty-state {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #aaa;
+    }
+    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .empty-state p { font-size: 1.1rem; }
+
+    /* --- Accessibility: base readability improvements --- */
+    #search {
+      font-size: 1.35rem !important;
+    }
+    #searchHints {
+      font-size: 0.95rem !important;
+      line-height: 1.65;
+    }
+    #bookTitle {
+      font-size: 1.05rem !important;
+      line-height: 1.6;
+    }
+    #subtitleLine {
+      font-size: 1rem !important;
+      line-height: 1.55;
+    }
+    #statsLine {
+      font-size: 1rem !important;
+      line-height: 1.6;
+    }
+    footer {
+      font-size: 0.75rem !important;
+      line-height: 1.5;
+    }
+    .report-link-wrap {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .report-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: #4f6b35;
+      text-decoration: none;
+      font-size: 0.9rem;
+      border: 1px solid #e6e6e6;
+      border-radius: 999px;
+      padding: 0.45rem 0.9rem;
+      background: #fafaf8;
+    }
+    .report-link:hover {
+      background: #f3f6ee;
+      border-color: #d9e5cb;
+    }
+    .report-icon {
+      font-size: 1.8em;
+      line-height: 1;
+    }
+    /* Keyboard focus ring for the headings focused on view changes and for every control
+       (dark green #244113: 3.48:1 on #6f9a4a and 5.23:1 on #8fbd63, the header gradient's
+       stops; 10:1 or more on the page, card and pill backgrounds). :focus-visible only. */
+    .header h1:focus-visible, .card-header h2:focus-visible,
+    a:focus-visible, button:focus-visible, #search:focus-visible {
+      outline: 3px solid #244113;
+      outline-offset: 2px;
+    }
+    /* The active search option (aria-activedescendant: keyboard only; DOM focus stays in
+       the input). Inset, because the list clips anything outside its box. */
+    .dropdown-item.selected { outline: 2px solid #244113; outline-offset: -2px; }
+    /* Reduced motion: the photo spinner only turns when motion is allowed (the "Loading
+       photo..." text still says it's busy), and pills don't shift when pressed. */
+    @media (prefers-reduced-motion: no-preference) {
+      .spinner { animation: spin 0.8s linear infinite; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .home-link:active { transform: none; }
+    }
+    /* Touch targets: on coarse pointers the small round buttons and the pills get an
+       invisible hit area of at least 44x44px, so they don't look any bigger. Wrapped pill
+       rows get more space so their hit areas don't overlap. */
+    @media (pointer: coarse) {
+      .card-header button, .home-link { position: relative; }
+      .clear-btn::after, .card-header button::after, .home-link::after {
+        content: "";
+        position: absolute;
+        inset: min(0px, calc(50% - 22px));
+      }
+      .home-links { row-gap: 1rem; }
+    }
+    /* Visually hidden but still read by screen readers (copy-link status) */
+    .visually-hidden:where(:not(:focus-within, :active)) {
+      position: absolute !important;
+      clip-path: inset(50%) !important;
+      overflow: hidden !important;
+      width: 1px !important;
+      height: 1px !important;
+      margin: -1px !important;
+      padding: 0 !important;
+      border: 0 !important;
+      white-space: nowrap !important;
+    }
+
+    /* Mobile responsive: last in the stylesheet, so these sizes override the base rules above
+       (they were declared before them and never applied) */
     @media (max-width: 600px) {
       .header { padding: 1.4rem 1rem; }
       .header h1 { font-size: 2rem; }
@@ -282,111 +407,6 @@
       .info-label { font-size: 0.8rem; }
       .card-header h2 { font-size: 1.3rem; }
     }
-    .info-row {
-      padding: 0.6rem 0;
-      border-bottom: 1px solid #f0ece8;
-    }
-    .info-row:last-child { border-bottom: none; }
-    .info-label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #6a8a4a;
-      font-weight: bold;
-      margin-bottom: 0.2rem;
-    }
-    .info-value {
-      font-size: 1rem;
-      line-height: 1.5;
-      word-break: break-word;
-    }
-    .info-value a {
-      word-break: break-all;
-    }
-    .spinner {
-      width: 24px; height: 24px;
-      border: 3px solid #ddd;
-      border-top-color: #6a8a4a;
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .empty-state {
-      text-align: center;
-      padding: 4rem 1rem;
-      color: #aaa;
-    }
-    .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
-    .empty-state p { font-size: 1.1rem; }
-
-    /* --- Accessibility: base readability improvements --- */
-    #search {
-      font-size: 1.35rem !important;
-    }
-    #searchHints {
-      font-size: 0.95rem !important;
-      line-height: 1.65;
-    }
-    #bookTitle {
-      font-size: 1.05rem !important;
-      line-height: 1.6;
-    }
-    #subtitleLine {
-      font-size: 1rem !important;
-      line-height: 1.55;
-    }
-    #statsLine {
-      font-size: 1rem !important;
-      line-height: 1.6;
-    }
-    footer {
-      font-size: 0.75rem !important;
-      line-height: 1.5;
-    }
-    .report-link-wrap {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .report-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      color: #6a8a4a;
-      text-decoration: none;
-      font-size: 0.9rem;
-      border: 1px solid #e6e6e6;
-      border-radius: 999px;
-      padding: 0.45rem 0.9rem;
-      background: #fafaf8;
-    }
-    .report-link:hover {
-      background: #f3f6ee;
-      border-color: #d9e5cb;
-    }
-    .report-icon {
-      font-size: 1.8em;
-      line-height: 1;
-    }
-    /* Focus ring for the headings that receive focus on view changes (dark green #244113:
-       3.48:1 on #6f9a4a, 5.23:1 on #8fbd63, the header gradient's two stops) */
-    .header h1:focus-visible, .card-header h2:focus-visible {
-      outline: 3px solid #244113;
-      outline-offset: 2px;
-    }
-    /* Visually hidden but still read by screen readers (copy-link status) */
-    .visually-hidden:where(:not(:focus-within, :active)) {
-      position: absolute !important;
-      clip-path: inset(50%) !important;
-      overflow: hidden !important;
-      width: 1px !important;
-      height: 1px !important;
-      margin: -1px !important;
-      padding: 0 !important;
-      border: 0 !important;
-      white-space: nowrap !important;
-    }
-
   </style>
 </head>
 <body>
@@ -409,8 +429,8 @@
   <div id="homeSection" style="text-align:center;margin-top:1.5rem;">
     <div class="home-flower"><img src="assets/home-flower.png" alt="Camellia" style="width:4.2rem;height:4.2rem;object-fit:contain;"></div>
     <div id="bookTitle" style="color:#666;font-size:0.9rem;margin-top:0.5rem;font-style:italic;">Camellia Nomenclature and Picture Gallery</div>
-    <div id="subtitleLine" style="color:#888;font-size:0.9rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book, ACS Database, and more.</div>
-    <div id="statsLine" style="color:#6d9e4a;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
+    <div id="subtitleLine" style="color:#6b6b6b;font-size:0.9rem;margin-top:0.3rem;">Covering all entries from 2024 Camellia Nomenclature Book, ACS Database, and more.</div>
+    <div id="statsLine" style="color:#4f6b35;font-size:0.85rem;margin-top:0.4rem;">Loading catalogue...</div>
     <div class="home-links" id="homeLinks" style="display:none;">
       <a href="#species" class="home-link">Browse species</a>
       <a href="#fragrant" class="home-link">Fragrant Camellias</a>
@@ -781,7 +801,7 @@
         return;
       }
       dropdown.innerHTML = matches.map((c, i) => {
-        const cnHint = c._matchedCn ? `<span style="color:#888;margin-left:0.5em;font-weight:normal">${highlight(c._matchedCn, search.value)}</span>` : '';
+        const cnHint = c._matchedCn ? `<span style="color:#6b6b6b;margin-left:0.5em;font-weight:normal">${highlight(c._matchedCn, search.value)}</span>` : '';
         return `<div class="dropdown-item ${i === selectedIdx ? 'selected' : ''}" role="option" id="search-option-${i}" aria-selected="${i === selectedIdx}" data-index="${i}">
           <div class="name">${highlight(c.name, search.value)}${cnHint}</div>
           <div class="species">${c.species}</div>
@@ -943,10 +963,11 @@
       const imageHtml = hasImage
         ? `<div class="no-image" id="img-placeholder"><div class="spinner"></div><br>Loading photo...</div>`
         : `<div class="no-image"><img src="assets/camellia-icon.png" alt="Camellia" style="width:2.2rem;height:2.2rem;object-fit:contain;display:block;margin:0 auto 0.25rem;"><br>No photo available</div>`;
-      // Start background download after a small delay to prioritize text rendering
+      // Start the photo download right away, at high priority: it is the card's LCP image
       if (hasImage) {
-        setTimeout(() => {
+        (() => {
           const img = new Image();
+          img.fetchPriority = 'high';
           const imgFallback = () => {
             const ph = document.getElementById('img-placeholder');
             if (ph) ph.innerHTML = '<img src="assets/camellia-icon.png" alt="Camellia" style="width:2.2rem;height:2.2rem;object-fit:contain;display:block;margin:0 auto 0.25rem;"><br>No photo available';
@@ -968,7 +989,7 @@
             imgFallback();
           };
           img.src = imgUrl;
-        }, 50);
+        })();
       }
 
       results.innerHTML = `
@@ -1009,7 +1030,7 @@
             </div>
             <div>
               <div class="card-image">${imageHtml}</div>
-              <div id="img-caption" style="display:none;text-align:center;font-size:0.8rem;color:#888;margin-top:0.3rem;font-style:italic;">${imgSource ? `Photo from ${imgSource} database` : 'Original photo'}</div>
+              <div id="img-caption" style="display:none;text-align:center;font-size:0.8rem;color:#6b6b6b;margin-top:0.3rem;font-style:italic;">${imgSource ? `Photo from ${imgSource} database` : 'Original photo'}</div>
             </div>
           </div>
         </div>`;
@@ -1045,7 +1066,7 @@
       const sorted = Object.keys(counts).sort((a, b) => a.localeCompare(b));
 
       const rows = sorted.map(s =>
-        `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;"><span style="font-style:italic">${s}</span><span style="color:#888;font-size:0.85rem">${counts[s].toLocaleString()} cultivars</span></div></div>`
+        `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;"><span style="font-style:italic">${s}</span><span style="color:#6b6b6b;font-size:0.85rem">${counts[s].toLocaleString()} cultivars</span></div></div>`
       ).join('');
 
       results.innerHTML = `
@@ -1077,7 +1098,7 @@
 
       const rows = list.map(c => {
         const displayName = c.name.replace(/_/g, ' ');
-        return `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;"><a href="#${encodeURIComponent(c.name)}" class="list-link" data-camellia="${c.name.replace(/"/g, '&quot;')}">${displayName}</a><span style="color:#888;font-size:0.85rem">${c.species || 'Unknown species'}</span></div></div>`;
+        return `<div class="info-row"><div class="info-value" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;"><a href="#${encodeURIComponent(c.name)}" class="list-link" data-camellia="${c.name.replace(/"/g, '&quot;')}">${displayName}</a><span style="color:#6b6b6b;font-size:0.85rem">${c.species || 'Unknown species'}</span></div></div>`;
       }).join('');
 
       results.innerHTML = `
@@ -1097,6 +1118,7 @@
 
       results.querySelectorAll('[data-camellia]').forEach(link => {
         link.addEventListener('click', (event) => {
+          if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; // new tab etc.
           event.preventDefault();
           const name = link.getAttribute('data-camellia');
           const match = camellias.find(item => item.name.toLowerCase() === name.toLowerCase());
@@ -1161,7 +1183,7 @@
       <span>report an issue or request to add/update a cultivar</span>
     </a>
   </div>
-  <footer style="text-align:center;padding:2rem 1rem;color:#999;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
+  <footer style="text-align:center;padding:2rem 1rem;color:#6b6b6b;font-size:0.85rem;margin-top:2rem;border-top:1px solid #eee;">
     <strong>Disclaimer:</strong> This site is for personal and educational use only.<br>Information is provided as-is without warranty and may not be complete or current.
   </footer>
 
