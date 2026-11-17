@@ -4109,11 +4109,17 @@
     "species": "Sasanqua",
     "size": "Miniature",
     "description": "Light Pink turning deeper toward edge of petals and petaloids.",
-    "image": null,
+    "image": "https://file1.iflora.cn/Upload/2021/4/16/S/5a349f44-ac13-4976-baf0-83e479309529.JPG",
     "acs_url": null,
-    "icr_url": null,
-    "chinese_name": [],
-    "japanese_name": []
+    "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Ch%C5%8Djiguruma",
+    "imageSource": "icr",
+    "chinese_name": [
+      "丁子车"
+    ],
+    "japanese_name": [
+      "丁子車",
+      "ちょうじぐるま"
+    ]
   },
   {
     "name": "Choju-Raku",
