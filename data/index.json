@@ -10776,8 +10776,15 @@
   {
     "name": "Choji Guruma",
     "species": "Sasanqua",
-    "chinese_name": [],
-    "japanese_name": []
+    "chinese_name": [
+      "丁子车"
+    ],
+    "japanese_name": [
+      "丁子車",
+      "ちょうじぐるま"
+    ],
+    "image": "https://file1.iflora.cn/Upload/2021/4/16/S/5a349f44-ac13-4976-baf0-83e479309529.JPG",
+    "imageSource": "icr"
   },
   {
     "name": "Choju-Raku",
