@@ -404,7 +404,7 @@
     "name": "Randell Corbett",
     "species": "Sasanqua",
     "size": "Medium",
-    "description": "White edged Pink. Medium, irregular semidouble to rose form double. RED BIRD - Formerly Vernalis - See 'Hiryû'.",
+    "description": "White edged Pink. Medium, irregular semidouble to rose form double.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Randell%20Corbett.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Randell%20Corbett",
@@ -2968,7 +2968,7 @@
     "name": "Robyn Dunne",
     "species": "Sasanqua",
     "size": "Medium",
-    "description": "Soft Mauve tipped White.",
+    "description": "Soft Mauve tipped White. Medium, semidouble with notched petals.",
     "image": "https://file4.iflora.cn/Upload/2019/4/28/T/ae8975f0-8553-4f19-b38f-33cd4e71e08a.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Robyn%20Dunne",
@@ -3383,6 +3383,17 @@
     "chinese_name": [],
     "japanese_name": [],
     "imageSource": "accs"
+  },
+  {
+    "name": "Rose Ann (Hiemalis)",
+    "species": "Hiemalis",
+    "size": "Small",
+    "description": "Deep Rose fading as bloom ages. Small, semidouble.",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": []
   },
   {
     "name": "Rose Bouquet",
@@ -4745,7 +4756,7 @@
     "name": "Russhay",
     "species": "Sasanqua",
     "size": "Medium",
-    "description": "Orchid Pink shading to Deeper Pink toward center. Medium, semidouble. RYÛKÔ (DRAGON LIGHT) - Formerly Vernalis - Deep Red with Yellow anthers and Yellow filaments. Small, single. Fast growth. M-L. (Japan 1972 - Katsuhiro Maeda, Hanamatsu City, Shizuoka Prefecture).",
+    "description": "Orchid Pink shading to Deeper Pink toward center. Medium, semidouble.",
     "image": "https://file1.iflora.cn/Upload/2019/4/28/T/7b63c8c5-0468-466e-a4ff-6b6705af671b.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Russhay",
@@ -5144,6 +5155,17 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Rye%20Heriot",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Ryûkô (Dragon Light)",
+    "species": "Vernalis",
+    "size": "Small",
+    "description": "Deep Red with Yellow anthers and Yellow filaments. Small, single. Fast growth. M-L. (Japan 1972 - Katsuhiro Maeda, Hanamatsu City, Shizuoka Prefecture).",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   }
