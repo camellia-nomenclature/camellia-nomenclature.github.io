@@ -4997,6 +4997,13 @@
     "imageSource": "icr"
   },
   {
+    "name": "Beni-Suzume",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Beni-Wabisuke",
     "species": "Wabisuke",
     "chinese_name": [
@@ -11013,6 +11020,13 @@
     "imageSource": "icr"
   },
   {
+    "name": "Christmas Carol",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Christmas Cheer",
     "species": "Japonica",
     "chinese_name": [],
@@ -13036,6 +13050,13 @@
     "imageSource": "socal"
   },
   {
+    "name": "Dabney's Star",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Dad's Pink",
     "species": "Japonica",
     "chinese_name": [],
@@ -13694,6 +13715,13 @@
     "imageSource": "socal"
   },
   {
+    "name": "Dawn",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Dawn Lynn",
     "species": "Japonica",
     "chinese_name": [],
@@ -13708,6 +13736,13 @@
     "japanese_name": [],
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Dawn%20Of%20Creation.jpg",
     "imageSource": "accs"
+  },
+  {
+    "name": "Dawn Song",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "Dawn's Early Light",
@@ -26985,6 +27020,13 @@
     "japanese_name": []
   },
   {
+    "name": "Himekôki (Princess Kôki)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Hina-wabisuke",
     "species": "Wabisuke",
     "chinese_name": [
@@ -27074,10 +27116,38 @@
     "japanese_name": []
   },
   {
+    "name": "Hiryo",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
+    "name": "Hiryo-Nishiki",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Hiryû (Australian)",
     "species": "Hiemalis",
     "chinese_name": [],
     "japanese_name": []
+  },
+  {
+    "name": "Hiryû (Flying Dragon)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
+    "name": "Hiryû-Nishiki (Flying Dragon Brocade)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "His Majesty",
@@ -27441,6 +27511,13 @@
     "japanese_name": [],
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Horry%20Frost.jpg",
     "imageSource": "socal"
+  },
+  {
+    "name": "Hoshi-Hiryû",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "Hoshi-Sekai",
@@ -28334,12 +28411,6 @@
   {
     "name": "Invictus",
     "species": "Japonica",
-    "chinese_name": [],
-    "japanese_name": []
-  },
-  {
-    "name": "Iolet Weymouth",
-    "species": "Sasanqua",
     "chinese_name": [],
     "japanese_name": []
   },
@@ -32102,6 +32173,13 @@
     "japanese_name": []
   },
   {
+    "name": "Kamakura-Shibori",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
     "name": "Kammer's Legacy",
     "species": "Japonica",
     "chinese_name": [],
@@ -34070,6 +34148,13 @@
     ],
     "image": "https://file1.iflora.cn/Upload/2019/4/11/S/2878ebd1-009d-48b3-a74a-5b3fd2b88b49.jpg",
     "imageSource": "icr"
+  },
+  {
+    "name": "Kyo-Nishiki (Vernalis)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "L'Ange Bleu",
@@ -38410,6 +38495,13 @@
     "japanese_name": [],
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Maiden%27s%20Blush.jpg",
     "imageSource": "socal"
+  },
+  {
+    "name": "Maiden's Blush (Japonica)",
+    "species": "Japonica",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "Maise Chettle",
@@ -47443,6 +47535,40 @@
     ],
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Ozeki.jpg",
     "imageSource": "accs"
+  },
+  {
+    "name": "Rose Ann (Hiemalis)",
+    "species": "Hiemalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
+    "name": "Ryûkô (Dragon Light)",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
+    "name": "Starman",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
+  },
+  {
+    "name": "Violet Weymouth",
+    "species": "Sasanqua",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Winifred Hills",
+    "species": "Vernalis",
+    "chinese_name": [],
+    "japanese_name": [],
+    "image": null
   },
   {
     "name": "Ō-zora",

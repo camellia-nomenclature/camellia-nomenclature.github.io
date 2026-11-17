@@ -126,8 +126,8 @@
   {
     "name": "Kaido-Maru",
     "species": "Sasanqua",
-    "size": "Small to medium",
-    "description": "White flushed Pink, darker toward edges. Medium, semidouble with curled petals. KAMAKURA-SHIBORI - Formerly Vernalis - Red shaded White.",
+    "size": "Medium",
+    "description": "White flushed Pink, darker toward edges. Medium, semidouble with curled petals.",
     "image": null,
     "acs_url": null,
     "icr_url": null,
@@ -223,6 +223,17 @@
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Contessa%20Paolina%20Maggi%20Rosea",
+    "chinese_name": [],
+    "japanese_name": []
+  },
+  {
+    "name": "Kamakura-Shibori",
+    "species": "Vernalis",
+    "size": "Small",
+    "description": "Red shaded White. Small, single.",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
     "chinese_name": [],
     "japanese_name": []
   },
@@ -403,7 +414,7 @@
     "name": "Karen Henson",
     "species": "Japonica",
     "size": "Small",
-    "description": "Vibrant Rose. Small, formal double. Average, compact, upright growth. M. (U.S. 1979 - I. Eagleson, Port Arthur, TX).",
+    "description": "Vibrant Rose. Small, formal double. Average, compact, upright growth. M. (U.S. 1979 - T. Eagleson, Port Arthur, TX).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Karen%20Henson.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/karen-henson",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Karen%20Henson",
@@ -956,7 +967,7 @@
     "name": "Kawae",
     "species": "Sasanqua",
     "size": "Small",
-    "description": "White bordered Red.",
+    "description": "White bordered Red. Small, single.",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kawae.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kawae",
@@ -1120,7 +1131,7 @@
     "name": "Kelly Abbott",
     "species": "Reticulata",
     "size": "Large",
-    "description": "Dark Red with Gold stamens. Large, peony form. Vigorous, upright growth. M. (Reticulata hybrid 'Mouchang' seedling). (Aus. 2007 - Keith Abbott, Rossmoyne). semidouble with upright, notched inner petals. Upright, spreading growth. M-L. (Reticulata seedling). (Aus. 1980 - A. Spragg, Sutherland, NSW).",
+    "description": "Dark Red with Gold stamens. Large, peony form. Vigorous, upright growth. M. (Reticulata hybrid 'Mouchang' seedling). (Aus. 2007 - Keith Abbott, Rossmoyne).",
     "image": "https://file3.iflora.cn/Upload/2019/5/15/S/acc0acd4-9d25-4d2c-acbb-2094b6a781cf.jpg",
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kelly%20Abbott",
@@ -1596,7 +1607,7 @@
     "name": "Kiku-Toji",
     "species": "Japonica",
     "size": "Small",
-    "description": "Deep Red blotched White. Small, formal double. Vigorous, bushy growth. E. (Japan 1895 - Yokohama). KIKU-TOT POINTED - Taporica - Pointed Detals (Sport of taponica ila Toji).",
+    "description": "Deep Red blotched White. Small, formal double. Vigorous, bushy growth. E. (Japan 1895 - Yokohama).",
     "image": "https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/Kiku-Toji.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/kiku-toji",
     "icr_url": null,
@@ -1760,8 +1771,8 @@
   {
     "name": "King Lear",
     "species": "Japonica",
-    "size": "Large",
-    "description": "('Finlandia Rosea Variegated'; 'Ethel Weber').",
+    "size": "Medium",
+    "description": "('Finlandia Rosea Variegated'; 'Ethel Weber'). Cherry Red marbled White. Medium, semidouble. (Variegated variation of 'Finlandia'). (Japan to 1939 - Rhodellia).",
     "image": "https://www.socalcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/images/King%20Lear.jpg",
     "acs_url": "https://www.americancamellias.com/education-and-camellia-care/acs-camellia-encyclopedia/camellias-beginning-with-k/king-lear",
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=King%20Lear",
@@ -1922,8 +1933,8 @@
   {
     "name": "Kirsten",
     "species": "Japonica",
-    "size": "",
-    "description": "Soft Pink becoming Paler at center of bloom. Large, semidouble.",
+    "size": "Large",
+    "description": "Soft Pink becoming Paler at center of bloom. Large, formal double with pointed petals. M-L. (N.Z. 1997 - R. Young).",
     "image": null,
     "acs_url": null,
     "icr_url": "https://camellia.iflora.cn/Cutivars/Detail?latin=Kirsten",
@@ -2110,7 +2121,7 @@
     "name": "Ko-Gyoku",
     "species": "Sasanqua",
     "size": "Small",
-    "description": "('Little Gem'; 'Kogyoku'). Pink bud opening Pinkish White. Small, rose form double. 4 mine left in chanter • 3 : KOTSUZUMI (SMALL DRUM) - Formerly Vernalis - Peach Red, Small, single. (Japan 1977 - Matsumura and Yatsuhiro Maeda, Inasa Town, Shizuoka Prefecture). KYO-NISHIKI - Formerly Vernalis - White striped Pink. Unknown size, single.",
+    "description": "('Little Gem'; 'Kogyoku'). Pink bud opening Pinkish White. Small, rose form double.",
     "image": null,
     "acs_url": null,
     "icr_url": null,
@@ -3125,5 +3136,16 @@
       "久留米乙女",
       "くるめおとめ"
     ]
+  },
+  {
+    "name": "Kyo-Nishiki (Vernalis)",
+    "species": "Vernalis",
+    "size": "",
+    "description": "White striped Pink. Unknown size, single.",
+    "image": null,
+    "acs_url": null,
+    "icr_url": null,
+    "chinese_name": [],
+    "japanese_name": []
   }
 ]
