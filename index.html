@@ -306,14 +306,16 @@
       font-size: 1.8em;
       line-height: 1;
     }
-    /* Keyboard focus ring for the headings focused on view changes and for every control
-       (dark green #244113: 3.48:1 on #6f9a4a and 5.23:1 on #8fbd63, the header gradient's
-       stops; 10:1 or more on the page, card and pill backgrounds). :focus-visible only. */
-    .header h1:focus-visible, .card-header h2:focus-visible,
-    a:focus-visible, button:focus-visible, #search:focus-visible {
+    /* Keyboard focus ring for links and buttons (dark green #244113: 3.48:1 on #6f9a4a and
+       5.23:1 on #8fbd63, the header gradient's stops; 10:1 or more on the page, card and pill
+       backgrounds). :focus-visible only, so mouse clicks and taps never show it. */
+    a:focus-visible, button:focus-visible {
       outline: 3px solid #244113;
       outline-offset: 2px;
     }
+    /* No ring, not even the browser's own: the search box (the caret and its shadow show
+       focus) and the headings focused on view changes (tabindex="-1"). */
+    #search:focus, [tabindex="-1"]:focus { outline: none; }
     /* The active search option (aria-activedescendant: keyboard only; DOM focus stays in
        the input). Inset, because the list clips anything outside its box. */
     .dropdown-item.selected { outline: 2px solid #244113; outline-offset: -2px; }
@@ -837,6 +839,9 @@
       const field = Object.assign(document.createElement('textarea'), { value: text });
       field.setAttribute('readonly', '');
       field.style.cssText = 'position:fixed;inset-block-start:0;opacity:0';
+      // Keyboard ring only if the button had one (WebKit would otherwise carry the text
+      // field's :focus-visible over to the button after a mouse click or tap).
+      const ring = !!returnFocusTo?.matches(':focus-visible');
       document.body.append(field);
       field.select();
       try { return document.execCommand('copy'); } catch { return false; } finally {
@@ -844,7 +849,7 @@
         // focus has gone somewhere else meanwhile.
         const refocus = document.activeElement === field || document.activeElement === document.body;
         field.remove();
-        if (refocus && returnFocusTo?.isConnected) returnFocusTo.focus({ preventScroll: true });
+        if (refocus && returnFocusTo?.isConnected) returnFocusTo.focus({ preventScroll: true, focusVisible: ring });
       }
     }
 
